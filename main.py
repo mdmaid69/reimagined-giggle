@@ -1,6 +1,10 @@
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
