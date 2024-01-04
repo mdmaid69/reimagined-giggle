@@ -1,6 +1,5 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
