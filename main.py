@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
