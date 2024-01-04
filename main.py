@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
