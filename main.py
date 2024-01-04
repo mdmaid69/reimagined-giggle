@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def is_palindrome(s):
+        return s == s[::-1]
