@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def add_numbers(x, y):
+        return x + y
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
