@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
