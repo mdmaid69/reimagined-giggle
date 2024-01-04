@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def reverse_string(s):
-        return s[::-1]
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
