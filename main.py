@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import collections
-def create_stack():
-        return collections.deque()
+  def cube_number(x):
+        return x**3
+import array
+def append_to_array(array, item):
+        array.append(item)
