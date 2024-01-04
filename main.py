@@ -1,8 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import platform
-def get_python_version():
-        return platform.python_version()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
