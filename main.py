@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_power(work, time):
+        return work / time
