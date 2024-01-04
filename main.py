@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def square_number(x):
-        return x**2
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
