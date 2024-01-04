@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
