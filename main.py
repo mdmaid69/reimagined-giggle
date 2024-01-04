@@ -1,5 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  def square_number(x):
-        return x**2
+def pop_from_array(array, i=-1):
+        return array.pop(i)
