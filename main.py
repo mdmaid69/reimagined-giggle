@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
 import array
-def clear_array(array):
-        array *= 0
+def get_string_from_array(array):
+        return array.tobytes()
