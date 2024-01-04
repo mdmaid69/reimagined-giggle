@@ -1,6 +1,6 @@
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
