@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
