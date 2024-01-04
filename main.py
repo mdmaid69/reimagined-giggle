@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
