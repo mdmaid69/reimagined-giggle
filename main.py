@@ -1,5 +1,7 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
