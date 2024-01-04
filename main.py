@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
