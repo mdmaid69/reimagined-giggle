@@ -1,8 +1,6 @@
 import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
