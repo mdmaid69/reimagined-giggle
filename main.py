@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
