@@ -1,5 +1,8 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
