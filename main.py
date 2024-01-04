@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
 import getpass
-def get_username():
-        return getpass.getuser()
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
