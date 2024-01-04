@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
