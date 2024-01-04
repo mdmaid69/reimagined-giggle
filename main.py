@@ -1,4 +1,8 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
