@@ -1,5 +1,7 @@
-def divide_numbers(x, y):
-        return x / y
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
