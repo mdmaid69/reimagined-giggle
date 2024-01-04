@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
