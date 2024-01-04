@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import collections
+def create_user_dict():
+        return collections.UserDict()
