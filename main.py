@@ -1,5 +1,6 @@
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
   import os
-  def split_path(path):
-        return os.path.split(path)
-  def subtract_numbers(x, y):
-        return x - y
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
