@@ -1,7 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def is_palindrome(s):
+        return s == s[::-1]
+import os
+def get_current_working_directory():
+        return os.getcwd()
