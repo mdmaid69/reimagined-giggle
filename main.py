@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_acceleration(speed, time):
+        return speed / time
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
