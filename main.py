@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
