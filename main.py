@@ -1,5 +1,8 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def find_max(numbers):
-        return max(numbers)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
