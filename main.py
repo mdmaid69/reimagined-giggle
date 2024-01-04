@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
