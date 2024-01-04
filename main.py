@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import datetime
+def get_current_date():
+        return datetime.date.today()
