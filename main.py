@@ -1,5 +1,10 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def convert_to_hex(n):
+        return hex(n)
