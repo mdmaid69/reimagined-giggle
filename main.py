@@ -1,5 +1,8 @@
-  def square_number(x):
-        return x**2
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import collections
+def create_queue():
+        return collections.deque()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
