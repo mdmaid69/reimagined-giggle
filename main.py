@@ -1,9 +1,7 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
