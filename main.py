@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import collections
+def create_priority_queue():
+        return collections.deque()
+def subtract_numbers(x, y):
+        return x - y
