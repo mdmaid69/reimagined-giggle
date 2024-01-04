@@ -1,6 +1,4 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
