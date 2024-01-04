@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def count_elements(lst):
+        return len(lst)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
