@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
