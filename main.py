@@ -1,5 +1,12 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
