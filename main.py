@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
