@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
