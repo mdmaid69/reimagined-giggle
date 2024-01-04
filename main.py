@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
