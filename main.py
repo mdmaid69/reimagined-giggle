@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def convert_array_to_string(array):
+        return array.tostring()
