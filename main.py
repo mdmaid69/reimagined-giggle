@@ -1,7 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
