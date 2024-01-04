@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def sort_list(lst):
+        return sorted(lst)
