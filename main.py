@@ -1,5 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import time
-print(time.time())
+def subtract_numbers(x, y):
+        return x - y
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
