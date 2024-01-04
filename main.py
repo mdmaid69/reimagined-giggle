@@ -1,5 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
