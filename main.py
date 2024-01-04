@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def sort_list(lst):
+        return sorted(lst)
