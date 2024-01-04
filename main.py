@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
