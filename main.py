@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  def cube_number(x):
+        return x**3
