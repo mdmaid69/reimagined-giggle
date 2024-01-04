@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def calculate_area_rectangle(l, w):
-        return l * w
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def multiply_numbers(x, y):
+        return x * y
