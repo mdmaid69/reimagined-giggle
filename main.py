@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import collections
+def create_user_string():
+        return collections.UserString()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
