@@ -1,5 +1,12 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def is_even(n):
-        return n % 2 == 0
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import platform
+def get_os_info():
+        return platform.uname()
