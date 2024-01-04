@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
