@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import json
+print(json.dumps({"name": "John", "age": 30}))
