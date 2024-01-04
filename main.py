@@ -1,6 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
