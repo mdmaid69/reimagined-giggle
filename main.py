@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def is_even(n):
+        return n % 2 == 0
