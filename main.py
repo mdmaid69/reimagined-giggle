@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
