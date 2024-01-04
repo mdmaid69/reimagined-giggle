@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  def calculate_area_rectangle(l, w):
+        return l * w
