@@ -1,5 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
