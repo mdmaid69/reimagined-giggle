@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import logging
-def log_message(message):
-        logging.info(message)
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
