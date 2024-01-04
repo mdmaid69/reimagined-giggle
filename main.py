@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
