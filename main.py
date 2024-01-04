@@ -1,6 +1,7 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  def subtract_numbers(x, y):
+        return x - y
