@@ -1,5 +1,4 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def convert_to_octal(n):
+        return oct(n)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
