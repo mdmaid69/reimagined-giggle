@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
