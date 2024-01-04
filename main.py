@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_array_as_set(array):
+        return set(array)
