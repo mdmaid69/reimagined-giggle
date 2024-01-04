@@ -1,5 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def is_even(n):
+        return n % 2 == 0
