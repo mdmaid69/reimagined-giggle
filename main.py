@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
