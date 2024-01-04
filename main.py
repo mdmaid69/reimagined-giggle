@@ -1,6 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_density(mass, volume):
+        return mass / volume
