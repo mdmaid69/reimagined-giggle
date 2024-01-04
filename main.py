@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import collections
+def create_counter():
+        return collections.Counter()
