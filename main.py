@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
