@@ -1,6 +1,6 @@
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
