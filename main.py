@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_density(mass, volume):
-        return mass / volume
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
