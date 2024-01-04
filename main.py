@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_work(force, distance):
+        return force * distance
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
