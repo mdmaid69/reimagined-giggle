@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
