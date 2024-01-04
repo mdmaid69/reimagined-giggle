@@ -1,4 +1,6 @@
-name = "Python"
-print("Hello,", name)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import sys
+def exit_program():
+        sys.exit()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
