@@ -1,6 +1,5 @@
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
