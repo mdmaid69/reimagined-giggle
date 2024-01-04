@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def is_palindrome(s):
+        return s == s[::-1]
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
