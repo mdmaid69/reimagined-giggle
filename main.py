@@ -1,6 +1,8 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import sys
+def print_python_version():
+        print(sys.version)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
