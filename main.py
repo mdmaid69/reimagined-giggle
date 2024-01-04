@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def sort_numbers(numbers):
-        return sorted(numbers)
+def add_numbers(a, b):
+        return a + b
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
