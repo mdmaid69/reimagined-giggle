@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
