@@ -1,5 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_pressure(force, area):
-        return force / area
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def sort_list(lst):
+        return sorted(lst)
