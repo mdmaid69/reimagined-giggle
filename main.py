@@ -1,6 +1,7 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
