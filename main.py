@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import collections
-def create_counter():
-        return collections.Counter()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
