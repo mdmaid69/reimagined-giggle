@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
