@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_pressure(force, area):
+        return force / area
