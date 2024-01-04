@@ -1,6 +1,5 @@
+def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
