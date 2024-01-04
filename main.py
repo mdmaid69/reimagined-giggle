@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
