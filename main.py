@@ -1,8 +1,4 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
