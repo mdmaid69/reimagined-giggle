@@ -1,7 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
