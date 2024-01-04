@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import numpy as np
-print(np.array([1, 2, 3]))
+def convert_to_binary(n):
+        return bin(n)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
