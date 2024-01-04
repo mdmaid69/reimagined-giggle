@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  def cube_number(x):
+        return x**3
