@@ -1,5 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def divide_numbers(x, y):
+        return x / y
