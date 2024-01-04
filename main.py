@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
