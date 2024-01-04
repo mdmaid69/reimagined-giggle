@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import tensorflow as tf
+print(tf.__version__)
