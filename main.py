@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  def convert_to_octal(n):
+        return oct(n)
