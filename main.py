@@ -1,4 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
