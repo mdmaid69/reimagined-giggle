@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
