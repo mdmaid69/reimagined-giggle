@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def cube_number(x):
-        return x**3
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
