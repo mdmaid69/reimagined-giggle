@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+x = 10
+y = 20
+print("Sum:", x + y)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
