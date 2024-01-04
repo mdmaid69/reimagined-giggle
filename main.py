@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-  def subtract_numbers(x, y):
-        return x - y
+def divide_numbers(x, y):
+        return x / y
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
