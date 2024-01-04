@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
