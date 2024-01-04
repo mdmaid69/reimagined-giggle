@@ -1,4 +1,5 @@
-for i in range(10): print(i)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
