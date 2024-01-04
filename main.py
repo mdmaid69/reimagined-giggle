@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import sys
+def exit_program():
+        sys.exit()
