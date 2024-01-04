@@ -1,6 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def split_path(path):
+        return os.path.split(path)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
