@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
