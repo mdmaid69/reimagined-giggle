@@ -1,5 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
