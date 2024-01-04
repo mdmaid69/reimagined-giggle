@@ -1,7 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
