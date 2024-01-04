@@ -1,5 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
