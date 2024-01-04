@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def calculate_work(force, distance):
-        return force * distance
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
