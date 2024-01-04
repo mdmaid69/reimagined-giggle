@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
