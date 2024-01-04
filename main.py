@@ -1,5 +1,6 @@
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
