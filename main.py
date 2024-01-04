@@ -1,7 +1,7 @@
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def get_array_item(array, i):
+        return array[i]
