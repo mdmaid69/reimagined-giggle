@@ -1,5 +1,8 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
