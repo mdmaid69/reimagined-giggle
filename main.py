@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import time
+def get_time_since_epoch():
+        return time.time()
