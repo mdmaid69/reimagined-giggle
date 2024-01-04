@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
