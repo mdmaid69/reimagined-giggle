@@ -1,5 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
