@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
