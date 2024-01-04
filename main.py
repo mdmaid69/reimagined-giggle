@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_area_circle(r):
+        return 3.14 * r**2
