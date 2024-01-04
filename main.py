@@ -1,5 +1,5 @@
 import array
-def get_array_length(array):
-        return len(array)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def get_array_item_count(array, item):
+        return array.count(item)
+  def is_odd(n):
+        return n % 2 != 0
