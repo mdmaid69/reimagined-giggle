@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def square_number(x):
+        return x**2
