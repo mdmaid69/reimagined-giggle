@@ -1,5 +1,7 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
