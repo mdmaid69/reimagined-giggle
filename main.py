@@ -1,5 +1,7 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def convert_to_hex(n):
-        return hex(n)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
