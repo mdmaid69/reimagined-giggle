@@ -1,6 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
