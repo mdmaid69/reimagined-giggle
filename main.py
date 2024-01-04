@@ -1,4 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def sort_list(lst):
-        return sorted(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def count_words(sentence):
+        return len(sentence.split())
