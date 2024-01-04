@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
