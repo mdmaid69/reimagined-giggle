@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
