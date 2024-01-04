@@ -1,6 +1,7 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
