@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def subtract_numbers(x, y):
+        return x - y
