@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
