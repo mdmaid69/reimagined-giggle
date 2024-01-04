@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import collections
+def create_stack():
+        return collections.deque()
