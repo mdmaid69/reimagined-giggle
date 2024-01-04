@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def add_numbers(a, b):
+        return a + b
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
