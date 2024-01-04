@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import random
+print(random.randint(0, 100))
