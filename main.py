@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
