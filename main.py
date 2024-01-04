@@ -1,5 +1,5 @@
+for i in range(5):
+        print(i)
 import math
-print(math.pi)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
