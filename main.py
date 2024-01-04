@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
