@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
