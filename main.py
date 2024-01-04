@@ -1,9 +1,4 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+print(sum(range(10)))
   import os
   def get_file_gen(file_name):
         return os.stat(file_name).st_gen
