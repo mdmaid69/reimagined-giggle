@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import random
+print(random.randint(0, 100))
+  def convert_to_octal(n):
+        return oct(n)
