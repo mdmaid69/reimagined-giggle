@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def count_words(sentence):
+        return len(sentence.split())
