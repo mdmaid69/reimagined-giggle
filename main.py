@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
