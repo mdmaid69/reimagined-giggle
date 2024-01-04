@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-def subtract_numbers(x, y):
-        return x - y
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def is_odd(n):
+        return n % 2 != 0
