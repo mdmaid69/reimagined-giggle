@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
