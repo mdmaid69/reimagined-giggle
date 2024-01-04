@@ -1,8 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import sys
+def exit_program():
+        sys.exit()
