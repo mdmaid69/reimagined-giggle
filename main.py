@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
