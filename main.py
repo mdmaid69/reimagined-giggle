@@ -1,4 +1,6 @@
-import sys
-print(sys.version)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
