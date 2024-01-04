@@ -1,5 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
