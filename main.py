@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
