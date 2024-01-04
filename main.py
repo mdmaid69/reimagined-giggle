@@ -1,5 +1,8 @@
-  def convert_to_hex(n):
-        return hex(n)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
