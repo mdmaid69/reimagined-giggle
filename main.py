@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
