@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import collections
-def create_user_list():
-        return collections.UserList()
+  def is_even(n):
+        return n % 2 == 0
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
