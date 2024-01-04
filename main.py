@@ -1,6 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def is_even(n):
+        return n % 2 == 0
