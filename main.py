@@ -1,5 +1,6 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
