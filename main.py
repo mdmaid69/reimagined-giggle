@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
