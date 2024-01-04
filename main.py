@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_as_set(array):
-        return set(array)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  def sort_list(lst):
+        return sorted(lst)
