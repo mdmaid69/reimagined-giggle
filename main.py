@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
