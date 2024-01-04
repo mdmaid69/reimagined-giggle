@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
