@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
