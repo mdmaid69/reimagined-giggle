@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
 import os
-def change_working_directory(path):
-        os.chdir(path)
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
