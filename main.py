@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_index(array, item):
+        return array.index(item)
