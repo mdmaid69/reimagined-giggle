@@ -1,6 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import collections
-def create_stack():
-        return collections.deque()
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
