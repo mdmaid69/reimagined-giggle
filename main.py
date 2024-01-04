@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_speed(distance, time):
+        return distance / time
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
