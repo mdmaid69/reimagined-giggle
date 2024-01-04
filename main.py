@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_work(force, distance):
-        return force * distance
+  def convert_to_hex(n):
+        return hex(n)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
