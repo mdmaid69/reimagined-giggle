@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  def is_odd(n):
+        return n % 2 != 0
