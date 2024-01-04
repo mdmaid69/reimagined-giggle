@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import collections
-def create_user_list():
-        return collections.UserList()
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
