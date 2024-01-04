@@ -1,5 +1,9 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_volume(length, width, height):
-        return length * width * height
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import array
+def get_string_from_array(array):
+        return array.tobytes()
