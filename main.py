@@ -1,5 +1,5 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  def add_numbers(x, y):
-        return x + y
+def get_array_as_int(array):
+        return int(array[0])
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
