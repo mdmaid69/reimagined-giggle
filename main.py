@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import sys
-print(sys.version)
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
