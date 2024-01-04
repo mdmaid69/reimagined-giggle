@@ -1,5 +1,3 @@
-def cube_number(x):
-        return x**3
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def reverse_string(s):
+        return s[::-1]
+print([x**2 for x in range(10)])
