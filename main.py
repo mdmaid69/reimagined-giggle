@@ -1,5 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
