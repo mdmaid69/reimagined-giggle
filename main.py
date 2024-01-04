@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
