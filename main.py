@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  def cube_number(x):
+        return x**3
