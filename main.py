@@ -1,5 +1,7 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
