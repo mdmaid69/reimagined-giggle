@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def count_words(sentence):
+        return len(sentence.split())
