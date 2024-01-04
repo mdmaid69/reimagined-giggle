@@ -1,6 +1,6 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-import time
-def get_time_since_epoch():
-        return time.time()
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
