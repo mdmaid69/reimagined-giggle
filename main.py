@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-import collections
-def create_stack():
-        return collections.deque()
+for i in range(10): print(i)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
