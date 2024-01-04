@@ -1,7 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import sys
+def print_python_version():
+        print(sys.version)
