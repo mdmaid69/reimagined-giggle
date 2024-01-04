@@ -1,5 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+for i in range(10): print(i)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
