@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_pressure(force, area):
+        return force / area
+x = 10
+y = 20
+print("Sum:", x + y)
