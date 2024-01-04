@@ -1,5 +1,7 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
