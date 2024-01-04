@@ -1,8 +1,6 @@
-def cube_number(x):
-        return x**3
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
