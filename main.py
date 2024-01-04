@@ -1,6 +1,5 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def find_unique_words(sentence):
+        return set(sentence.split())
