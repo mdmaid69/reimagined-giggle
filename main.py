@@ -1,5 +1,11 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  def convert_to_hex(n):
-        return hex(n)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import numpy as np
+print(np.array([1, 2, 3]))
