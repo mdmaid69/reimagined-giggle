@@ -1,5 +1,9 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
