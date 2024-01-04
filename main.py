@@ -1,5 +1,4 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_density(mass, volume):
+        return mass / volume
+  def remove_duplicates(lst):
+        return list(set(lst))
