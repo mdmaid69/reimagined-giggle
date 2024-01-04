@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+x = 10
+y = 20
+print("Sum:", x + y)
+import logging
+def log_message(message):
+        logging.info(message)
