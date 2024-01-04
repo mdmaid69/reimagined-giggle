@@ -1,7 +1,8 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
