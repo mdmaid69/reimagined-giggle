@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
