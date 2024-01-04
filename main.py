@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
