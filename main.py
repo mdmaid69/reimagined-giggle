@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
 import array
-def convert_array_to_list(array):
+def get_list_from_array(array):
         return array.tolist()
