@@ -1,4 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-print("Hello, world!")
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
