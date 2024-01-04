@@ -1,5 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def is_even(n):
-        return n % 2 == 0
+def insert_into_array(array, i, item):
+        array.insert(i, item)
