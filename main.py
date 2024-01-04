@@ -1,6 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def find_min(lst):
+        return min(lst)
+  def convert_to_octal(n):
+        return oct(n)
