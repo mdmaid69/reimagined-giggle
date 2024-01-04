@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
