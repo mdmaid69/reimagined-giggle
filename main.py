@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
