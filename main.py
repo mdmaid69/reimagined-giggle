@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
