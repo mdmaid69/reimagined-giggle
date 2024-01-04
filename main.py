@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_floor(x):
+        return math.floor(x)
