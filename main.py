@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  def convert_to_octal(n):
+        return oct(n)
