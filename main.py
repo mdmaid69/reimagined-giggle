@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
