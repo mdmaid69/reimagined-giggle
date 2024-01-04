@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
