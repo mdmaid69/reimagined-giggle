@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_speed(distance, time):
-        return distance / time
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_acceleration(speed, time):
+        return speed / time
