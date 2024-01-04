@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
