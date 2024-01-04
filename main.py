@@ -1,6 +1,7 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
