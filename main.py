@@ -1,6 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
