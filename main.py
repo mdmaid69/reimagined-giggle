@@ -1,5 +1,6 @@
-import time
-print(time.time())
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
