@@ -1,6 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+text = "Hello, world!"
+print("Characters:", len(text))
