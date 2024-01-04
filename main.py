@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
