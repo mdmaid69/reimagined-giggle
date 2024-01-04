@@ -1,5 +1,6 @@
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_circle_area(radius):
+        return math.pi * radius**2
