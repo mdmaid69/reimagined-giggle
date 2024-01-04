@@ -1,6 +1,8 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
