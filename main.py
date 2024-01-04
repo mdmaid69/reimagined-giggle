@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
