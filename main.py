@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
