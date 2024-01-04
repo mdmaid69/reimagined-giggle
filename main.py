@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
