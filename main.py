@@ -1,5 +1,10 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
