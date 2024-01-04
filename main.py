@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
