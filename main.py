@@ -1,5 +1,8 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_work(force, distance):
-        return force * distance
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
