@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_as_repr(array):
+        return repr(array)
