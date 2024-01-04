@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
