@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
