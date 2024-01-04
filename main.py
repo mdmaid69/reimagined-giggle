@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
