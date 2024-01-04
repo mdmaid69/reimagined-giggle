@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import array
+def get_array_index(array, item):
+        return array.index(item)
