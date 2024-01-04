@@ -1,7 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
