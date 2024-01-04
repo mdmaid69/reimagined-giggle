@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
