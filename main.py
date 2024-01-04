@@ -1,7 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def find_max(lst):
+        return max(lst)
