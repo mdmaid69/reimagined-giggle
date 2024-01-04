@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
