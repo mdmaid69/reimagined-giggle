@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def convert_to_binary(n):
+        return bin(n)
