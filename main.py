@@ -1,5 +1,7 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
