@@ -1,5 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def find_min(lst):
+        return min(lst)
