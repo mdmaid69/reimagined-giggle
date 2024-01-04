@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def count_elements(lst):
+        return len(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
