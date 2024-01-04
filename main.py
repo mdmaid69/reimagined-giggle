@@ -1,5 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def convert_to_octal(n):
-        return oct(n)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
