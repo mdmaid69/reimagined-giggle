@@ -1,5 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  def square_number(x):
-        return x**2
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
