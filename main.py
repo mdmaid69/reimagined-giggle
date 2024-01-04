@@ -1,10 +1,5 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
