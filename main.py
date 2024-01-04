@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
