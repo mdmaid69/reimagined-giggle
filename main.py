@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def reverse_array(array):
+        array.reverse()
