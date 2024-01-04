@@ -1,3 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-print([x**2 for x in range(10)])
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
