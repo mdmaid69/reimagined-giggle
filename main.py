@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def square_number(x):
+        return x**2
