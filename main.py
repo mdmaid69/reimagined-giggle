@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
