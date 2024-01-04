@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
