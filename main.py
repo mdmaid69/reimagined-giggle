@@ -1,7 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_work(force, distance):
+        return force * distance
