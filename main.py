@@ -1,6 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import array
+def append_to_array(array, item):
+        array.append(item)
