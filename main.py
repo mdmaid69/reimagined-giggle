@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def greet(name):
+        print(f"Hello, {name}!")
