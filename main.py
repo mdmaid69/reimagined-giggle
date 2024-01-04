@@ -1,4 +1,7 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
