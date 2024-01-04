@@ -1,5 +1,7 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
