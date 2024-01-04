@@ -1,5 +1,7 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
