@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_volume(length, width, height):
+        return length * width * height
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
