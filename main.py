@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  def sort_list(lst):
-        return sorted(lst)
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
