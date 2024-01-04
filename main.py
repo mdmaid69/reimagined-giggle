@@ -1,5 +1,5 @@
-import math
-print(math.pi)
+import datetime
+print(datetime.datetime.now())
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def clear_array(array):
+        array *= 0
