@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
