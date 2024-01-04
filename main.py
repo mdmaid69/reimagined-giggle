@@ -1,5 +1,8 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+x = 10
+y = 20
+print("Sum:", x + y)
