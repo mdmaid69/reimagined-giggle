@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+x = 10
+y = 20
+print("Sum:", x + y)
+def is_odd(n):
+        return n % 2 != 0
