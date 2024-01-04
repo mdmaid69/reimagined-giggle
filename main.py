@@ -1,6 +1,4 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+text = "Hello, world!"
+print("Characters:", len(text))
+  def remove_duplicates(lst):
+        return list(set(lst))
