@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import collections
+def create_priority_queue():
+        return collections.deque()
+def sort_numbers(numbers):
+        return sorted(numbers)
