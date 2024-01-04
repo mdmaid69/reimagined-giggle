@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def is_even(n):
+        return n % 2 == 0
+import array
+def reverse_array(array):
+        array.reverse()
