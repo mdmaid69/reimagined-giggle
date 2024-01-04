@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import collections
+def create_user_list():
+        return collections.UserList()
