@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
 import array
-def get_array_item(array, i):
-        return array[i]
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
