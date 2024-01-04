@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
