@@ -1,11 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_work(force, distance):
+        return force * distance
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
