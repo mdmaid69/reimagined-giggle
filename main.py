@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
