@@ -1,6 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_factorial(n):
+        return math.factorial(n)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
