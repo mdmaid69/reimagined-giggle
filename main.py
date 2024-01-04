@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def reverse_string(s):
-        return s[::-1]
+def add_numbers(x, y):
+        return x + y
+import os
+def get_current_working_directory():
+        return os.getcwd()
