@@ -1,6 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
