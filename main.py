@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import datetime
+def get_today_date():
+        return datetime.date.today()
