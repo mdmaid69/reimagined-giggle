@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
