@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def calculate_density(mass, volume):
+        return mass / volume
