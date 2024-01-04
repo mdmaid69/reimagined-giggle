@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
