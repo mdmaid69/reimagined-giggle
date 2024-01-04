@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
