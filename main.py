@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
