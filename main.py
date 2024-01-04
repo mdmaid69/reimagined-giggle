@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def subtract_numbers(x, y):
+        return x - y
