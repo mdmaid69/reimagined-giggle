@@ -1,5 +1,6 @@
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_acceleration(speed, time):
-        return speed / time
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
