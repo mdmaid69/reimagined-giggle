@@ -1,5 +1,3 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import time
-print(time.time())
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+print(sum(range(10)))
