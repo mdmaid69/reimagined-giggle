@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
