@@ -1,3 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-print(sum(range(10)))
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
