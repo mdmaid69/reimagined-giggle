@@ -1,9 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import xml.etree.ElementTree as ET
-root = ET.Element("root")
-doc = ET.SubElement(root, "doc")
-ET.SubElement(doc, "field1", name="blah").text = "some value1"
-ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
-tree = ET.ElementTree(root)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
