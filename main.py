@@ -1,5 +1,3 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-for i in range(5):
-        print(i)
+def find_unique_words(sentence):
+        return set(sentence.split())
+for i in range(10): print(i)
