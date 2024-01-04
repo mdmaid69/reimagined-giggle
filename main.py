@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
