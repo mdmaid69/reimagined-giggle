@@ -1,5 +1,8 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import array
+def get_string_from_array(array):
+        return array.tobytes()
