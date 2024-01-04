@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
