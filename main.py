@@ -1,6 +1,8 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def get_array_as_bool(array):
+        return bool(array)
