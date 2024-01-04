@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def get_array_length(array):
+        return len(array)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
