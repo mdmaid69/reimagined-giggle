@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import array
-def get_array_item(array, i):
-        return array[i]
+import time
+def get_time_since_epoch():
+        return time.time()
+import platform
+def get_python_version():
+        return platform.python_version()
