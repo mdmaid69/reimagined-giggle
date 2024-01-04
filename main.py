@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
