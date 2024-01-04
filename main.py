@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def multiply_numbers(x, y):
+        return x * y
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
