@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
