@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+x = 10
+y = 20
+print("Sum:", x + y)
