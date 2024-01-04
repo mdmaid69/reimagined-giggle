@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
