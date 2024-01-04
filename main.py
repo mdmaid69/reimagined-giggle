@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+print(math.pi)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
