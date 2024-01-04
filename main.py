@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
