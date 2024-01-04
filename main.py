@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
