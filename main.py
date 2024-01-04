@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
