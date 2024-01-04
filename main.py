@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_density(mass, volume):
+        return mass / volume
