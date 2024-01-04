@@ -1,6 +1,8 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
