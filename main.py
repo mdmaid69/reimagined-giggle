@@ -1,6 +1,7 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
