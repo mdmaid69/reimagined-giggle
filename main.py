@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_base_name(path):
+        return os.path.basename(path)
