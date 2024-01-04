@@ -1,11 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
