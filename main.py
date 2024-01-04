@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def get_array_as_float(array):
+        return float(array[0])
