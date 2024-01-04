@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def is_even(n):
+        return n % 2 == 0
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
