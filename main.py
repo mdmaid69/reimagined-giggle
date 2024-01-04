@@ -1,5 +1,8 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def greet(name):
-        print(f"Hello, {name}!")
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
