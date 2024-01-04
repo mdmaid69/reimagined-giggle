@@ -1,4 +1,8 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  def reverse_list(lst):
-        return lst[::-1]
+import sys
+def exit_program():
+        sys.exit()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
