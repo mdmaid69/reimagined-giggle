@@ -1,5 +1,4 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import os
+print(os.getcwd())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
