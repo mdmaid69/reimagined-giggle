@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
