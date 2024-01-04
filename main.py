@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def find_max(numbers):
-        return max(numbers)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def convert_to_binary(n):
+        return bin(n)
