@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
 import re
-def find_pattern(pattern, string):
+def find_all_occurrences(pattern, string):
         return re.findall(pattern, string)
