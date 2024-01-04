@@ -1,4 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  def is_even(n):
-        return n % 2 == 0
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
