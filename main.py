@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def calculate_power(work, time):
+        return work / time
+i = 0
+while i < 5:
+        print(i)
+        i += 1
