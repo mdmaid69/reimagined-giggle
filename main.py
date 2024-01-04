@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
