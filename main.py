@@ -1,6 +1,11 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
