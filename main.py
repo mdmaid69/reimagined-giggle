@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import platform
+def get_python_version():
+        return platform.python_version()
