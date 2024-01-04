@@ -1,5 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
