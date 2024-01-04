@@ -1,7 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
