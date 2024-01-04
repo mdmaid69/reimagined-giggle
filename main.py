@@ -1,5 +1,6 @@
+import array
+def set_array_item(array, i, item):
+        array[i] = item
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
