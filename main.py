@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
