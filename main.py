@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
 import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
