@@ -1,5 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def multiply_numbers(x, y):
-        return x * y
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+for i in range(5):
+        print(i)
