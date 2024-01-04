@@ -1,4 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-def add_numbers(x, y):
-        return x + y
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+x = 10
+y = 20
+print("Sum:", x + y)
