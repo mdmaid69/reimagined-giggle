@@ -1,5 +1,6 @@
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def is_even(n):
-        return n % 2 == 0
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
