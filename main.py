@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
