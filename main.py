@@ -1,5 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def multiply_numbers(x, y):
+        return x * y
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
