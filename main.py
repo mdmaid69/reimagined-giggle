@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
