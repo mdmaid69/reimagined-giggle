@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_as_str(array):
+        return str(array)
