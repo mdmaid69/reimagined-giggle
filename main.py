@@ -1,6 +1,7 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
