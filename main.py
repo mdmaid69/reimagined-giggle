@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_average(lst):
+        return sum(lst) / len(lst)
