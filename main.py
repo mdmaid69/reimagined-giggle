@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_as_str(array):
+        return str(array)
+import time
+def get_time_since_epoch():
+        return time.time()
