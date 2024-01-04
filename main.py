@@ -1,5 +1,8 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def find_max(lst):
-        return max(lst)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
