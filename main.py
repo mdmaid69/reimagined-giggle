@@ -1,5 +1,4 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
