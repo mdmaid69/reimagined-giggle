@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def greet(name):
-        print(f"Hello, {name}!")
+  def count_elements(lst):
+        return len(lst)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
