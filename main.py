@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
