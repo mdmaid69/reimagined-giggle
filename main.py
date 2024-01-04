@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
