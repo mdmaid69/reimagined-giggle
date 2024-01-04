@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
