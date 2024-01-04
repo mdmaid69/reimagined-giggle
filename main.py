@@ -1,5 +1,6 @@
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
