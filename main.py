@@ -1,6 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import time
-def get_time_since_epoch():
-        return time.time()
+def convert_to_hex(n):
+        return hex(n)
+def is_palindrome(s):
+        return s == s[::-1]
