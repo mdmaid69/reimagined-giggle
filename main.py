@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import datetime
+def get_today_date():
+        return datetime.date.today()
