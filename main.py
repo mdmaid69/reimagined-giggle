@@ -1,5 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_density(mass, volume):
-        return mass / volume
+def convert_to_hex(n):
+        return hex(n)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
