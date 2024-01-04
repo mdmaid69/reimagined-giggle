@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-print(math.pi)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
