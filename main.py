@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
