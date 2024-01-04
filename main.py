@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
