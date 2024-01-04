@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def reverse_list(lst):
+        return lst[::-1]
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
