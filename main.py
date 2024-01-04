@@ -1,6 +1,7 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
