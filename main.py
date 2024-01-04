@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
