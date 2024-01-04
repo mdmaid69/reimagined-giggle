@@ -1,7 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
