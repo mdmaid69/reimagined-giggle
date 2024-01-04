@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_work(force, distance):
-        return force * distance
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
