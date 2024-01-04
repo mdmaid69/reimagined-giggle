@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def multiply_numbers(x, y):
+        return x * y
