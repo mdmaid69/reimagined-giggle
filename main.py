@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def count_elements(lst):
+        return len(lst)
