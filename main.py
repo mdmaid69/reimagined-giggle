@@ -1,4 +1,8 @@
-print(sum(range(10)))
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
