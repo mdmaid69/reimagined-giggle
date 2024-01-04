@@ -1,6 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def square_number(x):
+        return x**2
+def calculate_power(work, time):
+        return work / time
