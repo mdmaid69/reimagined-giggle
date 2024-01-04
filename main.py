@@ -1,5 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def reverse_string(s):
+        return s[::-1]
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
