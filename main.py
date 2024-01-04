@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
