@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import json
+print(json.dumps({"name": "John", "age": 30}))
