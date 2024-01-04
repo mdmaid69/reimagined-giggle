@@ -1,5 +1,6 @@
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_arc_cosine(x):
+        return math.acos(x)
