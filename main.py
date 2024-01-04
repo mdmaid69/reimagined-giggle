@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
