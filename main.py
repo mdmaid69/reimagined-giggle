@@ -1,6 +1,7 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
