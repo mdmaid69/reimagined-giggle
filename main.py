@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
