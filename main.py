@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
