@@ -1,5 +1,5 @@
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def remove_directory(path):
+        os.rmdir(path)
+  def reverse_list(lst):
+        return lst[::-1]
