@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_density(mass, volume):
+        return mass / volume
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
