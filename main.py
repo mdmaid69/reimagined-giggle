@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
