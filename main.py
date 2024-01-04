@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
