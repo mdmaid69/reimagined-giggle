@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
