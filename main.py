@@ -1,5 +1,11 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def sort_list(lst):
-        return sorted(lst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
