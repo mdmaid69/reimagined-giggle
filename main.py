@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
