@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def find_unique_words(sentence):
+        return set(sentence.split())
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
