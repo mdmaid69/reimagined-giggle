@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def is_even(n):
+        return n % 2 == 0
