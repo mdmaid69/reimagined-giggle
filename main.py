@@ -1,7 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
