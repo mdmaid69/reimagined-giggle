@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def cube_number(x):
+        return x**3
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
