@@ -1,7 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
