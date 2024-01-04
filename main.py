@@ -1,6 +1,8 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
