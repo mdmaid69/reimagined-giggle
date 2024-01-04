@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
