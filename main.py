@@ -1,6 +1,8 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
