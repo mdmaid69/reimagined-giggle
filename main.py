@@ -1,6 +1,7 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
