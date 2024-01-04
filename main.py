@@ -1,6 +1,5 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  def is_even(n):
+        return n % 2 == 0
