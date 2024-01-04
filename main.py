@@ -1,5 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_logarithm(base, x):
+        return math.log(x, base)
