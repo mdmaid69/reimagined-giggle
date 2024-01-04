@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
