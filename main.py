@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
