@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
