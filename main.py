@@ -1,6 +1,7 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
