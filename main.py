@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
