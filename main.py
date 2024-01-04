@@ -1,8 +1,5 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_acceleration(speed, time):
+        return speed / time
