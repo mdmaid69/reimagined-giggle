@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
