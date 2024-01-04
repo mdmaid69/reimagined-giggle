@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
