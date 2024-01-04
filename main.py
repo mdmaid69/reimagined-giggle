@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import collections
-def create_user_dict():
-        return collections.UserDict()
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
