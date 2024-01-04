@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
