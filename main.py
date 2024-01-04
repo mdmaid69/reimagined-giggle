@@ -1,6 +1,5 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def set_array_item(array, i, item):
+        array[i] = item
+def find_min(lst):
+        return min(lst)
