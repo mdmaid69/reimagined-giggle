@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import array
-def get_array_as_list(array):
-        return list(array)
+def append_to_array(array, item):
+        array.append(item)
