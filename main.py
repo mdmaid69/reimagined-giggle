@@ -1,4 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def sort_list(lst):
+        return sorted(lst)
+  def is_odd(n):
+        return n % 2 != 0
