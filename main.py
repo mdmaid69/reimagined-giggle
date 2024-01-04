@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import time
+print(time.time())
+import array
+def get_array_itemsize(array):
+        return array.itemsize
