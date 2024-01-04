@@ -1,5 +1,7 @@
-  def cube_number(x):
-        return x**3
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
