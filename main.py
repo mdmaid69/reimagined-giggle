@@ -1,4 +1,4 @@
-for i in range(5):
-        print(i)
-import time
-print(time.time())
+  def convert_to_octal(n):
+        return oct(n)
+  def convert_to_hex(n):
+        return hex(n)
