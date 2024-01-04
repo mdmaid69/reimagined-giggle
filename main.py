@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
