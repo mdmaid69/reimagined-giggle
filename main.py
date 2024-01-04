@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
