@@ -1,6 +1,7 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
