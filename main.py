@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+x = 10
+y = 20
+print("Sum:", x + y)
+from collections import Counter
+print(Counter("hello world"))
