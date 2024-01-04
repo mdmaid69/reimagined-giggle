@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
