@@ -1,6 +1,8 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
