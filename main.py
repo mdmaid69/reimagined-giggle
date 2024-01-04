@@ -1,5 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_work(force, distance):
+        return force * distance
+def square_number(x):
+        return x**2
