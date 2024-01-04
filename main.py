@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_as_bool(array):
+        return bool(array)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
