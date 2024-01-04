@@ -1,5 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def square_number(x):
-        return x**2
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  def convert_to_octal(n):
+        return oct(n)
