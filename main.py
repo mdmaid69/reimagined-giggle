@@ -1,5 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import datetime
+def get_current_date():
+        return datetime.date.today()
