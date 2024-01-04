@@ -1,5 +1,8 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import sys
+  def get_python_version():
+        return sys.version
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
