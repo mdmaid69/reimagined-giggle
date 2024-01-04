@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
