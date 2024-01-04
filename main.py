@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
