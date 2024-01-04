@@ -1,7 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
