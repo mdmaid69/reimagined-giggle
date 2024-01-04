@@ -1,5 +1,6 @@
 import math
-print(math.pi)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
