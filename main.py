@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
