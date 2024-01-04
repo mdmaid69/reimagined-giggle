@@ -1,6 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+print([x**2 for x in range(10)])
+import array
+def get_list_from_array(array):
+        return array.tolist()
