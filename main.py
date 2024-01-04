@@ -1,7 +1,7 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
