@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import getpass
+def get_username():
+        return getpass.getuser()
