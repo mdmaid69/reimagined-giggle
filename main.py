@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
