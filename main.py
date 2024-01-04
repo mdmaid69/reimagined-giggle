@@ -1,6 +1,8 @@
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
