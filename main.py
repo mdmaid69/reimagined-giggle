@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import getpass
+def get_username():
+        return getpass.getuser()
