@@ -1,6 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-print([x**2 for x in range(10)])
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
