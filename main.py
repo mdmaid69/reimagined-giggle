@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
