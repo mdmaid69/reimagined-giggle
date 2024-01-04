@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_list_from_array(array):
+        return array.tolist()
