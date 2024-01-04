@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
