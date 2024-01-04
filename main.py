@@ -1,6 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def get_array_as_bytes(array):
+        return bytes(array)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
