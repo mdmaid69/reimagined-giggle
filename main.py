@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
