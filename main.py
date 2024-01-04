@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_gamma_function(x):
+        return math.gamma(x)
