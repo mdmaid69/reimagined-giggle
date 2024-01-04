@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
