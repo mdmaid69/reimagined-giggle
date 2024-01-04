@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
