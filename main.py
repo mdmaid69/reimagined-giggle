@@ -1,6 +1,5 @@
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
