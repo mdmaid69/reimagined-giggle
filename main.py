@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
