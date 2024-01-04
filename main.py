@@ -1,4 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def subtract_numbers(x, y):
+        return x - y
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
