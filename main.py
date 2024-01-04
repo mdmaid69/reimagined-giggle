@@ -1,6 +1,8 @@
-def cube_number(x):
-        return x**3
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
