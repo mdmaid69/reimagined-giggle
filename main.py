@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
