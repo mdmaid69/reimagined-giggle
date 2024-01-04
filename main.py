@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def is_even(n):
+        return n % 2 == 0
