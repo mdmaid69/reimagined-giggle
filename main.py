@@ -1,5 +1,6 @@
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  def multiply_numbers(x, y):
-        return x * y
+def convert_array_to_unicode(array):
+        return array.tounicode()
