@@ -1,5 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  def reverse_list(lst):
-        return lst[::-1]
+def add_numbers(a, b):
+        return a + b
+def find_max(numbers):
+        return max(numbers)
