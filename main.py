@@ -1,12 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
