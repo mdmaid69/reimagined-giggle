@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
