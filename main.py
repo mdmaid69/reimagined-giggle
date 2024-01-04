@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+for i in range(5):
+        print(i)
+import array
+def get_array_as_bool(array):
+        return bool(array)
