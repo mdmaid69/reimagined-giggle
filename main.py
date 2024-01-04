@@ -1,6 +1,6 @@
+import os
+def get_current_working_directory():
+        return os.getcwd()
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
