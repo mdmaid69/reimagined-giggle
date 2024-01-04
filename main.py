@@ -1,5 +1,5 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
