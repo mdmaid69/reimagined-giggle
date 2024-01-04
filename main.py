@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
