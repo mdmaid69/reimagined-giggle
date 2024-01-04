@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
