@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
