@@ -1,5 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
