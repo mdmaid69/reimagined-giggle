@@ -1,4 +1,4 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_acceleration(speed, time):
+        return speed / time
