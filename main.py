@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def clear_array(array):
+        array *= 0
+  def remove_duplicates(lst):
+        return list(set(lst))
