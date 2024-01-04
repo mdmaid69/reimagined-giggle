@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_cosine(x):
+        return math.cos(x)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
