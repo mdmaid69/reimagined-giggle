@@ -1,5 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
