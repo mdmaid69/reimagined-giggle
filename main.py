@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
