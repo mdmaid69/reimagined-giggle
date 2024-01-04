@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
 import os
-def remove_directory(path):
-        os.rmdir(path)
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_sine(x):
+        return math.sin(x)
