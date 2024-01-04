@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def is_even(n):
+        return n % 2 == 0
