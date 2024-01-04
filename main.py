@@ -1,8 +1,5 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
