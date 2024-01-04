@@ -1,5 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
