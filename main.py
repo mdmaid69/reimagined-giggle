@@ -1,5 +1,11 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import time
+def get_time_since_epoch():
+        return time.time()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
