@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
