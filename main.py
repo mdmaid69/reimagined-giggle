@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
