@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def convert_to_hex(n):
-        return hex(n)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  def calculate_area_rectangle(l, w):
+        return l * w
