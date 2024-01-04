@@ -1,5 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
