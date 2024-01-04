@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
