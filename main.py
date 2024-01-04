@@ -1,6 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def greet(name):
+        print(f"Hello, {name}!")
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
