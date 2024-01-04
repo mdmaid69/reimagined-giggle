@@ -1,6 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
