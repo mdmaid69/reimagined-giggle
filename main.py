@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
