@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
