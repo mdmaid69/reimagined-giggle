@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
