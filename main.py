@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def get_array_buffer_info(array):
+        return array.buffer_info()
