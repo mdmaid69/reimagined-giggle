@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
