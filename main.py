@@ -1,7 +1,7 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
