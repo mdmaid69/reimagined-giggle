@@ -1,6 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
