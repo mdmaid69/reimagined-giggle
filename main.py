@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_as_repr(array):
+        return repr(array)
