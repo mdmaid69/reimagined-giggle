@@ -1,5 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
