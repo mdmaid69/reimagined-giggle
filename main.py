@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import collections
+def create_counter():
+        return collections.Counter()
