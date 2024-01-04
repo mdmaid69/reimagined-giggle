@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def find_max(numbers):
+        return max(numbers)
