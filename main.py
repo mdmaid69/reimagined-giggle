@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
