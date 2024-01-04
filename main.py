@@ -1,6 +1,5 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def find_min(numbers):
+        return min(numbers)
