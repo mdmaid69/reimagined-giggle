@@ -1,5 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
