@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def count_characters(sentence):
+        return len(sentence)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
