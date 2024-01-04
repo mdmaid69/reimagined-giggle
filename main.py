@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
