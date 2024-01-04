@@ -1,5 +1,4 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_density(mass, volume):
-        return mass / volume
+def add_numbers(x, y):
+        return x + y
+def calculate_work(force, distance):
+        return force * distance
