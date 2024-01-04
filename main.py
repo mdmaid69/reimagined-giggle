@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
