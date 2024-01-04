@@ -1,6 +1,6 @@
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
