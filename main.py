@@ -1,6 +1,11 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
