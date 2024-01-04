@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  def convert_to_octal(n):
-        return oct(n)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import platform
+def get_os_info():
+        return platform.uname()
