@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import collections
+def create_priority_queue():
+        return collections.deque()
