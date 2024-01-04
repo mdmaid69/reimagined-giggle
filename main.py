@@ -1,5 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
