@@ -1,6 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_acceleration(speed, time):
+        return speed / time
