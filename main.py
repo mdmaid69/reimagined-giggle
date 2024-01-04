@@ -1,6 +1,6 @@
+import array
+def convert_array_to_string(array):
+        return array.tostring()
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
