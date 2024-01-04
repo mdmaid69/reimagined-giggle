@@ -1,7 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
