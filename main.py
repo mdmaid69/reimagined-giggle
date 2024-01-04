@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def get_base_name(path):
+        return os.path.basename(path)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
