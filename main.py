@@ -1,8 +1,6 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def set_array_item(array, i, item):
+        array[i] = item
+import random
+def roll_die():
+        return random.randint(1, 6)
