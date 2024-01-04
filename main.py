@@ -1,6 +1,8 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
