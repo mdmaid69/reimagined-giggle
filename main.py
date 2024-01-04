@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
