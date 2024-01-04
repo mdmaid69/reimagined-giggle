@@ -1,8 +1,5 @@
-import xml.etree.ElementTree as ET
-root = ET.Element("root")
-doc = ET.SubElement(root, "doc")
-ET.SubElement(doc, "field1", name="blah").text = "some value1"
-ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
-tree = ET.ElementTree(root)
-def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
