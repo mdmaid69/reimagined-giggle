@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
