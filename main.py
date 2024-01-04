@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
