@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
+import time
+def get_time_since_epoch():
+        return time.time()
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
