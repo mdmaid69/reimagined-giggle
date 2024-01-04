@@ -1,6 +1,6 @@
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
