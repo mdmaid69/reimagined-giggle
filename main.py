@@ -1,5 +1,8 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
