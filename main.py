@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
