@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def count_elements(lst):
+        return len(lst)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
