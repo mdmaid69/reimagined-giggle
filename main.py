@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  def count_elements(lst):
-        return len(lst)
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
