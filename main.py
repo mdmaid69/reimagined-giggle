@@ -1,6 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import array
+def get_array_item(array, i):
+        return array[i]
