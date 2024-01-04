@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def is_palindrome(s):
+        return s == s[::-1]
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_as_set(array):
+        return set(array)
