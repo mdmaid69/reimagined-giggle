@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def find_max(numbers):
+        return max(numbers)
