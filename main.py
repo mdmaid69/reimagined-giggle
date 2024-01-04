@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
