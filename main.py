@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_speed(distance, time):
+        return distance / time
