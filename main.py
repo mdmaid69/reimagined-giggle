@@ -1,4 +1,7 @@
-import tensorflow as tf
-print(tf.__version__)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import math
+def calculate_floor(x):
+        return math.floor(x)
