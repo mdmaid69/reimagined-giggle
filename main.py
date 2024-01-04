@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
