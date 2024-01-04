@@ -1,6 +1,8 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
 import platform
-def get_python_version():
-        return platform.python_version()
+def get_os_info():
+        return platform.uname()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
