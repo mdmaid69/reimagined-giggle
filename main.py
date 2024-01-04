@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
