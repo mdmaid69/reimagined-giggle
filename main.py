@@ -1,6 +1,5 @@
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def get_array_slice(array, i, j):
+        return array[i:j]
