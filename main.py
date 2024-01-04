@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+x = 10
+y = 20
+print("Sum:", x + y)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
