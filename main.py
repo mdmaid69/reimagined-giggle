@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import collections
-def create_user_string():
-        return collections.UserString()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import random
+print(random.randint(0, 100))
