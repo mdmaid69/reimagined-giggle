@@ -1,5 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  def multiply_numbers(x, y):
-        return x * y
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def add_numbers(x, y):
+        return x + y
