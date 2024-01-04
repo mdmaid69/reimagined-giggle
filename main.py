@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
