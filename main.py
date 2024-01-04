@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
