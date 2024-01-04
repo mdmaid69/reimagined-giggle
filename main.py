@@ -1,6 +1,7 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
