@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_floor(x):
+        return math.floor(x)
