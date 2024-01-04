@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
