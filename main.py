@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
