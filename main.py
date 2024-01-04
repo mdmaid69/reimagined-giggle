@@ -1,5 +1,8 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
