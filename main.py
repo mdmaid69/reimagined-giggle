@@ -1,4 +1,9 @@
-def sort_list(lst):
-        return sorted(lst)
-  def is_odd(n):
-        return n % 2 != 0
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
