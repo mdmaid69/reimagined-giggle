@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
