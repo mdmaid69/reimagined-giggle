@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import logging
+def log_message(message):
+        logging.info(message)
