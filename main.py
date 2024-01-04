@@ -1,5 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_power(work, time):
-        return work / time
+def calculate_sign(x):
+        return math.copysign(1, x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
