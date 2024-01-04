@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+text = "Hello, world!"
+print("Words:", len(text.split()))
