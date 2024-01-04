@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
