@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_speed(distance, time):
+        return distance / time
+def reverse_string(s):
+        return s[::-1]
