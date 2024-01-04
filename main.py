@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  def is_even(n):
-        return n % 2 == 0
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
