@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
