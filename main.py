@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def find_max(lst):
+        return max(lst)
