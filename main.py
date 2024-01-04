@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def clear_array(array):
+        array *= 0
+from collections import Counter
+print(Counter("hello world"))
