@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
