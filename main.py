@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import math
-print(math.pi)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
