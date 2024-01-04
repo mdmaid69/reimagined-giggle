@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def is_odd(n):
+        return n % 2 != 0
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
