@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_area_rectangle(l, w):
+        return l * w
