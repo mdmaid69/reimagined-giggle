@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import collections
+def create_priority_queue():
+        return collections.deque()
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
