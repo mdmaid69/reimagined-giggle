@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
