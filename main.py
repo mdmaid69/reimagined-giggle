@@ -1,7 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
