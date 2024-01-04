@@ -1,6 +1,6 @@
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import os
+def remove_directory(path):
+        os.rmdir(path)
