@@ -1,6 +1,6 @@
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
