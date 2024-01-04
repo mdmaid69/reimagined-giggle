@@ -1,6 +1,8 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
