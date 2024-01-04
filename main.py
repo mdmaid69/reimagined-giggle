@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def check_if_array_contains_item(array, item):
+        return item in array
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
