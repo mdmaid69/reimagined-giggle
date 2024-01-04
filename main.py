@@ -1,5 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
