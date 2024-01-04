@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
