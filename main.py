@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import collections
+def create_user_string():
+        return collections.UserString()
