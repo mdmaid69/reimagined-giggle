@@ -1,5 +1,3 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+print(sum(range(10)))
+def square_number(x):
+        return x**2
