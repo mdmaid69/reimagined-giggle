@@ -1,6 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
