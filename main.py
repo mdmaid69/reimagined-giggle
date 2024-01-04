@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import datetime
+print(datetime.datetime.now())
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
