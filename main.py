@@ -1,6 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
