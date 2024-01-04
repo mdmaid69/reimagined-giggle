@@ -1,5 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
