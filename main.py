@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_work(force, distance):
-        return force * distance
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
