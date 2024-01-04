@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
