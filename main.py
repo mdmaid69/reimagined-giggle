@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
