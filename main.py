@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
