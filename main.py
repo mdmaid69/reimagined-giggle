@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
