@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def find_unique_words(sentence):
+        return set(sentence.split())
