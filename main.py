@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
