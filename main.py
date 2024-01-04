@@ -1,5 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
