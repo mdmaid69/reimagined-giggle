@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
 import collections
-def create_user_list():
-        return collections.UserList()
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
