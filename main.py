@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
