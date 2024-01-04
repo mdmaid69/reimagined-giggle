@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def convert_to_octal(n):
+        return oct(n)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
