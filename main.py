@@ -1,5 +1,7 @@
-import re
-print(re.match("h.*o", "hello world"))
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
