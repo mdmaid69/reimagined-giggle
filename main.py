@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
