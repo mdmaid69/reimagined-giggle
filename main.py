@@ -1,7 +1,4 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import re
-print(re.match("h.*o", "hello world"))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  def cube_number(x):
+        return x**3
