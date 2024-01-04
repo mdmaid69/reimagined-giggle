@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def find_unique_words(sentence):
+        return set(sentence.split())
