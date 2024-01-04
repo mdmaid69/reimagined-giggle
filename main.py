@@ -1,4 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-print("Hello, world!")
+def divide_numbers(x, y):
+        return x / y
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
