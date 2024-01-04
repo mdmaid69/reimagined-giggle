@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def get_array_length(array):
+        return len(array)
