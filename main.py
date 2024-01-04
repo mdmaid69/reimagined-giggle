@@ -1,5 +1,8 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import datetime
-print(datetime.datetime.now())
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import array
+def get_array_as_set(array):
+        return set(array)
