@@ -1,7 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import collections
+def create_counter():
+        return collections.Counter()
+  import sys
+  def get_python_version():
+        return sys.version
