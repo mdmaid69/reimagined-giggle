@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import random
-print(random.randint(0, 100))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
