@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
