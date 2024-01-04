@@ -1,6 +1,4 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  def sort_list(lst):
+        return sorted(lst)
