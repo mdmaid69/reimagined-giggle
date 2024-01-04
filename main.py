@@ -1,9 +1,7 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-def calculate_work(force, distance):
-        return force * distance
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
