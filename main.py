@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def multiply_numbers(x, y):
+        return x * y
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
