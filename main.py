@@ -1,5 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def convert_to_binary(n):
+        return bin(n)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
