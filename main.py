@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import random
+def roll_die():
+        return random.randint(1, 6)
