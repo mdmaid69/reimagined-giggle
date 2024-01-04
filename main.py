@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
