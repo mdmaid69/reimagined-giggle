@@ -1,5 +1,7 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
