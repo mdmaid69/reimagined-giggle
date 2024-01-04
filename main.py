@@ -1,6 +1,8 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
