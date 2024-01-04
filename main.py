@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
