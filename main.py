@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_acceleration(speed, time):
-        return speed / time
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def split_path(path):
+        return os.path.split(path)
