@@ -1,7 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
