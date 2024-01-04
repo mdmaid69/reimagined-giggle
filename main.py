@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def convert_to_octal(n):
-        return oct(n)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
