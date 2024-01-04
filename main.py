@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
