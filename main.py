@@ -1,5 +1,8 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
