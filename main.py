@@ -1,5 +1,5 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
