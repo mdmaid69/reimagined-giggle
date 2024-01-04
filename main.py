@@ -1,6 +1,7 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
