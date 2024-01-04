@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def remove_duplicates(lst):
-        return list(set(lst))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
