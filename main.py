@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def convert_to_hex(n):
+        return hex(n)
