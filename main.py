@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def count_elements(lst):
+        return len(lst)
+def calculate_speed(distance, time):
+        return distance / time
