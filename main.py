@@ -1,5 +1,8 @@
-  def convert_to_octal(n):
-        return oct(n)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
