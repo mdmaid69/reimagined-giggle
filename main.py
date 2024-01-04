@@ -1,5 +1,6 @@
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
