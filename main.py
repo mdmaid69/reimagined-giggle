@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
