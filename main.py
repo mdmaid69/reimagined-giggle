@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_array_as_str(array):
+        return str(array)
+for i in range(10): print(i)
