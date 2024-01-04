@@ -1,6 +1,8 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
