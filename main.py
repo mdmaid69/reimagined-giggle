@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
