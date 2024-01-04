@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
