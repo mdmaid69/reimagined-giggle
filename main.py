@@ -1,8 +1,7 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
