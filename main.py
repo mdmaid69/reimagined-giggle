@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
