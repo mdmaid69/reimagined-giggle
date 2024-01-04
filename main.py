@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import getpass
-def get_username():
-        return getpass.getuser()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
