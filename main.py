@@ -1,5 +1,10 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
