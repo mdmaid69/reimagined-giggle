@@ -1,7 +1,5 @@
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
