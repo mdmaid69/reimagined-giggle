@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
