@@ -1,5 +1,6 @@
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
