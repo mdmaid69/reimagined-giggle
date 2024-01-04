@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
