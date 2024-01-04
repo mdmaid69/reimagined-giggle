@@ -1,5 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
