@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
