@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
