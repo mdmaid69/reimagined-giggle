@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
