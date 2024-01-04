@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
