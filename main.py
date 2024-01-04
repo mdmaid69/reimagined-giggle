@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
