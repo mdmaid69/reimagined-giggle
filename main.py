@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
