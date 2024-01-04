@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  def square_number(x):
-        return x**2
+def divide_numbers(x, y):
+        return x / y
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
