@@ -1,7 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_power(work, time):
+        return work / time
+  def convert_to_binary(n):
+        return bin(n)
