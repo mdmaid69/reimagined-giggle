@@ -1,6 +1,7 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
