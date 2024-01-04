@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import platform
-def get_python_version():
-        return platform.python_version()
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
