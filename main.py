@@ -1,5 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+name = "Python"
+print("Hello,", name)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
