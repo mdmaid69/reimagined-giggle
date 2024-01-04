@@ -1,5 +1,6 @@
+import array
+def get_list_from_array(array):
+        return array.tolist()
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def get_directory_name(path):
+        return os.path.dirname(path)
