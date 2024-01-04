@@ -1,3 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-print(sum(range(10)))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
