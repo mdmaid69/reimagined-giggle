@@ -1,5 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import os
-print(os.getcwd())
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import sys
+def print_python_version():
+        print(sys.version)
