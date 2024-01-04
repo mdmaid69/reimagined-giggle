@@ -1,6 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  def subtract_numbers(x, y):
+        return x - y
