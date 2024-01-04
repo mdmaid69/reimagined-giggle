@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
