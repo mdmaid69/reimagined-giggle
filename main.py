@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-from collections import Counter
-print(Counter("hello world"))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import collections
+def create_user_string():
+        return collections.UserString()
