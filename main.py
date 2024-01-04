@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  def remove_duplicates(lst):
-        return list(set(lst))
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_sine(x):
+        return math.sin(x)
