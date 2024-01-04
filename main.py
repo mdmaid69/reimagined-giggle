@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def subtract_numbers(x, y):
-        return x - y
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def is_even(n):
+        return n % 2 == 0
