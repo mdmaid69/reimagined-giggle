@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-for i in range(5):
-        print(i)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
