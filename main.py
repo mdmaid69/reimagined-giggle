@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def remove_duplicates(lst):
+        return list(set(lst))
