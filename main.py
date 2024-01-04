@@ -1,6 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
