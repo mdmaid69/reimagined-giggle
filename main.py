@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_pressure(force, area):
+        return force / area
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_slice(array, i, j):
+        return array[i:j]
