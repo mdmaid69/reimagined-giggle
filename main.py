@@ -1,5 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def add_numbers(x, y):
+        return x + y
