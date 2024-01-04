@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
