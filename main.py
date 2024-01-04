@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
