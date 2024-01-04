@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
