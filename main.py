@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def convert_to_binary(n):
+        return bin(n)
