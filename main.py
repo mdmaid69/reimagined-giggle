@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
