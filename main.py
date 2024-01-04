@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def reverse_list(lst):
+        return lst[::-1]
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
