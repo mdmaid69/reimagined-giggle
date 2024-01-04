@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
