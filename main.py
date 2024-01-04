@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
