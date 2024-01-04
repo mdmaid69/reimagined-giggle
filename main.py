@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_pressure(force, area):
+        return force / area
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_typecode(array):
+        return array.typecode
