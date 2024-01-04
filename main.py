@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
 import array
-def clear_array(array):
-        array *= 0
+def convert_array_to_string(array):
+        return array.tostring()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
