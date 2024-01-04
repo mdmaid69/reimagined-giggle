@@ -1,8 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
