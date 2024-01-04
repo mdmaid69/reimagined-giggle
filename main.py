@@ -1,4 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-def is_even(n):
-        return n % 2 == 0
+def remove_duplicates(lst):
+        return list(set(lst))
+def count_words(sentence):
+        return len(sentence.split())
