@@ -1,6 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import sys
+def print_python_version():
+        return sys.version
