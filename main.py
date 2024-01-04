@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
