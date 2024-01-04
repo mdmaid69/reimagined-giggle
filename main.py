@@ -1,4 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_power(work, time):
-        return work / time
+def count_characters(sentence):
+        return len(sentence)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
