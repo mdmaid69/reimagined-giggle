@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import array
+def get_list_from_array(array):
+        return array.tolist()
