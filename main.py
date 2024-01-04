@@ -1,5 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
