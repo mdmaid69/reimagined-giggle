@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def divide_numbers(x, y):
+        return x / y
