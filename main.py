@@ -1,6 +1,8 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
