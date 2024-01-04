@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def convert_to_octal(n):
+        return oct(n)
