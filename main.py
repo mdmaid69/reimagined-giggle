@@ -1,7 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
