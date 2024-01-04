@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
