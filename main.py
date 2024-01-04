@@ -1,6 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import sys
+  def get_python_version():
+        return sys.version
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+print(random.randint(0, 100))
