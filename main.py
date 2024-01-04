@@ -1,5 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  def multiply_numbers(x, y):
+        return x * y
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
