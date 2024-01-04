@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
