@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
