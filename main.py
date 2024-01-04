@@ -1,6 +1,5 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
