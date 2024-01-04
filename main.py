@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
