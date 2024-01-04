@@ -1,5 +1,7 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
