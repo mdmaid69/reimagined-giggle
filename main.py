@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
