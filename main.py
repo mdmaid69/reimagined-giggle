@@ -1,5 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
