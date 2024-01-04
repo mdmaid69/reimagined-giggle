@@ -1,6 +1,8 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import time
+def get_current_time():
+        return time.time()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
