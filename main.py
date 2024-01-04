@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
