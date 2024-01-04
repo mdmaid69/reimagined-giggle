@@ -1,6 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+print([x**2 for x in range(10)])
+import collections
+def create_user_string():
+        return collections.UserString()
