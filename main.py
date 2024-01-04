@@ -1,8 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
