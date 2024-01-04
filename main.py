@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import collections
+def create_user_string():
+        return collections.UserString()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
