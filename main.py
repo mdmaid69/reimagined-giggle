@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import sys
-def print_python_version():
-        print(sys.version)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
