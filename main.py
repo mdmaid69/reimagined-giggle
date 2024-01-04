@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
