@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
