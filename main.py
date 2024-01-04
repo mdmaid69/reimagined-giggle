@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_floor(x):
+        return math.floor(x)
