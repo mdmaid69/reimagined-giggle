@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
