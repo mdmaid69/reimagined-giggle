@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import collections
-def create_priority_queue():
-        return collections.deque()
+import tensorflow as tf
+print(tf.__version__)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
