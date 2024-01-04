@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import random
+print(random.randint(0, 100))
