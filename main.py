@@ -1,6 +1,7 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
