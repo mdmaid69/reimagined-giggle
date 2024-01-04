@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
