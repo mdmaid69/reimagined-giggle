@@ -1,5 +1,9 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
