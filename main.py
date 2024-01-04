@@ -1,7 +1,6 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-  def is_even(n):
-        return n % 2 == 0
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
