@@ -1,6 +1,7 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
