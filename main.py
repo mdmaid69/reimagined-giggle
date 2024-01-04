@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
