@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
