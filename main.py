@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
