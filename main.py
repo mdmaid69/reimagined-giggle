@@ -1,5 +1,7 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import sys
+def exit_program():
+        sys.exit()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
