@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
