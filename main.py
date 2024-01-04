@@ -1,5 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
