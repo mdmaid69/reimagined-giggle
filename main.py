@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
