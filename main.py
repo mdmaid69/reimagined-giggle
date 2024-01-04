@@ -1,5 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
