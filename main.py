@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import datetime
-print(datetime.datetime.now())
+  def multiply_numbers(x, y):
+        return x * y
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
