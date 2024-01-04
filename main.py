@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
