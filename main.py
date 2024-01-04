@@ -1,9 +1,8 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
 import array
-def get_array_from_file(filename, typecode):
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def convert_string_to_array(string, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.fromstring(string)
         return a
