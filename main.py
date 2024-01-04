@@ -1,7 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
+import time
+def get_current_time():
+        return time.time()
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def convert_array_to_bytes(array):
+        return array.tobytes()
