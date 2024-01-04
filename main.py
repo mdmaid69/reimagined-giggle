@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_density(mass, volume):
+        return mass / volume
