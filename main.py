@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
