@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def multiply_numbers(x, y):
+        return x * y
 import time
-def get_time_since_epoch():
+def get_current_time():
         return time.time()
