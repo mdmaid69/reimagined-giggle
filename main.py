@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
