@@ -1,5 +1,7 @@
-def square_number(x):
-        return x**2
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
