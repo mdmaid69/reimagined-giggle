@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
