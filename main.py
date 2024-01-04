@@ -1,6 +1,5 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import time
-def get_time_since_epoch():
-        return time.time()
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
