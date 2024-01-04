@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_acceleration(speed, time):
-        return speed / time
+def count_characters(sentence):
+        return len(sentence)
+import sys
+def exit_program():
+        sys.exit()
