@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def reverse_list(lst):
+        return lst[::-1]
