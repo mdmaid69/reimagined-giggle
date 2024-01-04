@@ -1,6 +1,9 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def convert_to_octal(n):
+        return oct(n)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
