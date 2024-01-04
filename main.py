@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
