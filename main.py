@@ -1,5 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
