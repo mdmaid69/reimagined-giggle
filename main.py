@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_floor(x):
+        return math.floor(x)
