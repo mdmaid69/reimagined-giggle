@@ -1,5 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
