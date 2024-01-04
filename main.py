@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
