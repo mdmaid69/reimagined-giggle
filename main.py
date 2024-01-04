@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def find_min(numbers):
+        return min(numbers)
