@@ -1,5 +1,7 @@
-def find_min(numbers):
-        return min(numbers)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
