@@ -1,4 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
