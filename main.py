@@ -1,8 +1,7 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def find_max(lst):
+        return max(lst)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
