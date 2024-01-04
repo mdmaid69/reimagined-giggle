@@ -1,6 +1,5 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
