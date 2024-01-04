@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
