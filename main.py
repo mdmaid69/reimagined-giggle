@@ -1,5 +1,5 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def reverse_string(s):
-        return s[::-1]
+def get_array_typecode(array):
+        return array.typecode
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
