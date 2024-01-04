@@ -1,5 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
