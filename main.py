@@ -1,5 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
