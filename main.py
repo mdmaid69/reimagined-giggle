@@ -1,5 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
