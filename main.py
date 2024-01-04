@@ -1,5 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
