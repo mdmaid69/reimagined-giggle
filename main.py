@@ -1,6 +1,9 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def get_array_as_list(array):
-        return list(array)
+def remove_from_array(array, item):
+        array.remove(item)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
