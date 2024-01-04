@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def is_even(n):
-        return n % 2 == 0
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
