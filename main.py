@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import collections
-def create_stack():
-        return collections.deque()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
