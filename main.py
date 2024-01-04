@@ -1,5 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
