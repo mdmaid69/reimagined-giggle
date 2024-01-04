@@ -1,6 +1,5 @@
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def get_array_typecode(array):
+        return array.typecode
