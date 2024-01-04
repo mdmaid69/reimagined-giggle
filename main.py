@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def square_number(x):
+        return x**2
