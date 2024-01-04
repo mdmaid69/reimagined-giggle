@@ -1,6 +1,7 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
