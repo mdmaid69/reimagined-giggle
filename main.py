@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
