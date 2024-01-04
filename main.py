@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
