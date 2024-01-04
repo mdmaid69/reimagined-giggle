@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
