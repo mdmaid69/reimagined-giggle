@@ -1,6 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import sys
+def exit_program():
+        sys.exit()
