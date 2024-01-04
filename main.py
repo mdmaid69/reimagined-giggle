@@ -1,6 +1,8 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import time
+def get_current_time():
+        return time.time()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
