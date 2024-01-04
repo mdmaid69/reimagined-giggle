@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
