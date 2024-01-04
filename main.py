@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
