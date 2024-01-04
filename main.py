@@ -1,5 +1,12 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
