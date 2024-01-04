@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
 import math
-def calculate_floor(x):
-        return math.floor(x)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
