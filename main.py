@@ -1,6 +1,6 @@
 import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import sys
-def print_python_version():
-        return sys.version
+def get_time_since_epoch():
+        return time.time()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
