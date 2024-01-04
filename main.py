@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  def sort_list(lst):
+        return sorted(lst)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
