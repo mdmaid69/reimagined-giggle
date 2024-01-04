@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_work(force, distance):
+        return force * distance
