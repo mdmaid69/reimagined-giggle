@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
