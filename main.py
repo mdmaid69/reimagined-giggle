@@ -1,8 +1,4 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def convert_to_binary(n):
+        return bin(n)
