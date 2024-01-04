@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_work(force, distance):
-        return force * distance
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
