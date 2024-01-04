@@ -1,12 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
