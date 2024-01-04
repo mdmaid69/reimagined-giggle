@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def convert_array_to_list(array):
+        return array.tolist()
