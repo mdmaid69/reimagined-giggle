@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
