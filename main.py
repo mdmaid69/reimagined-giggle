@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  import sys
+  def get_python_version():
+        return sys.version
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
