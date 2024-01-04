@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def convert_array_to_list(array):
+        return array.tolist()
+  def sort_list(lst):
+        return sorted(lst)
