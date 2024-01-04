@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
