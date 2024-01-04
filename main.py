@@ -1,5 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_power(work, time):
+        return work / time
+  def multiply_numbers(x, y):
+        return x * y
