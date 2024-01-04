@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
