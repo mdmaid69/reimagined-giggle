@@ -1,5 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  def convert_to_hex(n):
+        return hex(n)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
