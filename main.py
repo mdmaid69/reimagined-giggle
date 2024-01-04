@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
