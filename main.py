@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def clear_array(array):
+        array *= 0
