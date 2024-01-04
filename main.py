@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import random
+print(random.randint(0, 100))
