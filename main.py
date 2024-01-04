@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def multiply_numbers(x, y):
-        return x * y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_floor(x):
+        return math.floor(x)
