@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def append_to_array(array, item):
-        array.append(item)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
