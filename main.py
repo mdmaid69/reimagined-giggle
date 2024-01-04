@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
