@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
