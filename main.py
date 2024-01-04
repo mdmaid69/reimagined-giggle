@@ -1,8 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
