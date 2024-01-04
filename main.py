@@ -1,5 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
