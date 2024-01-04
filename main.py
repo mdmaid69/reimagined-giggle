@@ -1,6 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
