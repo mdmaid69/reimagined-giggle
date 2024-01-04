@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import array
-def get_array_as_str(array):
-        return str(array)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
