@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import os
+def change_working_directory(path):
+        os.chdir(path)
