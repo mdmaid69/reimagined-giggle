@@ -1,6 +1,5 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def check_if_array_contains_item(array, item):
+        return item in array
+def reverse_list(lst):
+        return lst[::-1]
