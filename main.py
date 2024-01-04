@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+x = 10
+y = 20
+print("Sum:", x + y)
