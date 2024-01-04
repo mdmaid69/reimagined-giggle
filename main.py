@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
