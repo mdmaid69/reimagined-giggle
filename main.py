@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
