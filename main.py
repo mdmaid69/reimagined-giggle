@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
