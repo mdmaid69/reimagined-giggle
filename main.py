@@ -1,7 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import getpass
+def get_username():
+        return getpass.getuser()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
