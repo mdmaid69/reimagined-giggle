@@ -1,5 +1,7 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def find_max(lst):
+        return max(lst)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
