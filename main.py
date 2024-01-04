@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+text = "Hello, world!"
+print("Words:", len(text.split()))
