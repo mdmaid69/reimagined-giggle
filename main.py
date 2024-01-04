@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
