@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-text = "Hello, world!"
-print("Characters:", len(text))
+import collections
+def create_user_list():
+        return collections.UserList()
+import tensorflow as tf
+print(tf.__version__)
