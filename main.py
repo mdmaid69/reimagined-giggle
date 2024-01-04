@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
