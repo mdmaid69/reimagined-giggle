@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_volume(length, width, height):
+        return length * width * height
