@@ -1,5 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
