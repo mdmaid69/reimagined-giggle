@@ -1,6 +1,12 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_length(array):
-        return len(array)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
