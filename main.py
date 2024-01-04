@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
