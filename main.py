@@ -1,5 +1,8 @@
-def reverse_list(lst):
-        return lst[::-1]
-import sys
-def print_python_version():
-        return sys.version
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
