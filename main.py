@@ -1,6 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
