@@ -1,5 +1,7 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
