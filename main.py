@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_work(force, distance):
-        return force * distance
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
