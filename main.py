@@ -1,5 +1,12 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
