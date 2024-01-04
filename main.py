@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-print(math.pi)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def sort_numbers(numbers):
+        return sorted(numbers)
