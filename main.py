@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_work(force, distance):
+        return force * distance
