@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import datetime
+print(datetime.datetime.now())
+import array
+def get_array_index(array, item):
+        return array.index(item)
