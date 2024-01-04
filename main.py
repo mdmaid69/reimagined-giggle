@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
