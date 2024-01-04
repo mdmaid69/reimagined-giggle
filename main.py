@@ -1,6 +1,8 @@
-import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
