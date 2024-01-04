@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import sys
+print(sys.version)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
