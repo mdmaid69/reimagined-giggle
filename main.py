@@ -1,7 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import collections
+def create_counter():
+        return collections.Counter()
