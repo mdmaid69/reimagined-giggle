@@ -1,6 +1,7 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
