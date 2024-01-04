@@ -1,5 +1,9 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
