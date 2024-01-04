@@ -1,7 +1,6 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
