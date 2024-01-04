@@ -1,5 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  def count_elements(lst):
-        return len(lst)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_force(mass, acceleration):
+        return mass * acceleration
