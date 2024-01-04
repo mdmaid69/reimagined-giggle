@@ -1,5 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
