@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import array
+def get_array_item(array, i):
+        return array[i]
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
