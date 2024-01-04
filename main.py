@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
