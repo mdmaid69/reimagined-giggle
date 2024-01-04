@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
