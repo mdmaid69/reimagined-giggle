@@ -1,5 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
