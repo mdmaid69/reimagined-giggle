@@ -1,4 +1,7 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def is_palindrome(s):
+        return s == s[::-1]
