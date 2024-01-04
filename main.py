@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def greet(name):
+        print(f"Hello, {name}!")
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
