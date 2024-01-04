@@ -1,6 +1,8 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
