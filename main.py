@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_array_item(array, i):
+        return array[i]
