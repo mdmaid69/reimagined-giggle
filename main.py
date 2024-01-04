@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def get_array_length(array):
+        return len(array)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
