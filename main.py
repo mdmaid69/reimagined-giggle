@@ -1,6 +1,7 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
