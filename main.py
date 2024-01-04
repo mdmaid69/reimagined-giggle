@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
