@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
