@@ -1,4 +1,7 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import os
-print(os.getcwd())
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
