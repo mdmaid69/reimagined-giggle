@@ -1,5 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
