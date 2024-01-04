@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
