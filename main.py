@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import collections
-def create_stack():
-        return collections.deque()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+  def calculate_area_rectangle(l, w):
+        return l * w
