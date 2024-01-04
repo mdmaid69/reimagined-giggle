@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
