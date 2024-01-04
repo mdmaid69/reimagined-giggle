@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
