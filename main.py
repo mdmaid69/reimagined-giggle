@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
