@@ -1,5 +1,10 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
