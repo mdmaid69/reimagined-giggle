@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def convert_to_hex(n):
+        return hex(n)
