@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
