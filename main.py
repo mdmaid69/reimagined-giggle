@@ -1,5 +1,7 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
