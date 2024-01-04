@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+text = "Hello, world!"
+print("Characters:", len(text))
