@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
