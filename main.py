@@ -1,5 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  def square_number(x):
-        return x**2
+  def cube_number(x):
+        return x**3
+def find_max(numbers):
+        return max(numbers)
