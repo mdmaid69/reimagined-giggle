@@ -1,6 +1,6 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_array_item_count(array, item):
+        return array.count(item)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
