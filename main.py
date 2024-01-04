@@ -1,7 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
