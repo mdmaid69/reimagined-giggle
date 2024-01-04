@@ -1,7 +1,5 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_area(radius):
+        return 3.14 * radius * radius
