@@ -1,11 +1,5 @@
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
 import array
-def get_array_length(array):
-        return len(array)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def get_string_from_array(array):
+        return array.tobytes()
