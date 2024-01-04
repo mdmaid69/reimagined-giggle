@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
