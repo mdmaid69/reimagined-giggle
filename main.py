@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
