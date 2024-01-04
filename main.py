@@ -1,4 +1,8 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-for i in range(10): print(i)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
