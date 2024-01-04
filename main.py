@@ -1,4 +1,8 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def find_max(lst):
-        return max(lst)
+import sys
+def print_python_version():
+        print(sys.version)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
