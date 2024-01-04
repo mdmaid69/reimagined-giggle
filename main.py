@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
