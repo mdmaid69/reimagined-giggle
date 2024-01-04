@@ -1,5 +1,7 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def divide_numbers(x, y):
+        return x / y
