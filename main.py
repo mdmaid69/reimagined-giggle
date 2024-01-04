@@ -1,6 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def roll_die():
+        return random.randint(1, 6)
+import sys
+def print_python_version():
+        print(sys.version)
