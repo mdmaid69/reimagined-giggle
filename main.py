@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def sort_list(lst):
+        return sorted(lst)
