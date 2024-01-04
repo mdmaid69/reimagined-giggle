@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-  def add_numbers(x, y):
-        return x + y
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
