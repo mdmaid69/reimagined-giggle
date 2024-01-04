@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-for i in range(5):
-        print(i)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
