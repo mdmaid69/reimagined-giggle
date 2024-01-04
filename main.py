@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
