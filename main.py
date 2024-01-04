@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def find_min(lst):
+        return min(lst)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
