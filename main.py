@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def divide_numbers(x, y):
-        return x / y
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import random
+print(random.randint(0, 100))
