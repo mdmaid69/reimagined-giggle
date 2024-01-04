@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-name = "Python"
-print("Hello,", name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_floor(x):
+        return math.floor(x)
