@@ -1,4 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
