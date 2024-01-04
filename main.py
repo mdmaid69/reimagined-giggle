@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  def square_number(x):
+        return x**2
