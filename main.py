@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
