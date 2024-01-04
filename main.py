@@ -1,5 +1,4 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def multiply_numbers(x, y):
+        return x * y
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
