@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def calculate_density(mass, volume):
+        return mass / volume
