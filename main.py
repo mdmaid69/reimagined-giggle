@@ -1,4 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
