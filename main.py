@@ -1,6 +1,8 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
