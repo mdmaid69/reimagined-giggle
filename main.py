@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
