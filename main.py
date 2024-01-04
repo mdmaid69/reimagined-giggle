@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
