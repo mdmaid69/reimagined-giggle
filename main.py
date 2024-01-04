@@ -1,4 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def count_characters(sentence):
+        return len(sentence)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
