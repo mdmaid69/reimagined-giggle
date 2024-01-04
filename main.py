@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
