@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_density(mass, volume):
-        return mass / volume
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
