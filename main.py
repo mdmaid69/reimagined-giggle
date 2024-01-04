@@ -1,5 +1,8 @@
-def convert_to_hex(n):
-        return hex(n)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
