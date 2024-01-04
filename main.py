@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import sys
+print(sys.version)
+def calculate_pressure(force, area):
+        return force / area
