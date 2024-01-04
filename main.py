@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
