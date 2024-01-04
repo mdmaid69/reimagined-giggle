@@ -1,6 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def append_to_array(array, item):
-        array.append(item)
+print(sum(range(10)))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
