@@ -1,6 +1,6 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import time
-def get_current_time():
-        return time.time()
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
