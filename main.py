@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_area_circle(r):
+        return 3.14 * r**2
