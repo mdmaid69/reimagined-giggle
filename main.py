@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def add_numbers(a, b):
-        return a + b
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
