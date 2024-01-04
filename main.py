@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def get_array_as_set(array):
-        return set(array)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def find_unique_words(sentence):
+        return set(sentence.split())
