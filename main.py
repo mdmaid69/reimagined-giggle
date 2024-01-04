@@ -1,5 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def find_max(numbers):
-        return max(numbers)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
