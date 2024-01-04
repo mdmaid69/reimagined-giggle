@@ -1,6 +1,8 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
