@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
