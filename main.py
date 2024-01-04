@@ -1,6 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
