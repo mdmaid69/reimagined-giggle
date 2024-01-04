@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
