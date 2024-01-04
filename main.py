@@ -1,6 +1,8 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_length(array):
+        return len(array)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
