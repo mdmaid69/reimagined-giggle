@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
