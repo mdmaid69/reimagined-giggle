@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def is_palindrome(s):
+        return s == s[::-1]
