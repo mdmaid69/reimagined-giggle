@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
