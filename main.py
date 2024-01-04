@@ -1,4 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-for i in range(10): print(i)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
