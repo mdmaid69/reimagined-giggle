@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
