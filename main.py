@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
