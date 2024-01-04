@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+for i in range(5):
+        print(i)
