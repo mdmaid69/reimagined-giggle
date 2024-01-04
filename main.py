@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
