@@ -1,10 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import collections
+def create_counter():
+        return collections.Counter()
