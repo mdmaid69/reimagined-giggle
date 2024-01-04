@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
