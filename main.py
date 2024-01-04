@@ -1,6 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  def convert_to_octal(n):
+        return oct(n)
+import time
+print(time.time())
