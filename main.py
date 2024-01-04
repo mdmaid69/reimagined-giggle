@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
