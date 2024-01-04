@@ -1,6 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
