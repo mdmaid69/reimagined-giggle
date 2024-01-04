@@ -1,6 +1,5 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import re
+print(re.match("h.*o", "hello world"))
