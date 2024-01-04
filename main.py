@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
