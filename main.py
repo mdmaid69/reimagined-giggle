@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
