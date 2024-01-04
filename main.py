@@ -1,6 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
