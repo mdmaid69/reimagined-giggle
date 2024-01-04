@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def get_array_item(array, i):
+        return array[i]
