@@ -1,5 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def greet(name):
-        print(f"Hello, {name}!")
+def sort_numbers(numbers):
+        return sorted(numbers)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
