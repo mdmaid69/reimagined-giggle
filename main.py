@@ -1,6 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
