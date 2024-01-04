@@ -1,4 +1,3 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import re
-print(re.match("h.*o", "hello world"))
+print([x**2 for x in range(10)])
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
