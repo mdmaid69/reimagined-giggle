@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
