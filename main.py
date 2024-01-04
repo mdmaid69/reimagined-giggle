@@ -1,6 +1,7 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
