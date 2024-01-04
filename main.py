@@ -1,7 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
