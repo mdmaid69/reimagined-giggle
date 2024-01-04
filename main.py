@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
