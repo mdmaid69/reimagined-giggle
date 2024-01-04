@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import sys
+print(sys.version)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
