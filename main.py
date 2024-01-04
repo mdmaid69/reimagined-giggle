@@ -1,11 +1,4 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
