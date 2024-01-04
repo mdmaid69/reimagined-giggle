@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
