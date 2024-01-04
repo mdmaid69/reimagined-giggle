@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
