@@ -1,5 +1,6 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
