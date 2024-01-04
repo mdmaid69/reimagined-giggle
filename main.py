@@ -1,5 +1,7 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-def count_characters(sentence):
-        return len(sentence)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
