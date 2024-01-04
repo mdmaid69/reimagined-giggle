@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
