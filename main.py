@@ -1,6 +1,7 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import time
-def get_current_time():
-        return time.ctime()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
