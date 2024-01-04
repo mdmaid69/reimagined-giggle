@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
