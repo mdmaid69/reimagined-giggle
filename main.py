@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_density(mass, volume):
+        return mass / volume
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
