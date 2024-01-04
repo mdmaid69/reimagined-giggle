@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import sys
+def print_python_version():
+        print(sys.version)
+import sys
+def exit_program():
+        sys.exit()
