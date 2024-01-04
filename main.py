@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def sort_list(lst):
-        return sorted(lst)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def get_array_index(array, item):
+        return array.index(item)
