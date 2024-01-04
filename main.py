@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  def is_odd(n):
+        return n % 2 != 0
