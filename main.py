@@ -1,10 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def count_words(sentence):
+        return len(sentence.split())
