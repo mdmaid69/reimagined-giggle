@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
