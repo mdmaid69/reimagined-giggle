@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
