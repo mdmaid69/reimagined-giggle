@@ -1,5 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def add_numbers(a, b):
-        return a + b
+def multiply_numbers(x, y):
+        return x * y
+  def remove_duplicates(lst):
+        return list(set(lst))
