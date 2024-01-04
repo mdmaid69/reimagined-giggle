@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
