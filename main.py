@@ -1,5 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def cube_number(x):
+        return x**3
