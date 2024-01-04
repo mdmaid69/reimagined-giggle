@@ -1,5 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def square_number(x):
-        return x**2
+def extend_array(array, iterable):
+        array.extend(iterable)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
