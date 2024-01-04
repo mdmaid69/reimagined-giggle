@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
