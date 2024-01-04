@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def convert_to_octal(n):
+        return oct(n)
