@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_speed(distance, time):
+        return distance / time
