@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_bytes(array):
+        return bytes(array)
