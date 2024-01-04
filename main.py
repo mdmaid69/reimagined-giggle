@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
