@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import platform
+def get_os_info():
+        return platform.uname()
