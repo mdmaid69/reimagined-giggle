@@ -1,4 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def multiply_numbers(x, y):
-        return x * y
+import platform
+def get_os_info():
+        return platform.uname()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
