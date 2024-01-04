@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
