@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def add_numbers(a, b):
+        return a + b
