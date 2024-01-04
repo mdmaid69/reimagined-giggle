@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
