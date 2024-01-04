@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
