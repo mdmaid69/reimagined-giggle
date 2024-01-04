@@ -1,6 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def sort_list(lst):
+        return sorted(lst)
