@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
