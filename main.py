@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_speed(distance, time):
+        return distance / time
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
