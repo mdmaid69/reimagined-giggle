@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
