@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import array
-def reverse_array(array):
-        array.reverse()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
