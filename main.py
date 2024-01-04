@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import random
+def roll_die():
+        return random.randint(1, 6)
