@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def convert_to_octal(n):
-        return oct(n)
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_array_length(array):
+        return len(array)
