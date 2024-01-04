@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
