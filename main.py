@@ -1,4 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-print(sum(range(10)))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
