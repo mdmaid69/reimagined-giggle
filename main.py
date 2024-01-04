@@ -1,10 +1,6 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
