@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import time
-print(time.time())
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def is_odd(n):
+        return n % 2 != 0
