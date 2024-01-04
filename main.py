@@ -1,6 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-print([x**2 for x in range(10)])
+import collections
+def create_counter():
+        return collections.Counter()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
