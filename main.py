@@ -1,6 +1,8 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import platform
+def get_os_info():
+        return platform.uname()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
