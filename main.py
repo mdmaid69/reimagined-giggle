@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
