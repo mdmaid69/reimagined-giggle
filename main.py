@@ -1,7 +1,6 @@
-import random
-print(random.randint(0, 100))
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
