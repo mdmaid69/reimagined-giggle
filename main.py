@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def multiply_numbers(x, y):
-        return x * y
+def is_palindrome(s):
+        return s == s[::-1]
+import os
+def get_current_working_directory():
+        return os.getcwd()
