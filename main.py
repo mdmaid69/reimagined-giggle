@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def get_array_as_list(array):
-        return list(array)
+import getpass
+def get_username():
+        return getpass.getuser()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
