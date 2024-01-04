@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
