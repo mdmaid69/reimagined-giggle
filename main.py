@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
