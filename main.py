@@ -1,6 +1,3 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def remove_duplicates(lst):
+        return list(set(lst))
+print([x**2 for x in range(10)])
