@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  def square_number(x):
-        return x**2
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
