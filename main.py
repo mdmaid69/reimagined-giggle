@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def add_numbers(x, y):
-        return x + y
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
