@@ -1,4 +1,6 @@
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-for i in range(10): print(i)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
