@@ -1,7 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
