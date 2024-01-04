@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import datetime
+def get_today_date():
+        return datetime.date.today()
