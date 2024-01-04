@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import array
-def get_array_as_set(array):
-        return set(array)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
