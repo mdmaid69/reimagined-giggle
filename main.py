@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import platform
-def get_python_version():
-        return platform.python_version()
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
