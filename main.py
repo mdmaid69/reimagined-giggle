@@ -1,4 +1,8 @@
-def is_even(n):
-        return n % 2 == 0
-  def calculate_area_rectangle(l, w):
-        return l * w
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
