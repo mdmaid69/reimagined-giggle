@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
