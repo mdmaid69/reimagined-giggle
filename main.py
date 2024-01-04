@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
+import sys
+def print_python_version():
+        print(sys.version)
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
