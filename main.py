@@ -1,6 +1,7 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
