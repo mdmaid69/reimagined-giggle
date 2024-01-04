@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_average(lst):
+        return sum(lst) / len(lst)
