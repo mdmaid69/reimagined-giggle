@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
