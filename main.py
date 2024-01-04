@@ -1,6 +1,8 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import sys
+def exit_program():
+        sys.exit()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
