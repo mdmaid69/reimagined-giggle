@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
