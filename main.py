@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
