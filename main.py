@@ -1,6 +1,5 @@
+def count_elements(lst):
+        return len(lst)
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_arc_tangent(x):
+        return math.atan(x)
