@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
