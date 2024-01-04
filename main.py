@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import collections
+def create_queue():
+        return collections.deque()
