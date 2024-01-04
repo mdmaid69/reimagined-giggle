@@ -1,4 +1,10 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def square_number(x):
+        return x**2
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
