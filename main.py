@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
