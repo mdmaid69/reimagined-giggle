@@ -1,5 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
