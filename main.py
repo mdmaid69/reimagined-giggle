@@ -1,5 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
