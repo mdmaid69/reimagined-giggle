@@ -1,5 +1,3 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-name = "Python"
-print("Hello,", name)
+print("Hello, world!")
+  def reverse_list(lst):
+        return lst[::-1]
