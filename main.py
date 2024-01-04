@@ -1,6 +1,8 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
