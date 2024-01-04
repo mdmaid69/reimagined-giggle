@@ -1,7 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  def sort_list(lst):
+        return sorted(lst)
