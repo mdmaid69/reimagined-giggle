@@ -1,6 +1,6 @@
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import platform
-def get_python_version():
-        return platform.python_version()
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
