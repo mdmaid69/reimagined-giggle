@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def subtract_numbers(x, y):
-        return x - y
+import time
+def get_current_time():
+        return time.ctime()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
