@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
