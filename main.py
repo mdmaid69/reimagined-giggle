@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
