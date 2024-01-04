@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def subtract_numbers(x, y):
+        return x - y
