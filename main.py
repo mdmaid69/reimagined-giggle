@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import sys
+def print_python_version():
+        return sys.version
