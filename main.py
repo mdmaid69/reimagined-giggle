@@ -1,9 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_speed(distance, time):
+        return distance / time
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
