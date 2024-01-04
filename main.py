@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
 import sys
-def print_python_version():
-        print(sys.version)
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
