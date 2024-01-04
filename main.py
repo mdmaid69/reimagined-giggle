@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-name = "Python"
-print("Hello,", name)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
