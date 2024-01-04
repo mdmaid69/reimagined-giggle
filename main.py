@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import re
+print(re.match("h.*o", "hello world"))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
