@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
