@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
