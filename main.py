@@ -1,8 +1,4 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+name = "Python"
+print("Hello,", name)
