@@ -1,6 +1,11 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
