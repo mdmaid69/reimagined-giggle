@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
