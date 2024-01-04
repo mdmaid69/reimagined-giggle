@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
