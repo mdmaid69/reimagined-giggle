@@ -1,6 +1,11 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
