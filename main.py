@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
