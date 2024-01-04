@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
