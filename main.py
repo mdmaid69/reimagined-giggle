@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import time
-def get_current_time():
-        return time.time()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
