@@ -1,5 +1,8 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def square_number(x):
-        return x**2
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
