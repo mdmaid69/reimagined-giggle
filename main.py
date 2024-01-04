@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import sys
+def print_python_version():
+        return sys.version
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
