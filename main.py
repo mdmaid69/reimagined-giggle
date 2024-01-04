@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
