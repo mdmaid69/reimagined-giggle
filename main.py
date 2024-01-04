@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def get_array_typecode(array):
+        return array.typecode
