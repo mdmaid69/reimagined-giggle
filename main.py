@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def find_min(numbers):
+        return min(numbers)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
