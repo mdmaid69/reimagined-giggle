@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
