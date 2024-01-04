@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
