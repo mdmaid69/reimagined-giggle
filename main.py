@@ -1,5 +1,11 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def remove_duplicates(lst):
-        return list(set(lst))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
