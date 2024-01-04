@@ -1,4 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def reverse_list(lst):
+        return lst[::-1]
