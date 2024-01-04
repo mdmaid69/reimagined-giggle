@@ -1,5 +1,7 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
