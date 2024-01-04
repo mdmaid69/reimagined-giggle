@@ -1,5 +1,6 @@
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
