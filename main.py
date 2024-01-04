@@ -1,6 +1,9 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
