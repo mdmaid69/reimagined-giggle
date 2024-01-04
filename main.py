@@ -1,8 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import collections
-def create_user_list():
-        return collections.UserList()
+import os
+print(os.getcwd())
+  def count_elements(lst):
+        return len(lst)
