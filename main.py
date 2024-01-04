@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def sort_list(lst):
-        return sorted(lst)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
