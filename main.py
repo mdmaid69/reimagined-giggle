@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  def convert_to_octal(n):
-        return oct(n)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
