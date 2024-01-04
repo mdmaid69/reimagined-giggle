@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
