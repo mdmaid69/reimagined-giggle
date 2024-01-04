@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import array
-def get_array_as_str(array):
-        return str(array)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
