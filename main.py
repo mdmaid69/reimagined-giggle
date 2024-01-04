@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
