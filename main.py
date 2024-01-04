@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def remove_duplicates(lst):
+        return list(set(lst))
