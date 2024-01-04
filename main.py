@@ -1,6 +1,7 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
 import array
-def get_array_as_str(array):
-        return str(array)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
