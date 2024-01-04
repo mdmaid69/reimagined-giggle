@@ -1,6 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import collections
-def create_stack():
-        return collections.deque()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_area_rectangle(l, w):
+        return l * w
