@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-print(math.pi)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
