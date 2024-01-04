@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
