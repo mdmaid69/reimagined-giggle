@@ -1,6 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
