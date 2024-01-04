@@ -1,7 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+x = 10
+y = 20
+print("Sum:", x + y)
+  def square_number(x):
+        return x**2
