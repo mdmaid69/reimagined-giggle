@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  def square_number(x):
-        return x**2
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_floor(x):
+        return math.floor(x)
