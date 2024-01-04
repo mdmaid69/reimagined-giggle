@@ -1,5 +1,8 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
