@@ -1,6 +1,11 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
