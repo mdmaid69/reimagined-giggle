@@ -1,6 +1,6 @@
 import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import array
-def clear_array(array):
-        array *= 0
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
