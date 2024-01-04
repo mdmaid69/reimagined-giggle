@@ -1,8 +1,4 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import os
-print(os.getcwd())
+def remove_duplicates(lst):
+        return list(set(lst))
+  def subtract_numbers(x, y):
+        return x - y
