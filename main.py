@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import time
+def get_current_time():
+        return time.ctime()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
