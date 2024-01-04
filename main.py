@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
