@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
 import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+print(list(itertools.permutations([1, 2, 3])))
