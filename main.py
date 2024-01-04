@@ -1,6 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def sort_list(lst):
+        return sorted(lst)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
