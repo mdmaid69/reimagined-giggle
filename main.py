@@ -1,5 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
