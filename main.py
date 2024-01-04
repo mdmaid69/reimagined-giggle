@@ -1,5 +1,8 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def calculate_area_rectangle(l, w):
-        return l * w
+  def get_current_directory():
+        return os.getcwd()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
