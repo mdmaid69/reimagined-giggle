@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
