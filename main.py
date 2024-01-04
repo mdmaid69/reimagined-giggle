@@ -1,6 +1,5 @@
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
