@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
