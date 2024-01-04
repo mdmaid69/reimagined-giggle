@@ -1,6 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import re
+print(re.match("h.*o", "hello world"))
+text = "Hello, world!"
+print("Characters:", len(text))
