@@ -1,5 +1,7 @@
-def divide_numbers(x, y):
-        return x / y
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
