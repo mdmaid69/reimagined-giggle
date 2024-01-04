@@ -1,5 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
