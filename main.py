@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
