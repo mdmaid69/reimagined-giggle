@@ -1,4 +1,7 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
