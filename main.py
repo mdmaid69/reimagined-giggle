@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
