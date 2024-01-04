@@ -1,6 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+text = "Hello, world!"
+print("Words:", len(text.split()))
