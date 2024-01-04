@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def divide_numbers(x, y):
+        return x / y
+  import sys
+  def get_python_version():
+        return sys.version
