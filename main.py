@@ -1,3 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-print([x**2 for x in range(10)])
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_area(radius):
+        return 3.14 * radius * radius
