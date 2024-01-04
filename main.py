@@ -1,5 +1,5 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def get_array_as_set(array):
+        return set(array)
+def calculate_power(work, time):
+        return work / time
