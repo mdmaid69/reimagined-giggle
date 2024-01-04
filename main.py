@@ -1,5 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import logging
+def log_message(message):
+        logging.info(message)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
