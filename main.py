@@ -1,5 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
