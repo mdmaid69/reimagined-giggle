@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
