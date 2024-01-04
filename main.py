@@ -1,4 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-for i in range(10): print(i)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
