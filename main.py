@@ -1,5 +1,7 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
