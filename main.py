@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
