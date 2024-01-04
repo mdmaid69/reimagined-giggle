@@ -1,7 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
