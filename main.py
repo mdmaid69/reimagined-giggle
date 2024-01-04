@@ -1,5 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def convert_to_octal(n):
+        return oct(n)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
