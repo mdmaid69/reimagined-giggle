@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
