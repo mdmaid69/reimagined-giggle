@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_pressure(force, area):
+        return force / area
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
