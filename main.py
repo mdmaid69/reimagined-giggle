@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
