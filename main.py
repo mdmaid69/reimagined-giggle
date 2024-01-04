@@ -1,5 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def count_characters(sentence):
+        return len(sentence)
+def calculate_acceleration(speed, time):
+        return speed / time
