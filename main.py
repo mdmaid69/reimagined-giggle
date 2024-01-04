@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
