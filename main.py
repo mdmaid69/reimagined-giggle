@@ -1,6 +1,12 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import array
+def get_array_as_list(array):
+        return list(array)
