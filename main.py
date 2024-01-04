@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def greet(name):
+        print(f"Hello, {name}!")
