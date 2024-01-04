@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_power(work, time):
-        return work / time
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
