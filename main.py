@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
