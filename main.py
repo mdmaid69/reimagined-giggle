@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def is_even(n):
+        return n % 2 == 0
