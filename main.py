@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import sys
+def exit_program():
+        sys.exit()
