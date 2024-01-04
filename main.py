@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_directory_name(path):
+        return os.path.dirname(path)
