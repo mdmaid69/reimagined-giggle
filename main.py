@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
