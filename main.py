@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
