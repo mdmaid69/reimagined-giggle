@@ -1,5 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def calculate_acceleration(speed, time):
-        return speed / time
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_current_directory():
+        return os.getcwd()
