@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_density(mass, volume):
+        return mass / volume
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
