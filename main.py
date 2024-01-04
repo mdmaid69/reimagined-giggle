@@ -1,8 +1,7 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
