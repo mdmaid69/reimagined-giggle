@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def find_min(lst):
-        return min(lst)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
