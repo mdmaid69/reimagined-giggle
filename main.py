@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import sys
-def exit_program():
-        sys.exit()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
