@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import collections
+def create_priority_queue():
+        return collections.deque()
