@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
