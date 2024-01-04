@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
