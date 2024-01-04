@@ -1,5 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import collections
-def create_counter():
-        return collections.Counter()
+import re
+print(re.match("h.*o", "hello world"))
+import json
+print(json.dumps({"name": "John", "age": 30}))
