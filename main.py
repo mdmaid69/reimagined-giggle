@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
