@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def reverse_string(s):
-        return s[::-1]
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
