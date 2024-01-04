@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def reverse_list(lst):
+        return lst[::-1]
