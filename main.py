@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
