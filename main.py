@@ -1,5 +1,8 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def greet(name):
-        print(f"Hello, {name}!")
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
