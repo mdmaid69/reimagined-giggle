@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
