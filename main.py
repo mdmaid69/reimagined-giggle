@@ -1,5 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
