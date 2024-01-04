@@ -1,5 +1,7 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
