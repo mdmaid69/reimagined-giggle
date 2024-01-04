@@ -1,4 +1,4 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+for i in range(10): print(i)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
