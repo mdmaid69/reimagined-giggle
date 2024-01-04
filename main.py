@@ -1,5 +1,8 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import os
-print(os.getcwd())
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
