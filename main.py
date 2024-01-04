@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
