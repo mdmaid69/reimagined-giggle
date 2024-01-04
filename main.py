@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
