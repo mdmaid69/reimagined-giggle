@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
