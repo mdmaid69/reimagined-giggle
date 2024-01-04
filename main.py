@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
