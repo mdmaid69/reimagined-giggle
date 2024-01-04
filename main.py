@@ -1,5 +1,7 @@
-  def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
