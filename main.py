@@ -1,5 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def cube_number(x):
-        return x**3
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
