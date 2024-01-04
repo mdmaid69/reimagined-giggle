@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
