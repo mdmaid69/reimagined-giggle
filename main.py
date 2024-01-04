@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def multiply_numbers(x, y):
-        return x * y
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
