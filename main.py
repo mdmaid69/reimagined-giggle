@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
