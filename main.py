@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def greet(name):
+        print(f"Hello, {name}!")
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
