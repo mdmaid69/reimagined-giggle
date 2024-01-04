@@ -1,4 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-print("Hello, world!")
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
