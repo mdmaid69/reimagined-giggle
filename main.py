@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
