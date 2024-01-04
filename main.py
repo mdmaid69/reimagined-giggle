@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def clear_array(array):
+        array *= 0
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
