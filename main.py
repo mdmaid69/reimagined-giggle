@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
