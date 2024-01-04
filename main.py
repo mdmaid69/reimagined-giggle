@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def convert_to_octal(n):
+        return oct(n)
