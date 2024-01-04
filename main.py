@@ -1,7 +1,4 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_pressure(force, area):
+        return force / area
+  def remove_duplicates(lst):
+        return list(set(lst))
