@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  def sort_list(lst):
+        return sorted(lst)
