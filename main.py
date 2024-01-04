@@ -1,6 +1,4 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
