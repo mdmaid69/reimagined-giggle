@@ -1,5 +1,4 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
