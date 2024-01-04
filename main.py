@@ -1,6 +1,9 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def is_palindrome(s):
+        return s == s[::-1]
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
