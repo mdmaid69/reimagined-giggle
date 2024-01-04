@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
