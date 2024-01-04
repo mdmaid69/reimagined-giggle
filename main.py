@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
