@@ -1,4 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def remove_duplicates(lst):
-        return list(set(lst))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
