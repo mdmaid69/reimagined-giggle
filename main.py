@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
