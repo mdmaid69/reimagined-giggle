@@ -1,9 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
