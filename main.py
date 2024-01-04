@@ -1,6 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+from collections import Counter
+print(Counter("hello world"))
