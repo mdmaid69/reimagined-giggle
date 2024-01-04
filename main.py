@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
