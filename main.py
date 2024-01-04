@@ -1,5 +1,11 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
