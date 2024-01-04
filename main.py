@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
