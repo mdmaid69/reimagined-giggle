@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import time
+def get_time_since_epoch():
+        return time.time()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
