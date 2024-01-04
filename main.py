@@ -1,6 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def cube_number(x):
+        return x**3
+def is_even(n):
+        return n % 2 == 0
