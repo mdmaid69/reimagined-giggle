@@ -1,5 +1,9 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import collections
+def create_stack():
+        return collections.deque()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
