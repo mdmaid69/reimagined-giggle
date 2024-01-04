@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def reverse_array(array):
+        array.reverse()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
