@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
