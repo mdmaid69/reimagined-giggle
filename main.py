@@ -1,4 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def divide_numbers(x, y):
+        return x / y
+import sys
+def print_python_version():
+        return sys.version
