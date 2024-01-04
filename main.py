@@ -1,4 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-name = "Python"
-print("Hello,", name)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def find_max(lst):
+        return max(lst)
