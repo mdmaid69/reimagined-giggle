@@ -1,8 +1,8 @@
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
 import array
-def convert_string_to_array(string, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.frombytes(bytes)
         return a
