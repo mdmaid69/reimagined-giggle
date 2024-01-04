@@ -1,7 +1,8 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
