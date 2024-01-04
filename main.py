@@ -1,5 +1,6 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
