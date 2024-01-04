@@ -1,5 +1,9 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+i = 0
+while i < 5:
+        print(i)
+        i += 1
