@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
