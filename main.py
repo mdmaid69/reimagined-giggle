@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_as_set(array):
-        return set(array)
+def reverse_list(lst):
+        return lst[::-1]
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
