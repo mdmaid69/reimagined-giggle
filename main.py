@@ -1,5 +1,4 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
