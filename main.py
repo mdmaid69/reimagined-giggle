@@ -1,6 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
