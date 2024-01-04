@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import os
+def get_current_working_directory():
+        return os.getcwd()
