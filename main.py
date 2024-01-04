@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
