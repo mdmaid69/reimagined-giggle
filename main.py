@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
