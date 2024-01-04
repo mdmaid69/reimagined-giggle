@@ -1,5 +1,8 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_complex(array):
+        return complex(array[0])
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
