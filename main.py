@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
