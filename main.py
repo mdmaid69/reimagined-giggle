@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
