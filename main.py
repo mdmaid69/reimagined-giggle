@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_work(force, distance):
+        return force * distance
+import array
+def set_array_item(array, i, item):
+        array[i] = item
