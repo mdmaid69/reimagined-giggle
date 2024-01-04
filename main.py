@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
