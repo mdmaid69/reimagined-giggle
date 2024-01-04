@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
