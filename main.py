@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_as_list(array):
+        return list(array)
+import array
+def get_array_as_repr(array):
+        return repr(array)
