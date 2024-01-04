@@ -1,5 +1,8 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+def calculate_acceleration(speed, time):
+        return speed / time
