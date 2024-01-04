@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
