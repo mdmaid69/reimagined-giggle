@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def greet(name):
-        print(f"Hello, {name}!")
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
