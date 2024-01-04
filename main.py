@@ -1,8 +1,7 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
