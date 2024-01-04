@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
