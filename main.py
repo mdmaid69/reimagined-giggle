@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
