@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
