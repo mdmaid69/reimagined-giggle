@@ -1,5 +1,4 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def find_min(numbers):
-        return min(numbers)
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_force(mass, acceleration):
+        return mass * acceleration
