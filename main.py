@@ -1,5 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_pressure(force, area):
+        return force / area
+def subtract_numbers(x, y):
+        return x - y
