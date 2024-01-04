@@ -1,8 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
