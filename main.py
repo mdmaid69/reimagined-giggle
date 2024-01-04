@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
