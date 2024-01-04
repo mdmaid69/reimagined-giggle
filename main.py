@@ -1,6 +1,5 @@
+def find_max(lst):
+        return max(lst)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_cosine(x):
+        return math.cos(x)
