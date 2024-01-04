@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
