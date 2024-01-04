@@ -1,4 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import random
+print(random.randint(0, 100))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
