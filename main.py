@@ -1,6 +1,6 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
