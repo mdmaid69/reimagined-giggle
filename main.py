@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
