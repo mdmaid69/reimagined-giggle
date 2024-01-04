@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import sys
+def exit_program():
+        sys.exit()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
