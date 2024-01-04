@@ -1,5 +1,7 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
