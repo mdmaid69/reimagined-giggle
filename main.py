@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
