@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import time
+def get_current_time():
+        return time.time()
