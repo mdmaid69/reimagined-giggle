@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-for i in range(5):
-        print(i)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
