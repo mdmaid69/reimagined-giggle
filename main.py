@@ -1,6 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-import platform
-def get_os_info():
-        return platform.uname()
+import datetime
+print(datetime.datetime.now())
+def reverse_list(lst):
+        return lst[::-1]
