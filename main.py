@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def count_elements(lst):
+        return len(lst)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
