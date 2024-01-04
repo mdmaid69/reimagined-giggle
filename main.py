@@ -1,7 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
