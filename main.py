@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
