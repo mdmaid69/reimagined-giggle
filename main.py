@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
