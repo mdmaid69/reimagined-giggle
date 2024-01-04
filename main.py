@@ -1,5 +1,7 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def count_characters(sentence):
+        return len(sentence)
