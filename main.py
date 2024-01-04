@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
