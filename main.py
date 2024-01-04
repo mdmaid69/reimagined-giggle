@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
