@@ -1,6 +1,5 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
