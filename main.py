@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import numpy as np
+print(np.array([1, 2, 3]))
