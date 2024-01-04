@@ -1,12 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_area(radius):
+        return 3.14 * radius * radius
