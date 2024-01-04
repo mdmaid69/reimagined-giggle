@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_area_circle(r):
+        return 3.14 * r**2
