@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
