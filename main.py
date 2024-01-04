@@ -1,5 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_density(mass, volume):
-        return mass / volume
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
