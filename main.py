@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import tensorflow as tf
+print(tf.__version__)
