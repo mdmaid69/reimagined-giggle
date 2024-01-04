@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
