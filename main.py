@@ -1,7 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def reverse_string(s):
+        return s[::-1]
