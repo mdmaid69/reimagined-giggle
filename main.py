@@ -1,4 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+print(math.pi)
