@@ -1,6 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  def count_elements(lst):
+        return len(lst)
