@@ -1,7 +1,7 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_array_as_complex(array):
+        return complex(array[0])
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
