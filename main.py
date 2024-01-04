@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def find_max(lst):
+        return max(lst)
