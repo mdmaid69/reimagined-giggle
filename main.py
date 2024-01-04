@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def count_elements(lst):
-        return len(lst)
+import array
+def get_array_length(array):
+        return len(array)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
