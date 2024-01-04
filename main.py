@@ -1,5 +1,9 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
