@@ -1,6 +1,5 @@
+def multiply_numbers(x, y):
+        return x * y
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
