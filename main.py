@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import platform
+def get_os_info():
+        return platform.uname()
