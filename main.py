@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
