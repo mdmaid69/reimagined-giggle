@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
