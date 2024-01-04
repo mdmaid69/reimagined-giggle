@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  def multiply_numbers(x, y):
+        return x * y
