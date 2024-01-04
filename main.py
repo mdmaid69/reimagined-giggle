@@ -1,7 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import datetime
+print(datetime.datetime.now())
