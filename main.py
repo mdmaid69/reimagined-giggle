@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import numpy as np
+print(np.array([1, 2, 3]))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
