@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
