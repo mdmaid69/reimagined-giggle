@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
