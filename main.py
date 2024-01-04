@@ -1,5 +1,8 @@
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  def multiply_numbers(x, y):
-        return x * y
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
