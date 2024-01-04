@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import sys
-def exit_program():
-        sys.exit()
+def add_to_python_path(path):
+        sys.path.append(path)
