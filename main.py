@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def convert_to_hex(n):
+        return hex(n)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
