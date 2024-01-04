@@ -1,6 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def greet(name):
+        print(f"Hello, {name}!")
+import collections
+def create_user_dict():
+        return collections.UserDict()
