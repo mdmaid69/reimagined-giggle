@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
