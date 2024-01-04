@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def greet(name):
-        print(f"Hello, {name}!")
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
