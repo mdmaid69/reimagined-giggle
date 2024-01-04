@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import time
-print(time.time())
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
