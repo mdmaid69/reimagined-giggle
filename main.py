@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
