@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import sys
+  def get_python_version():
+        return sys.version
