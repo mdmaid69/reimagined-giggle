@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import collections
+def create_user_dict():
+        return collections.UserDict()
