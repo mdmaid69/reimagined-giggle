@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def append_to_array(array, item):
-        array.append(item)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
