@@ -1,5 +1,5 @@
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
