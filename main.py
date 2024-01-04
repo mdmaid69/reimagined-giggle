@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
