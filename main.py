@@ -1,5 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_volume(length, width, height):
+        return length * width * height
