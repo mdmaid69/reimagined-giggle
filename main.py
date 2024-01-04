@@ -1,5 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
