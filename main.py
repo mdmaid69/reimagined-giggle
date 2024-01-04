@@ -1,6 +1,5 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def count_characters(sentence):
+        return len(sentence)
