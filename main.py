@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
