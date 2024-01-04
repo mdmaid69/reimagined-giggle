@@ -1,8 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
