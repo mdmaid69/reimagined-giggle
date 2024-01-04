@@ -1,5 +1,5 @@
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
 n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+print("Cube numbers:", [x**3 for x in range(n)])
