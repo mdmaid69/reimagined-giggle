@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
