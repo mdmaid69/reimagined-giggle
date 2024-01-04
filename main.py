@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
