@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
