@@ -1,8 +1,5 @@
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
