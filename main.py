@@ -1,5 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def remove_duplicates(lst):
+        return list(set(lst))
+def convert_to_hex(n):
+        return hex(n)
