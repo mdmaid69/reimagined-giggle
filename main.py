@@ -1,6 +1,3 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+print([x**2 for x in range(10)])
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
