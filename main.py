@@ -1,5 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def is_odd(n):
-        return n % 2 != 0
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
