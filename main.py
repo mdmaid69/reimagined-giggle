@@ -1,10 +1,8 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
