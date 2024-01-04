@@ -1,6 +1,7 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-for i in range(10): print(i)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
