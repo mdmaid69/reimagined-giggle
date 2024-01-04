@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
