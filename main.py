@@ -1,6 +1,5 @@
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
