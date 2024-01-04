@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def find_max(numbers):
+        return max(numbers)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
