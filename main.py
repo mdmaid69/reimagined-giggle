@@ -1,8 +1,7 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
