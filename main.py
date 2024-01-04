@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import array
+def get_array_as_list(array):
+        return list(array)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
