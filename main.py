@@ -1,5 +1,7 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
