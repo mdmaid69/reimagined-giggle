@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
