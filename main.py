@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_power(work, time):
+        return work / time
