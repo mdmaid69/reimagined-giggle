@@ -1,4 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def multiply_numbers(x, y):
+        return x * y
