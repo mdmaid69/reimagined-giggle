@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
