@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_index(array, item):
+        return array.index(item)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
