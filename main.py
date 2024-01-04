@@ -1,5 +1,8 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
