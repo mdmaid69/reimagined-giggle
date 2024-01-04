@@ -1,6 +1,5 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_as_list(array):
-        return list(array)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def multiply_numbers(x, y):
+        return x * y
