@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_volume(length, width, height):
+        return length * width * height
