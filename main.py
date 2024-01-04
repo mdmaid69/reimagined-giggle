@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
