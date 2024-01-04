@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
