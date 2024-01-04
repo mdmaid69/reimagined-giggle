@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import sys
+  def get_python_version():
+        return sys.version
