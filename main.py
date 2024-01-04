@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
