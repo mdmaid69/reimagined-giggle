@@ -1,6 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import array
+def append_to_array(array, item):
+        array.append(item)
