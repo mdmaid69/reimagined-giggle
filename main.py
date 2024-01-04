@@ -1,12 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
