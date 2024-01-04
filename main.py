@@ -1,5 +1,9 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+def is_even(n):
+        return n % 2 == 0
