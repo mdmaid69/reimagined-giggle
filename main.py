@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import collections
-def create_stack():
-        return collections.deque()
+text = "Hello, world!"
+print("Characters:", len(text))
+import os
+print(os.getcwd())
