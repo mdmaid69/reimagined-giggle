@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_current_directory():
+        return os.getcwd()
