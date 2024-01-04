@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_power(work, time):
+        return work / time
