@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
