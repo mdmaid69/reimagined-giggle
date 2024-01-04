@@ -1,6 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
