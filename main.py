@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def append_to_array(array, item):
+        array.append(item)
