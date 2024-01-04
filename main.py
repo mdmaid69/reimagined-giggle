@@ -1,5 +1,7 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
