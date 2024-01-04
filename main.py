@@ -1,6 +1,5 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
