@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
