@@ -1,5 +1,7 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
