@@ -1,6 +1,5 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
