@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
