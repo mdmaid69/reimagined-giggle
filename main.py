@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
