@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  def is_even(n):
+        return n % 2 == 0
