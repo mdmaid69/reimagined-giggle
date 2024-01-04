@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
