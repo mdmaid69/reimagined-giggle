@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def square_number(x):
-        return x**2
+  def subtract_numbers(x, y):
+        return x - y
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
