@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
