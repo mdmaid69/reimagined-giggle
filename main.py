@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+print(sum(range(10)))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
