@@ -1,8 +1,8 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
 import array
-def convert_string_to_array(string, typecode):
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import array
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.frombytes(bytes)
         return a
