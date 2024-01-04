@@ -1,5 +1,6 @@
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def append_to_array(array, item):
+        array.append(item)
