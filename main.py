@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
