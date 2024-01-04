@@ -1,5 +1,5 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
