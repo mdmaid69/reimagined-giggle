@@ -1,6 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def get_array_typecode(array):
+        return array.typecode
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
