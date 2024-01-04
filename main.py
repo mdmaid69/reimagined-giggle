@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import datetime
+def get_today_date():
+        return datetime.date.today()
