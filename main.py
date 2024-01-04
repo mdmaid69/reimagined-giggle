@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def cube_number(x):
+        return x**3
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
