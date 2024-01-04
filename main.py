@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
