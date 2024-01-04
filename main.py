@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import collections
+def create_user_list():
+        return collections.UserList()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
