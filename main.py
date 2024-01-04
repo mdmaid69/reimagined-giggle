@@ -1,8 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-  import sys
-  def get_python_version():
-        return sys.version
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
