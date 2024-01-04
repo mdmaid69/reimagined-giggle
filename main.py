@@ -1,4 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-print(sum(range(10)))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
