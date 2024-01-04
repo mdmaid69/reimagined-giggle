@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
