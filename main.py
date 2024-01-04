@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_array_length(array):
+        return len(array)
