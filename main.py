@@ -1,6 +1,6 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
