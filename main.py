@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def get_array_as_float(array):
+        return float(array[0])
