@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
