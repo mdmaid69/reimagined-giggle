@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
