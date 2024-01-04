@@ -1,5 +1,4 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  def sort_list(lst):
-        return sorted(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
