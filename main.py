@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
