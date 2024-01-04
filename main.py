@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
