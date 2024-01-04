@@ -1,9 +1,5 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
