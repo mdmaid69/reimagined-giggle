@@ -1,4 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_acceleration(speed, time):
+        return speed / time
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
