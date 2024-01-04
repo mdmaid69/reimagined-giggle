@@ -1,10 +1,8 @@
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+from flask import Flask
+app = Flask(__name__)
 
-{body}")
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+@app.route("/")
+def hello():
+        return "Hello, World!"
