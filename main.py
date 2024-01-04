@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
