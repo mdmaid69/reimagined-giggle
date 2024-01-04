@@ -1,5 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def find_min(lst):
+        return min(lst)
+def calculate_pressure(force, area):
+        return force / area
