@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def reverse_array(array):
+        array.reverse()
