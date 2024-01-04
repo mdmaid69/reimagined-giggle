@@ -1,6 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
