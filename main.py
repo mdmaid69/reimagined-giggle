@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
