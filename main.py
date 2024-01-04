@@ -1,5 +1,6 @@
+import array
+def get_array_as_repr(array):
+        return repr(array)
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
