@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def square_number(x):
-        return x**2
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def convert_to_octal(n):
+        return oct(n)
