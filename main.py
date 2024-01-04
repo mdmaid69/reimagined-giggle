@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import math
+def calculate_floor(x):
+        return math.floor(x)
