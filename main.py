@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
