@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
