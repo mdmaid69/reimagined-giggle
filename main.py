@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def find_max(numbers):
-        return max(numbers)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
