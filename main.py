@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import random
+print(random.randint(0, 100))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
