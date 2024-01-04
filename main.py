@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import collections
+def create_user_list():
+        return collections.UserList()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
