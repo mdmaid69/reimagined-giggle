@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
