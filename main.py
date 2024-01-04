@@ -1,6 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+name = "Python"
+print("Hello,", name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
