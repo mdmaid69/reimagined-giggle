@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
