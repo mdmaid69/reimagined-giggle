@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def calculate_density(mass, volume):
-        return mass / volume
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
