@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
