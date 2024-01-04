@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
