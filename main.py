@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
