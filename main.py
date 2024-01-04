@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  def cube_number(x):
-        return x**3
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
