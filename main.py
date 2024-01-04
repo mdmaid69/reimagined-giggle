@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
