@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_area_rectangle(l, w):
+        return l * w
