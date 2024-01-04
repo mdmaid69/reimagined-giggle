@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
