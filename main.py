@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
