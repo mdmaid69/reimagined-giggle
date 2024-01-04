@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
