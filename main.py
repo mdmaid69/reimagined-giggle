@@ -1,5 +1,6 @@
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
 import array
-def clear_array(array):
-        array *= 0
-def square_number(x):
-        return x**2
+def get_array_as_repr(array):
+        return repr(array)
