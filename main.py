@@ -1,8 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
