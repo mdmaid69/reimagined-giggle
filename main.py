@@ -1,5 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def cube_number(x):
-        return x**3
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def sort_list(lst):
+        return sorted(lst)
