@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
