@@ -1,4 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def divide_numbers(x, y):
-        return x / y
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
