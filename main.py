@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def count_words(sentence):
+        return len(sentence.split())
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def reverse_array(array):
+        array.reverse()
