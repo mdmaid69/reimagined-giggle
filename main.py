@@ -1,7 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
