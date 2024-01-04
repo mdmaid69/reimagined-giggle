@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import collections
+def create_counter():
+        return collections.Counter()
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
