@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
