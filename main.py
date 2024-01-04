@@ -1,6 +1,8 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
