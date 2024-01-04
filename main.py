@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import datetime
+def get_today_date():
+        return datetime.date.today()
