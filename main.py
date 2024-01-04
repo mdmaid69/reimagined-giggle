@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
