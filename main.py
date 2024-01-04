@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
+def convert_to_octal(n):
+        return oct(n)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
