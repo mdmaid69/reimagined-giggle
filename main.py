@@ -1,4 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
