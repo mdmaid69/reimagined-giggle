@@ -1,3 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-print("Hello, world!")
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
