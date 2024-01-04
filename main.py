@@ -1,5 +1,5 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def find_min(numbers):
-        return min(numbers)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
