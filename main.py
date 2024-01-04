@@ -1,5 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import platform
-def get_python_version():
-        return platform.python_version()
+print(sum(range(10)))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
