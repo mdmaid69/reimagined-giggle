@@ -1,6 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_work(force, distance):
+        return force * distance
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
