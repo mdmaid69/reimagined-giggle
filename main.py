@@ -1,6 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
