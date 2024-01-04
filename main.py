@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import getpass
+def get_username():
+        return getpass.getuser()
