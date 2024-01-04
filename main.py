@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
