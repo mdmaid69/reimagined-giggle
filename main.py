@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
