@@ -1,6 +1,8 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
