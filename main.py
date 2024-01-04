@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import random
+print(random.randint(0, 100))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
