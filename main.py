@@ -1,6 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
