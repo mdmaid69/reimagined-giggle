@@ -1,6 +1,6 @@
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
