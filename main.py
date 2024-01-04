@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
