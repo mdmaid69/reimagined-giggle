@@ -1,6 +1,5 @@
+def add_numbers(x, y):
+        return x + y
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
