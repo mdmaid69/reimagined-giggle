@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-def reverse_string(s):
-        return s[::-1]
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+  def remove_duplicates(lst):
+        return list(set(lst))
