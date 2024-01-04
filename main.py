@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
