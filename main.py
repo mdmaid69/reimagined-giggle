@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_as_set(array):
-        return set(array)
+def multiply_numbers(x, y):
+        return x * y
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
