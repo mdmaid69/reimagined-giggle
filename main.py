@@ -1,6 +1,5 @@
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
