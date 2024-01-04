@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import platform
-def get_python_version():
-        return platform.python_version()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  def convert_to_octal(n):
+        return oct(n)
