@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
