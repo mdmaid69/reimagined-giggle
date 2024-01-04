@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def find_max(numbers):
-        return max(numbers)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
