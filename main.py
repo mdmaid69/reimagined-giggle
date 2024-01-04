@@ -1,5 +1,5 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
