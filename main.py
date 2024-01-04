@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
