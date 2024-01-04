@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
