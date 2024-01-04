@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import tensorflow as tf
+print(tf.__version__)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
