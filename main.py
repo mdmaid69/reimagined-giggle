@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import array
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
