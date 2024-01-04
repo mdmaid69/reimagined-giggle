@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  def is_odd(n):
+        return n % 2 != 0
+def convert_to_binary(n):
+        return bin(n)
