@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import os
-print(os.getcwd())
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
