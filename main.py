@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def sort_list(lst):
+        return sorted(lst)
