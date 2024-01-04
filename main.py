@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-name = "Python"
-print("Hello,", name)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
