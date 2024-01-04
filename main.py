@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import os
+def remove_directory(path):
+        os.rmdir(path)
