@@ -1,5 +1,8 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
