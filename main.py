@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
