@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import tensorflow as tf
-print(tf.__version__)
+import datetime
+print(datetime.datetime.now())
+import array
+def set_array_item(array, i, item):
+        array[i] = item
