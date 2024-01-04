@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import getpass
+def get_username():
+        return getpass.getuser()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
