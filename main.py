@@ -1,5 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def add_numbers(a, b):
-        return a + b
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def is_palindrome(s):
+        return s == s[::-1]
