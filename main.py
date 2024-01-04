@@ -1,6 +1,6 @@
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import time
-def get_time_since_epoch():
-        return time.time()
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
