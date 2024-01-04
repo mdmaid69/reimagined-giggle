@@ -1,5 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
