@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
