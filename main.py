@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def subtract_numbers(x, y):
+        return x - y
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
