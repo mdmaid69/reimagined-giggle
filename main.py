@@ -1,4 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
