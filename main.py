@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_as_set(array):
+        return set(array)
