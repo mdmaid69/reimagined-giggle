@@ -1,7 +1,10 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
