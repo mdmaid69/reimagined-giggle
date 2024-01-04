@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def convert_to_octal(n):
-        return oct(n)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def square_number(x):
+        return x**2
