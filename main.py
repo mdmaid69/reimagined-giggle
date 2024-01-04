@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import platform
+def get_python_version():
+        return platform.python_version()
+def subtract_numbers(x, y):
+        return x - y
