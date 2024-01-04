@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def find_max(lst):
+        return max(lst)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
