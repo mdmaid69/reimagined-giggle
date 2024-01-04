@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
