@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
