@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+print([x**2 for x in range(10)])
