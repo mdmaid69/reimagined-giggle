@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import getpass
+def get_username():
+        return getpass.getuser()
