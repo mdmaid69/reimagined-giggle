@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import sys
-print(sys.version)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  def subtract_numbers(x, y):
+        return x - y
