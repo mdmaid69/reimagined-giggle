@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_string_from_array(array):
+        return array.tobytes()
