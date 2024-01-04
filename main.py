@@ -1,6 +1,6 @@
+import array
+def get_array_typecode(array):
+        return array.typecode
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
