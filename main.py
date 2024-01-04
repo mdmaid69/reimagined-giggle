@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def count_elements(lst):
+        return len(lst)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
