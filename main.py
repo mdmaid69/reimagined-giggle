@@ -1,4 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import tensorflow as tf
-print(tf.__version__)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
