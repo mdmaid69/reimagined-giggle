@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
