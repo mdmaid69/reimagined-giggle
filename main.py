@@ -1,4 +1,4 @@
-def square_number(x):
-        return x**2
-import sys
-print(sys.version)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+print(sum(range(10)))
