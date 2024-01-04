@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
