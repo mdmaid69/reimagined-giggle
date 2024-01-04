@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
