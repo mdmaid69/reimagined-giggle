@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
