@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def find_max(lst):
-        return max(lst)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
