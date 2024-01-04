@@ -1,6 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+print([x**2 for x in range(10)])
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
