@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
