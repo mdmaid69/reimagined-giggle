@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
