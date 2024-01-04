@@ -1,5 +1,6 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def convert_to_octal(n):
-        return oct(n)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
