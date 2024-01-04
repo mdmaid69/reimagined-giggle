@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
