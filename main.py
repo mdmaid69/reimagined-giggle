@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
