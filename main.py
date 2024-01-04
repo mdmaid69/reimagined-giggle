@@ -1,5 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  def convert_to_octal(n):
+        return oct(n)
