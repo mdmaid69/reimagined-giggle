@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_as_list(array):
+        return list(array)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+print(math.pi)
