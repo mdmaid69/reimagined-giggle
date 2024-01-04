@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
