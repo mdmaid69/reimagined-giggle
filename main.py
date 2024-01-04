@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def add_numbers(a, b):
-        return a + b
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
