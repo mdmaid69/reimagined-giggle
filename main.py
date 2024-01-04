@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def find_unique_words(sentence):
-        return set(sentence.split())
+def greet(name):
+        print(f"Hello, {name}!")
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
