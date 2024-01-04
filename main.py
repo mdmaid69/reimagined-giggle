@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import array
+def clear_array(array):
+        array *= 0
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
