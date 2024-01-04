@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def is_odd(n):
-        return n % 2 != 0
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import random
+print(random.randint(0, 100))
