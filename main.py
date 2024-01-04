@@ -1,5 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
