@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
