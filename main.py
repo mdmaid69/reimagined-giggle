@@ -1,7 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
