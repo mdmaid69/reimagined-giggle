@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def set_array_item(array, i, item):
+        array[i] = item
