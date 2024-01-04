@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
