@@ -1,8 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
