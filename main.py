@@ -1,6 +1,6 @@
+import sys
+def print_python_version():
+        return sys.version
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
