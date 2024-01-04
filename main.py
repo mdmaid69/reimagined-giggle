@@ -1,5 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def remove_duplicates(lst):
+        return list(set(lst))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
