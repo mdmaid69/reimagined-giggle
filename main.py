@@ -1,3 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-print(sum(range(10)))
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import array
+def get_list_from_array(array):
+        return array.tolist()
