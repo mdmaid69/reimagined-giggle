@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import os
+def get_current_working_directory():
+        return os.getcwd()
