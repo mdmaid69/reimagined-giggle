@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
