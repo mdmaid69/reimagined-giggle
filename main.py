@@ -1,6 +1,8 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import tensorflow as tf
+print(tf.__version__)
