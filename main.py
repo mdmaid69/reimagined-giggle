@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
