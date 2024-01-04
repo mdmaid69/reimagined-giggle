@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
