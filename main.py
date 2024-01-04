@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import datetime
+def get_current_date():
+        return datetime.date.today()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
