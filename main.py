@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
