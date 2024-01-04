@@ -1,7 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import time
+def get_time_since_epoch():
+        return time.time()
