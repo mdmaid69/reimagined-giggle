@@ -1,7 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def count_elements(lst):
+        return len(lst)
