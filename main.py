@@ -1,5 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
