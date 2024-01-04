@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
