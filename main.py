@@ -1,5 +1,10 @@
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
 n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
