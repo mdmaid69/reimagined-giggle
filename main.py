@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
