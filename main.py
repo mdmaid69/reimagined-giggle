@@ -1,9 +1,7 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
