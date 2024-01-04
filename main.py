@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
