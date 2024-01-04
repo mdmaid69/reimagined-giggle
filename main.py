@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def cube_number(x):
+        return x**3
