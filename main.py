@@ -1,5 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
