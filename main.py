@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def subtract_numbers(x, y):
-        return x - y
+import collections
+def create_queue():
+        return collections.deque()
+import platform
+def get_os_info():
+        return platform.uname()
