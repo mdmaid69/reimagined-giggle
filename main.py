@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def clear_array(array):
+        array *= 0
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
