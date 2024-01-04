@@ -1,5 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import datetime
+def get_today_date():
+        return datetime.date.today()
