@@ -1,12 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
