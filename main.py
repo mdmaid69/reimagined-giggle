@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
