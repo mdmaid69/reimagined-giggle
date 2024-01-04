@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import time
-def get_time_since_epoch():
-        return time.time()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+def subtract_numbers(x, y):
+        return x - y
