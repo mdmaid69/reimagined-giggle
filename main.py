@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
