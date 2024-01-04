@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
