@@ -1,5 +1,7 @@
-  def cube_number(x):
-        return x**3
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
