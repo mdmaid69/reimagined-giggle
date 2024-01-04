@@ -1,6 +1,7 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
