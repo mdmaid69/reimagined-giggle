@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_pressure(force, area):
+        return force / area
