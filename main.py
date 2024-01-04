@@ -1,5 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
