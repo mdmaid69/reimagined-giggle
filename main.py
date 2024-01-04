@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def is_even(n):
+        return n % 2 == 0
+import array
+def get_array_typecode(array):
+        return array.typecode
