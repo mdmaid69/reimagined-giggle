@@ -1,9 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
