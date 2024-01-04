@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
