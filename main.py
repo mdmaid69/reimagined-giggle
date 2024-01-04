@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import array
+def clear_array(array):
+        array *= 0
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
