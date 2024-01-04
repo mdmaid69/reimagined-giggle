@@ -1,7 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def sort_list(lst):
+        return sorted(lst)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
