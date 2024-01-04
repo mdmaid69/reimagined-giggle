@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def square_number(x):
+        return x**2
