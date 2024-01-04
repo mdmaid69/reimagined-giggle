@@ -1,6 +1,6 @@
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def split_path(path):
+        return os.path.split(path)
