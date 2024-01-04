@@ -1,6 +1,6 @@
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
