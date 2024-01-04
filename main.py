@@ -1,5 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def sort_list(lst):
-        return sorted(lst)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
