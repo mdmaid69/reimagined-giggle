@@ -1,9 +1,4 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
