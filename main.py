@@ -1,6 +1,7 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
