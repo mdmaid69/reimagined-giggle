@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def square_number(x):
-        return x**2
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+text = "Hello, world!"
+print("Words:", len(text.split()))
