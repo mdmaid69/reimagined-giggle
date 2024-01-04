@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
