@@ -1,6 +1,5 @@
+  def reverse_list(lst):
+        return lst[::-1]
   import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
