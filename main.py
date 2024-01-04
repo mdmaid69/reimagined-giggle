@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-for i in range(5):
-        print(i)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import platform
+def get_python_version():
+        return platform.python_version()
