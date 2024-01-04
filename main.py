@@ -1,8 +1,12 @@
-import unittest
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import queue
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
