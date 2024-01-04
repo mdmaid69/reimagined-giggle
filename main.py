@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def add_numbers(x, y):
+        return x + y
+import collections
+def create_user_list():
+        return collections.UserList()
