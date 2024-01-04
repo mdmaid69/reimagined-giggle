@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def convert_to_octal(n):
-        return oct(n)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import collections
+def create_user_dict():
+        return collections.UserDict()
