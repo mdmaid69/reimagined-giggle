@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
