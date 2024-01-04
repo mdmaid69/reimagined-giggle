@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-def count_characters(sentence):
-        return len(sentence)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
