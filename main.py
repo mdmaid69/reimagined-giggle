@@ -1,6 +1,9 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
