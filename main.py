@@ -1,5 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_exponential(x):
+        return math.exp(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
