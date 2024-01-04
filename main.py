@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_area(radius):
+        return 3.14 * radius * radius
