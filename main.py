@@ -1,6 +1,5 @@
+def convert_to_hex(n):
+        return hex(n)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import sys
-def print_python_version():
-        print(sys.version)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
