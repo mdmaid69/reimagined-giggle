@@ -1,6 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def create_ordered_dict():
+        return collections.OrderedDict()
