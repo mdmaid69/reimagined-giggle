@@ -1,6 +1,8 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
