@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def subtract_numbers(x, y):
+        return x - y
+import random
+def roll_die():
+        return random.randint(1, 6)
