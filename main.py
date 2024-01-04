@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import array
+def set_array_item(array, i, item):
+        array[i] = item
