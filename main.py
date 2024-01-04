@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
