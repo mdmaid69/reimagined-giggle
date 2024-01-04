@@ -1,6 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
