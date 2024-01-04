@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def convert_to_hex(n):
-        return hex(n)
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
