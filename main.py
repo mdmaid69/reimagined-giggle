@@ -1,7 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  def is_odd(n):
+        return n % 2 != 0
+import tensorflow as tf
+print(tf.__version__)
