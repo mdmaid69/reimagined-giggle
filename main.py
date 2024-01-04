@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
