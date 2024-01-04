@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
