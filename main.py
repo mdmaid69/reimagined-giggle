@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
