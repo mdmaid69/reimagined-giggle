@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
