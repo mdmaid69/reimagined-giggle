@@ -1,4 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-print(sum(range(10)))
+  def count_elements(lst):
+        return len(lst)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
