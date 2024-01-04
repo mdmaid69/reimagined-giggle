@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def reverse_list(lst):
+        return lst[::-1]
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
