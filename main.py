@@ -1,5 +1,13 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
