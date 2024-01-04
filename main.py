@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def count_elements(lst):
-        return len(lst)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import datetime
+print(datetime.datetime.now())
