@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_acceleration(speed, time):
+        return speed / time
