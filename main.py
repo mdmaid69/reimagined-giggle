@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
