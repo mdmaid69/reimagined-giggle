@@ -1,5 +1,9 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
