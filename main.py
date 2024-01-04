@@ -1,8 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
