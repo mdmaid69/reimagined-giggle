@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
