@@ -1,4 +1,4 @@
-import random
-print(random.randint(0, 100))
-import tensorflow as tf
-print(tf.__version__)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
