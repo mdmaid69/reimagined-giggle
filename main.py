@@ -1,6 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
