@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def sort_list(lst):
+        return sorted(lst)
