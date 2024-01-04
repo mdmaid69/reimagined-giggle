@@ -1,6 +1,4 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
