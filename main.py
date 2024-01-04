@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
