@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_sine(x):
+        return math.sin(x)
