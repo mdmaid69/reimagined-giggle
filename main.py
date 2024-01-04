@@ -1,6 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
