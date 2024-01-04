@@ -1,8 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
