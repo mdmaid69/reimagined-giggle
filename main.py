@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def get_array_as_set(array):
+        return set(array)
