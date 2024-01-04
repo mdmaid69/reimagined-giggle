@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def add_numbers(x, y):
+        return x + y
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
