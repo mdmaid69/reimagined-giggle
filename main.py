@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
