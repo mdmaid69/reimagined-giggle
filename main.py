@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def convert_to_hex(n):
+        return hex(n)
 import sys
-print(sys.version)
+def add_to_python_path(path):
+        sys.path.append(path)
