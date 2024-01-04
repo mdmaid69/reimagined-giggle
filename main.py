@@ -1,6 +1,8 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
