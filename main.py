@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
 import array
-def get_array_length(array):
-        return len(array)
+def get_array_item_count(array, item):
+        return array.count(item)
