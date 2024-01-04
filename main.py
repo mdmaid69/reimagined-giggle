@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-def find_min(numbers):
-        return min(numbers)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
