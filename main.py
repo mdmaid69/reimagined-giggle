@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
