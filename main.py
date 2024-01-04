@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
