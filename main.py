@@ -1,5 +1,5 @@
+def calculate_average(lst):
+        return sum(lst) / len(lst)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
