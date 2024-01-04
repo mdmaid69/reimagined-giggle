@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
