@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import random
-def roll_die():
-        return random.randint(1, 6)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import getpass
+def get_username():
+        return getpass.getuser()
