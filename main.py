@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
