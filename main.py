@@ -1,5 +1,6 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
