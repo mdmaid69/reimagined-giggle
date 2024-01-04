@@ -1,7 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import collections
+def create_user_string():
+        return collections.UserString()
+  def convert_to_binary(n):
+        return bin(n)
