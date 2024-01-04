@@ -1,9 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
