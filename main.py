@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
