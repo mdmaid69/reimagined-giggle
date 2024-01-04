@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import sys
+def print_python_version():
+        print(sys.version)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
