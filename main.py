@@ -1,5 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def find_unique_words(sentence):
-        return set(sentence.split())
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def add_numbers(x, y):
+        return x + y
