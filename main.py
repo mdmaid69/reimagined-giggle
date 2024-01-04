@@ -1,6 +1,5 @@
+def calculate_area(radius):
+        return 3.14 * radius * radius
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
