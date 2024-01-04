@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
