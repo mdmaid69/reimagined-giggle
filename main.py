@@ -1,7 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
