@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_area_rectangle(l, w):
+        return l * w
