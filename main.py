@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import sys
+def print_python_version():
+        return sys.version
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
