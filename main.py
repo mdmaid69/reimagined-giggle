@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
