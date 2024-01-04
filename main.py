@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import sys
+def print_python_version():
+        print(sys.version)
+  def square_number(x):
+        return x**2
