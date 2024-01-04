@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
