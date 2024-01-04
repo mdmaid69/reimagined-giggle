@@ -1,5 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def count_characters(sentence):
-        return len(sentence)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
