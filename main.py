@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def get_array_as_str(array):
-        return str(array)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
