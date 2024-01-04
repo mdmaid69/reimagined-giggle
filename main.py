@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_average(lst):
+        return sum(lst) / len(lst)
