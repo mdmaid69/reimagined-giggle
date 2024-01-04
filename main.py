@@ -1,4 +1,10 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-for i in range(10): print(i)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_power(work, time):
+        return work / time
