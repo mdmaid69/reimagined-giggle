@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def split_path(path):
+        return os.path.split(path)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
