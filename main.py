@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_acceleration(speed, time):
+        return speed / time
