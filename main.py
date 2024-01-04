@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_pressure(force, area):
-        return force / area
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
