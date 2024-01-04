@@ -1,5 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
