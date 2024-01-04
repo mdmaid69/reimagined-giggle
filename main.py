@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
