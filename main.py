@@ -1,6 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import logging
-def log_message(message):
-        logging.info(message)
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
