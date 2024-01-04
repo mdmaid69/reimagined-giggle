@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  def reverse_list(lst):
-        return lst[::-1]
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
