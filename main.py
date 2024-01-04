@@ -1,5 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def sort_numbers(numbers):
+        return sorted(numbers)
