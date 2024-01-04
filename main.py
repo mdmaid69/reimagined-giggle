@@ -1,5 +1,6 @@
+import array
+def get_array_typecode(array):
+        return array.typecode
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
