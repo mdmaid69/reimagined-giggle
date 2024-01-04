@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def multiply_numbers(x, y):
+        return x * y
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
