@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import sys
+def print_python_version():
+        return sys.version
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
