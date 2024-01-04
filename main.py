@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import sys
-  def get_python_version():
-        return sys.version
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
