@@ -1,8 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
