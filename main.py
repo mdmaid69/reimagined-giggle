@@ -1,5 +1,4 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
