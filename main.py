@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+x = 10
+y = 20
+print("Sum:", x + y)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
