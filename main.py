@@ -1,7 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def is_odd(n):
+        return n % 2 != 0
