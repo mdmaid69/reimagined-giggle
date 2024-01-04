@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
