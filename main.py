@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def subtract_numbers(x, y):
-        return x - y
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
