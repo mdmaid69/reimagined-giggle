@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import platform
+def get_os_info():
+        return platform.uname()
