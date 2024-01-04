@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def clear_array(array):
+        array *= 0
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
