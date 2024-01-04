@@ -1,5 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def convert_to_binary(n):
+        return bin(n)
+import time
+def get_current_time():
+        return time.time()
