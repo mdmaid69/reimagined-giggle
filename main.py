@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def get_array_as_str(array):
-        return str(array)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_sine(x):
+        return math.sin(x)
