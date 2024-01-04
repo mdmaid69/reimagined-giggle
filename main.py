@@ -1,6 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
