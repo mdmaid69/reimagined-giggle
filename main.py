@@ -1,5 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-from collections import Counter
-print(Counter("hello world"))
+print(sum(range(10)))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
