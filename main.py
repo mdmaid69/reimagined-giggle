@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
