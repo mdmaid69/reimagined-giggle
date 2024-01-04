@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+from collections import Counter
+print(Counter("hello world"))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
