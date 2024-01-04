@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
