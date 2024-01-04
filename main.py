@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def get_array_typecode(array):
+        return array.typecode
