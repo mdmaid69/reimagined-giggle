@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import array
 def get_array_as_memoryview(array):
         return memoryview(array)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
