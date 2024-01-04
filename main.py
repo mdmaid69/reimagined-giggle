@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import sys
+  def get_python_version():
+        return sys.version
+import platform
+def get_os_info():
+        return platform.uname()
