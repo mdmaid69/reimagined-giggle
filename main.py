@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import os
+def change_working_directory(path):
+        os.chdir(path)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
