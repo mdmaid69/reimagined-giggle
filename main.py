@@ -1,4 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def sort_numbers(numbers):
+        return sorted(numbers)
