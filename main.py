@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def get_array_item(array, i):
+        return array[i]
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
