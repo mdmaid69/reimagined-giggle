@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
