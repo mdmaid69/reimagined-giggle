@@ -1,5 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
