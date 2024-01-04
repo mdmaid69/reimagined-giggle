@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
