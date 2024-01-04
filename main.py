@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def reverse_string(s):
+        return s[::-1]
