@@ -1,9 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
