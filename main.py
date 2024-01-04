@@ -1,7 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
