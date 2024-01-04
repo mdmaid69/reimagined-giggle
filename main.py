@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
