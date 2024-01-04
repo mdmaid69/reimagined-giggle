@@ -1,6 +1,6 @@
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
