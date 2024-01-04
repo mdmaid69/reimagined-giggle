@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
