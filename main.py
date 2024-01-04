@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_density(mass, volume):
+        return mass / volume
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
