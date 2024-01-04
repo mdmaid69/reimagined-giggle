@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import getpass
+def get_username():
+        return getpass.getuser()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
