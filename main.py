@@ -1,5 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
