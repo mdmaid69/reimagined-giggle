@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def calculate_area_rectangle(l, w):
+        return l * w
