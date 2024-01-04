@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
