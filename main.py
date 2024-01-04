@@ -1,5 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
