@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
