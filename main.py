@@ -1,6 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+print([x**2 for x in range(10)])
