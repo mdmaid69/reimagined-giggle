@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+for i in range(10): print(i)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
