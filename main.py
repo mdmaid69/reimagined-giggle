@@ -1,4 +1,8 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  def remove_duplicates(lst):
-        return list(set(lst))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
