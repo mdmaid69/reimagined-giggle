@@ -1,5 +1,6 @@
+  import os
+  def split_path(path):
+        return os.path.split(path)
 import collections
-def create_user_string():
-        return collections.UserString()
-def multiply_numbers(x, y):
-        return x * y
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
