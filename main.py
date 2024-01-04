@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def cube_number(x):
-        return x**3
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
