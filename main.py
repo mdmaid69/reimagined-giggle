@@ -1,4 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
+def calculate_density(mass, volume):
+        return mass / volume
 n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
