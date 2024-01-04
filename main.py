@@ -1,5 +1,4 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
