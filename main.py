@@ -1,6 +1,5 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def count_elements(lst):
+        return len(lst)
