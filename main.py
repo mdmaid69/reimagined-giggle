@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
