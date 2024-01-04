@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
