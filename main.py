@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
