@@ -1,5 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  def convert_to_hex(n):
+        return hex(n)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
