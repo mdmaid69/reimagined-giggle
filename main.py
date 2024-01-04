@@ -1,5 +1,5 @@
+  def sort_list(lst):
+        return sorted(lst)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def convert_array_to_string(array):
+        return array.tostring()
