@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
