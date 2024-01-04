@@ -1,5 +1,9 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
