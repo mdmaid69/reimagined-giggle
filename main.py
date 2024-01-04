@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
