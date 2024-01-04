@@ -1,6 +1,5 @@
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def set_array_item(array, i, item):
+        array[i] = item
