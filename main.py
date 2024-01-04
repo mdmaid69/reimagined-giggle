@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
