@@ -1,5 +1,7 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
