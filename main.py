@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_typecode(array):
+        return array.typecode
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
