@@ -1,6 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+print(sum(range(10)))
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
