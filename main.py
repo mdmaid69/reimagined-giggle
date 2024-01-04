@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
