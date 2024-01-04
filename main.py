@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
