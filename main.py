@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import collections
-def create_counter():
-        return collections.Counter()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def find_max(lst):
+        return max(lst)
