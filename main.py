@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+text = "Hello, world!"
+print("Reversed:", text[::-1])
