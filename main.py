@@ -1,6 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import datetime
+print(datetime.datetime.now())
+def reverse_list(lst):
+        return lst[::-1]
