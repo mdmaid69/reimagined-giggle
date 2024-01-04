@@ -1,8 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
