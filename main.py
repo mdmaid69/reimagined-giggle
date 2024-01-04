@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def convert_to_binary(n):
-        return bin(n)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
