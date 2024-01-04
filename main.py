@@ -1,5 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+print("Hello, world!")
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
