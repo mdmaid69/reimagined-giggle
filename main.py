@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
