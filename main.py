@@ -1,8 +1,11 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def count_characters(sentence):
+        return len(sentence)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
