@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_current_directory():
+        return os.getcwd()
