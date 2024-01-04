@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
