@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_perpetuity(payment, rate):
+        return payment / rate
