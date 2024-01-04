@@ -1,5 +1,5 @@
 text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+print("Words:", len(text.split()))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
