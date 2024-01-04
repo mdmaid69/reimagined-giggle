@@ -1,5 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def is_odd(n):
-        return n % 2 != 0
+x = 10
+y = 20
+print("Sum:", x + y)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
