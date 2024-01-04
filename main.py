@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def check_if_array_contains_item(array, item):
+        return item in array
