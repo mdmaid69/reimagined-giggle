@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+for i in range(10): print(i)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
