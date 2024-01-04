@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
