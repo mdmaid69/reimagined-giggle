@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
