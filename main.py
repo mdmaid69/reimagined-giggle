@@ -1,6 +1,6 @@
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
