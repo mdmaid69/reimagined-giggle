@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_work(force, distance):
+        return force * distance
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
