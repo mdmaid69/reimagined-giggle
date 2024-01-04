@@ -1,8 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def convert_to_octal(n):
+        return oct(n)
