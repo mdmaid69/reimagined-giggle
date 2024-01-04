@@ -1,8 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def get_current_working_directory():
+        return os.getcwd()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
