@@ -1,7 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
