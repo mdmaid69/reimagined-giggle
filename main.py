@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
