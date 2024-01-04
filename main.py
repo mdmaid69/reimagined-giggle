@@ -1,7 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
