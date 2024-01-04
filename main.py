@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def is_odd(n):
+        return n % 2 != 0
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
