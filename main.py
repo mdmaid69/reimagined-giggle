@@ -1,6 +1,6 @@
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import time
-def get_time_since_epoch():
-        return time.time()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
