@@ -1,6 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+for i in range(5):
+        print(i)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
