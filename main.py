@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
