@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
