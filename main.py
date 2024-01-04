@@ -1,5 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-for i in range(5):
-        print(i)
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
