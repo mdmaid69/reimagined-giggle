@@ -1,8 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
