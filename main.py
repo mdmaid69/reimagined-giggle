@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
