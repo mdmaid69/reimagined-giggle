@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def calculate_area_rectangle(l, w):
-        return l * w
+import collections
+def create_priority_queue():
+        return collections.deque()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
