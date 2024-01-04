@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_speed(distance, time):
+        return distance / time
