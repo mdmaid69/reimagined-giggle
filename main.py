@@ -1,5 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+def find_min(lst):
+        return min(lst)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
