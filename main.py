@@ -1,5 +1,12 @@
-def find_min(numbers):
-        return min(numbers)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
