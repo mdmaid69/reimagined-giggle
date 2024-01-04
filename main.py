@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
