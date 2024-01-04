@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
