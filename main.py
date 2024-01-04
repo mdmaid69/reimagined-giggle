@@ -1,5 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def is_even(n):
+        return n % 2 == 0
+def divide_numbers(x, y):
+        return x / y
