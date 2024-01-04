@@ -1,5 +1,6 @@
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def get_array_typecode(array):
+        return array.typecode
