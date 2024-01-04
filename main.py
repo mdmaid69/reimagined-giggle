@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-name = "Python"
-print("Hello,", name)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
