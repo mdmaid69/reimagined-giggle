@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  def calculate_area_rectangle(l, w):
+        return l * w
