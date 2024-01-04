@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
