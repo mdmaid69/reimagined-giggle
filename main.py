@@ -1,6 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
