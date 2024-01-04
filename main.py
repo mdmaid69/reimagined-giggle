@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
