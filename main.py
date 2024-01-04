@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def calculate_area_rectangle(l, w):
+        return l * w
