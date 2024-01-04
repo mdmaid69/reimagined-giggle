@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
