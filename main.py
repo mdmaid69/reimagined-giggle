@@ -1,6 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def get_array_typecode(array):
-        return array.typecode
+name = "Python"
+print("Hello,", name)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
