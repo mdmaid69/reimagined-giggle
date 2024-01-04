@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import sys
-  def get_python_version():
-        return sys.version
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
