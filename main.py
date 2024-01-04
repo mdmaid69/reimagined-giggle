@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def get_current_directory():
+        return os.getcwd()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
