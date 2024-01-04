@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  def remove_duplicates(lst):
+        return list(set(lst))
