@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def multiply_numbers(x, y):
-        return x * y
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import datetime
+def get_current_date():
+        return datetime.date.today()
