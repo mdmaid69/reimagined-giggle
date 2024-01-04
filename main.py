@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def find_min(numbers):
+        return min(numbers)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
