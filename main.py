@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def subtract_numbers(x, y):
-        return x - y
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
