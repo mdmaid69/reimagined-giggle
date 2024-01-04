@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
