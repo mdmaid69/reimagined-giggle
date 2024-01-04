@@ -1,5 +1,5 @@
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def create_ordered_dict():
+        return collections.OrderedDict()
+def cube_number(x):
+        return x**3
