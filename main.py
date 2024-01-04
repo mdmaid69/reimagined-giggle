@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def count_elements(lst):
+        return len(lst)
