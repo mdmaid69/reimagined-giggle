@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import re
+print(re.match("h.*o", "hello world"))
