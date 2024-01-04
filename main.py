@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
