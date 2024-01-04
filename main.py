@@ -1,6 +1,12 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
