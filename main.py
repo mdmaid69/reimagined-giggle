@@ -1,8 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+def reverse_string(s):
+        return s[::-1]
