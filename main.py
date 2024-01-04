@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  def subtract_numbers(x, y):
+        return x - y
