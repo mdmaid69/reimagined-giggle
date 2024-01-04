@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import math
+print(math.pi)
