@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-def cube_number(x):
-        return x**3
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
