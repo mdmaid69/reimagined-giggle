@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
