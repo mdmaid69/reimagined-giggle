@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
