@@ -1,6 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
