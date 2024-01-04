@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_tangent(x):
+        return math.tan(x)
+import time
+def get_current_time():
+        return time.time()
