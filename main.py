@@ -1,7 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
