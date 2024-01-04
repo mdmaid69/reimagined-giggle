@@ -1,3 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-for i in range(10): print(i)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
