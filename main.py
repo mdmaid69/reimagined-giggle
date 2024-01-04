@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_acceleration(speed, time):
+        return speed / time
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
