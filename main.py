@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  def square_number(x):
-        return x**2
+import random
+print(random.randint(0, 100))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
