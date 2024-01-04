@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+print(math.pi)
