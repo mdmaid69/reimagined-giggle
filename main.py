@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
