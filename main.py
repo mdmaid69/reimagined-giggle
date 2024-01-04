@@ -1,3 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-print([x**2 for x in range(10)])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
