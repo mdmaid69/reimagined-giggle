@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
