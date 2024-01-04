@@ -1,7 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import array
+def get_array_as_bool(array):
+        return bool(array)
