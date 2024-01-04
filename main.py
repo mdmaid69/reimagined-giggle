@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def is_even(n):
+        return n % 2 == 0
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_memoryview(array):
+        return memoryview(array)
