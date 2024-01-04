@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
