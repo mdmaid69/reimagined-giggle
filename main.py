@@ -1,4 +1,5 @@
-for i in range(10): print(i)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
