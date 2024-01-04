@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_volume(length, width, height):
+        return length * width * height
