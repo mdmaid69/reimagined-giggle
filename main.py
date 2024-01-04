@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
