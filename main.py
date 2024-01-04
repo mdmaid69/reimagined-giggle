@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
