@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
