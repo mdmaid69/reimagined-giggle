@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import math
+def calculate_cosine(x):
+        return math.cos(x)
