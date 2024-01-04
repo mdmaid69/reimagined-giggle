@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def add_numbers(x, y):
+        return x + y
