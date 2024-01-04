@@ -1,8 +1,5 @@
+def square_number(x):
+        return x**2
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
