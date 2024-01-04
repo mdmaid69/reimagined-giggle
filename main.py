@@ -1,4 +1,7 @@
-  def is_odd(n):
-        return n % 2 != 0
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
