@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def convert_to_binary(n):
+        return bin(n)
