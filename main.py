@@ -1,5 +1,7 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
