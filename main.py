@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import tensorflow as tf
+print(tf.__version__)
+import time
+def get_current_time():
+        return time.ctime()
