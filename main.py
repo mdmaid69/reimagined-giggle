@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def get_file_blocks(file_name):
+  def get_file_blocks_allocated(file_name):
         return os.stat(file_name).st_blocks
