@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  def is_odd(n):
-        return n % 2 != 0
+def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
