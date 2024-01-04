@@ -1,5 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def calculate_pressure(force, area):
-        return force / area
+def multiply_numbers(x, y):
+        return x * y
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
