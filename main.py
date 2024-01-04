@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def get_list_from_array(array):
+        return array.tolist()
