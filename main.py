@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+print([x**2 for x in range(10)])
