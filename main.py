@@ -1,5 +1,8 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
