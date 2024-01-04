@@ -1,5 +1,8 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
