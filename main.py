@@ -1,6 +1,5 @@
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def get_current_working_directory():
+        return os.getcwd()
+def convert_to_binary(n):
+        return bin(n)
