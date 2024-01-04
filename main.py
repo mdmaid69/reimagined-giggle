@@ -1,5 +1,5 @@
+import random
+print(random.randint(0, 100))
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def find_min(lst):
-        return min(lst)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
