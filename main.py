@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
