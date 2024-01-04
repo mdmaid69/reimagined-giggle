@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
