@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
