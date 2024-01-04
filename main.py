@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import collections
+def create_queue():
+        return collections.deque()
