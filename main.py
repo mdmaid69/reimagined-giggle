@@ -1,5 +1,6 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
