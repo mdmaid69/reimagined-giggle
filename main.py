@@ -1,6 +1,7 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
