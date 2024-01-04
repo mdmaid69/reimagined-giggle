@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def is_palindrome(s):
-        return s == s[::-1]
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_floor(x):
+        return math.floor(x)
