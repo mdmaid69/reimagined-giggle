@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
