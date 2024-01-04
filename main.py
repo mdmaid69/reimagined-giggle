@@ -1,8 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
 import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def count_elements(lst):
+        return len(lst)
