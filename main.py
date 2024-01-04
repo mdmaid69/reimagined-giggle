@@ -1,4 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def reverse_list(lst):
+        return lst[::-1]
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
