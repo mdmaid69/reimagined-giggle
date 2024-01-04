@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def reverse_string(s):
+        return s[::-1]
