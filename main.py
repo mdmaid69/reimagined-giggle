@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
