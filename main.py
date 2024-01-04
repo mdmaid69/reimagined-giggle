@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import time
+def get_current_time():
+        return time.ctime()
