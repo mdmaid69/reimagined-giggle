@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_as_bytearray(array):
+        return bytearray(array)
