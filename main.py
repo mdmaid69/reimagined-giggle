@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_floor(x):
+        return math.floor(x)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
