@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
