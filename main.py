@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_volume(length, width, height):
+        return length * width * height
