@@ -1,6 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
