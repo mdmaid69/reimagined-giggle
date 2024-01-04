@@ -1,6 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
