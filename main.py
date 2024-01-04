@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
