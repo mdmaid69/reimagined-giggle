@@ -1,4 +1,4 @@
-for i in range(10): print(i)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import random
+print(random.randint(0, 100))
+from collections import Counter
+print(Counter("hello world"))
