@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
