@@ -1,6 +1,6 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import array
-def reverse_array(array):
-        array.reverse()
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
