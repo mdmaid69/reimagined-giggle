@@ -1,6 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
