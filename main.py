@@ -1,5 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
