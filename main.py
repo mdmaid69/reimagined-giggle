@@ -1,10 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
