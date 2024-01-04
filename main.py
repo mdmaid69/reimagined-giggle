@@ -1,6 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import tensorflow as tf
-print(tf.__version__)
+def remove_duplicates(lst):
+        return list(set(lst))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
