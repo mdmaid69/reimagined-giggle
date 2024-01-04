@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
