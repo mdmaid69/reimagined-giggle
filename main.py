@@ -1,5 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def add_numbers(x, y):
+        return x + y
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
