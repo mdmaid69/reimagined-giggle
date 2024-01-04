@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  def is_even(n):
-        return n % 2 == 0
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_area_rectangle(l, w):
+        return l * w
