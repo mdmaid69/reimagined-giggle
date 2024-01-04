@@ -1,7 +1,5 @@
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
