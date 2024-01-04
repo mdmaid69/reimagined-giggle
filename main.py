@@ -1,5 +1,9 @@
-  def is_even(n):
-        return n % 2 == 0
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
