@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
