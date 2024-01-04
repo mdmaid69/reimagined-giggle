@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def count_words(sentence):
+        return len(sentence.split())
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
