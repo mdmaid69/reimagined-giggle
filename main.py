@@ -1,7 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import collections
+def create_user_string():
+        return collections.UserString()
+import os
+def remove_directory(path):
+        os.rmdir(path)
