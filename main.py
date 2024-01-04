@@ -1,5 +1,7 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
