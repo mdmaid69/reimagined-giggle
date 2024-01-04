@@ -1,7 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
+import platform
+def get_os_info():
+        return platform.uname()
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_typecode(array):
+        return array.typecode
