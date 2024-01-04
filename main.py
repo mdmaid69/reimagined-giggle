@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def find_unique_words(sentence):
-        return set(sentence.split())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
