@@ -1,5 +1,10 @@
-import tensorflow as tf
-print(tf.__version__)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
