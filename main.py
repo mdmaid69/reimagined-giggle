@@ -1,6 +1,5 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_density(mass, volume):
+        return mass / volume
