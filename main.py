@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def convert_array_to_bytes(array):
+        return array.tobytes()
