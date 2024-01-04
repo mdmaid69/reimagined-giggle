@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
