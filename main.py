@@ -1,6 +1,4 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_acceleration(speed, time):
+        return speed / time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
