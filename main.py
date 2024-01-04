@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
