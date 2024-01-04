@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_area(radius):
+        return 3.14 * radius * radius
