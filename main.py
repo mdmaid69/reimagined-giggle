@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
