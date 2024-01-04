@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  def is_even(n):
+        return n % 2 == 0
