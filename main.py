@@ -1,5 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
