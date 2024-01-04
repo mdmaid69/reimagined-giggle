@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import sys
+def exit_program():
+        sys.exit()
