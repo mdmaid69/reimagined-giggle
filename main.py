@@ -1,4 +1,6 @@
-import os
-print(os.getcwd())
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
