@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
