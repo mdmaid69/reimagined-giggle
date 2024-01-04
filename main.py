@@ -1,5 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def convert_to_binary(n):
+        return bin(n)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
