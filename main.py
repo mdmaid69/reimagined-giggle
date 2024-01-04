@@ -1,5 +1,7 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
