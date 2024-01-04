@@ -1,6 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_pressure(force, area):
+        return force / area
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
