@@ -1,5 +1,7 @@
-name = "Python"
-print("Hello,", name)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
