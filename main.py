@@ -1,6 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
