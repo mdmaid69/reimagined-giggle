@@ -1,4 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-print("Hello, world!")
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
