@@ -1,4 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
