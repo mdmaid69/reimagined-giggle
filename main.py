@@ -1,6 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
