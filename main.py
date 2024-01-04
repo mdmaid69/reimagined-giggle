@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
