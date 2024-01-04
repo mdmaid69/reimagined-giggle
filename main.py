@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  def convert_to_binary(n):
-        return bin(n)
+def reverse_string(s):
+        return s[::-1]
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
