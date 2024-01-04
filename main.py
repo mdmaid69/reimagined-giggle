@@ -1,7 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
