@@ -1,9 +1,6 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
