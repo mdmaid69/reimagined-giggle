@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
