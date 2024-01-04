@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def find_min(lst):
+        return min(lst)
+import array
+def get_array_length(array):
+        return len(array)
