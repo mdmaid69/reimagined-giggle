@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def add_numbers(x, y):
+        return x + y
+import collections
+def create_user_list():
+        return collections.UserList()
