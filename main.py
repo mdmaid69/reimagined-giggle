@@ -1,6 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import array
+def get_array_as_str(array):
+        return str(array)
