@@ -1,10 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+def get_array_index(array, item):
+        return array.index(item)
