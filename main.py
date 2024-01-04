@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def get_array_typecode(array):
+        return array.typecode
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
