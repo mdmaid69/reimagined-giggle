@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
