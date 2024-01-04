@@ -1,6 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
