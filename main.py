@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_tangent(x):
+        return math.tan(x)
+def find_max(numbers):
+        return max(numbers)
