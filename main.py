@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-text = "Hello, world!"
-print("Characters:", len(text))
+def greet(name):
+        print(f"Hello, {name}!")
+import os
+print(os.getcwd())
