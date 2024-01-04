@@ -1,6 +1,6 @@
 import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
