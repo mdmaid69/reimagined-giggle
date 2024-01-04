@@ -1,8 +1,5 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
