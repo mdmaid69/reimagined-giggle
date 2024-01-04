@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_pressure(force, area):
+        return force / area
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
