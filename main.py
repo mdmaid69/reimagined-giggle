@@ -1,8 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+text = "Hello, world!"
+print("Words:", len(text.split()))
