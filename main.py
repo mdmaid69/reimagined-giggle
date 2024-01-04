@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
