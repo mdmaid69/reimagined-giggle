@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_array_as_float(array):
+        return float(array[0])
