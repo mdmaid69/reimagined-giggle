@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
