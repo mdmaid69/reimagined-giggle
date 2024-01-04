@@ -1,6 +1,5 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
