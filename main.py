@@ -1,7 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def count_words(sentence):
+        return len(sentence.split())
