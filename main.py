@@ -1,5 +1,5 @@
+  def reverse_list(lst):
+        return lst[::-1]
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import numpy as np
-print(np.array([1, 2, 3]))
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
