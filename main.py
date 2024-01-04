@@ -1,8 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  def remove_duplicates(lst):
+        return list(set(lst))
