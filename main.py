@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def add_numbers(x, y):
+        return x + y
