@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
