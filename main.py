@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+print(math.pi)
