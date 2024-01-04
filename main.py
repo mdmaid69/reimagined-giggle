@@ -1,6 +1,6 @@
+import array
+def get_array_item(array, i):
+        return array[i]
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
