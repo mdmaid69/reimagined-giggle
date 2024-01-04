@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
 import array
-def append_to_array(array, item):
-        array.append(item)
+def reverse_array(array):
+        array.reverse()
+import array
+def get_list_from_array(array):
+        return array.tolist()
