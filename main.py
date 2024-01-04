@@ -1,4 +1,5 @@
-import sys
-print(sys.version)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
