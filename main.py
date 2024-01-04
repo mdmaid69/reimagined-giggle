@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
