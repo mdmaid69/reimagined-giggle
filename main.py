@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
