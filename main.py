@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
