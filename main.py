@@ -1,4 +1,5 @@
-import os
-print(os.getcwd())
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
