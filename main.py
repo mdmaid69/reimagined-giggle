@@ -1,5 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
