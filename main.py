@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def subtract_numbers(x, y):
+        return x - y
