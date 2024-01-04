@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
