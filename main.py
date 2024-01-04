@@ -1,5 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def add_numbers(x, y):
+        return x + y
+  def convert_to_octal(n):
+        return oct(n)
