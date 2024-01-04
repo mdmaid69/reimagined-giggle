@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import time
+def get_current_time():
+        return time.time()
