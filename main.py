@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
