@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-  def convert_to_hex(n):
-        return hex(n)
+def is_even(n):
+        return n % 2 == 0
+import collections
+def create_counter():
+        return collections.Counter()
