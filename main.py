@@ -1,6 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import tensorflow as tf
+print(tf.__version__)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
