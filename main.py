@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
