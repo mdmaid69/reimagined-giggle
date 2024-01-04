@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
