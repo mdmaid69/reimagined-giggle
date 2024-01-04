@@ -1,6 +1,9 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
