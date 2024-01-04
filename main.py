@@ -1,6 +1,6 @@
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def reverse_array(array):
+        array.reverse()
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
