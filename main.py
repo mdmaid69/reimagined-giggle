@@ -1,6 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import array
-def get_array_item(array, i):
-        return array[i]
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+text = "Hello, world!"
+print("Words:", len(text.split()))
