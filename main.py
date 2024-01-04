@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
