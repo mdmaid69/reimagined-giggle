@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import collections
+def create_user_dict():
+        return collections.UserDict()
