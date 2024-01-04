@@ -1,6 +1,7 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
