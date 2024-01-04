@@ -1,6 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def get_array_typecode(array):
+        return array.typecode
