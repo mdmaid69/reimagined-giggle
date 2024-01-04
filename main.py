@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def add_numbers(x, y):
+        return x + y
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
