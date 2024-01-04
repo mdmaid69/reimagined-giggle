@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
