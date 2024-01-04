@@ -1,5 +1,8 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
