@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import time
+def get_current_time():
+        return time.time()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
