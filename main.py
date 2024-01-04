@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
