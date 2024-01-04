@@ -1,5 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+print([x**2 for x in range(10)])
