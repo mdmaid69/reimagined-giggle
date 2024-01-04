@@ -1,6 +1,6 @@
+import platform
+def get_os_info():
+        return platform.uname()
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def calculate_square_root(x):
+        return math.sqrt(x)
