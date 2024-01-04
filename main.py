@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def clear_array(array):
+        array *= 0
+def calculate_pressure(force, area):
+        return force / area
