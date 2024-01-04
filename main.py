@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import sys
+def exit_program():
+        sys.exit()
