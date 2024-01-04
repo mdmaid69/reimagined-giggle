@@ -1,6 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
