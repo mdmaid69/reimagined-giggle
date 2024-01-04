@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  def count_elements(lst):
+        return len(lst)
