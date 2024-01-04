@@ -1,7 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def cube_number(x):
+        return x**3
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
