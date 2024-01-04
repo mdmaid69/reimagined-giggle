@@ -1,8 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
