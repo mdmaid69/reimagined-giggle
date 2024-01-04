@@ -1,6 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import re
+print(re.match("h.*o", "hello world"))
+  def convert_to_hex(n):
+        return hex(n)
