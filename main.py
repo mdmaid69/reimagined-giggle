@@ -1,8 +1,9 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
