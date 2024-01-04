@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import collections
-def create_stack():
-        return collections.deque()
+def sort_numbers(numbers):
+        return sorted(numbers)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
