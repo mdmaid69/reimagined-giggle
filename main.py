@@ -1,4 +1,7 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  def count_elements(lst):
-        return len(lst)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
