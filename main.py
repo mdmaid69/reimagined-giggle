@@ -1,6 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def sort_list(lst):
+        return sorted(lst)
+def square_number(x):
+        return x**2
