@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
