@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import sys
-  def get_python_version():
-        return sys.version
+import collections
+def create_user_string():
+        return collections.UserString()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
