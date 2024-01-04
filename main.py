@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  def convert_to_binary(n):
+        return bin(n)
