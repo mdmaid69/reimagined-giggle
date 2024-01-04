@@ -1,11 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
