@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
