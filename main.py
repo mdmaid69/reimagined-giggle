@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
