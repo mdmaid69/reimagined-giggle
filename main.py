@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
