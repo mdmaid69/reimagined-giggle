@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  def cube_number(x):
+        return x**3
