@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def reverse_array(array):
+        array.reverse()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
