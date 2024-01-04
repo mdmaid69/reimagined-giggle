@@ -1,5 +1,11 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
