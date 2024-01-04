@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
