@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  def cube_number(x):
+        return x**3
