@@ -1,6 +1,7 @@
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
 import os
-def remove_directory(path):
-        os.rmdir(path)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def get_environment_variable(var):
+        return os.getenv(var)
