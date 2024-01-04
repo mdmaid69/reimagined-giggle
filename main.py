@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_area(radius):
+        return 3.14 * radius * radius
