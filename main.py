@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
