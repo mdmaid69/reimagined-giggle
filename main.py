@@ -1,5 +1,9 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
