@@ -1,9 +1,5 @@
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def get_array_item(array, i):
+        return array[i]
