@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import time
+def get_current_time():
+        return time.time()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
