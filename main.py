@@ -1,5 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+for i in range(10): print(i)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
