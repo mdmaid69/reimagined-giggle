@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
