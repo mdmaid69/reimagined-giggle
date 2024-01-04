@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import collections
-def create_user_list():
-        return collections.UserList()
+import getpass
+def get_username():
+        return getpass.getuser()
+  def is_even(n):
+        return n % 2 == 0
