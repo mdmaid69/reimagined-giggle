@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
