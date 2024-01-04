@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import time
+def get_current_time():
+        return time.ctime()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
