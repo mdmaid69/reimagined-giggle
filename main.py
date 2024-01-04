@@ -1,7 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import logging
+def log_message(message):
+        logging.info(message)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
