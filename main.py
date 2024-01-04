@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
