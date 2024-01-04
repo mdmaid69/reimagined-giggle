@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def create_queue():
+        return collections.deque()
+import array
+def clear_array(array):
+        array *= 0
