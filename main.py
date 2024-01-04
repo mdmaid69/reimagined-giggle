@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
