@@ -1,6 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
