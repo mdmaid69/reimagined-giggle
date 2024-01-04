@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
