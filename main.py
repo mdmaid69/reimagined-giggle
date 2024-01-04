@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
