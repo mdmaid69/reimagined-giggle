@@ -1,8 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
