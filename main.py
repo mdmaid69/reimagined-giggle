@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def count_words(sentence):
+        return len(sentence.split())
