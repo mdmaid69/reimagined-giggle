@@ -1,5 +1,5 @@
-import time
-print(time.time())
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def is_even(n):
+        return n % 2 == 0
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
