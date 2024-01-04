@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import array
-def reverse_array(array):
-        array.reverse()
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
