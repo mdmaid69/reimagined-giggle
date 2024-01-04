@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
