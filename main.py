@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_power(work, time):
-        return work / time
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
