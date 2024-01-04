@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
