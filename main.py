@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
