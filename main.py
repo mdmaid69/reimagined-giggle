@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
