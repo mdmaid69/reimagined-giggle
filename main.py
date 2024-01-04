@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+from collections import Counter
+print(Counter("hello world"))
