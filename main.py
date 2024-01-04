@@ -1,6 +1,3 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+print([x**2 for x in range(10)])
