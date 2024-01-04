@@ -1,5 +1,4 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def calculate_work(force, distance):
-        return force * distance
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+print(sum(range(10)))
