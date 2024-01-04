@@ -1,6 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
