@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_list(array):
+        return list(array)
