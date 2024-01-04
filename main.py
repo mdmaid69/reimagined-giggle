@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def count_characters(sentence):
+        return len(sentence)
