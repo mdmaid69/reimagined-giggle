@@ -1,5 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
