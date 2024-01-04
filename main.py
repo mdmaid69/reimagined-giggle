@@ -1,6 +1,7 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
