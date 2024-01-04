@@ -1,5 +1,6 @@
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
 import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
