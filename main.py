@@ -1,6 +1,6 @@
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
 import array
-def get_array_as_float(array):
-        return float(array[0])
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def get_array_item_count(array, item):
+        return array.count(item)
