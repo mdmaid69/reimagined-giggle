@@ -1,6 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_work(force, distance):
+        return force * distance
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
