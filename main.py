@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def multiply_numbers(x, y):
-        return x * y
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
