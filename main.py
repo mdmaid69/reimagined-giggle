@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def find_max(numbers):
-        return max(numbers)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
