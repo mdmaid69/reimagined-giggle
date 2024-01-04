@@ -1,6 +1,7 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import array
+def get_array_item(array, i):
+        return array[i]
