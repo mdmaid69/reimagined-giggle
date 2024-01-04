@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
