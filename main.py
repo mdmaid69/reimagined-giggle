@@ -1,6 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def cube_number(x):
+        return x**3
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
