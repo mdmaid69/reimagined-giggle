@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
