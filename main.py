@@ -1,5 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def square_number(x):
+        return x**2
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
