@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import os
+print(os.getcwd())
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
