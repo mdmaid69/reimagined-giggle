@@ -1,8 +1,5 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_power(work, time):
+        return work / time
