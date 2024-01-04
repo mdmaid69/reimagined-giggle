@@ -1,8 +1,6 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
