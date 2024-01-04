@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
