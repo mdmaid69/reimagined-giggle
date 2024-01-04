@@ -1,6 +1,3 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+print([x**2 for x in range(10)])
