@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_speed(distance, time):
+        return distance / time
