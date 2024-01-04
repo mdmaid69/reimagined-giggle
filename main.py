@@ -1,6 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import array
+def get_array_as_repr(array):
+        return repr(array)
