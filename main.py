@@ -1,6 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+print("Hello, world!")
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
