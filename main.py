@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
