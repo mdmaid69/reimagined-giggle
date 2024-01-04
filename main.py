@@ -1,6 +1,7 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
