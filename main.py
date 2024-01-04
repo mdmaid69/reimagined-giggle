@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-from collections import Counter
-print(Counter("hello world"))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
