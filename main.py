@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  def convert_to_hex(n):
+        return hex(n)
+import platform
+def get_python_version():
+        return platform.python_version()
