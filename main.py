@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import platform
+def get_python_version():
+        return platform.python_version()
 import array
-def get_array_length(array):
-        return len(array)
+def get_array_as_bool(array):
+        return bool(array)
