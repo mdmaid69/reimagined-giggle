@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
