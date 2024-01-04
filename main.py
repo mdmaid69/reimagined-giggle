@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
