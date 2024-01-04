@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+for i in range(5):
+        print(i)
