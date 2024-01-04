@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
