@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
