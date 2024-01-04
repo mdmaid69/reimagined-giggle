@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def is_odd(n):
-        return n % 2 != 0
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
