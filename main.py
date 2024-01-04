@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_work(force, distance):
+        return force * distance
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
