@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
