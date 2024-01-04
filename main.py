@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
