@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
