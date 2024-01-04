@@ -1,8 +1,7 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import time
+def get_current_time():
+        return time.time()
