@@ -1,6 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
