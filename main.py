@@ -1,5 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
