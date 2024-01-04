@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def find_min(numbers):
+        return min(numbers)
+import collections
+def create_user_string():
+        return collections.UserString()
