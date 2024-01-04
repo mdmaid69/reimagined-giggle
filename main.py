@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
