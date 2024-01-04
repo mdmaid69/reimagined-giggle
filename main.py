@@ -1,5 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  def cube_number(x):
+        return x**3
