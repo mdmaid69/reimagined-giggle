@@ -1,5 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-for i in range(5):
-        print(i)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
