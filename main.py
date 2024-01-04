@@ -1,6 +1,7 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
