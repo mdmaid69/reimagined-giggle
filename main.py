@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_area(radius):
+        return 3.14 * radius * radius
