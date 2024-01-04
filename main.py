@@ -1,5 +1,4 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def count_elements(lst):
+        return len(lst)
