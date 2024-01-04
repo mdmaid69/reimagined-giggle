@@ -1,5 +1,4 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  def subtract_numbers(x, y):
-        return x - y
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_area(radius):
+        return 3.14 * radius * radius
