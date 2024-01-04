@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
