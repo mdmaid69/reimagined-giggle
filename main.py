@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
