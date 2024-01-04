@@ -1,3 +1,8 @@
-def calculate_pressure(force, area):
-        return force / area
-print("Hello, world!")
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
