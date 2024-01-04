@@ -1,6 +1,8 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import sys
-def print_python_version():
-        return sys.version
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
