@@ -1,6 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def convert_to_binary(n):
+        return bin(n)
+def add_numbers(a, b):
+        return a + b
