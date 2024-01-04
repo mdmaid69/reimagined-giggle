@@ -1,6 +1,3 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  def add_numbers(x, y):
+        return x + y
+print(sum(range(10)))
