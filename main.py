@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
