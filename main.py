@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_as_str(array):
+        return str(array)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
