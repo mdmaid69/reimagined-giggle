@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
