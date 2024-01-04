@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def clear_array(array):
+        array *= 0
