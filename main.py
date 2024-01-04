@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
