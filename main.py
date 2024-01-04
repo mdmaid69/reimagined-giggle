@@ -1,5 +1,6 @@
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import numpy as np
-print(np.array([1, 2, 3]))
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
