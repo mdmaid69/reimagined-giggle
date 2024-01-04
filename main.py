@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def remove_from_array(array, item):
+        array.remove(item)
