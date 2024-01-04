@@ -1,6 +1,7 @@
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
