@@ -1,5 +1,7 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import sys
+def print_python_version():
+        print(sys.version)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
