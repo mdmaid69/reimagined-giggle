@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
