@@ -1,10 +1,11 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-from flask import Flask
-app = Flask(__name__)
+import threading
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def get_array_as_list(array):
+        return list(array)
