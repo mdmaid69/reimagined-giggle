@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
