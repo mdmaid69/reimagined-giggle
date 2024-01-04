@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+i = 0
+while i < 5:
+        print(i)
+        i += 1
