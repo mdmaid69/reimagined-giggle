@@ -1,6 +1,6 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import logging
-def log_message(message):
-        logging.info(message)
+def get_array_length(array):
+        return len(array)
