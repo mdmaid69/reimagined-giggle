@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import collections
-def create_queue():
-        return collections.deque()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
