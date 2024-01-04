@@ -1,5 +1,8 @@
 import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def count_words(sentence):
-        return len(sentence.split())
+def create_priority_queue():
+        return collections.deque()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
