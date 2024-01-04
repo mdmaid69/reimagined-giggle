@@ -1,7 +1,5 @@
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def get_array_length(array):
+        return len(array)
