@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
