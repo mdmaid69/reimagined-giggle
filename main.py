@@ -1,6 +1,6 @@
   import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
   def get_file_uid(file_name):
         return os.stat(file_name).st_uid
-import array
-def clear_array(array):
-        array *= 0
