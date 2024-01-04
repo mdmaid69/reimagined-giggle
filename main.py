@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import time
-def get_current_time():
-        return time.time()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
