@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
