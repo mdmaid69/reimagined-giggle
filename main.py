@@ -1,6 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  def convert_to_hex(n):
+        return hex(n)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
