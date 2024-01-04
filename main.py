@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
