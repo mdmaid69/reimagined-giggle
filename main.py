@@ -1,7 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  def convert_to_binary(n):
+        return bin(n)
