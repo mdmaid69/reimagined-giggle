@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
