@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  def subtract_numbers(x, y):
+        return x - y
