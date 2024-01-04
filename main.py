@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
