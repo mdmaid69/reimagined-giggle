@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
