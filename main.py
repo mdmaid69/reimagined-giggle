@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_work(force, distance):
+        return force * distance
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
