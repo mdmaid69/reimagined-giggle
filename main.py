@@ -1,5 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
