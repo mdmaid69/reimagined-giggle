@@ -1,8 +1,8 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
 import csv
-with open("some.csv", "w", newline="") as f:
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+        writer.writerows(data)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
