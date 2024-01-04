@@ -1,5 +1,6 @@
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import re
-print(re.match("h.*o", "hello world"))
+def convert_array_to_bytes(array):
+        return array.tobytes()
