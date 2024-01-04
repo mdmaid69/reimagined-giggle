@@ -1,4 +1,8 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
