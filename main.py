@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def convert_to_octal(n):
-        return oct(n)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
