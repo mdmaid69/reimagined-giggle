@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
