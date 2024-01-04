@@ -1,6 +1,7 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
