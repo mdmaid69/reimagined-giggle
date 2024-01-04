@@ -1,5 +1,7 @@
-def calculate_area_rectangle(l, w):
-        return l * w
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_current_working_directory():
+        return os.getcwd()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
