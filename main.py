@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import sys
+def print_python_version():
+        return sys.version
+  def calculate_area_circle(r):
+        return 3.14 * r**2
