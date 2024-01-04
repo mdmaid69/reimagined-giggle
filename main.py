@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
