@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def sort_list(lst):
-        return sorted(lst)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def count_characters(sentence):
+        return len(sentence)
