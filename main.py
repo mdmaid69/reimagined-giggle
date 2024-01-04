@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
