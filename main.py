@@ -1,8 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
