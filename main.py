@@ -1,7 +1,8 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
