@@ -1,5 +1,5 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import re
+print(re.match("h.*o", "hello world"))
