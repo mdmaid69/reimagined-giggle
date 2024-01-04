@@ -1,6 +1,7 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+name = "Python"
+print("Hello,", name)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
