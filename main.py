@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
