@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def multiply_numbers(x, y):
+        return x * y
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
