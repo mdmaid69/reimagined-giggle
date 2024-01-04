@@ -1,7 +1,8 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
