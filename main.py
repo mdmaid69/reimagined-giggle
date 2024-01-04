@@ -1,4 +1,7 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def square_number(x):
-        return x**2
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_array_as_set(array):
+        return set(array)
