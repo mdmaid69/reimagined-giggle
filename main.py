@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  import sys
+  def get_python_version():
+        return sys.version
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
