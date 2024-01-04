@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-  def square_number(x):
-        return x**2
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def get_current_directory():
+        return os.getcwd()
