@@ -1,5 +1,6 @@
 import math
-print(math.pi)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import getpass
+def get_username():
+        return getpass.getuser()
