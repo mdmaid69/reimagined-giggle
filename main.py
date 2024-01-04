@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
