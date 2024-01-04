@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
