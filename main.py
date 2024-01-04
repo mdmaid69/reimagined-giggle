@@ -1,7 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
