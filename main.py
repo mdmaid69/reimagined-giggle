@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  def multiply_numbers(x, y):
+        return x * y
+import os
+def get_current_working_directory():
+        return os.getcwd()
