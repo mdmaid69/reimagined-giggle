@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
