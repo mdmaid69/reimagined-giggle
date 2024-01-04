@@ -1,5 +1,7 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def convert_to_hex(n):
-        return hex(n)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
