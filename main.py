@@ -1,5 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  def square_number(x):
+        return x**2
