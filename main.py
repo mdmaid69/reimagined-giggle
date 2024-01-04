@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
