@@ -1,5 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
