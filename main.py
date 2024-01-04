@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-def divide_numbers(x, y):
-        return x / y
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
