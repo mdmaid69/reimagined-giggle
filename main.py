@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+print(math.pi)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
