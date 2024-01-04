@@ -1,6 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def get_array_typecode(array):
-        return array.typecode
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
