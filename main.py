@@ -1,6 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import time
+print(time.time())
+  def calculate_area_circle(r):
+        return 3.14 * r**2
