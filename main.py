@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
