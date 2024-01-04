@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_power(work, time):
+        return work / time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
