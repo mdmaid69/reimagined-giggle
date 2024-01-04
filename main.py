@@ -1,10 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_area_circle(r):
+        return 3.14 * r**2
