@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
