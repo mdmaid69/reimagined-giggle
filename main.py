@@ -1,6 +1,6 @@
+import collections
+def create_counter():
+        return collections.Counter()
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def get_list_from_array(array):
+        return array.tolist()
