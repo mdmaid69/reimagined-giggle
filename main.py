@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def get_array_as_repr(array):
+        return repr(array)
