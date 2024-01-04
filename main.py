@@ -1,7 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def find_min(numbers):
-        return min(numbers)
+  def square_number(x):
+        return x**2
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
