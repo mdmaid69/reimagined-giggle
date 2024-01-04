@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
