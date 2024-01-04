@@ -1,5 +1,7 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_acceleration(speed, time):
-        return speed / time
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
