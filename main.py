@@ -1,4 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def reverse_list(lst):
-        return lst[::-1]
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
