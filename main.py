@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import random
+def roll_die():
+        return random.randint(1, 6)
