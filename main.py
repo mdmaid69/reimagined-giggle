@@ -1,5 +1,5 @@
+  def is_even(n):
+        return n % 2 == 0
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
