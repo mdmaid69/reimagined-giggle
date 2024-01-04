@@ -1,5 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
