@@ -1,6 +1,6 @@
+import array
+def convert_array_to_list(array):
+        return array.tolist()
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
