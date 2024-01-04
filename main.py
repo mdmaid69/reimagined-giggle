@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
