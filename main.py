@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
