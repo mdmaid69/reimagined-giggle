@@ -1,5 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
