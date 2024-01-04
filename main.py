@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
