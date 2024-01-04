@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import collections
+def create_stack():
+        return collections.deque()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
