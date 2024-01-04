@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
