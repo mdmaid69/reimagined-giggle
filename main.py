@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def is_even(n):
+        return n % 2 == 0
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
