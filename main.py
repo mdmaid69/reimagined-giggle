@@ -1,5 +1,6 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  def add_numbers(x, y):
-        return x + y
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
