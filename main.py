@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_current_directory():
+        return os.getcwd()
