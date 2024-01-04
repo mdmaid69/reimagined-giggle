@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def is_palindrome(s):
+        return s == s[::-1]
