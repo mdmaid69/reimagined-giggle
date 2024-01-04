@@ -1,7 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
