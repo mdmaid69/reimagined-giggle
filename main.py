@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+name = "Python"
+print("Hello,", name)
+import array
+def get_array_as_bool(array):
+        return bool(array)
