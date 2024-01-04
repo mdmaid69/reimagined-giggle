@@ -1,6 +1,5 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import numpy as np
+print(np.array([1, 2, 3]))
