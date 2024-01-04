@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
