@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
