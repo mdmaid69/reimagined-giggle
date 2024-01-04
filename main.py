@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
