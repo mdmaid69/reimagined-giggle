@@ -1,6 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def is_palindrome(s):
+        return s == s[::-1]
