@@ -1,6 +1,3 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+print(sum(range(10)))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
