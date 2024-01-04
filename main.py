@@ -1,5 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
