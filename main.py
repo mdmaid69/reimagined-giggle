@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
