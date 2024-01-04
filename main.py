@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
