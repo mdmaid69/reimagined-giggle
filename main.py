@@ -1,5 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
