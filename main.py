@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
