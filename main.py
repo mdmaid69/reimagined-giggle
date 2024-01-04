@@ -1,5 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def is_odd(n):
-        return n % 2 != 0
+print(sum(range(10)))
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
