@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
