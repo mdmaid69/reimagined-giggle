@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_array_item(array, i):
+        return array[i]
+import sys
+def exit_program():
+        sys.exit()
