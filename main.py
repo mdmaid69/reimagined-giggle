@@ -1,8 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
