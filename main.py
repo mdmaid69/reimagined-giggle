@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
