@@ -1,4 +1,7 @@
-print([x**2 for x in range(10)])
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
