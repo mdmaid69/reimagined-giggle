@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
