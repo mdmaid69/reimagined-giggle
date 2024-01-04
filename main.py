@@ -1,5 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
