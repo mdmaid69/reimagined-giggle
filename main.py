@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_power(work, time):
+        return work / time
 import os
-def remove_directory(path):
-        os.rmdir(path)
+def get_environment_variable(var):
+        return os.getenv(var)
