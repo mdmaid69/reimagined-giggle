@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import os
+def remove_directory(path):
+        os.rmdir(path)
