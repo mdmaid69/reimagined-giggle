@@ -1,6 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def cube_number(x):
+        return x**3
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
