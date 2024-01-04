@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+from collections import Counter
+print(Counter("hello world"))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
