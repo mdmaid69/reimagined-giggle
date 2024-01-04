@@ -1,6 +1,7 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def remove_duplicates(lst):
+        return list(set(lst))
