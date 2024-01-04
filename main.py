@@ -1,6 +1,7 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import array
-def clear_array(array):
-        array *= 0
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
