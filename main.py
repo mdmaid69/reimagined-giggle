@@ -1,4 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-print(sum(range(10)))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
