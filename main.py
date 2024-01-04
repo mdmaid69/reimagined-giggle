@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
