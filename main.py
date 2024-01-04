@@ -1,5 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def multiply_numbers(x, y):
-        return x * y
+def add_numbers(a, b):
+        return a + b
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
