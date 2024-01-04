@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import collections
-def create_counter():
-        return collections.Counter()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
