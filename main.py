@@ -1,5 +1,7 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def is_palindrome(s):
-        return s == s[::-1]
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
