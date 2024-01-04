@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def reverse_string(s):
+        return s[::-1]
+import array
+def get_array_as_float(array):
+        return float(array[0])
