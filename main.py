@@ -1,6 +1,4 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def add_numbers(x, y):
+        return x + y
