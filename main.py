@@ -1,5 +1,8 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def is_odd(n):
-        return n % 2 != 0
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
