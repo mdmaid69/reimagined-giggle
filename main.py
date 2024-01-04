@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+text = "Hello, world!"
+print("Words:", len(text.split()))
