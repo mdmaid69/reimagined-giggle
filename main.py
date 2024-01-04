@@ -1,4 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+x = 10
+y = 20
+print("Sum:", x + y)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
