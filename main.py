@@ -1,5 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_acceleration(speed, time):
+        return speed / time
