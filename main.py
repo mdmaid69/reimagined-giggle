@@ -1,5 +1,7 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
