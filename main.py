@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_as_str(array):
-        return str(array)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import sys
+  def get_python_version():
+        return sys.version
