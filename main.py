@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
