@@ -1,6 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import os
+def change_working_directory(path):
+        os.chdir(path)
