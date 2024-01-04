@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
