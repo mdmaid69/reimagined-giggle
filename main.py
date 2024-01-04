@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
