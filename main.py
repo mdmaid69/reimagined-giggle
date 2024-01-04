@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import collections
+def create_user_list():
+        return collections.UserList()
