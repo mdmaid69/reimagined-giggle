@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
