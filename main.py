@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import datetime
+def get_today_date():
+        return datetime.date.today()
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
