@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
+def sort_list(lst):
+        return sorted(lst)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def extend_array(array, iterable):
+        array.extend(iterable)
