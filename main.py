@@ -1,5 +1,4 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def square_number(x):
+        return x**2
+  def calculate_area_circle(r):
+        return 3.14 * r**2
