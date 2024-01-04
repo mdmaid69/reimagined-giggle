@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
