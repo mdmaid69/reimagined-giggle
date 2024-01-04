@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
