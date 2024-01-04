@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
