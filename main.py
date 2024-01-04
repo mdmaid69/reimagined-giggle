@@ -1,5 +1,3 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+for i in range(10): print(i)
+def is_even(n):
+        return n % 2 == 0
