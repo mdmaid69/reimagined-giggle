@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
