@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import collections
+def create_priority_queue():
+        return collections.deque()
