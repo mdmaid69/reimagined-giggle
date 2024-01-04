@@ -1,6 +1,8 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
