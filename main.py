@@ -1,6 +1,7 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
