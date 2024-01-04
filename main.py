@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import tensorflow as tf
-print(tf.__version__)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
