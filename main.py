@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def get_array_as_set(array):
-        return set(array)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
