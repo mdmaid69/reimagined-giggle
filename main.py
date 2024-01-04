@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import array
+def get_array_length(array):
+        return len(array)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
