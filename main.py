@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def add_numbers(x, y):
+        return x + y
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
