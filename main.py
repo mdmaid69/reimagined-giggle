@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def get_array_length(array):
+        return len(array)
