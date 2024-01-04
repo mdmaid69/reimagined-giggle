@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import collections
+def create_user_string():
+        return collections.UserString()
