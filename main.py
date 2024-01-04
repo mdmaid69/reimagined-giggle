@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import array
+def clear_array(array):
+        array *= 0
