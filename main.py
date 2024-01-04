@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  def add_numbers(x, y):
+        return x + y
