@@ -1,6 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
