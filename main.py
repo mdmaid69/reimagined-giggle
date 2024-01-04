@@ -1,6 +1,4 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
