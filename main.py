@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_density(mass, volume):
+        return mass / volume
