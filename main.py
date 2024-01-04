@@ -1,8 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
