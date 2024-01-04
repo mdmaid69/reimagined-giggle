@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def is_palindrome(s):
+        return s == s[::-1]
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
