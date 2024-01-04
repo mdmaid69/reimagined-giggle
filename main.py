@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
