@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def multiply_numbers(x, y):
-        return x * y
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
