@@ -1,8 +1,4 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
