@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_power(work, time):
+        return work / time
