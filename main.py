@@ -1,9 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_power(work, time):
+        return work / time
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
