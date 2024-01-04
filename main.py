@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
