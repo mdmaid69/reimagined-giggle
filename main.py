@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import platform
-def get_python_version():
-        return platform.python_version()
+  def convert_to_hex(n):
+        return hex(n)
+import os
+def remove_directory(path):
+        os.rmdir(path)
