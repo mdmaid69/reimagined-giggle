@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  def is_even(n):
+        return n % 2 == 0
