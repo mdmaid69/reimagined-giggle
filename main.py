@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-text = "Hello, world!"
-print("Characters:", len(text))
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def cube_number(x):
+        return x**3
