@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
