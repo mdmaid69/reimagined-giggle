@@ -1,4 +1,9 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import random
-print(random.randint(0, 100))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
