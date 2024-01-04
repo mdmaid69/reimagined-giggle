@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
