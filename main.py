@@ -1,5 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import numpy as np
-print(np.array([1, 2, 3]))
+def convert_to_binary(n):
+        return bin(n)
+  def reverse_list(lst):
+        return lst[::-1]
