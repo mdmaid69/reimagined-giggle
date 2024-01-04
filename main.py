@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
