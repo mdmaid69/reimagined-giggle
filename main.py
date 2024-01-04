@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_as_float(array):
+        return float(array[0])
+def convert_to_octal(n):
+        return oct(n)
