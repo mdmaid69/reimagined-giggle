@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
