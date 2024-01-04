@@ -1,6 +1,7 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
