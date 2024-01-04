@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  def convert_to_binary(n):
-        return bin(n)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import collections
+def create_user_dict():
+        return collections.UserDict()
