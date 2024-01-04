@@ -1,7 +1,8 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
