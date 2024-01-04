@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import array
-def get_array_as_str(array):
-        return str(array)
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
