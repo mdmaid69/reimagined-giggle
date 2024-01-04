@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
