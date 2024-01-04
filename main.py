@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def find_min(numbers):
+        return min(numbers)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
