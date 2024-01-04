@@ -1,7 +1,5 @@
+  def convert_to_binary(n):
+        return bin(n)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
