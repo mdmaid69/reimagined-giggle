@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
