@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
