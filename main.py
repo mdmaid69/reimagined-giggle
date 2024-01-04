@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def add_numbers(x, y):
+        return x + y
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
