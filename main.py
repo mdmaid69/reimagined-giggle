@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
