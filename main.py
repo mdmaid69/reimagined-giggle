@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def reverse_array(array):
+        array.reverse()
