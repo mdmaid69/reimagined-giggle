@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
