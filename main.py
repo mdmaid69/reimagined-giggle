@@ -1,4 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def find_min(lst):
-        return min(lst)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def subtract_numbers(x, y):
+        return x - y
