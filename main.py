@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+from collections import Counter
+print(Counter("hello world"))
