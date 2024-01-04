@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import os
+print(os.getcwd())
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
