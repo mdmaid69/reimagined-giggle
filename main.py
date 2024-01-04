@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def find_max(numbers):
+        return max(numbers)
