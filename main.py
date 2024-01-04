@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-def divide_numbers(x, y):
-        return x / y
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
