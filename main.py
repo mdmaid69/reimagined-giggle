@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import getpass
+def get_username():
+        return getpass.getuser()
