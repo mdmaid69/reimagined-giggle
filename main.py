@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import datetime
+print(datetime.datetime.now())
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
