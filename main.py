@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
