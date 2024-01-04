@@ -1,5 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_speed(distance, time):
-        return distance / time
+print("Hello, world!")
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
