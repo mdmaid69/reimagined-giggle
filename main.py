@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
