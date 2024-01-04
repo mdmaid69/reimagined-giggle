@@ -1,6 +1,6 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
