@@ -1,6 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
