@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
