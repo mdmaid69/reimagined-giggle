@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
