@@ -1,6 +1,7 @@
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
 import json
-def convert_to_json(data):
-        return json.dumps(data)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
