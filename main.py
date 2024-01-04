@@ -1,6 +1,8 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
