@@ -1,6 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_cosine(x):
+        return math.cos(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
