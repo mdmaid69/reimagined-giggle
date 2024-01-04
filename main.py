@@ -1,5 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import collections
+def create_user_dict():
+        return collections.UserDict()
