@@ -1,6 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_work(force, distance):
+        return force * distance
+def calculate_average(lst):
+        return sum(lst) / len(lst)
