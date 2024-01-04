@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import random
+print(random.randint(0, 100))
