@@ -1,6 +1,5 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
