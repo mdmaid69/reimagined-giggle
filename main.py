@@ -1,3 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-print([x**2 for x in range(10)])
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
