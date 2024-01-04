@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
