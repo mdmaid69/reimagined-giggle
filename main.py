@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
