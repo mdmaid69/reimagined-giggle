@@ -1,5 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
