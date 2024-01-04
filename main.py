@@ -1,4 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def find_min(lst):
+        return min(lst)
