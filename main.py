@@ -1,12 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
