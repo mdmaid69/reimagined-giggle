@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
