@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
