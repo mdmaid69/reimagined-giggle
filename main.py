@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_item(array, i):
+        return array[i]
