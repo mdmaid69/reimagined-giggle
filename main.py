@@ -1,6 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-print(sum(range(10)))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import collections
+def create_user_dict():
+        return collections.UserDict()
