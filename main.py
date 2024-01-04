@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
