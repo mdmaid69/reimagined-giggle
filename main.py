@@ -1,6 +1,5 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
