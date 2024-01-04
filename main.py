@@ -1,6 +1,6 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_sine(x):
+        return math.sin(x)
+import time
+def get_time_since_epoch():
+        return time.time()
