@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
