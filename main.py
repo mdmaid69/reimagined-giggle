@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
