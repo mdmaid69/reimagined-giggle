@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_area_rectangle(l, w):
-        return l * w
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import datetime
+def get_today_date():
+        return datetime.date.today()
