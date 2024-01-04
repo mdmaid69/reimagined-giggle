@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def count_characters(sentence):
-        return len(sentence)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
