@@ -1,6 +1,6 @@
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
