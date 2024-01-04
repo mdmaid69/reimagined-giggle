@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  def convert_to_octal(n):
+        return oct(n)
