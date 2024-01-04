@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
