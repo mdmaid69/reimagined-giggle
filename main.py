@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def count_elements(lst):
-        return len(lst)
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
