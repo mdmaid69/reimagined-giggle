@@ -1,6 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
