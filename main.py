@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import sys
+def print_python_version():
+        print(sys.version)
