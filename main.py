@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
