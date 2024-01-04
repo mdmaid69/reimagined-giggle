@@ -1,5 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_density(mass, volume):
+        return mass / volume
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
