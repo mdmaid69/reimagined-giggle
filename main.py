@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
