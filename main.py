@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
