@@ -1,5 +1,7 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_pressure(force, area):
+        return force / area
