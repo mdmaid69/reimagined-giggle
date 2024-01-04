@@ -1,5 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
