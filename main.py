@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+name = "Python"
+print("Hello,", name)
