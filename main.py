@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-def find_min(lst):
-        return min(lst)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  def convert_to_binary(n):
+        return bin(n)
