@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def is_even(n):
+        return n % 2 == 0
