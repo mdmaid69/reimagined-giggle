@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
