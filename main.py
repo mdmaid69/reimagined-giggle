@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def cube_number(x):
+        return x**3
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
