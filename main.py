@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  def cube_number(x):
+        return x**3
