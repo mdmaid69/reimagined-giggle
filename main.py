@@ -1,6 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+print(math.pi)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
