@@ -1,9 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
