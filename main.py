@@ -1,9 +1,6 @@
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import time
-def get_time_since_epoch():
-        return time.time()
+def get_array_as_complex(array):
+        return complex(array[0])
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
