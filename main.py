@@ -1,7 +1,12 @@
-def reverse_list(lst):
-        return lst[::-1]
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
