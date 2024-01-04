@@ -1,6 +1,6 @@
+import collections
+def create_counter():
+        return collections.Counter()
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_combinations(n, k):
+        return math.comb(n, k)
