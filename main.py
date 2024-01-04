@@ -1,4 +1,8 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
