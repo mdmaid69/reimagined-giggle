@@ -1,5 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
