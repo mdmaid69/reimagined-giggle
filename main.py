@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_sine(x):
+        return math.sin(x)
