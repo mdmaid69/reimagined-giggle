@@ -1,8 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+for i in range(5):
+        print(i)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
