@@ -1,4 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def count_elements(lst):
-        return len(lst)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import random
+print(random.randint(0, 100))
