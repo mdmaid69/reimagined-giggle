@@ -1,6 +1,5 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import sys
-  def get_python_version():
-        return sys.version
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
