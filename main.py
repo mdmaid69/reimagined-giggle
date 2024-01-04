@@ -1,9 +1,6 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import collections
+def create_user_list():
+        return collections.UserList()
