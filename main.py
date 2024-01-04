@@ -1,6 +1,7 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def cube_number(x):
+        return x**3
