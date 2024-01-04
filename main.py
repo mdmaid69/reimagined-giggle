@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import sys
+  def get_python_version():
+        return sys.version
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
