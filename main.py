@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_work(force, distance):
+        return force * distance
