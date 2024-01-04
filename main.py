@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  def sort_list(lst):
-        return sorted(lst)
+def find_min(lst):
+        return min(lst)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
