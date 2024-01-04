@@ -1,6 +1,7 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
