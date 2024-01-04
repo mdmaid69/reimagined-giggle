@@ -1,5 +1,5 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_speed(distance, time):
+        return distance / time
