@@ -1,6 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
