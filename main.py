@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  def calculate_area_rectangle(l, w):
-        return l * w
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
