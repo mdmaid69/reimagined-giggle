@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def divide_numbers(x, y):
+        return x / y
