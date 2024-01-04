@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def find_max(numbers):
+        return max(numbers)
