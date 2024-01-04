@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_work(force, distance):
-        return force * distance
+import collections
+def create_user_string():
+        return collections.UserString()
+def convert_to_binary(n):
+        return bin(n)
