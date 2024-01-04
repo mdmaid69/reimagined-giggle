@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def find_max(numbers):
+        return max(numbers)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
