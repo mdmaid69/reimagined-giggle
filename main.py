@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  def convert_to_binary(n):
+        return bin(n)
