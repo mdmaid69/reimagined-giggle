@@ -1,7 +1,8 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def cube_number(x):
-        return x**3
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
