@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
