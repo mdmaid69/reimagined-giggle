@@ -1,7 +1,4 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-def divide_numbers(x, y):
-        return x / y
+def convert_to_binary(n):
+        return bin(n)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
