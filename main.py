@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import os
+def change_working_directory(path):
+        os.chdir(path)
