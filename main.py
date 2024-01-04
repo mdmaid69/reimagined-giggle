@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def convert_to_hex(n):
+        return hex(n)
