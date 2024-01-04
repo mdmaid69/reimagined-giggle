@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
