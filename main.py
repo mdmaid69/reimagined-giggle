@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
