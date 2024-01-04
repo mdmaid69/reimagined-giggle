@@ -1,6 +1,7 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
