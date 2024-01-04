@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def square_number(x):
+        return x**2
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
