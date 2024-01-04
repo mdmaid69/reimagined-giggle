@@ -1,5 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import collections
+def create_stack():
+        return collections.deque()
