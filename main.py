@@ -1,6 +1,8 @@
 import array
-def clear_array(array):
-        array *= 0
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
