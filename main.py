@@ -1,5 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def find_unique_words(sentence):
-        return set(sentence.split())
+def get_array_as_str(array):
+        return str(array)
+import datetime
+def get_current_date():
+        return datetime.date.today()
