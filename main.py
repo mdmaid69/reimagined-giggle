@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
