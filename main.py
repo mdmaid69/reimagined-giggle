@@ -1,7 +1,7 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def greet(name):
+        print(f"Hello, {name}!")
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
