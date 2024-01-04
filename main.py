@@ -1,8 +1,8 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
