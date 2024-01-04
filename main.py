@@ -1,6 +1,6 @@
+import math
+def calculate_tangent(x):
+        return math.tan(x)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import collections
-def create_counter():
-        return collections.Counter()
+  def get_base_name(path):
+        return os.path.basename(path)
