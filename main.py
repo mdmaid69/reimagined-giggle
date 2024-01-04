@@ -1,5 +1,8 @@
-import datetime
-print(datetime.datetime.now())
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
