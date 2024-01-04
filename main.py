@@ -1,5 +1,5 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-def subtract_numbers(x, y):
-        return x - y
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_power(work, time):
+        return work / time
