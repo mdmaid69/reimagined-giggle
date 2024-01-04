@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def multiply_numbers(x, y):
+        return x * y
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
