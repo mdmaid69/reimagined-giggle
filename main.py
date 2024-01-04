@@ -1,5 +1,3 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+print([x**2 for x in range(10)])
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
