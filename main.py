@@ -1,6 +1,7 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
