@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import sys
-  def get_python_version():
-        return sys.version
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
