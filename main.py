@@ -1,6 +1,5 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import platform
-def get_os_info():
-        return platform.uname()
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
