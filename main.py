@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  def calculate_area_rectangle(l, w):
+        return l * w
