@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
