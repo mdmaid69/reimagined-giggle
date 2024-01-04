@@ -1,6 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def sort_list(lst):
+        return sorted(lst)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
