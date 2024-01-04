@@ -1,5 +1,5 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def get_array_as_set(array):
+        return set(array)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
