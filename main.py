@@ -1,5 +1,6 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
