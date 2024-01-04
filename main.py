@@ -1,5 +1,9 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
