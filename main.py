@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def add_numbers(x, y):
+        return x + y
+def calculate_area_rectangle(l, w):
+        return l * w
