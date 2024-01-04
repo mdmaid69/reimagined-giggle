@@ -1,5 +1,6 @@
 import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def reverse_list(lst):
-        return lst[::-1]
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
