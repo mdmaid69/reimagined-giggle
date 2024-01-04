@@ -1,8 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+print(sum(range(10)))
