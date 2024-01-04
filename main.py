@@ -1,9 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
