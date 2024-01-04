@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
