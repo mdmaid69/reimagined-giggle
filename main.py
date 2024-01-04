@@ -1,5 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  def multiply_numbers(x, y):
-        return x * y
+  def sort_list(lst):
+        return sorted(lst)
+def is_even(n):
+        return n % 2 == 0
