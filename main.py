@@ -1,6 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
