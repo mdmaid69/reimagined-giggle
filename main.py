@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import collections
+def create_stack():
+        return collections.deque()
+  def is_even(n):
+        return n % 2 == 0
