@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import datetime
+print(datetime.datetime.now())
