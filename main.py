@@ -1,5 +1,6 @@
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
 import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
