@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import collections
-def create_priority_queue():
-        return collections.deque()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
