@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
