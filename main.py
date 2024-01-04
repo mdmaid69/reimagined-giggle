@@ -1,5 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def add_numbers(a, b):
+        return a + b
