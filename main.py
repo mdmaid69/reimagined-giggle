@@ -1,6 +1,6 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def get_array_index(array, item):
+        return array.index(item)
