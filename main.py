@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
