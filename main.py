@@ -1,6 +1,6 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
