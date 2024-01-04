@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
