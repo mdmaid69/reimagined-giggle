@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
