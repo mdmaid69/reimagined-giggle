@@ -1,6 +1,6 @@
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import array
-def get_array_typecode(array):
-        return array.typecode
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def get_string_from_array(array):
+        return array.tobytes()
