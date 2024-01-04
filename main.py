@@ -1,5 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import sys
+  def get_python_version():
+        return sys.version
+import math
+def calculate_error_function(x):
+        return math.erf(x)
