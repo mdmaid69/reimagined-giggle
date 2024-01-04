@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def reverse_string(s):
+        return s[::-1]
+import os
+def change_working_directory(path):
+        os.chdir(path)
