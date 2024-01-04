@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
