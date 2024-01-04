@@ -1,7 +1,5 @@
+import math
+def calculate_exponential(x):
+        return math.exp(x)
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def calculate_area_rectangle(l, w):
-        return l * w
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
