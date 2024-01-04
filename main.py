@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_work(force, distance):
+        return force * distance
