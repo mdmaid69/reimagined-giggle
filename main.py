@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_area_circle(r):
+        return 3.14 * r**2
