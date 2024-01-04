@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
