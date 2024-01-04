@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-x = 10
-y = 20
-print("Sum:", x + y)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
