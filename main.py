@@ -1,7 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
