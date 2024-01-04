@@ -1,6 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_speed(distance, time):
+        return distance / time
