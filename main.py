@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
