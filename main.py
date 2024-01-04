@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
