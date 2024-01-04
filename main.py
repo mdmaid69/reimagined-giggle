@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
