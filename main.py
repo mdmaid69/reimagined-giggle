@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
