@@ -1,6 +1,5 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
