@@ -1,8 +1,4 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+text = "Hello, world!"
+print("Reversed:", text[::-1])
