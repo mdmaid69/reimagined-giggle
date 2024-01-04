@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
