@@ -1,4 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-def count_elements(lst):
-        return len(lst)
+print(sum(range(10)))
+import time
+def get_current_time():
+        return time.ctime()
