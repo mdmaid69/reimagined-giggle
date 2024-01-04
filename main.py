@@ -1,5 +1,10 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def find_min(lst):
+        return min(lst)
