@@ -1,5 +1,7 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_density(mass, volume):
-        return mass / volume
+import os
+print(os.getcwd())
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
