@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def divide_numbers(x, y):
-        return x / y
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_sine(x):
+        return math.sin(x)
