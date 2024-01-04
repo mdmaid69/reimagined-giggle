@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
