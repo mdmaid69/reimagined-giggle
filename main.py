@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
