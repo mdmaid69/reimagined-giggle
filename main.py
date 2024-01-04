@@ -1,7 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
