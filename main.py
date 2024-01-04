@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
