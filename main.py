@@ -1,6 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def sort_list(lst):
+        return sorted(lst)
+def count_words(sentence):
+        return len(sentence.split())
