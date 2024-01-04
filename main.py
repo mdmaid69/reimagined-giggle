@@ -1,4 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def find_max(lst):
+        return max(lst)
