@@ -1,6 +1,5 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def get_array_as_list(array):
+        return list(array)
+import re
+print(re.match("h.*o", "hello world"))
