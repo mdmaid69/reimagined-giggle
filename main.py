@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
