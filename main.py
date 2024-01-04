@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
+def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
