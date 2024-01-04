@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
