@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
