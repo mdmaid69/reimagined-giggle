@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
