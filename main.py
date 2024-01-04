@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
