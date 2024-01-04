@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  def convert_to_hex(n):
-        return hex(n)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
