@@ -1,6 +1,9 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
 import collections
-def create_priority_queue():
-        return collections.deque()
+def create_user_dict():
+        return collections.UserDict()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
