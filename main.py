@@ -1,5 +1,8 @@
-def calculate_power(work, time):
-        return work / time
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import os
+def change_working_directory(path):
+        os.chdir(path)
