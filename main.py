@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_volume(length, width, height):
+        return length * width * height
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
