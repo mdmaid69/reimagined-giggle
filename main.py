@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
