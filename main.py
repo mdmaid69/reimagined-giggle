@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
