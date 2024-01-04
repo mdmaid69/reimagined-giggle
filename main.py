@@ -1,6 +1,6 @@
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
