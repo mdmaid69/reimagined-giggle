@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_array_as_set(array):
-        return set(array)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  def cube_number(x):
+        return x**3
