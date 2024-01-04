@@ -1,5 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
