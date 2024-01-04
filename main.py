@@ -1,5 +1,6 @@
+import math
+def calculate_floor(x):
+        return math.floor(x)
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
