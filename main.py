@@ -1,4 +1,4 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import time
-print(time.time())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def reverse_list(lst):
+        return lst[::-1]
