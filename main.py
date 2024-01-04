@@ -1,6 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def is_odd(n):
+        return n % 2 != 0
