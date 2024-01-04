@@ -1,3 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-print("Hello, world!")
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
