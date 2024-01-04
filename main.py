@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
