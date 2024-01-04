@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def reverse_string(s):
+        return s[::-1]
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
