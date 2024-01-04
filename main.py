@@ -1,5 +1,8 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
