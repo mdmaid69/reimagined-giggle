@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
