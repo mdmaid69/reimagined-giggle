@@ -1,5 +1,10 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_power(work, time):
-        return work / time
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+print([x**2 for x in range(10)])
