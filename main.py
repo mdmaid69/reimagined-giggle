@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
