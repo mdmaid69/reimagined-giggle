@@ -1,4 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-print([x**2 for x in range(10)])
+def sort_list(lst):
+        return sorted(lst)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
