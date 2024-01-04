@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def greet(name):
+        print(f"Hello, {name}!")
