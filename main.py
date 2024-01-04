@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import collections
+def create_queue():
+        return collections.deque()
