@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
