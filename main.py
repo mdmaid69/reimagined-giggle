@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
