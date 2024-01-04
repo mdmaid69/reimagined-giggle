@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-name = "Python"
-print("Hello,", name)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import sys
+def exit_program():
+        sys.exit()
