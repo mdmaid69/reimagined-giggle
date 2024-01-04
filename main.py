@@ -1,5 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def clear_array(array):
+        array *= 0
