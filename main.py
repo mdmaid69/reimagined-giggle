@@ -1,5 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
