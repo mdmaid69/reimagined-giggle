@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
