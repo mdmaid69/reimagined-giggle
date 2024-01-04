@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import os
+print(os.getcwd())
