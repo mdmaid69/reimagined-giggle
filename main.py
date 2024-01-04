@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
