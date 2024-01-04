@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
