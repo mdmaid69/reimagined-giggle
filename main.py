@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
