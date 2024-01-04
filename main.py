@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-def multiply_numbers(x, y):
-        return x * y
+import sys
+def exit_program():
+        sys.exit()
+import platform
+def get_os_info():
+        return platform.uname()
