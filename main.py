@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def sort_list(lst):
+        return sorted(lst)
