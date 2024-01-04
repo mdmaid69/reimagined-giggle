@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_power(work, time):
-        return work / time
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def reverse_list(lst):
+        return lst[::-1]
