@@ -1,5 +1,9 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def convert_to_hex(n):
+        return hex(n)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
