@@ -1,5 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import sys
-print(sys.version)
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
