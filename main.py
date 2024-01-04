@@ -1,8 +1,7 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
