@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+from collections import Counter
+print(Counter("hello world"))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
