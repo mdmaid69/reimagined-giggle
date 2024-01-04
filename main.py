@@ -1,8 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
