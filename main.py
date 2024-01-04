@@ -1,5 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  def cube_number(x):
-        return x**3
+import tensorflow as tf
+print(tf.__version__)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
