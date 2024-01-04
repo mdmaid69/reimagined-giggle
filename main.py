@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
