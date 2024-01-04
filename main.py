@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_interest(principal, rate, time):
         return principal * (1 + rate)**time
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
