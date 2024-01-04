@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_area_rectangle(l, w):
+        return l * w
