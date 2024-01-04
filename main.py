@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
