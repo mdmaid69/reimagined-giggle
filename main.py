@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
