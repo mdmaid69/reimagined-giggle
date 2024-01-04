@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-def square_number(x):
-        return x**2
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+text = "Hello, world!"
+print("Words:", len(text.split()))
