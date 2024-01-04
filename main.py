@@ -1,7 +1,7 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+from collections import Counter
+print(Counter("hello world"))
