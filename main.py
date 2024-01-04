@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_array_item(array, i):
+        return array[i]
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
