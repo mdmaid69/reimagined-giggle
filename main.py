@@ -1,6 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
