@@ -1,5 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+print(sum(range(10)))
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_buffer_info(array):
+        return array.buffer_info()
