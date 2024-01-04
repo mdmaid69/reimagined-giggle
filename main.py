@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
