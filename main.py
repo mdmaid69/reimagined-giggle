@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
