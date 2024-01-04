@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import platform
-def get_python_version():
-        return platform.python_version()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
