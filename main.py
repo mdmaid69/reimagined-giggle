@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
