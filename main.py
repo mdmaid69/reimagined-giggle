@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
