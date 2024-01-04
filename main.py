@@ -1,5 +1,11 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
