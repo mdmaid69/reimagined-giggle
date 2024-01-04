@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
