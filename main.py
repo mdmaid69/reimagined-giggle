@@ -1,4 +1,5 @@
-name = "Python"
-print("Hello,", name)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def cube_number(x):
+        return x**3
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
