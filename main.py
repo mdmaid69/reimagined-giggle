@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def get_array_as_str(array):
-        return str(array)
+import collections
+def create_user_string():
+        return collections.UserString()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
