@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def add_numbers(a, b):
+        return a + b
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
