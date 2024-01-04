@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
