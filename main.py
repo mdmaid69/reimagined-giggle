@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
