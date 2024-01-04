@@ -1,6 +1,5 @@
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
