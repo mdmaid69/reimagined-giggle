@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
