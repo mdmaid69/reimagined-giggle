@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import sys
-  def get_python_version():
-        return sys.version
+import collections
+def create_user_list():
+        return collections.UserList()
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
