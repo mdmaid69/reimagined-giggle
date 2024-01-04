@@ -1,6 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+print([x**2 for x in range(10)])
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
