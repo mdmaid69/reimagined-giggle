@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
