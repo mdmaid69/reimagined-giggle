@@ -1,5 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+for i in range(10): print(i)
