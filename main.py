@@ -1,5 +1,5 @@
 import os
-def get_current_working_directory():
-        return os.getcwd()
+def remove_directory(path):
+        os.rmdir(path)
 import os
 print(os.getcwd())
