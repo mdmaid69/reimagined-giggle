@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def clear_array(array):
-        array *= 0
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def subtract_numbers(x, y):
+        return x - y
