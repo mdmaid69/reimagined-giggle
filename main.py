@@ -1,4 +1,9 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import array
+def get_array_item(array, i):
+        return array[i]
