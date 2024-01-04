@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
