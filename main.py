@@ -1,6 +1,6 @@
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
