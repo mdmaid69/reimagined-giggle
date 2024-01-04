@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
