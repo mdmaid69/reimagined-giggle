@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
