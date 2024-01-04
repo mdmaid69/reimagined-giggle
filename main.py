@@ -1,6 +1,5 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
