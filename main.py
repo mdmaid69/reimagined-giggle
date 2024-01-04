@@ -1,4 +1,8 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import random
-print(random.randint(0, 100))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
