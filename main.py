@@ -1,6 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_work(force, distance):
+        return force * distance
