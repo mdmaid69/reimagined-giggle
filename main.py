@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
