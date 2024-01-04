@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
