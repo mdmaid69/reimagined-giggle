@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def clear_array(array):
-        array *= 0
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
