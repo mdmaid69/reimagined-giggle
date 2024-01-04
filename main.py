@@ -1,4 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def find_max(numbers):
-        return max(numbers)
+def calculate_acceleration(speed, time):
+        return speed / time
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
