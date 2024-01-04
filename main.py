@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
