@@ -1,5 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
