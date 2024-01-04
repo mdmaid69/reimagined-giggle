@@ -1,5 +1,4 @@
+def calculate_area(radius):
+        return 3.14 * radius * radius
 text = "Hello, world!"
-print("Characters:", len(text))
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+print("Reversed:", text[::-1])
