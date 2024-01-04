@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
