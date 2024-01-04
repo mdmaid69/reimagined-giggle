@@ -1,5 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def square_number(x):
-        return x**2
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import time
+def get_current_time():
+        return time.ctime()
