@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
