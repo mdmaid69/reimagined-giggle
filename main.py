@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
