@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import collections
+def create_queue():
+        return collections.deque()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
