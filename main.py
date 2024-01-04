@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def square_number(x):
-        return x**2
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
