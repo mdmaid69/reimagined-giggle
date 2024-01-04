@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def convert_to_binary(n):
+        return bin(n)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
