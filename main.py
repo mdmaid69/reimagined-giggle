@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
