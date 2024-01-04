@@ -1,4 +1,4 @@
-def square_number(x):
-        return x**2
-  def convert_to_binary(n):
-        return bin(n)
+def is_odd(n):
+        return n % 2 != 0
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
