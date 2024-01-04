@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
