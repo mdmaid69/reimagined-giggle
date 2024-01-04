@@ -1,6 +1,7 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import re
+print(re.match("h.*o", "hello world"))
