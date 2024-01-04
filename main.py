@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+for i in range(5):
+        print(i)
