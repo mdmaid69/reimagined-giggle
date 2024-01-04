@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
 import random
-print(random.randint(0, 100))
+def generate_random_number(start, end):
+        return random.randint(start, end)
+x = 10
+y = 20
+print("Sum:", x + y)
