@@ -1,6 +1,6 @@
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
