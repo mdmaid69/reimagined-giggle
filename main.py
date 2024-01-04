@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
