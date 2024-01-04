@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
