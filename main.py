@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
