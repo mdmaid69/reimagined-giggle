@@ -1,7 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  def multiply_numbers(x, y):
+        return x * y
