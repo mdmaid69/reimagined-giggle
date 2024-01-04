@@ -1,6 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
