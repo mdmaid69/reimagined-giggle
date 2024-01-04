@@ -1,5 +1,7 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
