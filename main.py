@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import sys
+def print_python_version():
+        print(sys.version)
