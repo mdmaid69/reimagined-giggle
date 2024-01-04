@@ -1,6 +1,6 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def get_array_index(array, item):
+        return array.index(item)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
