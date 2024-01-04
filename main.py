@@ -1,5 +1,5 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def square_number(x):
+        return x**2
