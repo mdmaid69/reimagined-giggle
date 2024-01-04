@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def is_even(n):
+        return n % 2 == 0
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
