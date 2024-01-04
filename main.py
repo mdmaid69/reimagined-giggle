@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
