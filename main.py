@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
