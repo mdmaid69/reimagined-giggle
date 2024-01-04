@@ -1,7 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def find_unique_words(sentence):
+        return set(sentence.split())
