@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
