@@ -1,6 +1,6 @@
+import os
+def change_working_directory(path):
+        os.chdir(path)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
