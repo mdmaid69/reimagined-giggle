@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def reverse_list(lst):
+        return lst[::-1]
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
