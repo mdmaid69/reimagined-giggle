@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def reverse_string(s):
-        return s[::-1]
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import sys
+print(sys.version)
