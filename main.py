@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  def sort_list(lst):
+        return sorted(lst)
