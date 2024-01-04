@@ -1,5 +1,8 @@
-def reverse_list(lst):
-        return lst[::-1]
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
