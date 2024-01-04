@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-  def multiply_numbers(x, y):
-        return x * y
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+name = "Python"
+print("Hello,", name)
