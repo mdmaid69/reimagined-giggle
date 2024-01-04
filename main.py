@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import random
+print(random.randint(0, 100))
+import platform
+def get_python_version():
+        return platform.python_version()
