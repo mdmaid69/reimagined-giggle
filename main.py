@@ -1,4 +1,8 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_as_str(array):
+        return str(array)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
