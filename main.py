@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def greet(name):
+        print(f"Hello, {name}!")
