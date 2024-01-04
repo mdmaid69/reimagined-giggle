@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def convert_to_hex(n):
-        return hex(n)
+def square_number(x):
+        return x**2
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
