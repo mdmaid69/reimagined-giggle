@@ -1,5 +1,9 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
