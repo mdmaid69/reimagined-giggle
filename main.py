@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
