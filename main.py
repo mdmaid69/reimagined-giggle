@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
