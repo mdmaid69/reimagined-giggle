@@ -1,7 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
