@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import sys
-print(sys.version)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
