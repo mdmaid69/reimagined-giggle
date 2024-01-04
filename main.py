@@ -1,5 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
