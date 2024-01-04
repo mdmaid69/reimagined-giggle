@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
