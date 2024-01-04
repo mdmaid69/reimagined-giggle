@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
