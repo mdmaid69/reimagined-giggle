@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
