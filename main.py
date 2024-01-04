@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
