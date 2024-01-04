@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
