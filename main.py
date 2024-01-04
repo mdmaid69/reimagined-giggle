@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
