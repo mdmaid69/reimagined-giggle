@@ -1,10 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import datetime
+def get_today_date():
+        return datetime.date.today()
