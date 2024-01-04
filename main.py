@@ -1,5 +1,7 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
