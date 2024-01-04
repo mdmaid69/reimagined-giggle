@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
