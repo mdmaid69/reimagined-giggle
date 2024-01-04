@@ -1,7 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
