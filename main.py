@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def get_list_from_array(array):
+        return array.tolist()
