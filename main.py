@@ -1,4 +1,8 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_area_rectangle(l, w):
-        return l * w
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def reverse_array(array):
+        array.reverse()
