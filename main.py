@@ -1,5 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
