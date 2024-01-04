@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_array_as_bool(array):
+        return bool(array)
