@@ -1,6 +1,6 @@
+import array
+def get_array_as_list(array):
+        return list(array)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
