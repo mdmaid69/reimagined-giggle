@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
