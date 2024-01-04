@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
