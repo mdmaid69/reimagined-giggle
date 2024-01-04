@@ -1,6 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def is_odd(n):
+        return n % 2 != 0
+def convert_to_binary(n):
+        return bin(n)
