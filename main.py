@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def reverse_list(lst):
+        return lst[::-1]
