@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  def cube_number(x):
-        return x**3
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
