@@ -1,5 +1,7 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import collections
+def create_stack():
+        return collections.deque()
