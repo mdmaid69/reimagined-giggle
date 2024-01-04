@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_pressure(force, area):
+        return force / area
