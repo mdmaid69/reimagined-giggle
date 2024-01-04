@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
