@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def add_numbers(a, b):
+        return a + b
