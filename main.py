@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
