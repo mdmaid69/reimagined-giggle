@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import sys
+print(sys.version)
