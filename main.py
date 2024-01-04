@@ -1,8 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
