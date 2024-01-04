@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import random
+print(random.randint(0, 100))
