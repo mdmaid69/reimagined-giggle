@@ -1,5 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def is_odd(n):
+        return n % 2 != 0
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
