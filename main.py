@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def calculate_acceleration(speed, time):
+        return speed / time
