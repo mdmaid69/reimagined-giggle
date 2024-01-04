@@ -1,6 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
