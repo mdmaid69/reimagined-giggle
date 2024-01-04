@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
