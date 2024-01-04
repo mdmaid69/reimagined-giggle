@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
