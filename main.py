@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import collections
-def create_counter():
-        return collections.Counter()
+def convert_to_binary(n):
+        return bin(n)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
