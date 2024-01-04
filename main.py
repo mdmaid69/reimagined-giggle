@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-def greet(name):
-        print(f"Hello, {name}!")
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
