@@ -1,4 +1,7 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import re
-print(re.match("h.*o", "hello world"))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
