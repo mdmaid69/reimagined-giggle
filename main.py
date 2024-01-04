@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
