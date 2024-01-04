@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
