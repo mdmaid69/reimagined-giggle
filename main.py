@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def convert_to_binary(n):
+        return bin(n)
