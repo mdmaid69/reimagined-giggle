@@ -1,6 +1,7 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
