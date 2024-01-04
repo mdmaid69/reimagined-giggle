@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
