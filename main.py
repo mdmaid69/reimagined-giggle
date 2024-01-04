@@ -1,5 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
