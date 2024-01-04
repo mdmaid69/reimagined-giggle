@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
