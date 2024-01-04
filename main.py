@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
