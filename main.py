@@ -1,6 +1,6 @@
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def get_array_as_repr(array):
+        return repr(array)
