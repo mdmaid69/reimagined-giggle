@@ -1,6 +1,6 @@
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import collections
+def create_user_list():
+        return collections.UserList()
