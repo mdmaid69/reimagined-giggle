@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def sort_numbers(numbers):
+        return sorted(numbers)
