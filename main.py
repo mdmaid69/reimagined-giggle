@@ -1,7 +1,6 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
