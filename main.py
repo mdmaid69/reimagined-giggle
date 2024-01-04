@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+print([x**2 for x in range(10)])
