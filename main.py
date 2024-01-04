@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import getpass
+def get_username():
+        return getpass.getuser()
