@@ -1,7 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+text = "Hello, world!"
+print("Words:", len(text.split()))
