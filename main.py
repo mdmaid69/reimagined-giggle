@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-text = "Hello, world!"
-print("Characters:", len(text))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import datetime
+def get_today_date():
+        return datetime.date.today()
