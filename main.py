@@ -1,5 +1,7 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def multiply_numbers(x, y):
+        return x * y
