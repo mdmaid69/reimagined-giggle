@@ -1,7 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
