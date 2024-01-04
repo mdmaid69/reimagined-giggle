@@ -1,5 +1,8 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
