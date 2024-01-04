@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def get_array_as_int(array):
+        return int(array[0])
