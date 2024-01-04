@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def clear_array(array):
+        array *= 0
