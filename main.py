@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
