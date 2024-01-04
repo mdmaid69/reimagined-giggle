@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
