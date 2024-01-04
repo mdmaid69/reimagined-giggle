@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
