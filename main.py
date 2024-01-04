@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
