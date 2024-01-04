@@ -1,9 +1,6 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
