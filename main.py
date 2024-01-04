@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+text = "Hello, world!"
+print("Reversed:", text[::-1])
