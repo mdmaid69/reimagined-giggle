@@ -1,6 +1,8 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
