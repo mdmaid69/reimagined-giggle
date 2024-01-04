@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def get_current_working_directory():
+        return os.getcwd()
