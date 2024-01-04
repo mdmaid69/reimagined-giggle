@@ -1,6 +1,8 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import collections
-def create_queue():
-        return collections.deque()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def get_array_as_set(array):
+        return set(array)
