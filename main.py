@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
