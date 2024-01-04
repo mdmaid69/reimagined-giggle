@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
