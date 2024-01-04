@@ -1,7 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def square_number(x):
+        return x**2
