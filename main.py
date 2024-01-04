@@ -1,5 +1,8 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
