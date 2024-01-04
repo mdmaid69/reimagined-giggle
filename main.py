@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
