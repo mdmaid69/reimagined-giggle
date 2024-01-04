@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def is_odd(n):
+        return n % 2 != 0
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
