@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import numpy as np
+print(np.array([1, 2, 3]))
