@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
