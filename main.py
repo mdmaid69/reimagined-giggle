@@ -1,6 +1,8 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_floor(x):
+        return math.floor(x)
