@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
