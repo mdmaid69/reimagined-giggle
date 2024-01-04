@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def greet(name):
-        print(f"Hello, {name}!")
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
