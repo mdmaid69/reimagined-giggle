@@ -1,6 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def count_elements(lst):
+        return len(lst)
+def is_odd(n):
+        return n % 2 != 0
