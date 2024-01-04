@@ -1,5 +1,8 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
