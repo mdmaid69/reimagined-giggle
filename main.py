@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
