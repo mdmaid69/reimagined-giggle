@@ -1,7 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
