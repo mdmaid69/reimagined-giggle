@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def find_min(lst):
+        return min(lst)
+import os
+def remove_directory(path):
+        os.rmdir(path)
