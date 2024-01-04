@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
+text = "Hello, world!"
+print("Characters:", len(text))
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
