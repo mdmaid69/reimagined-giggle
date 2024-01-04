@@ -1,6 +1,6 @@
+import math
+def calculate_sine(x):
+        return math.sin(x)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
