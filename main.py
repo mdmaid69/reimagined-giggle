@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_work(force, distance):
+        return force * distance
+def calculate_density(mass, volume):
+        return mass / volume
