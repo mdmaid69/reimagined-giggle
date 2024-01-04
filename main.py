@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
