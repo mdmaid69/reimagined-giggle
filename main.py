@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import time
+def get_time_since_epoch():
+        return time.time()
