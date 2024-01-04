@@ -1,5 +1,9 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
