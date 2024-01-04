@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
