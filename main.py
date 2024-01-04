@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-from collections import Counter
-print(Counter("hello world"))
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
