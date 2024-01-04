@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
