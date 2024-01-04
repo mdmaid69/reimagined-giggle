@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import collections
+def create_priority_queue():
+        return collections.deque()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
