@@ -1,8 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
