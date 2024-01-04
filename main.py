@@ -1,7 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
