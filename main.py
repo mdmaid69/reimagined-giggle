@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def find_max(numbers):
+        return max(numbers)
