@@ -1,6 +1,6 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
