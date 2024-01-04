@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
