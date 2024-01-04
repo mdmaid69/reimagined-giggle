@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def convert_to_octal(n):
-        return oct(n)
+import math
+print(math.pi)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
