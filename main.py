@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def add_numbers(a, b):
-        return a + b
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import collections
+def create_stack():
+        return collections.deque()
