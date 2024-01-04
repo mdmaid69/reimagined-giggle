@@ -1,5 +1,8 @@
-  def cube_number(x):
-        return x**3
-x = 10
-y = 20
-print("Sum:", x + y)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
