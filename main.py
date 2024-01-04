@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def find_max(numbers):
-        return max(numbers)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
