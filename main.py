@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
