@@ -1,5 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Uppercase:", text.upper())
