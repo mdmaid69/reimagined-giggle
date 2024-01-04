@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
