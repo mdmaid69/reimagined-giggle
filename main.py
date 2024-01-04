@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def cube_number(x):
+        return x**3
