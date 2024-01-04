@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_acceleration(speed, time):
-        return speed / time
+def sort_list(lst):
+        return sorted(lst)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
