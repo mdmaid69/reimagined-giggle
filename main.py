@@ -1,7 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def get_array_as_str(array):
+        return str(array)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
