@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-from collections import Counter
-print(Counter("hello world"))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
