@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import sys
+def print_python_version():
+        print(sys.version)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
