@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import os
-print(os.getcwd())
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def is_odd(n):
+        return n % 2 != 0
