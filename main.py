@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import time
-def get_current_time():
-        return time.time()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
