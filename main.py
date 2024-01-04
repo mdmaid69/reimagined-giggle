@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def get_array_as_str(array):
-        return str(array)
+import getpass
+def get_username():
+        return getpass.getuser()
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
