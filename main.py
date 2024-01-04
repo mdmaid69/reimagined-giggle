@@ -1,7 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
