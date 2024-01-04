@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
