@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
