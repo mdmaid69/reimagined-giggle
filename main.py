@@ -1,7 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def is_palindrome(s):
+        return s == s[::-1]
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
