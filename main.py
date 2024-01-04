@@ -1,7 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def count_elements(lst):
+        return len(lst)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
