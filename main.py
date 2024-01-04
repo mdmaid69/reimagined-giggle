@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
