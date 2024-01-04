@@ -1,5 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def calculate_pressure(force, area):
-        return force / area
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
