@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def count_characters(sentence):
+        return len(sentence)
