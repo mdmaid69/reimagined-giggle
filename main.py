@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def remove_duplicates(lst):
+        return list(set(lst))
