@@ -1,6 +1,8 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
