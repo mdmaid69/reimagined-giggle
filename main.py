@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import random
+print(random.randint(0, 100))
