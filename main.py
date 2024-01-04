@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def reverse_list(lst):
-        return lst[::-1]
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_sine(x):
+        return math.sin(x)
