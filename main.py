@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
