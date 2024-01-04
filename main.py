@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def add_numbers(x, y):
-        return x + y
+import os
+print(os.getcwd())
+def calculate_pressure(force, area):
+        return force / area
