@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
