@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
