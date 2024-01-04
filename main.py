@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
