@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_sine(x):
+        return math.sin(x)
