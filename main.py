@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-import re
-print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def find_max(lst):
+        return max(lst)
