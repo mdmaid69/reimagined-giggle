@@ -1,6 +1,7 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
