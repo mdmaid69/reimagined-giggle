@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
