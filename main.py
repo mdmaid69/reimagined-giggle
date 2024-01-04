@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import array
+def get_array_item(array, i):
+        return array[i]
