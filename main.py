@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import array
+def get_array_as_float(array):
+        return float(array[0])
