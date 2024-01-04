@@ -1,6 +1,6 @@
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_square_root(x):
+        return math.sqrt(x)
