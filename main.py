@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def add_numbers(x, y):
-        return x + y
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
