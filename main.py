@@ -1,6 +1,7 @@
   import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
