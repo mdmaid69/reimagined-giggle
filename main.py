@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import platform
+def get_os_info():
+        return platform.uname()
