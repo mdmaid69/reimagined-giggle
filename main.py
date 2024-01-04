@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
