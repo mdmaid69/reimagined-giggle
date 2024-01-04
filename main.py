@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
