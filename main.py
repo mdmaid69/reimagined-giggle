@@ -1,12 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import logging
+def log_message(message):
+        logging.info(message)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
