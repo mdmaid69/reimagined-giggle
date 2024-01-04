@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
