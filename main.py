@@ -1,7 +1,7 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def remove_duplicates(lst):
+        return list(set(lst))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
