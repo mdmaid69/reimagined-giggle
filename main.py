@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
