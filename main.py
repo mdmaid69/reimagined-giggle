@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def reverse_list(lst):
-        return lst[::-1]
+def is_even(n):
+        return n % 2 == 0
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
