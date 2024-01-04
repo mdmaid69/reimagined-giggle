@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
