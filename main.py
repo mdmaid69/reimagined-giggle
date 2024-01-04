@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
