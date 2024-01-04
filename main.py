@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  def square_number(x):
-        return x**2
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
