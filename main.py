@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
