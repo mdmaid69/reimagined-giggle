@@ -1,4 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-for i in range(10): print(i)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import collections
+def create_user_string():
+        return collections.UserString()
