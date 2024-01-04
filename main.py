@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
