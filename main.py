@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
