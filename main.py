@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
