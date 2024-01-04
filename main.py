@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
