@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
