@@ -1,5 +1,8 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
