@@ -1,5 +1,4 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  def cube_number(x):
-        return x**3
+import os
+print(os.getcwd())
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
