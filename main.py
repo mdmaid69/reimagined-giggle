@@ -1,8 +1,6 @@
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
