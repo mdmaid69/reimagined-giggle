@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
