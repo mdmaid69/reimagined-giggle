@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import platform
-def get_python_version():
-        return platform.python_version()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
