@@ -1,5 +1,4 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import random
-print(random.randint(0, 100))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def sort_list(lst):
+        return sorted(lst)
