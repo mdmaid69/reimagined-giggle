@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_as_bytes(array):
+        return bytes(array)
