@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def subtract_numbers(x, y):
+        return x - y
+  def convert_to_hex(n):
+        return hex(n)
