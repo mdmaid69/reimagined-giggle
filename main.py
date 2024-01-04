@@ -1,6 +1,8 @@
-import json
-def load_json(filename):
+import csv
+def load_csv(filename):
         with open(filename, "r") as f:
-        return json.load(f)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
