@@ -1,8 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
