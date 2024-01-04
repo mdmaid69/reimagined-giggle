@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
