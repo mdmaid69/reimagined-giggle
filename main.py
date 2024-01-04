@@ -1,6 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_cosine(x):
+        return math.cos(x)
