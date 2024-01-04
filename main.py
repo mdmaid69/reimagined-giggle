@@ -1,6 +1,6 @@
+import math
+def calculate_floor(x):
+        return math.floor(x)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
