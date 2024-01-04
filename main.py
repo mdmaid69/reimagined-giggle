@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
