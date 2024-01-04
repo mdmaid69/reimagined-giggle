@@ -1,5 +1,4 @@
-def find_min(numbers):
-        return min(numbers)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import numpy as np
+print(np.array([1, 2, 3]))
