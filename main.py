@@ -1,8 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
