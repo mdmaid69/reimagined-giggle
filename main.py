@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
