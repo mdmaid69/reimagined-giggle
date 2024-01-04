@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
