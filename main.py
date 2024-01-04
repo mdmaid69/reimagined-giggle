@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def remove_duplicates(lst):
-        return list(set(lst))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
