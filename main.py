@@ -1,6 +1,7 @@
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import platform
-def get_os_info():
-        return platform.uname()
+def get_array_item_count(array, item):
+        return array.count(item)
