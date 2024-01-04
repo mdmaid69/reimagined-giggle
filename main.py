@@ -1,5 +1,8 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
