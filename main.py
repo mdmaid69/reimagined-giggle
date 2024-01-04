@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
+  def remove_duplicates(lst):
+        return list(set(lst))
 import collections
-def create_priority_queue():
+def create_stack():
         return collections.deque()
