@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
