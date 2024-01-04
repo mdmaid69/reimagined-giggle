@@ -1,9 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
