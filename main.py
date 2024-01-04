@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import platform
-def get_python_version():
-        return platform.python_version()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
