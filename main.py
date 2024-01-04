@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+x = 10
+y = 20
+print("Sum:", x + y)
