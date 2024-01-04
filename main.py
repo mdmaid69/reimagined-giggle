@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
