@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
