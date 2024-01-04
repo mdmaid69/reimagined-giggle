@@ -1,4 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-for i in range(10): print(i)
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_floor(x):
+        return math.floor(x)
