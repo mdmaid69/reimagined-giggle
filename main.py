@@ -1,4 +1,7 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
