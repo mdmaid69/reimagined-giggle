@@ -1,7 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
