@@ -1,5 +1,6 @@
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def find_min(lst):
-        return min(lst)
+def calculate_arc_cosine(x):
+        return math.acos(x)
