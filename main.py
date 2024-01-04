@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
