@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
