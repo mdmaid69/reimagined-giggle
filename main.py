@@ -1,5 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def find_max(lst):
-        return max(lst)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def convert_to_hex(n):
+        return hex(n)
