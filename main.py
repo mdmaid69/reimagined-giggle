@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import platform
+def get_python_version():
+        return platform.python_version()
