@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
