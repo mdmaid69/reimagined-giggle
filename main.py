@@ -1,10 +1,6 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
