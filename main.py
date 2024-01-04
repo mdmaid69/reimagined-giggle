@@ -1,5 +1,5 @@
 import array
-def get_array_length(array):
-        return len(array)
-  def square_number(x):
-        return x**2
+def get_array_as_tuple(array):
+        return tuple(array)
+  def multiply_numbers(x, y):
+        return x * y
