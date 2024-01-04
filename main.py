@@ -1,7 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
