@@ -1,7 +1,6 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
