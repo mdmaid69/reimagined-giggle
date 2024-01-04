@@ -1,5 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def convert_to_hex(n):
+        return hex(n)
