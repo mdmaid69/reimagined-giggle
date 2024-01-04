@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+x = 10
+y = 20
+print("Sum:", x + y)
