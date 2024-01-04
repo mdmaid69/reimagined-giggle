@@ -1,6 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
