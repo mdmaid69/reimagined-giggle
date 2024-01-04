@@ -1,5 +1,6 @@
+import array
+def convert_array_to_string(array):
+        return array.tostring()
 import sys
-def print_python_version():
-        return sys.version
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def exit_program():
+        sys.exit()
