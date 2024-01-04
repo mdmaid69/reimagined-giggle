@@ -1,5 +1,5 @@
-  def is_odd(n):
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def is_odd(n):
         return n % 2 != 0
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
