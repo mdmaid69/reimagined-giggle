@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
