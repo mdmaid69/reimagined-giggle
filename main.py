@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
+name = "Python"
+print("Hello,", name)
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
