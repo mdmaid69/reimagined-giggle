@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
