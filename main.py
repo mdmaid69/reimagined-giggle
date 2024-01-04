@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  def cube_number(x):
+        return x**3
