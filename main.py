@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def add_numbers(x, y):
+        return x + y
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
