@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_density(mass, volume):
+        return mass / volume
