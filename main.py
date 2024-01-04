@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-  def convert_to_hex(n):
-        return hex(n)
+  def multiply_numbers(x, y):
+        return x * y
+import collections
+def create_queue():
+        return collections.deque()
