@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
