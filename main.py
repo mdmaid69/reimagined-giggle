@@ -1,5 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-for i in range(5):
-        print(i)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
