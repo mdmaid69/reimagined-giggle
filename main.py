@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
