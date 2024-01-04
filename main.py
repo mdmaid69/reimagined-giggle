@@ -1,5 +1,7 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import re
+print(re.match("h.*o", "hello world"))
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
