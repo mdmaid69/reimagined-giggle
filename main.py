@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
