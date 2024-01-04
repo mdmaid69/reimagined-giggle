@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
