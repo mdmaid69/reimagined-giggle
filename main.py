@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
