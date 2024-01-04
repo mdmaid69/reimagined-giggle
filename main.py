@@ -1,6 +1,2 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+print([x**2 for x in range(10)])
+for i in range(10): print(i)
