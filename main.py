@@ -1,5 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  def add_numbers(x, y):
-        return x + y
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
