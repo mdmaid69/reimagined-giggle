@@ -1,6 +1,4 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
