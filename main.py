@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def greet(name):
-        print(f"Hello, {name}!")
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
