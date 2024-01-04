@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
