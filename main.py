@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  def square_number(x):
-        return x**2
+def calculate_work(force, distance):
+        return force * distance
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
