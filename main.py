@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
 import collections
-def create_user_list():
-        return collections.UserList()
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def get_array_item(array, i):
+        return array[i]
