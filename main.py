@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
