@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
