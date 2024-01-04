@@ -1,6 +1,7 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
