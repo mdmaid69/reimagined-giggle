@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
