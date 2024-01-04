@@ -1,5 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def count_elements(lst):
-        return len(lst)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
