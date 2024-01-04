@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
