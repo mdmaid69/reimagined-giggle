@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
