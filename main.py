@@ -1,5 +1,7 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
