@@ -1,6 +1,7 @@
-import collections
-def create_stack():
-        return collections.deque()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
