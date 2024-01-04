@@ -1,6 +1,5 @@
+for i in range(5):
+        print(i)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import sys
-def print_python_version():
-        print(sys.version)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
