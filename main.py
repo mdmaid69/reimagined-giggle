@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
