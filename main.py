@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def set_array_item(array, i, item):
+        array[i] = item
