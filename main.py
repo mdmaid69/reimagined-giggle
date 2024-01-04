@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  def convert_to_octal(n):
-        return oct(n)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
