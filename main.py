@@ -1,4 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-print(sum(range(10)))
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  def square_number(x):
+        return x**2
