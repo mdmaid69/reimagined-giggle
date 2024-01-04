@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
