@@ -1,5 +1,8 @@
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
