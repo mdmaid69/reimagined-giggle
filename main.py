@@ -1,6 +1,7 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
