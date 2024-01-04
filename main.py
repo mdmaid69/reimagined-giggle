@@ -1,6 +1,7 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def clear_array(array):
-        array *= 0
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
