@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+def count_characters(sentence):
+        return len(sentence)
