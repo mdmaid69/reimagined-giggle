@@ -1,6 +1,5 @@
+  def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
