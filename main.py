@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
