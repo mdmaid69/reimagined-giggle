@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
