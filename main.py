@@ -1,8 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def pop_from_array(array, i=-1):
+        return array.pop(i)
