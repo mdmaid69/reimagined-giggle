@@ -1,5 +1,5 @@
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
