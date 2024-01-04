@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def multiply_numbers(x, y):
-        return x * y
+def is_palindrome(s):
+        return s == s[::-1]
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
