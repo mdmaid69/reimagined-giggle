@@ -1,6 +1,6 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
