@@ -1,6 +1,4 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def cube_number(x):
+        return x**3
+import re
+print(re.match("h.*o", "hello world"))
