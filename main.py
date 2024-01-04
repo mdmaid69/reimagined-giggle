@@ -1,6 +1,4 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
