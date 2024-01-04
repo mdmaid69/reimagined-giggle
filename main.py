@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import sys
+def print_python_version():
+        return sys.version
