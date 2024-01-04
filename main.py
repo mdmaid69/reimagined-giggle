@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_as_bytearray(array):
+        return bytearray(array)
