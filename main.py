@@ -1,4 +1,7 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
