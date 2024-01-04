@@ -1,12 +1,11 @@
-import queue
+import threading
 
-q = queue.Queue()
+def print_hello():
+        print("Hello, world!")
 
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
