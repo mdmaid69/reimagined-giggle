@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import collections
+def create_user_string():
+        return collections.UserString()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
