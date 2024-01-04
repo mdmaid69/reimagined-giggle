@@ -1,6 +1,3 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def reverse_array(array):
-        array.reverse()
+name = "Python"
+print("Hello,", name)
+print([x**2 for x in range(10)])
