@@ -1,6 +1,4 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import collections
-def create_stack():
-        return collections.deque()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
