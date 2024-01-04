@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
