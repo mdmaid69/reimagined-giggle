@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
