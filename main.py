@@ -1,3 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-for i in range(10): print(i)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
