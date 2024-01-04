@@ -1,6 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
