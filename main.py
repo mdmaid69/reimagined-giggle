@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def convert_to_binary(n):
+        return bin(n)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
