@@ -1,6 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
