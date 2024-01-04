@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
