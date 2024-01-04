@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
