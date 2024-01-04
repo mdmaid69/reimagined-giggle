@@ -1,6 +1,9 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
