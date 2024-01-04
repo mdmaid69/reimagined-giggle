@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
