@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import collections
-def create_user_string():
-        return collections.UserString()
+  def convert_to_hex(n):
+        return hex(n)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
