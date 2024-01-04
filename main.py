@@ -1,8 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+print(sum(range(10)))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
