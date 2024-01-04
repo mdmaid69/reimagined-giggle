@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def find_min(numbers):
+        return min(numbers)
