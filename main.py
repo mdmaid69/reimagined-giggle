@@ -1,5 +1,6 @@
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
