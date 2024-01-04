@@ -1,5 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def divide_numbers(x, y):
-        return x / y
+def calculate_work(force, distance):
+        return force * distance
+import random
+print(random.randint(0, 100))
