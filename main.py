@@ -1,6 +1,7 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_area_rectangle(l, w):
+        return l * w
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
