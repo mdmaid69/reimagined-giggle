@@ -1,10 +1,5 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
