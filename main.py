@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
