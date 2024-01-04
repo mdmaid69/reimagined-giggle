@@ -1,7 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
