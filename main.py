@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
