@@ -1,3 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-for i in range(10): print(i)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
