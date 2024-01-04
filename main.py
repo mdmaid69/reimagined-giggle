@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import time
-def get_current_time():
-        return time.ctime()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+for i in range(10): print(i)
