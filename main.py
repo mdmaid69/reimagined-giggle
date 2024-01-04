@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
