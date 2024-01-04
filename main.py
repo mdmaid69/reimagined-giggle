@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
