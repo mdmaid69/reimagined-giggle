@@ -1,7 +1,9 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+i = 0
+while i < 5:
+        print(i)
+        i += 1
