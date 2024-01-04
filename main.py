@@ -1,8 +1,6 @@
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
