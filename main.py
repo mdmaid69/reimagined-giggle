@@ -1,5 +1,8 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
