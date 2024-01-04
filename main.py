@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
