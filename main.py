@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def sort_numbers(numbers):
+        return sorted(numbers)
