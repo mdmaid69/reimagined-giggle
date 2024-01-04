@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import json
+print(json.dumps({"name": "John", "age": 30}))
