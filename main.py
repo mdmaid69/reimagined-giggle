@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
