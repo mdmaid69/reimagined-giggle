@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
