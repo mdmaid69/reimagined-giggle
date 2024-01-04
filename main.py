@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
