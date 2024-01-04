@@ -1,8 +1,7 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_area(radius):
+        return 3.14 * radius * radius
