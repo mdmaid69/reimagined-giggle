@@ -1,5 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
