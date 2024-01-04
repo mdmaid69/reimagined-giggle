@@ -1,7 +1,7 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def reverse_string(s):
+        return s[::-1]
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
