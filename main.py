@@ -1,5 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_gamma_function(x):
+        return math.gamma(x)
