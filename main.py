@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def is_odd(n):
+        return n % 2 != 0
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
