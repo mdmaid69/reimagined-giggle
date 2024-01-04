@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
