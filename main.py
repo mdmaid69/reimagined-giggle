@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
