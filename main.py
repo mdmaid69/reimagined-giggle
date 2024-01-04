@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import collections
+def create_user_dict():
+        return collections.UserDict()
