@@ -1,7 +1,10 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
