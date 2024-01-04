@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import sys
+  def get_python_version():
+        return sys.version
+import collections
+def create_queue():
+        return collections.deque()
