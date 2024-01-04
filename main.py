@@ -1,5 +1,5 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-def cube_number(x):
-        return x**3
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import random
+print(random.randint(0, 100))
