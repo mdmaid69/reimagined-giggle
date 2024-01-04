@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def get_array_as_int(array):
+        return int(array[0])
