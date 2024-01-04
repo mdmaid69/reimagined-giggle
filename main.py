@@ -1,5 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
