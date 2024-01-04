@@ -1,6 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
