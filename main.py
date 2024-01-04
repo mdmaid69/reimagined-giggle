@@ -1,5 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
