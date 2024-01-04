@@ -1,7 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
