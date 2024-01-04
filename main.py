@@ -1,5 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def calculate_area_rectangle(l, w):
+        return l * w
