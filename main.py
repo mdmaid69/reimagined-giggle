@@ -1,5 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
