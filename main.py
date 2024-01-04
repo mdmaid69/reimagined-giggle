@@ -1,6 +1,5 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_factorial(n):
+        return math.factorial(n)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
