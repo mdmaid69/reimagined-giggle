@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
