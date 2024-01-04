@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
