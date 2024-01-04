@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  def convert_to_hex(n):
-        return hex(n)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+for i in range(5):
+        print(i)
