@@ -1,5 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_power(work, time):
+        return work / time
