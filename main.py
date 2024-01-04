@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def convert_to_binary(n):
+        return bin(n)
