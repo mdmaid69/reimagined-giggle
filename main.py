@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
