@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
