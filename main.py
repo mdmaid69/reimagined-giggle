@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
