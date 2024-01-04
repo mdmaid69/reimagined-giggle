@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def count_elements(lst):
+        return len(lst)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
