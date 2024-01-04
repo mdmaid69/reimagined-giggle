@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def convert_to_octal(n):
+        return oct(n)
