@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def is_even(n):
+        return n % 2 == 0
