@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
