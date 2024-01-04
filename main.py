@@ -1,5 +1,8 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
