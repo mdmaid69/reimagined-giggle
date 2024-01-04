@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
