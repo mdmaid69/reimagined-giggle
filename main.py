@@ -1,5 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def add_numbers(a, b):
+        return a + b
