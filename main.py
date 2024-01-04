@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def add_numbers(x, y):
-        return x + y
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
