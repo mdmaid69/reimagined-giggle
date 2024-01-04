@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
