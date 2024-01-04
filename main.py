@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
