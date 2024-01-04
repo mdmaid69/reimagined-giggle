@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def square_number(x):
-        return x**2
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import array
+def clear_array(array):
+        array *= 0
