@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
