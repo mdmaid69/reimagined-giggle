@@ -1,8 +1,4 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
