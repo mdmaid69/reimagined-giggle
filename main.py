@@ -1,6 +1,5 @@
+import tensorflow as tf
+print(tf.__version__)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
