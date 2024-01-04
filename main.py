@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import random
-print(random.randint(0, 100))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
