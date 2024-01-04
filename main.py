@@ -1,5 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-def find_min(lst):
-        return min(lst)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
