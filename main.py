@@ -1,6 +1,6 @@
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
