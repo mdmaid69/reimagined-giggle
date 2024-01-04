@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import json
+def convert_to_json(data):
+        return json.dumps(data)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
