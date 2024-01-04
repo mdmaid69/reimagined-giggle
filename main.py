@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
