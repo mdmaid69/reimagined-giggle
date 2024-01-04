@@ -1,5 +1,5 @@
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_volume(length, width, height):
-        return length * width * height
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
