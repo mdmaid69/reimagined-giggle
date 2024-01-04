@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
