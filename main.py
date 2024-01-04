@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def square_number(x):
+        return x**2
+x = 10
+y = 20
+print("Sum:", x + y)
