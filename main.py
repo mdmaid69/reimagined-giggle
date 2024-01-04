@@ -1,12 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
