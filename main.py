@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
