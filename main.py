@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
