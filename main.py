@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
