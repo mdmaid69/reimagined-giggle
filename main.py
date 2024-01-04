@@ -1,7 +1,5 @@
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import re
-print(re.match("h.*o", "hello world"))
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
