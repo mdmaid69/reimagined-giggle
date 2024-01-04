@@ -1,5 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def count_elements(lst):
-        return len(lst)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
