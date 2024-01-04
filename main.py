@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
