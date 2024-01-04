@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+print([x**2 for x in range(10)])
