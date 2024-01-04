@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
