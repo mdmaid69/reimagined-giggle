@@ -1,6 +1,7 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
