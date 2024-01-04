@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
