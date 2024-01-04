@@ -1,4 +1,9 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
