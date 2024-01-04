@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
