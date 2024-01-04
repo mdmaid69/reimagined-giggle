@@ -1,6 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import collections
-def create_user_string():
-        return collections.UserString()
+def is_even(n):
+        return n % 2 == 0
+  def calculate_area_rectangle(l, w):
+        return l * w
