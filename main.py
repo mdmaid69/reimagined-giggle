@@ -1,6 +1,7 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
