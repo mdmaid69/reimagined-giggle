@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_bytes(array):
+        return bytes(array)
