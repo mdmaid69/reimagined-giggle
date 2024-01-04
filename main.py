@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
