@@ -1,4 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-print([x**2 for x in range(10)])
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
