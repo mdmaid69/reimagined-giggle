@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
