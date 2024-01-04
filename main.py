@@ -1,6 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
