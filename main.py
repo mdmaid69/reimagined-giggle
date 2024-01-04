@@ -1,5 +1,11 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def add_numbers(x, y):
+        return x + y
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
