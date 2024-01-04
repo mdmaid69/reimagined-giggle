@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-  def sort_list(lst):
-        return sorted(lst)
+import time
+def get_current_time():
+        return time.ctime()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
