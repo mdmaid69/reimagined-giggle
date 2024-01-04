@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
