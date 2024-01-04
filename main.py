@@ -1,6 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def remove_duplicates(lst):
+        return list(set(lst))
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
