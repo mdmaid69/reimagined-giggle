@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
