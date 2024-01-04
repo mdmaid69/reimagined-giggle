@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import random
+def roll_die():
+        return random.randint(1, 6)
