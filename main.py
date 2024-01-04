@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import sys
+print(sys.version)
+import platform
+def get_os_info():
+        return platform.uname()
