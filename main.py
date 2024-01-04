@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
