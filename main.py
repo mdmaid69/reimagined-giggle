@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
