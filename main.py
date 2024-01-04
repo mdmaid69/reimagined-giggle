@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import json
+print(json.dumps({"name": "John", "age": 30}))
