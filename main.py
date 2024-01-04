@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def get_array_as_list(array):
+        return list(array)
