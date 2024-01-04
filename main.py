@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_bytes(array):
+        return bytes(array)
