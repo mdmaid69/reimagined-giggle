@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
