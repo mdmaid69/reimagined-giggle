@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
