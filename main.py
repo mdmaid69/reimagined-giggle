@@ -1,7 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
