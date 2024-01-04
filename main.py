@@ -1,5 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
