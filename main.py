@@ -1,5 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import math
+def calculate_sine(x):
+        return math.sin(x)
