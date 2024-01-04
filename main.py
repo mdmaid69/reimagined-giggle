@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
