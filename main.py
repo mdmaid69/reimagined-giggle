@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
