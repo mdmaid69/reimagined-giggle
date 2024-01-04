@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
