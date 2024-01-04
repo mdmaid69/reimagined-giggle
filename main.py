@@ -1,5 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
