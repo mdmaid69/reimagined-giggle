@@ -1,8 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  def cube_number(x):
+        return x**3
