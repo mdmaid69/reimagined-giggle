@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
