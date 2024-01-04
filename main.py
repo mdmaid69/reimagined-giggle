@@ -1,12 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import sys
+def print_python_version():
+        return sys.version
