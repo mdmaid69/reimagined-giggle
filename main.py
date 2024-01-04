@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import random
+print(random.randint(0, 100))
