@@ -1,4 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-print([x**2 for x in range(10)])
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import collections
+def create_priority_queue():
+        return collections.deque()
