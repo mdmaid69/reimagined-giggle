@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import datetime
-print(datetime.datetime.now())
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
