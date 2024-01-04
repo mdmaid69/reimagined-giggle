@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-import time
-print(time.time())
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_as_bool(array):
+        return bool(array)
