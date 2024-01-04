@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
