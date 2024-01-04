@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  def cube_number(x):
-        return x**3
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
