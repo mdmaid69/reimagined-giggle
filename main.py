@@ -1,5 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
