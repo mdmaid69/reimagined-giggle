@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
