@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
