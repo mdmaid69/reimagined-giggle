@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
