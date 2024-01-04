@@ -1,5 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import tensorflow as tf
-print(tf.__version__)
+def add_numbers(x, y):
+        return x + y
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
