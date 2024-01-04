@@ -1,4 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-print([x**2 for x in range(10)])
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import os
+def change_working_directory(path):
+        os.chdir(path)
