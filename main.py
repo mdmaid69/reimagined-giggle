@@ -1,6 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_density(mass, volume):
+        return mass / volume
+def add_numbers(x, y):
+        return x + y
