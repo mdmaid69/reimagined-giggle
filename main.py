@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
