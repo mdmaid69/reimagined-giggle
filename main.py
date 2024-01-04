@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_density(mass, volume):
-        return mass / volume
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
