@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
