@@ -1,6 +1,7 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
