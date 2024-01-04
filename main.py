@@ -1,7 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def find_min(numbers):
-        return min(numbers)
+def reverse_list(lst):
+        return lst[::-1]
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
