@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
