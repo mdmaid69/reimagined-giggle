@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import re
+print(re.match("h.*o", "hello world"))
