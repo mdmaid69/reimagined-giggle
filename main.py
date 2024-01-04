@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def square_number(x):
-        return x**2
+import time
+def get_current_time():
+        return time.ctime()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
