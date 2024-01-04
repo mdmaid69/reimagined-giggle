@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def find_max(lst):
+        return max(lst)
