@@ -1,5 +1,8 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import random
-print(random.randint(0, 100))
+  def get_base_name(path):
+        return os.path.basename(path)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
