@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
