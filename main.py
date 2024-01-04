@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import collections
-def create_queue():
-        return collections.deque()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
