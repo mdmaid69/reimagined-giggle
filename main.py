@@ -1,4 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
