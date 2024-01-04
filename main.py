@@ -1,4 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def convert_to_octal(n):
-        return oct(n)
+def calculate_density(mass, volume):
+        return mass / volume
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
