@@ -1,6 +1,7 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def remove_duplicates(lst):
+        return list(set(lst))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
