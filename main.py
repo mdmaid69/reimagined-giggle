@@ -1,5 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
