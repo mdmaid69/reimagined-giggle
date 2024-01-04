@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def count_elements(lst):
+        return len(lst)
