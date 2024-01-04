@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
