@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
