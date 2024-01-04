@@ -1,6 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
