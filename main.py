@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
