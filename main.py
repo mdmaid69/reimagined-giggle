@@ -1,6 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
