@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
