@@ -1,3 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-print([x**2 for x in range(10)])
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_tangent(x):
+        return math.tan(x)
