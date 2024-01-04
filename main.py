@@ -1,5 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
