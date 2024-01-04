@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def convert_to_hex(n):
+        return hex(n)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
