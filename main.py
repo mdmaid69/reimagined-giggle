@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
