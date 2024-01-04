@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
