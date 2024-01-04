@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_index(array, item):
+        return array.index(item)
+import datetime
+def get_current_date():
+        return datetime.date.today()
