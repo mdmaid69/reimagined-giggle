@@ -1,5 +1,7 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
