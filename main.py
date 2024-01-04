@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
