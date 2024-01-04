@@ -1,6 +1,7 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+from collections import Counter
+print(Counter("hello world"))
