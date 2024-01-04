@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def cube_number(x):
+        return x**3
+def is_odd(n):
+        return n % 2 != 0
