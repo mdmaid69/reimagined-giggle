@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
