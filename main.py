@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_power(work, time):
+        return work / time
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
