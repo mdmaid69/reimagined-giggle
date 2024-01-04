@@ -1,6 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_speed(distance, time):
+        return distance / time
