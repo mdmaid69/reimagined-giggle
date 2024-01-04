@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
