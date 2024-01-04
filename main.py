@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import collections
-def create_stack():
-        return collections.deque()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_area(radius):
+        return 3.14 * radius * radius
