@@ -1,6 +1,8 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import logging
+def log_message(message):
+        logging.info(message)
