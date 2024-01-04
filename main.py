@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def add_numbers(x, y):
+        return x + y
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
