@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_volume(length, width, height):
+        return length * width * height
