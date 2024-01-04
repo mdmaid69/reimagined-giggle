@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
