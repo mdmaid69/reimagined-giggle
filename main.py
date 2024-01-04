@@ -1,6 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  def add_numbers(x, y):
-        return x + y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
