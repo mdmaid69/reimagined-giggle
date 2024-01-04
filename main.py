@@ -1,5 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-name = "Python"
-print("Hello,", name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_floor(x):
+        return math.floor(x)
