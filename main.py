@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  def cube_number(x):
-        return x**3
+import array
+def get_array_as_list(array):
+        return list(array)
+def add_numbers(x, y):
+        return x + y
