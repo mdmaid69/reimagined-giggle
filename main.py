@@ -1,8 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import numpy as np
+print(np.array([1, 2, 3]))
