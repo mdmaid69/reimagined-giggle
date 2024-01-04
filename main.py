@@ -1,6 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+print([x**2 for x in range(10)])
+import logging
+def log_message(message):
+        logging.info(message)
