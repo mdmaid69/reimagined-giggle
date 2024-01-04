@@ -1,6 +1,6 @@
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
