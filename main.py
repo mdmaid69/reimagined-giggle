@@ -1,6 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
