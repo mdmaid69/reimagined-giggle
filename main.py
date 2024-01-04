@@ -1,7 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
