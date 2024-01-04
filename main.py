@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
