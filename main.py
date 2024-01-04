@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
