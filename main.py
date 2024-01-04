@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
