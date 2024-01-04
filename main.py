@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def square_number(x):
-        return x**2
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
