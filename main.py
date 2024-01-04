@@ -1,6 +1,5 @@
+def find_min(lst):
+        return min(lst)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
