@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
