@@ -1,8 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import collections
+def create_user_dict():
+        return collections.UserDict()
