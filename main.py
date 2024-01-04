@@ -1,6 +1,6 @@
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
