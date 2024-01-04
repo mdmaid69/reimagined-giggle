@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
