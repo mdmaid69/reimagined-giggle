@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_current_directory():
+        return os.getcwd()
