@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import datetime
+print(datetime.datetime.now())
