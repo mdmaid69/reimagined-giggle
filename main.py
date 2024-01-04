@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
