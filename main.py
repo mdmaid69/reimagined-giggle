@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
