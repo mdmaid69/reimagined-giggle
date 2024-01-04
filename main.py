@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
