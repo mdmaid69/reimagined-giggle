@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
