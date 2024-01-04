@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
