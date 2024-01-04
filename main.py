@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def calculate_speed(distance, time):
+        return distance / time
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
