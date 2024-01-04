@@ -1,8 +1,4 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def reverse_array(array):
-        array.reverse()
+def sort_numbers(numbers):
+        return sorted(numbers)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
