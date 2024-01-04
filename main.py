@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
