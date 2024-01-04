@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def get_array_item(array, i):
+        return array[i]
+  def subtract_numbers(x, y):
+        return x - y
