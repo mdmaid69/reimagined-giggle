@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def get_array_typecode(array):
+        return array.typecode
+def is_odd(n):
+        return n % 2 != 0
