@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_work(force, distance):
+        return force * distance
