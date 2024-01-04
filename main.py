@@ -1,7 +1,6 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-def find_min(numbers):
-        return min(numbers)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
