@@ -1,6 +1,5 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_arc_cosine(x):
+        return math.acos(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
