@@ -1,4 +1,6 @@
-print(sum(range(10)))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
