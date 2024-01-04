@@ -1,5 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-for i in range(5):
-        print(i)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import array
+def get_array_item(array, i):
+        return array[i]
