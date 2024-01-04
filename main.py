@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import collections
-def create_queue():
-        return collections.deque()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
