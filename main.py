@@ -1,5 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def cube_number(x):
+        return x**3
+def calculate_acceleration(speed, time):
+        return speed / time
