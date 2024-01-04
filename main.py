@@ -1,6 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
