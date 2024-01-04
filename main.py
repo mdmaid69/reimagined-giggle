@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
