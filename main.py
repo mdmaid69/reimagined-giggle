@@ -1,6 +1,8 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
   import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def calculate_mean(arr):
+        return np.mean(arr)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
