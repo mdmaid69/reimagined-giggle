@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import sys
-def exit_program():
-        sys.exit()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
