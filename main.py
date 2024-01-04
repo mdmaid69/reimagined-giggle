@@ -1,6 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def count_characters(sentence):
+        return len(sentence)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
