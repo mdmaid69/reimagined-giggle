@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
