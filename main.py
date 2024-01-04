@@ -1,6 +1,5 @@
+def sort_list(lst):
+        return sorted(lst)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
