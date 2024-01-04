@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
