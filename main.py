@@ -1,6 +1,5 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_work(force, distance):
+        return force * distance
