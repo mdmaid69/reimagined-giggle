@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import os
+def change_working_directory(path):
+        os.chdir(path)
