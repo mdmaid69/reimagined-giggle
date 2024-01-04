@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import array
+def get_array_as_str(array):
+        return str(array)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
