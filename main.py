@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
