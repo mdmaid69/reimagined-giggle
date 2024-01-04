@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def sort_numbers(numbers):
+        return sorted(numbers)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
