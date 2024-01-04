@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
