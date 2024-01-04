@@ -1,7 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
