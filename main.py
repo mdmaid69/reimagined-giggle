@@ -1,6 +1,6 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
