@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  def count_elements(lst):
+        return len(lst)
