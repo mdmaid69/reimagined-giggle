@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def convert_to_hex(n):
+        return hex(n)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
