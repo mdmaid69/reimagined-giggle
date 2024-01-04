@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import getpass
-def get_username():
-        return getpass.getuser()
+import collections
+def create_user_string():
+        return collections.UserString()
+  def subtract_numbers(x, y):
+        return x - y
