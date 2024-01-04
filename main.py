@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
