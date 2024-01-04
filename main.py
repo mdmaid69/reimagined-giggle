@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  def convert_to_hex(n):
+        return hex(n)
