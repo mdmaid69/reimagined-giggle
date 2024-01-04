@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import tensorflow as tf
+print(tf.__version__)
