@@ -1,7 +1,8 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
