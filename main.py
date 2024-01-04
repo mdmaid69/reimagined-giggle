@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
