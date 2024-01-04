@@ -1,4 +1,4 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import random
+print(random.randint(0, 100))
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
