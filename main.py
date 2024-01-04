@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def find_min(lst):
+        return min(lst)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
