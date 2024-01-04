@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def find_min(lst):
+        return min(lst)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
