@@ -1,5 +1,5 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_cosine(x):
+        return math.cos(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
