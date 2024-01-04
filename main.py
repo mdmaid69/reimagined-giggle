@@ -1,5 +1,6 @@
+import getpass
+def get_username():
+        return getpass.getuser()
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
