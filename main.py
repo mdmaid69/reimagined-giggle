@@ -1,5 +1,4 @@
-import random
-print(random.randint(0, 100))
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
