@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-  def remove_duplicates(lst):
-        return list(set(lst))
+def divide_numbers(x, y):
+        return x / y
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
