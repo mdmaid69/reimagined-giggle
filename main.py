@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import array
+def get_array_item(array, i):
+        return array[i]
