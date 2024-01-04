@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+for i in range(5):
+        print(i)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
