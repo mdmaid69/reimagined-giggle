@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import platform
-def get_python_version():
-        return platform.python_version()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
