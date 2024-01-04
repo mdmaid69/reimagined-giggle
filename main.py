@@ -1,6 +1,4 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def convert_to_hex(n):
+        return hex(n)
+  def cube_number(x):
+        return x**3
