@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
+print("Hello, world!")
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
