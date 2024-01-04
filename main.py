@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
