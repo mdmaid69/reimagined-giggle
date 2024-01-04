@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def is_even(n):
-        return n % 2 == 0
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
