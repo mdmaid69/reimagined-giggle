@@ -1,6 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
