@@ -1,5 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def find_max(lst):
+        return max(lst)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
