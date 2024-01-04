@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
