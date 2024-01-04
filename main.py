@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-  def convert_to_octal(n):
-        return oct(n)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
