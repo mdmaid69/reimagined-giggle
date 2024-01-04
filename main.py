@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import sys
+  def get_python_version():
+        return sys.version
+  def calculate_area_circle(r):
+        return 3.14 * r**2
