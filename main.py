@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
