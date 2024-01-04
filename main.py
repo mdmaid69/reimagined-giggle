@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def clear_array(array):
+        array *= 0
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
