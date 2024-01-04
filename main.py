@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
