@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import random
-def roll_die():
-        return random.randint(1, 6)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def reverse_string(s):
+        return s[::-1]
