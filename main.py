@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def find_max(lst):
-        return max(lst)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
