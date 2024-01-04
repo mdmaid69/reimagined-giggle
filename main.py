@@ -1,6 +1,5 @@
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
