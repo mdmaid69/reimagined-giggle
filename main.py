@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
+  def remove_duplicates(lst):
+        return list(set(lst))
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
