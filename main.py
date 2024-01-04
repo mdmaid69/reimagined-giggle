@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
