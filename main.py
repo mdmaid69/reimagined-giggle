@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_as_int(array):
+        return int(array[0])
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
