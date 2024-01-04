@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
