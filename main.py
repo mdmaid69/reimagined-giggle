@@ -1,5 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def is_palindrome(s):
+        return s == s[::-1]
+def square_number(x):
+        return x**2
