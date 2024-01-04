@@ -1,4 +1,7 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import time
-print(time.time())
+import sys
+def exit_program():
+        sys.exit()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
