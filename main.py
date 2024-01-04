@@ -1,6 +1,8 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
