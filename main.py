@@ -1,8 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def get_array_as_list(array):
-        return list(array)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
