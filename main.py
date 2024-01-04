@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def find_min(numbers):
-        return min(numbers)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
