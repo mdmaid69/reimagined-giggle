@@ -1,5 +1,6 @@
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def clear_array(array):
+        array *= 0
