@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
