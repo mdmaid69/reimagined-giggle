@@ -1,6 +1,8 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_string_from_array(array):
+        return array.tobytes()
