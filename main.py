@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+name = "Python"
+print("Hello,", name)
   import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
