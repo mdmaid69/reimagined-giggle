@@ -1,6 +1,7 @@
-import array
-def get_array_length(array):
-        return len(array)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
