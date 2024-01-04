@@ -1,4 +1,4 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-  def add_numbers(x, y):
-        return x + y
+  def remove_duplicates(lst):
+        return list(set(lst))
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
