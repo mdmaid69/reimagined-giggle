@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import platform
+def get_python_version():
+        return platform.python_version()
+  def subtract_numbers(x, y):
+        return x - y
