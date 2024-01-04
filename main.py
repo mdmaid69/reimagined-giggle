@@ -1,8 +1,5 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
