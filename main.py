@@ -1,6 +1,6 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
