@@ -1,5 +1,8 @@
-def is_odd(n):
-        return n % 2 != 0
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
