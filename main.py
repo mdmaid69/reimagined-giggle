@@ -1,5 +1,7 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
