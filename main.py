@@ -1,6 +1,3 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+print([x**2 for x in range(10)])
+def calculate_volume(length, width, height):
+        return length * width * height
