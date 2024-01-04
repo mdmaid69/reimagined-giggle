@@ -1,7 +1,5 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
