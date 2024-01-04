@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
