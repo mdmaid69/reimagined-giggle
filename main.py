@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_speed(distance, time):
+        return distance / time
+def reverse_string(s):
+        return s[::-1]
