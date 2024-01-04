@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
