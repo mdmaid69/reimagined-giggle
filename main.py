@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import sys
 def print_python_version():
         print(sys.version)
