@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import platform
+def get_python_version():
+        return platform.python_version()
