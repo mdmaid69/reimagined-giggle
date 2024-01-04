@@ -1,7 +1,4 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_pressure(force, area):
-        return force / area
+def add_numbers(a, b):
+        return a + b
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
