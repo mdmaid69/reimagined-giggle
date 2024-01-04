@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
