@@ -1,6 +1,4 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
