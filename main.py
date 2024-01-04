@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import sys
-  def get_python_version():
-        return sys.version
+import collections
+def create_priority_queue():
+        return collections.deque()
+for i in range(5):
+        print(i)
