@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
