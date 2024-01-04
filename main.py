@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def get_array_item(array, i):
-        return array[i]
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
