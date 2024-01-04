@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
