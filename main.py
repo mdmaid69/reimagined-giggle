@@ -1,6 +1,3 @@
-def calculate_pressure(force, area):
-        return force / area
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+print(sum(range(10)))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
