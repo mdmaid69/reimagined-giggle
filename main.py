@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_array_as_int(array):
+        return int(array[0])
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
