@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def subtract_numbers(x, y):
-        return x - y
+import random
+print(random.randint(0, 100))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
