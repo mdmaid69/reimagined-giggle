@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
 import collections
-def create_user_string():
-        return collections.UserString()
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
