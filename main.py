@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import sys
+def exit_program():
+        sys.exit()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
