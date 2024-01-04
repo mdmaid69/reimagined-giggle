@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import sys
+print(sys.version)
