@@ -1,4 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def find_min(lst):
-        return min(lst)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
