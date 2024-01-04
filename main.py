@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
