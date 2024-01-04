@@ -1,5 +1,6 @@
+import array
+def convert_array_to_list(array):
+        return array.tolist()
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import time
-print(time.time())
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
