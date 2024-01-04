@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import collections
+def create_queue():
+        return collections.deque()
+import os
+def remove_directory(path):
+        os.rmdir(path)
