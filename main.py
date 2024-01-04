@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
