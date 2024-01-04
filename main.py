@@ -1,7 +1,6 @@
-def cube_number(x):
-        return x**3
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import collections
+def create_user_string():
+        return collections.UserString()
