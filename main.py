@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
