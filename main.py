@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
