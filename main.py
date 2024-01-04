@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
