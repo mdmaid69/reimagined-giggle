@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  def is_even(n):
+        return n % 2 == 0
