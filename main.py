@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
