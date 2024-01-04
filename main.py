@@ -1,6 +1,8 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
+def calculate_area_circle(r):
+        return 3.14 * r**2
