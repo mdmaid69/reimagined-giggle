@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def is_even(n):
+        return n % 2 == 0
