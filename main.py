@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
