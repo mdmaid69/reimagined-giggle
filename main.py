@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def divide_numbers(x, y):
+        return x / y
