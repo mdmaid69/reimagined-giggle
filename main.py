@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
