@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
