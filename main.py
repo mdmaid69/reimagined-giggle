@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def add_numbers(a, b):
+        return a + b
