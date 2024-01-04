@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  def subtract_numbers(x, y):
-        return x - y
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
