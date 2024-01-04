@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
