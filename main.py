@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
