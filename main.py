@@ -1,4 +1,9 @@
-def convert_to_hex(n):
-        return hex(n)
-def square_number(x):
-        return x**2
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
