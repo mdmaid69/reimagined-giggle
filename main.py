@@ -1,4 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
