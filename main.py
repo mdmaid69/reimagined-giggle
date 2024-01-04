@@ -1,6 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
