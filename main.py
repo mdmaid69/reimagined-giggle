@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_as_set(array):
+        return set(array)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
