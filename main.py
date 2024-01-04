@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
