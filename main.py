@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def add_numbers(x, y):
-        return x + y
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
