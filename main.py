@@ -1,6 +1,6 @@
+import os
+def remove_directory(path):
+        os.rmdir(path)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
