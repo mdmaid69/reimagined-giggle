@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  def remove_duplicates(lst):
+        return list(set(lst))
