@@ -1,8 +1,6 @@
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def get_array_as_bytes(array):
+        return bytes(array)
