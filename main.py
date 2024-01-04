@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
