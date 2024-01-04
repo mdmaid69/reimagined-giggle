@@ -1,8 +1,7 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
