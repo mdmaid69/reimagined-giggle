@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
