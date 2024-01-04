@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-def reverse_string(s):
-        return s[::-1]
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def remove_duplicates(lst):
+        return list(set(lst))
