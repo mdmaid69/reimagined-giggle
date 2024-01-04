@@ -1,5 +1,8 @@
-  def count_elements(lst):
-        return len(lst)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
