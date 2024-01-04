@@ -1,7 +1,6 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
