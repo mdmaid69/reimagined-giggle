@@ -1,5 +1,5 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
 n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
