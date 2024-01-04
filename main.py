@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
