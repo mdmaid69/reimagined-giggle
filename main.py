@@ -1,6 +1,11 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
