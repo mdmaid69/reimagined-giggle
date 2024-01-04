@@ -1,8 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
