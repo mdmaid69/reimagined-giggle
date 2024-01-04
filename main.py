@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
