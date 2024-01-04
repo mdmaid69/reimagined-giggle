@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
