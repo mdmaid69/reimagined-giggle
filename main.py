@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
