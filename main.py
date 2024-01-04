@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
