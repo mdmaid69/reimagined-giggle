@@ -1,8 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
