@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
