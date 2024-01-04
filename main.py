@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
