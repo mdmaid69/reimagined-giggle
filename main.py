@@ -1,6 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
