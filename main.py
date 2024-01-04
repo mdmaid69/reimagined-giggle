@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
