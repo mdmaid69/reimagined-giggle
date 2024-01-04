@@ -1,5 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
