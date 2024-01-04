@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
