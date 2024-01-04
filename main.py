@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
