@@ -1,4 +1,7 @@
-def convert_to_hex(n):
-        return hex(n)
-def find_max(numbers):
-        return max(numbers)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
