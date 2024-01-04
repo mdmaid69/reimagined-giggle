@@ -1,5 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
