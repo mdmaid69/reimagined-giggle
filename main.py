@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
