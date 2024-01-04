@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
