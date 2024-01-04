@@ -1,5 +1,8 @@
-import time
-print(time.time())
-import array
-def reverse_array(array):
-        array.reverse()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
