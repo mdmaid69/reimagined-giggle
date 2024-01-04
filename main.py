@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
