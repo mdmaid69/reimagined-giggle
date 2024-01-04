@@ -1,5 +1,12 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
