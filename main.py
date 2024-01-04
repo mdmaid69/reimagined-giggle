@@ -1,6 +1,4 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import collections
-def create_stack():
-        return collections.deque()
+print(sum(range(10)))
+x = 10
+y = 20
+print("Sum:", x + y)
