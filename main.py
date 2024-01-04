@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
