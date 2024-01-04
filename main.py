@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_length(array):
+        return len(array)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
