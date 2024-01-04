@@ -1,5 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
