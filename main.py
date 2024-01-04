@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def get_array_as_float(array):
+        return float(array[0])
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
