@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
