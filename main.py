@@ -1,5 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def convert_to_hex(n):
+        return hex(n)
+def add_numbers(a, b):
+        return a + b
