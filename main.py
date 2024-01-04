@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
