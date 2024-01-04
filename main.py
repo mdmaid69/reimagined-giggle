@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
