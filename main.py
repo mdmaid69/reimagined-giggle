@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
