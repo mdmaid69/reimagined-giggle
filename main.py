@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
 import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def add_numbers(x, y):
+        return x + y
