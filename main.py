@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
