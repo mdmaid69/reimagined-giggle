@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
