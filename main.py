@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def divide_numbers(x, y):
+        return x / y
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
