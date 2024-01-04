@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
