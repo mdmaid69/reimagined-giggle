@@ -1,7 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
