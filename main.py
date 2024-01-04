@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
