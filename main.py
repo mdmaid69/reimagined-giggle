@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
