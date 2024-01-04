@@ -1,6 +1,5 @@
+name = "Python"
+print("Hello,", name)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
