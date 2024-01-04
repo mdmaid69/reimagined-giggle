@@ -1,6 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import sys
+def print_python_version():
+        return sys.version
