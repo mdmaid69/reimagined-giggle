@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import datetime
+print(datetime.datetime.now())
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
