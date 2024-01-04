@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import collections
+def create_user_list():
+        return collections.UserList()
