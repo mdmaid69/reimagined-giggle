@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
