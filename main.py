@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def multiply_numbers(x, y):
-        return x * y
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
