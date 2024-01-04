@@ -1,5 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import math
+print(math.pi)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
