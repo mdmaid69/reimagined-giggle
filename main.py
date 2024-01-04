@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import re
+print(re.match("h.*o", "hello world"))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
