@@ -1,5 +1,5 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-  def remove_duplicates(lst):
-        return list(set(lst))
+def get_string_from_array(array):
+        return array.tobytes()
+def multiply_numbers(x, y):
+        return x * y
