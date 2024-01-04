@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  def is_even(n):
+        return n % 2 == 0
