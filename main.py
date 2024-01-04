@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
