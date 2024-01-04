@@ -1,8 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
