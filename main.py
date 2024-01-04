@@ -1,5 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def calculate_speed(distance, time):
-        return distance / time
+import time
+def get_time_since_epoch():
+        return time.time()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
