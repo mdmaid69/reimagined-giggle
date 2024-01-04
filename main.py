@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def find_min(numbers):
-        return min(numbers)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
