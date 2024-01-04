@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
