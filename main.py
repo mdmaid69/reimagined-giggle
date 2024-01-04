@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_error_function(x):
+        return math.erf(x)
+def convert_to_octal(n):
+        return oct(n)
