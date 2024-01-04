@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import tensorflow as tf
+print(tf.__version__)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
