@@ -1,4 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def square_number(x):
+        return x**2
+def calculate_density(mass, volume):
+        return mass / volume
