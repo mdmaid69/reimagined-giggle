@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
