@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_slice(array, i, j):
+        return array[i:j]
