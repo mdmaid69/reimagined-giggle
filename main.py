@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def greet(name):
-        print(f"Hello, {name}!")
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
