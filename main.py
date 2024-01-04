@@ -1,6 +1,4 @@
-import datetime
-print(datetime.datetime.now())
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def subtract_numbers(x, y):
+        return x - y
