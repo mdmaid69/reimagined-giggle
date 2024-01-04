@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import array
+def reverse_array(array):
+        array.reverse()
