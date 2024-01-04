@@ -1,3 +1,7 @@
-def is_even(n):
-        return n % 2 == 0
-print(sum(range(10)))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
