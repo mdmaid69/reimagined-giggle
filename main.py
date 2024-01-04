@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import array
+def append_to_array(array, item):
+        array.append(item)
