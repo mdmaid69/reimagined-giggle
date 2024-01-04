@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def split_path(path):
+        return os.path.split(path)
