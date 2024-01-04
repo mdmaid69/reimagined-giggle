@@ -1,7 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
