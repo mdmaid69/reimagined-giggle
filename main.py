@@ -1,6 +1,4 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
