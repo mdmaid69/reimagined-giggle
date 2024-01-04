@@ -1,5 +1,11 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def square_number(x):
-        return x**2
+def add_numbers(a, b):
+        return a + b
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
