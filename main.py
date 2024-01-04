@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
