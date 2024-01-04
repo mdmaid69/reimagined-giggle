@@ -1,5 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
