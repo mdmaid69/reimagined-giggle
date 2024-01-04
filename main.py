@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  def subtract_numbers(x, y):
-        return x - y
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
