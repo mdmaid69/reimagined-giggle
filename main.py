@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
 import array
-def get_array_as_list(array):
-        return list(array)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def convert_to_octal(n):
+        return oct(n)
