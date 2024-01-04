@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
