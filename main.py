@@ -1,5 +1,11 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  def is_odd(n):
-        return n % 2 != 0
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
