@@ -1,6 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_error_function(x):
+        return math.erf(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
