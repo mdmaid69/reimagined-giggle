@@ -1,9 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import time
+def get_current_time():
+        return time.time()
