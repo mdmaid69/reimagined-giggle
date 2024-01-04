@@ -1,7 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def get_array_as_bytearray(array):
+        return bytearray(array)
