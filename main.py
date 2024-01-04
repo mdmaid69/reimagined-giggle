@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
