@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def convert_to_binary(n):
+        return bin(n)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
