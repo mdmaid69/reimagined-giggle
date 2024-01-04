@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
