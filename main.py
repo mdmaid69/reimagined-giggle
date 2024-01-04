@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
