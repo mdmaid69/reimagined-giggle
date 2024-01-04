@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import datetime
+print(datetime.datetime.now())
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
