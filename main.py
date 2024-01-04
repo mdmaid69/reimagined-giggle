@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
