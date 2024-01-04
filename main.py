@@ -1,11 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
