@@ -1,6 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
