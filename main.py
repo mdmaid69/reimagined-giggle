@@ -1,5 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
