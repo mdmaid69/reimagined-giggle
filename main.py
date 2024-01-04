@@ -1,5 +1,5 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_area_rectangle(l, w):
+        return l * w
