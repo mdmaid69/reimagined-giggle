@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
