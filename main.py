@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
