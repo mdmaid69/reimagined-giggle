@@ -1,6 +1,9 @@
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
 import array
-def get_array_as_repr(array):
-        return repr(array)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
