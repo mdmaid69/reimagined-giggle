@@ -1,6 +1,7 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
