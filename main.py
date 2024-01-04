@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
