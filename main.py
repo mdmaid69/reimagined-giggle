@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
