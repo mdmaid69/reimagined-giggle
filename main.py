@@ -1,4 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def reverse_string(s):
+        return s[::-1]
