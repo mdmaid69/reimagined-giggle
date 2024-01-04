@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
