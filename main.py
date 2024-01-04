@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import numpy as np
+print(np.array([1, 2, 3]))
