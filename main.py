@@ -1,6 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import re
+print(re.match("h.*o", "hello world"))
+  def is_odd(n):
+        return n % 2 != 0
