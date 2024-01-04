@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
