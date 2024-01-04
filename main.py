@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
 import array
-def get_array_as_str(array):
-        return str(array)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
