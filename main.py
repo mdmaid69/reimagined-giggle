@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
