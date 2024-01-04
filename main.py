@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
