@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
