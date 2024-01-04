@@ -1,5 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
