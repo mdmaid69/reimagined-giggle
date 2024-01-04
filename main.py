@@ -1,6 +1,8 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import collections
-def create_queue():
-        return collections.deque()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
