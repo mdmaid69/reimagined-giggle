@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
