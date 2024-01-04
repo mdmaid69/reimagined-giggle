@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
