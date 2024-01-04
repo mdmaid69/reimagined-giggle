@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_area(radius):
+        return 3.14 * radius * radius
 import collections
-def create_priority_queue():
-        return collections.deque()
+def create_ordered_dict():
+        return collections.OrderedDict()
