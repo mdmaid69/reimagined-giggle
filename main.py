@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
