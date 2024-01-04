@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def find_union(list1, list2):
+        return set(list1) | set(list2)
