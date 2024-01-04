@@ -1,3 +1,4 @@
-print([x**2 for x in range(10)])
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+print(sum(range(10)))
