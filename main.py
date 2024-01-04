@@ -1,5 +1,5 @@
+def convert_to_binary(n):
+        return bin(n)
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
