@@ -1,5 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
