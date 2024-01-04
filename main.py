@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def divide_numbers(x, y):
-        return x / y
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
