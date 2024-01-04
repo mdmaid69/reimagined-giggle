@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
