@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
