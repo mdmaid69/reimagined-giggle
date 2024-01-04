@@ -1,5 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  def subtract_numbers(x, y):
-        return x - y
+import datetime
+print(datetime.datetime.now())
+def multiply_numbers(x, y):
+        return x * y
