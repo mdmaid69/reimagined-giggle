@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
