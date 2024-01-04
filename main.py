@@ -1,5 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  def reverse_list(lst):
-        return lst[::-1]
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
