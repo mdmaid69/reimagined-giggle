@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import random
+def roll_die():
+        return random.randint(1, 6)
