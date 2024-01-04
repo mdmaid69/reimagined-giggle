@@ -1,7 +1,4 @@
+for i in range(5):
+        print(i)
 n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
