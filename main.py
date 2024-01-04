@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def is_even(n):
-        return n % 2 == 0
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
