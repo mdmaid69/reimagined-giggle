@@ -1,5 +1,10 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
