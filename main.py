@@ -1,5 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+for i in range(10): print(i)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
