@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
