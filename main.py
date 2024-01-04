@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
