@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import numpy as np
+print(np.array([1, 2, 3]))
