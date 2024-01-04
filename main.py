@@ -1,9 +1,5 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def convert_array_to_bytes(array):
+        return array.tobytes()
