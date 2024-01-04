@@ -1,3 +1,5 @@
+  def convert_to_octal(n):
+        return oct(n)
 import math
-print(math.pi)
-for i in range(10): print(i)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
