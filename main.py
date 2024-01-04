@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
