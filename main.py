@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
