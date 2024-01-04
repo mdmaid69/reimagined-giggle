@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
