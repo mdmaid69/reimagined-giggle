@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def cube_number(x):
-        return x**3
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
