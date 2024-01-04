@@ -1,7 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
