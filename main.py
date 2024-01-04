@@ -1,5 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
