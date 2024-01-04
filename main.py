@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
