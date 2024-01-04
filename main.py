@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
