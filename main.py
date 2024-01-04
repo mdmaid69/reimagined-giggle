@@ -1,6 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import collections
-def create_queue():
-        return collections.deque()
+def find_min(lst):
+        return min(lst)
+def remove_duplicates(lst):
+        return list(set(lst))
