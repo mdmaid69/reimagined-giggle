@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def append_to_array(array, item):
+        array.append(item)
