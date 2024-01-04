@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import time
+def get_current_time():
+        return time.time()
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
