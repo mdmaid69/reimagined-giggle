@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
