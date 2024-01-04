@@ -1,4 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def clear_array(array):
+        array *= 0
+import collections
+def create_stack():
+        return collections.deque()
