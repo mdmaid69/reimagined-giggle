@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import random
+print(random.randint(0, 100))
+import random
+def roll_die():
+        return random.randint(1, 6)
