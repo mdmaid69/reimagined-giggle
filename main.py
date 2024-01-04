@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
