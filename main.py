@@ -1,3 +1,5 @@
-print("Hello, world!")
-  def is_odd(n):
-        return n % 2 != 0
+import numpy as np
+print(np.array([1, 2, 3]))
+import sys
+def exit_program():
+        sys.exit()
