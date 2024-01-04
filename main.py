@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
