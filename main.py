@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
