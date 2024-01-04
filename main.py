@@ -1,6 +1,6 @@
 import collections
-def create_priority_queue():
-        return collections.deque()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
