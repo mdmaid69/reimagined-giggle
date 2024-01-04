@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def add_numbers(x, y):
+        return x + y
