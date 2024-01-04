@@ -1,5 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
