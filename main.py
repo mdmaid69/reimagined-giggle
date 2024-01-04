@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def calculate_acceleration(speed, time):
+        return speed / time
