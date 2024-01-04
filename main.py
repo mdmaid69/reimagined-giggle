@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def clear_array(array):
-        array *= 0
+import sys
+def print_python_version():
+        return sys.version
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
