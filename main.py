@@ -1,5 +1,6 @@
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
 import datetime
 def get_current_date():
         return datetime.date.today()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
