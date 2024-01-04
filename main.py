@@ -1,5 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def calculate_speed(distance, time):
+        return distance / time
