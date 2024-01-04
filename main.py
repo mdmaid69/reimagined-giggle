@@ -1,4 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_work(force, distance):
-        return force * distance
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_density(mass, volume):
+        return mass / volume
