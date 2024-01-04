@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
