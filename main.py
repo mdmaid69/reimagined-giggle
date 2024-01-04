@@ -1,5 +1,4 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
