@@ -1,7 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  def subtract_numbers(x, y):
+        return x - y
