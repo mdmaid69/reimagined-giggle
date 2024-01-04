@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
