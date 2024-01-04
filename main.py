@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import random
-def roll_die():
-        return random.randint(1, 6)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def find_min(numbers):
+        return min(numbers)
