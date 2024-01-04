@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_work(force, distance):
+        return force * distance
