@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def pop_from_array(array, i=-1):
+        return array.pop(i)
