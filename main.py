@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
