@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import datetime
-print(datetime.datetime.now())
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import time
+def get_time_since_epoch():
+        return time.time()
