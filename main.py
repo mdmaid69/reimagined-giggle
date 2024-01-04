@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
