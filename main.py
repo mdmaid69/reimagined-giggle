@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_density(mass, volume):
+        return mass / volume
