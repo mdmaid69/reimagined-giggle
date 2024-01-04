@@ -1,6 +1,6 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def get_array_as_str(array):
+        return str(array)
