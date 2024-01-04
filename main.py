@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
