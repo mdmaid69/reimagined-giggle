@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-def multiply_numbers(x, y):
-        return x * y
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
