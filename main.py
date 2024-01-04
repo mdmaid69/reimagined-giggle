@@ -1,8 +1,7 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
