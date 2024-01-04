@@ -1,7 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def find_min(lst):
+        return min(lst)
