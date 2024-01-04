@@ -1,5 +1,5 @@
 import math
-print(math.pi)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def find_max(numbers):
+        return max(numbers)
