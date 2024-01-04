@@ -1,6 +1,9 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
