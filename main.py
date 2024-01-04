@@ -1,5 +1,7 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_speed(distance, time):
-        return distance / time
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
