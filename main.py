@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import numpy as np
+print(np.array([1, 2, 3]))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
