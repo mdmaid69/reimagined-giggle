@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
