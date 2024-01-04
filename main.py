@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_density(mass, volume):
-        return mass / volume
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_work(force, distance):
+        return force * distance
