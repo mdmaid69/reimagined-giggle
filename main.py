@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
