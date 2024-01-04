@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+for i in range(5):
+        print(i)
