@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
