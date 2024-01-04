@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def sort_list(lst):
-        return sorted(lst)
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
