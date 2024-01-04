@@ -1,8 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-  def count_elements(lst):
-        return len(lst)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import collections
+def create_user_list():
+        return collections.UserList()
