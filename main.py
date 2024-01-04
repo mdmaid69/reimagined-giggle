@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
