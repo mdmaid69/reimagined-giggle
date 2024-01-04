@@ -1,5 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
