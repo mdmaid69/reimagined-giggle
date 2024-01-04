@@ -1,5 +1,5 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
