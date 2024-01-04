@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def count_elements(lst):
+        return len(lst)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
