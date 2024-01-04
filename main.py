@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
