@@ -1,8 +1,6 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-x = 10
-y = 20
-print("Sum:", x + y)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
