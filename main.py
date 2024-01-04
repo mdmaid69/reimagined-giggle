@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
