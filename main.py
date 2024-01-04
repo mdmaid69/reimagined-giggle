@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def get_array_as_set(array):
-        return set(array)
+def add_numbers(x, y):
+        return x + y
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
