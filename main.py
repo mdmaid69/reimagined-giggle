@@ -1,5 +1,7 @@
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
 import random
-def roll_die():
-        return random.randint(1, 6)
-def find_max(lst):
-        return max(lst)
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
