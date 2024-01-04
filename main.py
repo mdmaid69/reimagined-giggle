@@ -1,6 +1,6 @@
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
