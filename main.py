@@ -1,6 +1,8 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
