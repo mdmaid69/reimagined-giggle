@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_array_as_str(array):
-        return str(array)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def multiply_numbers(x, y):
+        return x * y
