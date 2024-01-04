@@ -1,4 +1,7 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
