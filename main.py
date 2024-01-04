@@ -1,7 +1,8 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+def remove_from_array(array, item):
+        array.remove(item)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
