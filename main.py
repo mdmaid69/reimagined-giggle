@@ -1,6 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
