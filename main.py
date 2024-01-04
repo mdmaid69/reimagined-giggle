@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_pressure(force, area):
+        return force / area
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
