@@ -1,6 +1,6 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
