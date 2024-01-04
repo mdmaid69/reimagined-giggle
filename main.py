@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import numpy as np
+print(np.array([1, 2, 3]))
