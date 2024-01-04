@@ -1,5 +1,7 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
