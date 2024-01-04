@@ -1,5 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
