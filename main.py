@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
