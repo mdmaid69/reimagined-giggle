@@ -1,5 +1,5 @@
-import math
-print(math.pi)
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_array_index(array, item):
+        return array.index(item)
