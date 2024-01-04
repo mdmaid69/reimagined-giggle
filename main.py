@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
