@@ -1,10 +1,8 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
