@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
