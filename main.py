@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
