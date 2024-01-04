@@ -1,6 +1,6 @@
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
