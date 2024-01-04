@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def add_numbers(x, y):
-        return x + y
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
