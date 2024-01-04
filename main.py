@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def append_to_array(array, item):
+        array.append(item)
