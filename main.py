@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import platform
+def get_python_version():
+        return platform.python_version()
+def count_words(sentence):
+        return len(sentence.split())
