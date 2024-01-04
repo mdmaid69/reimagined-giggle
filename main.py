@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
