@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
