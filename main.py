@@ -1,5 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
