@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
