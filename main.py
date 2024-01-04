@@ -1,6 +1,5 @@
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
