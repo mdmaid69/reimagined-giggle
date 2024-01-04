@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
