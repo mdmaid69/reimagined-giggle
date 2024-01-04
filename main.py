@@ -1,6 +1,5 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
