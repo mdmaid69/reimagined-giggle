@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
