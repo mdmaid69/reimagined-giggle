@@ -1,8 +1,5 @@
-import time
-print(time.time())
-import xml.etree.ElementTree as ET
-root = ET.Element("root")
-doc = ET.SubElement(root, "doc")
-ET.SubElement(doc, "field1", name="blah").text = "some value1"
-ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
-tree = ET.ElementTree(root)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+from collections import Counter
+print(Counter("hello world"))
