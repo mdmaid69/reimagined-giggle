@@ -1,11 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def find_min(numbers):
+        return min(numbers)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
