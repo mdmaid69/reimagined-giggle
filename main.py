@@ -1,8 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
