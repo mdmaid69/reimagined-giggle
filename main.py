@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+print(sum(range(10)))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
