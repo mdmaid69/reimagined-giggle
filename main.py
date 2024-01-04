@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  def is_even(n):
+        return n % 2 == 0
