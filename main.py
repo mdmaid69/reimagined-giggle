@@ -1,6 +1,9 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
