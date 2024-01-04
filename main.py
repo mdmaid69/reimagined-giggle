@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
