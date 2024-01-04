@@ -1,6 +1,7 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
