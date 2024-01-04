@@ -1,6 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
