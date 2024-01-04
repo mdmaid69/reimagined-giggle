@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 import os
-print(os.getcwd())
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
