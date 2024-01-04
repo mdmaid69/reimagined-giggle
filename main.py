@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_density(mass, volume):
-        return mass / volume
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
