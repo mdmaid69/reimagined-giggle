@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
