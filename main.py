@@ -1,6 +1,6 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
