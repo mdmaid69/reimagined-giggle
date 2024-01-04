@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def find_min(lst):
+        return min(lst)
