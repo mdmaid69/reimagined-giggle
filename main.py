@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
