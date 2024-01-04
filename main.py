@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_power(work, time):
+        return work / time
