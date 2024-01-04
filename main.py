@@ -1,6 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
 import array
-def append_to_array(array, item):
-        array.append(item)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def convert_array_to_list(array):
+        return array.tolist()
