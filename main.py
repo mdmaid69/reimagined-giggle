@@ -1,5 +1,5 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
