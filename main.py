@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
