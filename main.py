@@ -1,6 +1,7 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
