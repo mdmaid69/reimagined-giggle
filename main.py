@@ -1,5 +1,5 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def divide_numbers(x, y):
-        return x / y
+def check_if_array_contains_item(array, item):
+        return item in array
+def count_elements(lst):
+        return len(lst)
