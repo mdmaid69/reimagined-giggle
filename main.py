@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
