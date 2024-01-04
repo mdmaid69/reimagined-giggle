@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
