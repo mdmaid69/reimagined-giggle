@@ -1,6 +1,8 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def get_string_from_array(array):
+        return array.tobytes()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
