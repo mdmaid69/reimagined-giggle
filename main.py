@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import array
+def get_array_as_bool(array):
+        return bool(array)
