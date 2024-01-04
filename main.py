@@ -1,6 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
