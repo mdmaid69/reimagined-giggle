@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
