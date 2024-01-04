@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import collections
+def create_user_list():
+        return collections.UserList()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
