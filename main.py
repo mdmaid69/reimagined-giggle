@@ -1,7 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+print(sum(range(10)))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
