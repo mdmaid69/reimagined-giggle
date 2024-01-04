@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
 import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+text = "Hello, world!"
+print("Words:", len(text.split()))
