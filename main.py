@@ -1,6 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
