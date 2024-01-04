@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
