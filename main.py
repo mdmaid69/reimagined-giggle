@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+text = "Hello, world!"
+print("Words:", len(text.split()))
