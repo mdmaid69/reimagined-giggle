@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
