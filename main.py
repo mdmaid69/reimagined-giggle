@@ -1,6 +1,9 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
