@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
+  def remove_duplicates(lst):
+        return list(set(lst))
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
