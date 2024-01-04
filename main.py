@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
