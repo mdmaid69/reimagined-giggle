@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
