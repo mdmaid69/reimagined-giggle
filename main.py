@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import collections
-def create_counter():
-        return collections.Counter()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
