@@ -1,5 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
