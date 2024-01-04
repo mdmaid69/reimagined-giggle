@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def count_elements(lst):
-        return len(lst)
+import collections
+def create_user_list():
+        return collections.UserList()
+def calculate_density(mass, volume):
+        return mass / volume
