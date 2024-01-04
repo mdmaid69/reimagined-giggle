@@ -1,4 +1,8 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
