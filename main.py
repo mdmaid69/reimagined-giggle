@@ -1,8 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
