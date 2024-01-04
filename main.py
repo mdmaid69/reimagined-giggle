@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
