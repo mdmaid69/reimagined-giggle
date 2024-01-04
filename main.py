@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
