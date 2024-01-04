@@ -1,5 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
