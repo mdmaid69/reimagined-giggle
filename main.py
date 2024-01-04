@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
