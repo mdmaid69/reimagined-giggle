@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
