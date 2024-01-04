@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
