@@ -1,5 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def find_max(lst):
-        return max(lst)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
