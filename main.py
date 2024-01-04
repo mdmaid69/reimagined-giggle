@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
