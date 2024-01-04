@@ -1,4 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-print(sum(range(10)))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
