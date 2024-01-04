@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import array
+def get_array_as_set(array):
+        return set(array)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
