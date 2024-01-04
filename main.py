@@ -1,5 +1,7 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
