@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
