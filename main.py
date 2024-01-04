@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import time
-print(time.time())
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
