@@ -1,6 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import numpy as np
+print(np.array([1, 2, 3]))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
