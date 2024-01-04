@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
