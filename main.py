@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def get_array_as_bool(array):
+        return bool(array)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
