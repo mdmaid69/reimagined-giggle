@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+def count_characters(sentence):
+        return len(sentence)
