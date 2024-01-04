@@ -1,4 +1,5 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
