@@ -1,5 +1,5 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
