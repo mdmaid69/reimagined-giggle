@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
