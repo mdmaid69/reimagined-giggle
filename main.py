@@ -1,8 +1,4 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import time
+print(time.time())
+def find_unique_words(sentence):
+        return set(sentence.split())
