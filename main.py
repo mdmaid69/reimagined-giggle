@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import sys
-def exit_program():
-        sys.exit()
+def calculate_work(force, distance):
+        return force * distance
+name = "Python"
+print("Hello,", name)
