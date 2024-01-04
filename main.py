@@ -1,5 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def convert_to_binary(n):
+        return bin(n)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
