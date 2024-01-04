@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def get_array_as_set(array):
-        return set(array)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
