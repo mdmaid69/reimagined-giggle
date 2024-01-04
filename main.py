@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import sys
+print(sys.version)
+def calculate_speed(distance, time):
+        return distance / time
