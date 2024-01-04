@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
