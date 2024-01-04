@@ -1,6 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def reverse_list(lst):
+        return lst[::-1]
