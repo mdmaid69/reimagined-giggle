@@ -1,8 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import logging
+def log_message(message):
+        logging.info(message)
