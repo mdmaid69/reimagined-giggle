@@ -1,6 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def find_max(numbers):
+        return max(numbers)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
