@@ -1,6 +1,6 @@
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def get_array_as_complex(array):
+        return complex(array[0])
