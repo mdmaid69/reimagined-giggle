@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def cube_number(x):
+        return x**3
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
