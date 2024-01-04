@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_as_str(array):
+        return str(array)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
