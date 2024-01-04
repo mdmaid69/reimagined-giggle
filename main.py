@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
