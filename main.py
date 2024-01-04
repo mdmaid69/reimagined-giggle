@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
