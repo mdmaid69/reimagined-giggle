@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_density(mass, volume):
+        return mass / volume
