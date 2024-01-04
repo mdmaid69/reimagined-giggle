@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
