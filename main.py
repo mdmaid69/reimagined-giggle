@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import sys
-def print_python_version():
-        return sys.version
+  def square_number(x):
+        return x**2
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
