@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
