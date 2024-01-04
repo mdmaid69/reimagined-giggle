@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def sort_list(lst):
-        return sorted(lst)
+import collections
+def create_user_string():
+        return collections.UserString()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
