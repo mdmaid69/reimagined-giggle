@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_as_set(array):
+        return set(array)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
