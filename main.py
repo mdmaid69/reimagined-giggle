@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
