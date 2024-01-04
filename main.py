@@ -1,6 +1,4 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+print([x**2 for x in range(10)])
