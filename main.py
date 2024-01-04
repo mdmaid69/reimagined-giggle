@@ -1,6 +1,10 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
