@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import array
+def get_array_as_str(array):
+        return str(array)
