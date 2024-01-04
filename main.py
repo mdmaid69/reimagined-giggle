@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import re
-print(re.match("h.*o", "hello world"))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_floor(x):
+        return math.floor(x)
