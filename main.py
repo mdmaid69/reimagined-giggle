@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import platform
+def get_python_version():
+        return platform.python_version()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
