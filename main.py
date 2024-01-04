@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
