@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
