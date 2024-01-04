@@ -1,6 +1,8 @@
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
 import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
