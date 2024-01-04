@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import os
+def get_current_working_directory():
+        return os.getcwd()
