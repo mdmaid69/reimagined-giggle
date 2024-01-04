@@ -1,5 +1,5 @@
+def calculate_power(work, time):
+        return work / time
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-def find_max(lst):
-        return max(lst)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
