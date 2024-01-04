@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def check_if_array_contains_item(array, item):
+        return item in array
