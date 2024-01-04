@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
