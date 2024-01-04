@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
