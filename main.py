@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+x = 10
+y = 20
+print("Sum:", x + y)
