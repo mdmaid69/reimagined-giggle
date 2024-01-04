@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import re
+print(re.match("h.*o", "hello world"))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
