@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
