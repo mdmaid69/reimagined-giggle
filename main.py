@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
