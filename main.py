@@ -1,6 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
