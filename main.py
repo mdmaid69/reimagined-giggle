@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def convert_to_binary(n):
+        return bin(n)
