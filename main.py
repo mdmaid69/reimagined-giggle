@@ -1,6 +1,6 @@
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
   import os
-  def split_path(path):
-        return os.path.split(path)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
