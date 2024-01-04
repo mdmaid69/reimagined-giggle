@@ -1,8 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
