@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import time
-def get_current_time():
-        return time.time()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
