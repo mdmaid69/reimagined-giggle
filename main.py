@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-for i in range(5):
-        print(i)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import time
+def get_current_time():
+        return time.ctime()
