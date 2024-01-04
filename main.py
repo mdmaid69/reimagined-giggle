@@ -1,5 +1,7 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
