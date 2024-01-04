@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import sys
-def print_python_version():
-        print(sys.version)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
