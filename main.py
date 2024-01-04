@@ -1,7 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def reverse_array(array):
+        array.reverse()
