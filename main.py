@@ -1,6 +1,7 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
