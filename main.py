@@ -1,5 +1,9 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_list(array):
+        return list(array)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
