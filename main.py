@@ -1,5 +1,7 @@
-  def sort_list(lst):
-        return sorted(lst)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
