@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_pressure(force, area):
+        return force / area
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
