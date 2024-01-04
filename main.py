@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
