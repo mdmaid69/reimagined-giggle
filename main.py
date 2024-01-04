@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
