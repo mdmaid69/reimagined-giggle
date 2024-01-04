@@ -1,5 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_work(force, distance):
-        return force * distance
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
