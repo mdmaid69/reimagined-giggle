@@ -1,6 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-x = 10
-y = 20
-print("Sum:", x + y)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
