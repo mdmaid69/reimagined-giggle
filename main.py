@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
