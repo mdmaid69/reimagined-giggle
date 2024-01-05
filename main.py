@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import os
-print(os.getcwd())
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
