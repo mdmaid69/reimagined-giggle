@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-  def cube_number(x):
-        return x**3
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
