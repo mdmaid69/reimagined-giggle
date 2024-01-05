@@ -1,6 +1,6 @@
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
   import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
