@@ -1,6 +1,8 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import array
+def reverse_array(array):
+        array.reverse()
