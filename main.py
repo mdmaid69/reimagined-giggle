@@ -1,6 +1,6 @@
 import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
