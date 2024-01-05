@@ -1,4 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-for i in range(10): print(i)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def find_min(numbers):
+        return min(numbers)
