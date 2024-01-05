@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
