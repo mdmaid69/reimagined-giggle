@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  def convert_to_octal(n):
-        return oct(n)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
