@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import getpass
-def get_username():
-        return getpass.getuser()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
