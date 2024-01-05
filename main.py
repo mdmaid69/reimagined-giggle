@@ -1,6 +1,6 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
