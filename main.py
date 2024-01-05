@@ -1,6 +1,5 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def add_numbers(x, y):
+        return x + y
