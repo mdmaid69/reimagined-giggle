@@ -1,7 +1,8 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
