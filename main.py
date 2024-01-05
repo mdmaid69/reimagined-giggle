@@ -1,5 +1,8 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  def reverse_list(lst):
-        return lst[::-1]
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import logging
+def log_message(message):
+        logging.info(message)
