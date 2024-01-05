@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
