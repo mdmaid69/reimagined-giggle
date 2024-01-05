@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
