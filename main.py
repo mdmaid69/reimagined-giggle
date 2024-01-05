@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def cube_number(x):
+        return x**3
