@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
