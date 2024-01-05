@@ -1,4 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def cube_number(x):
+        return x**3
+import random
+print(random.randint(0, 100))
