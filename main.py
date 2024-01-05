@@ -1,5 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def reverse_string(s):
-        return s[::-1]
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import sys
+print(sys.version)
