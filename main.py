@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_current_directory():
+        return os.getcwd()
