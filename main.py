@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
