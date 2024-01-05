@@ -1,4 +1,6 @@
-print("Hello, world!")
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
