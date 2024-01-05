@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-from collections import Counter
-print(Counter("hello world"))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
