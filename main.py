@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
