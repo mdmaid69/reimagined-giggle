@@ -1,5 +1,6 @@
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def sort_list(lst):
-        return sorted(lst)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
