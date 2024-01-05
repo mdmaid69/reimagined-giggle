@@ -1,9 +1,6 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
