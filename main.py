@@ -1,6 +1,5 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
