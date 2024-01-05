@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def convert_to_octal(n):
+        return oct(n)
