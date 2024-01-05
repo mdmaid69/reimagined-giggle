@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
