@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import re
-print(re.match("h.*o", "hello world"))
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import collections
+def create_user_dict():
+        return collections.UserDict()
