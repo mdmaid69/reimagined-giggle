@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def greet(name):
+        print(f"Hello, {name}!")
