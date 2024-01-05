@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
