@@ -1,5 +1,5 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+text = "Hello, world!"
+print("Characters:", len(text))
