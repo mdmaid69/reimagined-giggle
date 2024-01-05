@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
