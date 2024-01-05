@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
