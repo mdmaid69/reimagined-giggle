@@ -1,6 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def sort_list(lst):
+        return sorted(lst)
+from collections import Counter
+print(Counter("hello world"))
