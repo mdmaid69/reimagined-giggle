@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
