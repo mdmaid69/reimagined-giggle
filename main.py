@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
