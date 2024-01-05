@@ -1,11 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
