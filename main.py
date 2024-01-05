@@ -1,4 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
