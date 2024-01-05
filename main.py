@@ -1,6 +1,7 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
