@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_as_list(array):
+        return list(array)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
