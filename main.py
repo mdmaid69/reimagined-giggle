@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import datetime
+print(datetime.datetime.now())
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
