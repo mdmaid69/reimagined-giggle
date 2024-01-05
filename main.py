@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-def reverse_string(s):
-        return s[::-1]
+def count_elements(lst):
+        return len(lst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
