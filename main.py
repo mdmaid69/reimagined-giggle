@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
