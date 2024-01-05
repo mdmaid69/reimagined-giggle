@@ -1,4 +1,8 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
