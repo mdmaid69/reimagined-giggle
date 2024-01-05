@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
