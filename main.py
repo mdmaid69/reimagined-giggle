@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
