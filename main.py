@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
