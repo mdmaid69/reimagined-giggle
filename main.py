@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
