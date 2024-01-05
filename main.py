@@ -1,6 +1,6 @@
+import array
+def get_array_as_bool(array):
+        return bool(array)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
