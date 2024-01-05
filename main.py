@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
