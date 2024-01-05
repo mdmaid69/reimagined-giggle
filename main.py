@@ -1,5 +1,6 @@
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
