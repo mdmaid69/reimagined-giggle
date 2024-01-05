@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
