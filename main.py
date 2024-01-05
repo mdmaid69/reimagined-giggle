@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
