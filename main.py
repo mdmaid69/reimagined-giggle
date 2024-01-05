@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
