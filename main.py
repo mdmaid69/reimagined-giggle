@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
