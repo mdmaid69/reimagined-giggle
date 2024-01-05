@@ -1,6 +1,6 @@
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
