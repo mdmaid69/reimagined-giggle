@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import sys
-def exit_program():
-        sys.exit()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
