@@ -1,7 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
