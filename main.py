@@ -1,6 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
