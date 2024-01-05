@@ -1,5 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def multiply_numbers(x, y):
+        return x * y
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
