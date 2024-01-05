@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  def is_even(n):
+        return n % 2 == 0
