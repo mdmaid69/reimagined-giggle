@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
