@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
