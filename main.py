@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+text = "Hello, world!"
+print("Characters:", len(text))
