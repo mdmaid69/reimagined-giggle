@@ -1,6 +1,4 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+print([x**2 for x in range(10)])
