@@ -1,5 +1,9 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
