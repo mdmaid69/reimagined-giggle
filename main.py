@@ -1,5 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def calculate_area_rectangle(l, w):
+        return l * w
