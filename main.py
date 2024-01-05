@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
