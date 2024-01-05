@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
