@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
