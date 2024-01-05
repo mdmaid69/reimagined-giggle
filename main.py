@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
