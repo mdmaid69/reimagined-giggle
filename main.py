@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
