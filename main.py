@@ -1,7 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import datetime
+print(datetime.datetime.now())
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
