@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
