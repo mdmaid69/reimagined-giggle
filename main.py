@@ -1,6 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+for i in range(5):
+        print(i)
