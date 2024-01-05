@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_speed(distance, time):
+        return distance / time
