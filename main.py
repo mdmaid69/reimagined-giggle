@@ -1,6 +1,6 @@
+import array
+def get_array_as_int(array):
+        return int(array[0])
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
