@@ -1,5 +1,6 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_floor(x):
+        return math.floor(x)
+import platform
+def get_os_info():
+        return platform.uname()
