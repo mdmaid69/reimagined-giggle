@@ -1,6 +1,8 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
