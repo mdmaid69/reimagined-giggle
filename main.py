@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
