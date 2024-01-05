@@ -1,4 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def convert_to_binary(n):
+        return bin(n)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
