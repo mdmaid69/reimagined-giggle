@@ -1,7 +1,4 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
