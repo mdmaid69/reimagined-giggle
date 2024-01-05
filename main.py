@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def get_array_length(array):
+        return len(array)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
