@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
