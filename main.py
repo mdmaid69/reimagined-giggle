@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def find_min(numbers):
+        return min(numbers)
+import re
+print(re.match("h.*o", "hello world"))
