@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
