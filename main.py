@@ -1,6 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def get_base_name(path):
+        return os.path.basename(path)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
