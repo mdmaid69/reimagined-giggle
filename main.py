@@ -1,5 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def calculate_pressure(force, area):
-        return force / area
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
