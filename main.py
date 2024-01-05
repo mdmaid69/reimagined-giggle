@@ -1,10 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
