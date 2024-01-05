@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def reverse_array(array):
+        array.reverse()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
