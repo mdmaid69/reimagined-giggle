@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
