@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
