@@ -1,6 +1,7 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def reverse_list(lst):
-        return lst[::-1]
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_list_from_array(array):
+        return array.tolist()
