@@ -1,5 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
