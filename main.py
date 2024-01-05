@@ -1,6 +1,7 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
