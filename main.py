@@ -1,6 +1,7 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def get_array_as_set(array):
+        return set(array)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
