@@ -1,8 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
