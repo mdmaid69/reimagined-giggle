@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import platform
-def get_python_version():
-        return platform.python_version()
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
