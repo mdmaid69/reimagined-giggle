@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
