@@ -1,8 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_pressure(force, area):
+        return force / area
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
