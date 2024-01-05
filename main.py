@@ -1,4 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-print(sum(range(10)))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
