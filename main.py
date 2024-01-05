@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def reverse_string(s):
+        return s[::-1]
