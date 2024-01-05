@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
