@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def remove_duplicates(lst):
+        return list(set(lst))
+def reverse_string(s):
+        return s[::-1]
