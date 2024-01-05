@@ -1,5 +1,12 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  def count_elements(lst):
-        return len(lst)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
