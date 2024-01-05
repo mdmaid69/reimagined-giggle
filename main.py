@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
