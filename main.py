@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import logging
-def log_message(message):
-        logging.info(message)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
