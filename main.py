@@ -1,6 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import random
-def roll_die():
-        return random.randint(1, 6)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import collections
+def create_stack():
+        return collections.deque()
