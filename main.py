@@ -1,6 +1,5 @@
+  def convert_to_binary(n):
+        return bin(n)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
