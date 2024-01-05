@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_area_rectangle(l, w):
+        return l * w
