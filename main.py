@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
