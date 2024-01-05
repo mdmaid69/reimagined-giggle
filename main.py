@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
