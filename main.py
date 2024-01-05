@@ -1,6 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def multiply_numbers(x, y):
+        return x * y
+def subtract_numbers(x, y):
+        return x - y
