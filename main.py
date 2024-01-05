@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
 import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
