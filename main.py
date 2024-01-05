@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-  def subtract_numbers(x, y):
-        return x - y
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
