@@ -1,6 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
