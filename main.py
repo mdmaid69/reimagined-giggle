@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def find_min(lst):
-        return min(lst)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
