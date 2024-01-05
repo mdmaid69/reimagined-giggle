@@ -1,6 +1,7 @@
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
