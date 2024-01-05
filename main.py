@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
