@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def clear_array(array):
+        array *= 0
+import json
+print(json.dumps({"name": "John", "age": 30}))
