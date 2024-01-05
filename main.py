@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
