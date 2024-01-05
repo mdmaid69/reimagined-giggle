@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def is_palindrome(s):
+        return s == s[::-1]
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
