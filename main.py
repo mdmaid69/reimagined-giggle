@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def divide_numbers(x, y):
+        return x / y
+import array
+def get_array_as_set(array):
+        return set(array)
