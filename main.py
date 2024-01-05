@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def count_characters(sentence):
+        return len(sentence)
