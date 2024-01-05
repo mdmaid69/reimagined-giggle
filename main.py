@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
