@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def multiply_numbers(x, y):
-        return x * y
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
