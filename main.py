@@ -1,6 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
