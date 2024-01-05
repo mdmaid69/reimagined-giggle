@@ -1,6 +1,7 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
