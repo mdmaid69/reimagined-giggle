@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
