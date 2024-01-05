@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
