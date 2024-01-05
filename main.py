@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def get_array_as_int(array):
+        return int(array[0])
