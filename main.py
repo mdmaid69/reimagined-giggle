@@ -1,6 +1,8 @@
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_exponential(x):
+        return math.exp(x)
