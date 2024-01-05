@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
