@@ -1,5 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
