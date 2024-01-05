@@ -1,8 +1,8 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
