@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def is_palindrome(s):
+        return s == s[::-1]
+  def add_numbers(x, y):
+        return x + y
