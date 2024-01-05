@@ -1,7 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
