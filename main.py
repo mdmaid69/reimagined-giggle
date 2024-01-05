@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
