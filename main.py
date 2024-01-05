@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_pressure(force, area):
+        return force / area
