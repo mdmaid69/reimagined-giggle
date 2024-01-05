@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
