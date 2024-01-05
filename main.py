@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_speed(distance, time):
+        return distance / time
