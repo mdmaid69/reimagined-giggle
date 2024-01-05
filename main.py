@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def create_counter():
+        return collections.Counter()
