@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
