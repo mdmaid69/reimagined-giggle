@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+print(sum(range(10)))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
