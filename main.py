@@ -1,5 +1,7 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
