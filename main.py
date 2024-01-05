@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_index(array, item):
+        return array.index(item)
+import os
+def change_working_directory(path):
+        os.chdir(path)
