@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import collections
-def create_priority_queue():
-        return collections.deque()
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
