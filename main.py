@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def add_numbers(a, b):
+        return a + b
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
