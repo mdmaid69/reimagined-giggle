@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_volume(length, width, height):
+        return length * width * height
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_current_working_directory():
+        return os.getcwd()
