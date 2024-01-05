@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
