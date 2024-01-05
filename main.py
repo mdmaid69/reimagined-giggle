@@ -1,5 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
