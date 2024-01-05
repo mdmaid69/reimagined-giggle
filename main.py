@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+def calculate_speed(distance, time):
+        return distance / time
