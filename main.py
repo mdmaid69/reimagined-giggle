@@ -1,5 +1,10 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def multiply_numbers(x, y):
-        return x * y
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
