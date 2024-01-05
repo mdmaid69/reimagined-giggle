@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def add_numbers(x, y):
+        return x + y
