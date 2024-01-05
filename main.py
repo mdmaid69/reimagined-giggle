@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-def add_numbers(x, y):
-        return x + y
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def reverse_list(lst):
+        return lst[::-1]
