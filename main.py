@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def find_min(numbers):
-        return min(numbers)
+  def cube_number(x):
+        return x**3
+import array
+def get_array_itemsize(array):
+        return array.itemsize
