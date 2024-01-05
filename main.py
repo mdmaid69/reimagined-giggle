@@ -1,8 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def cube_number(x):
+        return x**3
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
