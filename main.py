@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def convert_array_to_string(array):
+        return array.tostring()
