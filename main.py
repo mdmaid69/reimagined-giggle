@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
