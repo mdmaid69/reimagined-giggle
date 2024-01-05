@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
