@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
