@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
