@@ -1,6 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+def is_even(n):
+        return n % 2 == 0
