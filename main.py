@@ -1,5 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_density(mass, volume):
-        return mass / volume
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def add_numbers(x, y):
+        return x + y
