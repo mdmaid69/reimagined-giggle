@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def cube_number(x):
+        return x**3
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
