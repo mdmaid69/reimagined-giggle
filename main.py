@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_length(array):
+        return len(array)
+def calculate_speed(distance, time):
+        return distance / time
