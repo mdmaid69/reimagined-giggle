@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def divide_numbers(x, y):
+        return x / y
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
