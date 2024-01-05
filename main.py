@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import datetime
+def get_today_date():
+        return datetime.date.today()
