@@ -1,5 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def count_elements(lst):
-        return len(lst)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
