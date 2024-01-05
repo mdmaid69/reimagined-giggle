@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
