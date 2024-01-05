@@ -1,6 +1,6 @@
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
