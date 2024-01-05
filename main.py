@@ -1,6 +1,12 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import time
-def get_current_time():
-        return time.time()
+import sys
+def print_python_version():
+        return sys.version
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
