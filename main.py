@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  def reverse_list(lst):
+        return lst[::-1]
