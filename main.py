@@ -1,6 +1,6 @@
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
