@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import array
+def get_array_as_float(array):
+        return float(array[0])
