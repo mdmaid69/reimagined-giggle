@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
