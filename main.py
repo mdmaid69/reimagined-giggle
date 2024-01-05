@@ -1,5 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
