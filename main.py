@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def convert_to_octal(n):
+        return oct(n)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
