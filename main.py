@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
