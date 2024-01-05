@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
