@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
