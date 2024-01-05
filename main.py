@@ -1,5 +1,3 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+print([x**2 for x in range(10)])
+  def remove_duplicates(lst):
+        return list(set(lst))
