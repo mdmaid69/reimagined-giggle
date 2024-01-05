@@ -1,11 +1,11 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
