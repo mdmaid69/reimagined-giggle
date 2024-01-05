@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
