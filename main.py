@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  def convert_to_binary(n):
+        return bin(n)
