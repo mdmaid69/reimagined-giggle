@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
