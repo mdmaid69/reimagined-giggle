@@ -1,4 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-for i in range(10): print(i)
+def multiply_numbers(x, y):
+        return x * y
+  def add_numbers(x, y):
+        return x + y
