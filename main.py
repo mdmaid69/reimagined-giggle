@@ -1,4 +1,4 @@
-import os
-print(os.getcwd())
-import re
-print(re.match("h.*o", "hello world"))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+print([x**2 for x in range(10)])
