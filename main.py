@@ -1,7 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_density(mass, volume):
+        return mass / volume
+  def is_odd(n):
+        return n % 2 != 0
