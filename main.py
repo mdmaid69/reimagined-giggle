@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
+import os
+print(os.getcwd())
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
