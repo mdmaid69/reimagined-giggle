@@ -1,6 +1,4 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
