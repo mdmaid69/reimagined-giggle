@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_speed(distance, time):
+        return distance / time
+import getpass
+def get_username():
+        return getpass.getuser()
