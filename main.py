@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
