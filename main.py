@@ -1,5 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import random
+print(random.randint(0, 100))
+def calculate_volume(length, width, height):
+        return length * width * height
