@@ -1,6 +1,5 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
