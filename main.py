@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
