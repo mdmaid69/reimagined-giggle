@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def get_array_as_bool(array):
+        return bool(array)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_sine(x):
+        return math.sin(x)
