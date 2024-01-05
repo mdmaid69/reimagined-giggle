@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_force(mass, acceleration):
+        return mass * acceleration
