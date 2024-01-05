@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import time
-print(time.time())
+  def square_number(x):
+        return x**2
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
