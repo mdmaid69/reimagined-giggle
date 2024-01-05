@@ -1,5 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
