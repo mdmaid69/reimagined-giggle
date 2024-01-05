@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+text = "Hello, world!"
+print("Words:", len(text.split()))
