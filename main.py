@@ -1,7 +1,5 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def convert_to_hex(n):
+        return hex(n)
