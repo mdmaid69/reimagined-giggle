@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
