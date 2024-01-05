@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_current_directory():
+        return os.getcwd()
