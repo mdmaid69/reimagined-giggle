@@ -1,6 +1,6 @@
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
