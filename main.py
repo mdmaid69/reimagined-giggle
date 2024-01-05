@@ -1,5 +1,8 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def count_words(sentence):
-        return len(sentence.split())
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
