@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import datetime
+def get_today_date():
+        return datetime.date.today()
