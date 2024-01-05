@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_ceiling(x):
+        return math.ceil(x)
