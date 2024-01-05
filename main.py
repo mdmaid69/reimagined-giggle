@@ -1,6 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import json
+print(json.dumps({"name": "John", "age": 30}))
