@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def sort_numbers(numbers):
-        return sorted(numbers)
+import os
+print(os.getcwd())
+import array
+def get_array_itemsize(array):
+        return array.itemsize
