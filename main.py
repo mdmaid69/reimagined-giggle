@@ -1,6 +1,6 @@
+import array
+def get_array_index(array, item):
+        return array.index(item)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
