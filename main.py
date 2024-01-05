@@ -1,6 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def remove_from_array(array, item):
+        array.remove(item)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
