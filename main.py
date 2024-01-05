@@ -1,6 +1,5 @@
+def calculate_density(mass, volume):
+        return mass / volume
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
