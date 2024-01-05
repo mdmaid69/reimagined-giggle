@@ -1,8 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_volume(length, width, height):
+        return length * width * height
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
