@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def multiply_numbers(x, y):
-        return x * y
+def find_min(lst):
+        return min(lst)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
