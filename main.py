@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-from collections import Counter
-print(Counter("hello world"))
+  def count_elements(lst):
+        return len(lst)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
