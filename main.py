@@ -1,5 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
