@@ -1,6 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
