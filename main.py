@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
