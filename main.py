@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def get_array_item(array, i):
+        return array[i]
