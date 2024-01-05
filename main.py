@@ -1,6 +1,8 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def get_array_item(array, i):
-        return array[i]
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
