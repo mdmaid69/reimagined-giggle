@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
