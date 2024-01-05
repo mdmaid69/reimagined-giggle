@@ -1,3 +1,6 @@
-def square_number(x):
-        return x**2
-print(sum(range(10)))
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
