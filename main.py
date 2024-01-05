@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
