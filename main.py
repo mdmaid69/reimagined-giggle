@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
