@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def divide_numbers(x, y):
+        return x / y
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
