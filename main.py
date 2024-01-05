@@ -1,4 +1,10 @@
-def count_characters(sentence):
-        return len(sentence)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def reverse_list(lst):
+        return lst[::-1]
