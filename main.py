@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
