@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import collections
+def create_priority_queue():
+        return collections.deque()
