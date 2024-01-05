@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import array
-def get_array_item(array, i):
-        return array[i]
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
