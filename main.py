@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
