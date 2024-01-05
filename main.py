@@ -1,6 +1,6 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
