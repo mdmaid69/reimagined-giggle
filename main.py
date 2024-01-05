@@ -1,4 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
