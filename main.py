@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_power(work, time):
+        return work / time
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
