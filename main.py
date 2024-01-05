@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
