@@ -1,5 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def is_even(n):
-        return n % 2 == 0
+def add_numbers(x, y):
+        return x + y
+def add_numbers(a, b):
+        return a + b
