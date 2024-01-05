@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def add_numbers(a, b):
+        return a + b
   import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def calculate_mean(arr):
+        return np.mean(arr)
