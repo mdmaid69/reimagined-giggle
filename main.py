@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
