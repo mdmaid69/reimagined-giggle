@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def clear_array(array):
+        array *= 0
+def find_union(list1, list2):
+        return set(list1) | set(list2)
