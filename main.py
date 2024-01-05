@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def get_array_as_str(array):
+        return str(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
