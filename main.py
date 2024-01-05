@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
