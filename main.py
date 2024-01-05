@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
