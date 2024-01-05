@@ -1,5 +1,7 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
