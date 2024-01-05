@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import collections
+def create_priority_queue():
+        return collections.deque()
