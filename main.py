@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import collections
+def create_user_string():
+        return collections.UserString()
