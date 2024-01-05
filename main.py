@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import sys
+print(sys.version)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
