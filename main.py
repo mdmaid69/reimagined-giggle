@@ -1,4 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+for i in range(10): print(i)
