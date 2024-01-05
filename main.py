@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_force(mass, acceleration):
+        return mass * acceleration
