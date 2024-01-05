@@ -1,5 +1,5 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
