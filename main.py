@@ -1,8 +1,8 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
