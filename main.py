@@ -1,4 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-print(sum(range(10)))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
