@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
