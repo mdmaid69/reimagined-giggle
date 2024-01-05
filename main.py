@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_floor(x):
+        return math.floor(x)
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_as_list(array):
+        return list(array)
