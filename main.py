@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
