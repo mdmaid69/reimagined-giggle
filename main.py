@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
