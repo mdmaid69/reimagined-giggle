@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def reverse_string(s):
+        return s[::-1]
+import array
+def get_list_from_array(array):
+        return array.tolist()
