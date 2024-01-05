@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
