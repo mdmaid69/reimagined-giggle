@@ -1,5 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_acceleration(speed, time):
+        return speed / time
