@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import time
+def get_current_time():
+        return time.ctime()
+def subtract_numbers(x, y):
+        return x - y
