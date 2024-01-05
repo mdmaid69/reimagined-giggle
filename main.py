@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_density(mass, volume):
-        return mass / volume
+def is_odd(n):
+        return n % 2 != 0
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
