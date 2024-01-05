@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
