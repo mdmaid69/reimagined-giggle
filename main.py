@@ -1,8 +1,7 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  import os
+  def get_current_directory():
+        return os.getcwd()
