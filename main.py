@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import json
+print(json.dumps({"name": "John", "age": 30}))
