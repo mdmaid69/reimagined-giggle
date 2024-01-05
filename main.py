@@ -1,4 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
