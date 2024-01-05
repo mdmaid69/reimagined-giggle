@@ -1,6 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def count_characters(sentence):
+        return len(sentence)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
