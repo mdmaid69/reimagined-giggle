@@ -1,4 +1,3 @@
-def square_number(x):
-        return x**2
-  def count_elements(lst):
-        return len(lst)
+  def convert_to_hex(n):
+        return hex(n)
+for i in range(10): print(i)
