@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
