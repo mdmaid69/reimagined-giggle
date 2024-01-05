@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def reverse_string(s):
+        return s[::-1]
