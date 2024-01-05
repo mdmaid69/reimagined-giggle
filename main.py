@@ -1,6 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
