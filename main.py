@@ -1,8 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def is_palindrome(s):
+        return s == s[::-1]
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
