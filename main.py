@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import time
-def get_time_since_epoch():
-        return time.time()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
