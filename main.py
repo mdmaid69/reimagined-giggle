@@ -1,6 +1,4 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
