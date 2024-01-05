@@ -1,6 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
