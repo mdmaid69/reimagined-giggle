@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import array
+def get_array_index(array, item):
+        return array.index(item)
