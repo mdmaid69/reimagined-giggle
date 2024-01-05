@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import collections
-def create_queue():
-        return collections.deque()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
