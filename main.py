@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import time
+def get_current_time():
+        return time.time()
+  def calculate_area_rectangle(l, w):
+        return l * w
