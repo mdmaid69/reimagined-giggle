@@ -1,6 +1,7 @@
 import array
-def clear_array(array):
-        array *= 0
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
