@@ -1,6 +1,5 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_arc_sine(x):
+        return math.asin(x)
+import sys
+print(sys.version)
