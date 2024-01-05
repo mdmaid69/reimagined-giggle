@@ -1,5 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def is_palindrome(s):
-        return s == s[::-1]
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
