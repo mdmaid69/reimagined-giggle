@@ -1,5 +1,8 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
