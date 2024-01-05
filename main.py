@@ -1,5 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import os
-print(os.getcwd())
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
