@@ -1,6 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
