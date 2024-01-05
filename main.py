@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  def multiply_numbers(x, y):
-        return x * y
+  def cube_number(x):
+        return x**3
+  import os
+  def get_current_directory():
+        return os.getcwd()
