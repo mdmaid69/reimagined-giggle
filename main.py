@@ -1,3 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-print([x**2 for x in range(10)])
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
