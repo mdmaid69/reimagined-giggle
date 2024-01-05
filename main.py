@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def reverse_list(lst):
+        return lst[::-1]
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def check_if_array_contains_item(array, item):
+        return item in array
