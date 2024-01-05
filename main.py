@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
