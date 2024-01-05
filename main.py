@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  def add_numbers(x, y):
-        return x + y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
