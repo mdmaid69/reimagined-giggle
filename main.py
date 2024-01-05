@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
