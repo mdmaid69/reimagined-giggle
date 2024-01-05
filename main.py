@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_speed(distance, time):
+        return distance / time
