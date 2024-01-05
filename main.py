@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def get_array_as_list(array):
-        return list(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
