@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
