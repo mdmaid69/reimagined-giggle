@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  def convert_to_hex(n):
+        return hex(n)
