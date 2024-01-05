@@ -1,5 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def is_palindrome(s):
-        return s == s[::-1]
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+text = "Hello, world!"
+print("Characters:", len(text))
