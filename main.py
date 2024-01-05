@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+for i in range(5):
+        print(i)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
