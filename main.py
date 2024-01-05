@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def add_numbers(a, b):
-        return a + b
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
