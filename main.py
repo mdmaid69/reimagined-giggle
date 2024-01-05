@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import os
+print(os.getcwd())
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
