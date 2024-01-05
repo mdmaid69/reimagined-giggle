@@ -1,5 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
