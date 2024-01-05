@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_area_rectangle(l, w):
+        return l * w
