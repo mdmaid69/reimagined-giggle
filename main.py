@@ -1,8 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import random
+def roll_die():
+        return random.randint(1, 6)
