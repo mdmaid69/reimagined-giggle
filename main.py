@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import random
+def roll_die():
+        return random.randint(1, 6)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
