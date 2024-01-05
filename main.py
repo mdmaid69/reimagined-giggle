@@ -1,5 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_pressure(force, area):
+        return force / area
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
