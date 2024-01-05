@@ -1,5 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
 n = 10
 print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
