@@ -1,6 +1,5 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
