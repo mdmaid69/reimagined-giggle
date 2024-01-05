@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
