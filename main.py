@@ -1,11 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
