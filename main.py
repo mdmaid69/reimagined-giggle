@@ -1,8 +1,6 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_arc_sine(x):
+        return math.asin(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
