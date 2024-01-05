@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
