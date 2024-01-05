@@ -1,6 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
