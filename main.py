@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import collections
-def create_queue():
-        return collections.deque()
+import sys
+def exit_program():
+        sys.exit()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
