@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
