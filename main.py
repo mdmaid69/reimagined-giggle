@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
