@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import sys
-  def get_python_version():
-        return sys.version
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
