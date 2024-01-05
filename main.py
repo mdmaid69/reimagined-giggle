@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-from collections import Counter
-print(Counter("hello world"))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
