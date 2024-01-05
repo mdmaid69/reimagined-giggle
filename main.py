@@ -1,6 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_work(force, distance):
+        return force * distance
