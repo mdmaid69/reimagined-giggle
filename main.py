@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def get_array_index(array, item):
+        return array.index(item)
