@@ -1,8 +1,6 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-def calculate_speed(distance, time):
-        return distance / time
+import platform
+def get_python_version():
+        return platform.python_version()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
