@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import sys
+def exit_program():
+        sys.exit()
