@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
