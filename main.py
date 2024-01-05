@@ -1,6 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
