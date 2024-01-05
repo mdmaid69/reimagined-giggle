@@ -1,6 +1,8 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
