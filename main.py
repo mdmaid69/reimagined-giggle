@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def reverse_array(array):
+        array.reverse()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
