@@ -1,4 +1,6 @@
-import math
-print(math.pi)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def cube_number(x):
+        return x**3
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
