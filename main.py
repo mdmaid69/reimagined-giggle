@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def greet(name):
+        print(f"Hello, {name}!")
