@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
