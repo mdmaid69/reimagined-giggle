@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def add_numbers(a, b):
+        return a + b
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_current_working_directory():
+        return os.getcwd()
