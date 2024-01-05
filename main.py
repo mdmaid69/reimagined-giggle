@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  def square_number(x):
-        return x**2
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+from collections import Counter
+print(Counter("hello world"))
