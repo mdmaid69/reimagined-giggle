@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-name = "Python"
-print("Hello,", name)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
