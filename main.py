@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
