@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_pressure(force, area):
-        return force / area
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import getpass
+def get_username():
+        return getpass.getuser()
