@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
