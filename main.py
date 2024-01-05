@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+from collections import Counter
+print(Counter("hello world"))
