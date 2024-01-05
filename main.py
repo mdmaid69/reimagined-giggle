@@ -1,4 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_acceleration(speed, time):
-        return speed / time
+  def reverse_list(lst):
+        return lst[::-1]
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
