@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
