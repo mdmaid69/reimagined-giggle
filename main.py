@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
