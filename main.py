@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
