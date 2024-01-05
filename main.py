@@ -1,5 +1,5 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
