@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
