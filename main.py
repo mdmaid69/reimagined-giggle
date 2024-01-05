@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+x = 10
+y = 20
+print("Sum:", x + y)
+def greet(name):
+        print(f"Hello, {name}!")
