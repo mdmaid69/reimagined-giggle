@@ -1,5 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def remove_duplicates(lst):
-        return list(set(lst))
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import collections
+def create_stack():
+        return collections.deque()
