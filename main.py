@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def count_elements(iterable):
+        return collections.Counter(iterable)
