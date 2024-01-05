@@ -1,6 +1,7 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
