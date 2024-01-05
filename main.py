@@ -1,7 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
