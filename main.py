@@ -1,5 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_pressure(force, area):
+        return force / area
