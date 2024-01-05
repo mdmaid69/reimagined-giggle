@@ -1,5 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def find_min(numbers):
-        return min(numbers)
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
