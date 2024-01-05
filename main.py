@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
