@@ -1,6 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
