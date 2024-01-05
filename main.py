@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import datetime
+print(datetime.datetime.now())
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
