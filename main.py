@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import sys
+def print_python_version():
+        return sys.version
+def calculate_speed(distance, time):
+        return distance / time
