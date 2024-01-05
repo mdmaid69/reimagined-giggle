@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
