@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+print([x**2 for x in range(10)])
