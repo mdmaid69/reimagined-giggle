@@ -1,4 +1,8 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def convert_to_octal(n):
-        return oct(n)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
