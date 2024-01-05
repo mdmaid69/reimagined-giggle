@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
