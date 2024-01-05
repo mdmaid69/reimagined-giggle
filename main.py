@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
