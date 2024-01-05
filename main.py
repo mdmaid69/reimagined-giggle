@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def square_number(x):
-        return x**2
+  def calculate_area_rectangle(l, w):
+        return l * w
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
