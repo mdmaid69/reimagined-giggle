@@ -1,6 +1,7 @@
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
