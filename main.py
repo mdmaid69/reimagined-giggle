@@ -1,5 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import collections
+def create_user_list():
+        return collections.UserList()
+  def add_numbers(x, y):
+        return x + y
