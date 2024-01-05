@@ -1,5 +1,9 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
+def sort_list(lst):
+        return sorted(lst)
