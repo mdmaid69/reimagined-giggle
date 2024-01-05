@@ -1,5 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_work(force, distance):
-        return force * distance
+import array
+def clear_array(array):
+        array *= 0
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
