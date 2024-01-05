@@ -1,6 +1,11 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
