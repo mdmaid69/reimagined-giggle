@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
