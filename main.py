@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Characters:", len(text))
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_circle_area(radius):
+        return math.pi * radius**2
