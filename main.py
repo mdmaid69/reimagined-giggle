@@ -1,5 +1,8 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
