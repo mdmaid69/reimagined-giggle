@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def subtract_numbers(x, y):
+        return x - y
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
