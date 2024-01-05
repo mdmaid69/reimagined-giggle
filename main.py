@@ -1,6 +1,6 @@
+import array
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
