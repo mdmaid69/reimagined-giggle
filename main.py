@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  def square_number(x):
-        return x**2
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
