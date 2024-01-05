@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
