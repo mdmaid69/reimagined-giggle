@@ -1,7 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
