@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
