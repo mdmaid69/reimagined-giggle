@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
