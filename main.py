@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
