@@ -1,5 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+print([x**2 for x in range(10)])
