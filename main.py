@@ -1,6 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
