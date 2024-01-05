@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import os
-print(os.getcwd())
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def get_array_item(array, i):
+        return array[i]
