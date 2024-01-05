@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
