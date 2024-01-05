@@ -1,7 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_complex(array):
+        return complex(array[0])
