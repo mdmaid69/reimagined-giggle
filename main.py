@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
