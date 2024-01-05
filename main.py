@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
