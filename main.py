@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def get_array_as_str(array):
+        return str(array)
