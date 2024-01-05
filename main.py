@@ -1,4 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-print(sum(range(10)))
+def sort_list(lst):
+        return sorted(lst)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
