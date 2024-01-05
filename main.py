@@ -1,6 +1,7 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
