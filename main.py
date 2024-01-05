@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
