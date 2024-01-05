@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
