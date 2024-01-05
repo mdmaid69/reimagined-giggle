@@ -1,5 +1,4 @@
-import datetime
-print(datetime.datetime.now())
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+print("Hello, world!")
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
