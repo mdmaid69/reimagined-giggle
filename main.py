@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
