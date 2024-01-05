@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
