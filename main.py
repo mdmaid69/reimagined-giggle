@@ -1,4 +1,10 @@
-def add_numbers(x, y):
-        return x + y
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
