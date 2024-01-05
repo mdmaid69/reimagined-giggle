@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+from collections import Counter
+print(Counter("hello world"))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
