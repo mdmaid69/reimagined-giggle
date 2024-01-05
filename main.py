@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
