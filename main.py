@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import platform
+def get_os_info():
+        return platform.uname()
