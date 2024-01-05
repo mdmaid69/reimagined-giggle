@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_work(force, distance):
-        return force * distance
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
