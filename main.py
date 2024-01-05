@@ -1,6 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import logging
-def log_message(message):
-        logging.info(message)
+print([x**2 for x in range(10)])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
