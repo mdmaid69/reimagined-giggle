@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
