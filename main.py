@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def cube_number(x):
-        return x**3
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import sys
+def print_python_version():
+        print(sys.version)
