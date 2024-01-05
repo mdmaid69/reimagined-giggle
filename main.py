@@ -1,8 +1,5 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
