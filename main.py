@@ -1,6 +1,8 @@
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def get_array_as_bytes(array):
+        return bytes(array)
