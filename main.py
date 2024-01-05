@@ -1,5 +1,7 @@
-import re
-print(re.match("h.*o", "hello world"))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
