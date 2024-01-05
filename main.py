@@ -1,6 +1,6 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
