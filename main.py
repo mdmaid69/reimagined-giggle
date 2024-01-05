@@ -1,6 +1,5 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
