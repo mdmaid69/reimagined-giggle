@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def subtract_numbers(x, y):
+        return x - y
+def is_even(n):
+        return n % 2 == 0
