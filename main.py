@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
