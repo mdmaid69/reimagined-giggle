@@ -1,7 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import sys
+def exit_program():
+        sys.exit()
