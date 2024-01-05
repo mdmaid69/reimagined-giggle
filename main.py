@@ -1,5 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import collections
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
