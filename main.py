@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import time
+def get_current_time():
+        return time.time()
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
