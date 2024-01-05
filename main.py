@@ -1,5 +1,8 @@
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import random
-print(random.randint(0, 100))
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
