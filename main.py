@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
