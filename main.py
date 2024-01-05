@@ -1,6 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
