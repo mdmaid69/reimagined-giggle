@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
