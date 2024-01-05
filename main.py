@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_array_as_bytes(array):
+        return bytes(array)
