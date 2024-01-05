@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import time
+def get_current_time():
+        return time.ctime()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
