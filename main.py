@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def clear_array(array):
+        array *= 0
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
