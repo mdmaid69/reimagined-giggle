@@ -1,6 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import re
-print(re.match("h.*o", "hello world"))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
