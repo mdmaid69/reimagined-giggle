@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
