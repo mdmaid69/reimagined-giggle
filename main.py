@@ -1,6 +1,6 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
