@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_counter():
-        return collections.Counter()
+  def cube_number(x):
+        return x**3
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
