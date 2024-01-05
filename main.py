@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
