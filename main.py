@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
