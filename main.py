@@ -1,5 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def count_elements(lst):
-        return len(lst)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def convert_to_octal(n):
+        return oct(n)
