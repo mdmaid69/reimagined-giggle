@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
