@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
