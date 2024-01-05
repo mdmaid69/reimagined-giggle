@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def convert_to_hex(n):
+        return hex(n)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
