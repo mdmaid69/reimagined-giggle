@@ -1,8 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import sys
+def exit_program():
+        sys.exit()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
