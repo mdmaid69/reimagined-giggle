@@ -1,6 +1,4 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import random
+print(random.randint(0, 100))
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
