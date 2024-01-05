@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
