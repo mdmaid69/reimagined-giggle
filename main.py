@@ -1,12 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
