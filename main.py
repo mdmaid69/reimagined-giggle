@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
