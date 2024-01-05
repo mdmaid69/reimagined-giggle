@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def find_min(numbers):
+        return min(numbers)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
