@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
