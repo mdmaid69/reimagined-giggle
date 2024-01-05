@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
