@@ -1,6 +1,6 @@
+import math
+def calculate_floor(x):
+        return math.floor(x)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
