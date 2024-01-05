@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def cube_number(x):
+        return x**3
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
