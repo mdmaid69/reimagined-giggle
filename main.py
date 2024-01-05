@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def calculate_area_circle(r):
+        return 3.14 * r**2
