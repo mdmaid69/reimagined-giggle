@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-import collections
-def create_user_list():
-        return collections.UserList()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
