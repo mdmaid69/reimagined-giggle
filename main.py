@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def find_max(numbers):
+        return max(numbers)
