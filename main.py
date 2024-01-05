@@ -1,4 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def subtract_numbers(x, y):
+        return x - y
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
