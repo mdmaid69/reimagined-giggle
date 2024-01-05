@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
