@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
