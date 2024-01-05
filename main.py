@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
