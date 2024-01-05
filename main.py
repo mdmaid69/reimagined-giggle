@@ -1,6 +1,8 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
