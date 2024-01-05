@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import platform
+def get_os_info():
+        return platform.uname()
