@@ -1,5 +1,9 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
