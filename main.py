@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import time
+def get_time_since_epoch():
+        return time.time()
