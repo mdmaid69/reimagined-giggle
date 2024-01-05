@@ -1,5 +1,6 @@
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
 import array
-def get_array_as_repr(array):
-        return repr(array)
-name = "Python"
-print("Hello,", name)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
