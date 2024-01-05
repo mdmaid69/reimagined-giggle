@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
 import math
-print(math.pi)
+def calculate_arc_tangent(x):
+        return math.atan(x)
