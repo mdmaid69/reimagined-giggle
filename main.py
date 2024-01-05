@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_as_int(array):
+        return int(array[0])
