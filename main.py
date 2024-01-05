@@ -1,6 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def cube_number(x):
+        return x**3
