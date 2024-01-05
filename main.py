@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
