@@ -1,6 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
