@@ -1,5 +1,3 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+for i in range(10): print(i)
