@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  def sort_list(lst):
+        return sorted(lst)
