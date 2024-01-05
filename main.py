@@ -1,6 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
