@@ -1,6 +1,7 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
