@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import os
-print(os.getcwd())
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
