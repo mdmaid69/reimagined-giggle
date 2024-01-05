@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def convert_to_hex(n):
-        return hex(n)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
