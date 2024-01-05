@@ -1,6 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
