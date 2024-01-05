@@ -1,5 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def convert_to_binary(n):
+        return bin(n)
