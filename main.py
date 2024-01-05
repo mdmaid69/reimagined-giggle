@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
