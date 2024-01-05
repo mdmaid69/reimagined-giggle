@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
