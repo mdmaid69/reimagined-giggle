@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import os
+def change_working_directory(path):
+        os.chdir(path)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
