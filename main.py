@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
