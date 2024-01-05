@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
