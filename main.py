@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_density(mass, volume):
-        return mass / volume
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
