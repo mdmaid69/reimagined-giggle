@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
