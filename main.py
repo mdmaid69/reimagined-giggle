@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_error_function(x):
+        return math.erf(x)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
