@@ -1,5 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def find_min(numbers):
-        return min(numbers)
+def cube_number(x):
+        return x**3
+  import os
+  def split_path(path):
+        return os.path.split(path)
