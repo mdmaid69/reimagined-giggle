@@ -1,5 +1,4 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def count_elements(lst):
+        return len(lst)
+def calculate_area_rectangle(l, w):
+        return l * w
