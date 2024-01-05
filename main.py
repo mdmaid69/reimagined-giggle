@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import os
+def get_current_working_directory():
+        return os.getcwd()
