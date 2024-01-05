@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
