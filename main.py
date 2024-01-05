@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
