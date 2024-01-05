@@ -1,5 +1,8 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
