@@ -1,5 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
