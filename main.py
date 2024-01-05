@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def reverse_array(array):
-        array.reverse()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
