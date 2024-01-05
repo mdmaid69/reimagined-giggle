@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
