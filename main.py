@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
