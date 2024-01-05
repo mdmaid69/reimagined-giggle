@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
