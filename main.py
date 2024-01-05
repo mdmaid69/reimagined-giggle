@@ -1,8 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import collections
+def create_counter():
+        return collections.Counter()
