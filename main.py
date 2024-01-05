@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import time
-def get_current_time():
-        return time.time()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
