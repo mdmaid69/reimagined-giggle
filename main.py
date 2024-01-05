@@ -1,5 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_speed(distance, time):
-        return distance / time
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import time
+def get_current_time():
+        return time.ctime()
