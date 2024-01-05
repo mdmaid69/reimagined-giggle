@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_area_rectangle(l, w):
+        return l * w
+import time
+def get_current_time():
+        return time.ctime()
