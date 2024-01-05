@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
