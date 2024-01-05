@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
