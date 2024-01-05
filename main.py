@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import re
-print(re.match("h.*o", "hello world"))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
