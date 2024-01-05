@@ -1,5 +1,7 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import collections
+def create_stack():
+        return collections.deque()
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
