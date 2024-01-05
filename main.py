@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
