@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
