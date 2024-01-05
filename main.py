@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
