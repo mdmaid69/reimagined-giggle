@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-print(math.pi)
+def calculate_power(work, time):
+        return work / time
+import array
+def convert_array_to_string(array):
+        return array.tostring()
