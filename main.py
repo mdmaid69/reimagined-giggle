@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
