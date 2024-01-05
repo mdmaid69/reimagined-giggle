@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
