@@ -1,7 +1,6 @@
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
