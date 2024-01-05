@@ -1,5 +1,7 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
