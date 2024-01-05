@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
