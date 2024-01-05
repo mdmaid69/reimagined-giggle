@@ -1,5 +1,7 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def reverse_string(s):
-        return s[::-1]
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
