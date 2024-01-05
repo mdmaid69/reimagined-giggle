@@ -1,5 +1,5 @@
+def find_union(list1, list2):
+        return set(list1) | set(list2)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def get_array_as_list(array):
+        return list(array)
