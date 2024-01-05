@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  def convert_to_hex(n):
+        return hex(n)
