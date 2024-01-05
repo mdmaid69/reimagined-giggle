@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
