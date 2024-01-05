@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
