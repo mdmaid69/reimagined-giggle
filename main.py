@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def cube_number(x):
+        return x**3
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
