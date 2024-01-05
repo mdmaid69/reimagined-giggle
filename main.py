@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
