@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
 import array
-def append_to_array(array, item):
-        array.append(item)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def get_array_as_repr(array):
+        return repr(array)
