@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import os
-def change_working_directory(path):
-        os.chdir(path)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
