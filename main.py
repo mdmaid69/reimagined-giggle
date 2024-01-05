@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def calculate_volume(length, width, height):
-        return length * width * height
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_area_circle(r):
+        return 3.14 * r**2
