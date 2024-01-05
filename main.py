@@ -1,5 +1,8 @@
-  def is_odd(n):
-        return n % 2 != 0
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
