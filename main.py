@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
