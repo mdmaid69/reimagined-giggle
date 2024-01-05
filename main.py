@@ -1,6 +1,8 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
