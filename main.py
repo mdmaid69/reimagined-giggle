@@ -1,6 +1,4 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def is_palindrome(s):
+        return s == s[::-1]
+def cube_number(x):
+        return x**3
