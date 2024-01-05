@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+x = 10
+y = 20
+print("Sum:", x + y)
