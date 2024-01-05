@@ -1,6 +1,8 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
