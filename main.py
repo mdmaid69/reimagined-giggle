@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+text = "Hello, world!"
+print("Characters:", len(text))
+def subtract_numbers(x, y):
+        return x - y
