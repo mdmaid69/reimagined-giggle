@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
