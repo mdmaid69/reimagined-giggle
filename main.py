@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
