@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
