@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
