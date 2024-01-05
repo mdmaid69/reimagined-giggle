@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
