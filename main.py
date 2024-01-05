@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
