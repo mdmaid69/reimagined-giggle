@@ -1,5 +1,4 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def calculate_area_rectangle(l, w):
+        return l * w
+  def subtract_numbers(x, y):
+        return x - y
