@@ -1,8 +1,6 @@
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
