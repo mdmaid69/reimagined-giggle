@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def multiply_numbers(x, y):
+        return x * y
