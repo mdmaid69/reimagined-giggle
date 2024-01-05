@@ -1,7 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_perpetuity(payment, rate):
+        return payment / rate
