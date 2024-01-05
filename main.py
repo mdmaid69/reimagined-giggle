@@ -1,5 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def add_numbers(a, b):
+        return a + b
