@@ -1,5 +1,6 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def get_array_as_float(array):
+        return float(array[0])
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
