@@ -1,6 +1,7 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
