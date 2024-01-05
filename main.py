@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
