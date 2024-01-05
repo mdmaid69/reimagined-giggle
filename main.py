@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def divide_numbers(x, y):
+        return x / y
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
