@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
