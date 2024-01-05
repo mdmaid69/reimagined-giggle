@@ -1,4 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def square_number(x):
+        return x**2
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
