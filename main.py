@@ -1,5 +1,5 @@
+import array
+def get_list_from_array(array):
+        return array.tolist()
 n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+print("Cube numbers:", [x**3 for x in range(n)])
