@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def convert_to_binary(n):
+        return bin(n)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
