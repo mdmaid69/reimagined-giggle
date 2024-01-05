@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def reverse_string(s):
+        return s[::-1]
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
