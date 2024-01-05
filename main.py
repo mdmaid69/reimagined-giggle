@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_work(force, distance):
+        return force * distance
+import collections
+def create_counter():
+        return collections.Counter()
