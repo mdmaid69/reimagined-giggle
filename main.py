@@ -1,5 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-import collections
-def create_user_list():
-        return collections.UserList()
+def convert_to_hex(n):
+        return hex(n)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
