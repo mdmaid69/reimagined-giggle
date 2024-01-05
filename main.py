@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import sys
+def exit_program():
+        sys.exit()
