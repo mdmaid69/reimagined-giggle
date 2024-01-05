@@ -1,5 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
