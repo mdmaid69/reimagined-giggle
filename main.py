@@ -1,5 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
