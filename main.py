@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import sys
+def print_python_version():
+        print(sys.version)
