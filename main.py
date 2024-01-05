@@ -1,5 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def find_min(lst):
+        return min(lst)
