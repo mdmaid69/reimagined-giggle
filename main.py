@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import collections
+def create_stack():
+        return collections.deque()
+from collections import Counter
+print(Counter("hello world"))
