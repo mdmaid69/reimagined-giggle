@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_error_function(x):
+        return math.erf(x)
