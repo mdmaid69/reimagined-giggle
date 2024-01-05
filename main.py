@@ -1,6 +1,7 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def get_array_as_int(array):
-        return int(array[0])
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
