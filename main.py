@@ -1,7 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+print(math.pi)
