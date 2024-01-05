@@ -1,4 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  def is_even(n):
+        return n % 2 == 0
