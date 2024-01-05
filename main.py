@@ -1,6 +1,8 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
