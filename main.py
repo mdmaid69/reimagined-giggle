@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def get_array_as_str(array):
+        return str(array)
