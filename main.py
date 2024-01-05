@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def calculate_work(force, distance):
-        return force * distance
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
