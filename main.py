@@ -1,6 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
