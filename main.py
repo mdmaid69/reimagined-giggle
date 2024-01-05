@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def count_elements(lst):
+        return len(lst)
