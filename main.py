@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
