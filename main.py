@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_as_bool(array):
+        return bool(array)
