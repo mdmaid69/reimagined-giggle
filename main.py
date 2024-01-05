@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
