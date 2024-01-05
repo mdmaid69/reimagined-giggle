@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import sys
+def exit_program():
+        sys.exit()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
