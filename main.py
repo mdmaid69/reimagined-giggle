@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+text = "Hello, world!"
+print("Characters:", len(text))
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
