@@ -1,5 +1,5 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def count_words(sentence):
-        return len(sentence.split())
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def greet(name):
+        print(f"Hello, {name}!")
