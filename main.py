@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
