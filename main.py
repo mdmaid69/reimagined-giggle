@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+for i in range(5):
+        print(i)
+import os
+def change_working_directory(path):
+        os.chdir(path)
