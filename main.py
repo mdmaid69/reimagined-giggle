@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
