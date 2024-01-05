@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def multiply_numbers(x, y):
-        return x * y
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def reverse_array(array):
+        array.reverse()
