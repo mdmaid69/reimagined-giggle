@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
