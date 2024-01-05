@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
