@@ -1,5 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def is_odd(n):
+        return n % 2 != 0
+def sort_numbers(numbers):
+        return sorted(numbers)
