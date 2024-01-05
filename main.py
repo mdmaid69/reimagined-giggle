@@ -1,6 +1,6 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
