@@ -1,5 +1,7 @@
-def find_max(numbers):
-        return max(numbers)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import array
+def reverse_array(array):
+        array.reverse()
