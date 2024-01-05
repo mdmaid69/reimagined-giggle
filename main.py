@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import sys
-def print_python_version():
-        print(sys.version)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def convert_to_octal(n):
+        return oct(n)
