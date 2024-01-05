@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import array
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
