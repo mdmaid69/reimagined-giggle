@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def add_numbers(a, b):
+        return a + b
