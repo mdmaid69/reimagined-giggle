@@ -1,5 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def split_path(path):
+        return os.path.split(path)
+import collections
+def create_stack():
+        return collections.deque()
