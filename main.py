@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
