@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
