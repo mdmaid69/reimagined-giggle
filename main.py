@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
