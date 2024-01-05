@@ -1,4 +1,5 @@
-import math
-print(math.pi)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_acceleration(speed, time):
+        return speed / time
