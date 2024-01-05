@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
