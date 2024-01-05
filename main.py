@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
