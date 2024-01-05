@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
