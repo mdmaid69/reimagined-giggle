@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
