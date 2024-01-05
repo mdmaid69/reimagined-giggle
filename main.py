@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
