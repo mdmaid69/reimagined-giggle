@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def reverse_list(lst):
-        return lst[::-1]
+import collections
+def create_user_string():
+        return collections.UserString()
+def find_min(lst):
+        return min(lst)
