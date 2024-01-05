@@ -1,6 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+name = "Python"
+print("Hello,", name)
