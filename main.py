@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
