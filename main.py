@@ -1,7 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
