@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
