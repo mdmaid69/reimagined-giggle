@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import platform
+def get_python_version():
+        return platform.python_version()
