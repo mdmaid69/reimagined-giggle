@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def divide_numbers(x, y):
+        return x / y
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
