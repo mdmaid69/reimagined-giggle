@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
