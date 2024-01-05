@@ -1,5 +1,5 @@
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
