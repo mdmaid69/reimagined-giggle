@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
