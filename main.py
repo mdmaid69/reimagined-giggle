@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def calculate_area_rectangle(l, w):
+        return l * w
+import collections
+def create_user_string():
+        return collections.UserString()
