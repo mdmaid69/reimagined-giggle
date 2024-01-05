@@ -1,6 +1,7 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
