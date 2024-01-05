@@ -1,5 +1,8 @@
-def add_numbers(a, b):
-        return a + b
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
