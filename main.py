@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
