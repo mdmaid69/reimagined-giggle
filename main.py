@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import collections
+def create_priority_queue():
+        return collections.deque()
