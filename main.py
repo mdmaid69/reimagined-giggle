@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_pressure(force, area):
+        return force / area
