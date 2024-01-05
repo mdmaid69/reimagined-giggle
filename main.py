@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_as_complex(array):
+        return complex(array[0])
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
