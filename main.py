@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def clear_array(array):
+        array *= 0
