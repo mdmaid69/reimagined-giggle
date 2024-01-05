@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
