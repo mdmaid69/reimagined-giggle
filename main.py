@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
