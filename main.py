@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import time
-def get_current_time():
-        return time.time()
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
