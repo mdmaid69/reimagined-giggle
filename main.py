@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def clear_array(array):
+        array *= 0
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
