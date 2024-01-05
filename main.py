@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
