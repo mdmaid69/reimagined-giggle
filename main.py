@@ -1,6 +1,6 @@
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
