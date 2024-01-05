@@ -1,9 +1,8 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
