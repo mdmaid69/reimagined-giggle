@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def cube_number(x):
+        return x**3
