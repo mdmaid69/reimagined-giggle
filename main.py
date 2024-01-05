@@ -1,5 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import os
+def get_current_working_directory():
+        return os.getcwd()
