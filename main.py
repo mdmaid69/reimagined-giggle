@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import datetime
+def get_today_date():
+        return datetime.date.today()
