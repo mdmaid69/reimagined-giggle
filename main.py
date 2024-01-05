@@ -1,4 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-print("Hello, world!")
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
