@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-x = 10
-y = 20
-print("Sum:", x + y)
+import platform
+def get_python_version():
+        return platform.python_version()
+def multiply_numbers(x, y):
+        return x * y
