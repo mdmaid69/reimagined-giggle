@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def convert_to_hex(n):
-        return hex(n)
+import platform
+def get_os_info():
+        return platform.uname()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
