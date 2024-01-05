@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def count_characters(sentence):
+        return len(sentence)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
