@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+name = "Python"
+print("Hello,", name)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
