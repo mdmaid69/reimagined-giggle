@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_array_item(array, i):
+        return array[i]
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
