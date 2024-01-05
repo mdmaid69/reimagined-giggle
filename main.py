@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
