@@ -1,10 +1,6 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
