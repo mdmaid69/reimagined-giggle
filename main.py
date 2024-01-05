@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
