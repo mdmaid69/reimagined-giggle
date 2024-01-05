@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
