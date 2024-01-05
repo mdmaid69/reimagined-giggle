@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
