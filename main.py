@@ -1,6 +1,6 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
