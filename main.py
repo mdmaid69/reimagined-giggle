@@ -1,5 +1,4 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import datetime
-print(datetime.datetime.now())
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
