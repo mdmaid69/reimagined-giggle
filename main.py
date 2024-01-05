@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_acceleration(speed, time):
+        return speed / time
+def is_palindrome(s):
+        return s == s[::-1]
