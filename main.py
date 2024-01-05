@@ -1,6 +1,7 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
