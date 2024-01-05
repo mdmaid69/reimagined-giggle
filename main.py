@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
