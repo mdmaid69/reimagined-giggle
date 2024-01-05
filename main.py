@@ -1,7 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-def count_elements(lst):
-        return len(lst)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
