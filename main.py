@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
