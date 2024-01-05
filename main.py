@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
