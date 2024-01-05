@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
