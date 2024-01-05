@@ -1,6 +1,5 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_area_circle(r):
+        return 3.14 * r**2
