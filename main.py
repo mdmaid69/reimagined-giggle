@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_density(mass, volume):
-        return mass / volume
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
