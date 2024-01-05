@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
