@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+print("Hello, world!")
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_square_root(x):
+        return math.sqrt(x)
