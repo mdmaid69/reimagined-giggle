@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def divide_numbers(x, y):
+        return x / y
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
