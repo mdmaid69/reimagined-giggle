@@ -1,5 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_speed(distance, time):
+        return distance / time
+def find_max(lst):
+        return max(lst)
