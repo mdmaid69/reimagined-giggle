@@ -1,6 +1,7 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import collections
-def create_priority_queue():
-        return collections.deque()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import random
+def roll_die():
+        return random.randint(1, 6)
