@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
