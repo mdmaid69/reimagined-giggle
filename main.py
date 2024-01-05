@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
