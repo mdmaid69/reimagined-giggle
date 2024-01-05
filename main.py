@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_float(array):
+        return float(array[0])
