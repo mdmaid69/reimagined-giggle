@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
