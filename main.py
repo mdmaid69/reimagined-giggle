@@ -1,5 +1,8 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
