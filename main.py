@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+text = "Hello, world!"
+print("Characters:", len(text))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
