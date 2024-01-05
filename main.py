@@ -1,6 +1,6 @@
 import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def clear_array(array):
-        array *= 0
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
