@@ -1,6 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
