@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-print(math.pi)
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
