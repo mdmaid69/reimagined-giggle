@@ -1,6 +1,9 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import sys
+def print_python_version():
+        print(sys.version)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
