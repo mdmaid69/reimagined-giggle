@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_as_str(array):
+        return str(array)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
