@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def subtract_numbers(x, y):
-        return x - y
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
