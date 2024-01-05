@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
