@@ -1,6 +1,6 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import time
-def get_current_time():
-        return time.ctime()
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
