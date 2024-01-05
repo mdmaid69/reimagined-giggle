@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
+text = "Hello, world!"
+print("Characters:", len(text))
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
