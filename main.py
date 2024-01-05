@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
