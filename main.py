@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
