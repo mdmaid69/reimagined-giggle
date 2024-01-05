@@ -1,8 +1,5 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def get_array_typecode(array):
+        return array.typecode
+def calculate_acceleration(speed, time):
+        return speed / time
