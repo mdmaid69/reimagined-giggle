@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
