@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import logging
+def log_message(message):
+        logging.info(message)
