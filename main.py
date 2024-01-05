@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
