@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
