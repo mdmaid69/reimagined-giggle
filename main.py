@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
