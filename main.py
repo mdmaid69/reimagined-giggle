@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  def convert_to_binary(n):
+        return bin(n)
