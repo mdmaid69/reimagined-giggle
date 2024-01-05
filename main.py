@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def add_numbers(a, b):
+        return a + b
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
