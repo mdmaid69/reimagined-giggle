@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
