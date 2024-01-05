@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
