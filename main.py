@@ -1,5 +1,6 @@
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def convert_to_binary(n):
-        return bin(n)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
