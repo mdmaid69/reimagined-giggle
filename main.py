@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_set(array):
+        return set(array)
