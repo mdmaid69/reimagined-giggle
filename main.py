@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
