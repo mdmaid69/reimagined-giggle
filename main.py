@@ -1,6 +1,7 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
