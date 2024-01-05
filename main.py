@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
