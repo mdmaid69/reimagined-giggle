@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
