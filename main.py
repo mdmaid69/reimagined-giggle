@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
