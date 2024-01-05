@@ -1,7 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
