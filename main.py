@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
