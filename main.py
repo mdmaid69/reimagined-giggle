@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
