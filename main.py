@@ -1,5 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def find_max(numbers):
-        return max(numbers)
+def add_numbers(a, b):
+        return a + b
+  def subtract_numbers(x, y):
+        return x - y
