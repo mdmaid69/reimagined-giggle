@@ -1,6 +1,3 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def square_number(x):
+        return x**2
+for i in range(10): print(i)
