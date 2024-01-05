@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
