@@ -1,6 +1,6 @@
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import collections
-def create_user_string():
-        return collections.UserString()
+def get_array_as_str(array):
+        return str(array)
