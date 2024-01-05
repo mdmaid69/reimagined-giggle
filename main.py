@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def split_path(path):
+        return os.path.split(path)
