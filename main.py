@@ -1,6 +1,10 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
