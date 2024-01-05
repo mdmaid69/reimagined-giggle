@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
