@@ -1,4 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def find_min(numbers):
-        return min(numbers)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import json
+print(json.dumps({"name": "John", "age": 30}))
