@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
