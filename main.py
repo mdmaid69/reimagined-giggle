@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_floor(x):
+        return math.floor(x)
