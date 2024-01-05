@@ -1,12 +1,4 @@
+print([x**2 for x in range(10)])
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
