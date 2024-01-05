@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
