@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
