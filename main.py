@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def reverse_string(s):
+        return s[::-1]
+def calculate_acceleration(speed, time):
+        return speed / time
