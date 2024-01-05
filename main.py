@@ -1,4 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-import numpy as np
-print(np.array([1, 2, 3]))
+  def convert_to_binary(n):
+        return bin(n)
+  def cube_number(x):
+        return x**3
