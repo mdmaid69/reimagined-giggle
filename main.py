@@ -1,7 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
