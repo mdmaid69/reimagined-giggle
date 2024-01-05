@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
