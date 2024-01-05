@@ -1,6 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
