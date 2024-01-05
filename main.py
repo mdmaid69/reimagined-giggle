@@ -1,4 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-print("Hello, world!")
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
