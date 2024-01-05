@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def get_array_as_str(array):
+        return str(array)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
