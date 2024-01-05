@@ -1,7 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+from collections import Counter
+print(Counter("hello world"))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
