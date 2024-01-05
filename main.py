@@ -1,6 +1,9 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import array
+def get_array_typecode(array):
+        return array.typecode
