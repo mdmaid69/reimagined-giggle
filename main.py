@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import random
-print(random.randint(0, 100))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
