@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def cube_number(x):
-        return x**3
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
