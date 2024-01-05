@@ -1,8 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
