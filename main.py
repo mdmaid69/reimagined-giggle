@@ -1,6 +1,6 @@
+import collections
+def create_queue():
+        return collections.deque()
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def split_path(path):
+        return os.path.split(path)
