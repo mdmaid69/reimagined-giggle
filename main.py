@@ -1,5 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def reverse_list(lst):
+        return lst[::-1]
