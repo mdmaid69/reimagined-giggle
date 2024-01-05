@@ -1,8 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def cube_number(x):
+        return x**3
