@@ -1,7 +1,5 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+text = "Hello, world!"
+print("Reversed:", text[::-1])
