@@ -1,3 +1,6 @@
-print(sum(range(10)))
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
