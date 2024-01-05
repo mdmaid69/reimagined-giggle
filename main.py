@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
