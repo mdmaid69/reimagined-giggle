@@ -1,5 +1,5 @@
+  def remove_duplicates(lst):
+        return list(set(lst))
 import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_volume(length, width, height):
-        return length * width * height
+def get_array_typecode(array):
+        return array.typecode
