@@ -1,7 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
