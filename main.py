@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-def multiply_numbers(x, y):
-        return x * y
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
