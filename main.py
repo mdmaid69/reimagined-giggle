@@ -1,5 +1,12 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
