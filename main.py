@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
