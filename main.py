@@ -1,5 +1,11 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
