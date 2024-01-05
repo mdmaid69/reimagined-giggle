@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import getpass
+def get_username():
+        return getpass.getuser()
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
