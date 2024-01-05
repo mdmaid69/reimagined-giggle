@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def greet(name):
+        print(f"Hello, {name}!")
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
