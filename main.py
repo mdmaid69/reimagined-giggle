@@ -1,5 +1,3 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def convert_to_hex(n):
-        return hex(n)
+print([x**2 for x in range(10)])
+def count_elements(lst):
+        return len(lst)
