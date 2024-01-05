@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def greet(name):
-        print(f"Hello, {name}!")
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_volume(length, width, height):
+        return length * width * height
