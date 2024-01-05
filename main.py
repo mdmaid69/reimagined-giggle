@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def remove_duplicates(lst):
+        return list(set(lst))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
