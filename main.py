@@ -1,5 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def is_palindrome(s):
-        return s == s[::-1]
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
