@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
