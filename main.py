@@ -1,7 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_area(radius):
+        return 3.14 * radius * radius
