@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import sys
+def exit_program():
+        sys.exit()
