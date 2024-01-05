@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import array
-def reverse_array(array):
-        array.reverse()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
