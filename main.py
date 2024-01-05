@@ -1,5 +1,8 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def subtract_numbers(x, y):
-        return x - y
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
