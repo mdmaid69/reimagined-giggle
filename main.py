@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
