@@ -1,6 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
