@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def cube_number(x):
+        return x**3
