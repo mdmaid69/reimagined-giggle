@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
