@@ -1,5 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
