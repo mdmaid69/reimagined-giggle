@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+print(math.pi)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
