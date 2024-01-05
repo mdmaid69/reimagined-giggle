@@ -1,6 +1,6 @@
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
