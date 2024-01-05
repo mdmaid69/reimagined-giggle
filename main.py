@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
