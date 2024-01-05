@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
