@@ -1,4 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-print([x**2 for x in range(10)])
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
