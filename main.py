@@ -1,6 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
