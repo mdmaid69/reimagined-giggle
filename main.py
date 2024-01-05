@@ -1,4 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-print([x**2 for x in range(10)])
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
