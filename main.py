@@ -1,6 +1,8 @@
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
