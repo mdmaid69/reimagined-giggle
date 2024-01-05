@@ -1,6 +1,7 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import platform
+def get_python_version():
+        return platform.python_version()
