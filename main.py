@@ -1,5 +1,11 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  def count_elements(lst):
-        return len(lst)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
