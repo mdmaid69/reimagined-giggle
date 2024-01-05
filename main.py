@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
