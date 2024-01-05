@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
