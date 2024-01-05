@@ -1,6 +1,8 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
