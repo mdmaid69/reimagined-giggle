@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
 import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def generate_random_choice(choices):
+        return random.choice(choices)
