@@ -1,7 +1,8 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
