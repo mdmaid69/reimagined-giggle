@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
