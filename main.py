@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import sys
+def print_python_version():
+        return sys.version
+def calculate_average(lst):
+        return sum(lst) / len(lst)
