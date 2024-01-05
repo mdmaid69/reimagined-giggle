@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
