@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
