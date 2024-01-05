@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import sys
+def exit_program():
+        sys.exit()
+def count_elements(lst):
+        return len(lst)
