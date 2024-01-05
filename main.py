@@ -1,8 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
