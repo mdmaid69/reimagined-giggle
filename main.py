@@ -1,4 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_power(work, time):
-        return work / time
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
