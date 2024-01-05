@@ -1,6 +1,7 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
