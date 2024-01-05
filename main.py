@@ -1,5 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
