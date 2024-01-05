@@ -1,6 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
