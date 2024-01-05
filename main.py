@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
