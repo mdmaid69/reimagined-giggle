@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
