@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
