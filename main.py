@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def subtract_numbers(x, y):
+        return x - y
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
