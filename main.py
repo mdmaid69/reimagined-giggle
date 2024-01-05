@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
