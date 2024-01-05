@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def find_max(numbers):
+        return max(numbers)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_directory_name(path):
+        return os.path.dirname(path)
