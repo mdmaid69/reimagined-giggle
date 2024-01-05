@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def convert_to_hex(n):
-        return hex(n)
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
