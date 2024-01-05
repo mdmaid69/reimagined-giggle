@@ -1,6 +1,6 @@
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_tangent(x):
+        return math.tan(x)
