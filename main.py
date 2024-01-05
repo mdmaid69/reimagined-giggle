@@ -1,5 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import numpy as np
-print(np.array([1, 2, 3]))
+print(sum(range(10)))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
