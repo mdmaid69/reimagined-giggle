@@ -1,6 +1,5 @@
+def count_elements(lst):
+        return len(lst)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def clear_array(array):
-        array *= 0
+def get_array_itemsize(array):
+        return array.itemsize
