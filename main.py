@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import re
+print(re.match("h.*o", "hello world"))
