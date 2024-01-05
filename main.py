@@ -1,4 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def cube_number(x):
-        return x**3
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def count_elements(lst):
+        return len(lst)
