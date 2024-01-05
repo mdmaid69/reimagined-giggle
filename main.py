@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
