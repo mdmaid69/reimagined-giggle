@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
