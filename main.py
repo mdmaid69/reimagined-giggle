@@ -1,6 +1,7 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
