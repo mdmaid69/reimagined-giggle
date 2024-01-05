@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
