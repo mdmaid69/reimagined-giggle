@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import collections
+def create_queue():
+        return collections.deque()
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
