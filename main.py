@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def find_max(lst):
-        return max(lst)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
