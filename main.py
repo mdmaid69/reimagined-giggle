@@ -1,5 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def multiply_numbers(x, y):
-        return x * y
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
