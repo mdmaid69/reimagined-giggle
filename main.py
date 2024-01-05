@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
