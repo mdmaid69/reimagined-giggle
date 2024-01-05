@@ -1,6 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_power(work, time):
+        return work / time
+  def calculate_area_circle(r):
+        return 3.14 * r**2
