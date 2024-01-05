@@ -1,5 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def add_numbers(a, b):
-        return a + b
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import os
+def get_current_working_directory():
+        return os.getcwd()
