@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
