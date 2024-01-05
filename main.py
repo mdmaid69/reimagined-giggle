@@ -1,6 +1,6 @@
+import math
+def calculate_sine(x):
+        return math.sin(x)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
