@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
