@@ -1,15 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
