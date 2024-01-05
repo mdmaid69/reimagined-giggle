@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_volume(length, width, height):
+        return length * width * height
