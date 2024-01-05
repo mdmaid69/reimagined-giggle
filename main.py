@@ -1,4 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_work(force, distance):
-        return force * distance
+def sort_list(lst):
+        return sorted(lst)
+import random
+print(random.randint(0, 100))
