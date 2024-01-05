@@ -1,4 +1,3 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+print(sum(range(10)))
