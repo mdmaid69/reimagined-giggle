@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  def count_elements(lst):
-        return len(lst)
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
