@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
