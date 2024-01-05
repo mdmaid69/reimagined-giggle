@@ -1,5 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def convert_to_binary(n):
-        return bin(n)
+def is_even(n):
+        return n % 2 == 0
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
