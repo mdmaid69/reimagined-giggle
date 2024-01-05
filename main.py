@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
