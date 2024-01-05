@@ -1,6 +1,7 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
