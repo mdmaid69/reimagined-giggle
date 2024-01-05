@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def convert_array_to_string(array):
+        return array.tostring()
