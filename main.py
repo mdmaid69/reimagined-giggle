@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
