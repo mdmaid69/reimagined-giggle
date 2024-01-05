@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+print(sum(range(10)))
+import logging
+def log_message(message):
+        logging.info(message)
