@@ -1,4 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import random
+print(random.randint(0, 100))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
