@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
