@@ -1,8 +1,6 @@
+def convert_to_hex(n):
+        return hex(n)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
