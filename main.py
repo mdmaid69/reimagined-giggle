@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
