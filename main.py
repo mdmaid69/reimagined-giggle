@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import datetime
-print(datetime.datetime.now())
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
