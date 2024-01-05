@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import os
+def get_current_working_directory():
+        return os.getcwd()
