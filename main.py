@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+x = 10
+y = 20
+print("Sum:", x + y)
