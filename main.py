@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def append_to_array(array, item):
-        array.append(item)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_acceleration(speed, time):
+        return speed / time
