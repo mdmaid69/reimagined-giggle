@@ -1,5 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+for i in range(5):
+        print(i)
