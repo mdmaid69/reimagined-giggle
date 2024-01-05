@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  def add_numbers(x, y):
-        return x + y
+def calculate_density(mass, volume):
+        return mass / volume
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
