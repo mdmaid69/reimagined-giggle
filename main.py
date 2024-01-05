@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
