@@ -1,6 +1,6 @@
+import random
+def roll_die():
+        return random.randint(1, 6)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
