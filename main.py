@@ -1,5 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
