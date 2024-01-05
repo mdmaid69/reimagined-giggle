@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def cube_number(x):
-        return x**3
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
