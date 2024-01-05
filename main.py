@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import json
+print(json.dumps({"name": "John", "age": 30}))
