@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import random
+def roll_die():
+        return random.randint(1, 6)
