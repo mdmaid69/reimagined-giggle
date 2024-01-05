@@ -1,5 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def convert_to_binary(n):
+        return bin(n)
