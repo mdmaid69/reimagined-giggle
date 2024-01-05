@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
