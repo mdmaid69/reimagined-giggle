@@ -1,5 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import sys
-print(sys.version)
+import re
+print(re.match("h.*o", "hello world"))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
