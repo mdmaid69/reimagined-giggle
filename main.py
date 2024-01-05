@@ -1,6 +1,7 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import collections
+def create_stack():
+        return collections.deque()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
