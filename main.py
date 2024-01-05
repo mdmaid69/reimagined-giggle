@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import platform
+def get_os_info():
+        return platform.uname()
