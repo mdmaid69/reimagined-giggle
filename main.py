@@ -1,6 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  def cube_number(x):
+        return x**3
