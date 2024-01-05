@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def reverse_list(lst):
+        return lst[::-1]
