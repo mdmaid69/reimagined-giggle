@@ -1,5 +1,9 @@
-  def count_elements(lst):
-        return len(lst)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
