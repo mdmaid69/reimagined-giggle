@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def add_numbers(a, b):
+        return a + b
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
