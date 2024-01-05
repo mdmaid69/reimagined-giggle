@@ -1,6 +1,12 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def convert_array_to_list(array):
+        return array.tolist()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
