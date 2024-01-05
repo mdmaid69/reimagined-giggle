@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
