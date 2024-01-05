@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
