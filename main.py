@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def set_array_item(array, i, item):
+        array[i] = item
