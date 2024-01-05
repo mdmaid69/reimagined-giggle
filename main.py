@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
