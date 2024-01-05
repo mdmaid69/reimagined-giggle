@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def get_array_as_repr(array):
+        return repr(array)
