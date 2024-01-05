@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
