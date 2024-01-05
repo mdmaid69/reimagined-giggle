@@ -1,6 +1,7 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
