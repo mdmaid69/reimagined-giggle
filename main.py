@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import collections
+def create_counter():
+        return collections.Counter()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
