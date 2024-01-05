@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def is_odd(n):
-        return n % 2 != 0
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
