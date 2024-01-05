@@ -1,6 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
