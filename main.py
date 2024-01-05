@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def count_elements(lst):
+        return len(lst)
