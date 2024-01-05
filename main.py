@@ -1,4 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def is_even(n):
-        return n % 2 == 0
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
