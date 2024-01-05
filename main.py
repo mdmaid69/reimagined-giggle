@@ -1,6 +1,5 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def convert_to_hex(n):
+        return hex(n)
