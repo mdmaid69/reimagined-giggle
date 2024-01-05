@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def convert_to_octal(n):
-        return oct(n)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
