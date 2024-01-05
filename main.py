@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
