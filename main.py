@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+def find_max(numbers):
+        return max(numbers)
