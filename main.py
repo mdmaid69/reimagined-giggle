@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
