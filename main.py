@@ -1,6 +1,4 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  def convert_to_octal(n):
+        return oct(n)
