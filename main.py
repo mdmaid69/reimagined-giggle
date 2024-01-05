@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-x = 10
-y = 20
-print("Sum:", x + y)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_as_list(array):
+        return list(array)
