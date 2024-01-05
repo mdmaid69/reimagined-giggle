@@ -1,6 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
