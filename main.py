@@ -1,4 +1,8 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import time
+def get_current_time():
+        return time.time()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
