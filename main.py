@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  def convert_to_binary(n):
+        return bin(n)
