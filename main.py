@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+print(math.pi)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
