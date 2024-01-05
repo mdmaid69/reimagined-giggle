@@ -1,8 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import sys
+def exit_program():
+        sys.exit()
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
