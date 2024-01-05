@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
