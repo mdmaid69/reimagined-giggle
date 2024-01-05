@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import collections
-def create_user_list():
-        return collections.UserList()
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
