@@ -1,7 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
