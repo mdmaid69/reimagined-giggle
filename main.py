@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
