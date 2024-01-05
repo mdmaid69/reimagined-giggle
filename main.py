@@ -1,4 +1,8 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
