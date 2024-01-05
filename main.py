@@ -1,5 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def multiply_numbers(x, y):
-        return x * y
+import sys
+def exit_program():
+        sys.exit()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
