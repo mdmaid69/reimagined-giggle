@@ -1,11 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
