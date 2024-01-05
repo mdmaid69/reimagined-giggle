@@ -1,6 +1,6 @@
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def add_numbers(x, y):
-        return x + y
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
