@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import datetime
+print(datetime.datetime.now())
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
