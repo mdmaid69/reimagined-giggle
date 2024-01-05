@@ -1,6 +1,7 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
