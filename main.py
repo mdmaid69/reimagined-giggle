@@ -1,4 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
