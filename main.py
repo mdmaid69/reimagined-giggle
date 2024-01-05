@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
