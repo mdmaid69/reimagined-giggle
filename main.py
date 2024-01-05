@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def reverse_array(array):
+        array.reverse()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
