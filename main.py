@@ -1,6 +1,5 @@
-print([x**2 for x in range(10)])
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
