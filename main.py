@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
