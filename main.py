@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
