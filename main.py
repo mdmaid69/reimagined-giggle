@@ -1,6 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
