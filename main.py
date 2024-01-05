@@ -1,5 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import math
+def calculate_floor(x):
+        return math.floor(x)
