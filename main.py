@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
