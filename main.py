@@ -1,5 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
