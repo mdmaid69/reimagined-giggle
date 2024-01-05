@@ -1,4 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
