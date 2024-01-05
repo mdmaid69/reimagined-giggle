@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
