@@ -1,6 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def get_array_as_bool(array):
+        return bool(array)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
