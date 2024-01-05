@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
