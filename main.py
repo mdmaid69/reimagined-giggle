@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
