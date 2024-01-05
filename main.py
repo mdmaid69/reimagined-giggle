@@ -1,7 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def multiply_numbers(x, y):
+        return x * y
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
