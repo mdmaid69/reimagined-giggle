@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
