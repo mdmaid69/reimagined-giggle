@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
