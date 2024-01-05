@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-def sort_numbers(numbers):
-        return sorted(numbers)
+import re
+print(re.match("h.*o", "hello world"))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
