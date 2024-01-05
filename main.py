@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
