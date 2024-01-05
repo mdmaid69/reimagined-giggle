@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  def add_numbers(x, y):
+        return x + y
