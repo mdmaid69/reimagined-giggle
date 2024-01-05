@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  def subtract_numbers(x, y):
-        return x - y
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
