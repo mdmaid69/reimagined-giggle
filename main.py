@@ -1,5 +1,6 @@
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def count_elements(lst):
-        return len(lst)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
