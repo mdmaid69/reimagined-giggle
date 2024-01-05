@@ -1,7 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
