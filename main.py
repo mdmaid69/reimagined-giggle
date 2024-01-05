@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
