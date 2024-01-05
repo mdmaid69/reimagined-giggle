@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  def convert_to_hex(n):
-        return hex(n)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
