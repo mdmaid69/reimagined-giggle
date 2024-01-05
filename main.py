@@ -1,7 +1,4 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
