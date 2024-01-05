@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def count_elements(lst):
-        return len(lst)
+import time
+print(time.time())
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
