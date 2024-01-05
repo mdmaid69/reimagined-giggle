@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
