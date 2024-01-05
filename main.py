@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
