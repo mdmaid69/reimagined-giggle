@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import collections
+def create_counter():
+        return collections.Counter()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
