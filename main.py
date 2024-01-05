@@ -1,6 +1,12 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
