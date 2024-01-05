@@ -1,6 +1,8 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
