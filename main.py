@@ -1,6 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import sys
+def print_python_version():
+        print(sys.version)
