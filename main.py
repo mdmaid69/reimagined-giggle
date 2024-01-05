@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def add_numbers(a, b):
+        return a + b
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
