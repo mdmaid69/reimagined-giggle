@@ -1,6 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_power(work, time):
+        return work / time
