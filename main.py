@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
