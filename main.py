@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def find_unique_words(sentence):
+        return set(sentence.split())
