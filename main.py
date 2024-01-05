@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def get_array_as_int(array):
+        return int(array[0])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
