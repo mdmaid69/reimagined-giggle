@@ -1,5 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def add_numbers(x, y):
+        return x + y
