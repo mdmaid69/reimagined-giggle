@@ -1,6 +1,7 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
