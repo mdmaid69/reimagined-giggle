@@ -1,5 +1,7 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
