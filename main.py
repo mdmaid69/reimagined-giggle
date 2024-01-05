@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
