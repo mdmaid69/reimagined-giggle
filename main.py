@@ -1,4 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_power(work, time):
-        return work / time
+print(sum(range(10)))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
