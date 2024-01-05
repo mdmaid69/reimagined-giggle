@@ -1,5 +1,4 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def convert_to_hex(n):
+        return hex(n)
+def reverse_list(lst):
+        return lst[::-1]
