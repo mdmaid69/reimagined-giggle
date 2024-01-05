@@ -1,8 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
