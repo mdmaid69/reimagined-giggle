@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def find_max(lst):
+        return max(lst)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
