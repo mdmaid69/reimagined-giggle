@@ -1,8 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+from collections import Counter
+print(Counter("hello world"))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
