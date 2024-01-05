@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
