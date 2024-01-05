@@ -1,8 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+  def convert_to_octal(n):
+        return oct(n)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
