@@ -1,4 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def convert_to_octal(n):
+        return oct(n)
+def find_max(numbers):
+        return max(numbers)
