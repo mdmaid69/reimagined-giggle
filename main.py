@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import collections
-def create_stack():
-        return collections.deque()
+  def subtract_numbers(x, y):
+        return x - y
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
