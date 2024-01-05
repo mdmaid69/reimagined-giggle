@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
