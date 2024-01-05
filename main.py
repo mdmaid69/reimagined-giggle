@@ -1,9 +1,4 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def greet(name):
+        print(f"Hello, {name}!")
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+print(os.getcwd())
