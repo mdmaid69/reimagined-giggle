@@ -1,6 +1,4 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import json
+print(json.dumps({"name": "John", "age": 30}))
