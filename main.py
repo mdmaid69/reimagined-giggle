@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def add_numbers(x, y):
+        return x + y
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
