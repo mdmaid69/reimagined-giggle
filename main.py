@@ -1,5 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def sort_numbers(numbers):
-        return sorted(numbers)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
