@@ -1,6 +1,6 @@
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
