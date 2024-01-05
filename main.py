@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
