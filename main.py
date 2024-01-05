@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def remove_duplicates(lst):
+        return list(set(lst))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
