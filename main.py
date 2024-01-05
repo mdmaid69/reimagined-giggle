@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import time
+def get_current_time():
+        return time.time()
