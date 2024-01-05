@@ -1,6 +1,8 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
