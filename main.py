@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
