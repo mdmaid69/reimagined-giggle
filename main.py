@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
