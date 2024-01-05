@@ -1,6 +1,8 @@
-name = "Python"
-print("Hello,", name)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
