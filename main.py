@@ -1,5 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_area(radius):
+        return 3.14 * radius * radius
 n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
