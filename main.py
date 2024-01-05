@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def is_odd(n):
+        return n % 2 != 0
