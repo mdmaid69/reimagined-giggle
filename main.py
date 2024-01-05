@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
