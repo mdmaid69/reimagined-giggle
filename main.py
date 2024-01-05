@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def sort_list(lst):
+        return sorted(lst)
