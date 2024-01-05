@@ -1,5 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def is_odd(n):
+        return n % 2 != 0
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
