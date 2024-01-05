@@ -1,6 +1,7 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+def count_characters(sentence):
+        return len(sentence)
