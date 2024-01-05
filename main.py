@@ -1,5 +1,4 @@
-import math
-print(math.pi)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def convert_array_to_list(array):
+        return array.tolist()
+for i in range(10): print(i)
