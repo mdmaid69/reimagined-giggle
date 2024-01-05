@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
