@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
