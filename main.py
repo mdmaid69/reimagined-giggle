@@ -1,6 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import platform
-def get_python_version():
-        return platform.python_version()
+import datetime
+print(datetime.datetime.now())
+  def reverse_list(lst):
+        return lst[::-1]
