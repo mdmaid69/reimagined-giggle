@@ -1,5 +1,9 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def divide_numbers(x, y):
-        return x / y
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
