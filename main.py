@@ -1,5 +1,8 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
