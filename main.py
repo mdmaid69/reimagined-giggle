@@ -1,6 +1,8 @@
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
