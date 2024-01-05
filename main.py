@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
