@@ -1,6 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+for i in range(5):
+        print(i)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
