@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_gamma_function(x):
+        return math.gamma(x)
