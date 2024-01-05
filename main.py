@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def count_elements(lst):
+        return len(lst)
