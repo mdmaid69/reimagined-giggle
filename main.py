@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
