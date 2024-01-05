@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import datetime
+print(datetime.datetime.now())
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
