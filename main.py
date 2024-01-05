@@ -1,4 +1,3 @@
-print("Hello, world!")
-  import sys
-  def get_python_version():
-        return sys.version
+print([x**2 for x in range(10)])
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
