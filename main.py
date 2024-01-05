@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def is_odd(n):
+        return n % 2 != 0
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
