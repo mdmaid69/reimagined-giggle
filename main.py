@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def find_unique_words(sentence):
+        return set(sentence.split())
