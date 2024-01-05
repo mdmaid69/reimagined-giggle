@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
