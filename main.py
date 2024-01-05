@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
