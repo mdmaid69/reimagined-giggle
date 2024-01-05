@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
