@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
