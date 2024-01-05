@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import os
+def get_current_working_directory():
+        return os.getcwd()
