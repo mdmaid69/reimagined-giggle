@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def count_elements(lst):
+        return len(lst)
