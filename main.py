@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
