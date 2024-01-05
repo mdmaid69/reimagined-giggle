@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
