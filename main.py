@@ -1,5 +1,9 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
