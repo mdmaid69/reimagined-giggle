@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
