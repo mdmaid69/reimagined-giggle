@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_acceleration(speed, time):
-        return speed / time
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
