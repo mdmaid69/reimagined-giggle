@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_pressure(force, area):
+        return force / area
+import array
+def remove_from_array(array, item):
+        array.remove(item)
