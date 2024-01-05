@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
