@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  def convert_to_octal(n):
+        return oct(n)
