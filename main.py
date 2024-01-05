@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import os
+print(os.getcwd())
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
