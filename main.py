@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
