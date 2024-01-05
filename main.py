@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import array
-def reverse_array(array):
-        array.reverse()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
