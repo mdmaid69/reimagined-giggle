@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import os
+  def get_current_directory():
+        return os.getcwd()
+from collections import Counter
+print(Counter("hello world"))
