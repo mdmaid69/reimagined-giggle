@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
