@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
