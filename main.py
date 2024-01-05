@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  def add_numbers(x, y):
+        return x + y
