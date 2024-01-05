@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
