@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import time
+def get_time_since_epoch():
+        return time.time()
