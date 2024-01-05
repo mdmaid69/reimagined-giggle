@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def reverse_list(lst):
+        return lst[::-1]
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
