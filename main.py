@@ -1,5 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import random
-print(random.randint(0, 100))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def get_list_from_array(array):
+        return array.tolist()
