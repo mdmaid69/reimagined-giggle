@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  def multiply_numbers(x, y):
-        return x * y
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import array
+def get_array_typecode(array):
+        return array.typecode
