@@ -1,5 +1,6 @@
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def get_array_as_memoryview(array):
+        return memoryview(array)
