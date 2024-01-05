@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
