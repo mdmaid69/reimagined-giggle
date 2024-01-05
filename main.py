@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  def is_odd(n):
+        return n % 2 != 0
