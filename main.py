@@ -1,6 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
