@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
