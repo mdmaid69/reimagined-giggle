@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_floor(x):
+        return math.floor(x)
