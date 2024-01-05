@@ -1,6 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
