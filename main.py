@@ -1,5 +1,4 @@
+for i in range(10): print(i)
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
