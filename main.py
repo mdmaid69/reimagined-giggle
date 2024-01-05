@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def get_current_directory():
+        return os.getcwd()
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def count_elements(iterable):
+        return collections.Counter(iterable)
