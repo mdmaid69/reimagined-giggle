@@ -1,10 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def multiply_numbers(x, y):
+        return x * y
