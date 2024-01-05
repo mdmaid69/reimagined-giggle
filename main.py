@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_work(force, distance):
+        return force * distance
