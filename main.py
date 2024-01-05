@@ -1,6 +1,8 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
