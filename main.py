@@ -1,5 +1,5 @@
-import math
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
 def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_pressure(force, area):
-        return force / area
+        return 1 if n == 0 else n * calculate_factorial(n-1)
