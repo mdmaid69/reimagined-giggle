@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
