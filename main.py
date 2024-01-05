@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
