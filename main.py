@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
