@@ -1,5 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  def convert_to_binary(n):
-        return bin(n)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_as_str(array):
+        return str(array)
