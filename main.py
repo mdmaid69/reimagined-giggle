@@ -1,7 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
