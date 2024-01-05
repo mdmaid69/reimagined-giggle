@@ -1,5 +1,5 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+name = "Python"
+print("Hello,", name)
