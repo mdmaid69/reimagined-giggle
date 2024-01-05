@@ -1,5 +1,8 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  def is_even(n):
-        return n % 2 == 0
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
