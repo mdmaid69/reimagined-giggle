@@ -1,5 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-import sys
-def exit_program():
-        sys.exit()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import random
+print(random.randint(0, 100))
