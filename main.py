@@ -1,9 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
