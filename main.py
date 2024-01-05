@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
