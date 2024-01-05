@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def square_number(x):
-        return x**2
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
