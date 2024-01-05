@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def find_min(lst):
+        return min(lst)
