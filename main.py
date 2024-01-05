@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
