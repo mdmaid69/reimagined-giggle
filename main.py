@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+for i in range(5):
+        print(i)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
