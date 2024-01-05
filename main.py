@@ -1,6 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import logging
+def log_message(message):
+        logging.info(message)
