@@ -1,5 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def find_min(numbers):
-        return min(numbers)
+def greet(name):
+        print(f"Hello, {name}!")
+import time
+print(time.time())
