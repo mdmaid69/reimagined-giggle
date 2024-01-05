@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import time
+def get_time_since_epoch():
+        return time.time()
