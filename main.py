@@ -1,6 +1,10 @@
-import time
-def get_current_time():
-        return time.ctime()
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
