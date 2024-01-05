@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
