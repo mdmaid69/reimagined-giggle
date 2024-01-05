@@ -1,9 +1,5 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def divide_numbers(x, y):
+        return x / y
