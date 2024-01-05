@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
