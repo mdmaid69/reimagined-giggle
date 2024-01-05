@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
