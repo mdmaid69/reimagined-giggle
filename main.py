@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
