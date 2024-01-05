@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
