@@ -1,7 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
