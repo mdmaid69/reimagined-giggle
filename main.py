@@ -1,5 +1,8 @@
-  def subtract_numbers(x, y):
-        return x - y
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
