@@ -1,5 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
