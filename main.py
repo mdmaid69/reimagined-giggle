@@ -1,4 +1,11 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
