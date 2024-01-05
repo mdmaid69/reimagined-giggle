@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import getpass
+def get_username():
+        return getpass.getuser()
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
