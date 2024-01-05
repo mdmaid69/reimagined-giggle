@@ -1,5 +1,5 @@
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
