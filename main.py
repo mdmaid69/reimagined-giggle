@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import collections
-def create_counter():
-        return collections.Counter()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def convert_to_binary(n):
+        return bin(n)
