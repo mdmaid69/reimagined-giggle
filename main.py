@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_volume(length, width, height):
+        return length * width * height
+x = 10
+y = 20
+print("Sum:", x + y)
