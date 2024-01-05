@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
