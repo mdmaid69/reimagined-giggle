@@ -1,7 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def find_max(lst):
+        return max(lst)
