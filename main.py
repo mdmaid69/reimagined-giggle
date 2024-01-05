@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
