@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_power(work, time):
+        return work / time
