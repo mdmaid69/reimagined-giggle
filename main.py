@@ -1,6 +1,6 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
