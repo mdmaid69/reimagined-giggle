@@ -1,9 +1,6 @@
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
