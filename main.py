@@ -1,6 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_error_function(x):
+        return math.erf(x)
+import array
+def get_array_as_str(array):
+        return str(array)
