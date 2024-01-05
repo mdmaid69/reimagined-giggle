@@ -1,5 +1,4 @@
-import sys
-print(sys.version)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
