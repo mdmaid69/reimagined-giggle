@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
