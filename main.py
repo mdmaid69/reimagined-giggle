@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def cube_number(x):
+        return x**3
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
