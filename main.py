@@ -1,5 +1,7 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
