@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import os
+print(os.getcwd())
