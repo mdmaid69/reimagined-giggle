@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
