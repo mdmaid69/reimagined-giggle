@@ -1,11 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
