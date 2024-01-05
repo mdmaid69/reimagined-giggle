@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def square_number(x):
+        return x**2
