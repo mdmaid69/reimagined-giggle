@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_volume(length, width, height):
+        return length * width * height
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
