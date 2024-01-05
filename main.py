@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def subtract_numbers(x, y):
+        return x - y
+import array
+def get_array_as_repr(array):
+        return repr(array)
