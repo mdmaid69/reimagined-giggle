@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
 import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def cube_number(x):
+        return x**3
