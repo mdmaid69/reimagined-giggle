@@ -1,8 +1,4 @@
 def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def sort_list(lst):
+        return sorted(lst)
