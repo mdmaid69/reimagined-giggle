@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
