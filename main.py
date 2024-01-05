@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def reverse_list(lst):
+        return lst[::-1]
