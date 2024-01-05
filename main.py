@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
