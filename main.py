@@ -1,11 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
