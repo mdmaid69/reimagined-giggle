@@ -1,5 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
