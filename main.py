@@ -1,5 +1,7 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
