@@ -1,7 +1,5 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_volume(length, width, height):
+        return length * width * height
