@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def divide_numbers(x, y):
+        return x / y
+import sys
+def exit_program():
+        sys.exit()
