@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
