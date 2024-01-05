@@ -1,6 +1,8 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
