@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
