@@ -1,6 +1,8 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
