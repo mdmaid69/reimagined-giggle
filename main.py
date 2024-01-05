@@ -1,4 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-print("Hello, world!")
+def square_number(x):
+        return x**2
+  def reverse_list(lst):
+        return lst[::-1]
