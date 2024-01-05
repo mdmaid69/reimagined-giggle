@@ -1,6 +1,4 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_area_rectangle(l, w):
+        return l * w
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
