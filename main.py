@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
