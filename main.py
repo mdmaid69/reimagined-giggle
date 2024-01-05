@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
