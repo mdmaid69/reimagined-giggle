@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
