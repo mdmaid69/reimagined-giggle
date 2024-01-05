@@ -1,5 +1,5 @@
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def get_array_as_int(array):
+        return int(array[0])
