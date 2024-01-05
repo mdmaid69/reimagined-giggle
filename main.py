@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
