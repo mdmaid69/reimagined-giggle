@@ -1,7 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def add_numbers(x, y):
+        return x + y
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
