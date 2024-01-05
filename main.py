@@ -1,5 +1,9 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
