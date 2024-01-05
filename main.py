@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
