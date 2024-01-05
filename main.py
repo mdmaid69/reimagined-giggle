@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
