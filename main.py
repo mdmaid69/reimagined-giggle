@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
