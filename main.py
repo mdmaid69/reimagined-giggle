@@ -1,6 +1,4 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  def square_number(x):
+        return x**2
+def multiply_numbers(x, y):
+        return x * y
