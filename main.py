@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_current_directory():
+        return os.getcwd()
