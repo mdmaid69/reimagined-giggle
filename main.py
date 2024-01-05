@@ -1,5 +1,5 @@
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
 n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+print("Cube numbers:", [x**3 for x in range(n)])
