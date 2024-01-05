@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
