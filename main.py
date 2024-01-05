@@ -1,8 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+print("Hello, world!")
