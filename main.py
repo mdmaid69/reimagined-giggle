@@ -1,5 +1,8 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import platform
+def get_os_info():
+        return platform.uname()
