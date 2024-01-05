@@ -1,6 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def append_to_array(array, item):
+        array.append(item)
