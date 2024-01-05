@@ -1,5 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
