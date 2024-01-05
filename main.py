@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
