@@ -1,5 +1,5 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
