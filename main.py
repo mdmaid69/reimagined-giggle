@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import array
+def get_array_as_repr(array):
+        return repr(array)
