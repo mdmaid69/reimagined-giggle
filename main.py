@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
