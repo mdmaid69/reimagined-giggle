@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import time
-def get_current_time():
-        return time.ctime()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
