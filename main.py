@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
