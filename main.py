@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
