@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def find_max(lst):
+        return max(lst)
