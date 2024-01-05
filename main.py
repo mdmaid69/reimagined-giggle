@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
