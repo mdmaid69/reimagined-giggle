@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def sort_list(lst):
-        return sorted(lst)
+import math
+print(math.pi)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
