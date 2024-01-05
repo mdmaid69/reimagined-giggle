@@ -1,5 +1,7 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
