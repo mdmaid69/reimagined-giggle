@@ -1,5 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def cube_number(x):
-        return x**3
+def is_palindrome(s):
+        return s == s[::-1]
+import json
+print(json.dumps({"name": "John", "age": 30}))
