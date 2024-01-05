@@ -1,6 +1,7 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import platform
+def get_os_info():
+        return platform.uname()
