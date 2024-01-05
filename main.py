@@ -1,5 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
