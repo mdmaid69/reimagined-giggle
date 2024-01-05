@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
