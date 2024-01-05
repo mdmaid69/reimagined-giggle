@@ -1,6 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def get_array_slice(array, i, j):
+        return array[i:j]
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
