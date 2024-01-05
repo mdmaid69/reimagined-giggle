@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_power(work, time):
+        return work / time
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
