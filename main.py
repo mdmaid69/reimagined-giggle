@@ -1,5 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
