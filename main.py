@@ -1,7 +1,3 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+print(sum(range(10)))
