@@ -1,5 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
