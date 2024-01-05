@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
