@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def find_min(numbers):
+        return min(numbers)
