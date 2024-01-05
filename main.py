@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
