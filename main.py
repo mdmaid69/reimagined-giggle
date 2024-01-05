@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
