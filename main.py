@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
