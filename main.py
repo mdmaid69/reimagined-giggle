@@ -1,9 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
