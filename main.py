@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
