@@ -1,5 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_speed(distance, time):
-        return distance / time
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
