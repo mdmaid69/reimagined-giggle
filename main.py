@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
