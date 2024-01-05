@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
