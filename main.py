@@ -1,6 +1,6 @@
   import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def calculate_variance(arr):
+        return np.var(arr)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
