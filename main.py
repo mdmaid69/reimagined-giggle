@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
