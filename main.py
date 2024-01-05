@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
