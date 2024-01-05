@@ -1,5 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def find_max(numbers):
+        return max(numbers)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
