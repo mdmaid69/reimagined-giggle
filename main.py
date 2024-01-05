@@ -1,6 +1,8 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
