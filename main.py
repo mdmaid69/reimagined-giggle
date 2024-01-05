@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
