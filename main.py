@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
