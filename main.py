@@ -1,5 +1,4 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
