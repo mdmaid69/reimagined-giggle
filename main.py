@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def find_min(lst):
+        return min(lst)
