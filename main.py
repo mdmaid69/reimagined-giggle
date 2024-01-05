@@ -1,8 +1,5 @@
+for i in range(5):
+        print(i)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
