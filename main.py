@@ -1,5 +1,12 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
