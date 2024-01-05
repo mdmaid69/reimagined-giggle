@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_area_circle(r):
+        return 3.14 * r**2
