@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
