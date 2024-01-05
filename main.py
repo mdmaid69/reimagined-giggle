@@ -1,4 +1,7 @@
-for i in range(10): print(i)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
