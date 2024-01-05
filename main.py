@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
