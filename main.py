@@ -1,5 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+name = "Python"
+print("Hello,", name)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
