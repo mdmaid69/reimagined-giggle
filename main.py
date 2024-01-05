@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import json
+print(json.dumps({"name": "John", "age": 30}))
