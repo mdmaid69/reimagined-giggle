@@ -1,5 +1,8 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
