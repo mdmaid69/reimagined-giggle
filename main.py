@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
