@@ -1,6 +1,11 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
