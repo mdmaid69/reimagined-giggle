@@ -1,4 +1,5 @@
-import time
-print(time.time())
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
