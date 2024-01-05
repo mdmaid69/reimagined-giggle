@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
