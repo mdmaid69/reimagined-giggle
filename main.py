@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
