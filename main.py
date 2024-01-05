@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+x = 10
+y = 20
+print("Sum:", x + y)
