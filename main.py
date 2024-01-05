@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import json
+print(json.dumps({"name": "John", "age": 30}))
