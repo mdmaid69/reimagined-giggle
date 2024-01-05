@@ -1,6 +1,6 @@
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def calculate_square_root(x):
+        return math.sqrt(x)
