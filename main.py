@@ -1,5 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  def sort_list(lst):
-        return sorted(lst)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import collections
+def create_user_list():
+        return collections.UserList()
