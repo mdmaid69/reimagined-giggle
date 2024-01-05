@@ -1,5 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  def convert_to_binary(n):
+        return bin(n)
