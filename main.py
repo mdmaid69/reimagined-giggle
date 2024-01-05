@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
