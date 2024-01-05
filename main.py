@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import array
+def get_array_itemsize(array):
+        return array.itemsize
