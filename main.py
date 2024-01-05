@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
