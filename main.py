@@ -1,7 +1,7 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
 i = 0
 while i < 5:
         print(i)
         i += 1
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
