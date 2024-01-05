@@ -1,4 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-  def calculate_area_rectangle(l, w):
-        return l * w
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+from collections import Counter
+print(Counter("hello world"))
