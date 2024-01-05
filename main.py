@@ -1,7 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import logging
+def log_message(message):
+        logging.info(message)
+def is_odd(n):
+        return n % 2 != 0
