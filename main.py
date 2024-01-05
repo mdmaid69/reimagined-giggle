@@ -1,7 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
