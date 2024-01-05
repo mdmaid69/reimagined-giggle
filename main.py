@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
