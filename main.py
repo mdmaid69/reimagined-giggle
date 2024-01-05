@@ -1,6 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
