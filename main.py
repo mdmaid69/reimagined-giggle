@@ -1,5 +1,9 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def sort_list(lst):
+        return sorted(lst)
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
