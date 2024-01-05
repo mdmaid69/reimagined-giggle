@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
