@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
