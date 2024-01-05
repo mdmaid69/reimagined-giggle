@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import datetime
+def get_today_date():
+        return datetime.date.today()
