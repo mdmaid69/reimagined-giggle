@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import array
+def get_list_from_array(array):
+        return array.tolist()
