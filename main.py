@@ -1,7 +1,4 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
