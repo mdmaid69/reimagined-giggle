@@ -1,5 +1,8 @@
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
 n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
