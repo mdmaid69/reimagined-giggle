@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def reverse_string(s):
+        return s[::-1]
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
