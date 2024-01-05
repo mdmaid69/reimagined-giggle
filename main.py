@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-def find_min(numbers):
-        return min(numbers)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
