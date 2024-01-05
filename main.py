@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  def remove_duplicates(lst):
-        return list(set(lst))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
