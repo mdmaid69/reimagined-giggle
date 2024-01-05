@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
