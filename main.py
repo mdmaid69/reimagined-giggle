@@ -1,5 +1,4 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import re
+print(re.match("h.*o", "hello world"))
+  def remove_duplicates(lst):
+        return list(set(lst))
