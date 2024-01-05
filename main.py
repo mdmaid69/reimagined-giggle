@@ -1,6 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def is_even(n):
+        return n % 2 == 0
