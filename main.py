@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
