@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def find_min(lst):
+        return min(lst)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
