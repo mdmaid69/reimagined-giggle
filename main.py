@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import random
+print(random.randint(0, 100))
