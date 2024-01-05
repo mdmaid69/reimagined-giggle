@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
