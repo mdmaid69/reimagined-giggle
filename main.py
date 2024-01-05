@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import platform
+def get_os_info():
+        return platform.uname()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
