@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import os
-print(os.getcwd())
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
