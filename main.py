@@ -1,5 +1,6 @@
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
