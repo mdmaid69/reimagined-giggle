@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_power(work, time):
+        return work / time
