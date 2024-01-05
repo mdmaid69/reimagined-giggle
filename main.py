@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
