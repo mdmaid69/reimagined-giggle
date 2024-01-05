@@ -1,6 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
