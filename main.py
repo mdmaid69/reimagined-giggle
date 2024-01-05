@@ -1,5 +1,8 @@
-  def multiply_numbers(x, y):
-        return x * y
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import sys
+def exit_program():
+        sys.exit()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
