@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
