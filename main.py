@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
