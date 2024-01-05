@@ -1,6 +1,7 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+  def calculate_area_rectangle(l, w):
+        return l * w
