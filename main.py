@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
