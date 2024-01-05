@@ -1,5 +1,5 @@
+def cube_number(x):
+        return x**3
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
