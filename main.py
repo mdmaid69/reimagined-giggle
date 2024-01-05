@@ -1,6 +1,7 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
