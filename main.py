@@ -1,6 +1,8 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
