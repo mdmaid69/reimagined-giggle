@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+from collections import Counter
+print(Counter("hello world"))
