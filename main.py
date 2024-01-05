@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def multiply_numbers(x, y):
-        return x * y
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_speed(distance, time):
+        return distance / time
