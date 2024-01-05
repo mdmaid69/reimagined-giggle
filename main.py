@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
