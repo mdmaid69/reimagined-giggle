@@ -1,6 +1,7 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+text = "Hello, world!"
+print("Characters:", len(text))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
