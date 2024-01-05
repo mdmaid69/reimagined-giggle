@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
