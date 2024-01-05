@@ -1,5 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_pressure(force, area):
+        return force / area
