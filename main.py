@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
