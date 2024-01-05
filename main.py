@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import array
+def get_array_index(array, item):
+        return array.index(item)
