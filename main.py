@@ -1,5 +1,7 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
