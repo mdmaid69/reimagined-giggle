@@ -1,5 +1,5 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-  def multiply_numbers(x, y):
-        return x * y
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
