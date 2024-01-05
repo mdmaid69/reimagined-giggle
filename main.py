@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import random
-print(random.randint(0, 100))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
