@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
