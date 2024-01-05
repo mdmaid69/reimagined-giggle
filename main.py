@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def cube_number(x):
-        return x**3
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
