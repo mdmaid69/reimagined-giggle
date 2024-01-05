@@ -1,6 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
