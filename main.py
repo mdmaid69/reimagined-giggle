@@ -1,6 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_density(mass, volume):
+        return mass / volume
