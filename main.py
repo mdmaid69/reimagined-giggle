@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
