@@ -1,5 +1,8 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def reverse_string(s):
+        return s[::-1]
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
