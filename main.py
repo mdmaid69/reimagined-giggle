@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def get_array_as_set(array):
+        return set(array)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
