@@ -1,4 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def find_unique_words(sentence):
-        return set(sentence.split())
+def add_numbers(a, b):
+        return a + b
+  def remove_duplicates(lst):
+        return list(set(lst))
