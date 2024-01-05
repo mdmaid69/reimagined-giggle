@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
