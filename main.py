@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import os
+def get_current_working_directory():
+        return os.getcwd()
