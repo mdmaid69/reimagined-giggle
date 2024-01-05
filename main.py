@@ -1,5 +1,4 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
