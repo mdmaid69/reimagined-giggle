@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
