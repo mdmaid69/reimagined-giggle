@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import platform
-def get_python_version():
-        return platform.python_version()
+  import sys
+  def get_python_version():
+        return sys.version
+def convert_to_octal(n):
+        return oct(n)
