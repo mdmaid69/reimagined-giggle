@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
