@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def reverse_string(s):
-        return s[::-1]
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
