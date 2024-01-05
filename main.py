@@ -1,5 +1,7 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def add_numbers(a, b):
-        return a + b
+def calculate_work(force, distance):
+        return force * distance
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
