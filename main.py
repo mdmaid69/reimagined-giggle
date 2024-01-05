@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
