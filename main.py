@@ -1,5 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  def add_numbers(x, y):
-        return x + y
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
