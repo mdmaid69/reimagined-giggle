@@ -1,8 +1,4 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def reverse_string(s):
+        return s[::-1]
+def calculate_area_rectangle(l, w):
+        return l * w
