@@ -1,7 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_pressure(force, area):
-        return force / area
+def greet(name):
+        print(f"Hello, {name}!")
+def find_min(numbers):
+        return min(numbers)
