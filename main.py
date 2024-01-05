@@ -1,6 +1,10 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
