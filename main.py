@@ -1,6 +1,7 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
