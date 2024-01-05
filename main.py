@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_exponential(x):
+        return math.exp(x)
