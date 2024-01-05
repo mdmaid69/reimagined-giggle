@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
