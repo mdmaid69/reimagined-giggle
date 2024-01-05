@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import array
-def reverse_array(array):
-        array.reverse()
+  def reverse_list(lst):
+        return lst[::-1]
+import datetime
+def get_today_date():
+        return datetime.date.today()
