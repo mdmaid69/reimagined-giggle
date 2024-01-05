@@ -1,7 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-def is_palindrome(s):
-        return s == s[::-1]
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def convert_to_binary(n):
+        return bin(n)
