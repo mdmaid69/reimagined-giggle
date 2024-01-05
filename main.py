@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
