@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_area_circle(r):
+        return 3.14 * r**2
