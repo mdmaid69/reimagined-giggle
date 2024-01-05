@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  def is_odd(n):
-        return n % 2 != 0
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
