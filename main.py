@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_error_function(x):
+        return math.erf(x)
