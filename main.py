@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_volume(length, width, height):
-        return length * width * height
+def is_palindrome(s):
+        return s == s[::-1]
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
