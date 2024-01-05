@@ -1,6 +1,7 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import array
+def get_array_as_str(array):
+        return str(array)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
