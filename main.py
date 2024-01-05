@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
