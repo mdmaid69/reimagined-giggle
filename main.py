@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
