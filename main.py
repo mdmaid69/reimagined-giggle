@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def reverse_string(s):
-        return s[::-1]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
