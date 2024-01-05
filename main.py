@@ -1,6 +1,11 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
