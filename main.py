@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_as_repr(array):
+        return repr(array)
