@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_speed(distance, time):
-        return distance / time
+import time
+def get_current_time():
+        return time.time()
+import random
+print(random.randint(0, 100))
