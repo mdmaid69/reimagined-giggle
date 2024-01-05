@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
