@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_volume(length, width, height):
+        return length * width * height
