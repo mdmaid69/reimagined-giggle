@@ -1,6 +1,9 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
