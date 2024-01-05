@@ -1,5 +1,4 @@
-import math
-print(math.pi)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  def add_numbers(x, y):
+        return x + y
