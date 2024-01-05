@@ -1,6 +1,6 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
