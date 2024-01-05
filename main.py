@@ -1,6 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import os
+print(os.getcwd())
+def calculate_speed(distance, time):
+        return distance / time
