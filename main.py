@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
