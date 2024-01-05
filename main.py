@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import platform
+def get_os_info():
+        return platform.uname()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
