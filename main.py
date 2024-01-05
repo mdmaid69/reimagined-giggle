@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
