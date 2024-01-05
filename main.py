@@ -1,6 +1,7 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
