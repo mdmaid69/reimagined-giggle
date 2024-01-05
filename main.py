@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import array
-def get_array_as_str(array):
-        return str(array)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
