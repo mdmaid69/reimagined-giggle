@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import collections
-def create_queue():
-        return collections.deque()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
