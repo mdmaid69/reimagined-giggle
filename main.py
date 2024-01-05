@@ -1,5 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  def convert_to_hex(n):
+        return hex(n)
