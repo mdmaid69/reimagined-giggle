@@ -1,5 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def count_characters(sentence):
-        return len(sentence)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def calculate_work(force, distance):
+        return force * distance
