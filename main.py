@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_area_rectangle(l, w):
-        return l * w
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
