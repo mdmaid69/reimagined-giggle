@@ -1,3 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-print("Hello, world!")
+import platform
+def get_python_version():
+        return platform.python_version()
+def greet(name):
+        print(f"Hello, {name}!")
