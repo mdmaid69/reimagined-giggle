@@ -1,5 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_power(work, time):
-        return work / time
+def get_array_itemsize(array):
+        return array.itemsize
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
