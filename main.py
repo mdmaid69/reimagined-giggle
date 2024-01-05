@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
