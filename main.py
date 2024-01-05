@@ -1,7 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  def is_even(n):
+        return n % 2 == 0
