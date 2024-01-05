@@ -1,7 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
