@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def append_to_array(array, item):
+        array.append(item)
