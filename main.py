@@ -1,5 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import datetime
+print(datetime.datetime.now())
+def calculate_speed(distance, time):
+        return distance / time
