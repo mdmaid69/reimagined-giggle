@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
