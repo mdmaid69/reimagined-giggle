@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
