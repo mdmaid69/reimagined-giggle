@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
