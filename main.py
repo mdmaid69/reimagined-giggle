@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
