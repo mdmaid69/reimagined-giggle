@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
