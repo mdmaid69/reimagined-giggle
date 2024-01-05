@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import tensorflow as tf
+print(tf.__version__)
