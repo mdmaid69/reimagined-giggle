@@ -1,6 +1,5 @@
+def calculate_area_circle(r):
+        return 3.14 * r**2
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
