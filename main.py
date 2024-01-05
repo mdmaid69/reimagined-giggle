@@ -1,6 +1,4 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+print(sum(range(10)))
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
