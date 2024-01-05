@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
