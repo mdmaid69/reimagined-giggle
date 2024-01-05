@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def reverse_string(s):
+        return s[::-1]
