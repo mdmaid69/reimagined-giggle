@@ -1,6 +1,8 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
