@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
