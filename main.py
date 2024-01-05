@@ -1,5 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
