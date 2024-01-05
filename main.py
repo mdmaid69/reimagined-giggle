@@ -1,7 +1,8 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
