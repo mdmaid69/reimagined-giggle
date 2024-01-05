@@ -1,6 +1,5 @@
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
