@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
