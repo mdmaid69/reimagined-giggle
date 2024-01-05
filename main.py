@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
