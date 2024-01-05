@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def is_odd(n):
+        return n % 2 != 0
+import os
+def change_working_directory(path):
+        os.chdir(path)
