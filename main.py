@@ -1,6 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def calculate_acceleration(speed, time):
+        return speed / time
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
