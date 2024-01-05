@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_average(lst):
+        return sum(lst) / len(lst)
