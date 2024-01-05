@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
