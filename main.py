@@ -1,5 +1,8 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import collections
+def create_counter():
+        return collections.Counter()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
