@@ -1,5 +1,4 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+text = "Hello, world!"
+print("Words:", len(text.split()))
