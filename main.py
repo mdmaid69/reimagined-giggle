@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
