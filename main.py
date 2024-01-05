@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
