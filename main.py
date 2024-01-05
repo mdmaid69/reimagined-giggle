@@ -1,4 +1,5 @@
 text = "Hello, world!"
-print("Characters:", len(text))
-import numpy as np
-print(np.array([1, 2, 3]))
+print("Uppercase:", text.upper())
+import sys
+def exit_program():
+        sys.exit()
