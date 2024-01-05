@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
