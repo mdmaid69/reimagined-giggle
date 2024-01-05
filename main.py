@@ -1,6 +1,8 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
