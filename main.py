@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def count_elements(lst):
-        return len(lst)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  def is_even(n):
+        return n % 2 == 0
