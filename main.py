@@ -1,5 +1,3 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_acceleration(speed, time):
-        return speed / time
+print("Hello, world!")
+import tensorflow as tf
+print(tf.__version__)
