@@ -1,6 +1,8 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
