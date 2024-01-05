@@ -1,5 +1,5 @@
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
 import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_volume(length, width, height):
-        return length * width * height
+def get_array_as_set(array):
+        return set(array)
