@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
