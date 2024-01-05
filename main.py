@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  def count_elements(lst):
+        return len(lst)
