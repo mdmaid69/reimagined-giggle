@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
