@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
