@@ -1,6 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def find_min(lst):
+        return min(lst)
