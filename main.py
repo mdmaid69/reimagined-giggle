@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
