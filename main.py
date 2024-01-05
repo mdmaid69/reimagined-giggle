@@ -1,6 +1,7 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
