@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+name = "Python"
+print("Hello,", name)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
