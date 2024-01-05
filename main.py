@@ -1,6 +1,3 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+print([x**2 for x in range(10)])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
