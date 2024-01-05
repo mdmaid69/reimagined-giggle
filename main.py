@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  def reverse_list(lst):
-        return lst[::-1]
+def count_elements(lst):
+        return len(lst)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
