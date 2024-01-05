@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
