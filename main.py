@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
