@@ -1,8 +1,4 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def square_number(x):
+        return x**2
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
