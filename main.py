@@ -1,5 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+name = "Python"
+print("Hello,", name)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
