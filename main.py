@@ -1,7 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
