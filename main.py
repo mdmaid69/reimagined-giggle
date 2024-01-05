@@ -1,6 +1,3 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+for i in range(10): print(i)
+import time
+print(time.time())
