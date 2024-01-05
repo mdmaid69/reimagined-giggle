@@ -1,10 +1,7 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
