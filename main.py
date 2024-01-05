@@ -1,5 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def get_array_itemsize(array):
+        return array.itemsize
+import datetime
+def get_current_date():
+        return datetime.date.today()
