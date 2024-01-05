@@ -1,6 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
