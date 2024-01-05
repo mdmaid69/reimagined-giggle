@@ -1,5 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import random
+print(random.randint(0, 100))
