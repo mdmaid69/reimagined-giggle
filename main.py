@@ -1,5 +1,6 @@
+import array
+def get_string_from_array(array):
+        return array.tobytes()
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_permutations(n, k):
+        return math.perm(n, k)
