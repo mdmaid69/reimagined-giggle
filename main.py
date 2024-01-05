@@ -1,6 +1,10 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_as_complex(array):
+        return complex(array[0])
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
