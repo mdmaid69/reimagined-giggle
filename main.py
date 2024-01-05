@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import collections
+def create_user_string():
+        return collections.UserString()
