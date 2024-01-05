@@ -1,4 +1,6 @@
-import sys
-print(sys.version)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
