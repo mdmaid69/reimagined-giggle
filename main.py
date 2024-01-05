@@ -1,6 +1,12 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
