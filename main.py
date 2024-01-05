@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def add_numbers(a, b):
-        return a + b
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
