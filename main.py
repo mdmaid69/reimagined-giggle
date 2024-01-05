@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
