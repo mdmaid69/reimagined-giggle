@@ -1,6 +1,9 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_acceleration(speed, time):
-        return speed / time
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+x = 10
+y = 20
+print("Sum:", x + y)
