@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
