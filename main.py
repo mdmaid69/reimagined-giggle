@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def count_elements(lst):
+        return len(lst)
+import array
+def get_array_as_int(array):
+        return int(array[0])
