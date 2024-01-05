@@ -1,6 +1,12 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
