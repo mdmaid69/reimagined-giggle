@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
+import collections
+def create_stack():
+        return collections.deque()
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
