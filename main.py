@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import collections
+def create_stack():
+        return collections.deque()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
