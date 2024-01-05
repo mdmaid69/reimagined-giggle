@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
