@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import numpy as np
+print(np.array([1, 2, 3]))
