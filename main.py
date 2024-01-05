@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
