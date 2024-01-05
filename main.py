@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import time
+def get_current_time():
+        return time.ctime()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
