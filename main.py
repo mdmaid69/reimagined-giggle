@@ -1,7 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+print(math.pi)
