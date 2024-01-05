@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import platform
+def get_python_version():
+        return platform.python_version()
