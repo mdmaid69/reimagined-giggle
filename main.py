@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_item_count(array, item):
+        return array.count(item)
+import random
+print(random.randint(0, 100))
