@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
