@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
