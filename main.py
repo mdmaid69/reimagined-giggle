@@ -1,8 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
