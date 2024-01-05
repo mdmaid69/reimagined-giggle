@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+def calculate_area_rectangle(l, w):
+        return l * w
