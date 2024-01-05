@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
