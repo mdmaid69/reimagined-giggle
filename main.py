@@ -1,5 +1,8 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
