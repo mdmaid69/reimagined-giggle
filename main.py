@@ -1,7 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_list(array):
+        return list(array)
