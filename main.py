@@ -1,5 +1,7 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
