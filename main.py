@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
