@@ -1,6 +1,6 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def append_to_array(array, item):
+        array.append(item)
