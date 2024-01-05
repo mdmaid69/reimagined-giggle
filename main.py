@@ -1,8 +1,7 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
