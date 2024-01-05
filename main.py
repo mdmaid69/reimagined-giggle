@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def multiply_numbers(x, y):
+        return x * y
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
