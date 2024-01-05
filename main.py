@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  def calculate_area_rectangle(l, w):
-        return l * w
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
