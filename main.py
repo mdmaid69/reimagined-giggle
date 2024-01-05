@@ -1,11 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_floor(x):
+        return math.floor(x)
