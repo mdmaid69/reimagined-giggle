@@ -1,6 +1,6 @@
+import math
+def calculate_floor(x):
+        return math.floor(x)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
