@@ -1,5 +1,7 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
