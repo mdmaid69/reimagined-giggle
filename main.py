@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  def remove_duplicates(lst):
+        return list(set(lst))
