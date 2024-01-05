@@ -1,5 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def multiply_numbers(x, y):
+        return x * y
