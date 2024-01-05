@@ -1,7 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
