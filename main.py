@@ -1,6 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
