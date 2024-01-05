@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def find_max(numbers):
+        return max(numbers)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
