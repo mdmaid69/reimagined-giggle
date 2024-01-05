@@ -1,5 +1,5 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  def count_elements(lst):
-        return len(lst)
+def get_array_as_float(array):
+        return float(array[0])
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
