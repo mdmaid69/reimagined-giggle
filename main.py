@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-x = 10
-y = 20
-print("Sum:", x + y)
+  def cube_number(x):
+        return x**3
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
