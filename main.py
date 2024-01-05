@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def add_numbers(a, b):
+        return a + b
