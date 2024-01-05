@@ -1,5 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
