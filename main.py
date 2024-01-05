@@ -1,6 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def add_numbers(x, y):
+        return x + y
+def calculate_power(work, time):
+        return work / time
