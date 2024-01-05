@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-for i in range(5):
-        print(i)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  def remove_duplicates(lst):
+        return list(set(lst))
