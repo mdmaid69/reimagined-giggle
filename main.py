@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
