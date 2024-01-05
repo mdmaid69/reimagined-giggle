@@ -1,8 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def convert_to_octal(n):
+        return oct(n)
+import getpass
+def get_username():
+        return getpass.getuser()
