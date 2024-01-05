@@ -1,4 +1,4 @@
-import random
-print(random.randint(0, 100))
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
