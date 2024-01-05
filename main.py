@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
