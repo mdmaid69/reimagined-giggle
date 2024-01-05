@@ -1,8 +1,8 @@
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
 import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
