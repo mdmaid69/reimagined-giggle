@@ -1,3 +1,11 @@
-print([x**2 for x in range(10)])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
