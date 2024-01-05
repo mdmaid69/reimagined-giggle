@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  def reverse_list(lst):
+        return lst[::-1]
