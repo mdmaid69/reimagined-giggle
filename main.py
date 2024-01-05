@@ -1,6 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def calculate_area_rectangle(l, w):
+        return l * w
