@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
