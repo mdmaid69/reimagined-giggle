@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  def is_even(n):
+        return n % 2 == 0
