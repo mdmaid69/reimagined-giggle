@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
