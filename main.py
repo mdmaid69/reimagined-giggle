@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
