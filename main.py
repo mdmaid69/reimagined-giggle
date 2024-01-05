@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
   import os
-  def get_file_dev(file_name):
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_device(file_name):
         return os.stat(file_name).st_dev
