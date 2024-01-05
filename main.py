@@ -1,4 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-for i in range(10): print(i)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_acceleration(speed, time):
+        return speed / time
