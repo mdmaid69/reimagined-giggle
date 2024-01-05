@@ -1,6 +1,6 @@
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def convert_array_to_unicode(array):
+        return array.tounicode()
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
