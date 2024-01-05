@@ -1,6 +1,4 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def convert_to_octal(n):
+        return oct(n)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
