@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
 n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+print("Cube numbers:", [x**3 for x in range(n)])
