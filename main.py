@@ -1,6 +1,5 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
