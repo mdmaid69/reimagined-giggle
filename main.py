@@ -1,7 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def sort_list(lst):
-        return sorted(lst)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
