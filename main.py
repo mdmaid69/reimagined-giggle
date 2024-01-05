@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
