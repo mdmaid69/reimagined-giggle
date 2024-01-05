@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
 import logging
-def log_message(message):
-        logging.info(message)
+def setup_logging(level):
+        logging.basicConfig(level=level)
