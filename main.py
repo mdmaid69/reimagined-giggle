@@ -1,6 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
 import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_int(array):
+        return int(array[0])
