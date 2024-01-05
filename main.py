@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import json
+print(json.dumps({"name": "John", "age": 30}))
