@@ -1,5 +1,6 @@
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
 import array
-def convert_array_to_bytes(array):
+def get_string_from_array(array):
         return array.tobytes()
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
