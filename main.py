@@ -1,5 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def square_number(x):
-        return x**2
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
