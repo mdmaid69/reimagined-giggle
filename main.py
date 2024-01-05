@@ -1,5 +1,6 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-text = "Hello, world!"
-print("Characters:", len(text))
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
