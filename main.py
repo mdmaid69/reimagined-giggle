@@ -1,7 +1,6 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def get_array_as_tuple(array):
+        return tuple(array)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
