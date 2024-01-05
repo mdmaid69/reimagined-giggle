@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
