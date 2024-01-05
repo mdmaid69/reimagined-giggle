@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-for i in range(5):
-        print(i)
+def find_max(lst):
+        return max(lst)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
