@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def add_numbers(x, y):
-        return x + y
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
