@@ -1,4 +1,7 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
