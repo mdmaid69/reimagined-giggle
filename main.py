@@ -1,6 +1,7 @@
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
