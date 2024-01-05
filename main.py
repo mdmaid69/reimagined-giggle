@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
