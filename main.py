@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
