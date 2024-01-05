@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import sys
+def print_python_version():
+        print(sys.version)
+def count_characters(sentence):
+        return len(sentence)
