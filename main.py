@@ -1,5 +1,10 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
