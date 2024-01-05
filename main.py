@@ -1,7 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
