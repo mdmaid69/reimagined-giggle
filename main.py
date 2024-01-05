@@ -1,6 +1,6 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def reverse_array(array):
+        array.reverse()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
