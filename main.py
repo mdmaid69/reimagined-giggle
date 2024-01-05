@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
