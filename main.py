@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
