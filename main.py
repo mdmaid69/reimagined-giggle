@@ -1,6 +1,6 @@
+import collections
+def create_counter():
+        return collections.Counter()
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
