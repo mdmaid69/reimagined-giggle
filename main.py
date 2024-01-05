@@ -1,6 +1,5 @@
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
