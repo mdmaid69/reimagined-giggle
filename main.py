@@ -1,7 +1,6 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
