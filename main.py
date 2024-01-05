@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_average(lst):
+        return sum(lst) / len(lst)
