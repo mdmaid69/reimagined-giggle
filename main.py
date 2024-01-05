@@ -1,5 +1,8 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
