@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
