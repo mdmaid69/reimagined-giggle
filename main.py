@@ -1,6 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import sys
-def exit_program():
-        sys.exit()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
