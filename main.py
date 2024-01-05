@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
