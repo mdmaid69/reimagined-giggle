@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_string_from_array(array):
+        return array.tobytes()
