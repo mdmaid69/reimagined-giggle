@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import platform
+def get_os_info():
+        return platform.uname()
+def greet(name):
+        print(f"Hello, {name}!")
