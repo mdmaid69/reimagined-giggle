@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_power(work, time):
-        return work / time
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
