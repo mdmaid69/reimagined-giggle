@@ -1,5 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
