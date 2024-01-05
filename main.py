@@ -1,6 +1,7 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
