@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def get_array_as_int(array):
+        return int(array[0])
