@@ -1,5 +1,9 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def clear_array(array):
-        array *= 0
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
