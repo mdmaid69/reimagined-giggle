@@ -1,5 +1,7 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def convert_to_octal(n):
+        return oct(n)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
