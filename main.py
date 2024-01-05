@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
