@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
