@@ -1,6 +1,8 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
