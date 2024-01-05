@@ -1,5 +1,7 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
