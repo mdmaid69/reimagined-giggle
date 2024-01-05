@@ -1,5 +1,7 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
