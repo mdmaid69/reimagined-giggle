@@ -1,6 +1,5 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def greet(name):
+        print(f"Hello, {name}!")
