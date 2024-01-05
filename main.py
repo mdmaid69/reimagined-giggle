@@ -1,6 +1,8 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import os
+def remove_directory(path):
+        os.rmdir(path)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
