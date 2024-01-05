@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
