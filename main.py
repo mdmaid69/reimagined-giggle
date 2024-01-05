@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_item(array, i):
+        return array[i]
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
