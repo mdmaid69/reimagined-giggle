@@ -1,6 +1,5 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
