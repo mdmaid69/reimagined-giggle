@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
