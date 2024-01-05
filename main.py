@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
