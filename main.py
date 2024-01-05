@@ -1,5 +1,7 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
