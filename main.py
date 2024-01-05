@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
