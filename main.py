@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def square_number(x):
+        return x**2
