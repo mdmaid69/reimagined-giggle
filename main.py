@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
