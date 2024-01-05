@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
