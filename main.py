@@ -1,10 +1,4 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def convert_to_binary(n):
+        return bin(n)
