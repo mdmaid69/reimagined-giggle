@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+from collections import Counter
+print(Counter("hello world"))
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
