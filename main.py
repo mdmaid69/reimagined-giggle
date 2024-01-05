@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def get_array_as_list(array):
+        return list(array)
+def calculate_acceleration(speed, time):
+        return speed / time
