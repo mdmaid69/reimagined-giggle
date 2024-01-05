@@ -1,4 +1,7 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-print([x**2 for x in range(10)])
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
