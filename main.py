@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import re
+print(re.match("h.*o", "hello world"))
