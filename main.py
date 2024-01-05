@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import random
+def roll_die():
+        return random.randint(1, 6)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_arc_sine(x):
+        return math.asin(x)
