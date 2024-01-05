@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_item_count(array, item):
+        return array.count(item)
+import random
+print(random.randint(0, 100))
