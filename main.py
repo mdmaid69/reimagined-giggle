@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import random
+print(random.randint(0, 100))
+  import sys
+  def get_python_version():
+        return sys.version
