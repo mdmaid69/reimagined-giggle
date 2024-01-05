@@ -1,7 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import tensorflow as tf
-print(tf.__version__)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
