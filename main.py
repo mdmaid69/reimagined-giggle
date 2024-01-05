@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
