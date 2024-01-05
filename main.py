@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def multiply_numbers(x, y):
+        return x * y
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
