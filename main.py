@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import datetime
+def get_current_date():
+        return datetime.date.today()
