@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  def multiply_numbers(x, y):
-        return x * y
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
