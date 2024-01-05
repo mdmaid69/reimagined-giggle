@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def get_array_length(array):
-        return len(array)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
