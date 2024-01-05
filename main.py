@@ -1,6 +1,7 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
