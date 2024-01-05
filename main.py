@@ -1,6 +1,8 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
