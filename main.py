@@ -1,6 +1,4 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_power(work, time):
+        return work / time
