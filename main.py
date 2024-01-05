@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import array
-def get_array_typecode(array):
-        return array.typecode
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
