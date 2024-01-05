@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+print([x**2 for x in range(10)])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
