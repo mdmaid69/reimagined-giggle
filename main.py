@@ -1,4 +1,7 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
