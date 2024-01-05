@@ -1,4 +1,4 @@
-for i in range(5):
-        print(i)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_area_rectangle(l, w):
+        return l * w
