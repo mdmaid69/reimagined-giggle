@@ -1,5 +1,7 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
