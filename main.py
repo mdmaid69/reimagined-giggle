@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  def count_elements(lst):
+        return len(lst)
