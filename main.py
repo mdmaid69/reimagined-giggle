@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import collections
+def create_counter():
+        return collections.Counter()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
