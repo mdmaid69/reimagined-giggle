@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
