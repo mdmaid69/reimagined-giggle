@@ -1,7 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
