@@ -1,5 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_power(work, time):
+        return work / time
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
