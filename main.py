@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import platform
+def get_python_version():
+        return platform.python_version()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
