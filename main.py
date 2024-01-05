@@ -1,6 +1,5 @@
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
   import os
-  def split_path(path):
-        return os.path.split(path)
-import time
-def get_time_since_epoch():
-        return time.time()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
