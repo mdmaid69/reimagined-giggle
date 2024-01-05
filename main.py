@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  def count_elements(lst):
-        return len(lst)
+def calculate_ceiling(x):
+        return math.ceil(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
