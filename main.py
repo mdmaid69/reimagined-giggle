@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
