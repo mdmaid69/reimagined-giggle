@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
