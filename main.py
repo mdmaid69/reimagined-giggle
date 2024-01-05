@@ -1,7 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+x = 10
+y = 20
+print("Sum:", x + y)
