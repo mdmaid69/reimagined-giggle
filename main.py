@@ -1,6 +1,4 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
