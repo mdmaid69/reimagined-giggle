@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
