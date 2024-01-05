@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import time
+def get_current_time():
+        return time.time()
