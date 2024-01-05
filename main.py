@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
