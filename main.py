@@ -1,8 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
