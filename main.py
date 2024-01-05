@@ -1,5 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-x = 10
-y = 20
-print("Sum:", x + y)
+import os
+print(os.getcwd())
+import re
+print(re.match("h.*o", "hello world"))
