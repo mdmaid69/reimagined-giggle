@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
