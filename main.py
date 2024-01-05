@@ -1,6 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
