@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
