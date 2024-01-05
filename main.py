@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
