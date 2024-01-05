@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def is_odd(n):
+        return n % 2 != 0
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
