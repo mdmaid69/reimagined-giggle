@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import time
+def get_time_since_epoch():
+        return time.time()
+def find_max(lst):
+        return max(lst)
