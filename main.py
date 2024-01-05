@@ -1,6 +1,11 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def get_bytes_from_array(array):
+        return array.tobytes()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
