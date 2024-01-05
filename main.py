@@ -1,5 +1,9 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-from collections import Counter
-print(Counter("hello world"))
+import array
+def get_array_as_set(array):
+        return set(array)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
