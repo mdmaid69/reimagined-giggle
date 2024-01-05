@@ -1,6 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import sys
-def exit_program():
-        sys.exit()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_force(mass, acceleration):
+        return mass * acceleration
