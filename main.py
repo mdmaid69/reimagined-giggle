@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
