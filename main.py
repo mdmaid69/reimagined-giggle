@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def convert_to_binary(n):
+        return bin(n)
