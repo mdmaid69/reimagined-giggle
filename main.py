@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
