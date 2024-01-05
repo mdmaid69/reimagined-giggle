@@ -1,6 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import sys
+def exit_program():
+        sys.exit()
