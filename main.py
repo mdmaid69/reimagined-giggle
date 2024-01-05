@@ -1,6 +1,6 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
