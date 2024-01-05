@@ -1,5 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def divide_numbers(x, y):
-        return x / y
+  def remove_duplicates(lst):
+        return list(set(lst))
+def convert_to_hex(n):
+        return hex(n)
