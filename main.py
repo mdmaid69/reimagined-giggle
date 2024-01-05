@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
