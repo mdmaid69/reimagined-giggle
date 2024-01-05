@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_acceleration(speed, time):
-        return speed / time
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
