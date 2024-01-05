@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
