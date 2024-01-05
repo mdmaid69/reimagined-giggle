@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
