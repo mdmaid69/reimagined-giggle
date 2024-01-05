@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def count_words(sentence):
+        return len(sentence.split())
