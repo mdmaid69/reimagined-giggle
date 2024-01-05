@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
