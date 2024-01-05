@@ -1,6 +1,6 @@
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
