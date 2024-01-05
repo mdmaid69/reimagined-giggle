@@ -1,3 +1,4 @@
-print(sum(range(10)))
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import os
+print(os.getcwd())
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
