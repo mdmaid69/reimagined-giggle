@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def convert_to_octal(n):
+        return oct(n)
