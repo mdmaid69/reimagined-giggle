@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def get_array_as_str(array):
-        return str(array)
+  def multiply_numbers(x, y):
+        return x * y
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
