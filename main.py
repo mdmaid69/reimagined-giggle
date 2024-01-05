@@ -1,8 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import os
+def remove_directory(path):
+        os.rmdir(path)
