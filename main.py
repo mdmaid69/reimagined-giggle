@@ -1,5 +1,7 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
