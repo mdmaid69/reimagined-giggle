@@ -1,8 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
