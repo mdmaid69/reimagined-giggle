@@ -1,5 +1,6 @@
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def cube_number(x):
-        return x**3
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
