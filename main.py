@@ -1,6 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
