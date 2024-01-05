@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def find_max(numbers):
+        return max(numbers)
