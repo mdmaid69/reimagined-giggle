@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import sys
+def exit_program():
+        sys.exit()
