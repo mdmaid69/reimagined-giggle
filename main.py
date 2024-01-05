@@ -1,6 +1,8 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
