@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import sys
-def exit_program():
-        sys.exit()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
