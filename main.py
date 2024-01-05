@@ -1,5 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_density(mass, volume):
+        return mass / volume
