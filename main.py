@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def remove_duplicates(lst):
-        return list(set(lst))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
