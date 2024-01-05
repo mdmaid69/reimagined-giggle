@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
