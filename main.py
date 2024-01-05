@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
