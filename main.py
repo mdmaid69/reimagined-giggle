@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  def convert_to_hex(n):
-        return hex(n)
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
