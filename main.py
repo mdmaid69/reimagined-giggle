@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
