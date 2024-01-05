@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def get_array_as_str(array):
-        return str(array)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  def calculate_area_rectangle(l, w):
+        return l * w
