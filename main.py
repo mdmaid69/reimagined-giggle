@@ -1,5 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import logging
+def log_message(message):
+        logging.info(message)
+import sys
+print(sys.version)
