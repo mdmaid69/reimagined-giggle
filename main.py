@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def count_elements(lst):
-        return len(lst)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
