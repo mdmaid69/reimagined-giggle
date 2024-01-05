@@ -1,5 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-from collections import Counter
-print(Counter("hello world"))
+def count_characters(sentence):
+        return len(sentence)
+def calculate_area(radius):
+        return 3.14 * radius * radius
