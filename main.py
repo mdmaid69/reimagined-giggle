@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
