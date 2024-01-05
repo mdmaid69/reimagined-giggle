@@ -1,6 +1,5 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def count_elements(lst):
+        return len(lst)
