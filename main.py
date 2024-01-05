@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
