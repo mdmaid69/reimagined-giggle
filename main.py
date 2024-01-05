@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_counter():
+        return collections.Counter()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
