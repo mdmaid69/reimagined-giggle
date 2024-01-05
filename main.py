@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
