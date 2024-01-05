@@ -1,6 +1,10 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
