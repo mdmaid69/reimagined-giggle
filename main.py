@@ -1,6 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import time
-def get_current_time():
-        return time.ctime()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
