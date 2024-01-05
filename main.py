@@ -1,5 +1,7 @@
-def multiply_numbers(x, y):
-        return x * y
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
