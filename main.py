@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
