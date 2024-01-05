@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
