@@ -1,4 +1,9 @@
-for i in range(10): print(i)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
