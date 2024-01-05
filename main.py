@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
