@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def cube_number(x):
-        return x**3
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
