@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def is_even(n):
+        return n % 2 == 0
