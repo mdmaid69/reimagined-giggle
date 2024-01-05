@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import logging
+def log_message(message):
+        logging.info(message)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
