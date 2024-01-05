@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
