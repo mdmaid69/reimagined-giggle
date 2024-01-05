@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  def reverse_list(lst):
+        return lst[::-1]
