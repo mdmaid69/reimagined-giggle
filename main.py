@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
