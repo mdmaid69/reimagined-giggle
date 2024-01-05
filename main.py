@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
