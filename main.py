@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def get_array_item(array, i):
-        return array[i]
+import sys
+print(sys.version)
+import datetime
+def get_current_date():
+        return datetime.date.today()
