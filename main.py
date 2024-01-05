@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def reverse_string(s):
+        return s[::-1]
