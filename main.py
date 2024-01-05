@@ -1,5 +1,8 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def divide_numbers(x, y):
-        return x / y
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
