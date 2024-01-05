@@ -1,6 +1,6 @@
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
