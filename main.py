@@ -1,5 +1,5 @@
 import sys
-def print_python_version():
-        print(sys.version)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def add_to_python_path(path):
+        sys.path.append(path)
+def find_min(numbers):
+        return min(numbers)
