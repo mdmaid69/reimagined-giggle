@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def find_max(lst):
+        return max(lst)
