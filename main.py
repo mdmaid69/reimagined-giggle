@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  def subtract_numbers(x, y):
-        return x - y
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import random
+print(random.randint(0, 100))
