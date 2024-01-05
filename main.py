@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
