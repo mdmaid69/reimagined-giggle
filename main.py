@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
