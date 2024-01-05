@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
