@@ -1,6 +1,6 @@
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
