@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def is_even(n):
+        return n % 2 == 0
