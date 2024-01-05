@@ -1,3 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-print([x**2 for x in range(10)])
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import logging
+def log_message(message):
+        logging.info(message)
