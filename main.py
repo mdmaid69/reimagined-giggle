@@ -1,6 +1,7 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
