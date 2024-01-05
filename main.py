@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
