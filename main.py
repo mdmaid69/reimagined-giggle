@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
