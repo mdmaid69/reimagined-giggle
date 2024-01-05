@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
