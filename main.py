@@ -1,4 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def greet(name):
-        print(f"Hello, {name}!")
+def find_min(lst):
+        return min(lst)
+def calculate_volume(length, width, height):
+        return length * width * height
