@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
