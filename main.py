@@ -1,4 +1,5 @@
-print(sum(range(10)))
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def count_elements(lst):
+        return len(lst)
