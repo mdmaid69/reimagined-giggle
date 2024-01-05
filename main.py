@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_power(work, time):
+        return work / time
