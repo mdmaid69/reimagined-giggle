@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
