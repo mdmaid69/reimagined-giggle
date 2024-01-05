@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
