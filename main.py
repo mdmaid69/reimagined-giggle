@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
