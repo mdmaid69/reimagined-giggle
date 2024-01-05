@@ -1,6 +1,10 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
