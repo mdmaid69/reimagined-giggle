@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def convert_array_to_list(array):
+        return array.tolist()
