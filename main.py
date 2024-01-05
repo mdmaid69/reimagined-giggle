@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
