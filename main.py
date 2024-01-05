@@ -1,5 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_power(work, time):
-        return work / time
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_pressure(force, area):
+        return force / area
