@@ -1,4 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-from collections import Counter
-print(Counter("hello world"))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
