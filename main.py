@@ -1,8 +1,8 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
