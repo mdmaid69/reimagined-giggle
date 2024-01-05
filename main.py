@@ -1,5 +1,8 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import array
+def get_array_item(array, i):
+        return array[i]
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
