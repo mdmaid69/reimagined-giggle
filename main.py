@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+name = "Python"
+print("Hello,", name)
