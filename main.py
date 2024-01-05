@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  def is_even(n):
+        return n % 2 == 0
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
