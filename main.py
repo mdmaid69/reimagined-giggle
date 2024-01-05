@@ -1,5 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
