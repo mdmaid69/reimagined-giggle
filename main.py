@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def convert_to_binary(n):
-        return bin(n)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_volume(length, width, height):
+        return length * width * height
