@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def remove_duplicates(lst):
+        return list(set(lst))
+def cube_number(x):
+        return x**3
