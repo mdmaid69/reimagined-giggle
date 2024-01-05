@@ -1,5 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def convert_to_hex(n):
+        return hex(n)
+  def subtract_numbers(x, y):
+        return x - y
