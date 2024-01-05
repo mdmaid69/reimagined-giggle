@@ -1,5 +1,6 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_density(mass, volume):
-        return mass / volume
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
