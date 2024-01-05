@@ -1,4 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def square_number(x):
-        return x**2
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
