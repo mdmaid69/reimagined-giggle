@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_length(array):
+        return len(array)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
