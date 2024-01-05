@@ -1,8 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
