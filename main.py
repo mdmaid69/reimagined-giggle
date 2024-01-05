@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
