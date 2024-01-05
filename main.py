@@ -1,5 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
