@@ -1,4 +1,6 @@
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
 import math
-print(math.pi)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
