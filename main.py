@@ -1,6 +1,3 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+print("Hello, world!")
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
