@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
