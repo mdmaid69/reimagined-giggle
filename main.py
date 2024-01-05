@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
