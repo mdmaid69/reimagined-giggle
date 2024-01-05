@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def is_even(n):
+        return n % 2 == 0
+def sort_list(lst):
+        return sorted(lst)
