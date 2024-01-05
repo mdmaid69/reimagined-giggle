@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def reverse_list(lst):
+        return lst[::-1]
+import platform
+def get_os_info():
+        return platform.uname()
