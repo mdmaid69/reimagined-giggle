@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
