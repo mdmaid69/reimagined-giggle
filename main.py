@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
