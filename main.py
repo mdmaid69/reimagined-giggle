@@ -1,6 +1,5 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def find_min(lst):
+        return min(lst)
