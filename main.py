@@ -1,6 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_area(radius):
+        return 3.14 * radius * radius
