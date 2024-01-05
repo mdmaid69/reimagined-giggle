@@ -1,5 +1,11 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
