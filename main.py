@@ -1,5 +1,5 @@
 text = "Hello, world!"
-print("Uppercase:", text.upper())
+print("Reversed:", text[::-1])
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
