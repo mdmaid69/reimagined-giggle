@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
