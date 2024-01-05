@@ -1,6 +1,8 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
