@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  def remove_duplicates(lst):
+        return list(set(lst))
