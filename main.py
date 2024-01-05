@@ -1,6 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_tangent(x):
+        return math.tan(x)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
