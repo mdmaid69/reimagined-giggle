@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
