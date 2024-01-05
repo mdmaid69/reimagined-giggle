@@ -1,5 +1,4 @@
-import collections
-def create_stack():
-        return collections.deque()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def add_numbers(a, b):
+        return a + b
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
