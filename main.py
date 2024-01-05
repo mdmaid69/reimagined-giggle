@@ -1,6 +1,6 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
