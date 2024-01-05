@@ -1,7 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+def multiply_numbers(x, y):
+        return x * y
