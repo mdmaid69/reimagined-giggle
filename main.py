@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
