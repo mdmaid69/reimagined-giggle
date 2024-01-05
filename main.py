@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
