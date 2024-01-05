@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import collections
+def create_user_list():
+        return collections.UserList()
