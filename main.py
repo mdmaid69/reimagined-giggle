@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import collections
+def create_counter():
+        return collections.Counter()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
