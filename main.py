@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
