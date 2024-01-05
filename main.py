@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
