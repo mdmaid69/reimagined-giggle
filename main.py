@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
