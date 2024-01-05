@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
