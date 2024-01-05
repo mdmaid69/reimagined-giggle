@@ -1,5 +1,6 @@
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def find_max(numbers):
-        return max(numbers)
+def calculate_floor(x):
+        return math.floor(x)
