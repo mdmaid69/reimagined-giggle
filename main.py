@@ -1,7 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
