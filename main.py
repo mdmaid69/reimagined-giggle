@@ -1,5 +1,8 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def add_numbers(a, b):
-        return a + b
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
