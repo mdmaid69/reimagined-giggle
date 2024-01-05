@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
