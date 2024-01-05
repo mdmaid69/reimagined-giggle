@@ -1,6 +1,6 @@
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
