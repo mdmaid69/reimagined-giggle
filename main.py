@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
