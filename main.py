@@ -1,4 +1,7 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-print([x**2 for x in range(10)])
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
