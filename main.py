@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_as_bytes(array):
+        return bytes(array)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
