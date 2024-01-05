@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import collections
+def create_counter():
+        return collections.Counter()
+def reverse_list(lst):
+        return lst[::-1]
