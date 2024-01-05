@@ -1,5 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
