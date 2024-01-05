@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
