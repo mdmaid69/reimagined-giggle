@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
