@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
