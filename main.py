@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
