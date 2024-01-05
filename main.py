@@ -1,6 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
