@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
