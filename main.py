@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import time
+def get_current_time():
+        return time.time()
