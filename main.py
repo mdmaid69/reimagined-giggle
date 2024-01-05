@@ -1,9 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
