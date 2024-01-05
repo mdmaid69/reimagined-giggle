@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
