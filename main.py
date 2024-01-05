@@ -1,5 +1,6 @@
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_sine(x):
+        return math.sin(x)
