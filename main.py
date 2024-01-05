@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
