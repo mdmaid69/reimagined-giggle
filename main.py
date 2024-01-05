@@ -1,5 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
