@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def cube_number(x):
+        return x**3
