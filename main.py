@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import array
-def get_array_as_list(array):
-        return list(array)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
