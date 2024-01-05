@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
