@@ -1,5 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def is_odd(n):
-        return n % 2 != 0
+def count_elements(lst):
+        return len(lst)
+import os
+def change_working_directory(path):
+        os.chdir(path)
