@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_pressure(force, area):
+        return force / area
