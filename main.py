@@ -1,8 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
