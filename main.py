@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-def find_min(lst):
-        return min(lst)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  def subtract_numbers(x, y):
+        return x - y
