@@ -1,6 +1,11 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
