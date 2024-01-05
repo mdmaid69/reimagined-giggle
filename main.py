@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
