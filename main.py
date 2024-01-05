@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
