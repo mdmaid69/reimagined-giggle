@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_power(work, time):
+        return work / time
