@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
