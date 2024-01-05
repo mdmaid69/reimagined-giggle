@@ -1,6 +1,5 @@
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def get_array_as_set(array):
+        return set(array)
