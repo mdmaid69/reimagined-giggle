@@ -1,4 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
