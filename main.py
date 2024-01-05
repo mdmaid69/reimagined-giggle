@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
