@@ -1,6 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def cube_number(x):
+        return x**3
