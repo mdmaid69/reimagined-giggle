@@ -1,6 +1,7 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
