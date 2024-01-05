@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_length(array):
+        return len(array)
