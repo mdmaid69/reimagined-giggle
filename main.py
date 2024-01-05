@@ -1,6 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
