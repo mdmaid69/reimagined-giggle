@@ -1,4 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-print(sum(range(10)))
+def find_max(lst):
+        return max(lst)
+import array
+def get_array_as_repr(array):
+        return repr(array)
