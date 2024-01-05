@@ -1,6 +1,7 @@
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
