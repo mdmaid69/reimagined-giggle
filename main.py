@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
