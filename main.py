@@ -1,6 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import array
+def convert_array_to_list(array):
+        return array.tolist()
