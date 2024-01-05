@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import getpass
+def get_username():
+        return getpass.getuser()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
