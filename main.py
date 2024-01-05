@@ -1,6 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
