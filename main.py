@@ -1,6 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
