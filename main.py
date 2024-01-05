@@ -1,6 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import collections
-def create_stack():
-        return collections.deque()
+import numpy as np
+print(np.array([1, 2, 3]))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
