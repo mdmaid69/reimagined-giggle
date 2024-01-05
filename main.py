@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+from collections import Counter
+print(Counter("hello world"))
