@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
