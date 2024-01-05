@@ -1,4 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_power(work, time):
-        return work / time
+import platform
+def get_python_version():
+        return platform.python_version()
+import collections
+def create_user_dict():
+        return collections.UserDict()
