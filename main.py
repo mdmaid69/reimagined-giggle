@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
