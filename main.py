@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-for i in range(5):
-        print(i)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import json
+def convert_to_json(data):
+        return json.dumps(data)
