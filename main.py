@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def convert_to_octal(n):
-        return oct(n)
+  def count_elements(lst):
+        return len(lst)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
