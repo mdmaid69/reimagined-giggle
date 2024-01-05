@@ -1,6 +1,8 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
