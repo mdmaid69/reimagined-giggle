@@ -1,8 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
