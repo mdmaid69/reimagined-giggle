@@ -1,5 +1,8 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
