@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
+  def sort_list(lst):
+        return sorted(lst)
   import os
-  def get_file_mode(file_name):
+  def get_file_permissions(file_name):
         return os.stat(file_name).st_mode
