@@ -1,7 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import os
-print(os.getcwd())
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
