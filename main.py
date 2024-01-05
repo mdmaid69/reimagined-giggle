@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def add_numbers(a, b):
+        return a + b
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
