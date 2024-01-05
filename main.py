@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def is_even(n):
-        return n % 2 == 0
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
