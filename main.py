@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+for i in range(5):
+        print(i)
