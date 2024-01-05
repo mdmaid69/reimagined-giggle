@@ -1,5 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_floor(x):
+        return math.floor(x)
