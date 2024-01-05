@@ -1,3 +1,5 @@
-print("Hello, world!")
-def add_numbers(x, y):
-        return x + y
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def get_array_as_bool(array):
+        return bool(array)
