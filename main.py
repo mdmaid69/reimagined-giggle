@@ -1,6 +1,8 @@
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
