@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import array
+def append_to_array(array, item):
+        array.append(item)
