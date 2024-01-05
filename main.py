@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def add_numbers(x, y):
+        return x + y
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
