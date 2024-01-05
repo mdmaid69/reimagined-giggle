@@ -1,5 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_pressure(force, area):
-        return force / area
+  def cube_number(x):
+        return x**3
+  def calculate_area_rectangle(l, w):
+        return l * w
