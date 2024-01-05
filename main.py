@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
