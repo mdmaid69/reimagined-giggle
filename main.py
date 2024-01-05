@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
