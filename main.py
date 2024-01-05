@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
