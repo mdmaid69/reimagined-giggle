@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
