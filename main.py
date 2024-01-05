@@ -1,4 +1,4 @@
-def square_number(x):
-        return x**2
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+print(sum(range(10)))
