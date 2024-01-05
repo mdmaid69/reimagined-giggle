@@ -1,5 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
