@@ -1,5 +1,8 @@
-def subtract_numbers(x, y):
-        return x - y
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
