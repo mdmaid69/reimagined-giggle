@@ -1,6 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
