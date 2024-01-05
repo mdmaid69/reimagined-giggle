@@ -1,5 +1,7 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
