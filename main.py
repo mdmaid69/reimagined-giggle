@@ -1,4 +1,4 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
