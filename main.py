@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
