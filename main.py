@@ -1,6 +1,3 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+print([x**2 for x in range(10)])
+def reverse_string(s):
+        return s[::-1]
