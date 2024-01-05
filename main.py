@@ -1,6 +1,7 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
