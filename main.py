@@ -1,7 +1,8 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
