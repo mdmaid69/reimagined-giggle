@@ -1,4 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-  def is_even(n):
-        return n % 2 == 0
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
