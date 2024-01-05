@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
