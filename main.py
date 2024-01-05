@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import collections
+def create_user_string():
+        return collections.UserString()
