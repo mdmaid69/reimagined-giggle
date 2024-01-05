@@ -1,6 +1,7 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
