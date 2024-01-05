@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def subtract_numbers(x, y):
-        return x - y
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
