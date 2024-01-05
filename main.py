@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
