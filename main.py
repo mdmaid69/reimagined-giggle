@@ -1,5 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
