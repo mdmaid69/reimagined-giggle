@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def sort_numbers(numbers):
-        return sorted(numbers)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
