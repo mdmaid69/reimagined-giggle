@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_pressure(force, area):
+        return force / area
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
