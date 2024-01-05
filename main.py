@@ -1,7 +1,4 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
