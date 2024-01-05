@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_density(mass, volume):
+        return mass / volume
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
