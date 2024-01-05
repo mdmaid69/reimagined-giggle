@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def subtract_numbers(x, y):
+        return x - y
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
