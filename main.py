@@ -1,3 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-print("Hello, world!")
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import collections
+def create_queue():
+        return collections.deque()
