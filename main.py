@@ -1,7 +1,7 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
