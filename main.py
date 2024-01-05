@@ -1,6 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
