@@ -1,5 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
