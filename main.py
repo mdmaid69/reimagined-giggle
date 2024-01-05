@@ -1,11 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
