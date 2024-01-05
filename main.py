@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
