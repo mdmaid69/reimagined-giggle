@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def is_even(n):
-        return n % 2 == 0
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
