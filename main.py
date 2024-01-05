@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
