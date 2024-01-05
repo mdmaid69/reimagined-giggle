@@ -1,6 +1,9 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
