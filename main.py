@@ -1,5 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def reverse_list(lst):
+        return lst[::-1]
