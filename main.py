@@ -1,6 +1,6 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
