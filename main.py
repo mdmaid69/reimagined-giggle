@@ -1,6 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
