@@ -1,6 +1,8 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
