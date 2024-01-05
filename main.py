@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  def multiply_numbers(x, y):
-        return x * y
+def is_palindrome(s):
+        return s == s[::-1]
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
