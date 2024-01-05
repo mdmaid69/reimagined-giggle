@@ -1,7 +1,7 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
