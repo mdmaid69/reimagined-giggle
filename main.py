@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_density(mass, volume):
+        return mass / volume
+  import sys
+  def get_python_version():
+        return sys.version
