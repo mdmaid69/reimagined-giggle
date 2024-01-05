@@ -1,8 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
   import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import array
+def get_array_as_str(array):
+        return str(array)
