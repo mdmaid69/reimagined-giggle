@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
