@@ -1,6 +1,7 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
