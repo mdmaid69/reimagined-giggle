@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
