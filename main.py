@@ -1,5 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_work(force, distance):
-        return force * distance
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_power(work, time):
+        return work / time
