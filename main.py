@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+  import sys
+  def get_python_version():
+        return sys.version
