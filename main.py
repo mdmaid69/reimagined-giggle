@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_pressure(force, area):
-        return force / area
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
