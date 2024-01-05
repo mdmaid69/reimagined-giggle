@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
