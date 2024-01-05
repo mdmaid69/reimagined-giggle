@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def count_words(sentence):
+        return len(sentence.split())
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
