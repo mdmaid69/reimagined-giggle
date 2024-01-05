@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
