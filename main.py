@@ -1,5 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def subtract_numbers(x, y):
-        return x - y
+def calculate_acceleration(speed, time):
+        return speed / time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
