@@ -1,6 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def get_array_length(array):
+        return len(array)
