@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def cube_number(x):
+        return x**3
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
