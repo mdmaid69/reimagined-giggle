@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
