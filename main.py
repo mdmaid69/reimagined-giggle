@@ -1,6 +1,6 @@
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def get_array_item_count(array, item):
+        return array.count(item)
