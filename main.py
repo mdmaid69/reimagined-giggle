@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
