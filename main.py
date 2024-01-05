@@ -1,5 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def reverse_string(s):
+        return s[::-1]
