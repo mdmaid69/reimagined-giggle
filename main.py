@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
