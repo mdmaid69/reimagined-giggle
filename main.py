@@ -1,4 +1,8 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  def is_even(n):
-        return n % 2 == 0
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
