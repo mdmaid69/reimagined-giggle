@@ -1,6 +1,6 @@
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
 import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def convert_array_to_string(array):
+        return array.tostring()
