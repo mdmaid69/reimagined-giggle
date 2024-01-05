@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
