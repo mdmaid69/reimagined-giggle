@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def get_array_length(array):
+        return len(array)
