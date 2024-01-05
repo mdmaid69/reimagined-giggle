@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
