@@ -1,12 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import sys
+def print_python_version():
+        print(sys.version)
