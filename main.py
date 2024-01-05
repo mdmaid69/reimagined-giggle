@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  def convert_to_hex(n):
+        return hex(n)
