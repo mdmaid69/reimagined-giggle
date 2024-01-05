@@ -1,7 +1,4 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_acceleration(speed, time):
+        return speed / time
+  def square_number(x):
+        return x**2
