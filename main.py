@@ -1,4 +1,4 @@
-import math
-print(math.pi)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def add_numbers(x, y):
+        return x + y
+def reverse_list(lst):
+        return lst[::-1]
