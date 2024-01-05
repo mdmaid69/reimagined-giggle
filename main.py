@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
