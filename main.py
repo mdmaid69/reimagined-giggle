@@ -1,5 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_power(work, time):
+        return work / time
+  def sort_list(lst):
+        return sorted(lst)
