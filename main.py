@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
