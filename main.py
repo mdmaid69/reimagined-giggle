@@ -1,4 +1,7 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
