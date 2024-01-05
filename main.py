@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def create_counter():
+        return collections.Counter()
+def find_max(numbers):
+        return max(numbers)
