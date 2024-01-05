@@ -1,6 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
   import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def calculate_median(arr):
+        return np.median(arr)
