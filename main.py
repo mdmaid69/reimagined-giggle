@@ -1,6 +1,7 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
