@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import sys
+def exit_program():
+        sys.exit()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
