@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def append_to_array(array, item):
+        array.append(item)
