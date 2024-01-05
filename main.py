@@ -1,5 +1,4 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  def square_number(x):
-        return x**2
+def calculate_pressure(force, area):
+        return force / area
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
