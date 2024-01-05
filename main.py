@@ -1,6 +1,7 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
