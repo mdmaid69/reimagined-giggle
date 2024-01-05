@@ -1,4 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-print([x**2 for x in range(10)])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def cube_number(x):
+        return x**3
