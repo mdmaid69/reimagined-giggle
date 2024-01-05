@@ -1,4 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-  def reverse_list(lst):
-        return lst[::-1]
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  def cube_number(x):
+        return x**3
