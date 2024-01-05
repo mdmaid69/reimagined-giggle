@@ -1,10 +1,6 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
