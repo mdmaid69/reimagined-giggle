@@ -1,5 +1,7 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
