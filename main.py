@@ -1,11 +1,3 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  def remove_duplicates(lst):
+        return list(set(lst))
+print([x**2 for x in range(10)])
