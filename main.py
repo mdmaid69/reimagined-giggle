@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
