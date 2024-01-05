@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
