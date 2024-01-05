@@ -1,7 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+x = 10
+y = 20
+print("Sum:", x + y)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
