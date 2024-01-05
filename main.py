@@ -1,6 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def divide_numbers(x, y):
+        return x / y
