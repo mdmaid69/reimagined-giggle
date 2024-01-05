@@ -1,5 +1,7 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import collections
-def create_stack():
-        return collections.deque()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
