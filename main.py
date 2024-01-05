@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
