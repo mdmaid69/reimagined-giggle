@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_power(work, time):
+        return work / time
+from collections import Counter
+print(Counter("hello world"))
