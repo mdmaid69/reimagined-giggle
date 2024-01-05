@@ -1,5 +1,8 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
