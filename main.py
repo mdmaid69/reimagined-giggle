@@ -1,6 +1,9 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import collections
-def create_priority_queue():
-        return collections.deque()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import array
+def get_string_from_array(array):
+        return array.tobytes()
