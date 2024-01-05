@@ -1,5 +1,8 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
