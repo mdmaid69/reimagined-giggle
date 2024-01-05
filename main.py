@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
