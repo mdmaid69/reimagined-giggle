@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
