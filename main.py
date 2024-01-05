@@ -1,6 +1,6 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import sys
+def exit_program():
+        sys.exit()
