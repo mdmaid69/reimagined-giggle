@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_pressure(force, area):
+        return force / area
