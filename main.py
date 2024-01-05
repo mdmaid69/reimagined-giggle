@@ -1,6 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def count_characters(sentence):
+        return len(sentence)
+name = "Python"
+print("Hello,", name)
