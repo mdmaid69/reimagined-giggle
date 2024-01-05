@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
