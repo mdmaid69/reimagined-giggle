@@ -1,5 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
