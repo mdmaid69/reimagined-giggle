@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def sort_list(lst):
+        return sorted(lst)
