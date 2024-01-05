@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
