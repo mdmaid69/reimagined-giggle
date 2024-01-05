@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def multiply_numbers(x, y):
-        return x * y
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_speed(distance, time):
+        return distance / time
