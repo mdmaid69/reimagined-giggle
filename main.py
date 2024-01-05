@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
