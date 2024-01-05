@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def reverse_string(s):
+        return s[::-1]
