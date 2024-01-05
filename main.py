@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
