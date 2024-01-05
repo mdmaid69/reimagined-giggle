@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_work(force, distance):
-        return force * distance
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
