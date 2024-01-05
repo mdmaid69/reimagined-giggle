@@ -1,5 +1,6 @@
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def clear_array(array):
+        array *= 0
