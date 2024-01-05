@@ -1,6 +1,8 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
