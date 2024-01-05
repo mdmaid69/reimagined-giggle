@@ -1,6 +1,7 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
