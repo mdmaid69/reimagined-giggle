@@ -1,6 +1,5 @@
 import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
