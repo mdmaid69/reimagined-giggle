@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def find_max(lst):
-        return max(lst)
+import platform
+def get_python_version():
+        return platform.python_version()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
