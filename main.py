@@ -1,5 +1,7 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
