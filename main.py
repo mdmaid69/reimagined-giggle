@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
