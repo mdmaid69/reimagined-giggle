@@ -1,5 +1,4 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+print([x**2 for x in range(10)])
