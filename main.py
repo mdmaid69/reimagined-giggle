@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import os
+print(os.getcwd())
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
