@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
