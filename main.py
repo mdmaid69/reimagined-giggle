@@ -1,6 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+print([x**2 for x in range(10)])
+import array
+def get_array_typecode(array):
+        return array.typecode
