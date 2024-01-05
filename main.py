@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_force(mass, acceleration):
+        return mass * acceleration
