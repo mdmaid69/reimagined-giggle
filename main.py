@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def get_array_as_str(array):
+        return str(array)
+import array
+def get_array_as_int(array):
+        return int(array[0])
