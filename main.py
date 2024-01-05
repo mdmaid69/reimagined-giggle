@@ -1,6 +1,5 @@
 import collections
-def create_user_string():
-        return collections.UserString()
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def create_user_list():
+        return collections.UserList()
+def calculate_density(mass, volume):
+        return mass / volume
