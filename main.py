@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
