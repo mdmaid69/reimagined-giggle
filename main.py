@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_as_int(array):
+        return int(array[0])
