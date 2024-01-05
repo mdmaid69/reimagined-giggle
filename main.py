@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def find_min(lst):
+        return min(lst)
