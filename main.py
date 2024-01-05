@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
