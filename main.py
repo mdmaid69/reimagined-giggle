@@ -2,5 +2,5 @@
   def get_file_mtime(file_name):
         return os.stat(file_name).st_mtime
 import array
-def clear_array(array):
-        array *= 0
+def insert_into_array(array, i, item):
+        array.insert(i, item)
