@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def cube_number(x):
+        return x**3
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
