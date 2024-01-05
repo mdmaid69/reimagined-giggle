@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import array
-def get_array_length(array):
-        return len(array)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
