@@ -1,4 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+print(sum(range(10)))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
