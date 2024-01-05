@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
