@@ -1,7 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
