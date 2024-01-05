@@ -1,8 +1,7 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
