@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
