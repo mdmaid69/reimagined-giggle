@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
