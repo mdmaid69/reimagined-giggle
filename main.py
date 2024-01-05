@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
