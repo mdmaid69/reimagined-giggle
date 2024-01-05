@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+def calculate_volume(length, width, height):
+        return length * width * height
+import numpy as np
+print(np.array([1, 2, 3]))
