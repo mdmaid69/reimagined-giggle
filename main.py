@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def clear_array(array):
+        array *= 0
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
