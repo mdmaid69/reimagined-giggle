@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_current_directory():
+        return os.getcwd()
+def reverse_string(s):
+        return s[::-1]
