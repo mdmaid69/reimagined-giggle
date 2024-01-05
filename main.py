@@ -1,6 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import platform
+def get_python_version():
+        return platform.python_version()
