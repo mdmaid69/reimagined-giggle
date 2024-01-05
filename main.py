@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def square_number(x):
+        return x**2
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
