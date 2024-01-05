@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def count_elements(lst):
+        return len(lst)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
