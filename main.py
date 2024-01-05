@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
