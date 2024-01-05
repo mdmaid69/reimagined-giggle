@@ -1,5 +1,4 @@
-def find_max(lst):
-        return max(lst)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def calculate_area_circle(r):
+        return 3.14 * r**2
