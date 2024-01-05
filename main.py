@@ -1,6 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
