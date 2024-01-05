@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import re
+print(re.match("h.*o", "hello world"))
+def find_unique_words(sentence):
+        return set(sentence.split())
