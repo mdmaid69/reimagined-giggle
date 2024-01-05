@@ -1,6 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_list(array):
+        return list(array)
