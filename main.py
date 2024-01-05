@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def find_unique_words(sentence):
+        return set(sentence.split())
 import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def print_python_version():
+        return sys.version
