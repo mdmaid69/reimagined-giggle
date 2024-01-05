@@ -1,5 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_area_circle(r):
+        return 3.14 * r**2
