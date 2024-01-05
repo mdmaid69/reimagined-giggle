@@ -1,8 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def clear_array(array):
+        array *= 0
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
