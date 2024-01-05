@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def add_numbers(x, y):
-        return x + y
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def reverse_array(array):
+        array.reverse()
