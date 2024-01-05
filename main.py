@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import time
+def get_time_since_epoch():
+        return time.time()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
