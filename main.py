@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def count_elements(lst):
+        return len(lst)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
