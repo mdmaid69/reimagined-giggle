@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
