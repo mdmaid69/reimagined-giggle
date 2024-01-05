@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-x = 10
-y = 20
-print("Sum:", x + y)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import json
+print(json.dumps({"name": "John", "age": 30}))
