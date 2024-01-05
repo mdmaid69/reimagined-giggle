@@ -1,5 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def is_even(n):
-        return n % 2 == 0
+  def calculate_area_rectangle(l, w):
+        return l * w
+def sort_list(lst):
+        return sorted(lst)
