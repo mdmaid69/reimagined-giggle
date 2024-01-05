@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def find_max(lst):
+        return max(lst)
