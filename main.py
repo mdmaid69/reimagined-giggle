@@ -1,5 +1,7 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
