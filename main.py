@@ -1,7 +1,5 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import re
-print(re.match("h.*o", "hello world"))
+def clear_array(array):
+        array *= 0
+import os
+print(os.getcwd())
