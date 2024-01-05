@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
