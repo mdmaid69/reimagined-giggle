@@ -1,6 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
