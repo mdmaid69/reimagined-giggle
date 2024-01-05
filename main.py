@@ -1,8 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
