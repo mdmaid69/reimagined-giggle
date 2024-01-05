@@ -1,6 +1,5 @@
+def reverse_string(s):
+        return s[::-1]
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def get_array_slice(array, i, j):
+        return array[i:j]
