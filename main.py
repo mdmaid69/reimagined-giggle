@@ -1,6 +1,7 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
