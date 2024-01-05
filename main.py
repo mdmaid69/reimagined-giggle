@@ -1,5 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import time
+print(time.time())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
