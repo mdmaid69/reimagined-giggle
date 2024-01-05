@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
