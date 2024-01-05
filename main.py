@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
