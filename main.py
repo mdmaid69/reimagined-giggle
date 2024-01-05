@@ -1,6 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def greet(name):
+        print(f"Hello, {name}!")
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
