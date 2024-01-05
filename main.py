@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_pressure(force, area):
+        return force / area
+import getpass
+def get_username():
+        return getpass.getuser()
