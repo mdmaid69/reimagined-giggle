@@ -1,5 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def sort_numbers(numbers):
+        return sorted(numbers)
