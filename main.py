@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
