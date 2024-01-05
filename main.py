@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
