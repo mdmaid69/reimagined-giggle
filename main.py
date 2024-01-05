@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
