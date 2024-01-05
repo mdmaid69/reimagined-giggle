@@ -1,5 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+print("Hello, world!")
