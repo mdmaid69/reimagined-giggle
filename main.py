@@ -1,6 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def cube_number(x):
+        return x**3
