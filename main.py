@@ -1,5 +1,8 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import logging
-def log_message(message):
-        logging.info(message)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
