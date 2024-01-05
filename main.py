@@ -1,5 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def square_number(x):
-        return x**2
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
