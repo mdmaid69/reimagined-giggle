@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import collections
+def create_user_dict():
+        return collections.UserDict()
