@@ -1,5 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import os
+print(os.getcwd())
+def find_max(lst):
+        return max(lst)
