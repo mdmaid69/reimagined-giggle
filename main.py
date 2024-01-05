@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
