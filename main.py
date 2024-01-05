@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_current_directory():
+        return os.getcwd()
