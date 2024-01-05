@@ -1,5 +1,4 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def sort_list(lst):
+        return sorted(lst)
