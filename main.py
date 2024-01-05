@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
