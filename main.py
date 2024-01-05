@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+def calculate_pressure(force, area):
+        return force / area
