@@ -1,7 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
