@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
