@@ -1,7 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
