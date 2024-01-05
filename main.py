@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  def convert_to_octal(n):
-        return oct(n)
+def convert_to_binary(n):
+        return bin(n)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
