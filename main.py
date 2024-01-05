@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import sys
+print(sys.version)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
