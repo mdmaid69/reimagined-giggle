@@ -1,7 +1,4 @@
-import random
-print(random.randint(0, 100))
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_area_rectangle(l, w):
+        return l * w
