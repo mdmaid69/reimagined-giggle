@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
