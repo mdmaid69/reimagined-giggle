@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_base_name(path):
+        return os.path.basename(path)
+import sys
+def print_python_version():
+        print(sys.version)
