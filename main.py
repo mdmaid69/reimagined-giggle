@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def clear_array(array):
+        array *= 0
