@@ -1,5 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+from collections import Counter
+print(Counter("hello world"))
+  def reverse_list(lst):
+        return lst[::-1]
