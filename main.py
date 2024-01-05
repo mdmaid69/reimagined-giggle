@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def split_path(path):
+        return os.path.split(path)
