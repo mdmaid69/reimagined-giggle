@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def count_words(sentence):
+        return len(sentence.split())
