@@ -1,6 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import random
+print(random.randint(0, 100))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
