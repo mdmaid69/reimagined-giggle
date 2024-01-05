@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import sys
+def print_python_version():
+        return sys.version
+import array
+def clear_array(array):
+        array *= 0
