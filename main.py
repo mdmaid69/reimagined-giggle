@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
