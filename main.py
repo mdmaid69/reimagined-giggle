@@ -1,5 +1,7 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
