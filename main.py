@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
