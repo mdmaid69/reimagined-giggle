@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_density(mass, volume):
+        return mass / volume
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
