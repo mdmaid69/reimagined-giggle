@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
