@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import collections
+def create_queue():
+        return collections.deque()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
