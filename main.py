@@ -1,4 +1,5 @@
-print("Hello, world!")
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def sort_list(lst):
+        return sorted(lst)
