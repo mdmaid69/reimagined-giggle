@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
