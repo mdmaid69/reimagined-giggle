@@ -1,5 +1,7 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
