@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
