@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
