@@ -1,7 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
