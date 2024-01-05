@@ -1,3 +1,6 @@
-print("Hello, world!")
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
