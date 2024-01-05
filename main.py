@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import logging
+def log_message(message):
+        logging.info(message)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
