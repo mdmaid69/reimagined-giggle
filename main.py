@@ -1,5 +1,8 @@
-  def subtract_numbers(x, y):
-        return x - y
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
