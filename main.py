@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
