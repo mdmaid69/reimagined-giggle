@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def reverse_list(lst):
-        return lst[::-1]
+  def calculate_area_rectangle(l, w):
+        return l * w
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
