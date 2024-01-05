@@ -1,3 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-print("Hello, world!")
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
