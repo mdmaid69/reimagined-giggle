@@ -1,6 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
