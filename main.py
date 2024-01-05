@@ -1,7 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  def convert_to_hex(n):
+        return hex(n)
