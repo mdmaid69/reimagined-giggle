@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
