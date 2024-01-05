@@ -1,6 +1,8 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
