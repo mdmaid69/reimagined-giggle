@@ -1,5 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_work(force, distance):
-        return force * distance
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
