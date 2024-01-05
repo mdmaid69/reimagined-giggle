@@ -1,5 +1,6 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
