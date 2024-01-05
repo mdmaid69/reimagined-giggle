@@ -1,10 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
