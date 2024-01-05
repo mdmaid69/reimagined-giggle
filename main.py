@@ -1,6 +1,9 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
