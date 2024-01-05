@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import logging
+def log_message(message):
+        logging.info(message)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
