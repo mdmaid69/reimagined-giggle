@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import re
+print(re.match("h.*o", "hello world"))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
