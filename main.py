@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
