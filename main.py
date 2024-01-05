@@ -1,7 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
