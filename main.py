@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
