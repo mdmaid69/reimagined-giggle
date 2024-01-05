@@ -1,4 +1,7 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
