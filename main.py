@@ -1,8 +1,7 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
