@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
