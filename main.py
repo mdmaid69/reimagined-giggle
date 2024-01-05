@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
