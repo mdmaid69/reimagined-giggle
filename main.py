@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
