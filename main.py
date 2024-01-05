@@ -1,5 +1,5 @@
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
