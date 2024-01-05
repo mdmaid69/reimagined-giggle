@@ -1,5 +1,7 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
