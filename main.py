@@ -1,5 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import sys
+def print_python_version():
+        return sys.version
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
