@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import time
-def get_current_time():
-        return time.time()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
