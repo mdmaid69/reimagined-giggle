@@ -1,5 +1,12 @@
-for i in range(5):
-        print(i)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
