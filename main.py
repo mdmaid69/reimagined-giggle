@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
