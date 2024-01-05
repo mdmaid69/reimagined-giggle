@@ -1,5 +1,9 @@
-import math
-print(math.pi)
-import collections
-def create_user_string():
-        return collections.UserString()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
