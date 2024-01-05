@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import collections
+def create_user_list():
+        return collections.UserList()
