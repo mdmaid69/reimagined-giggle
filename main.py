@@ -1,6 +1,3 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+print("Hello, world!")
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
