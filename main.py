@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
