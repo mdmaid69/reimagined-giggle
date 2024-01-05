@@ -1,3 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-print([x**2 for x in range(10)])
+def divide_numbers(x, y):
+        return x / y
+import random
+print(random.randint(0, 100))
