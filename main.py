@@ -1,4 +1,8 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
