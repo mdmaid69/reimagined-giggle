@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
