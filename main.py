@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import collections
+def create_stack():
+        return collections.deque()
+import array
+def get_array_as_list(array):
+        return list(array)
