@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
