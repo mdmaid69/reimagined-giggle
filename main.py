@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
