@@ -1,5 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
