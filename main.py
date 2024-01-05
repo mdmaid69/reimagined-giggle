@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
