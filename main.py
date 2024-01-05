@@ -1,5 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+print([x**2 for x in range(10)])
