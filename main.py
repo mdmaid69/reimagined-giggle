@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
