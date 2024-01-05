@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  def convert_to_binary(n):
+        return bin(n)
