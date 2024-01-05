@@ -1,5 +1,4 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
