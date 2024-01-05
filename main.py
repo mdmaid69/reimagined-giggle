@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
