@@ -1,5 +1,8 @@
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
