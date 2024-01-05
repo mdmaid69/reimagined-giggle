@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import random
+def roll_die():
+        return random.randint(1, 6)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_item_count(array, item):
+        return array.count(item)
