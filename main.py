@@ -1,6 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
