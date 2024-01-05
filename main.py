@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
