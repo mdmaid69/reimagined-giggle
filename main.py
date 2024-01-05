@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def convert_to_octal(n):
-        return oct(n)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
