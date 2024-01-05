@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import datetime
+def get_current_date():
+        return datetime.date.today()
