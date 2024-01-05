@@ -1,6 +1,6 @@
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
