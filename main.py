@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-def calculate_volume(length, width, height):
-        return length * width * height
+  def multiply_numbers(x, y):
+        return x * y
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
