@@ -1,7 +1,8 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
