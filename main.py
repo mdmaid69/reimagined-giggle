@@ -1,5 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_acceleration(speed, time):
-        return speed / time
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import logging
+def log_message(message):
+        logging.info(message)
