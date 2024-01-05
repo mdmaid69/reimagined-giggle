@@ -1,5 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def count_elements(lst):
-        return len(lst)
+def find_min(lst):
+        return min(lst)
+def find_unique_words(sentence):
+        return set(sentence.split())
