@@ -1,5 +1,5 @@
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def add_numbers(x, y):
-        return x + y
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
