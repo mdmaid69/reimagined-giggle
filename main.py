@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
