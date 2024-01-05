@@ -1,7 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def find_max(numbers):
+        return max(numbers)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
