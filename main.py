@@ -1,6 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-from collections import Counter
-print(Counter("hello world"))
+  def convert_to_binary(n):
+        return bin(n)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
