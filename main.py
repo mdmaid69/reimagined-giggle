@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  def convert_to_octal(n):
-        return oct(n)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import sys
+def exit_program():
+        sys.exit()
