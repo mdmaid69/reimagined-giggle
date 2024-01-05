@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import collections
+def create_user_list():
+        return collections.UserList()
+  def convert_to_octal(n):
+        return oct(n)
