@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def sort_list(lst):
-        return sorted(lst)
+def convert_to_binary(n):
+        return bin(n)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
