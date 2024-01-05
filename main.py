@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def square_number(x):
-        return x**2
+def calculate_density(mass, volume):
+        return mass / volume
+import json
+def convert_to_json(data):
+        return json.dumps(data)
