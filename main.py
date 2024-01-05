@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
