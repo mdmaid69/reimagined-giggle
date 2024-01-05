@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
