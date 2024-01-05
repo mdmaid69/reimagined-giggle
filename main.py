@@ -1,6 +1,11 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
