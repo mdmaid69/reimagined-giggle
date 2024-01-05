@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_arc_cosine(x):
+        return math.acos(x)
