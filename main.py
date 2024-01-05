@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
