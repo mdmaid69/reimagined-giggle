@@ -1,4 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
