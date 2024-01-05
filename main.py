@@ -1,7 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import datetime
+def get_current_date():
+        return datetime.date.today()
