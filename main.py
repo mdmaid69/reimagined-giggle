@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import random
+def roll_die():
+        return random.randint(1, 6)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
