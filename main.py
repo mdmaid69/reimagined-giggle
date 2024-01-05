@@ -1,6 +1,8 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
