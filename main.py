@@ -1,6 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
