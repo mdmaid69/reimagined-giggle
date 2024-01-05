@@ -1,8 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
