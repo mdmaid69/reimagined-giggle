@@ -1,4 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
