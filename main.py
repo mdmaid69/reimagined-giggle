@@ -1,6 +1,8 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
