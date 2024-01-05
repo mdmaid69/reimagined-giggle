@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
 import datetime
-print(datetime.datetime.now())
+def get_today_date():
+        return datetime.date.today()
+def add_numbers(a, b):
+        return a + b
