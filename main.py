@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def greet(name):
+        print(f"Hello, {name}!")
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
