@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
