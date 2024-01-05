@@ -1,4 +1,3 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-print(sum(range(10)))
+import json
+print(json.dumps({"name": "John", "age": 30}))
+for i in range(10): print(i)
