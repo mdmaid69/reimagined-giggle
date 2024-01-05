@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_speed(distance, time):
-        return distance / time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
