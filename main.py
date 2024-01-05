@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
