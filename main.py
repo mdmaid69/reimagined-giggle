@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
