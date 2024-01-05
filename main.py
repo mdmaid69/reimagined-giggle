@@ -1,7 +1,7 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
