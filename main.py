@@ -1,5 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
