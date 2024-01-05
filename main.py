@@ -1,6 +1,6 @@
+import array
+def get_array_as_repr(array):
+        return repr(array)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
