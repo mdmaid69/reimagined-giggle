@@ -1,5 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
