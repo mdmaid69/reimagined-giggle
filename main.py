@@ -1,12 +1,7 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_cosine(x):
+        return math.cos(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
