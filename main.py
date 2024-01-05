@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
