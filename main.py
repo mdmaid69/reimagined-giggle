@@ -1,6 +1,8 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
