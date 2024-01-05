@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
