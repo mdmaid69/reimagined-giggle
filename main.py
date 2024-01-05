@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import platform
+def get_python_version():
+        return platform.python_version()
+  def reverse_list(lst):
+        return lst[::-1]
