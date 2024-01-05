@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def get_array_as_list(array):
-        return list(array)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
