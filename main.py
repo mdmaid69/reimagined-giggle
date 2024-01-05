@@ -1,5 +1,5 @@
+def is_even(n):
+        return n % 2 == 0
 import sys
-def print_python_version():
-        print(sys.version)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def add_to_python_path(path):
+        sys.path.append(path)
