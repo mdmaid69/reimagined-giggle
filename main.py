@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
