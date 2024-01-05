@@ -1,9 +1,8 @@
-print([x**2 for x in range(10)])
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
