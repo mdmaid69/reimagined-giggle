@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
