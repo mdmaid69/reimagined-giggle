@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
