@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def find_min(lst):
+        return min(lst)
