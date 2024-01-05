@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
