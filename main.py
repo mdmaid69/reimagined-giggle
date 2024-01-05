@@ -1,5 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def cube_number(x):
-        return x**3
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import getpass
+def get_username():
+        return getpass.getuser()
