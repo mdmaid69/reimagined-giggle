@@ -1,7 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
