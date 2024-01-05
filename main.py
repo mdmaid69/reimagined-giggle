@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
