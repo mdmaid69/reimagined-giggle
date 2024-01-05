@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import re
+print(re.match("h.*o", "hello world"))
