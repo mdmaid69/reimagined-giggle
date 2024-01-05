@@ -1,6 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
