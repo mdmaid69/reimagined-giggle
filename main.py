@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import collections
+def create_queue():
+        return collections.deque()
