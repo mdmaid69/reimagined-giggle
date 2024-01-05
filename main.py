@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
