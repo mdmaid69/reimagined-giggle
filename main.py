@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
