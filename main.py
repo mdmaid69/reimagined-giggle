@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
