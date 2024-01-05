@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
