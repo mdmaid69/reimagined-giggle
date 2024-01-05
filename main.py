@@ -1,4 +1,10 @@
-  def subtract_numbers(x, y):
-        return x - y
-def count_elements(lst):
-        return len(lst)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
