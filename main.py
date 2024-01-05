@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import datetime
+def get_current_date():
+        return datetime.date.today()
+text = "Hello, world!"
+print("Characters:", len(text))
