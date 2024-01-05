@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
