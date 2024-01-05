@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def add_numbers(a, b):
-        return a + b
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
