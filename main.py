@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def convert_to_octal(n):
+        return oct(n)
