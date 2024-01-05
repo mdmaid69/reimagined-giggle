@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
