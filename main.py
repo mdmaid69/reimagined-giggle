@@ -1,6 +1,12 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
