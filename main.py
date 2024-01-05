@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
