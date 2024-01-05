@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import os
+  def split_path(path):
+        return os.path.split(path)
