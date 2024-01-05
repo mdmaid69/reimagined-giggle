@@ -1,6 +1,8 @@
-import array
-def get_array_as_str(array):
-        return str(array)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
