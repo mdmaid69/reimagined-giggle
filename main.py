@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import random
+print(random.randint(0, 100))
