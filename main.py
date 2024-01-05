@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
