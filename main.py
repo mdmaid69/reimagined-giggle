@@ -1,8 +1,12 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
