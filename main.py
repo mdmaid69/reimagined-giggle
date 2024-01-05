@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def sort_list(lst):
+        return sorted(lst)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
