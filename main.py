@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
