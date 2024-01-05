@@ -1,12 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def count_words(sentence):
+        return len(sentence.split())
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
