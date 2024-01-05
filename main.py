@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import os
+  def split_path(path):
+        return os.path.split(path)
