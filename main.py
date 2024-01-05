@@ -1,5 +1,5 @@
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def remove_directory(path):
+        os.rmdir(path)
