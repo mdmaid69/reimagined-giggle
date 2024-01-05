@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
