@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
