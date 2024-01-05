@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def add_numbers(x, y):
-        return x + y
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
