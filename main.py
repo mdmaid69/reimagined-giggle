@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
