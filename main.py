@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_arc_tangent(x):
+        return math.atan(x)
