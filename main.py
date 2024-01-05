@@ -1,6 +1,8 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
