@@ -1,6 +1,4 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
