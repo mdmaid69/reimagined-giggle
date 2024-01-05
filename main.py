@@ -1,6 +1,5 @@
 import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def print_python_version():
+        return sys.version
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
