@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def get_string_from_array(array):
+        return array.tobytes()
