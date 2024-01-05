@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_speed(distance, time):
+        return distance / time
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
