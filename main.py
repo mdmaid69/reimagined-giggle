@@ -1,7 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def greet(name):
-        print(f"Hello, {name}!")
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
