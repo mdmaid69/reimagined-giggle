@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
