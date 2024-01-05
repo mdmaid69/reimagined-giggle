@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
