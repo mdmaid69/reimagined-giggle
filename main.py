@@ -1,6 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
