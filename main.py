@@ -1,6 +1,6 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def get_array_as_bool(array):
+        return bool(array)
