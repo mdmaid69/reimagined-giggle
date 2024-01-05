@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def is_even(n):
+        return n % 2 == 0
+import sys
+def print_python_version():
+        return sys.version
