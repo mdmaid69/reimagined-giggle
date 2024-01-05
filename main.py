@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
