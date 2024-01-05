@@ -1,6 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
