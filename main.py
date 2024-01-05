@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
+import array
+def convert_array_to_string(array):
+        return array.tostring()
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
