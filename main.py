@@ -1,5 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
