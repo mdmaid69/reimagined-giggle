@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import re
-print(re.match("h.*o", "hello world"))
+import numpy as np
+print(np.array([1, 2, 3]))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
