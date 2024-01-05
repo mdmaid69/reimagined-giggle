@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
+import array
+def get_array_typecode(array):
+        return array.typecode
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_arc_tangent(x):
+        return math.atan(x)
