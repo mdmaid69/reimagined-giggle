@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def find_max(numbers):
-        return max(numbers)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
