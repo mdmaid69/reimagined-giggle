@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import time
-def get_time_since_epoch():
-        return time.time()
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
