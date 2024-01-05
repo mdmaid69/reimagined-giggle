@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_density(mass, volume):
+        return mass / volume
