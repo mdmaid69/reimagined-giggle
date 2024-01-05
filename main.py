@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+for i in range(5):
+        print(i)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
