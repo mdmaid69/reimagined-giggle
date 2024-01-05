@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  def add_numbers(x, y):
-        return x + y
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def count_words(sentence):
+        return len(sentence.split())
