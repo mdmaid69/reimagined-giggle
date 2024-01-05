@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
