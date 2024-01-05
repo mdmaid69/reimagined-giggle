@@ -1,6 +1,6 @@
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
