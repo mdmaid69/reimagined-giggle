@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def find_max(numbers):
-        return max(numbers)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
