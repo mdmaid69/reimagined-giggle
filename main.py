@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def is_even(n):
+        return n % 2 == 0
