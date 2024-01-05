@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
