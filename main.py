@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
