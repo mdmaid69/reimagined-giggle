@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
