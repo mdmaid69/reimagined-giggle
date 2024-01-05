@@ -1,6 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+x = 10
+y = 20
+print("Sum:", x + y)
+def greet(name):
+        print(f"Hello, {name}!")
