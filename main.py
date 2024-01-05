@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def reverse_list(lst):
-        return lst[::-1]
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def find_unique_words(sentence):
+        return set(sentence.split())
