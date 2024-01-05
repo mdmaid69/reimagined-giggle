@@ -1,5 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_pressure(force, area):
-        return force / area
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
