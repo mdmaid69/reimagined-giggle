@@ -1,5 +1,7 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
