@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
