@@ -1,6 +1,6 @@
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
