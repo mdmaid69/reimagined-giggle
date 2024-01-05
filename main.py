@@ -1,6 +1,11 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
