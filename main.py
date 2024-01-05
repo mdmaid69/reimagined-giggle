@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
