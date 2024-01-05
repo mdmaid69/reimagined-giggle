@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
