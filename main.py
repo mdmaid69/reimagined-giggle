@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
