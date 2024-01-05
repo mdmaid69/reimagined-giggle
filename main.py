@@ -1,4 +1,7 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import sys
+def print_python_version():
+        return sys.version
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
