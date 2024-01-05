@@ -1,5 +1,10 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_acceleration(speed, time):
+        return speed / time
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
