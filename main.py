@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
