@@ -1,5 +1,4 @@
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+print("Cube numbers:", [x**3 for x in range(n)])
