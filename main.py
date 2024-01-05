@@ -1,5 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def clear_array(array):
+        array *= 0
