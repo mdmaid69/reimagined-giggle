@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
