@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def is_even(n):
+        return n % 2 == 0
+import logging
+def log_message(message):
+        logging.info(message)
