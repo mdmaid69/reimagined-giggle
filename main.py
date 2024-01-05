@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
