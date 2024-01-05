@@ -1,5 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def is_odd(n):
-        return n % 2 != 0
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import re
+print(re.match("h.*o", "hello world"))
