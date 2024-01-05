@@ -1,5 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
