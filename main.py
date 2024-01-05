@@ -1,3 +1,4 @@
-print([x**2 for x in range(10)])
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
