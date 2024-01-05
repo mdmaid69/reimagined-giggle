@@ -1,6 +1,6 @@
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import collections
-def create_user_string():
-        return collections.UserString()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
