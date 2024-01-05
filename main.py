@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
