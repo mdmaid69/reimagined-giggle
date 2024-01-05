@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def cube_number(x):
+        return x**3
