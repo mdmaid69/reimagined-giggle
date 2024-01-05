@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def get_array_as_bool(array):
+        return bool(array)
