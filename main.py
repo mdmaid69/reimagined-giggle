@@ -1,6 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
