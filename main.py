@@ -1,5 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import os
+def get_current_working_directory():
+        return os.getcwd()
