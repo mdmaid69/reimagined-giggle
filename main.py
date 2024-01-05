@@ -1,6 +1,3 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+for i in range(10): print(i)
+def count_characters(sentence):
+        return len(sentence)
