@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def get_array_as_list(array):
-        return list(array)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
