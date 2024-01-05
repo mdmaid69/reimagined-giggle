@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+for i in range(5):
+        print(i)
