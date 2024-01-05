@@ -1,6 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
