@@ -1,5 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def convert_to_octal(n):
-        return oct(n)
+  def square_number(x):
+        return x**2
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
