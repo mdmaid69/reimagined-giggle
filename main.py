@@ -1,5 +1,6 @@
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
