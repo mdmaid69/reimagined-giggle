@@ -1,4 +1,7 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def calculate_pressure(force, area):
-        return force / area
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
