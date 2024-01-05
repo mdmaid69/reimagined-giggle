@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def remove_duplicates(lst):
+        return list(set(lst))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
