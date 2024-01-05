@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
