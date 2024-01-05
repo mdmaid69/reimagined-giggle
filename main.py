@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def reverse_array(array):
+        array.reverse()
