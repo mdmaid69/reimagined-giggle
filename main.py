@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
