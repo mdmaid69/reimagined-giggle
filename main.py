@@ -1,6 +1,8 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
