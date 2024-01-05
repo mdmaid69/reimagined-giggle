@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
