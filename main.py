@@ -1,5 +1,7 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
