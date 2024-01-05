@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
