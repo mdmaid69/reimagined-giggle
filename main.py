@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import datetime
-print(datetime.datetime.now())
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
