@@ -1,6 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
