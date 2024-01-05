@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
