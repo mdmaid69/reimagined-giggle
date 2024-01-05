@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def count_elements(lst):
+        return len(lst)
+  import sys
+  def get_python_version():
+        return sys.version
