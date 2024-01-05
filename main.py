@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def remove_duplicates(lst):
+        return list(set(lst))
