@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def multiply_numbers(x, y):
+        return x * y
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
