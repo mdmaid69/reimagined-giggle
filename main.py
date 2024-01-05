@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
