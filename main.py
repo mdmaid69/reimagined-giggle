@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
