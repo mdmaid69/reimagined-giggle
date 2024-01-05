@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
