@@ -1,6 +1,6 @@
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
