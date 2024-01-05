@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import collections
+def create_stack():
+        return collections.deque()
