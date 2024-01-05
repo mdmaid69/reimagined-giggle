@@ -1,6 +1,7 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import platform
-def get_os_info():
-        return platform.uname()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
