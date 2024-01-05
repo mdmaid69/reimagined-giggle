@@ -1,5 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import os
+def get_current_working_directory():
+        return os.getcwd()
