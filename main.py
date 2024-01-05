@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import collections
+def create_stack():
+        return collections.deque()
+  def calculate_area_rectangle(l, w):
+        return l * w
