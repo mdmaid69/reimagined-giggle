@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  def sort_list(lst):
-        return sorted(lst)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import collections
+def create_user_string():
+        return collections.UserString()
