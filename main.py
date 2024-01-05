@@ -1,6 +1,8 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import sys
-def exit_program():
-        sys.exit()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
