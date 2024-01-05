@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
