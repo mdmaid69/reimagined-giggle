@@ -1,5 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import array
-def get_array_as_set(array):
-        return set(array)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def find_min(lst):
+        return min(lst)
