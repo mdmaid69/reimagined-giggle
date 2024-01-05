@@ -1,6 +1,11 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
