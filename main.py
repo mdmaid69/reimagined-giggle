@@ -1,7 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import os
+def remove_directory(path):
+        os.rmdir(path)
