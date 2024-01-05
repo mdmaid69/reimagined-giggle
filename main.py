@@ -1,7 +1,4 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+print([x**2 for x in range(10)])
