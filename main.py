@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import json
+print(json.dumps({"name": "John", "age": 30}))
+x = 10
+y = 20
+print("Sum:", x + y)
