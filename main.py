@@ -1,5 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
