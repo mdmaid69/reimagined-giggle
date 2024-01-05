@@ -1,5 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
