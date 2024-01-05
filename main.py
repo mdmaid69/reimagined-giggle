@@ -1,5 +1,5 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-print(math.pi)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
