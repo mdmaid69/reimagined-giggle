@@ -1,6 +1,13 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
