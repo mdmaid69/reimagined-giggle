@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import platform
+def get_os_info():
+        return platform.uname()
