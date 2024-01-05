@@ -1,7 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def multiply_numbers(x, y):
+        return x * y
