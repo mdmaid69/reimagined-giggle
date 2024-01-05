@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
