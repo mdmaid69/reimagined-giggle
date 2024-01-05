@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import math
+def calculate_tangent(x):
+        return math.tan(x)
