@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
