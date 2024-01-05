@@ -1,7 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
