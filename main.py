@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_itemsize(array):
+        return array.itemsize
