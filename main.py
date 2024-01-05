@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
