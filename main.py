@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import collections
+def create_priority_queue():
+        return collections.deque()
