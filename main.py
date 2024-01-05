@@ -1,6 +1,6 @@
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
 import array
-def reverse_array(array):
-        array.reverse()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def get_array_as_str(array):
+        return str(array)
