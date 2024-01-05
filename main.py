@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
