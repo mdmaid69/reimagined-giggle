@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
