@@ -1,5 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
