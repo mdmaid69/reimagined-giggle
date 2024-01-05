@@ -1,3 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-print(sum(range(10)))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_floor(x):
+        return math.floor(x)
