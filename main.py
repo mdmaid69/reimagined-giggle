@@ -1,9 +1,6 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import collections
+def create_user_string():
+        return collections.UserString()
