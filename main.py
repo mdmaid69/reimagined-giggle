@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def cube_number(x):
+        return x**3
+import random
+print(random.randint(0, 100))
