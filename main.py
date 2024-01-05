@@ -1,5 +1,7 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-from collections import Counter
-print(Counter("hello world"))
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
