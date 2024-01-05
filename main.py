@@ -1,3 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-print(sum(range(10)))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
