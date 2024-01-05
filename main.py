@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
