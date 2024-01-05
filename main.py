@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
