@@ -1,6 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_density(mass, volume):
+        return mass / volume
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
