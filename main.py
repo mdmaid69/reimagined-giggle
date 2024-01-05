@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
