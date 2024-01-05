@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
