@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
