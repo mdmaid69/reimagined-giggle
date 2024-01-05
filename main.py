@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
