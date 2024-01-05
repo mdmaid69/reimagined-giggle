@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
