@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
