@@ -1,6 +1,6 @@
+import array
+def get_array_as_int(array):
+        return int(array[0])
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
