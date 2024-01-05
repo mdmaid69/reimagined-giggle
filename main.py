@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
