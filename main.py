@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def convert_to_hex(n):
+        return hex(n)
