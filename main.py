@@ -1,5 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
