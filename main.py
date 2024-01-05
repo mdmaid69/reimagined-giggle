@@ -1,6 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
