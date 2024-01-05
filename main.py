@@ -1,6 +1,6 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
