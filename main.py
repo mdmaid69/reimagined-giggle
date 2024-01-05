@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import datetime
+print(datetime.datetime.now())
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
