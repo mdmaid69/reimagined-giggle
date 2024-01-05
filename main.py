@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
