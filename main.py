@@ -1,6 +1,6 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
