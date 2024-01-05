@@ -1,5 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_current_directory():
+        return os.getcwd()
