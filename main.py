@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
