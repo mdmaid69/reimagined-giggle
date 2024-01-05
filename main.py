@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
