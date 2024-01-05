@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
