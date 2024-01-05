@@ -1,7 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
