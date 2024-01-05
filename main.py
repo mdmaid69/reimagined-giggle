@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
