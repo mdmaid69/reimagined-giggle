@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import sys
+print(sys.version)
