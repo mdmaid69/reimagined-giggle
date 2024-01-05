@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
