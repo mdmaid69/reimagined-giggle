@@ -1,5 +1,4 @@
+for i in range(10): print(i)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def remove_from_array(array, item):
+        array.remove(item)
