@@ -1,5 +1,5 @@
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+print(math.pi)
