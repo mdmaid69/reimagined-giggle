@@ -1,4 +1,8 @@
-def convert_to_hex(n):
-        return hex(n)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
