@@ -1,5 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import os
+print(os.getcwd())
+import sys
+def print_python_version():
+        print(sys.version)
