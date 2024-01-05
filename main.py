@@ -1,6 +1,9 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
