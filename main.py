@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import sys
+def exit_program():
+        sys.exit()
+  def reverse_list(lst):
+        return lst[::-1]
