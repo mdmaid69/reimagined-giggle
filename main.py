@@ -1,5 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
