@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
