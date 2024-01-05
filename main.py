@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
