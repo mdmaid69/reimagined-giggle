@@ -1,5 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def append_to_array(array, item):
+        array.append(item)
+import collections
+def create_user_list():
+        return collections.UserList()
