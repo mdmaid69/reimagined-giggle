@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
