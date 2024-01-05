@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import time
+def get_current_time():
+        return time.ctime()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
