@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
