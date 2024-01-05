@@ -1,5 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
