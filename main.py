@@ -1,7 +1,6 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
