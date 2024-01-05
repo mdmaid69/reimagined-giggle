@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_acceleration(speed, time):
-        return speed / time
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def reverse_array(array):
+        array.reverse()
