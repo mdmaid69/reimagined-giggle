@@ -1,8 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
