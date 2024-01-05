@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_work(force, distance):
+        return force * distance
