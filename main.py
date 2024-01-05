@@ -1,5 +1,8 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
