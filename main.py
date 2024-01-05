@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import collections
+def create_user_string():
+        return collections.UserString()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
