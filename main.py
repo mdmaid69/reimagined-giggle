@@ -1,5 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_perpetuity(payment, rate):
+        return payment / rate
