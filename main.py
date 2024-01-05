@@ -1,7 +1,8 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
