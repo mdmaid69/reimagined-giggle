@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def convert_to_binary(n):
+        return bin(n)
