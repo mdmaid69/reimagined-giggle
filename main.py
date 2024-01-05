@@ -1,5 +1,8 @@
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
