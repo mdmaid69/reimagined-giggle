@@ -1,6 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
