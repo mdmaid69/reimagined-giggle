@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
