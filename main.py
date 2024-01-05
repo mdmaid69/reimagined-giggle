@@ -1,5 +1,9 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
