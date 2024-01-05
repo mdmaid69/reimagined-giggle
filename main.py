@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import sys
+def exit_program():
+        sys.exit()
+import platform
+def get_os_info():
+        return platform.uname()
