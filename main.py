@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def add_numbers(a, b):
+        return a + b
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
