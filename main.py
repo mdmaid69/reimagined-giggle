@@ -1,5 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def calculate_area_rectangle(l, w):
+        return l * w
+x = 10
+y = 20
+print("Sum:", x + y)
