@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
