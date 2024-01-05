@@ -1,5 +1,4 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_speed(distance, time):
-        return distance / time
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+name = "Python"
+print("Hello,", name)
