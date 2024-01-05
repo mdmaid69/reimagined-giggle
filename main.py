@@ -1,4 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import collections
+def create_stack():
+        return collections.deque()
