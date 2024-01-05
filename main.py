@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-from collections import Counter
-print(Counter("hello world"))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import sys
+  def get_python_version():
+        return sys.version
