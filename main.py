@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
