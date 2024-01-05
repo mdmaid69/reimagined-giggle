@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-name = "Python"
-print("Hello,", name)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import datetime
+def get_today_date():
+        return datetime.date.today()
