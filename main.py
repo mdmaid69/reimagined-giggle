@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def remove_duplicates(lst):
+        return list(set(lst))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
