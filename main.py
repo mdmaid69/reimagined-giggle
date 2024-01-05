@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_as_list(array):
+        return list(array)
