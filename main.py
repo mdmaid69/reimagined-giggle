@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
