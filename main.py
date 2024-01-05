@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
