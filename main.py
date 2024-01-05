@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
