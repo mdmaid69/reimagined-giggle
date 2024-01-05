@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import sys
+def exit_program():
+        sys.exit()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
