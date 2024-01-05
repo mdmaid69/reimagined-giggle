@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
+  def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
