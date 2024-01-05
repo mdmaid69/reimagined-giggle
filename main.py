@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
