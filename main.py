@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import tensorflow as tf
-print(tf.__version__)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
