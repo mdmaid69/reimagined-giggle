@@ -1,6 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import collections
+def create_user_dict():
+        return collections.UserDict()
