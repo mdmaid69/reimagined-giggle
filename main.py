@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import sys
+  def get_python_version():
+        return sys.version
+def convert_to_octal(n):
+        return oct(n)
