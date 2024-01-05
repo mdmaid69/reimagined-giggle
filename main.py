@@ -1,5 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def reverse_list(lst):
-        return lst[::-1]
+import sys
+print(sys.version)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
