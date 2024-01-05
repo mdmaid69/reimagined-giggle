@@ -1,6 +1,6 @@
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def get_string_from_array(array):
+        return array.tobytes()
