@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
