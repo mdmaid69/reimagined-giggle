@@ -1,5 +1,6 @@
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_combinations(n, k):
+        return math.comb(n, k)
