@@ -1,5 +1,8 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
