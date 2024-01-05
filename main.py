@@ -1,6 +1,9 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
