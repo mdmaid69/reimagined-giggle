@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def reverse_array(array):
+        array.reverse()
+import platform
+def get_os_info():
+        return platform.uname()
