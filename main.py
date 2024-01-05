@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+name = "Python"
+print("Hello,", name)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
