@@ -1,5 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
