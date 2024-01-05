@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+x = 10
+y = 20
+print("Sum:", x + y)
