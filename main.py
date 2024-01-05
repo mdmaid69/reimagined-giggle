@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import logging
+def log_message(message):
+        logging.info(message)
