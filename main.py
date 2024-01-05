@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_area_rectangle(l, w):
+        return l * w
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
