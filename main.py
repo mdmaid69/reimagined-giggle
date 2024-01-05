@@ -1,5 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_factorial(n):
+        return math.factorial(n)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
