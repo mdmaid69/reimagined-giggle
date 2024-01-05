@@ -1,6 +1,7 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_area_rectangle(l, w):
+        return l * w
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
