@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
