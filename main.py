@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
