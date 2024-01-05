@@ -1,5 +1,11 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def multiply_numbers(x, y):
-        return x * y
+for i in range(5):
+        print(i)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
