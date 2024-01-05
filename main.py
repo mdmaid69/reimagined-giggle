@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def find_max(numbers):
-        return max(numbers)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
