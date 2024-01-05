@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  def convert_to_binary(n):
+        return bin(n)
