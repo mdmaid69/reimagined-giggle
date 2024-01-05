@@ -1,6 +1,6 @@
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_square_root(x):
+        return math.sqrt(x)
