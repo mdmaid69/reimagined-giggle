@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
