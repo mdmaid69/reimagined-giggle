@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
