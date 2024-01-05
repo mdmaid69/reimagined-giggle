@@ -1,5 +1,8 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_acceleration(speed, time):
-        return speed / time
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import sys
+  def get_python_version():
+        return sys.version
