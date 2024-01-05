@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
