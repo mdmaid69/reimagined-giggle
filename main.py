@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
