@@ -1,5 +1,8 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def get_array_item(array, i):
-        return array[i]
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
