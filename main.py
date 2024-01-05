@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
 import re
-print(re.match("h.*o", "hello world"))
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
