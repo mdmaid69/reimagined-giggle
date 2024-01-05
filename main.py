@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
