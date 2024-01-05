@@ -1,6 +1,6 @@
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
