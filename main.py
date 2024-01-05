@@ -1,8 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
