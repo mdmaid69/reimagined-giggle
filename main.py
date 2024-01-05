@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def get_array_as_float(array):
+        return float(array[0])
