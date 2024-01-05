@@ -1,4 +1,8 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
