@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+def remove_duplicates(lst):
+        return list(set(lst))
