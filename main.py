@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def convert_to_hex(n):
+        return hex(n)
