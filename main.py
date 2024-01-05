@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def subtract_numbers(x, y):
+        return x - y
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
