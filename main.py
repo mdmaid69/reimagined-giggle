@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
