@@ -1,5 +1,6 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
