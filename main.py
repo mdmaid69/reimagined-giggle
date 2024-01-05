@@ -1,7 +1,6 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
