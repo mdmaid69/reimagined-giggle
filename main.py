@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
