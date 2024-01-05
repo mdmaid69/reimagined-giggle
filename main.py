@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
