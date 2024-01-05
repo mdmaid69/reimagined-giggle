@@ -1,6 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
