@@ -1,5 +1,7 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
