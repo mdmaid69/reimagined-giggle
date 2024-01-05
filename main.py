@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_buffer_info(array):
+        return array.buffer_info()
