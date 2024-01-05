@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
 import array
-def get_array_as_list(array):
-        return list(array)
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
