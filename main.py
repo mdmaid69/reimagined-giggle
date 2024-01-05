@@ -1,6 +1,5 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
