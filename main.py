@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
