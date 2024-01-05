@@ -1,6 +1,5 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
