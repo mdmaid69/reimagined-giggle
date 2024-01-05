@@ -1,4 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-for i in range(10): print(i)
+import logging
+def log_message(message):
+        logging.info(message)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
