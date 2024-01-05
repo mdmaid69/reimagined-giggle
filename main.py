@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def find_unique_words(sentence):
+        return set(sentence.split())
+import platform
+def get_python_version():
+        return platform.python_version()
