@@ -1,5 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
