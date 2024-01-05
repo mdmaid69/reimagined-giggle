@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
