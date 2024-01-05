@@ -1,8 +1,6 @@
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def convert_array_to_string(array):
+        return array.tostring()
