@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
