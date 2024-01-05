@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
