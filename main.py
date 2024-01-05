@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
