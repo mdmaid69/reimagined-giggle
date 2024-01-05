@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import collections
-def create_user_list():
-        return collections.UserList()
+def create_queue():
+        return collections.deque()
