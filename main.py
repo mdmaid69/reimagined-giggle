@@ -1,6 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import collections
-def create_counter():
-        return collections.Counter()
+def get_array_item(array, i):
+        return array[i]
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
