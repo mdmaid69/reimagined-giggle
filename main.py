@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_area_rectangle(l, w):
+        return l * w
