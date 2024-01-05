@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
