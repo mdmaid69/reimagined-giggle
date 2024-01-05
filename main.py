@@ -1,6 +1,11 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_array_as_tuple(array):
+        return tuple(array)
