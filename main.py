@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import json
+def convert_to_json(data):
+        return json.dumps(data)
