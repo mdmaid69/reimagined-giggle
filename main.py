@@ -1,9 +1,8 @@
-def is_prime(n):
-        if n < 2: return False
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  def is_prime(n):
         for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
+          if n % i == 0:
+        return False
         return True
-import array
-def get_array_itemsize(array):
-        return array.itemsize
