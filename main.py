@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import datetime
+def get_today_date():
+        return datetime.date.today()
