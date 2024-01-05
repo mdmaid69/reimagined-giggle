@@ -1,6 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+def reverse_list(lst):
+        return lst[::-1]
