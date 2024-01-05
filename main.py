@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
