@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
