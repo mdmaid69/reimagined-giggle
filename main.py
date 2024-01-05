@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
