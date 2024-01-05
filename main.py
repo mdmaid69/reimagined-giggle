@@ -1,4 +1,12 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
