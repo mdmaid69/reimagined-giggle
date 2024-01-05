@@ -1,5 +1,6 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
