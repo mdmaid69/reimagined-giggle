@@ -1,5 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
