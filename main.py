@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import time
+def get_current_time():
+        return time.ctime()
+for i in range(10): print(i)
