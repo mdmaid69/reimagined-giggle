@@ -1,5 +1,9 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import datetime
+def get_today_date():
+        return datetime.date.today()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
