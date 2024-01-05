@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
