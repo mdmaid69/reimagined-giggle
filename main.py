@@ -1,6 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
