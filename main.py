@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
