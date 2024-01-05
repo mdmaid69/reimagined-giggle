@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def remove_duplicates(lst):
-        return list(set(lst))
+for i in range(10): print(i)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
