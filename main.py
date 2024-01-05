@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def reverse_list(lst):
+        return lst[::-1]
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
