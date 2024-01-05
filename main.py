@@ -1,5 +1,4 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import array
-def append_to_array(array, item):
-        array.append(item)
+def sort_list(lst):
+        return sorted(lst)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
