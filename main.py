@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def cube_number(x):
+        return x**3
