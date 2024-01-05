@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
