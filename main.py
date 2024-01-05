@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def convert_to_binary(n):
+        return bin(n)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
