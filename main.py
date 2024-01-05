@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
