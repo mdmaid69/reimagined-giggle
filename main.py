@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_pressure(force, area):
+        return force / area
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
