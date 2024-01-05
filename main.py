@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_speed(distance, time):
+        return distance / time
