@@ -1,5 +1,8 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
