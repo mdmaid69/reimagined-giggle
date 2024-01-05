@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def reverse_string(s):
+        return s[::-1]
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
