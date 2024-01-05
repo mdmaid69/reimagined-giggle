@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
