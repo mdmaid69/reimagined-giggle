@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
