@@ -1,8 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
