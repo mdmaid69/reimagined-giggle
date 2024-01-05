@@ -1,7 +1,5 @@
+def greet(name):
+        print(f"Hello, {name}!")
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_ceiling(x):
+        return math.ceil(x)
