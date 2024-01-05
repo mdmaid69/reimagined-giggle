@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
