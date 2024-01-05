@@ -1,6 +1,8 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
