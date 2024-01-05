@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import sys
+  def get_python_version():
+        return sys.version
