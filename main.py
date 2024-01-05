@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def count_characters(sentence):
-        return len(sentence)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
