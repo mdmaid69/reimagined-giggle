@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
