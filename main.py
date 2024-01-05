@@ -1,5 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+from collections import Counter
+print(Counter("hello world"))
