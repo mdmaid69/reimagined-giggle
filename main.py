@@ -1,5 +1,5 @@
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_sine(x):
+        return math.sin(x)
