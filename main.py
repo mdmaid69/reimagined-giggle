@@ -1,5 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_work(force, distance):
-        return force * distance
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def count_characters(sentence):
+        return len(sentence)
