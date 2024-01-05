@@ -1,5 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def get_base_name(path):
+        return os.path.basename(path)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
