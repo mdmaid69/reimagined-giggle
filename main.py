@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
