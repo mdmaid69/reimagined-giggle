@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import sys
+def print_python_version():
+        print(sys.version)
