@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def reverse_string(s):
-        return s[::-1]
+import sys
+print(sys.version)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
