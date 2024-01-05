@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
