@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def count_words(sentence):
-        return len(sentence.split())
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def get_array_item(array, i):
+        return array[i]
