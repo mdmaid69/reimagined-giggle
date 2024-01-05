@@ -1,6 +1,7 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
