@@ -1,10 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
