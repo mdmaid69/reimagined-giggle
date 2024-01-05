@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
