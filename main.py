@@ -1,7 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  def multiply_numbers(x, y):
+        return x * y
