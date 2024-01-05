@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_volume(length, width, height):
+        return length * width * height
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
