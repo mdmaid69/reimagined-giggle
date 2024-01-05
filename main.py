@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  def is_even(n):
-        return n % 2 == 0
+import collections
+def create_priority_queue():
+        return collections.deque()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
