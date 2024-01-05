@@ -1,5 +1,8 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
