@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import tensorflow as tf
-print(tf.__version__)
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
