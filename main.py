@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
