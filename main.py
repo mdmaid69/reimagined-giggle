@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def reverse_list(lst):
+        return lst[::-1]
