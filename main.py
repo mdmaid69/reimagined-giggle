@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
