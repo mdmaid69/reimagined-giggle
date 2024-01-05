@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_speed(distance, time):
-        return distance / time
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
