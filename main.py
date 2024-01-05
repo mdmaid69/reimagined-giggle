@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
