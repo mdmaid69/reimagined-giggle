@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
