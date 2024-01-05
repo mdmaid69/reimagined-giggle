@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def get_array_item(array, i):
+        return array[i]
