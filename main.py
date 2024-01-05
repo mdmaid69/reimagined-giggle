@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
