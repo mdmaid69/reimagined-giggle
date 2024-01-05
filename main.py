@@ -1,5 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  def cube_number(x):
-        return x**3
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
