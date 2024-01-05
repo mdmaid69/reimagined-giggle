@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
