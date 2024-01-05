@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
