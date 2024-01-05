@@ -1,5 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-for i in range(5):
-        print(i)
+def subtract_numbers(x, y):
+        return x - y
+import random
+print(random.randint(0, 100))
