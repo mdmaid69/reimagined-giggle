@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def convert_array_to_string(array):
+        return array.tostring()
