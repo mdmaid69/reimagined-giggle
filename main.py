@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-text = "Hello, world!"
-print("Characters:", len(text))
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  def remove_duplicates(lst):
+        return list(set(lst))
