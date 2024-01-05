@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_bytes_from_array(array):
+        return array.tobytes()
