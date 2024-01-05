@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def count_characters(sentence):
-        return len(sentence)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def get_array_typecode(array):
+        return array.typecode
