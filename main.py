@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
