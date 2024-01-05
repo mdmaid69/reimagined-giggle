@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import collections
+def create_stack():
+        return collections.deque()
