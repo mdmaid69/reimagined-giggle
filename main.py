@@ -1,5 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_area_rectangle(l, w):
+        return l * w
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
