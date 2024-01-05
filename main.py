@@ -1,7 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
