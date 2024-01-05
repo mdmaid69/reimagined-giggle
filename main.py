@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
