@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def count_elements(lst):
+        return len(lst)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
