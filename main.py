@@ -1,6 +1,8 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import datetime
+def get_current_date():
+        return datetime.date.today()
