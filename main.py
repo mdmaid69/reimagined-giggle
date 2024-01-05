@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
