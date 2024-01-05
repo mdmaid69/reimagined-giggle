@@ -1,5 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
