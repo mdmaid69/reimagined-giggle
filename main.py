@@ -1,6 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def find_min(lst):
+        return min(lst)
