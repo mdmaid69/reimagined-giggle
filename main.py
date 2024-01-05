@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def delete_file(file_name):
+        os.remove(file_name)
+import sys
+def print_python_version():
+        return sys.version
