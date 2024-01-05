@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import sys
-def exit_program():
-        sys.exit()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def divide_numbers(x, y):
+        return x / y
