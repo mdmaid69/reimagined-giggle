@@ -1,7 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+print([x**2 for x in range(10)])
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
