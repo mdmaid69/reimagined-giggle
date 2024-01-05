@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import platform
-def get_python_version():
-        return platform.python_version()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_force(mass, acceleration):
+        return mass * acceleration
