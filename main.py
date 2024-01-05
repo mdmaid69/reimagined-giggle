@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import getpass
-def get_username():
-        return getpass.getuser()
+from collections import Counter
+print(Counter("hello world"))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
