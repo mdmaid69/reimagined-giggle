@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
