@@ -1,5 +1,7 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
