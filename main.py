@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import math
+def calculate_sine(x):
+        return math.sin(x)
