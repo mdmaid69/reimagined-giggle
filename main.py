@@ -1,6 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_work(force, distance):
+        return force * distance
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
