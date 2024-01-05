@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
