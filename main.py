@@ -1,6 +1,6 @@
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
