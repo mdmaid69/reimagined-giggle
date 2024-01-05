@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def add_numbers(x, y):
-        return x + y
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
