@@ -1,4 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def square_number(x):
-        return x**2
+import numpy as np
+print(np.array([1, 2, 3]))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
