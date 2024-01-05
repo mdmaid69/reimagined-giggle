@@ -1,5 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  def convert_to_octal(n):
-        return oct(n)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import datetime
+def get_today_date():
+        return datetime.date.today()
