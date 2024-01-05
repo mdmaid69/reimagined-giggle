@@ -1,5 +1,5 @@
 def calculate_average(lst):
         return sum(lst) / len(lst)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
