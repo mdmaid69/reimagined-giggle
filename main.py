@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  def add_numbers(x, y):
+        return x + y
