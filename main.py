@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
