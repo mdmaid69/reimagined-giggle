@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import platform
+def get_python_version():
+        return platform.python_version()
+import collections
+def create_counter():
+        return collections.Counter()
