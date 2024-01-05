@@ -1,4 +1,6 @@
-import sys
-print(sys.version)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
