@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
