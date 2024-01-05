@@ -1,8 +1,4 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def convert_to_octal(n):
+        return oct(n)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
