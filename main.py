@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
