@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
