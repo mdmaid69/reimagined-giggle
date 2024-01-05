@@ -1,7 +1,6 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
