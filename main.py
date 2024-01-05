@@ -1,5 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def convert_to_hex(n):
+        return hex(n)
+def convert_to_binary(n):
+        return bin(n)
