@@ -1,7 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
