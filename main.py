@@ -1,8 +1,6 @@
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
