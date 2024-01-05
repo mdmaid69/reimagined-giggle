@@ -1,5 +1,7 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
