@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-x = 10
-y = 20
-print("Sum:", x + y)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def find_max(lst):
+        return max(lst)
