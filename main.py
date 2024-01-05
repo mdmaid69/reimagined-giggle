@@ -1,5 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  def multiply_numbers(x, y):
-        return x * y
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
