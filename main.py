@@ -1,4 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def square_number(x):
-        return x**2
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_power(work, time):
+        return work / time
