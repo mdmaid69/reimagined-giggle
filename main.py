@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import os
-print(os.getcwd())
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def is_odd(n):
+        return n % 2 != 0
