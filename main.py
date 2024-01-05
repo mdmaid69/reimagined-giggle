@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  def convert_to_hex(n):
+        return hex(n)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
