@@ -1,4 +1,7 @@
-def convert_to_octal(n):
-        return oct(n)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
