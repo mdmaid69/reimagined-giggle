@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
