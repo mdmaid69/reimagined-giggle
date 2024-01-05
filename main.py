@@ -1,5 +1,4 @@
-for i in range(5):
-        print(i)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  def convert_to_binary(n):
+        return bin(n)
