@@ -1,7 +1,5 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def square_number(x):
+        return x**2
