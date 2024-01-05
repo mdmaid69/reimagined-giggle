@@ -1,5 +1,8 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
