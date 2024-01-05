@@ -1,5 +1,8 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
