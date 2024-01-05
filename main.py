@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
