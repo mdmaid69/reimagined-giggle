@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
