@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
