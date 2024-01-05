@@ -1,6 +1,8 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
