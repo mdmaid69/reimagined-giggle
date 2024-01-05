@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import datetime
+print(datetime.datetime.now())
+import collections
+def create_user_string():
+        return collections.UserString()
