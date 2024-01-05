@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
