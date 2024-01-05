@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def count_characters(sentence):
+        return len(sentence)
