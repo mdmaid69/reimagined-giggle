@@ -1,5 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
