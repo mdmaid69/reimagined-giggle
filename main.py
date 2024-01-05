@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def cube_number(x):
+        return x**3
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
