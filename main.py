@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import sys
+  def get_python_version():
+        return sys.version
