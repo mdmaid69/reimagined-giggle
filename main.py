@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def get_array_as_str(array):
-        return str(array)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
