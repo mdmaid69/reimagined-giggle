@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
