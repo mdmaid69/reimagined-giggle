@@ -1,5 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
