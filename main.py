@@ -1,6 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def calculate_area_rectangle(l, w):
+        return l * w
+  def convert_to_hex(n):
+        return hex(n)
