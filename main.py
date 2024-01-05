@@ -1,8 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import time
+def get_current_time():
+        return time.time()
+import sys
+print(sys.version)
