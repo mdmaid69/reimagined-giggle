@@ -1,8 +1,7 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
