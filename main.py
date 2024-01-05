@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_power(work, time):
+        return work / time
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
