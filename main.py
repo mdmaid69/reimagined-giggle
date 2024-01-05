@@ -1,5 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def find_max(numbers):
-        return max(numbers)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
