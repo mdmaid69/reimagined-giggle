@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+for i in range(5):
+        print(i)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
