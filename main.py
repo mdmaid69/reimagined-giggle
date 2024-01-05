@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
