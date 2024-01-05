@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def is_even(n):
+        return n % 2 == 0
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
