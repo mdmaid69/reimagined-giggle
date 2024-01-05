@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def remove_duplicates(lst):
+        return list(set(lst))
+import datetime
+def get_today_date():
+        return datetime.date.today()
