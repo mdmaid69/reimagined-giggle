@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
