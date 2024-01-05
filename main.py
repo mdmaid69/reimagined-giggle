@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
