@@ -1,6 +1,5 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_acceleration(speed, time):
+        return speed / time
