@@ -1,5 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def find_max(numbers):
-        return max(numbers)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
