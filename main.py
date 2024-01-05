@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def is_even(n):
-        return n % 2 == 0
+import collections
+def create_user_string():
+        return collections.UserString()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
