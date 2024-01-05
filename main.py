@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def subtract_numbers(x, y):
+        return x - y
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
