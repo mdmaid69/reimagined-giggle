@@ -1,6 +1,10 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
