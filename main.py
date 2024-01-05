@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import time
+def get_current_time():
+        return time.ctime()
+def find_min(lst):
+        return min(lst)
