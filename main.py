@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  def convert_to_hex(n):
+        return hex(n)
