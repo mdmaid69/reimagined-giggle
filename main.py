@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
