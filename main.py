@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
