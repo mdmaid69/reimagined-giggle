@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
