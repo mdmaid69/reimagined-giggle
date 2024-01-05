@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_volume(length, width, height):
+        return length * width * height
+  def cube_number(x):
+        return x**3
