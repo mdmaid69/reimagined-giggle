@@ -1,8 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import logging
+def log_message(message):
+        logging.info(message)
+import collections
+def create_user_string():
+        return collections.UserString()
