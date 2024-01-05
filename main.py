@@ -1,7 +1,8 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_as_repr(array):
+        return repr(array)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
