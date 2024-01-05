@@ -1,8 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+name = "Python"
+print("Hello,", name)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
