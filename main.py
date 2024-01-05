@@ -1,11 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def calculate_acceleration(speed, time):
+        return speed / time
+import sys
+def print_python_version():
+        return sys.version
