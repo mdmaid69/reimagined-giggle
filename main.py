@@ -1,6 +1,7 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
