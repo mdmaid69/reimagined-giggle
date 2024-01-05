@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
