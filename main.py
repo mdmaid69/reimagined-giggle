@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
