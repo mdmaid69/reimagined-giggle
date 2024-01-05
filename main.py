@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
