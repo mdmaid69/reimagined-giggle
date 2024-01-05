@@ -1,4 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-print("Hello, world!")
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
