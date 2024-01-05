@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import platform
-def get_python_version():
-        return platform.python_version()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_acceleration(speed, time):
+        return speed / time
