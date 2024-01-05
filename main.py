@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def reverse_string(s):
+        return s[::-1]
