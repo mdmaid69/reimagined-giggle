@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import time
+def get_current_time():
+        return time.time()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
