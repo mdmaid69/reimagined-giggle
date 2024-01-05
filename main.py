@@ -1,5 +1,5 @@
+def find_min(lst):
+        return min(lst)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def calculate_speed(distance, time):
-        return distance / time
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
