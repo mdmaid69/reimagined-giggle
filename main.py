@@ -1,7 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
