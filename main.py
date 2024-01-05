@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
