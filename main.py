@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def sort_numbers(numbers):
+        return sorted(numbers)
