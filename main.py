@@ -1,6 +1,5 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
