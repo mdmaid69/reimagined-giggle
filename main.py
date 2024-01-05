@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
