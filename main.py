@@ -1,5 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def calculate_area_rectangle(l, w):
+        return l * w
+def subtract_numbers(x, y):
+        return x - y
