@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
