@@ -1,5 +1,7 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
