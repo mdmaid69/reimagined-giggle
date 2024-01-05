@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import tensorflow as tf
+print(tf.__version__)
