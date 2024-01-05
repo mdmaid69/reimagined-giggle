@@ -1,8 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
