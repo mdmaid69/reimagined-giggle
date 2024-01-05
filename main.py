@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def append_to_array(array, item):
+        array.append(item)
