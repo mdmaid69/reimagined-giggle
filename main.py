@@ -1,8 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
