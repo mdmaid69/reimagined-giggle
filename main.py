@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
