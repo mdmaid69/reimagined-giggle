@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
