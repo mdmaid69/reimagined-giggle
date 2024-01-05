@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def convert_to_hex(n):
+        return hex(n)
