@@ -1,5 +1,5 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
