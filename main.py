@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import datetime
+def get_today_date():
+        return datetime.date.today()
