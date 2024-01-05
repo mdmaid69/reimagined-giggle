@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
