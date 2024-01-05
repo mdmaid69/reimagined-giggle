@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_item(array, i):
-        return array[i]
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
