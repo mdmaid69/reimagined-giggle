@@ -1,5 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
