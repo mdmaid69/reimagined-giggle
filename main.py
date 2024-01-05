@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+from collections import Counter
+print(Counter("hello world"))
+def reverse_list(lst):
+        return lst[::-1]
