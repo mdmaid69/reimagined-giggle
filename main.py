@@ -1,5 +1,4 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-x = 10
-y = 20
-print("Sum:", x + y)
+from collections import Counter
+print(Counter("hello world"))
+def calculate_area_circle(r):
+        return 3.14 * r**2
