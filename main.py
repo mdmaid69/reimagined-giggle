@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
