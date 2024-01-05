@@ -1,5 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import sys
-def print_python_version():
-        print(sys.version)
+for i in range(10): print(i)
+import array
+def get_array_typecode(array):
+        return array.typecode
