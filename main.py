@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
