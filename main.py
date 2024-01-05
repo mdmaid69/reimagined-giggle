@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
