@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
