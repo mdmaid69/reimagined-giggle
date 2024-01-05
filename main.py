@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def remove_duplicates(lst):
+        return list(set(lst))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
