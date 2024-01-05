@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
