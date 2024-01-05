@@ -1,6 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
