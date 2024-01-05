@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
