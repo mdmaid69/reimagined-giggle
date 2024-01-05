@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
