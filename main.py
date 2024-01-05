@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import tensorflow as tf
-print(tf.__version__)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
