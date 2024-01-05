@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
