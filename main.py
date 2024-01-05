@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def is_even(n):
+        return n % 2 == 0
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
