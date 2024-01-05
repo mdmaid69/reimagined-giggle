@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
