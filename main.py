@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_as_set(array):
-        return set(array)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
