@@ -1,6 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def multiply_numbers(x, y):
+        return x * y
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
