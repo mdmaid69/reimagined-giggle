@@ -1,6 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def get_list_from_array(array):
+        return array.tolist()
