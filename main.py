@@ -1,3 +1,7 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-print([x**2 for x in range(10)])
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
