@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
