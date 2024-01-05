@@ -1,5 +1,7 @@
-def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import array
+def get_array_typecode(array):
+        return array.typecode
