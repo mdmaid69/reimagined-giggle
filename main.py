@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_power(work, time):
+        return work / time
+import time
+def get_current_time():
+        return time.time()
