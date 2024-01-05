@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-name = "Python"
-print("Hello,", name)
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
