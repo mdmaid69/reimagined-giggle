@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
