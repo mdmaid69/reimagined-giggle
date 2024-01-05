@@ -1,7 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import tensorflow as tf
+print(tf.__version__)
+  def add_numbers(x, y):
+        return x + y
