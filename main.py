@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
