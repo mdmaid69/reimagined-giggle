@@ -1,6 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def is_odd(n):
+        return n % 2 != 0
+def add_numbers(x, y):
+        return x + y
