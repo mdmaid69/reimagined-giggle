@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
