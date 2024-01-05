@@ -1,6 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-print([x**2 for x in range(10)])
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
