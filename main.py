@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
