@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
