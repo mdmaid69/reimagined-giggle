@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
