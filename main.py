@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
