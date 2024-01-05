@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
