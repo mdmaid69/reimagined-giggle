@@ -1,5 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
