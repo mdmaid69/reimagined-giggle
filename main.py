@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def reverse_list(lst):
+        return lst[::-1]
