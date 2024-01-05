@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
