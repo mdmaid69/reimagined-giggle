@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import datetime
+def get_current_date():
+        return datetime.date.today()
