@@ -1,4 +1,8 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
