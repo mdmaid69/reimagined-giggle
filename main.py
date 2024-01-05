@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_acceleration(speed, time):
-        return speed / time
+text = "Hello, world!"
+print("Characters:", len(text))
+import sys
+def print_python_version():
+        print(sys.version)
