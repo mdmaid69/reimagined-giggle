@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
