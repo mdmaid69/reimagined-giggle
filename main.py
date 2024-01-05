@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
