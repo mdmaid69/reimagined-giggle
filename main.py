@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
