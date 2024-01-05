@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
