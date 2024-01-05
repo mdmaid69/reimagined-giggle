@@ -1,4 +1,6 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-def count_elements(lst):
-        return len(lst)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
