@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
