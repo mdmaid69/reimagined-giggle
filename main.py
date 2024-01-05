@@ -1,4 +1,7 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
