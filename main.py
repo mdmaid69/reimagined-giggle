@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
