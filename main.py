@@ -1,4 +1,5 @@
-print(sum(range(10)))
+import time
+print(time.time())
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
