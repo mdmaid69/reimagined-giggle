@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
