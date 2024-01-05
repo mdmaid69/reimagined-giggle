@@ -1,6 +1,6 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
