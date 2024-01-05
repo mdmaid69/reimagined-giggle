@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def add_numbers(x, y):
-        return x + y
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
