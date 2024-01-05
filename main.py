@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import time
+def get_time_since_epoch():
+        return time.time()
