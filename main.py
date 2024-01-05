@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_area(radius):
+        return 3.14 * radius * radius
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
