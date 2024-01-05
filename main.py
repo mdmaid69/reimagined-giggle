@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
