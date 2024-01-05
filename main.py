@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
