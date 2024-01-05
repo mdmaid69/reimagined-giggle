@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def get_array_typecode(array):
+        return array.typecode
