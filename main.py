@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
