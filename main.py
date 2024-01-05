@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
