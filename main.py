@@ -1,7 +1,6 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
