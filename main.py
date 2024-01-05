@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def is_even(n):
-        return n % 2 == 0
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
