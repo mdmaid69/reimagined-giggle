@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
