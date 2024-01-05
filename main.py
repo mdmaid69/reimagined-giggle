@@ -1,5 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  def subtract_numbers(x, y):
+        return x - y
