@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  def sort_list(lst):
-        return sorted(lst)
+  def reverse_list(lst):
+        return lst[::-1]
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
