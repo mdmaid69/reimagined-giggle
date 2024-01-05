@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_arc_cosine(x):
+        return math.acos(x)
