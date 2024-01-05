@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_pressure(force, area):
+        return force / area
+import array
+def remove_from_array(array, item):
+        array.remove(item)
