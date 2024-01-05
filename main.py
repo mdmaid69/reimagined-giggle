@@ -1,5 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
