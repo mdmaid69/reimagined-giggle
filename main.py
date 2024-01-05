@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
