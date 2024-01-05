@@ -1,6 +1,6 @@
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
