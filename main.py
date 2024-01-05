@@ -1,4 +1,6 @@
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
 import math
-print(math.pi)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_logarithm(base, x):
+        return math.log(x, base)
