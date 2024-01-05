@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_item(array, i):
-        return array[i]
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
