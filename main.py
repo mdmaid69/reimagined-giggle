@@ -1,5 +1,5 @@
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import numpy as np
-print(np.array([1, 2, 3]))
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
