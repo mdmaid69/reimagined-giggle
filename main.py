@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
