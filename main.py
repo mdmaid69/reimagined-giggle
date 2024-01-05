@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def is_even(n):
+        return n % 2 == 0
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
