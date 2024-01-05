@@ -1,6 +1,5 @@
+def reverse_list(lst):
+        return lst[::-1]
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
