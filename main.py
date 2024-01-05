@@ -1,5 +1,9 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  def is_even(n):
-        return n % 2 == 0
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
