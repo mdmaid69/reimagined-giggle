@@ -1,6 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import time
+def get_current_time():
+        return time.ctime()
