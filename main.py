@@ -1,5 +1,6 @@
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
