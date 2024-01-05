@@ -1,5 +1,7 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
