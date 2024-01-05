@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import os
+def get_current_working_directory():
+        return os.getcwd()
