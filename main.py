@@ -1,5 +1,7 @@
 import array
-def clear_array(array):
-        array *= 0
-def sort_list(lst):
-        return sorted(lst)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import sys
+print(sys.version)
