@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def convert_to_hex(n):
-        return hex(n)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
