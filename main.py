@@ -1,6 +1,8 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def convert_to_hex(n):
-        return hex(n)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import random
+print(random.randint(0, 100))
