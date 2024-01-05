@@ -1,5 +1,6 @@
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def square_number(x):
-        return x**2
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
