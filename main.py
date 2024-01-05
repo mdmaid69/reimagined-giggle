@@ -1,5 +1,7 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  def remove_duplicates(lst):
-        return list(set(lst))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
