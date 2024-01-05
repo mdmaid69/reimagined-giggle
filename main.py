@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def multiply_numbers(x, y):
-        return x * y
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
