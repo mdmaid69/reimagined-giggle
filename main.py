@@ -1,4 +1,8 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  def is_even(n):
-        return n % 2 == 0
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
