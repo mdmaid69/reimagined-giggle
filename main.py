@@ -1,6 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def square_number(x):
+        return x**2
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
