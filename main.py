@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
