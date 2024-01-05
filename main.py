@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  def remove_duplicates(lst):
+        return list(set(lst))
