@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_error_function(x):
+        return math.erf(x)
