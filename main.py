@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_perpetuity(payment, rate):
+        return payment / rate
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
