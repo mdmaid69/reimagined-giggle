@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
