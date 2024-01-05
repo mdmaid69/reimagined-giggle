@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import collections
-def create_user_string():
-        return collections.UserString()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def subtract_numbers(x, y):
+        return x - y
