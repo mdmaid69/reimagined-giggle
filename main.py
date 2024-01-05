@@ -1,5 +1,3 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+print([x**2 for x in range(10)])
