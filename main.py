@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_error_function(x):
+        return math.erf(x)
