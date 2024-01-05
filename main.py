@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
