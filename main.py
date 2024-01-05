@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
