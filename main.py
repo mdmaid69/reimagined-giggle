@@ -1,5 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-for i in range(5):
-        print(i)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
