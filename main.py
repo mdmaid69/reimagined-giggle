@@ -1,8 +1,8 @@
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
 import array
-def get_array_from_file(filename, typecode):
+def get_array_from_bytes(bytes, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.frombytes(bytes)
         return a
-def calculate_speed(distance, time):
-        return distance / time
