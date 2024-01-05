@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def count_characters(sentence):
+        return len(sentence)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
