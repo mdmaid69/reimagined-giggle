@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def get_array_as_list(array):
-        return list(array)
+import collections
+def create_stack():
+        return collections.deque()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
