@@ -1,6 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_as_int(array):
+        return int(array[0])
