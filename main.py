@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
 import array
-def get_array_typecode(array):
-        return array.typecode
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
