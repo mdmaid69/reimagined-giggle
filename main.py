@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import array
-def get_array_as_set(array):
-        return set(array)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
