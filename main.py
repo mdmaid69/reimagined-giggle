@@ -1,6 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
