@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
