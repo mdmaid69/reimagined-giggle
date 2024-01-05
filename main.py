@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
