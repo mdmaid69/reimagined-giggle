@@ -1,5 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
