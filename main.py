@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
