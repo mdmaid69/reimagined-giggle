@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
