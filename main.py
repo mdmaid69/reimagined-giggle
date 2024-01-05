@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
