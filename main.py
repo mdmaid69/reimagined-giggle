@@ -1,8 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import collections
+def create_user_string():
+        return collections.UserString()
