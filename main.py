@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import array
-def get_array_length(array):
-        return len(array)
+def divide_numbers(x, y):
+        return x / y
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
