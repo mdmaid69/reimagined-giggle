@@ -1,7 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
