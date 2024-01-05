@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-from collections import Counter
-print(Counter("hello world"))
+import sys
+print(sys.version)
+def calculate_density(mass, volume):
+        return mass / volume
