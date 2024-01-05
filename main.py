@@ -1,4 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
