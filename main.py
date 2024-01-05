@@ -1,6 +1,8 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_slice(array, i, j):
+        return array[i:j]
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
