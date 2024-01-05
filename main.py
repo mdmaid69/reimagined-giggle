@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
