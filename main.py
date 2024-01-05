@@ -1,6 +1,6 @@
   import math
   def calculate_square_root(n):
         return math.sqrt(n)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
