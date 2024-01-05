@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
