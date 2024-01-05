@@ -1,5 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def find_min(lst):
+        return min(lst)
+def calculate_area(radius):
+        return 3.14 * radius * radius
