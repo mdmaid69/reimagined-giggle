@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def remove_duplicates(lst):
-        return list(set(lst))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
