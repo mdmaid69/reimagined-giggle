@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
