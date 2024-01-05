@@ -1,11 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
