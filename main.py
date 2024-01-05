@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
