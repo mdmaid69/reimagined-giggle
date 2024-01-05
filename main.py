@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def get_array_as_list(array):
+        return list(array)
+  def convert_to_binary(n):
+        return bin(n)
