@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
