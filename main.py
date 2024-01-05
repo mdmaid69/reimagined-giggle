@@ -1,5 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def convert_to_hex(n):
+        return hex(n)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
