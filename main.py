@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def clear_array(array):
+        array *= 0
