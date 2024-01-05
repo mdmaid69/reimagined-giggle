@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
