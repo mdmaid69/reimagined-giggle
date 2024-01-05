@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_area_rectangle(l, w):
+        return l * w
