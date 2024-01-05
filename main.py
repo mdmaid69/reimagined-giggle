@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def is_even(n):
+        return n % 2 == 0
