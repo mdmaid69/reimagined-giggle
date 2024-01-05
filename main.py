@@ -1,5 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def subtract_numbers(x, y):
-        return x - y
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
