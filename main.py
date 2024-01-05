@@ -1,5 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def is_even(n):
+        return n % 2 == 0
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
