@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
