@@ -1,6 +1,8 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
