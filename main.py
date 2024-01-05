@@ -1,5 +1,7 @@
-import time
-def get_current_time():
-        return time.ctime()
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
