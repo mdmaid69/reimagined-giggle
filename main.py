@@ -1,6 +1,4 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+print([x**2 for x in range(10)])
