@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
