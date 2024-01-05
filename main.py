@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import tensorflow as tf
+print(tf.__version__)
+import datetime
+def get_today_date():
+        return datetime.date.today()
