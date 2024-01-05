@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
