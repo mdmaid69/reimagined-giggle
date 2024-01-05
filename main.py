@@ -1,12 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import queue
+import unittest
 
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
