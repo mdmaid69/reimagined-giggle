@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
