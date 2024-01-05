@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import platform
+def get_os_info():
+        return platform.uname()
