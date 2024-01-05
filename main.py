@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
