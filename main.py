@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
