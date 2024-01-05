@@ -1,5 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-from collections import Counter
-print(Counter("hello world"))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_volume(length, width, height):
+        return length * width * height
