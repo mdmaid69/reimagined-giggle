@@ -1,7 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def divide_numbers(x, y):
+        return x / y
