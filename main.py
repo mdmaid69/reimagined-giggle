@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import datetime
-def get_today_date():
-        return datetime.date.today()
+from collections import Counter
+print(Counter("hello world"))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
