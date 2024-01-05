@@ -1,4 +1,7 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
