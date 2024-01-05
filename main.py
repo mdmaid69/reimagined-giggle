@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import json
+print(json.dumps({"name": "John", "age": 30}))
