@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
