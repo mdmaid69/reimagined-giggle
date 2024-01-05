@@ -1,9 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
