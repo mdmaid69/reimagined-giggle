@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
