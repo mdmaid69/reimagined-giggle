@@ -1,4 +1,4 @@
-def square_number(x):
-        return x**2
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
