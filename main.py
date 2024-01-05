@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def convert_to_binary(n):
+        return bin(n)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_bytes_from_array(array):
+        return array.tobytes()
