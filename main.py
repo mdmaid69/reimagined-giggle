@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_work(force, distance):
+        return force * distance
