@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_acceleration(speed, time):
-        return speed / time
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
