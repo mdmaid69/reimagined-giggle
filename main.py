@@ -1,7 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
