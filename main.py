@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import time
+def get_time_since_epoch():
+        return time.time()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
