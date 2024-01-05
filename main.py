@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def count_characters(sentence):
+        return len(sentence)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
