@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def find_min(lst):
+        return min(lst)
