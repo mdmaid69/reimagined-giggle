@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+for i in range(10): print(i)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
