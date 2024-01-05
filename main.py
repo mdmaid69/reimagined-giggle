@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import array
+def reverse_array(array):
+        array.reverse()
