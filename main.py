@@ -1,5 +1,7 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
