@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def square_number(x):
+        return x**2
+import array
+def convert_array_to_string(array):
+        return array.tostring()
