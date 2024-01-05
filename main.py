@@ -1,5 +1,7 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_power(work, time):
-        return work / time
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
