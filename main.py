@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def reverse_list(lst):
-        return lst[::-1]
+  import sys
+  def get_python_version():
+        return sys.version
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
