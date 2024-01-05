@@ -1,5 +1,5 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def get_array_as_int(array):
+        return int(array[0])
+  def add_numbers(x, y):
+        return x + y
