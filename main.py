@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import platform
-def get_python_version():
-        return platform.python_version()
+  import sys
+  def get_python_version():
+        return sys.version
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
