@@ -1,5 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import time
-print(time.time())
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
