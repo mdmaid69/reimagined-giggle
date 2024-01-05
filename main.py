@@ -1,7 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
