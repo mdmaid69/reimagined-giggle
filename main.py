@@ -1,5 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import numpy as np
-print(np.array([1, 2, 3]))
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
