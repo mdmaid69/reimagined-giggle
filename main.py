@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import collections
+def create_user_list():
+        return collections.UserList()
