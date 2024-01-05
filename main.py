@@ -1,7 +1,4 @@
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def square_number(x):
-        return x**2
+print("Cube numbers:", [x**3 for x in range(n)])
+def convert_to_octal(n):
+        return oct(n)
