@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def find_min(numbers):
-        return min(numbers)
+  def is_even(n):
+        return n % 2 == 0
+def calculate_speed(distance, time):
+        return distance / time
