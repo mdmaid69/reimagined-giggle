@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
