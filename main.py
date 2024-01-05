@@ -1,6 +1,8 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
