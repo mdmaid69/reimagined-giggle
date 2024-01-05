@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_area_rectangle(l, w):
-        return l * w
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
