@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import time
+def get_current_time():
+        return time.time()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
