@@ -1,7 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
