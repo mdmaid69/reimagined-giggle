@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
