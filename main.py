@@ -1,6 +1,6 @@
+import getpass
+def get_username():
+        return getpass.getuser()
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
