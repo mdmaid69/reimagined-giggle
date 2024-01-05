@@ -1,5 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def count_elements(lst):
-        return len(lst)
+def calculate_power(work, time):
+        return work / time
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
