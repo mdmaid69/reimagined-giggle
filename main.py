@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  def is_even(n):
-        return n % 2 == 0
+def subtract_numbers(x, y):
+        return x - y
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
