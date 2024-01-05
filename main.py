@@ -1,6 +1,5 @@
+def add_numbers(x, y):
+        return x + y
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
