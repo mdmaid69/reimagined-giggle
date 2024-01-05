@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  def sort_list(lst):
-        return sorted(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
