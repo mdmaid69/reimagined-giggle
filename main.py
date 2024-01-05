@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
