@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def get_array_as_str(array):
-        return str(array)
+import time
+def get_time_since_epoch():
+        return time.time()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
