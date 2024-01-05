@@ -1,4 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
