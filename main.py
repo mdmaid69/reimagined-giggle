@@ -1,8 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
