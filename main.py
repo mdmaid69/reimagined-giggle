@@ -1,6 +1,6 @@
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
