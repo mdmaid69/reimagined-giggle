@@ -1,6 +1,8 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
