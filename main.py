@@ -1,5 +1,7 @@
-import time
-def get_current_time():
-        return time.ctime()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
