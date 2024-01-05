@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_area_rectangle(l, w):
+        return l * w
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
