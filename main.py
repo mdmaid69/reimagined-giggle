@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_work(force, distance):
+        return force * distance
