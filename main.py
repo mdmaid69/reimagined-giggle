@@ -1,8 +1,6 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def convert_array_to_bytes(array):
+        return array.tobytes()
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
