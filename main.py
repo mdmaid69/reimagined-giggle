@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
