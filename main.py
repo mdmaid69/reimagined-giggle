@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
