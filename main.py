@@ -1,5 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def cube_number(x):
+        return x**3
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
