@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
