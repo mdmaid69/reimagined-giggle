@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def reverse_list(lst):
+        return lst[::-1]
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
