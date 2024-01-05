@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
