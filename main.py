@@ -1,4 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_work(force, distance):
+        return force * distance
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
