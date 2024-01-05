@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  def remove_duplicates(lst):
+        return list(set(lst))
