@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
