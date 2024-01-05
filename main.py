@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import time
+def get_current_time():
+        return time.time()
