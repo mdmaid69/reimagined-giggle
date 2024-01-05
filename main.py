@@ -1,6 +1,8 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
