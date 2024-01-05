@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def add_numbers(x, y):
+        return x + y
