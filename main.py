@@ -1,9 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import sys
+def print_python_version():
+        return sys.version
