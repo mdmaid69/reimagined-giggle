@@ -1,5 +1,8 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
