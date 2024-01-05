@@ -1,5 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def add_numbers(a, b):
-        return a + b
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
