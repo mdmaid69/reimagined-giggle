@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def remove_duplicates(lst):
+        return list(set(lst))
