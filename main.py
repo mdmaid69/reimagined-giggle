@@ -1,11 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
