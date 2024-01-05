@@ -1,8 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
