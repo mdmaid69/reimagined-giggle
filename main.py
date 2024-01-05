@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
