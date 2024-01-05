@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import collections
+def create_queue():
+        return collections.deque()
+  def is_odd(n):
+        return n % 2 != 0
