@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def append_to_array(array, item):
+        array.append(item)
