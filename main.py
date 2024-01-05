@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
