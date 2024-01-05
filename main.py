@@ -1,5 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-text = "Hello, world!"
-print("Characters:", len(text))
+def square_number(x):
+        return x**2
+  def subtract_numbers(x, y):
+        return x - y
