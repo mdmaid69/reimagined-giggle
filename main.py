@@ -1,11 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
