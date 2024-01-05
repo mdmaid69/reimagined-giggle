@@ -1,7 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
