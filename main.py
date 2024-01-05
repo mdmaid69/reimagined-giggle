@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def subtract_numbers(x, y):
+        return x - y
+def find_max(numbers):
+        return max(numbers)
