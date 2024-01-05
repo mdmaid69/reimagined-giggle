@@ -1,4 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def count_characters(sentence):
+        return len(sentence)
