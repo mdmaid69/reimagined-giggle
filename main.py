@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
