@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
