@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_base_name(path):
+        return os.path.basename(path)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
