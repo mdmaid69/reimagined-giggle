@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
