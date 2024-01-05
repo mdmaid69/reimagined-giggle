@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_float(array):
+        return float(array[0])
