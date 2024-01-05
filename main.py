@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
