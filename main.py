@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
