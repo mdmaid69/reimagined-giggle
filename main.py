@@ -1,6 +1,8 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
