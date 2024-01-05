@@ -1,5 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def multiply_numbers(x, y):
-        return x * y
+  def add_numbers(x, y):
+        return x + y
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
