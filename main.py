@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
