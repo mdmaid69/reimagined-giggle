@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import sys
+def print_python_version():
+        print(sys.version)
+text = "Hello, world!"
+print("Characters:", len(text))
