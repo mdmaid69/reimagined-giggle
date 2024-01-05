@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
