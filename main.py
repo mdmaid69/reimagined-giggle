@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def reverse_array(array):
+        array.reverse()
