@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def cube_number(x):
-        return x**3
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
