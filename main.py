@@ -1,8 +1,11 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-from flask import Flask
-app = Flask(__name__)
+import queue
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  def is_odd(n):
+        return n % 2 != 0
