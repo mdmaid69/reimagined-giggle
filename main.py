@@ -1,6 +1,7 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
