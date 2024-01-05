@@ -1,11 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  def is_even(n):
+        return n % 2 == 0
