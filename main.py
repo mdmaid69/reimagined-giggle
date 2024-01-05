@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
