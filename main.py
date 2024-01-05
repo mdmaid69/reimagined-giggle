@@ -1,7 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
