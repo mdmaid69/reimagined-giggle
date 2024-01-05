@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
