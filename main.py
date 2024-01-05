@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
