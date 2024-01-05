@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def sort_list(lst):
+        return sorted(lst)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
