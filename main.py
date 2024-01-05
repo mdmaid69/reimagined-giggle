@@ -1,4 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_volume(length, width, height):
-        return length * width * height
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
