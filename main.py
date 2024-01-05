@@ -1,5 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
