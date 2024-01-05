@@ -1,6 +1,8 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
