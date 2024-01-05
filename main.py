@@ -1,5 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-text = "Hello, world!"
-print("Characters:", len(text))
+def divide_numbers(x, y):
+        return x / y
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
