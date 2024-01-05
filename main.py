@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
