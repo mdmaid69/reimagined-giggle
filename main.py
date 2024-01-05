@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def find_min(numbers):
+        return min(numbers)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
