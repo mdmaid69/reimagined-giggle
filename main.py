@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def find_min(numbers):
+        return min(numbers)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
