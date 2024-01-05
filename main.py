@@ -1,6 +1,5 @@
+  def cube_number(x):
+        return x**3
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
