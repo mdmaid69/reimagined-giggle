@@ -1,4 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-print(sum(range(10)))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
