@@ -1,6 +1,7 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
