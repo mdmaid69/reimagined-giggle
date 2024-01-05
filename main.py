@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def add_numbers(x, y):
+        return x + y
