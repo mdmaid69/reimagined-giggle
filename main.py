@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_array_typecode(array):
+        return array.typecode
