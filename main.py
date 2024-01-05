@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_volume(length, width, height):
+        return length * width * height
