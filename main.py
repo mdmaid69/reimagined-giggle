@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
