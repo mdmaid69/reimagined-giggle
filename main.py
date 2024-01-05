@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
