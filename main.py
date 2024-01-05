@@ -1,5 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def square_number(x):
-        return x**2
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
