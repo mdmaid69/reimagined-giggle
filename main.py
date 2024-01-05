@@ -1,4 +1,7 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def remove_duplicates(lst):
-        return list(set(lst))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
