@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
