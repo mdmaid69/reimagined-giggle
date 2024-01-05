@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
