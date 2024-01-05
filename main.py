@@ -1,6 +1,8 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
