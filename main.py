@@ -1,7 +1,8 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
