@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
