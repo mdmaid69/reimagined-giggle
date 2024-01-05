@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-for i in range(5):
-        print(i)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
