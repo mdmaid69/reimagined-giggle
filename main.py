@@ -1,7 +1,7 @@
 import array
-def get_array_from_bytes(bytes, typecode):
+def get_array_from_string(string, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        a.fromstring(string)
         return a
-  def is_odd(n):
-        return n % 2 != 0
+import sys
+print(sys.version)
