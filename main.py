@@ -1,6 +1,8 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import collections
+def create_user_dict():
+        return collections.UserDict()
