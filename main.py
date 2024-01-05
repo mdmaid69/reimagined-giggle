@@ -1,5 +1,12 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  def remove_duplicates(lst):
-        return list(set(lst))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
