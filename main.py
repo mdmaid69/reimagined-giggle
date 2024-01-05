@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  def multiply_numbers(x, y):
-        return x * y
+import collections
+def create_queue():
+        return collections.deque()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
