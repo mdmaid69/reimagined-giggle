@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import collections
-def create_queue():
-        return collections.deque()
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
