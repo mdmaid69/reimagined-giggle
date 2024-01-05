@@ -1,6 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
