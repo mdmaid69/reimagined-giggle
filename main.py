@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
