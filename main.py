@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def get_string_from_array(array):
+        return array.tobytes()
