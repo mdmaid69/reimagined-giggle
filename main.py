@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+name = "Python"
+print("Hello,", name)
