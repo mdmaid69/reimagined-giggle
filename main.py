@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_density(mass, volume):
+        return mass / volume
