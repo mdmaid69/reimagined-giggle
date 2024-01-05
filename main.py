@@ -1,9 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
