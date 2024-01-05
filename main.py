@@ -1,5 +1,6 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def convert_to_octal(n):
-        return oct(n)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
