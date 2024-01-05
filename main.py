@@ -1,9 +1,5 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def is_odd(n):
+        return n % 2 != 0
