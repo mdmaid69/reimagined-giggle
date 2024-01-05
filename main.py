@@ -1,5 +1,7 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import json
+print(json.dumps({"name": "John", "age": 30}))
