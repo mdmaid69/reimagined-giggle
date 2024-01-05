@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_area(radius):
+        return 3.14 * radius * radius
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
