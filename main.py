@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+from collections import Counter
+print(Counter("hello world"))
