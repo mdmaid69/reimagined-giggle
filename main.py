@@ -1,5 +1,7 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def split_path(path):
+        return os.path.split(path)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
