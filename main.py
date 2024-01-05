@@ -1,4 +1,8 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
