@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def find_max(numbers):
-        return max(numbers)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
