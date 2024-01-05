@@ -1,8 +1,6 @@
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def convert_array_to_bytes(array):
+        return array.tobytes()
