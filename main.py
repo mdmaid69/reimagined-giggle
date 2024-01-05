@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def find_max(lst):
-        return max(lst)
+def find_min(lst):
+        return min(lst)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
