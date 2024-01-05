@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
