@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
