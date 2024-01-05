@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def subtract_numbers(x, y):
+        return x - y
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
