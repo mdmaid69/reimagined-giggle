@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
