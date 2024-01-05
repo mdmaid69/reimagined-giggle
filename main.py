@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
