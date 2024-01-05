@@ -1,7 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
