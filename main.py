@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
