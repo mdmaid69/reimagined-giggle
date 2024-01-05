@@ -1,4 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
