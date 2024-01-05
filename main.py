@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
