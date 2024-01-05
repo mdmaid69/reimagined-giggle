@@ -1,6 +1,11 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
