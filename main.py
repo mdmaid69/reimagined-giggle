@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def subtract_numbers(x, y):
+        return x - y
+import array
+def get_array_index(array, item):
+        return array.index(item)
