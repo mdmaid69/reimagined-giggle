@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def append_to_array(array, item):
+        array.append(item)
