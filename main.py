@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
