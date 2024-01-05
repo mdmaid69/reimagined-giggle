@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def get_array_index(array, item):
+        return array.index(item)
