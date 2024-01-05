@@ -1,4 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-print([x**2 for x in range(10)])
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def greet(name):
+        print(f"Hello, {name}!")
