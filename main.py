@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_power(work, time):
+        return work / time
