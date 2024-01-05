@@ -1,8 +1,6 @@
+import math
+def calculate_error_function(x):
+        return math.erf(x)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def get_bytes_from_array(array):
+        return array.tobytes()
