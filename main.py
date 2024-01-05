@@ -1,7 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_sine(x):
+        return math.sin(x)
