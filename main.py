@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
