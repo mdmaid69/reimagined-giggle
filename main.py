@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
