@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
