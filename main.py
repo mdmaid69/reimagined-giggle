@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import array
+def get_array_as_list(array):
+        return list(array)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
