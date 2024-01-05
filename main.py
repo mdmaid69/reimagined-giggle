@@ -1,6 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
