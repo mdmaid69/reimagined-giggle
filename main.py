@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
