@@ -1,6 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
