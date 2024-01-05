@@ -1,8 +1,6 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
