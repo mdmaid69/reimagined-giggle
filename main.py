@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_speed(distance, time):
-        return distance / time
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
