@@ -1,8 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import collections
-def create_user_list():
-        return collections.UserList()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def reverse_string(s):
+        return s[::-1]
