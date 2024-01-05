@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
