@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
