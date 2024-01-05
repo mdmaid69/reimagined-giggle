@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
