@@ -1,10 +1,8 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def remove_from_array(array, item):
+        array.remove(item)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
