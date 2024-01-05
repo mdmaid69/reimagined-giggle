@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_pressure(force, area):
+        return force / area
