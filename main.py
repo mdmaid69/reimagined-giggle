@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
