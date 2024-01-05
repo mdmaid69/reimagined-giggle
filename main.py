@@ -1,4 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-print("Hello, world!")
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
