@@ -1,8 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def convert_to_binary(n):
+        return bin(n)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
