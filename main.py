@@ -1,6 +1,7 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
