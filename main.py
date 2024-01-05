@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_volume(length, width, height):
-        return length * width * height
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
