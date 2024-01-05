@@ -1,6 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
