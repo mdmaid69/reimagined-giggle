@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-x = 10
-y = 20
-print("Sum:", x + y)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
