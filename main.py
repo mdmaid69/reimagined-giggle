@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+x = 10
+y = 20
+print("Sum:", x + y)
+def remove_duplicates(lst):
+        return list(set(lst))
