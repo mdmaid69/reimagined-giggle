@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
