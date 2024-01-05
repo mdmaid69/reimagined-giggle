@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def greet(name):
-        print(f"Hello, {name}!")
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import getpass
+def get_username():
+        return getpass.getuser()
