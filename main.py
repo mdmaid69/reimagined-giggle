@@ -1,6 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
