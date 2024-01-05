@@ -1,5 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
