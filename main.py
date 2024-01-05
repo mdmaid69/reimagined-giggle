@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
