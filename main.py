@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def find_max(numbers):
-        return max(numbers)
+  def multiply_numbers(x, y):
+        return x * y
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
