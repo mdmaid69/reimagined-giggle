@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
