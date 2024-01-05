@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
