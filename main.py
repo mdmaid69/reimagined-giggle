@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import logging
+def log_message(message):
+        logging.info(message)
+name = "Python"
+print("Hello,", name)
