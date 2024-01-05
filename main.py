@@ -1,6 +1,6 @@
+x = 10
+y = 20
+print("Sum:", x + y)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
