@@ -1,4 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def count_characters(sentence):
-        return len(sentence)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
