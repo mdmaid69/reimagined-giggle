@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-from collections import Counter
-print(Counter("hello world"))
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
