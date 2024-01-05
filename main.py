@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-name = "Python"
-print("Hello,", name)
+import array
+def append_to_array(array, item):
+        array.append(item)
+from collections import Counter
+print(Counter("hello world"))
