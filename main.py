@@ -1,6 +1,8 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
