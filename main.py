@@ -1,6 +1,3 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import time
-def get_time_since_epoch():
-        return time.time()
+for i in range(10): print(i)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
