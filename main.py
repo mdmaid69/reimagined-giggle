@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
