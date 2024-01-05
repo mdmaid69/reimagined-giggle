@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
