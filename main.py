@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+print(math.pi)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
