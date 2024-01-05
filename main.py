@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import collections
+def create_stack():
+        return collections.deque()
+def find_min(numbers):
+        return min(numbers)
