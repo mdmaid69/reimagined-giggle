@@ -1,6 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
