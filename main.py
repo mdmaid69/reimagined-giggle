@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def reverse_array(array):
+        array.reverse()
