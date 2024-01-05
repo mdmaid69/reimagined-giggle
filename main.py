@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
