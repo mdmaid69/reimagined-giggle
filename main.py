@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import time
+def get_current_time():
+        return time.ctime()
