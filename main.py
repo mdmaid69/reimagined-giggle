@@ -1,6 +1,8 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def get_array_item(array, i):
+        return array[i]
