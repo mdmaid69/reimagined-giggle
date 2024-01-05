@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import sys
+  def get_python_version():
+        return sys.version
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
