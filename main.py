@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def find_max(lst):
+        return max(lst)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
