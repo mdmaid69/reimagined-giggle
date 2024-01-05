@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
