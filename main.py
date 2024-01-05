@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
