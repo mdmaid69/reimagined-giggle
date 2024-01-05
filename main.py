@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  def remove_duplicates(lst):
-        return list(set(lst))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
