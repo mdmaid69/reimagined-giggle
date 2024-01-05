@@ -1,6 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
