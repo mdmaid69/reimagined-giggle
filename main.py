@@ -1,6 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
