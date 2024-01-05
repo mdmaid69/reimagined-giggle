@@ -1,6 +1,6 @@
+import array
+def get_array_itemsize(array):
+        return array.itemsize
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
