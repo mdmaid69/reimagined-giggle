@@ -1,4 +1,4 @@
-  def subtract_numbers(x, y):
-        return x - y
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import datetime
+print(datetime.datetime.now())
+  def calculate_area_circle(r):
+        return 3.14 * r**2
