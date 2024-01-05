@@ -1,5 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
