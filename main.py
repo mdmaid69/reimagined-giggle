@@ -1,5 +1,7 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def greet(name):
-        print(f"Hello, {name}!")
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import array
+def get_array_as_int(array):
+        return int(array[0])
