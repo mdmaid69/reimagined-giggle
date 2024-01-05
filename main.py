@@ -1,6 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
