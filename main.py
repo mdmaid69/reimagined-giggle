@@ -1,6 +1,9 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import random
-def roll_die():
-        return random.randint(1, 6)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
