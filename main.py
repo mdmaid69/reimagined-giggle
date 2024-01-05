@@ -1,9 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_power(work, time):
+        return work / time
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
