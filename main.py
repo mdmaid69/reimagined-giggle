@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_speed(distance, time):
+        return distance / time
