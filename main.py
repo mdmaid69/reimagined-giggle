@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
