@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
