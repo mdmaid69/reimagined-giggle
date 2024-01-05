@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
