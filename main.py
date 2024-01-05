@@ -1,9 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
