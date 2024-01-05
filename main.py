@@ -1,4 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_pressure(force, area):
+        return force / area
