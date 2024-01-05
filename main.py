@@ -1,6 +1,8 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
