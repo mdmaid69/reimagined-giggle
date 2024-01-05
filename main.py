@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
