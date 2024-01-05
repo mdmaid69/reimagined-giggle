@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import time
-def get_time_since_epoch():
-        return time.time()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import sys
+def exit_program():
+        sys.exit()
