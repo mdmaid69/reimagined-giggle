@@ -1,6 +1,5 @@
+def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
