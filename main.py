@@ -1,6 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
