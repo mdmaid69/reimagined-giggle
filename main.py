@@ -1,5 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
