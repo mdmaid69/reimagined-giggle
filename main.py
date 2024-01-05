@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
