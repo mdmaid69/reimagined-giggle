@@ -1,6 +1,8 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
