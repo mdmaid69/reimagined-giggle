@@ -1,6 +1,7 @@
-def square_number(x):
-        return x**2
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def convert_to_hex(n):
+        return hex(n)
