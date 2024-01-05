@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
