@@ -1,6 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
