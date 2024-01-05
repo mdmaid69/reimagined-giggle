@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import random
-print(random.randint(0, 100))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  def calculate_area_circle(r):
+        return 3.14 * r**2
