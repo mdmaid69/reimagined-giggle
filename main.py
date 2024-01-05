@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
