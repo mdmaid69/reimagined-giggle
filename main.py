@@ -1,6 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_work(force, distance):
+        return force * distance
+import os
+print(os.getcwd())
