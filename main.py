@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  def square_number(x):
-        return x**2
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
