@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+def is_odd(n):
+        return n % 2 != 0
+  import sys
+  def get_python_version():
+        return sys.version
