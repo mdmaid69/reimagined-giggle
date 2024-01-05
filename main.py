@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
