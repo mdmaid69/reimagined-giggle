@@ -1,7 +1,6 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-  def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
