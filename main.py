@@ -1,5 +1,6 @@
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  def add_numbers(x, y):
-        return x + y
+def roll_die():
+        return random.randint(1, 6)
