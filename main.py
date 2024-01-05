@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import collections
-def create_queue():
-        return collections.deque()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
