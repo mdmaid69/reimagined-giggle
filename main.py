@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
