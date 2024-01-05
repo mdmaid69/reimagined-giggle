@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+print(sum(range(10)))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
