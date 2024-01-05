@@ -1,5 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  def cube_number(x):
-        return x**3
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
