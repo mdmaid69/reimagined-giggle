@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def get_directory_name(path):
+        return os.path.dirname(path)
