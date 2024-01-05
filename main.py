@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
