@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
