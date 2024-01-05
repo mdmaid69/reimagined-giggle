@@ -1,4 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def square_number(x):
+        return x**2
