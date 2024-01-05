@@ -1,4 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-for i in range(10): print(i)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
