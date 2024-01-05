@@ -1,12 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
