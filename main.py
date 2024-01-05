@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
