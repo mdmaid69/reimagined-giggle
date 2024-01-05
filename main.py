@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def is_odd(n):
-        return n % 2 != 0
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
