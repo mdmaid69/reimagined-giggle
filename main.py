@@ -1,8 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def sort_list(lst):
+        return sorted(lst)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
