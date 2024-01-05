@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
