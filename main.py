@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def get_array_item(array, i):
+        return array[i]
