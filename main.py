@@ -1,5 +1,7 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-def divide_numbers(x, y):
-        return x / y
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
