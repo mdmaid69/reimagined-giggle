@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
