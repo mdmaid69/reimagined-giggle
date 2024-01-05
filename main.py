@@ -1,5 +1,6 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
