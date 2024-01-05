@@ -1,5 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def multiply_numbers(x, y):
-        return x * y
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import collections
+def create_stack():
+        return collections.deque()
