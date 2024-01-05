@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
