@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
