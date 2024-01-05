@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def find_min(lst):
+        return min(lst)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
