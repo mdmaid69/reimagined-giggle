@@ -1,7 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def find_max(numbers):
+        return max(numbers)
