@@ -1,6 +1,7 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
