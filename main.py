@@ -1,5 +1,9 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  def convert_to_hex(n):
-        return hex(n)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
