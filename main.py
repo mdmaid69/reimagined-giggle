@@ -1,6 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
