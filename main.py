@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  def convert_to_binary(n):
+        return bin(n)
