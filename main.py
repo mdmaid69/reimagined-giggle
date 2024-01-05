@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
