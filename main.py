@@ -1,7 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_area_circle(r):
+        return 3.14 * r**2
