@@ -1,5 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
