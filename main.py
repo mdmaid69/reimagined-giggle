@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_current_working_directory():
+        return os.getcwd()
