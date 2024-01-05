@@ -1,7 +1,7 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
