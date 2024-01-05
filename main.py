@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def get_string_from_array(array):
+        return array.tobytes()
