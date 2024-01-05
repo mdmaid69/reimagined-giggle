@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
