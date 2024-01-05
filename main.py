@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
