@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
