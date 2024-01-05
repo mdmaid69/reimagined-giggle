@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
