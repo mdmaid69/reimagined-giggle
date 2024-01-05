@@ -1,5 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def reverse_list(lst):
-        return lst[::-1]
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def sort_numbers(numbers):
+        return sorted(numbers)
