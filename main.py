@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  def convert_to_hex(n):
-        return hex(n)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
