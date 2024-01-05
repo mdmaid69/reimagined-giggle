@@ -1,7 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
