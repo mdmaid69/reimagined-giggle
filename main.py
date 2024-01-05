@@ -1,6 +1,5 @@
-print([x**2 for x in range(10)])
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import array
+def get_array_length(array):
+        return len(array)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
