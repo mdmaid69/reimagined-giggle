@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
