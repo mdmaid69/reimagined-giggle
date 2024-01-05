@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
