@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def remove_duplicates(lst):
-        return list(set(lst))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
