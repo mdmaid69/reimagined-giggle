@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
