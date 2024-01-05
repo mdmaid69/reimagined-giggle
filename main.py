@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
