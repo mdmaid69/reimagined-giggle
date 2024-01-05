@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def subtract_numbers(x, y):
-        return x - y
+  def reverse_list(lst):
+        return lst[::-1]
+import logging
+def log_message(message):
+        logging.info(message)
