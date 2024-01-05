@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
