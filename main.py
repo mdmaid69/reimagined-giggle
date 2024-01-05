@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
