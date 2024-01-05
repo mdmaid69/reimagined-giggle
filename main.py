@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def append_to_array(array, item):
-        array.append(item)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import datetime
+def get_current_date():
+        return datetime.date.today()
