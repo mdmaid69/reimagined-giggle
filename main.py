@@ -1,6 +1,7 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
