@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_item(array, i):
+        return array[i]
