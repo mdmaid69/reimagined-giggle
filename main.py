@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
