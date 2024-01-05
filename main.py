@@ -1,6 +1,6 @@
+import collections
+def create_counter():
+        return collections.Counter()
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
