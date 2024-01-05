@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def convert_to_octal(n):
+        return oct(n)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
