@@ -1,5 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def calculate_acceleration(speed, time):
+        return speed / time
