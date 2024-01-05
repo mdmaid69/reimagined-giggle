@@ -1,6 +1,7 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
