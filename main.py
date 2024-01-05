@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def convert_array_to_list(array):
+        return array.tolist()
