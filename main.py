@@ -1,6 +1,7 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
