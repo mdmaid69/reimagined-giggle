@@ -1,6 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
