@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
