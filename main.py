@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
