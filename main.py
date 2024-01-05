@@ -1,12 +1,3 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+for i in range(10): print(i)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
