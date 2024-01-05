@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
