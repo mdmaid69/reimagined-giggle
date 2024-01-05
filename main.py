@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
