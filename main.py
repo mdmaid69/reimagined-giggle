@@ -1,4 +1,4 @@
-import math
-print(math.pi)
-def calculate_pressure(force, area):
-        return force / area
+def find_min(numbers):
+        return min(numbers)
+def reverse_list(lst):
+        return lst[::-1]
