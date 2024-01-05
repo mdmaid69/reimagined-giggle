@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+  def is_odd(n):
+        return n % 2 != 0
