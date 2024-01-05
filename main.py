@@ -1,6 +1,4 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def sort_numbers(numbers):
+        return sorted(numbers)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
