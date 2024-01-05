@@ -1,6 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import sys
+def print_python_version():
+        print(sys.version)
