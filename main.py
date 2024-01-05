@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
