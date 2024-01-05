@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import datetime
+def get_today_date():
+        return datetime.date.today()
