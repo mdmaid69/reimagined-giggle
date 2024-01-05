@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def clear_array(array):
-        array *= 0
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
