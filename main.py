@@ -1,10 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
