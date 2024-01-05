@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
