@@ -1,6 +1,7 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
