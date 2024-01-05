@@ -1,5 +1,7 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+def sort_numbers(numbers):
+        return sorted(numbers)
