@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
