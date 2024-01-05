@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def cube_number(x):
+        return x**3
