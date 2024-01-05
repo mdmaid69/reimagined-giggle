@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
