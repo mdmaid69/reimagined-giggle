@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def find_min(numbers):
+        return min(numbers)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
