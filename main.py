@@ -1,6 +1,6 @@
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_item(array, i):
+        return array[i]
