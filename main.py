@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import collections
+def create_priority_queue():
+        return collections.deque()
