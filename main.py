@@ -1,12 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import datetime
+print(datetime.datetime.now())
+import random
+def roll_die():
+        return random.randint(1, 6)
