@@ -1,5 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
