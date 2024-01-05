@@ -1,8 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
