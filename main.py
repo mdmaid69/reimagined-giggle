@@ -1,8 +1,6 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
