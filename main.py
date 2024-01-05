@@ -1,5 +1,4 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def sort_list(lst):
+        return sorted(lst)
+def find_min(numbers):
+        return min(numbers)
