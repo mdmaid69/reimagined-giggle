@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
