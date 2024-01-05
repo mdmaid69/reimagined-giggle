@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
