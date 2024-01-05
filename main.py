@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import random
+print(random.randint(0, 100))
