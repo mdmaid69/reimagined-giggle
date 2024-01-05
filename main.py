@@ -1,4 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-print(sum(range(10)))
+import array
+def get_array_as_str(array):
+        return str(array)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
