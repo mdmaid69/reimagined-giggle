@@ -1,5 +1,7 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import os
+print(os.getcwd())
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
