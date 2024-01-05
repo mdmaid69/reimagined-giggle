@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
