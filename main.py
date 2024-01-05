@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
