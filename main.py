@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
