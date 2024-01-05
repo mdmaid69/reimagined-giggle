@@ -1,4 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_average(lst):
+        return sum(lst) / len(lst)
