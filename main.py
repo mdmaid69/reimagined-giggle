@@ -1,8 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
