@@ -1,12 +1,5 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_sign(x):
+        return math.copysign(1, x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
