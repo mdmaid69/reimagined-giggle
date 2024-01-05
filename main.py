@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
