@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
