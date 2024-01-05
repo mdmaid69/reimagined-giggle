@@ -1,6 +1,7 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
