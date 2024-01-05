@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import platform
+def get_os_info():
+        return platform.uname()
