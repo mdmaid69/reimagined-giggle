@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import tensorflow as tf
+print(tf.__version__)
