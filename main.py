@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
