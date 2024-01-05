@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def is_even(n):
+        return n % 2 == 0
