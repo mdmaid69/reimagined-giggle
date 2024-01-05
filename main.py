@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_as_set(array):
+        return set(array)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
