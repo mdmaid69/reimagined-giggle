@@ -1,6 +1,6 @@
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
 import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import collections
-def create_user_list():
-        return collections.UserList()
+def copy_file(src, dst):
+        shutil.copy(src, dst)
