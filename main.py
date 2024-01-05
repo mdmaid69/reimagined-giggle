@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def subtract_numbers(x, y):
+        return x - y
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
