@@ -1,5 +1,8 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def count_words(sentence):
-        return len(sentence.split())
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import random
+def roll_die():
+        return random.randint(1, 6)
