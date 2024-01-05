@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import collections
+def create_stack():
+        return collections.deque()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
