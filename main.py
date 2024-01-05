@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-  import sys
-  def get_python_version():
-        return sys.version
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def clear_array(array):
+        array *= 0
