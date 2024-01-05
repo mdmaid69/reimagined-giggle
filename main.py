@@ -1,5 +1,8 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
