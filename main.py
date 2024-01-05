@@ -1,6 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
