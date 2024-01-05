@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import array
-def append_to_array(array, item):
-        array.append(item)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_speed(distance, time):
+        return distance / time
