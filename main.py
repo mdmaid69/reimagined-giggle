@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
