@@ -1,4 +1,7 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def get_array_as_set(array):
+        return set(array)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
