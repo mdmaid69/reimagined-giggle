@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
