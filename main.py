@@ -1,6 +1,8 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
