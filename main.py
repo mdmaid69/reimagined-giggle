@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
