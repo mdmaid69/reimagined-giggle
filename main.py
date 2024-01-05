@@ -1,5 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
