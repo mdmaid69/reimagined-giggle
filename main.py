@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def find_unique_words(sentence):
+        return set(sentence.split())
