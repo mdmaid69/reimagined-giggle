@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-def convert_to_octal(n):
-        return oct(n)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
