@@ -1,5 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def reverse_string(s):
+        return s[::-1]
+def reverse_list(lst):
+        return lst[::-1]
