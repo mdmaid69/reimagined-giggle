@@ -1,5 +1,11 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
