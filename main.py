@@ -1,4 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
