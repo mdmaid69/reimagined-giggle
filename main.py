@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def convert_to_octal(n):
-        return oct(n)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def get_array_as_list(array):
+        return list(array)
