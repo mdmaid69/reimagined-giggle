@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
