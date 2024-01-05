@@ -1,11 +1,4 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-def calculate_work(force, distance):
-        return force * distance
+def count_characters(sentence):
+        return len(sentence)
+def calculate_speed(distance, time):
+        return distance / time
