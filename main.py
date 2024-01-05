@@ -1,8 +1,5 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  def is_even(n):
+        return n % 2 == 0
