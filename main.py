@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_density(mass, volume):
-        return mass / volume
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
