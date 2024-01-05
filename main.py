@@ -1,6 +1,7 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
