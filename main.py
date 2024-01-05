@@ -1,8 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import collections
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
