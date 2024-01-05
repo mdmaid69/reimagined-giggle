@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
