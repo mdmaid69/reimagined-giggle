@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
