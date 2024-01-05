@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import platform
-def get_os_info():
-        return platform.uname()
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_current_directory():
+        return os.getcwd()
