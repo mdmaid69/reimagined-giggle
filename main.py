@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
