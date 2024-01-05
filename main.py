@@ -1,5 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def reverse_string(s):
+        return s[::-1]
+name = "Python"
+print("Hello,", name)
