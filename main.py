@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
