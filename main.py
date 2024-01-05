@@ -1,5 +1,7 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import time
-def get_current_time():
-        return time.ctime()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
