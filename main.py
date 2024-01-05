@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import sys
+def print_python_version():
+        print(sys.version)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
