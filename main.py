@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
