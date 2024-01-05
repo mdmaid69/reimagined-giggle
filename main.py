@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  def reverse_list(lst):
+        return lst[::-1]
