@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
