@@ -1,5 +1,3 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+print("Hello, world!")
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
