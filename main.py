@@ -1,6 +1,8 @@
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_absolute_value(x):
+        return math.fabs(x)
