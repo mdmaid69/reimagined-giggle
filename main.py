@@ -1,8 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
