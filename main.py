@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
