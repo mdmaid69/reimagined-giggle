@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def is_odd(n):
+        return n % 2 != 0
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
