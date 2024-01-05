@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
