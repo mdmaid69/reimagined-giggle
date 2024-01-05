@@ -1,6 +1,11 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import platform
+def get_os_info():
+        return platform.uname()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
