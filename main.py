@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def get_array_as_list(array):
+        return list(array)
+import os
+print(os.getcwd())
