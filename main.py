@@ -1,5 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_work(force, distance):
+        return force * distance
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
