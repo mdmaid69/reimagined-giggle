@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-import datetime
-print(datetime.datetime.now())
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
