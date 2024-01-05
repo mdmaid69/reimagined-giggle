@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
