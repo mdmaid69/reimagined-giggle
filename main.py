@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
