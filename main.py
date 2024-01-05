@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import collections
+def create_queue():
+        return collections.deque()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
