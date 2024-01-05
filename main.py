@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def convert_to_binary(n):
+        return bin(n)
+def cube_number(x):
+        return x**3
