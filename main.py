@@ -1,6 +1,6 @@
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
