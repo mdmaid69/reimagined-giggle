@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
