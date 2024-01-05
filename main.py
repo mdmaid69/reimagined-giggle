@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import platform
-def get_python_version():
-        return platform.python_version()
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
