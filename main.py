@@ -1,8 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
