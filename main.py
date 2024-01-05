@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def divide_numbers(x, y):
-        return x / y
+def calculate_speed(distance, time):
+        return distance / time
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
