@@ -1,4 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
 import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-for i in range(10): print(i)
+def generate_random_number(start, end):
+        return random.randint(start, end)
