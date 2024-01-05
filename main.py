@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def reverse_list(lst):
-        return lst[::-1]
+x = 10
+y = 20
+print("Sum:", x + y)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
