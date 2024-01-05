@@ -1,6 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
