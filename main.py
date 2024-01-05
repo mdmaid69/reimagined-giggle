@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-def cube_number(x):
-        return x**3
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_power(work, time):
+        return work / time
