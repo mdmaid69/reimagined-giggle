@@ -1,4 +1,7 @@
-def convert_to_hex(n):
-        return hex(n)
-def find_max(numbers):
-        return max(numbers)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+def is_even(n):
+        return n % 2 == 0
