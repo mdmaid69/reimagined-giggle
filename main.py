@@ -1,8 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import array
+def convert_array_to_string(array):
+        return array.tostring()
