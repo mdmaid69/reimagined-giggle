@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def subtract_numbers(x, y):
+        return x - y
