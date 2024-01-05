@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
