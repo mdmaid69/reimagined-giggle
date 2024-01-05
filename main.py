@@ -1,7 +1,4 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+from collections import Counter
+print(Counter("hello world"))
