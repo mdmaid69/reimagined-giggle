@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_floor(x):
+        return math.floor(x)
