@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
