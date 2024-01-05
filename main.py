@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import sys
+def print_python_version():
+        print(sys.version)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
