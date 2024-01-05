@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
