@@ -1,5 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
