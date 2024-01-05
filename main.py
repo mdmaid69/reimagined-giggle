@@ -1,5 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import numpy as np
+print(np.array([1, 2, 3]))
