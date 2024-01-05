@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def reverse_list(lst):
+        return lst[::-1]
