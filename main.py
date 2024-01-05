@@ -1,5 +1,6 @@
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import array
-def get_list_from_array(array):
-        return array.tolist()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def get_array_as_float(array):
+        return float(array[0])
