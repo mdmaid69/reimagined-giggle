@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import collections
+def create_user_string():
+        return collections.UserString()
+import time
+def get_current_time():
+        return time.ctime()
