@@ -1,5 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  def is_odd(n):
-        return n % 2 != 0
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
