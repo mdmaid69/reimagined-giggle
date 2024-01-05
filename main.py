@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
