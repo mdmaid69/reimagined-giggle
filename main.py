@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import collections
-def create_user_string():
-        return collections.UserString()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
