@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import sys
+def exit_program():
+        sys.exit()
+  def add_numbers(x, y):
+        return x + y
