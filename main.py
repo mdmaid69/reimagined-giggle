@@ -1,5 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
