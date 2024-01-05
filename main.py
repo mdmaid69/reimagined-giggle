@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
