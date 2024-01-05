@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  def subtract_numbers(x, y):
+        return x - y
