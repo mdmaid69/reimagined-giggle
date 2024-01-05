@@ -1,7 +1,7 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import json
-def load_json(filename):
+  def count_elements(lst):
+        return len(lst)
+import csv
+def load_csv(filename):
         with open(filename, "r") as f:
-        return json.load(f)
+        reader = csv.reader(f)
+        return list(reader)
