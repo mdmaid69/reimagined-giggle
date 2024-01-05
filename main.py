@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def cube_number(x):
-        return x**3
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
