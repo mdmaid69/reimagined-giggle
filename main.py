@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
