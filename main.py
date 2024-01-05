@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_density(mass, volume):
+        return mass / volume
+  def add_numbers(x, y):
+        return x + y
