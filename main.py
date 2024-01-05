@@ -1,6 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
