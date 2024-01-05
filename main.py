@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
