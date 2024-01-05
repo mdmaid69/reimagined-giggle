@@ -1,5 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  def multiply_numbers(x, y):
-        return x * y
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
