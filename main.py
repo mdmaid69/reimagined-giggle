@@ -1,8 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
