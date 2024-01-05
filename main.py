@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_sine(x):
+        return math.sin(x)
