@@ -1,7 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
