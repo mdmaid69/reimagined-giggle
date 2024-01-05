@@ -1,6 +1,7 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
