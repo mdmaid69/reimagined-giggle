@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import logging
-def log_message(message):
-        logging.info(message)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
