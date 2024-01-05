@@ -1,9 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
