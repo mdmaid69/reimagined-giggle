@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
