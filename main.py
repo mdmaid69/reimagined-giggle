@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import platform
+def get_os_info():
+        return platform.uname()
+  def convert_to_octal(n):
+        return oct(n)
