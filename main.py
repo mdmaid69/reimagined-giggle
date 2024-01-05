@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def multiply_numbers(x, y):
-        return x * y
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
