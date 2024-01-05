@@ -1,5 +1,7 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
