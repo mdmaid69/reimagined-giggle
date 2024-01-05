@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
