@@ -1,6 +1,8 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
