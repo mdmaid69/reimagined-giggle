@@ -1,5 +1,7 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  def convert_to_binary(n):
-        return bin(n)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
