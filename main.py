@@ -1,6 +1,5 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import logging
-def log_message(message):
-        logging.info(message)
+def get_list_from_array(array):
+        return array.tolist()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
