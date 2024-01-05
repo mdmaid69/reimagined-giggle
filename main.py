@@ -1,7 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
