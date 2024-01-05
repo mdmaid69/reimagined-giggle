@@ -1,8 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def reverse_array(array):
+        array.reverse()
+import numpy as np
+print(np.array([1, 2, 3]))
