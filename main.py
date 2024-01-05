@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def add_numbers(x, y):
+        return x + y
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
