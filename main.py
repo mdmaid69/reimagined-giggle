@@ -1,5 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def multiply_numbers(x, y):
+        return x * y
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
