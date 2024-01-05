@@ -1,6 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def convert_to_octal(n):
+        return oct(n)
