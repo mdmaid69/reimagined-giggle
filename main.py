@@ -1,7 +1,7 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
