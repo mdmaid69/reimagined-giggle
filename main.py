@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
