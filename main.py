@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
