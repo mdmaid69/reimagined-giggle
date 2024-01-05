@@ -1,7 +1,6 @@
+import os
+def change_working_directory(path):
+        os.chdir(path)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
