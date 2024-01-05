@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import array
-def get_array_as_set(array):
-        return set(array)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
