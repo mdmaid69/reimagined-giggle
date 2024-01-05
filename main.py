@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
