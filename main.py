@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
