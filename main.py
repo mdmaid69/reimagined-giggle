@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import time
-def get_current_time():
-        return time.time()
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
