@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
