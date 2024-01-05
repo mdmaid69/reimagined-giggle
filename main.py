@@ -1,6 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
