@@ -1,7 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  def reverse_list(lst):
-        return lst[::-1]
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
