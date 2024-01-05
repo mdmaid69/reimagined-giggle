@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
