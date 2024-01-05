@@ -1,4 +1,8 @@
-for i in range(10): print(i)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
