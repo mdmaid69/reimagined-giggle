@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def convert_to_octal(n):
+        return oct(n)
