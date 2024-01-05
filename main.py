@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def count_elements(lst):
+        return len(lst)
