@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_speed(distance, time):
+        return distance / time
