@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
