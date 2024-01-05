@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_pressure(force, area):
+        return force / area
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
