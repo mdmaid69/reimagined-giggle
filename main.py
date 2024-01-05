@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def reverse_list(lst):
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  def reverse_list(lst):
         return lst[::-1]
