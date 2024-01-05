@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
