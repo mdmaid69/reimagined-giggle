@@ -1,7 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import os
-print(os.getcwd())
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
