@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
