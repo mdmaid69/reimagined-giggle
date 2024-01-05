@@ -1,6 +1,7 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
