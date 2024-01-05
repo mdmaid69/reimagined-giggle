@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
