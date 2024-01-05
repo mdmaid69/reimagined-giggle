@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
