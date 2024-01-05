@@ -1,6 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
