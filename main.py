@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
