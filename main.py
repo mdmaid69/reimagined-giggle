@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
