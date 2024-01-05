@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_index(array, item):
+        return array.index(item)
+text = "Hello, world!"
+print("Characters:", len(text))
