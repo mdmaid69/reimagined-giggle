@@ -1,11 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
