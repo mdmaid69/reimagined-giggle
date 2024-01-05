@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
