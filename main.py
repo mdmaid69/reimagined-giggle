@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def multiply_numbers(x, y):
-        return x * y
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
