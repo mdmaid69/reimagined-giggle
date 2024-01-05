@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
