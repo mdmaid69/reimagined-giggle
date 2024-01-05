@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  def sort_list(lst):
-        return sorted(lst)
+import array
+def get_array_as_list(array):
+        return list(array)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
