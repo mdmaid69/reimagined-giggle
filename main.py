@@ -1,6 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def get_current_directory():
+        return os.getcwd()
