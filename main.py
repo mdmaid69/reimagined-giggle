@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_list_from_array(array):
+        return array.tolist()
