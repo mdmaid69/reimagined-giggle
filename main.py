@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def divide_numbers(x, y):
+        return x / y
+import collections
+def create_priority_queue():
+        return collections.deque()
