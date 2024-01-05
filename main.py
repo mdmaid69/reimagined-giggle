@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_typecode(array):
+        return array.typecode
