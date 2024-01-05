@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
