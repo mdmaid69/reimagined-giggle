@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
