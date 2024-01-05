@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def get_current_working_directory():
+        return os.getcwd()
