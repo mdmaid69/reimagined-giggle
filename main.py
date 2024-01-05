@@ -1,5 +1,7 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
