@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_volume(length, width, height):
-        return length * width * height
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
