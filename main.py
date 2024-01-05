@@ -1,8 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import platform
+def get_python_version():
+        return platform.python_version()
