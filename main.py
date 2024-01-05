@@ -1,6 +1,5 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def convert_array_to_string(array):
+        return array.tostring()
+  def square_number(x):
+        return x**2
