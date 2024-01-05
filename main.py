@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import array
-def clear_array(array):
-        array *= 0
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
