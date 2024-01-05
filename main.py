@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
