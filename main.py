@@ -1,6 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
