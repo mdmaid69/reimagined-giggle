@@ -1,4 +1,12 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
