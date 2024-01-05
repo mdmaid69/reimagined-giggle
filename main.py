@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
