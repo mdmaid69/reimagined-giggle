@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
