@@ -1,5 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
