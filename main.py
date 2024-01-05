@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def count_characters(sentence):
-        return len(sentence)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
