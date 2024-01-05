@@ -1,6 +1,7 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
