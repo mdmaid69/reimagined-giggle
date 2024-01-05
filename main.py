@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def find_union(list1, list2):
+        return set(list1) | set(list2)
