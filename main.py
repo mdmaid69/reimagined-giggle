@@ -1,6 +1,5 @@
+def sort_list(lst):
+        return sorted(lst)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import platform
-def get_python_version():
-        return platform.python_version()
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
