@@ -1,5 +1,12 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
