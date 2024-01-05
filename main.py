@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
