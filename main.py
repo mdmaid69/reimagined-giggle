@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import sys
+def exit_program():
+        sys.exit()
