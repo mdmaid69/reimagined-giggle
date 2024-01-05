@@ -1,4 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-print([x**2 for x in range(10)])
+def remove_duplicates(lst):
+        return list(set(lst))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
