@@ -1,8 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def find_max(lst):
+        return max(lst)
