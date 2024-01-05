@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def convert_to_hex(n):
+        return hex(n)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
