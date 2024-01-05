@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
