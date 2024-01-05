@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
