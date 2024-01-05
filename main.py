@@ -1,6 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def add_numbers(a, b):
+        return a + b
+def sort_list(lst):
+        return sorted(lst)
