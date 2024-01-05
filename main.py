@@ -1,6 +1,11 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
