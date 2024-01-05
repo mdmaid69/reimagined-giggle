@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import platform
+def get_python_version():
+        return platform.python_version()
