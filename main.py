@@ -1,6 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
