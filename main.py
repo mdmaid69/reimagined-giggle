@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import array
+def get_array_item(array, i):
+        return array[i]
