@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import array
+def clear_array(array):
+        array *= 0
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
