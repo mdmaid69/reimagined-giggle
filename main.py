@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
