@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
