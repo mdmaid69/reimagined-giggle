@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
