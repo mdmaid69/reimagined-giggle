@@ -1,5 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
