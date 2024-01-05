@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
