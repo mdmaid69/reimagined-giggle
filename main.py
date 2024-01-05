@@ -1,6 +1,8 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
