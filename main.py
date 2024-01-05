@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+x = 10
+y = 20
+print("Sum:", x + y)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
