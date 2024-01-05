@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_density(mass, volume):
+        return mass / volume
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
