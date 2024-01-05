@@ -1,6 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
