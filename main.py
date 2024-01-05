@@ -1,5 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def convert_to_octal(n):
+        return oct(n)
