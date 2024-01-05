@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
+import collections
+def create_priority_queue():
+        return collections.deque()
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
