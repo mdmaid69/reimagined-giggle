@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
