@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
