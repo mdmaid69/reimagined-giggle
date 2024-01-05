@@ -1,5 +1,4 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def is_palindrome(s):
+        return s == s[::-1]
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
