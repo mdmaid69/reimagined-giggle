@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
