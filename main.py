@@ -1,5 +1,8 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  def square_number(x):
-        return x**2
+import collections
+def create_user_list():
+        return collections.UserList()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
