@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import time
+def get_current_time():
+        return time.ctime()
