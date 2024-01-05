@@ -1,10 +1,5 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-import array
-def clear_array(array):
-        array *= 0
+def reverse_list(lst):
+        return lst[::-1]
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
