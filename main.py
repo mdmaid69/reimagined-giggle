@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
