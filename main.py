@@ -1,7 +1,6 @@
+import collections
+def create_user_list():
+        return collections.UserList()
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
