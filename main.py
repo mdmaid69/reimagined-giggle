@@ -1,5 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import tensorflow as tf
-print(tf.__version__)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+x = 10
+y = 20
+print("Sum:", x + y)
