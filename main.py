@@ -1,5 +1,6 @@
+import array
+def get_array_as_set(array):
+        return set(array)
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_density(mass, volume):
-        return mass / volume
+def create_ordered_dict():
+        return collections.OrderedDict()
