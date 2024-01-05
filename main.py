@@ -1,4 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
