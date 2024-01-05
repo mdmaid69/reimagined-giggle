@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
