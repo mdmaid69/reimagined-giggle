@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_power(work, time):
+        return work / time
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_repr(array):
+        return repr(array)
