@@ -1,5 +1,8 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
