@@ -1,6 +1,11 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def clear_array(array):
-        array *= 0
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
