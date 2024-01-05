@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-text = "Hello, world!"
-print("Characters:", len(text))
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
