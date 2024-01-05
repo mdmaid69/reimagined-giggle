@@ -1,3 +1,8 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-print([x**2 for x in range(10)])
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
