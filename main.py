@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_as_float(array):
+        return float(array[0])
