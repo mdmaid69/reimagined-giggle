@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
