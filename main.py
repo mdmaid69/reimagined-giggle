@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
