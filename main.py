@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
