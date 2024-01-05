@@ -1,4 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-  def square_number(x):
-        return x**2
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
