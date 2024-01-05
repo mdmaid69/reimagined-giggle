@@ -1,7 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def find_max(lst):
+        return max(lst)
