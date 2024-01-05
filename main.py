@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def get_list_from_array(array):
+        return array.tolist()
