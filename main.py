@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
