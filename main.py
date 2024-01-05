@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def get_array_as_str(array):
-        return str(array)
+import collections
+def create_queue():
+        return collections.deque()
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
