@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
