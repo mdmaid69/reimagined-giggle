@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
