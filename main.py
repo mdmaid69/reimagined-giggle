@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def convert_to_octal(n):
-        return oct(n)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
