@@ -1,5 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
