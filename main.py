@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  def sort_list(lst):
-        return sorted(lst)
+import random
+print(random.randint(0, 100))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
