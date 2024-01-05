@@ -1,6 +1,8 @@
-x = 10
-y = 20
-print("Sum:", x + y)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
