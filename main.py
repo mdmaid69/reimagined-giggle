@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import collections
+def create_priority_queue():
+        return collections.deque()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
