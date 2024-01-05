@@ -1,5 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+text = "Hello, world!"
+print("Uppercase:", text.upper())
