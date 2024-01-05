@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_average(lst):
+        return sum(lst) / len(lst)
