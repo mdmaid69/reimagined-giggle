@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
