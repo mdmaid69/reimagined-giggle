@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
