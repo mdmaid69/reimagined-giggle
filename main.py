@@ -1,10 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
