@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_density(mass, volume):
+        return mass / volume
+def find_max(lst):
+        return max(lst)
