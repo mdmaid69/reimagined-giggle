@@ -1,5 +1,8 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def append_to_array(array, item):
+        array.append(item)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
