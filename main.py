@@ -1,6 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
