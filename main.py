@@ -1,6 +1,5 @@
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
