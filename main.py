@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def delete_file(file_name):
+        os.remove(file_name)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
