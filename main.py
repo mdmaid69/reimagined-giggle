@@ -1,7 +1,7 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
