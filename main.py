@@ -1,6 +1,5 @@
+def calculate_density(mass, volume):
+        return mass / volume
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
