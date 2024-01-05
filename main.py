@@ -1,4 +1,8 @@
-  def is_odd(n):
-        return n % 2 != 0
-def sort_numbers(numbers):
-        return sorted(numbers)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
