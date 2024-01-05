@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
