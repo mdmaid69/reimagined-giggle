@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
