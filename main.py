@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
