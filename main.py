@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import sys
+print(sys.version)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
