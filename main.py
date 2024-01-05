@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_pressure(force, area):
+        return force / area
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
