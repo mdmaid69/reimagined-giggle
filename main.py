@@ -1,5 +1,7 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
