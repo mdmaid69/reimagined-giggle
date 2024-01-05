@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
