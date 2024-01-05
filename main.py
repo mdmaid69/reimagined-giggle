@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_density(mass, volume):
+        return mass / volume
+import os
+def change_working_directory(path):
+        os.chdir(path)
