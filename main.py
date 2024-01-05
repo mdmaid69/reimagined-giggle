@@ -1,5 +1,6 @@
+import array
+def get_array_typecode(array):
+        return array.typecode
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  def get_current_working_directory():
+        return os.getcwd()
