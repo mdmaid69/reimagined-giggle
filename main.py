@@ -1,6 +1,8 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
 import collections
-def create_counter():
-        return collections.Counter()
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
