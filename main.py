@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
