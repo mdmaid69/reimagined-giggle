@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
