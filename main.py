@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_item(array, i):
+        return array[i]
