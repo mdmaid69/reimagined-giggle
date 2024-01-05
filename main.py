@@ -1,6 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def count_elements(lst):
+        return len(lst)
+for i in range(5):
+        print(i)
