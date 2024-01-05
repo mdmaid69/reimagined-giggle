@@ -1,5 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
