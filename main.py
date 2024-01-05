@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_force(mass, acceleration):
+        return mass * acceleration
