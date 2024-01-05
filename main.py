@@ -1,4 +1,8 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
