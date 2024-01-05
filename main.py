@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import time
-def get_current_time():
-        return time.time()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
