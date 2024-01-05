@@ -1,6 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
