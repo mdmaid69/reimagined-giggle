@@ -1,5 +1,3 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def count_elements(lst):
+        return len(lst)
+for i in range(10): print(i)
