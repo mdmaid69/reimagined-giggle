@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_area_circle(r):
+        return 3.14 * r**2
