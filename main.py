@@ -1,5 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def find_max(numbers):
-        return max(numbers)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
