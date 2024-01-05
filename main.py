@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import logging
+def log_message(message):
+        logging.info(message)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
