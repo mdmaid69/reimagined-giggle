@@ -1,4 +1,5 @@
-print(sum(range(10)))
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def greet(name):
+        print(f"Hello, {name}!")
