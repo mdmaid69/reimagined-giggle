@@ -1,3 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-print("Hello, world!")
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
