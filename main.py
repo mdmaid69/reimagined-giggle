@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import sys
+  def get_python_version():
+        return sys.version
