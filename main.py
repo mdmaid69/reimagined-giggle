@@ -1,4 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import os
-print(os.getcwd())
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
