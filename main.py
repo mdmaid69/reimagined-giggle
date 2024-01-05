@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
