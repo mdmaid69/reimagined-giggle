@@ -1,6 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import datetime
+print(datetime.datetime.now())
+def find_unique_words(sentence):
+        return set(sentence.split())
