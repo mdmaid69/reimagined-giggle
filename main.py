@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def clear_array(array):
+        array *= 0
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
