@@ -1,5 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def convert_to_binary(n):
+        return bin(n)
