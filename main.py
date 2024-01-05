@@ -1,9 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
