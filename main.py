@@ -1,5 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
