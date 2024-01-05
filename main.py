@@ -1,6 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
