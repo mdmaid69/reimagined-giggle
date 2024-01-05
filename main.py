@@ -1,5 +1,4 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
