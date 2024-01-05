@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
