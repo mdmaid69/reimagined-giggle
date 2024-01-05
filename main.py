@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def get_array_as_str(array):
+        return str(array)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
