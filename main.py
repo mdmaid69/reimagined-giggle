@@ -1,8 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
