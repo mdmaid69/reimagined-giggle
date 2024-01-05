@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import re
+print(re.match("h.*o", "hello world"))
 import array
-def get_array_length(array):
-        return len(array)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
