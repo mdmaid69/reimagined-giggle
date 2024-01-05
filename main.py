@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
