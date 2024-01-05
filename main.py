@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def sort_list(lst):
-        return sorted(lst)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+  def multiply_numbers(x, y):
+        return x * y
