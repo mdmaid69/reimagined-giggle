@@ -1,5 +1,8 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
