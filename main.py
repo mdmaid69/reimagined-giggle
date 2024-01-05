@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
