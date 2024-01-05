@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
