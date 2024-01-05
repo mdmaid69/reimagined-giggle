@@ -1,6 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
