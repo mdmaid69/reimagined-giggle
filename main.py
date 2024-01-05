@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
