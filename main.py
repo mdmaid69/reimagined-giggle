@@ -1,5 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
