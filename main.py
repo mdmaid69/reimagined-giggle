@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  def remove_duplicates(lst):
+        return list(set(lst))
