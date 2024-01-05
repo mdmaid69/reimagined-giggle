@@ -1,4 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def square_number(x):
-        return x**2
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
