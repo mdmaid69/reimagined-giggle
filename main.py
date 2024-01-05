@@ -1,6 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import array
+def reverse_array(array):
+        array.reverse()
+import getpass
+def get_username():
+        return getpass.getuser()
