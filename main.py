@@ -1,4 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-print(sum(range(10)))
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
