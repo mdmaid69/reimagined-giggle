@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
