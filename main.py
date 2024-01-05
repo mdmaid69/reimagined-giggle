@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-def find_min(numbers):
-        return min(numbers)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
