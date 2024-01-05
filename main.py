@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
