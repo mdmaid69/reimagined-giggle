@@ -1,7 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def sort_numbers(numbers):
+        return sorted(numbers)
