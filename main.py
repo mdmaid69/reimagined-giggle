@@ -1,5 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import random
-print(random.randint(0, 100))
+import collections
+def create_queue():
+        return collections.deque()
+  def add_numbers(x, y):
+        return x + y
