@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
