@@ -1,4 +1,6 @@
-print("Hello, world!")
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
