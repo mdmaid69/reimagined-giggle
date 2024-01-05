@@ -1,5 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
