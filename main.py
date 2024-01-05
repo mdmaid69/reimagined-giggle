@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
