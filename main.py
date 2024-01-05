@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_array_as_repr(array):
+        return repr(array)
