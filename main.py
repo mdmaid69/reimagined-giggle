@@ -1,6 +1,6 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
