@@ -1,4 +1,8 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
