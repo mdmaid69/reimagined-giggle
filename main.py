@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
