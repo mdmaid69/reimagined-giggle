@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
 import math
-def calculate_neper_number_to_power_x(x):
+def calculate_exponential(x):
         return math.exp(x)
+def remove_duplicates(lst):
+        return list(set(lst))
