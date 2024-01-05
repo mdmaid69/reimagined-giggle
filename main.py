@@ -1,8 +1,7 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
