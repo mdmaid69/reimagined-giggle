@@ -1,6 +1,10 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
