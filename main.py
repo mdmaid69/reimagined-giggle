@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import logging
+def log_message(message):
+        logging.info(message)
