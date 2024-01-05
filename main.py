@@ -1,7 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
