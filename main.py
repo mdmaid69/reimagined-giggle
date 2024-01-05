@@ -1,6 +1,8 @@
-import array
-def clear_array(array):
-        array *= 0
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
