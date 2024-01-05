@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
