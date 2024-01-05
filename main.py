@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_area(radius):
+        return 3.14 * radius * radius
