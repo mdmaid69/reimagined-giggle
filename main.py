@@ -1,5 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def subtract_numbers(x, y):
+        return x - y
