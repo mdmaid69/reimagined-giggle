@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import time
+def get_time_since_epoch():
+        return time.time()
+import tensorflow as tf
+print(tf.__version__)
