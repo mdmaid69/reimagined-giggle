@@ -1,6 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def divide_numbers(x, y):
+        return x / y
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
