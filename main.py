@@ -1,6 +1,6 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_exponential(x):
+        return math.exp(x)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
