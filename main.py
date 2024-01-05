@@ -1,5 +1,8 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
