@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
