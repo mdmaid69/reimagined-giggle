@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import datetime
+print(datetime.datetime.now())
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
