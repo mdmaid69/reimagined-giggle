@@ -1,6 +1,9 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def is_palindrome(s):
+        return s == s[::-1]
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
