@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
