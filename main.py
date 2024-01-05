@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
