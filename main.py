@@ -1,8 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
