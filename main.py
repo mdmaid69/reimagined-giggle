@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
