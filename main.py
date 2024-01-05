@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
