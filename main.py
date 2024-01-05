@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def multiply_numbers(x, y):
+        return x * y
