@@ -1,5 +1,6 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  def count_elements(lst):
-        return len(lst)
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
