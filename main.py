@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
