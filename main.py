@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
