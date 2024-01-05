@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def reverse_array(array):
+        array.reverse()
+def convert_to_octal(n):
+        return oct(n)
