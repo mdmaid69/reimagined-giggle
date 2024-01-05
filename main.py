@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+for i in range(10): print(i)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
