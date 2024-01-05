@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
