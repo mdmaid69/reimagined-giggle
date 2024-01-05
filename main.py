@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
