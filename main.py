@@ -1,5 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def is_palindrome(s):
-        return s == s[::-1]
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import time
+def get_current_time():
+        return time.ctime()
