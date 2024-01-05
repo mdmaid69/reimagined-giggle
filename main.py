@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
