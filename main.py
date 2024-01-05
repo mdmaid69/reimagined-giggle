@@ -1,6 +1,5 @@
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
