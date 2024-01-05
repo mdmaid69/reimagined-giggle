@@ -1,6 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def is_odd(n):
+        return n % 2 != 0
+def convert_to_octal(n):
+        return oct(n)
