@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
