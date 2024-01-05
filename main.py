@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
   import os
-  def get_file_ino(file_name):
+  def get_file_inode(file_name):
         return os.stat(file_name).st_ino
