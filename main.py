@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import datetime
+def get_current_date():
+        return datetime.date.today()
