@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_volume(length, width, height):
+        return length * width * height
+import json
+def convert_to_json(data):
+        return json.dumps(data)
