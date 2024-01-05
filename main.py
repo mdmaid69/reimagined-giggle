@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
