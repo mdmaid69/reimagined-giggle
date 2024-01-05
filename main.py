@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import random
+def roll_die():
+        return random.randint(1, 6)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
