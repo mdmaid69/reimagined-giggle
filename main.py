@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
