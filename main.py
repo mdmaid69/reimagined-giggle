@@ -1,5 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
