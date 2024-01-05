@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
