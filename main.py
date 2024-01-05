@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
