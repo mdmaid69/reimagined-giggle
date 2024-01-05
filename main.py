@@ -1,8 +1,6 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
