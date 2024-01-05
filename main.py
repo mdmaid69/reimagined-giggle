@@ -1,5 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def reverse_string(s):
-        return s[::-1]
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
