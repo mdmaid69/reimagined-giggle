@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def remove_from_array(array, item):
+        array.remove(item)
