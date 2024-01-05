@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
