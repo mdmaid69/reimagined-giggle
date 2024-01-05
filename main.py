@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import sys
-def print_python_version():
-        print(sys.version)
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
