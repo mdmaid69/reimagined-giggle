@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_as_set(array):
+        return set(array)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
