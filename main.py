@@ -1,4 +1,8 @@
-  def convert_to_hex(n):
-        return hex(n)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
