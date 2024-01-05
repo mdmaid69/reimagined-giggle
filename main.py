@@ -1,6 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+for i in range(5):
+        print(i)
+import json
+print(json.dumps({"name": "John", "age": 30}))
