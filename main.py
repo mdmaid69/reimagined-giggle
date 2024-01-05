@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
