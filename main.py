@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
