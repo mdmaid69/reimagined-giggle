@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def count_elements(lst):
+        return len(lst)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
