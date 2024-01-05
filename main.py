@@ -1,8 +1,6 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
