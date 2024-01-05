@@ -1,5 +1,6 @@
 import collections
-def create_stack():
-        return collections.deque()
-def calculate_acceleration(speed, time):
-        return speed / time
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import math
+def calculate_sine(x):
+        return math.sin(x)
