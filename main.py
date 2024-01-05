@@ -1,5 +1,8 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
