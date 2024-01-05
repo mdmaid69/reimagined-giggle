@@ -1,7 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import time
+def get_current_time():
+        return time.time()
