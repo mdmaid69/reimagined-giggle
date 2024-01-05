@@ -1,7 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import time
+print(time.time())
+import platform
+def get_os_info():
+        return platform.uname()
