@@ -1,7 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
