@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
