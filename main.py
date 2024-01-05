@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
