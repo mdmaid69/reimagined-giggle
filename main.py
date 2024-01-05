@@ -1,5 +1,8 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def get_array_length(array):
+        return len(array)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
