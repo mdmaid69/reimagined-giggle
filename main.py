@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
