@@ -1,5 +1,7 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def calculate_force(mass, acceleration):
+        return mass * acceleration
