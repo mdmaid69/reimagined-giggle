@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
