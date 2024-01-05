@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import array
-def get_array_length(array):
-        return len(array)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def convert_to_octal(n):
+        return oct(n)
