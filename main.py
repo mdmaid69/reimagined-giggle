@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import random
+print(random.randint(0, 100))
