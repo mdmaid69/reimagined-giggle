@@ -1,5 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
