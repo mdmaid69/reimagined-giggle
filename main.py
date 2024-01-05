@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
