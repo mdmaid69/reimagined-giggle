@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
