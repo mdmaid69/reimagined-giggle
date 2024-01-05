@@ -1,7 +1,6 @@
+import time
+def get_current_time():
+        return time.ctime()
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def get_array_item_count(array, item):
+        return array.count(item)
