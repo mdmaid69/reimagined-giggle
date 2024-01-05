@@ -1,5 +1,6 @@
+import array
+def set_array_item(array, i, item):
+        array[i] = item
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
