@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def convert_array_to_bytes(array):
+        return array.tobytes()
