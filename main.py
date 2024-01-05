@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
