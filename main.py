@@ -1,6 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_pressure(force, area):
+        return force / area
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
