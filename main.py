@@ -1,6 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def count_elements(lst):
+        return len(lst)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
