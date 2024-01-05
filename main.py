@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
