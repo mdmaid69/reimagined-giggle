@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
