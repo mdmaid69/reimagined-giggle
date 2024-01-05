@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import sys
-def exit_program():
-        sys.exit()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
