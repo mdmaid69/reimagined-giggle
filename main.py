@@ -1,6 +1,3 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+for i in range(10): print(i)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
