@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
