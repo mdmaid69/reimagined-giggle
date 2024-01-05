@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import random
+print(random.randint(0, 100))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
