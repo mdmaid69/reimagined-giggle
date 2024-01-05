@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def find_min(numbers):
-        return min(numbers)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
