@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def subtract_numbers(x, y):
+        return x - y
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
