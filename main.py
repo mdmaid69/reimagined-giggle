@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def is_palindrome(s):
-        return s == s[::-1]
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
