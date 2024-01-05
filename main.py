@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
