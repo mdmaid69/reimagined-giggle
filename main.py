@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
