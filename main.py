@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
