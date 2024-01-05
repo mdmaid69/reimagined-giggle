@@ -1,8 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
