@@ -1,6 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+def calculate_area_rectangle(l, w):
+        return l * w
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
