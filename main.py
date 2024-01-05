@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
