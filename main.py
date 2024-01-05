@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  def cube_number(x):
+        return x**3
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
