@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
