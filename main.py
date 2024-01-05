@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
