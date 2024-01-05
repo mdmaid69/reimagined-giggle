@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def divide_numbers(x, y):
-        return x / y
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
