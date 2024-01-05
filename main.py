@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import collections
+def create_user_string():
+        return collections.UserString()
+import collections
+def create_user_dict():
+        return collections.UserDict()
