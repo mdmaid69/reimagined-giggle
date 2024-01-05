@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def append_to_array(array, item):
+        array.append(item)
+def cube_number(x):
+        return x**3
