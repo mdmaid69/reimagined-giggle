@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
