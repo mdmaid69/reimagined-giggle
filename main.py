@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
