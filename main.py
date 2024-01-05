@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import datetime
-print(datetime.datetime.now())
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
