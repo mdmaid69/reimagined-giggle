@@ -1,6 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
