@@ -1,5 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
