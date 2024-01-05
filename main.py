@@ -1,7 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import platform
+def get_os_info():
+        return platform.uname()
+def is_even(n):
+        return n % 2 == 0
