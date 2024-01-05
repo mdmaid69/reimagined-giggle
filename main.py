@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import re
 def replace_pattern(pattern, replacement, string):
         return re.sub(pattern, replacement, string)
