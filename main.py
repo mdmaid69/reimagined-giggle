@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import platform
-def get_os_info():
-        return platform.uname()
+def is_odd(n):
+        return n % 2 != 0
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
