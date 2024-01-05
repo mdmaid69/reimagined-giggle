@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def square_number(x):
+        return x**2
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
