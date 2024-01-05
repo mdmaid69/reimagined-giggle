@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
