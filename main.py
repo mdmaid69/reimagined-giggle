@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
