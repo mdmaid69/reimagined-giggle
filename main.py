@@ -1,5 +1,8 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
