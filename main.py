@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
