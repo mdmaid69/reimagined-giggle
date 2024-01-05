@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
