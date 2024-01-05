@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def sort_list(lst):
+        return sorted(lst)
