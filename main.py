@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import collections
-def create_priority_queue():
-        return collections.deque()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def divide_numbers(x, y):
+        return x / y
