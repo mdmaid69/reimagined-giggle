@@ -1,6 +1,6 @@
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def calculate_factorial(n):
+        return math.factorial(n)
