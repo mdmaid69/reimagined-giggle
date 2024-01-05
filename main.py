@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def cube_number(x):
+        return x**3
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
