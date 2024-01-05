@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def subtract_numbers(x, y):
+        return x - y
+import array
+def append_to_array(array, item):
+        array.append(item)
