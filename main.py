@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
