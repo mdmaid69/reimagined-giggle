@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
