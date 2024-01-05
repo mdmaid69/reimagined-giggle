@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  def convert_to_octal(n):
+        return oct(n)
