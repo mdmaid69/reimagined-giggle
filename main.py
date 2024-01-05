@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-x = 10
-y = 20
-print("Sum:", x + y)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
