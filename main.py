@@ -1,5 +1,4 @@
-import collections
-def create_stack():
-        return collections.deque()
-  def convert_to_octal(n):
-        return oct(n)
+def count_characters(sentence):
+        return len(sentence)
+import time
+print(time.time())
