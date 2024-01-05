@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
