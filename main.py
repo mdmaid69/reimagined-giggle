@@ -1,5 +1,6 @@
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import os
-print(os.getcwd())
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
