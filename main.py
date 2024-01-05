@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
