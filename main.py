@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
