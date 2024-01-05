@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def cube_number(x):
+        return x**3
