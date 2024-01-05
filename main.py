@@ -1,5 +1,5 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def count_elements(lst):
-        return len(lst)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
