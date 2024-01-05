@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
