@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  def convert_to_hex(n):
+        return hex(n)
