@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+print(math.pi)
