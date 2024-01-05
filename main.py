@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
