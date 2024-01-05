@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import collections
+def create_stack():
+        return collections.deque()
+from collections import Counter
+print(Counter("hello world"))
