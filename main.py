@@ -1,6 +1,4 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import numpy as np
+print(np.array([1, 2, 3]))
+  def remove_duplicates(lst):
+        return list(set(lst))
