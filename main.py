@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import sys
+print(sys.version)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
