@@ -1,6 +1,7 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
