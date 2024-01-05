@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import collections
-def create_user_string():
-        return collections.UserString()
+def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
