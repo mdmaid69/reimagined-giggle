@@ -1,5 +1,6 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-text = "Hello, world!"
-print("Characters:", len(text))
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
