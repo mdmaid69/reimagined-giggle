@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
