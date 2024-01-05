@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
