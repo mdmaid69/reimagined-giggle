@@ -1,8 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_force(mass, acceleration):
+        return mass * acceleration
