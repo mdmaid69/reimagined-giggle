@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+x = 10
+y = 20
+print("Sum:", x + y)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
