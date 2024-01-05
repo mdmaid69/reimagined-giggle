@@ -1,7 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
