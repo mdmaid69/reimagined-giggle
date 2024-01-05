@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
