@@ -1,6 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_pressure(force, area):
+        return force / area
+def sort_list(lst):
+        return sorted(lst)
