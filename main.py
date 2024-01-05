@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
