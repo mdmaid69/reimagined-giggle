@@ -1,6 +1,5 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_work(force, distance):
+        return force * distance
