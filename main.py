@@ -1,8 +1,7 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def get_array_as_frozenset(array):
+        return frozenset(array)
