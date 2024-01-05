@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import collections
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
