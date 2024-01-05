@@ -1,5 +1,7 @@
-def find_min(numbers):
-        return min(numbers)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def find_unique_words(sentence):
+        return set(sentence.split())
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
