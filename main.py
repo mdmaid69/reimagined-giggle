@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def greet(name):
+        print(f"Hello, {name}!")
