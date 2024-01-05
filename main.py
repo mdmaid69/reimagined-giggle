@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
