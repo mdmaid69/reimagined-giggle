@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import array
-def get_array_typecode(array):
-        return array.typecode
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  def subtract_numbers(x, y):
+        return x - y
