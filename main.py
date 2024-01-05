@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
