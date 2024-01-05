@@ -1,7 +1,6 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  def calculate_area_circle(r):
+        return 3.14 * r**2
