@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
