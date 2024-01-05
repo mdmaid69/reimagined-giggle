@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import logging
+def log_message(message):
+        logging.info(message)
