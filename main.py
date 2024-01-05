@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def subtract_numbers(x, y):
+        return x - y
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def split_path(path):
+        return os.path.split(path)
