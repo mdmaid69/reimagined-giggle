@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
