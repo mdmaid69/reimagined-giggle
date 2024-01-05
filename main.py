@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
