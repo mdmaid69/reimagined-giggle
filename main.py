@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
