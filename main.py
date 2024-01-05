@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def clear_array(array):
-        array *= 0
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
