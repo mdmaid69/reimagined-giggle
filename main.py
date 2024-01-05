@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
