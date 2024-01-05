@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_area_rectangle(l, w):
+        return l * w
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
