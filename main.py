@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+text = "Hello, world!"
+print("Characters:", len(text))
+def convert_to_hex(n):
+        return hex(n)
