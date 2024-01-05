@@ -1,5 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def calculate_power(work, time):
+        return work / time
