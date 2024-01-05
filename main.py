@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def find_max(numbers):
+        return max(numbers)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
