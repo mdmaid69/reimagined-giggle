@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
