@@ -1,7 +1,11 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_work(force, distance):
+        return force * distance
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
