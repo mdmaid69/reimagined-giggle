@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
