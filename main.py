@@ -1,4 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def sort_numbers(numbers):
+        return sorted(numbers)
