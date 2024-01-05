@@ -1,5 +1,8 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
