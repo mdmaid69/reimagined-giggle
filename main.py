@@ -1,6 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
