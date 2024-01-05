@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def remove_duplicates(lst):
+        return list(set(lst))
