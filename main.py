@@ -1,6 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_area_rectangle(l, w):
+        return l * w
+def is_odd(n):
+        return n % 2 != 0
