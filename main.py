@@ -1,4 +1,8 @@
-from collections import Counter
-print(Counter("hello world"))
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
