@@ -1,7 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
