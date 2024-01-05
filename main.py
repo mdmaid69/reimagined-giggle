@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def convert_to_hex(n):
-        return hex(n)
+def find_max(numbers):
+        return max(numbers)
+import platform
+def get_python_version():
+        return platform.python_version()
