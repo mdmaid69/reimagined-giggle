@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
