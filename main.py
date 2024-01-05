@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  def convert_to_octal(n):
-        return oct(n)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
