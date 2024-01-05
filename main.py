@@ -1,5 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
