@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_index(array, item):
+        return array.index(item)
