@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import re
-print(re.match("h.*o", "hello world"))
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
