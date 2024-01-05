@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
