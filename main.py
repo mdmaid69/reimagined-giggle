@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
