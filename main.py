@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
