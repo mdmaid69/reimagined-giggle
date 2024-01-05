@@ -1,6 +1,5 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def add_numbers(x, y):
+        return x + y
