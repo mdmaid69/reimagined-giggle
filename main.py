@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import re
+print(re.match("h.*o", "hello world"))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
