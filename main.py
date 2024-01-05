@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
