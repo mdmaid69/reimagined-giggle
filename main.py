@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def calculate_pressure(force, area):
-        return force / area
+def find_min(lst):
+        return min(lst)
+import array
+def append_to_array(array, item):
+        array.append(item)
