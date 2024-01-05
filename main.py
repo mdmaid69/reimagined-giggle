@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def divide_numbers(x, y):
+        return x / y
+import os
+def change_working_directory(path):
+        os.chdir(path)
