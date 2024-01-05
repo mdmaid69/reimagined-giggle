@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
