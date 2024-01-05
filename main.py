@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
