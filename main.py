@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
