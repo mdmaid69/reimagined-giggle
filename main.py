@@ -1,3 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-print(sum(range(10)))
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  def add_numbers(x, y):
+        return x + y
