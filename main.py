@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def add_numbers(x, y):
-        return x + y
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
