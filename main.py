@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  def convert_to_octal(n):
+        return oct(n)
