@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
