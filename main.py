@@ -1,6 +1,6 @@
-import unittest
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import socket
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-for i in range(10): print(i)
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
