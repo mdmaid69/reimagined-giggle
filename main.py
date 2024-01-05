@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import random
+print(random.randint(0, 100))
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
