@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
