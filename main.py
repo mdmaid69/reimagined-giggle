@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
 import math
 def calculate_gamma_function(x):
         return math.gamma(x)
