@@ -1,6 +1,8 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
