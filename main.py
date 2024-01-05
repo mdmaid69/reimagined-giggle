@@ -1,5 +1,11 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_pressure(force, area):
+        return force / area
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
