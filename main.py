@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import array
-def get_string_from_array(array):
+def convert_array_to_bytes(array):
         return array.tobytes()
