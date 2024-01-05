@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def is_odd(n):
+        return n % 2 != 0
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
