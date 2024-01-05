@@ -1,5 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
