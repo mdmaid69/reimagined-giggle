@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
