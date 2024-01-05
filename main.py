@@ -1,7 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import collections
+def create_priority_queue():
+        return collections.deque()
