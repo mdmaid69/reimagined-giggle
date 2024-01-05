@@ -1,6 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
