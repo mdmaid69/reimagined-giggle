@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
