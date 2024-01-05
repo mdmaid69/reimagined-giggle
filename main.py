@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
