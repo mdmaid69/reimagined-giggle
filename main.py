@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def sort_numbers(numbers):
+        return sorted(numbers)
