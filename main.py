@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
