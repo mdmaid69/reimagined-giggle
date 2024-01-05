@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
