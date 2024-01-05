@@ -1,12 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
