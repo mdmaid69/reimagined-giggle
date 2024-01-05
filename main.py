@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
