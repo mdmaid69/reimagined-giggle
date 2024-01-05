@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import datetime
+def get_current_date():
+        return datetime.date.today()
