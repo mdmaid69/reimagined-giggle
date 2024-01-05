@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
