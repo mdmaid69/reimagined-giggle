@@ -1,5 +1,7 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  def count_elements(lst):
-        return len(lst)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
