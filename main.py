@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
