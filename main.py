@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
