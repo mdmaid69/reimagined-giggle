@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def get_array_as_str(array):
-        return str(array)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
