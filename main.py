@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
