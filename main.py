@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import time
+def get_current_time():
+        return time.time()
