@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
