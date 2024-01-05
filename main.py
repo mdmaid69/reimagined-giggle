@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_as_int(array):
+        return int(array[0])
+def calculate_average(lst):
+        return sum(lst) / len(lst)
