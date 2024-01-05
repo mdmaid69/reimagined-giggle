@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import numpy as np
-print(np.array([1, 2, 3]))
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
