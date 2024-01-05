@@ -1,8 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
