@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def find_max(numbers):
-        return max(numbers)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
