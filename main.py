@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_density(mass, volume):
+        return mass / volume
