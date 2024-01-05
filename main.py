@@ -1,5 +1,7 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
