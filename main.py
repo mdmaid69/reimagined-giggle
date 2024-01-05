@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def remove_duplicates(lst):
+        return list(set(lst))
