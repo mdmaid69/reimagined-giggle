@@ -1,4 +1,4 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_work(force, distance):
+        return force * distance
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
