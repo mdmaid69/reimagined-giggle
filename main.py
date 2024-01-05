@@ -1,4 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-print([x**2 for x in range(10)])
+import re
+print(re.match("h.*o", "hello world"))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
