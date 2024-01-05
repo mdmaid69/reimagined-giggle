@@ -1,6 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def reverse_string(s):
+        return s[::-1]
