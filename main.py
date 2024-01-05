@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
