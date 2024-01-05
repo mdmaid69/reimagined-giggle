@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_area(radius):
+        return 3.14 * radius * radius
