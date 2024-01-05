@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import os
-print(os.getcwd())
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
