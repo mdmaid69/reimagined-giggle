@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_as_list(array):
+        return list(array)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
