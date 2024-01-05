@@ -1,6 +1,11 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
