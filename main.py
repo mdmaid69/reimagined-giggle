@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import random
+def roll_die():
+        return random.randint(1, 6)
+def cube_number(x):
+        return x**3
