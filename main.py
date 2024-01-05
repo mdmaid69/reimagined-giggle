@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+name = "Python"
+print("Hello,", name)
+import array
+def get_array_index(array, item):
+        return array.index(item)
