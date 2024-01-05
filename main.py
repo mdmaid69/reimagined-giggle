@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def calculate_pressure(force, area):
+        return force / area
