@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
