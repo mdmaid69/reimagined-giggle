@@ -1,5 +1,10 @@
-  def convert_to_binary(n):
-        return bin(n)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
