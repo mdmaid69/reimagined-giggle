@@ -1,5 +1,3 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import math
-print(math.pi)
+def calculate_acceleration(speed, time):
+        return speed / time
+print(sum(range(10)))
