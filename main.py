@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_tangent(x):
+        return math.tan(x)
