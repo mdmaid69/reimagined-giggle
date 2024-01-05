@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def remove_duplicates(lst):
-        return list(set(lst))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
