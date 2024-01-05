@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
