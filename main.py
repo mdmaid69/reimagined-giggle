@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
