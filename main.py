@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
