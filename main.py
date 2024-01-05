@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
