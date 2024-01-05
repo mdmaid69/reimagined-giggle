@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
