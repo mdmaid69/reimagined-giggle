@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
