@@ -1,4 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def find_max(numbers):
-        return max(numbers)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def remove_duplicates(lst):
+        return list(set(lst))
