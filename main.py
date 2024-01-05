@@ -1,5 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def find_min(numbers):
-        return min(numbers)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
