@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import sys
+print(sys.version)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
