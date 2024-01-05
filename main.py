@@ -1,7 +1,7 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_array_item(array, i):
+        return array[i]
