@@ -1,7 +1,11 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import unittest
+import threading
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
