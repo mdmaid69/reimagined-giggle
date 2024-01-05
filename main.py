@@ -1,5 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def is_odd(n):
-        return n % 2 != 0
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_power(work, time):
+        return work / time
