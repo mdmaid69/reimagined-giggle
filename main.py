@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+print(sum(range(10)))
