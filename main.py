@@ -1,6 +1,5 @@
+import datetime
+print(datetime.datetime.now())
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
