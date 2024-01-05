@@ -1,6 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
