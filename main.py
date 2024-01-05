@@ -1,5 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def calculate_area_circle(r):
+        return 3.14 * r**2
