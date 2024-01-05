@@ -1,5 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-name = "Python"
-print("Hello,", name)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
