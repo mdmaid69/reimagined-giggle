@@ -1,3 +1,7 @@
-def greet(name):
-        print(f"Hello, {name}!")
-for i in range(10): print(i)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
