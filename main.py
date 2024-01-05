@@ -1,5 +1,8 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import collections
-def create_user_list():
-        return collections.UserList()
+import random
+def roll_die():
+        return random.randint(1, 6)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
