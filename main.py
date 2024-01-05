@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
