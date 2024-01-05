@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
