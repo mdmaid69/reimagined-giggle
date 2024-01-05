@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import time
-def get_current_time():
-        return time.ctime()
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
