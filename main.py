@@ -1,6 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
   import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
