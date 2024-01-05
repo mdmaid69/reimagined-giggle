@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import time
+def get_current_time():
+        return time.ctime()
+import platform
+def get_python_version():
+        return platform.python_version()
