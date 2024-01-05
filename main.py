@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def divide_numbers(x, y):
+        return x / y
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
