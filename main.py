@@ -1,7 +1,7 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
