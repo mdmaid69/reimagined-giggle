@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
