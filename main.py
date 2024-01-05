@@ -1,6 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import array
+def remove_from_array(array, item):
+        array.remove(item)
