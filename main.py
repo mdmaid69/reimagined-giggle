@@ -1,6 +1,7 @@
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
 import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def count_words(sentence):
-        return len(sentence.split())
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
