@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_speed(distance, time):
-        return distance / time
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import array
+def append_to_array(array, item):
+        array.append(item)
