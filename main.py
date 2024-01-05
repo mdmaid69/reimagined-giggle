@@ -1,4 +1,10 @@
-  def multiply_numbers(x, y):
-        return x * y
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
