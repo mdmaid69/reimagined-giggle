@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import time
+def get_current_time():
+        return time.time()
