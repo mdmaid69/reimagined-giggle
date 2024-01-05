@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
