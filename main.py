@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
