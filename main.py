@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_power(work, time):
+        return work / time
