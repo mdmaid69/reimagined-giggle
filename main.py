@@ -1,8 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import time
+def get_current_time():
+        return time.ctime()
+import collections
+def create_counter():
+        return collections.Counter()
