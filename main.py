@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
