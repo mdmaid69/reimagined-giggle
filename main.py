@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
