@@ -1,3 +1,3 @@
-def convert_to_hex(n):
-        return hex(n)
 print("Hello, world!")
+  def count_elements(lst):
+        return len(lst)
