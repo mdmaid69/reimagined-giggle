@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def is_even(n):
+        return n % 2 == 0
