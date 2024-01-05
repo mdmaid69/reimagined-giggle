@@ -1,6 +1,8 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import time
-def get_time_since_epoch():
-        return time.time()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_sine(x):
+        return math.sin(x)
