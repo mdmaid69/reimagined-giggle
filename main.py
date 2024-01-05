@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
