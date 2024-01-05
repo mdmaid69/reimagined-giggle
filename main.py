@@ -1,5 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
