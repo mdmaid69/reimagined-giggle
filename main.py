@@ -1,5 +1,8 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
