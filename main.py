@@ -1,4 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-print("Hello, world!")
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
