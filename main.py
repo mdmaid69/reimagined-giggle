@@ -1,5 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+for i in range(10): print(i)
