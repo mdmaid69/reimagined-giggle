@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
