@@ -1,6 +1,7 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
