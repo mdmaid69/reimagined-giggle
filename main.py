@@ -1,5 +1,8 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_current_working_directory():
+        return os.getcwd()
