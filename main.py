@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
