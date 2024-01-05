@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import collections
+def create_user_list():
+        return collections.UserList()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
