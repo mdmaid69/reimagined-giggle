@@ -1,6 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+from collections import Counter
+print(Counter("hello world"))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
