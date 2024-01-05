@@ -1,6 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import platform
-def get_python_version():
-        return platform.python_version()
+import re
+print(re.match("h.*o", "hello world"))
+  def cube_number(x):
+        return x**3
