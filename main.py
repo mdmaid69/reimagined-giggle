@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_speed(distance, time):
+        return distance / time
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
