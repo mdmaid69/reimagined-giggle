@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
