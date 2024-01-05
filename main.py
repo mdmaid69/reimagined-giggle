@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
