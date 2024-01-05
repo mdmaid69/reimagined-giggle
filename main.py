@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_area_circle(r):
+        return 3.14 * r**2
