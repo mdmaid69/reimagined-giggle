@@ -1,5 +1,6 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
