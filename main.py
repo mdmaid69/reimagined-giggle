@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
