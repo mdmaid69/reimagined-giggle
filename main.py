@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+def calculate_work(force, distance):
+        return force * distance
