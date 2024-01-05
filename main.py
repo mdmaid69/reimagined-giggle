@@ -1,5 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
