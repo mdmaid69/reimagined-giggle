@@ -1,5 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def find_min(lst):
-        return min(lst)
+import logging
+def log_message(message):
+        logging.info(message)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
