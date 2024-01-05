@@ -1,5 +1,11 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def cube_number(x):
-        return x**3
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import sys
+print(sys.version)
