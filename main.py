@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
