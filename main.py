@@ -1,6 +1,7 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
