@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
