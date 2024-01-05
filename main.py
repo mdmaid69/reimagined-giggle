@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def calculate_pressure(force, area):
-        return force / area
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
