@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import re
+print(re.match("h.*o", "hello world"))
