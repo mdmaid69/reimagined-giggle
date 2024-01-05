@@ -1,6 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
