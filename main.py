@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
