@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
