@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
