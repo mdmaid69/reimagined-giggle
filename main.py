@@ -1,4 +1,6 @@
-print("Hello, world!")
-import time
-def get_current_time():
-        return time.time()
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
