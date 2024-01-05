@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
