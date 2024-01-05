@@ -1,6 +1,7 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  def is_even(n):
+        return n % 2 == 0
