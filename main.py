@@ -1,4 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+print(sum(range(10)))
+import datetime
+def get_today_date():
+        return datetime.date.today()
