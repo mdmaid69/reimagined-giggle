@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import collections
-def create_stack():
-        return collections.deque()
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def get_array_as_str(array):
+        return str(array)
