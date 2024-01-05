@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_current_working_directory():
+        return os.getcwd()
