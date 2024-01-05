@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import tensorflow as tf
-print(tf.__version__)
+import sys
+def exit_program():
+        sys.exit()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
