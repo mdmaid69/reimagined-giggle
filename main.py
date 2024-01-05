@@ -1,8 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
