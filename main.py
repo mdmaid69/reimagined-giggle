@@ -1,5 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
