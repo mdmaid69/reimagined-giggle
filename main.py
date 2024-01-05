@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
