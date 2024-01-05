@@ -1,5 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def convert_to_hex(n):
-        return hex(n)
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
