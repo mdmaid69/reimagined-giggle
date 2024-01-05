@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_density(mass, volume):
+        return mass / volume
