@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
