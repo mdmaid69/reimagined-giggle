@@ -1,5 +1,8 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
