@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
+  def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
