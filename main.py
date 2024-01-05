@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import time
+print(time.time())
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
