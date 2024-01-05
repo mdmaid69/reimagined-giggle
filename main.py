@@ -1,6 +1,3 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+print([x**2 for x in range(10)])
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
