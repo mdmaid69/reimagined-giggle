@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_volume(length, width, height):
+        return length * width * height
