@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
