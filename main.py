@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
