@@ -1,5 +1,7 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  def reverse_list(lst):
-        return lst[::-1]
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
