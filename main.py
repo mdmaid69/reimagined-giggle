@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import platform
-def get_python_version():
-        return platform.python_version()
+def sort_list(lst):
+        return sorted(lst)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
