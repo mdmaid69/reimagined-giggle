@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
