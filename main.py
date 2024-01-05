@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def cube_number(x):
-        return x**3
+import random
+def roll_die():
+        return random.randint(1, 6)
+for i in range(5):
+        print(i)
