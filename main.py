@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
   import numpy as np
   def calculate_median(arr):
         return np.median(arr)
+  def is_odd(n):
+        return n % 2 != 0
