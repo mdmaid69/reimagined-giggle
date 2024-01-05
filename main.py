@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
