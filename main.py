@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_acceleration(speed, time):
-        return speed / time
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
