@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
