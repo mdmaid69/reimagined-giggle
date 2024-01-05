@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def add_numbers(x, y):
+        return x + y
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
