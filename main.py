@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def add_numbers(a, b):
+        return a + b
