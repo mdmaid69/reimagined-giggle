@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def add_numbers(x, y):
+        return x + y
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
