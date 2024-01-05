@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
