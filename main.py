@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
