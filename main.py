@@ -1,4 +1,8 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
