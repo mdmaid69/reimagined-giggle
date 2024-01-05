@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
