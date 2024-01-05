@@ -1,7 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
