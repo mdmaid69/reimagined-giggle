@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
