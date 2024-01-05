@@ -1,6 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
