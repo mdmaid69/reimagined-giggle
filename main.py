@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+print("Hello, world!")
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
