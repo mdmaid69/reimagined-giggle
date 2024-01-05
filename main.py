@@ -1,6 +1,7 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+from collections import Counter
+print(Counter("hello world"))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
