@@ -1,4 +1,8 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_work(force, distance):
-        return force * distance
+def sort_numbers(numbers):
+        return sorted(numbers)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
