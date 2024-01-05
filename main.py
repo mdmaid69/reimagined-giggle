@@ -1,5 +1,7 @@
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
 import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def reverse_string(s):
-        return s[::-1]
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
