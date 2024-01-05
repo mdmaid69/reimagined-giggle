@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def cube_number(x):
+        return x**3
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
