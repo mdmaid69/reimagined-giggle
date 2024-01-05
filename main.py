@@ -1,6 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_volume(length, width, height):
+        return length * width * height
 import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
