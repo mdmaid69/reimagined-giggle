@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
