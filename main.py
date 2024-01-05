@@ -1,6 +1,5 @@
+def find_unique_words(sentence):
+        return set(sentence.split())
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import collections
-def create_stack():
-        return collections.deque()
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
