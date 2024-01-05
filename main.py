@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import sys
+print(sys.version)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
