@@ -1,6 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
