@@ -1,5 +1,3 @@
-for i in range(5):
-        print(i)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+print([x**2 for x in range(10)])
+def reverse_list(lst):
+        return lst[::-1]
