@@ -1,6 +1,9 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+def calculate_perpetuity(payment, rate):
+        return payment / rate
