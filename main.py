@@ -1,4 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-for i in range(10): print(i)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_array_item(array, i):
+        return array[i]
