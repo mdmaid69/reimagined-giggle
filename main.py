@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import sys
+def print_python_version():
+        print(sys.version)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
