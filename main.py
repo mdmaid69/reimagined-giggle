@@ -1,5 +1,8 @@
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
