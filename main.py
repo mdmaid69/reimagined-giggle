@@ -1,10 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
