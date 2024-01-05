@@ -1,4 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_floor(x):
+        return math.floor(x)
+print(sum(range(10)))
