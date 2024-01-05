@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
