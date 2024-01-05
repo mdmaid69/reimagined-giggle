@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import time
+def get_current_time():
+        return time.time()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
