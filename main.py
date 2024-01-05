@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
