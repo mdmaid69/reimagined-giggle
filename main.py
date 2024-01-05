@@ -1,8 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
