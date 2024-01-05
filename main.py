@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
