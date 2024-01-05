@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def clear_array(array):
-        array *= 0
+import sys
+def exit_program():
+        sys.exit()
+  def remove_duplicates(lst):
+        return list(set(lst))
