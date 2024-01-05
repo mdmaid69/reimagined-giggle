@@ -1,4 +1,12 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
