@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-from collections import Counter
-print(Counter("hello world"))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
