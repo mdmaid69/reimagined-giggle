@@ -1,7 +1,4 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import re
+print(re.match("h.*o", "hello world"))
