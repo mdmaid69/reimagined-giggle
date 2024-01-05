@@ -1,5 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
