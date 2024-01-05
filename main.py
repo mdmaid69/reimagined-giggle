@@ -1,6 +1,5 @@
+name = "Python"
+print("Hello,", name)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
