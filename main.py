@@ -1,6 +1,5 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
