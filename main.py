@@ -1,6 +1,5 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-import sys
-def print_python_version():
-        print(sys.version)
+def get_array_as_bytes(array):
+        return bytes(array)
+import datetime
+print(datetime.datetime.now())
