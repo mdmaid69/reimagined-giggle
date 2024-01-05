@@ -1,5 +1,5 @@
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
 import array
-def reverse_array(array):
-        array.reverse()
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def remove_from_array(array, item):
+        array.remove(item)
