@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
