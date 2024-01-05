@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
