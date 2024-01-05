@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  def square_number(x):
+        return x**2
