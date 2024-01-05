@@ -1,6 +1,7 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
