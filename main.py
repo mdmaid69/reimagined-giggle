@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
