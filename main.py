@@ -1,9 +1,8 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
