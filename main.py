@@ -1,3 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-for i in range(10): print(i)
+import time
+print(time.time())
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
