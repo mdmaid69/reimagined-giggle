@@ -1,5 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import time
-print(time.time())
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
