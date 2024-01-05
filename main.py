@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-from collections import Counter
-print(Counter("hello world"))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
