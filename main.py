@@ -1,7 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_density(mass, volume):
+        return mass / volume
