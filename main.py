@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
