@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
