@@ -1,6 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
