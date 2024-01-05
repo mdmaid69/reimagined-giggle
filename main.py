@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
