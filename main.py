@@ -1,8 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+import collections
+def create_user_string():
+        return collections.UserString()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
