@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
