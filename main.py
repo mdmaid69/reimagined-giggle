@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def count_words(sentence):
+        return len(sentence.split())
