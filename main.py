@@ -1,6 +1,8 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
