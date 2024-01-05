@@ -1,5 +1,8 @@
-def subtract_numbers(x, y):
-        return x - y
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
