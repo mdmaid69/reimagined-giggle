@@ -1,7 +1,4 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+print([x**2 for x in range(10)])
