@@ -1,5 +1,5 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
