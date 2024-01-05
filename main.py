@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_sine(x):
+        return math.sin(x)
