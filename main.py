@@ -1,6 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def add_numbers(x, y):
+        return x + y
