@@ -1,5 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def is_odd(n):
-        return n % 2 != 0
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+print(math.pi)
