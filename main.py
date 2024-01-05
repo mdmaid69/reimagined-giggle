@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
