@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
