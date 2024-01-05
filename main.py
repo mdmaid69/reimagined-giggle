@@ -1,6 +1,6 @@
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
 import array
-def clear_array(array):
-        array *= 0
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def get_array_length(array):
+        return len(array)
