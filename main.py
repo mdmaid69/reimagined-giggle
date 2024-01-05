@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
