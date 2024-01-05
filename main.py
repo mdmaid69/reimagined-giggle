@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_area(radius):
+        return 3.14 * radius * radius
