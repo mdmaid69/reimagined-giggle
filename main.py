@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
