@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
