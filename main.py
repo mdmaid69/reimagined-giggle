@@ -1,5 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
