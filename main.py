@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_array_typecode(array):
+        return array.typecode
