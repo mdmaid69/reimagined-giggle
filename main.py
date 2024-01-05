@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
