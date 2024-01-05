@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_volume(length, width, height):
+        return length * width * height
