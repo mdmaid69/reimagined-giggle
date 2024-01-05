@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
