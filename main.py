@@ -1,5 +1,6 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
