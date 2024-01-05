@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
