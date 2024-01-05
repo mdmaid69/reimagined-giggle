@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import time
+def get_time_since_epoch():
+        return time.time()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
