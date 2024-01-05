@@ -1,8 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def pop_from_array(array, i=-1):
+        return array.pop(i)
