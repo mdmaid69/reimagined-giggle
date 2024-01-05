@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
