@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_as_memoryview(array):
+        return memoryview(array)
