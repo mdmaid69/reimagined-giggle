@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import datetime
+def get_today_date():
+        return datetime.date.today()
