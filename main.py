@@ -1,5 +1,8 @@
-  def subtract_numbers(x, y):
-        return x - y
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
