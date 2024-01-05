@@ -1,6 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import time
-def get_current_time():
-        return time.time()
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
