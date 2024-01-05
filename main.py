@@ -1,5 +1,8 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
