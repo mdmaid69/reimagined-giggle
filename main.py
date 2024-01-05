@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
