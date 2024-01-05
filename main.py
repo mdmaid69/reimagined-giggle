@@ -1,5 +1,7 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
