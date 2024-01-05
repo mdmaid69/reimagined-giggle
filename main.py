@@ -1,5 +1,4 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def is_even(n):
+        return n % 2 == 0
+def calculate_speed(distance, time):
+        return distance / time
