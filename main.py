@@ -1,5 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
