@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def cube_number(x):
+        return x**3
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
