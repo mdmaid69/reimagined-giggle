@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  def reverse_list(lst):
+        return lst[::-1]
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
