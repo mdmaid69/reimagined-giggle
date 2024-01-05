@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
