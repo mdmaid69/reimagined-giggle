@@ -1,5 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
