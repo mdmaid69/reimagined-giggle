@@ -1,5 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
