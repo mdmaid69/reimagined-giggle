@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
