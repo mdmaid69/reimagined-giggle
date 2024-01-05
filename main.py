@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import array
+def get_array_length(array):
+        return len(array)
