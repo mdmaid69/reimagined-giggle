@@ -1,8 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
