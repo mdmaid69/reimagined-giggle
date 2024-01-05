@@ -1,5 +1,7 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  def square_number(x):
-        return x**2
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
