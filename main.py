@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
