@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-for i in range(5):
-        print(i)
+def reverse_string(s):
+        return s[::-1]
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
