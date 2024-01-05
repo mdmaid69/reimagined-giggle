@@ -1,5 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
