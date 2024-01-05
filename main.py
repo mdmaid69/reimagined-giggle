@@ -1,8 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import sys
+print(sys.version)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
