@@ -1,6 +1,4 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def find_union(list1, list2):
+        return set(list1) | set(list2)
