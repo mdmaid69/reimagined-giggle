@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
