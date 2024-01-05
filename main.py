@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
