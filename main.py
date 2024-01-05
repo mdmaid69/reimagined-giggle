@@ -1,6 +1,5 @@
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_sine(x):
+        return math.sin(x)
