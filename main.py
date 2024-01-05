@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
