@@ -1,4 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  def is_odd(n):
-        return n % 2 != 0
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def cube_number(x):
+        return x**3
