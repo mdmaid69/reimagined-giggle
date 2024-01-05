@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
   import os
-  def get_file_owner(file_name):
+  def get_file_uid(file_name):
         return os.stat(file_name).st_uid
