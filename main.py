@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def count_characters(sentence):
+        return len(sentence)
