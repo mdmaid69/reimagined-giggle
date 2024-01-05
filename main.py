@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import json
+def convert_to_json(data):
+        return json.dumps(data)
