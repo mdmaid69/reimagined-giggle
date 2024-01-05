@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def cube_number(x):
+        return x**3
