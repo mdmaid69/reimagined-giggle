@@ -1,5 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_speed(distance, time):
+        return distance / time
+import collections
+def create_counter():
+        return collections.Counter()
