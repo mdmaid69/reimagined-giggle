@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
