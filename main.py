@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
