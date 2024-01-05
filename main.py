@@ -1,6 +1,7 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def clear_array(array):
+        array *= 0
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
