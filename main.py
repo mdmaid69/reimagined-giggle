@@ -1,6 +1,6 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import math
+def calculate_sine(x):
+        return math.sin(x)
