@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def reverse_array(array):
-        array.reverse()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
