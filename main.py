@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def remove_duplicates(lst):
-        return list(set(lst))
+def is_odd(n):
+        return n % 2 != 0
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
