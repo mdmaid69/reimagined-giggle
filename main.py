@@ -1,6 +1,8 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
