@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def is_even(n):
+        return n % 2 == 0
