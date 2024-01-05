@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import datetime
+def get_today_date():
+        return datetime.date.today()
