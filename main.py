@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def count_characters(sentence):
+        return len(sentence)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
