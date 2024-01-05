@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
