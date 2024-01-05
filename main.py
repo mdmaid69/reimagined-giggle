@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
