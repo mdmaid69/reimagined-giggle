@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def convert_to_hex(n):
+        return hex(n)
