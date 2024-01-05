@@ -1,6 +1,6 @@
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
