@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
