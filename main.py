@@ -1,6 +1,5 @@
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
