@@ -1,5 +1,8 @@
-def square_number(x):
-        return x**2
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import logging
+def log_message(message):
+        logging.info(message)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
