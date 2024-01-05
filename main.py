@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
