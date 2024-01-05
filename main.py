@@ -1,5 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def get_array_as_int(array):
+        return int(array[0])
