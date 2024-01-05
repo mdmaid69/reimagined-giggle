@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import random
+print(random.randint(0, 100))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
