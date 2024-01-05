@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
