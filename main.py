@@ -1,4 +1,7 @@
-def reverse_string(s):
-        return s[::-1]
-def sort_numbers(numbers):
-        return sorted(numbers)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
