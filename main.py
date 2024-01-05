@@ -1,5 +1,9 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
