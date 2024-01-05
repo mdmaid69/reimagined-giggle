@@ -1,5 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def count_elements(lst):
-        return len(lst)
+import array
+def get_array_as_set(array):
+        return set(array)
+  def convert_to_binary(n):
+        return bin(n)
