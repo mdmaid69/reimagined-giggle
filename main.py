@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
