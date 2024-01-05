@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
