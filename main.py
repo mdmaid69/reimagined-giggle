@@ -1,7 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
