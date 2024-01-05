@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
