@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import time
+def get_time_since_epoch():
+        return time.time()
