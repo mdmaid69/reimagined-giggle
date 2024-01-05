@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def append_to_array(array, item):
+        array.append(item)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
