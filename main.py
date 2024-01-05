@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_array_as_str(array):
+        return str(array)
