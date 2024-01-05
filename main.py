@@ -1,5 +1,12 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
