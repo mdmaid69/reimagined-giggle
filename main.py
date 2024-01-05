@@ -1,5 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
