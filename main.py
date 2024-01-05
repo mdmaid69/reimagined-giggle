@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
