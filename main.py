@@ -1,6 +1,7 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
