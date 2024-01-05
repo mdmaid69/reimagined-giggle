@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
