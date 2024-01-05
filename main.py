@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
