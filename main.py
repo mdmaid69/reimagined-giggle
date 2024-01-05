@@ -1,7 +1,8 @@
 import array
-def get_array_length(array):
-        return len(array)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
