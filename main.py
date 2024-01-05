@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import array
-def reverse_array(array):
-        array.reverse()
+def multiply_numbers(x, y):
+        return x * y
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
