@@ -1,4 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-print([x**2 for x in range(10)])
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
