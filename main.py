@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
