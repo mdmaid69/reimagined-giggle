@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def find_max(lst):
-        return max(lst)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
