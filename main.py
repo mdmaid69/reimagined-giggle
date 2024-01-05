@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
