@@ -1,8 +1,5 @@
+def is_even(n):
+        return n % 2 == 0
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
