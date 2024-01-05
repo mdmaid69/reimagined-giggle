@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def cube_number(x):
+        return x**3
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
