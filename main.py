@@ -1,5 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+print(sum(range(10)))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
