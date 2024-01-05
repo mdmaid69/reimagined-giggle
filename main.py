@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
