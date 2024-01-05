@@ -1,5 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
