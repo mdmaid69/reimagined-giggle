@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
