@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
