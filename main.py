@@ -1,5 +1,6 @@
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
