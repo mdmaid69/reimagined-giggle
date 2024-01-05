@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
