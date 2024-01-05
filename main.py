@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
