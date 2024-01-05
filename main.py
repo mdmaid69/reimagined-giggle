@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import random
+print(random.randint(0, 100))
