@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
