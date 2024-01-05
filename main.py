@@ -1,5 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import collections
+def create_counter():
+        return collections.Counter()
