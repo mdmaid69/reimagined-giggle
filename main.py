@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def get_array_as_str(array):
-        return str(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
