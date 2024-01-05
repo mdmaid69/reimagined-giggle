@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  def is_even(n):
+        return n % 2 == 0
