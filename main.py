@@ -1,6 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def clear_array(array):
+        array *= 0
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
