@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
