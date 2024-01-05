@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
