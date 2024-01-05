@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import sys
+def exit_program():
+        sys.exit()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
