@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
