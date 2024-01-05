@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
