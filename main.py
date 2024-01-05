@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def find_max(lst):
+        return max(lst)
+import array
+def get_array_as_repr(array):
+        return repr(array)
