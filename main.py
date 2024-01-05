@@ -1,7 +1,8 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import sys
+  def get_python_version():
+        return sys.version
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
