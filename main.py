@@ -1,5 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
