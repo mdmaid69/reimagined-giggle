@@ -1,6 +1,8 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def get_array_typecode(array):
+        return array.typecode
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
