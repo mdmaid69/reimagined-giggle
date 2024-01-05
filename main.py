@@ -1,7 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
