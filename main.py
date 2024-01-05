@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
