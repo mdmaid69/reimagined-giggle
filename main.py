@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import platform
+def get_os_info():
+        return platform.uname()
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
