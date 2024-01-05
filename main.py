@@ -1,8 +1,8 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-def find_unique_words(sentence):
-        return set(sentence.split())
+import random
+def roll_die():
+        return random.randint(1, 6)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
