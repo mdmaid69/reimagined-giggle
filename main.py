@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import numpy as np
+print(np.array([1, 2, 3]))
