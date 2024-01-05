@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_acceleration(speed, time):
+        return speed / time
