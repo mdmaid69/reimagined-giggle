@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+from collections import Counter
+print(Counter("hello world"))
