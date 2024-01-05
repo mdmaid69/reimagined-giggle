@@ -1,5 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  def calculate_area_rectangle(l, w):
+        return l * w
