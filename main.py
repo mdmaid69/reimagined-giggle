@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
