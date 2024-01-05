@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-import random
-print(random.randint(0, 100))
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
