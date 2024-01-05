@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_directory_name(path):
+        return os.path.dirname(path)
