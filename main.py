@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
