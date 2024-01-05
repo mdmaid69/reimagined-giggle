@@ -1,10 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
