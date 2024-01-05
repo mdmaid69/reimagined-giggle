@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
