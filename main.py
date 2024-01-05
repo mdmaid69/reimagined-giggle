@@ -1,6 +1,6 @@
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
