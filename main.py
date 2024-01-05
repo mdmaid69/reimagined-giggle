@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def get_array_as_int(array):
+        return int(array[0])
