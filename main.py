@@ -1,7 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
