@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
