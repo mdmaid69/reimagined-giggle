@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def is_palindrome(s):
-        return s == s[::-1]
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
