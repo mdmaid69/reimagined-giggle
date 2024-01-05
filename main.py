@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import collections
+def create_queue():
+        return collections.deque()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
