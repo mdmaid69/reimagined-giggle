@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import collections
-def create_counter():
-        return collections.Counter()
+def subtract_numbers(x, y):
+        return x - y
+import array
+def get_array_item(array, i):
+        return array[i]
