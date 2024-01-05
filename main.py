@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_speed(distance, time):
-        return distance / time
+def remove_duplicates(lst):
+        return list(set(lst))
+def add_numbers(x, y):
+        return x + y
