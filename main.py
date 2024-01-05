@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
