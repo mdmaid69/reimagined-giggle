@@ -1,3 +1,5 @@
-print("Hello, world!")
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_volume(length, width, height):
+        return length * width * height
