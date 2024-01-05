@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_exponential(x):
+        return math.exp(x)
+import collections
+def create_stack():
+        return collections.deque()
