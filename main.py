@@ -1,5 +1,6 @@
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def is_odd(n):
-        return n % 2 != 0
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
