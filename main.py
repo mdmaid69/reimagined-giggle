@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
