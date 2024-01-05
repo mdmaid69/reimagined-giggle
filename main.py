@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import sys
+def exit_program():
+        sys.exit()
