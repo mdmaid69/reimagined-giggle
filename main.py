@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
