@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
