@@ -1,4 +1,4 @@
-def find_min(numbers):
-        return min(numbers)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def calculate_area_rectangle(l, w):
+        return l * w
+def sort_list(lst):
+        return sorted(lst)
