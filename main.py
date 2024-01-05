@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
