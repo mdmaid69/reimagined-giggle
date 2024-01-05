@@ -1,5 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_power(work, time):
-        return work / time
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import platform
+def get_os_info():
+        return platform.uname()
