@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
