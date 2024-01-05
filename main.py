@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
