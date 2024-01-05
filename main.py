@@ -1,5 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def reverse_list(lst):
-        return lst[::-1]
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
