@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  def convert_to_octal(n):
+        return oct(n)
