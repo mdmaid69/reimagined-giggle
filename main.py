@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def subtract_numbers(x, y):
+        return x - y
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
