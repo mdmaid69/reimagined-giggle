@@ -1,4 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def sort_list(lst):
-        return sorted(lst)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
