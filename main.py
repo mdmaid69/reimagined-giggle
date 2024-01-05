@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
 import collections
-def create_counter():
-        return collections.Counter()
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
