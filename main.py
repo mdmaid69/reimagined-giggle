@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+print(math.pi)
+import collections
+def create_user_string():
+        return collections.UserString()
