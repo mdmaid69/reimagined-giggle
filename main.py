@@ -1,5 +1,9 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
