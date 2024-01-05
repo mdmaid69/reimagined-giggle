@@ -1,6 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
