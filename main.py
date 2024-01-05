@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
