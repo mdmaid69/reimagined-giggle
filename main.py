@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
