@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
