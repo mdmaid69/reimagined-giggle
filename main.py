@@ -1,6 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+from collections import Counter
+print(Counter("hello world"))
