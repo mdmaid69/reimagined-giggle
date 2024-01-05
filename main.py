@@ -1,8 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+for i in range(5):
+        print(i)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
