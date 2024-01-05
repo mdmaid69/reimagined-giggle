@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
