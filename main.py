@@ -1,6 +1,6 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import platform
-def get_python_version():
-        return platform.python_version()
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
