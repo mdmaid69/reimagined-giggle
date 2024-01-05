@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-name = "Python"
-print("Hello,", name)
+def convert_to_hex(n):
+        return hex(n)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
