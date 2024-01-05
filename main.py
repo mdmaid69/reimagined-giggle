@@ -1,6 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def convert_to_binary(n):
+        return bin(n)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
