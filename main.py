@@ -1,5 +1,4 @@
-  def cube_number(x):
-        return x**3
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+print("Hello, world!")
+import datetime
+def get_current_date():
+        return datetime.date.today()
