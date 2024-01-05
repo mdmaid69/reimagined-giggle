@@ -1,7 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def count_characters(sentence):
+        return len(sentence)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
