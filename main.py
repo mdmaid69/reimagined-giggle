@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
