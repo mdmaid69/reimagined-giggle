@@ -1,6 +1,5 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
