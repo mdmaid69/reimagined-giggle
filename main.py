@@ -1,8 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def reverse_array(array):
+        array.reverse()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
