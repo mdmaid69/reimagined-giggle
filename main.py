@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def remove_duplicates(lst):
-        return list(set(lst))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
