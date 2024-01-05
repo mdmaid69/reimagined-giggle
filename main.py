@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_work(force, distance):
-        return force * distance
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def convert_to_octal(n):
+        return oct(n)
