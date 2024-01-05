@@ -1,4 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-for i in range(10): print(i)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  def reverse_list(lst):
+        return lst[::-1]
