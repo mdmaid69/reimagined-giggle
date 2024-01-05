@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
