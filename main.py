@@ -1,6 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
