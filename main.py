@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
