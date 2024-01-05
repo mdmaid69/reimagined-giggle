@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
