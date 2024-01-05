@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import sys
+print(sys.version)
