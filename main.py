@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import sys
+def exit_program():
+        sys.exit()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
