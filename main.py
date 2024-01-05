@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  def calculate_area_rectangle(l, w):
-        return l * w
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
