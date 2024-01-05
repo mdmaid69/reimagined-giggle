@@ -1,5 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import random
+print(random.randint(0, 100))
