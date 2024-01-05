@@ -1,5 +1,6 @@
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def remove_duplicates(lst):
-        return list(set(lst))
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
