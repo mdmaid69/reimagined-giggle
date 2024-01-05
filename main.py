@@ -1,5 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def get_array_as_str(array):
+        return str(array)
