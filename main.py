@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
