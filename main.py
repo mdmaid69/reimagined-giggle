@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def calculate_area_rectangle(l, w):
+        return l * w
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
