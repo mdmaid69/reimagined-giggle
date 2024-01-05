@@ -1,9 +1,6 @@
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-  import sys
-  def get_python_version():
-        return sys.version
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
