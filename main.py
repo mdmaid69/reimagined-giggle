@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
