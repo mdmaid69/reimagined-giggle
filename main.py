@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import random
-def roll_die():
-        return random.randint(1, 6)
+import logging
+def log_message(message):
+        logging.info(message)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
