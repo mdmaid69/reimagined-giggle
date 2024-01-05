@@ -1,6 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
