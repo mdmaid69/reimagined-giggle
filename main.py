@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-import json
-print(json.dumps({"name": "John", "age": 30}))
+text = "Hello, world!"
+print("Characters:", len(text))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
