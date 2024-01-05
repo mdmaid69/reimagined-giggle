@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
