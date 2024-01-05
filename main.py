@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def cube_number(x):
-        return x**3
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import time
+def get_time_since_epoch():
+        return time.time()
