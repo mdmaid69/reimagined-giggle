@@ -1,9 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
