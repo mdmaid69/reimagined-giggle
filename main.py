@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+from collections import Counter
+print(Counter("hello world"))
