@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_typecode(array):
+        return array.typecode
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
