@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-  def add_numbers(x, y):
-        return x + y
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def find_max(lst):
+        return max(lst)
