@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_buffer_info(array):
+        return array.buffer_info()
