@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+from collections import Counter
+print(Counter("hello world"))
+import random
+def roll_die():
+        return random.randint(1, 6)
