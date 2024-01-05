@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
