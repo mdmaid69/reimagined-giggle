@@ -1,5 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def find_min(numbers):
-        return min(numbers)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def reverse_list(lst):
+        return lst[::-1]
