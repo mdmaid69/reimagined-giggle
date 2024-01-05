@@ -1,6 +1,7 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
