@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def add_numbers(a, b):
-        return a + b
+import array
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
