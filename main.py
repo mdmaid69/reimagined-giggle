@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
