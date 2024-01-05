@@ -1,4 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-for i in range(10): print(i)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
