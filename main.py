@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_power(work, time):
+        return work / time
+import array
+def clear_array(array):
+        array *= 0
