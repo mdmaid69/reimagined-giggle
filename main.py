@@ -1,5 +1,8 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
