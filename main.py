@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
