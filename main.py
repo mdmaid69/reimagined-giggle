@@ -1,6 +1,4 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_density(mass, volume):
+        return mass / volume
