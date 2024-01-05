@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def get_array_typecode(array):
+        return array.typecode
