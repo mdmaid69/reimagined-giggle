@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
