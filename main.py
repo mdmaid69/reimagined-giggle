@@ -1,7 +1,6 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def get_current_working_directory():
+        return os.getcwd()
