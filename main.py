@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_pressure(force, area):
-        return force / area
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
