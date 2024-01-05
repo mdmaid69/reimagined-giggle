@@ -1,7 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
