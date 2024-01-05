@@ -1,4 +1,5 @@
-import sys
-print(sys.version)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
