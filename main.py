@@ -1,5 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
 import random
-print(random.randint(0, 100))
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def convert_to_hex(n):
+        return hex(n)
