@@ -1,7 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
