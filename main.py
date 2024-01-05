@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
