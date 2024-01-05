@@ -1,5 +1,4 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_index(array, item):
+        return array.index(item)
+print(sum(range(10)))
