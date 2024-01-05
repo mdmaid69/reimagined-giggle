@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
