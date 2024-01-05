@@ -1,7 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
