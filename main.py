@@ -1,10 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
