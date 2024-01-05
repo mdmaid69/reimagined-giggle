@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
