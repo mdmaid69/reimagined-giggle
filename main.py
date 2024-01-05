@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_speed(distance, time):
-        return distance / time
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
