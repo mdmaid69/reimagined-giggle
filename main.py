@@ -1,5 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def count_words(sentence):
-        return len(sentence.split())
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
