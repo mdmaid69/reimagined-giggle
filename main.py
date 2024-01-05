@@ -1,4 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
