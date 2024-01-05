@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import numpy as np
+print(np.array([1, 2, 3]))
+import random
+def roll_die():
+        return random.randint(1, 6)
