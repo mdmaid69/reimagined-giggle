@@ -1,7 +1,9 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
