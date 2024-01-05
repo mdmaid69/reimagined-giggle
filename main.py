@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
