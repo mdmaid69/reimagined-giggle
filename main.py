@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
