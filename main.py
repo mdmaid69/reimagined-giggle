@@ -1,4 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-print([x**2 for x in range(10)])
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
