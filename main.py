@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def find_max(numbers):
+        return max(numbers)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
