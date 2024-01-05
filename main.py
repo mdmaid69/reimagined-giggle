@@ -1,5 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def is_even(n):
-        return n % 2 == 0
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
