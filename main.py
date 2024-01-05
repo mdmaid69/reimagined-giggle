@@ -1,6 +1,4 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_acceleration(speed, time):
+        return speed / time
+import json
+print(json.dumps({"name": "John", "age": 30}))
