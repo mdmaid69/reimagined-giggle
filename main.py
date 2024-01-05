@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
