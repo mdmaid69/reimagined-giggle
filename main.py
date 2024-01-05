@@ -1,5 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+text = "Hello, world!"
+print("Words:", len(text.split()))
