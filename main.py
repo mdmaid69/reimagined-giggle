@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
