@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  def convert_to_binary(n):
+        return bin(n)
