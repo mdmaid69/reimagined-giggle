@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_interest(principal, rate, time):
         return principal * (1 + rate)**time
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
