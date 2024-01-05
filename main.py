@@ -1,9 +1,6 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
