@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def sort_list(lst):
+        return sorted(lst)
