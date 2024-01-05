@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import array
+def get_array_as_str(array):
+        return str(array)
