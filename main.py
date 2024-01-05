@@ -1,8 +1,4 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+for i in range(10): print(i)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
