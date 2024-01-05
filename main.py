@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
