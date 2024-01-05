@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
