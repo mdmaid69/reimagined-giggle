@@ -1,5 +1,7 @@
-def cube_number(x):
-        return x**3
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
