@@ -1,6 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def is_even(n):
+        return n % 2 == 0
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
