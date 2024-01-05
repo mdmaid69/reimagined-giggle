@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def square_number(x):
+        return x**2
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
