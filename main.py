@@ -1,5 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def count_words(sentence):
+        return len(sentence.split())
+def find_min(lst):
+        return min(lst)
