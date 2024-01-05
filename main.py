@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
