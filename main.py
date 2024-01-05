@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
