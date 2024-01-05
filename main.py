@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import datetime
-print(datetime.datetime.now())
+import array
+def get_array_length(array):
+        return len(array)
+def calculate_work(force, distance):
+        return force * distance
