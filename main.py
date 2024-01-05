@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
