@@ -1,5 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+name = "Python"
+print("Hello,", name)
