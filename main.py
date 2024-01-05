@@ -1,5 +1,6 @@
+import collections
+def create_counter():
+        return collections.Counter()
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def sort_list(lst):
-        return sorted(lst)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
