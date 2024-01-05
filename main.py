@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
