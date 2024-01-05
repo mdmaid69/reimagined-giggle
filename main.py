@@ -1,6 +1,7 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def calculate_force(mass, acceleration):
+        return mass * acceleration
