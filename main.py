@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import time
-def get_current_time():
-        return time.ctime()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
