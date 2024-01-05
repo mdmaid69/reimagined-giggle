@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import platform
+def get_os_info():
+        return platform.uname()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
