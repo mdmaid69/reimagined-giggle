@@ -1,5 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def find_max(numbers):
-        return max(numbers)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
