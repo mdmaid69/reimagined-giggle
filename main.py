@@ -1,6 +1,6 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
