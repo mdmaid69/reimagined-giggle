@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
