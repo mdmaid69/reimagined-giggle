@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
