@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
