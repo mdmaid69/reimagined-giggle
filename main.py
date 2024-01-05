@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import array
-def get_array_length(array):
-        return len(array)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import platform
+def get_python_version():
+        return platform.python_version()
