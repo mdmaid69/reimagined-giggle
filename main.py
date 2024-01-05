@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
