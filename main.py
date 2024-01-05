@@ -1,5 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_perpetuity(payment, rate):
+        return payment / rate
