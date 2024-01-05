@@ -1,6 +1,6 @@
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
