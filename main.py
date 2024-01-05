@@ -1,6 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+print(math.pi)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
