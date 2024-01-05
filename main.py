@@ -1,5 +1,7 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
