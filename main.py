@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def count_elements(lst):
+        return len(lst)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
