@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
