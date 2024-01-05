@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
