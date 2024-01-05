@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
