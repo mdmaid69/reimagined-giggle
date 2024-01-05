@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
