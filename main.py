@@ -1,4 +1,7 @@
-def find_min(numbers):
-        return min(numbers)
-def greet(name):
-        print(f"Hello, {name}!")
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
