@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import time
+print(time.time())
