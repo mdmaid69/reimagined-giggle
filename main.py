@@ -1,7 +1,8 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
