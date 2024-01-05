@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import getpass
-def get_username():
-        return getpass.getuser()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
