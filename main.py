@@ -1,6 +1,5 @@
+def is_odd(n):
+        return n % 2 != 0
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_tangent(x):
+        return math.tan(x)
