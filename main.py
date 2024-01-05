@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+text = "Hello, world!"
+print("Words:", len(text.split()))
