@@ -1,6 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
