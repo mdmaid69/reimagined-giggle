@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import random
+print(random.randint(0, 100))
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
