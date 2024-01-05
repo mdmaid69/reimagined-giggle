@@ -1,6 +1,6 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_array_as_str(array):
+        return str(array)
 import array
-def convert_array_to_bytes(array):
+def get_bytes_from_array(array):
         return array.tobytes()
