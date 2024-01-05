@@ -1,7 +1,4 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+print(sum(range(10)))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
