@@ -1,5 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
