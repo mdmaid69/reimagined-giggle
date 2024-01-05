@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import getpass
+def get_username():
+        return getpass.getuser()
