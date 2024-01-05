@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
