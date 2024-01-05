@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def find_max(lst):
+        return max(lst)
