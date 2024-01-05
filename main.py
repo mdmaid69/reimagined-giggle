@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
