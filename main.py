@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
