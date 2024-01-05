@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
