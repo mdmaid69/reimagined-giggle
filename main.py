@@ -1,6 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
