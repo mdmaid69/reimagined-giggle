@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
