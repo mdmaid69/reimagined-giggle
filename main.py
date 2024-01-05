@@ -1,6 +1,8 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
