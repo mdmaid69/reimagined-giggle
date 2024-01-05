@@ -1,5 +1,4 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def reverse_string(s):
+        return s[::-1]
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
