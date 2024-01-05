@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+text = "Hello, world!"
+print("Words:", len(text.split()))
