@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
