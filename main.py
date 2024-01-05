@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import time
-def get_current_time():
-        return time.ctime()
+def convert_to_octal(n):
+        return oct(n)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
