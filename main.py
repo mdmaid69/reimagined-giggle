@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Uppercase:", text.upper())
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
