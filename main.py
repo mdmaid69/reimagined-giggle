@@ -1,5 +1,12 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
