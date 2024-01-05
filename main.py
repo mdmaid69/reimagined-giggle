@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
