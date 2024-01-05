@@ -1,6 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
