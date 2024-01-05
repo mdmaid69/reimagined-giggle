@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
