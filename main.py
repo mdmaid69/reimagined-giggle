@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
