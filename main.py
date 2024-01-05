@@ -1,4 +1,3 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_speed(distance, time):
-        return distance / time
+print([x**2 for x in range(10)])
+  def subtract_numbers(x, y):
+        return x - y
