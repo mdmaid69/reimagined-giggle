@@ -1,6 +1,7 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def calculate_speed(distance, time):
+        return distance / time
