@@ -1,5 +1,4 @@
-import math
-print(math.pi)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import tensorflow as tf
+print(tf.__version__)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
