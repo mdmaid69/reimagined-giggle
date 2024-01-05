@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_speed(distance, time):
+        return distance / time
+import collections
+def create_user_list():
+        return collections.UserList()
