@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def square_number(x):
-        return x**2
+def greet(name):
+        print(f"Hello, {name}!")
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
