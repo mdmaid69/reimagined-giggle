@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import time
+def get_current_time():
+        return time.time()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
