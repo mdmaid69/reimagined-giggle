@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
