@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+for i in range(10): print(i)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
