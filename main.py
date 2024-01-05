@@ -1,6 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
