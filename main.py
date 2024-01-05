@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import logging
+def log_message(message):
+        logging.info(message)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
