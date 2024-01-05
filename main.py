@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
