@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
