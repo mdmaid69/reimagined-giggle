@@ -1,4 +1,7 @@
-def count_words(sentence):
-        return len(sentence.split())
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def square_number(x):
+        return x**2
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
