@@ -1,6 +1,6 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
