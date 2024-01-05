@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_acceleration(speed, time):
+        return speed / time
