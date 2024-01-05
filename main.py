@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def remove_duplicates(lst):
-        return list(set(lst))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
