@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
