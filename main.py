@@ -1,7 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
