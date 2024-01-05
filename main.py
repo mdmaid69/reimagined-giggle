@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
