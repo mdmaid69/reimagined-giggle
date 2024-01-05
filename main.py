@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import logging
+def log_message(message):
+        logging.info(message)
