@@ -1,6 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
 import collections
-def create_counter():
-        return collections.Counter()
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_floor(x):
+        return math.floor(x)
