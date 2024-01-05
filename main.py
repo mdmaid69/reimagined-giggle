@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_power(work, time):
+        return work / time
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
