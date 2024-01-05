@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  def cube_number(x):
+        return x**3
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
