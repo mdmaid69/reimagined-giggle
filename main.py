@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-name = "Python"
-print("Hello,", name)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
