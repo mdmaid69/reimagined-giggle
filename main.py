@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
