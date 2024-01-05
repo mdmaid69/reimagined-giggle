@@ -1,6 +1,5 @@
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def get_array_as_bool(array):
+        return bool(array)
