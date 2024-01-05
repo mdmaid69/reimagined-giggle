@@ -1,7 +1,5 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_pressure(force, area):
+        return force / area
