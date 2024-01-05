@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def add_numbers(x, y):
-        return x + y
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+  def is_even(n):
+        return n % 2 == 0
