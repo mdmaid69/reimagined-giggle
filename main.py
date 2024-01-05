@@ -1,6 +1,6 @@
+import collections
+def create_user_string():
+        return collections.UserString()
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
