@@ -1,6 +1,5 @@
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
   import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
