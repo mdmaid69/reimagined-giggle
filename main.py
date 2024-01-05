@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
