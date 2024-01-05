@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
