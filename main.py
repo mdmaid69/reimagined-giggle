@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def divide_numbers(x, y):
+        return x / y
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def convert_array_to_list(array):
+        return array.tolist()
