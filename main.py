@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
