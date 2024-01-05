@@ -1,5 +1,8 @@
-def divide_numbers(x, y):
-        return x / y
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import collections
+def create_user_string():
+        return collections.UserString()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
