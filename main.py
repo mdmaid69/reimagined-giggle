@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
