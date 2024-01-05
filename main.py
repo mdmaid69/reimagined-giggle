@@ -1,5 +1,7 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
