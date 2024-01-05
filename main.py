@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
