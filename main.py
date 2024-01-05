@@ -1,6 +1,6 @@
+import time
+def get_current_time():
+        return time.time()
 import array
-def append_to_array(array, item):
-        array.append(item)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def get_string_from_array(array):
+        return array.tobytes()
