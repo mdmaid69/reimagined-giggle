@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
