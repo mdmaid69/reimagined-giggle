@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+print(math.pi)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
