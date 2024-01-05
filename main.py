@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_acceleration(speed, time):
-        return speed / time
+def reverse_string(s):
+        return s[::-1]
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
