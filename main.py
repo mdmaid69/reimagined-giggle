@@ -1,5 +1,5 @@
+  def square_number(x):
+        return x**2
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def get_base_name(path):
+        return os.path.basename(path)
