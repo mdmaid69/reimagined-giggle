@@ -1,7 +1,3 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+for i in range(10): print(i)
