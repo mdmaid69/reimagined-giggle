@@ -1,6 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_exponential(x):
+        return math.exp(x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
