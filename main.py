@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def is_even(n):
+        return n % 2 == 0
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
