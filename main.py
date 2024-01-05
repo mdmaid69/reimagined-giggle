@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_tangent(x):
+        return math.tan(x)
