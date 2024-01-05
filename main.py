@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_density(mass, volume):
+        return mass / volume
