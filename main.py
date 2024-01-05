@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
