@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def is_even(n):
+        return n % 2 == 0
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
