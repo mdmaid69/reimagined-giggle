@@ -1,7 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
