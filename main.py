@@ -1,4 +1,10 @@
-for i in range(5):
-        print(i)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
