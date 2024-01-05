@@ -1,5 +1,8 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
