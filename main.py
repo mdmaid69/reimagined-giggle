@@ -1,5 +1,7 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-name = "Python"
-print("Hello,", name)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
