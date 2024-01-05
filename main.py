@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
