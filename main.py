@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def find_max(numbers):
+        return max(numbers)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
