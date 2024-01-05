@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import logging
+def log_message(message):
+        logging.info(message)
+def calculate_area_circle(r):
+        return 3.14 * r**2
