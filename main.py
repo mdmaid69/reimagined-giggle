@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
