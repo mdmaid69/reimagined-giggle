@@ -1,5 +1,5 @@
+  def calculate_area_circle(r):
+        return 3.14 * r**2
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_density(mass, volume):
-        return mass / volume
+def convert_array_to_list(array):
+        return array.tolist()
