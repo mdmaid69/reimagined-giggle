@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
