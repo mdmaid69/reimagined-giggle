@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
