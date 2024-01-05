@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
