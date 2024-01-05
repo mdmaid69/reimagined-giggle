@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def clear_array(array):
+        array *= 0
+def convert_to_hex(n):
+        return hex(n)
