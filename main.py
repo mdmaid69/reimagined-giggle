@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
