@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
