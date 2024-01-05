@@ -1,8 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def subtract_numbers(x, y):
+        return x - y
+import sys
+def exit_program():
+        sys.exit()
