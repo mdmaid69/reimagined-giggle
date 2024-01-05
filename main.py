@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
