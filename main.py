@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
