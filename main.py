@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def add_numbers(x, y):
-        return x + y
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
