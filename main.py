@@ -1,6 +1,6 @@
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
