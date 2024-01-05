@@ -1,5 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def convert_to_binary(n):
-        return bin(n)
+import time
+def get_current_time():
+        return time.ctime()
+for i in range(10): print(i)
