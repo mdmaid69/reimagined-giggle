@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
