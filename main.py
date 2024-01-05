@@ -1,6 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
