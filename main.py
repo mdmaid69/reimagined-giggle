@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
