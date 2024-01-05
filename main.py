@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
