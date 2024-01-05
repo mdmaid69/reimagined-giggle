@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
