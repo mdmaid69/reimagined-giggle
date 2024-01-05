@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import sys
-  def get_python_version():
-        return sys.version
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
