@@ -1,4 +1,7 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
