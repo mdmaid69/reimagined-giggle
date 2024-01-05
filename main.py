@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import collections
-def create_counter():
-        return collections.Counter()
+print([x**2 for x in range(10)])
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
