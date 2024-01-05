@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import os
-print(os.getcwd())
+  def reverse_list(lst):
+        return lst[::-1]
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
