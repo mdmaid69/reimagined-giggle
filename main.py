@@ -1,5 +1,10 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
