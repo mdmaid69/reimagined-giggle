@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
