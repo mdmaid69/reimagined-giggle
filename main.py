@@ -1,7 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
