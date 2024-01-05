@@ -1,8 +1,6 @@
+import sys
+def print_python_version():
+        print(sys.version)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
