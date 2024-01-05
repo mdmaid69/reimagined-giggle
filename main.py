@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def multiply_numbers(x, y):
+        return x * y
