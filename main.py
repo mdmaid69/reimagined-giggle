@@ -1,8 +1,4 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+text = "Hello, world!"
+print("Words:", len(text.split()))
