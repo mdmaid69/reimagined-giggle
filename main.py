@@ -1,8 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
