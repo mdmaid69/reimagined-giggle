@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
 import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def get_time_since_epoch():
+        return time.time()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
