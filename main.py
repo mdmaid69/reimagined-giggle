@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import platform
-def get_python_version():
-        return platform.python_version()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import time
+def get_current_time():
+        return time.time()
