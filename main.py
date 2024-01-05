@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
