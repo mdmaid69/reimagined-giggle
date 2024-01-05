@@ -1,4 +1,8 @@
-  def count_elements(lst):
-        return len(lst)
-def cube_number(x):
-        return x**3
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
