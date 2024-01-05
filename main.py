@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
