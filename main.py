@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
