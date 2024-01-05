@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
