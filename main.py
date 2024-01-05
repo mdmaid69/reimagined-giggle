@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
