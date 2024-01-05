@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
