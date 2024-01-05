@@ -1,6 +1,5 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
