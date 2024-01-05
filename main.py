@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
