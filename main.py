@@ -1,5 +1,6 @@
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  def remove_duplicates(lst):
-        return list(set(lst))
+def get_array_item_count(array, item):
+        return array.count(item)
