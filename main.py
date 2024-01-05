@@ -1,7 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def count_characters(sentence):
+        return len(sentence)
