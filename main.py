@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
