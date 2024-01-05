@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-def calculate_work(force, distance):
-        return force * distance
+def find_max(lst):
+        return max(lst)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
