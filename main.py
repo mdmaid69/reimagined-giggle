@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  def reverse_list(lst):
-        return lst[::-1]
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
