@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
