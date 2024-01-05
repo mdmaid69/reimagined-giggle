@@ -1,6 +1,8 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
