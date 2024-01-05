@@ -1,6 +1,4 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import sys
-def print_python_version():
-        print(sys.version)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def is_even(n):
+        return n % 2 == 0
