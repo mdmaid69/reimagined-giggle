@@ -1,5 +1,6 @@
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
