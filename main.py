@@ -1,4 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-print(sum(range(10)))
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def get_array_index(array, item):
+        return array.index(item)
