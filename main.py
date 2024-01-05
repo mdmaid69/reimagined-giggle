@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
