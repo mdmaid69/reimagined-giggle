@@ -1,4 +1,8 @@
-  def is_odd(n):
-        return n % 2 != 0
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
