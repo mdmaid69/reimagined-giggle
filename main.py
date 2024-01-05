@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
