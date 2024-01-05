@@ -1,6 +1,7 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
