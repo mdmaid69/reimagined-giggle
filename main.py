@@ -1,5 +1,8 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
