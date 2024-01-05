@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import sys
-  def get_python_version():
-        return sys.version
+def is_palindrome(s):
+        return s == s[::-1]
+def sort_list(lst):
+        return sorted(lst)
