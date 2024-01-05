@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
