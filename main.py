@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+x = 10
+y = 20
+print("Sum:", x + y)
