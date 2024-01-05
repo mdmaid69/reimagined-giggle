@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
