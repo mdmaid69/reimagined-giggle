@@ -1,6 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def multiply_numbers(x, y):
+        return x * y
