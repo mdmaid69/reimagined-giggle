@@ -1,7 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
