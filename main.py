@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
