@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def square_number(x):
+        return x**2
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
