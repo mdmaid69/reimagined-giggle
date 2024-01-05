@@ -1,4 +1,11 @@
-import sys
-print(sys.version)
-  def add_numbers(x, y):
-        return x + y
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
