@@ -1,7 +1,9 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
