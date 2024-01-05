@@ -1,4 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import collections
+def create_queue():
+        return collections.deque()
