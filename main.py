@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import platform
-def get_os_info():
-        return platform.uname()
+def reverse_string(s):
+        return s[::-1]
+import array
+def get_array_length(array):
+        return len(array)
