@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import platform
+def get_os_info():
+        return platform.uname()
