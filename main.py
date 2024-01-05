@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_user_string():
+        return collections.UserString()
