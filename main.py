@@ -1,5 +1,7 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
