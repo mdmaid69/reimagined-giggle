@@ -1,5 +1,5 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_pressure(force, area):
-        return force / area
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def convert_to_octal(n):
+        return oct(n)
