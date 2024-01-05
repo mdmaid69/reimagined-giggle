@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
