@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
