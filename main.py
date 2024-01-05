@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
