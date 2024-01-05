@@ -1,5 +1,4 @@
-import collections
-def create_stack():
-        return collections.deque()
-import random
-print(random.randint(0, 100))
+print(sum(range(10)))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
