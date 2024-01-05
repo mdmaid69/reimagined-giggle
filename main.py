@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
