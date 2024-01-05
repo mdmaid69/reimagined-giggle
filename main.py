@@ -1,6 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
