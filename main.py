@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def find_min(numbers):
+        return min(numbers)
