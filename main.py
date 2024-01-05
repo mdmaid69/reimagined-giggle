@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def remove_duplicates(lst):
+        return list(set(lst))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
