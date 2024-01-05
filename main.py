@@ -1,7 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
