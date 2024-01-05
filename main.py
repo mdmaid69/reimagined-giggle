@@ -1,4 +1,8 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-for i in range(5):
-        print(i)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
