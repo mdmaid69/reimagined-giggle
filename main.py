@@ -1,5 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import random
+print(random.randint(0, 100))
+def calculate_volume(length, width, height):
+        return length * width * height
