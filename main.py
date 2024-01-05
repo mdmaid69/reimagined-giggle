@@ -1,6 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
