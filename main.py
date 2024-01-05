@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  def is_even(n):
-        return n % 2 == 0
+  def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
