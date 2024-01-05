@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import random
-print(random.randint(0, 100))
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
