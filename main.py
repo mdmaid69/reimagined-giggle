@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
