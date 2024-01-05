@@ -1,6 +1,8 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
