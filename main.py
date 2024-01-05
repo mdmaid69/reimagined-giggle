@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
