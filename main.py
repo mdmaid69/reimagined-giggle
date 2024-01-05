@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
