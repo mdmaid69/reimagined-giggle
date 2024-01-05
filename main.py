@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def get_array_typecode(array):
+        return array.typecode
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
