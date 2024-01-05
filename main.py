@@ -1,6 +1,7 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
