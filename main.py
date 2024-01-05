@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def count_characters(sentence):
+        return len(sentence)
