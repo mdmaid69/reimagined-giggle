@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def sort_list(lst):
+        return sorted(lst)
