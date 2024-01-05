@@ -1,5 +1,10 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
