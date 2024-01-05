@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
