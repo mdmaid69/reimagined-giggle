@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def remove_duplicates(lst):
+        return list(set(lst))
