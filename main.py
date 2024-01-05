@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_work(force, distance):
+        return force * distance
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
