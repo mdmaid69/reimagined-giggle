@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import time
+def get_current_time():
+        return time.time()
