@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import collections
-def create_user_list():
-        return collections.UserList()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
