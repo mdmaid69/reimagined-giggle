@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+for i in range(5):
+        print(i)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
