@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
