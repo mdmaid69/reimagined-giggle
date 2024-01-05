@@ -1,4 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
