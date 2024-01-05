@@ -1,5 +1,6 @@
+import array
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_speed(distance, time):
-        return distance / time
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
