@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def get_array_as_str(array):
+        return str(array)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
