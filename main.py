@@ -1,3 +1,6 @@
-print(sum(range(10)))
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_power(work, time):
+        return work / time
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
