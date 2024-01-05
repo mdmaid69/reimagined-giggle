@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def subtract_numbers(x, y):
+        return x - y
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
