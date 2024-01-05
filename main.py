@@ -1,5 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_density(mass, volume):
-        return mass / volume
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
