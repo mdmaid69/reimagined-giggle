@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_sine(x):
+        return math.sin(x)
