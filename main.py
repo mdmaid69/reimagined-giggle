@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import tensorflow as tf
-print(tf.__version__)
+import sys
+def print_python_version():
+        print(sys.version)
+def remove_duplicates(lst):
+        return list(set(lst))
