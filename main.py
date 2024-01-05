@@ -1,5 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def cube_number(x):
-        return x**3
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
