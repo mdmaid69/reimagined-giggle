@@ -1,9 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
