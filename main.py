@@ -1,5 +1,7 @@
-def is_palindrome(s):
-        return s == s[::-1]
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
