@@ -1,5 +1,7 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_work(force, distance):
+        return force * distance
