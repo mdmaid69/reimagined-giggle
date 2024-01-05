@@ -1,8 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
