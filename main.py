@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
