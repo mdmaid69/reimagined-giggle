@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
