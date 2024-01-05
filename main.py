@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import sys
-def print_python_version():
-        print(sys.version)
+def find_max(numbers):
+        return max(numbers)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
