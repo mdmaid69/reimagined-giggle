@@ -1,5 +1,8 @@
-def calculate_density(mass, volume):
-        return mass / volume
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
