@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def calculate_area_circle(r):
+        return 3.14 * r**2
