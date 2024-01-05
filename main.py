@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
