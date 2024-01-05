@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
