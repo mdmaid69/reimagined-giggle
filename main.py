@@ -1,8 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
