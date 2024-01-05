@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import getpass
+def get_username():
+        return getpass.getuser()
