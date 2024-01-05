@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
