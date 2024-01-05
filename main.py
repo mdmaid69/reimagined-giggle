@@ -1,6 +1,6 @@
+import math
+def calculate_sine(x):
+        return math.sin(x)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def get_array_as_str(array):
+        return str(array)
