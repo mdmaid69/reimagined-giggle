@@ -1,8 +1,3 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import random
+print(random.randint(0, 100))
+print([x**2 for x in range(10)])
