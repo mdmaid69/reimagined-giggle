@@ -1,4 +1,4 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def is_odd(n):
+        return n % 2 != 0
