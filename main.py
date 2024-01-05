@@ -1,12 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
