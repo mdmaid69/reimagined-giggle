@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import tensorflow as tf
+print(tf.__version__)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
