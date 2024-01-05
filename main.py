@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import random
+def roll_die():
+        return random.randint(1, 6)
