@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
