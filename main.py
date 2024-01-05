@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def reverse_string(s):
-        return s[::-1]
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  def reverse_list(lst):
+        return lst[::-1]
