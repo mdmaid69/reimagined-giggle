@@ -1,6 +1,6 @@
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
