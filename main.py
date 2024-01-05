@@ -1,4 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-for i in range(10): print(i)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def reverse_list(lst):
+        return lst[::-1]
