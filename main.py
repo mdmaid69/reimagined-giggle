@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
