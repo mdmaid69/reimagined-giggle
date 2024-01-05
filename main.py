@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import platform
+def get_os_info():
+        return platform.uname()
