@@ -1,5 +1,4 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
