@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
