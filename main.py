@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
