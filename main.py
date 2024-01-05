@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
