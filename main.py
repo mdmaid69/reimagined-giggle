@@ -1,4 +1,4 @@
-def square_number(x):
-        return x**2
-  def reverse_list(lst):
-        return lst[::-1]
+def reverse_string(s):
+        return s[::-1]
+import time
+print(time.time())
