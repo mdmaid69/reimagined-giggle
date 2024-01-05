@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
