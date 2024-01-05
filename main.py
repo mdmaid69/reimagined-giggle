@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
