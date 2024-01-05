@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_error_function(x):
+        return math.erf(x)
