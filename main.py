@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  def cube_number(x):
+        return x**3
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
