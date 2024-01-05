@@ -1,6 +1,8 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
