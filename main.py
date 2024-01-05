@@ -1,5 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  def reverse_list(lst):
+        return lst[::-1]
