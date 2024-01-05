@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
