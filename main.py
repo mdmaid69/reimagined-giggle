@@ -1,7 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
