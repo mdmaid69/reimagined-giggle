@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
