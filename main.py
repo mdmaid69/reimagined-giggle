@@ -1,5 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_area(radius):
+        return 3.14 * radius * radius
