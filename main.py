@@ -1,5 +1,5 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
