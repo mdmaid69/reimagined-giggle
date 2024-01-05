@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import re
-print(re.match("h.*o", "hello world"))
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def convert_to_octal(n):
+        return oct(n)
