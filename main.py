@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import array
+def get_list_from_array(array):
+        return array.tolist()
