@@ -1,6 +1,8 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
