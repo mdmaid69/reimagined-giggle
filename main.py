@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
