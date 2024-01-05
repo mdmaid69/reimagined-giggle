@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
