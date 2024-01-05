@@ -1,4 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-def find_min(lst):
-        return min(lst)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
