@@ -1,6 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
