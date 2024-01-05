@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
