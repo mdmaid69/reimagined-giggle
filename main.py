@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
