@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
