@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
