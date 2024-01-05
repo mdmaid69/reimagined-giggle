@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
