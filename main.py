@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
