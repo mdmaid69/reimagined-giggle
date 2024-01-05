@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
