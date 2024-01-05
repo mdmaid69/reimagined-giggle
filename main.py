@@ -1,9 +1,6 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
