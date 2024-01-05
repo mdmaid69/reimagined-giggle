@@ -1,4 +1,7 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import array
+def get_list_from_array(array):
+        return array.tolist()
