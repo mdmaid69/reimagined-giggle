@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
