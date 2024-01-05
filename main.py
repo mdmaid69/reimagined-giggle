@@ -1,6 +1,5 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
