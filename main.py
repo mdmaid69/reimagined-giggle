@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
