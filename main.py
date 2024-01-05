@@ -1,6 +1,6 @@
+import collections
+def create_queue():
+        return collections.deque()
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
