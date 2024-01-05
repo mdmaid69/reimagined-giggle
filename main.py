@@ -1,6 +1,7 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import json
+print(json.dumps({"name": "John", "age": 30}))
