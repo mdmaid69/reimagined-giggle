@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_index(array, item):
+        return array.index(item)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_arc_sine(x):
+        return math.asin(x)
