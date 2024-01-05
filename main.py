@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
