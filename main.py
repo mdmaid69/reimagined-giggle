@@ -1,5 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_acceleration(speed, time):
-        return speed / time
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
