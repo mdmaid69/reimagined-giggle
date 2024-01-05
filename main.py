@@ -1,5 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def convert_array_to_list(array):
+        return array.tolist()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
