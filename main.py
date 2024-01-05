@@ -1,9 +1,5 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
