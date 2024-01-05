@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
