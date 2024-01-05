@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def convert_array_to_string(array):
+        return array.tostring()
