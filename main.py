@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
