@@ -1,6 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
