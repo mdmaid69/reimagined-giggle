@@ -1,7 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import platform
+def get_python_version():
+        return platform.python_version()
