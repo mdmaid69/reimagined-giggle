@@ -1,8 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
