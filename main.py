@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def cube_number(x):
+        return x**3
