@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  def cube_number(x):
+        return x**3
+import collections
+def create_user_dict():
+        return collections.UserDict()
