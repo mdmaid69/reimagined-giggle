@@ -1,5 +1,8 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
