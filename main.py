@@ -1,14 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
