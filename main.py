@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
