@@ -1,12 +1,4 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def find_min(lst):
+        return min(lst)
