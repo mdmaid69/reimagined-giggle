@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def get_array_as_list(array):
-        return list(array)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_work(force, distance):
+        return force * distance
