@@ -1,5 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def reverse_string(s):
-        return s[::-1]
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
