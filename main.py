@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def sort_list(lst):
-        return sorted(lst)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
