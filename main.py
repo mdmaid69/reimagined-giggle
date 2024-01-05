@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def split_path(path):
+        return os.path.split(path)
