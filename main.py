@@ -1,6 +1,8 @@
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
