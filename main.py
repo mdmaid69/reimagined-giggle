@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
