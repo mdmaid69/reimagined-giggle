@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
