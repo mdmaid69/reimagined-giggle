@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
