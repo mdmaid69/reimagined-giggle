@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_power(work, time):
+        return work / time
