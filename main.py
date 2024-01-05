@@ -1,5 +1,10 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def convert_to_hex(n):
-        return hex(n)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
