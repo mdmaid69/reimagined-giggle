@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
