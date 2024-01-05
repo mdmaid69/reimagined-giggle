@@ -1,7 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
