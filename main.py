@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
