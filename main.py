@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
