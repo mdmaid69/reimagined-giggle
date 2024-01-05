@@ -1,8 +1,6 @@
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def get_list_from_array(array):
+        return array.tolist()
