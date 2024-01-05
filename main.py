@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
