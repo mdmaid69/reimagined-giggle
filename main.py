@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
