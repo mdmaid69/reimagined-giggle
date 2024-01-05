@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
