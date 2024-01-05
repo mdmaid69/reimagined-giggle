@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
