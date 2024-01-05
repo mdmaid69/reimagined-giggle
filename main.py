@@ -1,7 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_pressure(force, area):
+        return force / area
