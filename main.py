@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
