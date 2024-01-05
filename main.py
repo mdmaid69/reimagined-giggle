@@ -1,12 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def convert_to_octal(n):
+        return oct(n)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
