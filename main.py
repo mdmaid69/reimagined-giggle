@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def count_elements(lst):
-        return len(lst)
+def cube_number(x):
+        return x**3
+import json
+def convert_to_json(data):
+        return json.dumps(data)
