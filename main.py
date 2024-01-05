@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+print([x**2 for x in range(10)])
