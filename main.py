@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_as_int(array):
+        return int(array[0])
