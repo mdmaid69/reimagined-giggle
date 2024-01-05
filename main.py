@@ -1,7 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
