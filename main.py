@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
