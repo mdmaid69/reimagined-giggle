@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
