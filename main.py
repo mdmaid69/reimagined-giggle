@@ -1,5 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def divide_numbers(x, y):
+        return x / y
+def calculate_work(force, distance):
+        return force * distance
