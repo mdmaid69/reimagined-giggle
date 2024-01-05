@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def reverse_list(lst):
-        return lst[::-1]
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
