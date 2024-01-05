@@ -1,6 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
