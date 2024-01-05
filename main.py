@@ -1,6 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
