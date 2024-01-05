@@ -1,12 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
