@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import platform
+def get_os_info():
+        return platform.uname()
+def find_unique_words(sentence):
+        return set(sentence.split())
