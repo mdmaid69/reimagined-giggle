@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
