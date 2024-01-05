@@ -1,5 +1,4 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+print(sum(range(10)))
