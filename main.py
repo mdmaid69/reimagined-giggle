@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_pressure(force, area):
+        return force / area
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
