@@ -1,5 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
