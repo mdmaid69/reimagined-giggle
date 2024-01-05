@@ -1,5 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
