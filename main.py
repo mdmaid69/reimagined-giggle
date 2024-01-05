@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def get_list_from_array(array):
+        return array.tolist()
