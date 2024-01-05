@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def cube_number(x):
+        return x**3
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
