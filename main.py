@@ -1,5 +1,6 @@
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-name = "Python"
-print("Hello,", name)
+def calculate_exponential(x):
+        return math.exp(x)
