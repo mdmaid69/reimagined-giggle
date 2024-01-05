@@ -1,5 +1,7 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def count_characters(sentence):
-        return len(sentence)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
