@@ -1,5 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_work(force, distance):
-        return force * distance
+import sys
+def print_python_version():
+        return sys.version
+import collections
+def create_priority_queue():
+        return collections.deque()
