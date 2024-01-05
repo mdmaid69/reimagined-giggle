@@ -1,6 +1,8 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import tensorflow as tf
+print(tf.__version__)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
