@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def calculate_volume(length, width, height):
-        return length * width * height
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  def multiply_numbers(x, y):
+        return x * y
