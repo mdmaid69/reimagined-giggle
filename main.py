@@ -1,5 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_power(work, time):
-        return work / time
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def convert_to_octal(n):
+        return oct(n)
