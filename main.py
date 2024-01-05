@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import os
-print(os.getcwd())
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import os
+  def get_current_directory():
+        return os.getcwd()
