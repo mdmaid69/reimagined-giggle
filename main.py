@@ -1,5 +1,4 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_density(mass, volume):
+        return mass / volume
+import numpy as np
+print(np.array([1, 2, 3]))
