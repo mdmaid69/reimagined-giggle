@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
