@@ -1,6 +1,6 @@
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
