@@ -1,5 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import time
-print(time.time())
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
