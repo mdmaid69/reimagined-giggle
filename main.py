@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import array
+def convert_array_to_list(array):
+        return array.tolist()
