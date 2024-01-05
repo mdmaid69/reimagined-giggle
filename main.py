@@ -1,8 +1,7 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_force(mass, acceleration):
+        return mass * acceleration
