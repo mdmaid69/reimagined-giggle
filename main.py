@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def convert_array_to_list(array):
+        return array.tolist()
