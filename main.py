@@ -1,7 +1,3 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+for i in range(10): print(i)
