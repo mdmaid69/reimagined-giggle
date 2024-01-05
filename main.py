@@ -1,6 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def get_array_item_count(array, item):
+        return array.count(item)
