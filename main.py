@@ -1,5 +1,8 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def find_min(lst):
-        return min(lst)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
