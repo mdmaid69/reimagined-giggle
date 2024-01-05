@@ -1,8 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
