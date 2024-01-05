@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+def find_max(numbers):
+        return max(numbers)
