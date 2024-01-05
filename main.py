@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def convert_to_octal(n):
-        return oct(n)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+text = "Hello, world!"
+print("Words:", len(text.split()))
