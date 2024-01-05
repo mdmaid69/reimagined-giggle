@@ -1,5 +1,5 @@
+  def subtract_numbers(x, y):
+        return x - y
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
