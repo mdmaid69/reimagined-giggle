@@ -1,5 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_power(work, time):
-        return work / time
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
