@@ -1,8 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import array
+def get_array_index(array, item):
+        return array.index(item)
