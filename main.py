@@ -1,6 +1,6 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
