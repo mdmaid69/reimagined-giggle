@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
