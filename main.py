@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import sys
+def exit_program():
+        sys.exit()
