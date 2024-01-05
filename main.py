@@ -1,6 +1,5 @@
+import tensorflow as tf
+print(tf.__version__)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def delete_file(file_name):
+        os.remove(file_name)
