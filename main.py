@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  def cube_number(x):
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def cube_number(x):
         return x**3
