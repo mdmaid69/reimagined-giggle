@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
