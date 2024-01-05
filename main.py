@@ -1,6 +1,7 @@
 import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
