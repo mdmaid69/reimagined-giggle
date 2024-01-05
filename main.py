@@ -1,3 +1,5 @@
-print("Hello, world!")
-  def count_elements(lst):
-        return len(lst)
+def divide_numbers(x, y):
+        return x / y
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
