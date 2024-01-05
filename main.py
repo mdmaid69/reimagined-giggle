@@ -1,5 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
