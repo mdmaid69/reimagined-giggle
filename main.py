@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
