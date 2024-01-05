@@ -1,6 +1,6 @@
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import collections
-def create_user_list():
-        return collections.UserList()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
