@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
