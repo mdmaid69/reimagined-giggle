@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+for i in range(10): print(i)
