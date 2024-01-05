@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
