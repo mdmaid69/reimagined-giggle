@@ -1,5 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import sys
+def exit_program():
+        sys.exit()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
