@@ -1,5 +1,6 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-def is_even(n):
-        return n % 2 == 0
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
