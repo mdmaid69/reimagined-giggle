@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
