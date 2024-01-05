@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_density(mass, volume):
+        return mass / volume
