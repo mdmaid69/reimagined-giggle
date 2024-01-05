@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def clear_array(array):
+        array *= 0
