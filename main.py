@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def count_elements(lst):
-        return len(lst)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
