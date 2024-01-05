@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
