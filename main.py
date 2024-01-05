@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-import sys
-def exit_program():
-        sys.exit()
+  def add_numbers(x, y):
+        return x + y
+def is_odd(n):
+        return n % 2 != 0
