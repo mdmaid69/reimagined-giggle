@@ -1,5 +1,6 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
