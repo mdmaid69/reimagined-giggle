@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
