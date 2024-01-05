@@ -1,6 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
