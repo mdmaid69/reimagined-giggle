@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
