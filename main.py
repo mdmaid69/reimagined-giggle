@@ -1,4 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
