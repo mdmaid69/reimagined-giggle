@@ -1,8 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def count_words(sentence):
+        return len(sentence.split())
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
