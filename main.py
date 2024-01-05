@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
