@@ -1,5 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+from collections import Counter
+print(Counter("hello world"))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
