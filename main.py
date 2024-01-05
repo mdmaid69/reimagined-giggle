@@ -1,5 +1,4 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
