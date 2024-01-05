@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import sys
-def print_python_version():
-        return sys.version
+def calculate_power(work, time):
+        return work / time
+  import os
+  def split_path(path):
+        return os.path.split(path)
