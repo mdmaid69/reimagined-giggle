@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def convert_to_binary(n):
-        return bin(n)
+import datetime
+print(datetime.datetime.now())
+import array
+def get_array_as_set(array):
+        return set(array)
