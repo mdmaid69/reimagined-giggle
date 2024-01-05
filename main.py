@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
