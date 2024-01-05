@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import random
+print(random.randint(0, 100))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
