@@ -1,5 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def greet(name):
-        print(f"Hello, {name}!")
+def is_odd(n):
+        return n % 2 != 0
+import sys
+def exit_program():
+        sys.exit()
