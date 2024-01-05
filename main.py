@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
