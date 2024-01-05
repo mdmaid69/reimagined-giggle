@@ -1,6 +1,4 @@
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+print([x**2 for x in range(10)])
