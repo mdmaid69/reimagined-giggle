@@ -1,8 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import time
+def get_current_time():
+        return time.time()
