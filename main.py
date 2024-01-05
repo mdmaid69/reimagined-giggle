@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
