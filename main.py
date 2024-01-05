@@ -1,8 +1,5 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
