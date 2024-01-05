@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
