@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_area_rectangle(l, w):
+        return l * w
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
