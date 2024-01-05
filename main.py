@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
