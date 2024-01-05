@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def reverse_list(lst):
+        return lst[::-1]
