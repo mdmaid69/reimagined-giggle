@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def sort_list(lst):
+        return sorted(lst)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
