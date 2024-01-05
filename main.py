@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
