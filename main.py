@@ -1,4 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-print([x**2 for x in range(10)])
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
