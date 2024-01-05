@@ -1,6 +1,7 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
