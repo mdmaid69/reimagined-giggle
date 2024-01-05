@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
 import collections
-def create_stack():
+def create_priority_queue():
         return collections.deque()
