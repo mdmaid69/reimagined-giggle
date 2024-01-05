@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  def square_number(x):
-        return x**2
+def add_numbers(x, y):
+        return x + y
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
