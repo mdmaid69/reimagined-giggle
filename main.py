@@ -1,6 +1,8 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import getpass
-def get_username():
-        return getpass.getuser()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
