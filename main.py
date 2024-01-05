@@ -1,6 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import array
-def get_array_as_list(array):
-        return list(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
