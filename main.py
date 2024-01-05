@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
