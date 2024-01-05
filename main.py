@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def convert_array_to_string(array):
+        return array.tostring()
