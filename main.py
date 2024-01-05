@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_speed(distance, time):
+        return distance / time
