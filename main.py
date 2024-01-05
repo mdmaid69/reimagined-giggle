@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_power(work, time):
+        return work / time
+import array
+def get_string_from_array(array):
+        return array.tobytes()
