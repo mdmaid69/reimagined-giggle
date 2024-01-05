@@ -1,6 +1,5 @@
+def remove_duplicates(lst):
+        return list(set(lst))
 import array
-def get_array_as_list(array):
-        return list(array)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def extend_array(array, iterable):
+        array.extend(iterable)
