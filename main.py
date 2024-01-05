@@ -1,6 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def append_to_array(array, item):
+        array.append(item)
