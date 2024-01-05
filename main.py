@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
