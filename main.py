@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
