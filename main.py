@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def add_numbers(x, y):
-        return x + y
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def get_array_typecode(array):
+        return array.typecode
