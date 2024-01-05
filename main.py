@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import datetime
-print(datetime.datetime.now())
+def calculate_speed(distance, time):
+        return distance / time
+import platform
+def get_os_info():
+        return platform.uname()
