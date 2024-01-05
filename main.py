@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
