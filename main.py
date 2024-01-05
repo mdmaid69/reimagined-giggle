@@ -1,6 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def convert_array_to_string(array):
+        return array.tostring()
