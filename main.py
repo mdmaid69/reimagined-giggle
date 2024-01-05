@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def is_even(n):
+        return n % 2 == 0
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
