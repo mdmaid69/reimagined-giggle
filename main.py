@@ -1,6 +1,3 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+print("Hello, world!")
