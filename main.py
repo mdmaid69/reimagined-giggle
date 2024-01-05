@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
