@@ -1,4 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import tensorflow as tf
-print(tf.__version__)
+def count_characters(sentence):
+        return len(sentence)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
