@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def convert_to_octal(n):
+        return oct(n)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
