@@ -1,6 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import time
+def get_time_since_epoch():
+        return time.time()
