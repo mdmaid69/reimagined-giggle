@@ -1,6 +1,5 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_work(force, distance):
+        return force * distance
