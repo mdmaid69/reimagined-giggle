@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def greet(name):
-        print(f"Hello, {name}!")
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
