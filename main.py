@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
