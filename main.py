@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
