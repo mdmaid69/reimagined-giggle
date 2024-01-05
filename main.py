@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_acceleration(speed, time):
+        return speed / time
