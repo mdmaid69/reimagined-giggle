@@ -1,6 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
