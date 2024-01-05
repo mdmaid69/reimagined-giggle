@@ -1,4 +1,5 @@
-import math
-print(math.pi)
-def sort_list(lst):
-        return sorted(lst)
+def find_min(numbers):
+        return min(numbers)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
