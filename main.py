@@ -1,5 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
