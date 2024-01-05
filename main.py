@@ -1,8 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
