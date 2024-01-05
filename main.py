@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
