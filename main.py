@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
