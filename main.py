@@ -1,6 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
