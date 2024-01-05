@@ -1,6 +1,6 @@
+import array
+def get_list_from_array(array):
+        return array.tolist()
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
