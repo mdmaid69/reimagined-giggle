@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
