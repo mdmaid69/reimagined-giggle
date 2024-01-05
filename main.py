@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def greet(name):
+        print(f"Hello, {name}!")
