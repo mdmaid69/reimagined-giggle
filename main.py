@@ -1,6 +1,8 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import sys
+def exit_program():
+        sys.exit()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
