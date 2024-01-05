@@ -1,6 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+for i in range(10): print(i)
+import array
+def get_array_as_str(array):
+        return str(array)
