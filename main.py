@@ -1,5 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
