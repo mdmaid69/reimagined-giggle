@@ -1,8 +1,5 @@
+def remove_duplicates(lst):
+        return list(set(lst))
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import collections
-def create_counter():
-        return collections.Counter()
+def get_array_typecode(array):
+        return array.typecode
