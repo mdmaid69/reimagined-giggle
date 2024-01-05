@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import json
+print(json.dumps({"name": "John", "age": 30}))
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
