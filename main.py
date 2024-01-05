@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
