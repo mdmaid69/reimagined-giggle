@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import re
+print(re.match("h.*o", "hello world"))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
