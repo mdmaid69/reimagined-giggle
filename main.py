@@ -1,5 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
