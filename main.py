@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def reverse_list(lst):
+        return lst[::-1]
