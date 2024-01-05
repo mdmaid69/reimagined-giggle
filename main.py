@@ -1,6 +1,8 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
