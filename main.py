@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
