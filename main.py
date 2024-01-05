@@ -1,7 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import platform
+def get_python_version():
+        return platform.python_version()
