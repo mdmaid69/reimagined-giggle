@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def convert_to_hex(n):
-        return hex(n)
+def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
