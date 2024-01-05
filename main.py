@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-def multiply_numbers(x, y):
-        return x * y
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
