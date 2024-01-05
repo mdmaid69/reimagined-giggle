@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
