@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
