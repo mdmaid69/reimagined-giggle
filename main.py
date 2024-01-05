@@ -1,6 +1,5 @@
+def is_even(n):
+        return n % 2 == 0
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
