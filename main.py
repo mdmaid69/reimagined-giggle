@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
