@@ -1,5 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_power(work, time):
-        return work / time
+  def square_number(x):
+        return x**2
+def calculate_volume(length, width, height):
+        return length * width * height
