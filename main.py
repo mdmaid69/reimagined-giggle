@@ -1,8 +1,8 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import sys
+def print_python_version():
+        print(sys.version)
