@@ -1,5 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import collections
+def create_user_string():
+        return collections.UserString()
