@@ -1,5 +1,4 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import os
-print(os.getcwd())
+print(math.pi)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
