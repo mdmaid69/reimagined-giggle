@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
