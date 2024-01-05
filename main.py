@@ -1,4 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
