@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import sys
-def exit_program():
-        sys.exit()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import platform
+def get_python_version():
+        return platform.python_version()
