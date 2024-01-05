@@ -1,8 +1,3 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+print(sum(range(10)))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
