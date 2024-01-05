@@ -1,5 +1,6 @@
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
