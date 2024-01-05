@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def add_numbers(a, b):
+        return a + b
+import sys
+def print_python_version():
+        return sys.version
