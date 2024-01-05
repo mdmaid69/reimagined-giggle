@@ -1,7 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
