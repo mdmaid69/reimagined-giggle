@@ -1,5 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
