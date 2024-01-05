@@ -1,4 +1,8 @@
-def calculate_power(work, time):
-        return work / time
-  def multiply_numbers(x, y):
-        return x * y
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
