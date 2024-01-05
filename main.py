@@ -1,6 +1,8 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
