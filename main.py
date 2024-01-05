@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
