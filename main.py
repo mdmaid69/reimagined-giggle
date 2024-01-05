@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def is_even(n):
+        return n % 2 == 0
