@@ -1,5 +1,8 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
