@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
