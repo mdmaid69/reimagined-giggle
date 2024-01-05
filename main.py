@@ -1,5 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_force(mass, acceleration):
+        return mass * acceleration
