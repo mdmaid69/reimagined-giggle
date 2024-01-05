@@ -1,6 +1,6 @@
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
