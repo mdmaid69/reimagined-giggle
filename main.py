@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import sys
+print(sys.version)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
