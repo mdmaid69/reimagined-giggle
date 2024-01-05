@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
