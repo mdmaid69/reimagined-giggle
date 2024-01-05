@@ -1,8 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
