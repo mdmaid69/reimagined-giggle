@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import os
+def change_working_directory(path):
+        os.chdir(path)
