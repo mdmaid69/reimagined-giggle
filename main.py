@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_pressure(force, area):
+        return force / area
