@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
