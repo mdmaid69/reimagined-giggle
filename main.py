@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
