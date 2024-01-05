@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
