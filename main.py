@@ -1,7 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
