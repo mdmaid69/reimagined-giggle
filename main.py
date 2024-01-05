@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
