@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-  def convert_to_hex(n):
-        return hex(n)
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
