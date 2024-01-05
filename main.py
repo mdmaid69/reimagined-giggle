@@ -1,6 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def cube_number(x):
+        return x**3
+def sort_list(lst):
+        return sorted(lst)
