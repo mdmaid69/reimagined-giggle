@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  def cube_number(x):
-        return x**3
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import numpy as np
+print(np.array([1, 2, 3]))
