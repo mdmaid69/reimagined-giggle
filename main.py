@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_work(force, distance):
+        return force * distance
