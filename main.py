@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
