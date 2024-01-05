@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
