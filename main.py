@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import sys
+def exit_program():
+        sys.exit()
