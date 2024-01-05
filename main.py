@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import getpass
+def get_username():
+        return getpass.getuser()
+def convert_to_binary(n):
+        return bin(n)
