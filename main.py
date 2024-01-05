@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
