@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
