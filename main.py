@@ -1,6 +1,10 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def is_even(n):
+        return n % 2 == 0
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
