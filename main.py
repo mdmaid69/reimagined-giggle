@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_area(radius):
+        return 3.14 * radius * radius
