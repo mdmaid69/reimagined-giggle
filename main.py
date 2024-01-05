@@ -1,6 +1,5 @@
+def calculate_area(radius):
+        return 3.14 * radius * radius
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import platform
-def get_python_version():
-        return platform.python_version()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
