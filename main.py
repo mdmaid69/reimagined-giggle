@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import collections
+def create_user_string():
+        return collections.UserString()
