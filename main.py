@@ -1,5 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import array
+def clear_array(array):
+        array *= 0
