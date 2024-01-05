@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
