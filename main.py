@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_factorial(n):
+        return math.factorial(n)
