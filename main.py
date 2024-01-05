@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
