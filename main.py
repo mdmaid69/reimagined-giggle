@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_current_directory():
+        return os.getcwd()
