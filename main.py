@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def convert_to_octal(n):
-        return oct(n)
+def find_min(numbers):
+        return min(numbers)
+  def convert_to_hex(n):
+        return hex(n)
