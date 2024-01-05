@@ -1,6 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def is_palindrome(s):
+        return s == s[::-1]
+def is_odd(n):
+        return n % 2 != 0
