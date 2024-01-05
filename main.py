@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
