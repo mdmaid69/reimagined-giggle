@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import time
+def get_current_time():
+        return time.ctime()
