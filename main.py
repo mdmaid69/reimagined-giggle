@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
