@@ -1,6 +1,5 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def get_array_itemsize(array):
+        return array.itemsize
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
