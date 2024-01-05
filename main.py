@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def reverse_string(s):
+        return s[::-1]
+import sys
+def exit_program():
+        sys.exit()
