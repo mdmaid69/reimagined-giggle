@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import sys
+def print_python_version():
+        print(sys.version)
