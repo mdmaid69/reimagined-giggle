@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
