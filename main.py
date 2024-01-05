@@ -1,11 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
