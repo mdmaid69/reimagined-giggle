@@ -1,6 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
