@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_speed(distance, time):
+        return distance / time
