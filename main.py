@@ -1,6 +1,7 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
