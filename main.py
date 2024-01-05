@@ -1,4 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  def subtract_numbers(x, y):
+        return x - y
