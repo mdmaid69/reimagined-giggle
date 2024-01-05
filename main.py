@@ -1,3 +1,5 @@
 numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-for i in range(10): print(i)
+print("Squared:", [n**2 for n in numbers])
+import sys
+def print_python_version():
+        print(sys.version)
