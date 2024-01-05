@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
