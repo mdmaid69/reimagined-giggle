@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import sys
-def exit_program():
-        sys.exit()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
