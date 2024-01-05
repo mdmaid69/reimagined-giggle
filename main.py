@@ -1,7 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
