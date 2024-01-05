@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
