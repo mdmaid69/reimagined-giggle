@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
