@@ -1,5 +1,8 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
