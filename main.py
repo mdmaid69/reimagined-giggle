@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import array
-def get_array_item(array, i):
-        return array[i]
+  def convert_to_hex(n):
+        return hex(n)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
