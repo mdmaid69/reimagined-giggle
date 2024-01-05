@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_pressure(force, area):
-        return force / area
+def count_words(sentence):
+        return len(sentence.split())
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
