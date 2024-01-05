@@ -1,5 +1,7 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def calculate_force(mass, acceleration):
+        return mass * acceleration
