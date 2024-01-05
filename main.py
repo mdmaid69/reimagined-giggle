@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
