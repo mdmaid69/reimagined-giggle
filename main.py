@@ -1,6 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import array
+def get_array_as_set(array):
+        return set(array)
