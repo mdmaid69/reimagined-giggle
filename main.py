@@ -1,8 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+for i in range(10): print(i)
