@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
