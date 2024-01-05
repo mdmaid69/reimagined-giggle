@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def is_even(n):
-        return n % 2 == 0
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
