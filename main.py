@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
