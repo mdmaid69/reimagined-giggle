@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
