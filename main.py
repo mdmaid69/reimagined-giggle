@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_power(work, time):
+        return work / time
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
