@@ -1,6 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
