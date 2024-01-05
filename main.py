@@ -1,5 +1,7 @@
-import datetime
-print(datetime.datetime.now())
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
