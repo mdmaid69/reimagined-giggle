@@ -1,4 +1,5 @@
-name = "Python"
-print("Hello,", name)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
