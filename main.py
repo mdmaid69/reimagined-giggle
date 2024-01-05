@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
