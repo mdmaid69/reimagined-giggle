@@ -1,6 +1,5 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def count_characters(sentence):
+        return len(sentence)
