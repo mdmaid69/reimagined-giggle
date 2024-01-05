@@ -1,5 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def count_characters(sentence):
-        return len(sentence)
+  def is_even(n):
+        return n % 2 == 0
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
