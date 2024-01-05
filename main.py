@@ -1,6 +1,6 @@
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
