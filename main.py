@@ -1,5 +1,8 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
