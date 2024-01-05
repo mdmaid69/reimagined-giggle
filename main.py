@@ -1,6 +1,9 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
