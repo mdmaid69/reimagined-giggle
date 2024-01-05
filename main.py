@@ -1,5 +1,7 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_force(mass, acceleration):
+        return mass * acceleration
