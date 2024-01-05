@@ -1,6 +1,6 @@
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
