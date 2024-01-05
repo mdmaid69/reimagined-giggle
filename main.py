@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
