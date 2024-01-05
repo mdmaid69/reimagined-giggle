@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
