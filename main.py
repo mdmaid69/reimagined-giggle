@@ -1,11 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def split_path(path):
+        return os.path.split(path)
