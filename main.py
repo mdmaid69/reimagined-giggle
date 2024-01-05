@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
