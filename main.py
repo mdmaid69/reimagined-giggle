@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
