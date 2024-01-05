@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+x = 10
+y = 20
+print("Sum:", x + y)
