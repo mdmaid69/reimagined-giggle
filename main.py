@@ -1,6 +1,7 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+text = "Hello, world!"
+print("Reversed:", text[::-1])
