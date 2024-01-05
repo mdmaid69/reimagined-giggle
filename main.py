@@ -1,5 +1,5 @@
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def is_even(n):
-        return n % 2 == 0
+def list_files_in_directory(path):
+        return os.listdir(path)
+  def cube_number(x):
+        return x**3
