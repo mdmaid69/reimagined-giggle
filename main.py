@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def get_array_as_list(array):
+        return list(array)
