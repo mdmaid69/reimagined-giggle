@@ -1,6 +1,6 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
