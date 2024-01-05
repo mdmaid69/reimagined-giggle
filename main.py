@@ -1,5 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def subtract_numbers(x, y):
-        return x - y
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
