@@ -1,3 +1,4 @@
-for i in range(10): print(i)
-import datetime
-print(datetime.datetime.now())
+def calculate_pressure(force, area):
+        return force / area
+text = "Hello, world!"
+print("Words:", len(text.split()))
