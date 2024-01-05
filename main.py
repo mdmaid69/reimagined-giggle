@@ -1,5 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+from collections import Counter
+print(Counter("hello world"))
+def find_unique_words(sentence):
+        return set(sentence.split())
