@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
