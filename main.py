@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
