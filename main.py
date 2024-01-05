@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
