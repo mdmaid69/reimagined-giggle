@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
