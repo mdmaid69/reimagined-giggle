@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  def convert_to_binary(n):
-        return bin(n)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def is_odd(n):
+        return n % 2 != 0
