@@ -1,4 +1,7 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
