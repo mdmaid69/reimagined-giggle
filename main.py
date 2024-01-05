@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
