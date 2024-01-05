@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
