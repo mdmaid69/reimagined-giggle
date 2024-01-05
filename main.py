@@ -1,6 +1,7 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
