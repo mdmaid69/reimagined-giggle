@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def get_array_typecode(array):
+        return array.typecode
