@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_volume(length, width, height):
-        return length * width * height
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
