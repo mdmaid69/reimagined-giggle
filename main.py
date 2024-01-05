@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_array_as_bool(array):
+        return bool(array)
