@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_density(mass, volume):
+        return mass / volume
+  import sys
+  def get_python_version():
+        return sys.version
