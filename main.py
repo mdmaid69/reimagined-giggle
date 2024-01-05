@@ -1,6 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
