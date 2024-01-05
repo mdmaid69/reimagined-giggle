@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
