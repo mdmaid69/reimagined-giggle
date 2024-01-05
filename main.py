@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import array
+def get_array_item(array, i):
+        return array[i]
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
