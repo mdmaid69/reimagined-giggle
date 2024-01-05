@@ -1,5 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_area_rectangle(l, w):
+        return l * w
+  def convert_to_binary(n):
+        return bin(n)
