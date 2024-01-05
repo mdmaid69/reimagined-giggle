@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def get_array_length(array):
-        return len(array)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def find_min(numbers):
+        return min(numbers)
