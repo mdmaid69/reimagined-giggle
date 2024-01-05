@@ -1,5 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
