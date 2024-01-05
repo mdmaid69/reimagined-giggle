@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def calculate_acceleration(speed, time):
+        return speed / time
