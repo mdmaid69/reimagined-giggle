@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
