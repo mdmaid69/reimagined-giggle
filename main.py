@@ -1,6 +1,9 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import re
+print(re.match("h.*o", "hello world"))
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
