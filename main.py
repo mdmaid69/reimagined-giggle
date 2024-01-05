@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
