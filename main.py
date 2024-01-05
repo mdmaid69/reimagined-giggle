@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
