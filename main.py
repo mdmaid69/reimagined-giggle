@@ -1,10 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
