@@ -1,6 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_power(work, time):
+        return work / time
