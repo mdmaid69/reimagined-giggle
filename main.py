@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_list_from_array(array):
+        return array.tolist()
