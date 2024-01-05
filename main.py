@@ -1,4 +1,8 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-for i in range(10): print(i)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
