@@ -1,4 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def cube_number(x):
+        return x**3
+import numpy as np
+print(np.array([1, 2, 3]))
