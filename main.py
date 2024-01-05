@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
