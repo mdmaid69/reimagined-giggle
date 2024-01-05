@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+print("Hello, world!")
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
