@@ -1,6 +1,5 @@
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
