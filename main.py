@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def convert_to_hex(n):
+        return hex(n)
+def sort_list(lst):
+        return sorted(lst)
