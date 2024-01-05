@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
