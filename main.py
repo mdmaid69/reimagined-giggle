@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  def is_even(n):
-        return n % 2 == 0
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
