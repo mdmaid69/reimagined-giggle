@@ -1,5 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
