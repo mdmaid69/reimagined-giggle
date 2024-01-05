@@ -1,5 +1,8 @@
-  def is_even(n):
-        return n % 2 == 0
-import logging
-def log_message(message):
-        logging.info(message)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
