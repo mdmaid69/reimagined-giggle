@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
