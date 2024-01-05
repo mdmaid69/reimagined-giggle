@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import getpass
-def get_username():
-        return getpass.getuser()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
