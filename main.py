@@ -1,8 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
