@@ -1,5 +1,7 @@
-  def square_number(x):
-        return x**2
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
