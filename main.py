@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_pressure(force, area):
-        return force / area
+  def add_numbers(x, y):
+        return x + y
+import datetime
+def get_current_date():
+        return datetime.date.today()
