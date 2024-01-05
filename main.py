@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
