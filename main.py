@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def square_number(x):
-        return x**2
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
