@@ -1,5 +1,4 @@
-import sys
-print(sys.version)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def multiply_numbers(x, y):
+        return x * y
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
