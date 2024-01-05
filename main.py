@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import getpass
-def get_username():
-        return getpass.getuser()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import platform
+def get_python_version():
+        return platform.python_version()
