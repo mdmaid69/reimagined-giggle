@@ -1,8 +1,12 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
