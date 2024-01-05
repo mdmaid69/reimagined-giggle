@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
