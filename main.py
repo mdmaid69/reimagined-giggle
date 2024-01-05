@@ -1,7 +1,7 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import time
+def get_current_time():
+        return time.time()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
