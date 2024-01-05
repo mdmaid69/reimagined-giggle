@@ -1,5 +1,10 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_work(force, distance):
-        return force * distance
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
