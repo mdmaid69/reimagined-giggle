@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_density(mass, volume):
+        return mass / volume
