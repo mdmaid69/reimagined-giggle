@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
