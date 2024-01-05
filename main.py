@@ -1,5 +1,8 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def reverse_array(array):
+        array.reverse()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
