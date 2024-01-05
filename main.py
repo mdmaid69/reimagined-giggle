@@ -1,5 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def cube_number(x):
+        return x**3
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
