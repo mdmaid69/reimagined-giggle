@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
