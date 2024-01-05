@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def add_numbers(x, y):
-        return x + y
+def count_words(sentence):
+        return len(sentence.split())
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
