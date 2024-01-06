@@ -1,5 +1,7 @@
-import re
-print(re.match("h.*o", "hello world"))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
