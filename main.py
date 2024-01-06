@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+for i in range(10): print(i)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
