@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def is_palindrome(s):
+        return s == s[::-1]
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
