@@ -1,6 +1,8 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
