@@ -1,6 +1,4 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def add_numbers(a, b):
+        return a + b
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
