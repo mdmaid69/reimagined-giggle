@@ -1,4 +1,6 @@
-import os
-print(os.getcwd())
-import tensorflow as tf
-print(tf.__version__)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
