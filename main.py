@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
