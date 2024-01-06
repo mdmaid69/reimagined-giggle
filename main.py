@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
