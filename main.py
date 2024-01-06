@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import collections
+def create_user_list():
+        return collections.UserList()
