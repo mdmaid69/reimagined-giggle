@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
