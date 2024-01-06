@@ -1,7 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
