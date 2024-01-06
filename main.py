@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+from collections import Counter
+print(Counter("hello world"))
