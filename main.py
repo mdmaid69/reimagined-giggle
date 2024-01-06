@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def get_array_length(array):
+        return len(array)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
