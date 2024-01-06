@@ -1,4 +1,6 @@
-name = "Python"
-print("Hello,", name)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
