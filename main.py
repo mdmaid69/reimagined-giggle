@@ -1,4 +1,8 @@
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
 n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
