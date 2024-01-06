@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def add_numbers(a, b):
+        return a + b
+import time
+def get_current_time():
+        return time.ctime()
