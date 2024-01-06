@@ -1,7 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
