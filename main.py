@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
