@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
