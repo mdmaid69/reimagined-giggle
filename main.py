@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
