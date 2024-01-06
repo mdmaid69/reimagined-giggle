@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
