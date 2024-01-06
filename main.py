@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
