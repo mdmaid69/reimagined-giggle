@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def find_max(lst):
+        return max(lst)
