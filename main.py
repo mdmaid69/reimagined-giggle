@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
