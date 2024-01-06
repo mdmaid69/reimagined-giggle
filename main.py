@@ -1,6 +1,6 @@
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
