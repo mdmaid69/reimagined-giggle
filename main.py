@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def find_min(numbers):
-        return min(numbers)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import tensorflow as tf
+print(tf.__version__)
