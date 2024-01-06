@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
