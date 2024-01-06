@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
