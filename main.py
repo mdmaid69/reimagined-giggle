@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  def reverse_list(lst):
-        return lst[::-1]
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
