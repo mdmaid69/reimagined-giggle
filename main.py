@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
