@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import sys
+def print_python_version():
+        return sys.version
+import collections
+def create_user_string():
+        return collections.UserString()
