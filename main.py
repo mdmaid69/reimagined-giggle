@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import time
+def get_time_since_epoch():
+        return time.time()
