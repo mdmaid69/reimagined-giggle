@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import array
+def clear_array(array):
+        array *= 0
