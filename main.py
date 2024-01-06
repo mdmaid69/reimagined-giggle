@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_area_rectangle(l, w):
-        return l * w
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
