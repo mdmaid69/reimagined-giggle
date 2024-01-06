@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-text = "Hello, world!"
-print("Characters:", len(text))
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
