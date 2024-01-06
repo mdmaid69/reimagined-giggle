@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import sys
-  def get_python_version():
-        return sys.version
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
