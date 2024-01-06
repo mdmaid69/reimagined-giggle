@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
