@@ -1,5 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def cube_number(x):
-        return x**3
+def get_array_as_str(array):
+        return str(array)
+import sys
+def print_python_version():
+        return sys.version
