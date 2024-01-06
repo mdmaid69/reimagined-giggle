@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
