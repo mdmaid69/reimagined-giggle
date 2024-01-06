@@ -1,6 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import numpy as np
+print(np.array([1, 2, 3]))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
