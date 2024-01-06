@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import collections
+def create_user_dict():
+        return collections.UserDict()
