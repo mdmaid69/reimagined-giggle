@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
