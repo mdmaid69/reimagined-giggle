@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_floor(x):
+        return math.floor(x)
