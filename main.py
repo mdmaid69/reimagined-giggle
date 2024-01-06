@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def cube_number(x):
-        return x**3
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
