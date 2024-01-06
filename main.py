@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  def is_odd(n):
-        return n % 2 != 0
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
