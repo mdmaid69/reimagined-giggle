@@ -1,6 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
