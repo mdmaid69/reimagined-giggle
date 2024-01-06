@@ -1,7 +1,9 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-  import os
-  def split_path(path):
-        return os.path.split(path)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
