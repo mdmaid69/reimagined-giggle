@@ -1,5 +1,7 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
