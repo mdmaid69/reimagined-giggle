@@ -1,7 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def convert_to_hex(n):
+        return hex(n)
