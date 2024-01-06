@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
