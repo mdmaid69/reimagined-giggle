@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
