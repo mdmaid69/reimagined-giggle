@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def divide_numbers(x, y):
+        return x / y
