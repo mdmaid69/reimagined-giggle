@@ -1,6 +1,5 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def get_array_item_count(array, item):
+        return array.count(item)
