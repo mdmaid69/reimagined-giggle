@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_index(array, item):
+        return array.index(item)
