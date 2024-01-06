@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
