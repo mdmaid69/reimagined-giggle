@@ -1,10 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
