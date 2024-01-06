@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
