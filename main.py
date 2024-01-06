@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def clear_array(array):
+        array *= 0
