@@ -1,5 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def find_min(numbers):
-        return min(numbers)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
