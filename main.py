@@ -1,6 +1,8 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
