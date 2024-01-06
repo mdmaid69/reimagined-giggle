@@ -1,8 +1,7 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import time
+def get_time_since_epoch():
+        return time.time()
