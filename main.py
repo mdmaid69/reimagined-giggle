@@ -1,6 +1,4 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_acceleration(speed, time):
+        return speed / time
