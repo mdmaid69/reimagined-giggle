@@ -1,6 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+print(sum(range(10)))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
