@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
