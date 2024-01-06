@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
