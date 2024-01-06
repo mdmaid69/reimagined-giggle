@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
