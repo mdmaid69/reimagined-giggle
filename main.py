@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import json
+print(json.dumps({"name": "John", "age": 30}))
