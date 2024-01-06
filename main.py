@@ -1,6 +1,7 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def find_max(lst):
+        return max(lst)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
