@@ -1,5 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_density(mass, volume):
-        return mass / volume
+  def convert_to_hex(n):
+        return hex(n)
+def is_odd(n):
+        return n % 2 != 0
