@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def is_palindrome(s):
-        return s == s[::-1]
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import array
+def get_array_as_bool(array):
+        return bool(array)
