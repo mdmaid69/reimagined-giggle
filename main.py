@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
