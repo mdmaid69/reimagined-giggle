@@ -1,5 +1,7 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def count_words(sentence):
+        return len(sentence.split())
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
