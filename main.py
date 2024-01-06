@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
