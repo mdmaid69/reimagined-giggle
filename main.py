@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-def find_min(lst):
-        return min(lst)
+x = 10
+y = 20
+print("Sum:", x + y)
+def greet(name):
+        print(f"Hello, {name}!")
