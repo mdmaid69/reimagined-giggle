@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Uppercase:", text.upper())
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
