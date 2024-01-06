@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def divide_numbers(x, y):
+        return x / y
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_int(array):
+        return int(array[0])
