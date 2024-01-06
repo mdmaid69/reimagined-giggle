@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
