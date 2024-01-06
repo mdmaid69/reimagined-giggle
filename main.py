@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
