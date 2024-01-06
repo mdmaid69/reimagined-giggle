@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def is_palindrome(s):
-        return s == s[::-1]
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
