@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_array_typecode(array):
+        return array.typecode
