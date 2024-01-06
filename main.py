@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  def is_even(n):
-        return n % 2 == 0
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
