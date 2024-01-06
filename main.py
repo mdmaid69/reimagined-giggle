@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
