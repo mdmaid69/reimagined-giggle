@@ -1,5 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  def square_number(x):
-        return x**2
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_area_rectangle(l, w):
+        return l * w
