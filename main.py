@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def cube_number(x):
+        return x**3
