@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import sys
-  def get_python_version():
-        return sys.version
+  def convert_to_octal(n):
+        return oct(n)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
