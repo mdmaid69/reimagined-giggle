@@ -1,8 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
