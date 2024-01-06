@@ -1,7 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
