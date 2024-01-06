@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import random
-print(random.randint(0, 100))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
