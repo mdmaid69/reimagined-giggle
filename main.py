@@ -1,6 +1,6 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import collections
+def create_user_list():
+        return collections.UserList()
