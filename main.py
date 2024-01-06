@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def check_if_array_contains_item(array, item):
+        return item in array
