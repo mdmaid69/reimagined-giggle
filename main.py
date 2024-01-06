@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
