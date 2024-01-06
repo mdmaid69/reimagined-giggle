@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
