@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
