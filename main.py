@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import collections
+def create_user_string():
+        return collections.UserString()
+x = 10
+y = 20
+print("Sum:", x + y)
