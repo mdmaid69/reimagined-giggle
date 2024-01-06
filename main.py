@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
