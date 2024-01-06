@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import array
+def get_array_as_repr(array):
+        return repr(array)
