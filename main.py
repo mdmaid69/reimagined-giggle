@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def square_number(x):
+        return x**2
