@@ -1,4 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  def is_odd(n):
-        return n % 2 != 0
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def find_max(numbers):
+        return max(numbers)
