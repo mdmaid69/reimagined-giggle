@@ -1,5 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
