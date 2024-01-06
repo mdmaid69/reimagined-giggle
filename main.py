@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
