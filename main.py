@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def count_elements(lst):
+        return len(lst)
