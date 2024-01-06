@@ -1,5 +1,6 @@
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
