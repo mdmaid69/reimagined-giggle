@@ -1,6 +1,4 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def convert_to_octal(n):
+        return oct(n)
+def find_min(lst):
+        return min(lst)
