@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
