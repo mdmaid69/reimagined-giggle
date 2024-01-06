@@ -1,6 +1,7 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
