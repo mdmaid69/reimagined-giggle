@@ -1,6 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_tangent(x):
+        return math.tan(x)
+import collections
+def create_counter():
+        return collections.Counter()
