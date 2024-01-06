@@ -1,6 +1,5 @@
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def create_user_dict():
+        return collections.UserDict()
+def reverse_string(s):
+        return s[::-1]
