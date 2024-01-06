@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-from collections import Counter
-print(Counter("hello world"))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
