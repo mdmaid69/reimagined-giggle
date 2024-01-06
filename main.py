@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
