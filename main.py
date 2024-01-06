@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
