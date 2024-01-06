@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def cube_number(x):
+        return x**3
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
