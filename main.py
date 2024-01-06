@@ -1,7 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
