@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
