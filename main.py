@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def multiply_numbers(x, y):
-        return x * y
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
