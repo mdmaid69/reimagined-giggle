@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import random
+print(random.randint(0, 100))
