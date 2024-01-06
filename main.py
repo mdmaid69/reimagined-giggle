@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
