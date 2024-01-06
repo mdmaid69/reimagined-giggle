@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_as_set(array):
-        return set(array)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
