@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
