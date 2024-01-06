@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
+  def add_numbers(x, y):
+        return x + y
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_arc_tangent(x):
+        return math.atan(x)
