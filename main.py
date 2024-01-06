@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def get_array_as_str(array):
-        return str(array)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
