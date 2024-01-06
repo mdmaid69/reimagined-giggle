@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def is_even(n):
+        return n % 2 == 0
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
