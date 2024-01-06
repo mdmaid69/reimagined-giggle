@@ -1,5 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
