@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
