@@ -1,4 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import time
-print(time.time())
+def find_min(lst):
+        return min(lst)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
