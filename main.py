@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  def multiply_numbers(x, y):
-        return x * y
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
