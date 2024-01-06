@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+name = "Python"
+print("Hello,", name)
