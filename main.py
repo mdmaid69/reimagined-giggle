@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def add_numbers(x, y):
-        return x + y
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
