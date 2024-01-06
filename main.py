@@ -1,6 +1,8 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
