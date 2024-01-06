@@ -1,5 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def find_max(lst):
-        return max(lst)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  def square_number(x):
+        return x**2
