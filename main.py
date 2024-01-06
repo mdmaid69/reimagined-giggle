@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def convert_array_to_string(array):
+        return array.tostring()
