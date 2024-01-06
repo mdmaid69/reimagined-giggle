@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def convert_to_binary(n):
+        return bin(n)
