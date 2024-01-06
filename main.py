@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import datetime
-print(datetime.datetime.now())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
