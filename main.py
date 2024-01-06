@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def split_path(path):
+        return os.path.split(path)
