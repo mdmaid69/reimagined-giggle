@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import getpass
+def get_username():
+        return getpass.getuser()
