@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
