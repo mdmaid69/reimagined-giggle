@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
