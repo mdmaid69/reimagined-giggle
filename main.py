@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
