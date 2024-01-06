@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def multiply_numbers(x, y):
+        return x * y
