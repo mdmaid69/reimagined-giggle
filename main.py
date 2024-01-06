@@ -1,6 +1,7 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
