@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
