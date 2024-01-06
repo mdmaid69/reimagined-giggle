@@ -1,7 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import os
+def remove_directory(path):
+        os.rmdir(path)
