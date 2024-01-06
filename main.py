@@ -1,7 +1,6 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
