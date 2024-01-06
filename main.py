@@ -1,4 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
