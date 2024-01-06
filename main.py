@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def reverse_string(s):
-        return s[::-1]
+x = 10
+y = 20
+print("Sum:", x + y)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
