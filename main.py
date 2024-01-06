@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
