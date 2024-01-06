@@ -1,5 +1,7 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_density(mass, volume):
+        return mass / volume
