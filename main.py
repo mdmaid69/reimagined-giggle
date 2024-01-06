@@ -1,9 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+  def add_numbers(x, y):
+        return x + y
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
