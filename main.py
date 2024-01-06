@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
