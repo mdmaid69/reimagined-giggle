@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
