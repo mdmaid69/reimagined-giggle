@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
