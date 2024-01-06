@@ -1,8 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
