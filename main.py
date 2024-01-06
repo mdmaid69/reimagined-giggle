@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import time
-def get_current_time():
-        return time.ctime()
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
