@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
