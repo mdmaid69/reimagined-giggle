@@ -1,4 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-print([x**2 for x in range(10)])
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import logging
+def log_message(message):
+        logging.info(message)
