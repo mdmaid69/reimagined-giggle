@@ -1,5 +1,8 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import time
+def get_current_time():
+        return time.ctime()
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
