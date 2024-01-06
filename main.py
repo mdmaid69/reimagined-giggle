@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
