@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import time
-def get_time_since_epoch():
-        return time.time()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import collections
+def create_queue():
+        return collections.deque()
