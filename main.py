@@ -1,3 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-print([x**2 for x in range(10)])
+import collections
+def create_user_list():
+        return collections.UserList()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
