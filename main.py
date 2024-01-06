@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_string_from_array(array):
+        return array.tobytes()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
