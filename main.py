@@ -1,6 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
