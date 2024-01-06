@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+print(math.pi)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
