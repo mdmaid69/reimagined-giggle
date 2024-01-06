@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def remove_duplicates(lst):
+        return list(set(lst))
