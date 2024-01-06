@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_itemsize(array):
+        return array.itemsize
+text = "Hello, world!"
+print("Words:", len(text.split()))
