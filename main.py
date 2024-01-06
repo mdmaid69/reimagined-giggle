@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def sort_numbers(numbers):
-        return sorted(numbers)
+import collections
+def create_queue():
+        return collections.deque()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
