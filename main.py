@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
