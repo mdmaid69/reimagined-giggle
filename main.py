@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  def convert_to_octal(n):
+        return oct(n)
