@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
