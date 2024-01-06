@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
