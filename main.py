@@ -1,5 +1,7 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
