@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
