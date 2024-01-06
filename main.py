@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def square_number(x):
+        return x**2
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
