@@ -1,6 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import collections
-def create_priority_queue():
-        return collections.deque()
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
