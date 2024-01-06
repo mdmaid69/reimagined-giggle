@@ -1,6 +1,8 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
