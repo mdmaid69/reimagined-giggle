@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
