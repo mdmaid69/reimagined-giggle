@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def set_array_item(array, i, item):
+        array[i] = item
+import os
+def remove_directory(path):
+        os.rmdir(path)
