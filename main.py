@@ -1,5 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-from collections import Counter
-print(Counter("hello world"))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
