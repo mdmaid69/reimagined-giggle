@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
