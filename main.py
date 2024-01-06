@@ -1,9 +1,8 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import sys
+def exit_program():
+        sys.exit()
