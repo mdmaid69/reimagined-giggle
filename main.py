@@ -1,5 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import time
+def get_current_time():
+        return time.ctime()
