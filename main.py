@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_exponential(x):
+        return math.exp(x)
