@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import sys
+def exit_program():
+        sys.exit()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
