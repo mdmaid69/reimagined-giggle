@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  def cube_number(x):
-        return x**3
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
