@@ -1,4 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-from collections import Counter
-print(Counter("hello world"))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import datetime
+def get_today_date():
+        return datetime.date.today()
