@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
