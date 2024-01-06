@@ -1,5 +1,5 @@
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def is_odd(n):
-        return n % 2 != 0
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
