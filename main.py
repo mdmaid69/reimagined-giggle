@@ -1,6 +1,8 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import sys
+def exit_program():
+        sys.exit()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
