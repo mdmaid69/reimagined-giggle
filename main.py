@@ -1,7 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def is_palindrome(s):
+        return s == s[::-1]
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
