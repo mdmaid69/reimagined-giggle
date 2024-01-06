@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
