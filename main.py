@@ -1,8 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_volume(length, width, height):
+        return length * width * height
