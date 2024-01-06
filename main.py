@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
