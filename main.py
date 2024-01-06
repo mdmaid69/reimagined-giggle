@@ -1,8 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
