@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def square_number(x):
+        return x**2
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
