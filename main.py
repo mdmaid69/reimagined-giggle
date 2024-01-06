@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def greet(name):
+        print(f"Hello, {name}!")
