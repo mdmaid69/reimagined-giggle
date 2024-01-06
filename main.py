@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def is_palindrome(s):
+        return s == s[::-1]
