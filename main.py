@@ -1,5 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def add_numbers(x, y):
+        return x + y
