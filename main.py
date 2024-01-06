@@ -1,5 +1,9 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
