@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
