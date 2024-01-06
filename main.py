@@ -1,6 +1,4 @@
 import os
-def change_working_directory(path):
-        os.chdir(path)
-import collections
-def create_counter():
-        return collections.Counter()
+print(os.getcwd())
+def calculate_work(force, distance):
+        return force * distance
