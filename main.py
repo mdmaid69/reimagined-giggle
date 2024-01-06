@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import numpy as np
+print(np.array([1, 2, 3]))
