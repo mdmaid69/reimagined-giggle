@@ -1,4 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-print(sum(range(10)))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  def reverse_list(lst):
+        return lst[::-1]
