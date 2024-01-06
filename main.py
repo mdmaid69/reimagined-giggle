@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
