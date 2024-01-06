@@ -1,6 +1,8 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
