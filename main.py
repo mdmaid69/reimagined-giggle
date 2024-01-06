@@ -1,5 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
