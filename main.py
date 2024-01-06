@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
