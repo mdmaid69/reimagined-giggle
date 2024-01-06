@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def square_number(x):
+        return x**2
