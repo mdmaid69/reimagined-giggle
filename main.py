@@ -1,7 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def find_min(lst):
-        return min(lst)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
