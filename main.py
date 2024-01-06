@@ -1,7 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
