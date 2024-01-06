@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import sys
+def exit_program():
+        sys.exit()
