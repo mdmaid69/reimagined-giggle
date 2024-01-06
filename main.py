@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_power(work, time):
-        return work / time
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
