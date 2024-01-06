@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+name = "Python"
+print("Hello,", name)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
