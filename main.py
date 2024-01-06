@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def sort_list(lst):
-        return sorted(lst)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def find_max(numbers):
+        return max(numbers)
