@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import platform
-def get_os_info():
-        return platform.uname()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
