@@ -1,8 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
