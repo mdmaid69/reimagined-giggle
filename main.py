@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_power(work, time):
-        return work / time
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
