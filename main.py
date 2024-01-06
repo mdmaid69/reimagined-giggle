@@ -1,6 +1,6 @@
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def calculate_combinations(n, k):
+        return math.comb(n, k)
