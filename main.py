@@ -1,5 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
