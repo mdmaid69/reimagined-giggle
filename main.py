@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
 import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
