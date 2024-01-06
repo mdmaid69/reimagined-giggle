@@ -1,6 +1,6 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-  import sys
-  def get_python_version():
-        return sys.version
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
