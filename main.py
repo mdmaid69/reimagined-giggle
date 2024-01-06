@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
