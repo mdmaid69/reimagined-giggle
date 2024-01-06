@@ -1,5 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import datetime
-print(datetime.datetime.now())
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
