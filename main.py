@@ -1,5 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import random
+print(random.randint(0, 100))
