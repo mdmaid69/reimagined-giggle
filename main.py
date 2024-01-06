@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_as_str(array):
+        return str(array)
+import collections
+def create_queue():
+        return collections.deque()
