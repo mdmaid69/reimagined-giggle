@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
+import collections
+def create_stack():
+        return collections.deque()
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
