@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def convert_to_hex(n):
-        return hex(n)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def clear_array(array):
+        array *= 0
