@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
