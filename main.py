@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_current_directory():
+        return os.getcwd()
