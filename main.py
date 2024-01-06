@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
