@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
