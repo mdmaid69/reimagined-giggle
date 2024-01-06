@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_density(mass, volume):
+        return mass / volume
+import numpy as np
+print(np.array([1, 2, 3]))
