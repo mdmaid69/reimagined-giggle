@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
