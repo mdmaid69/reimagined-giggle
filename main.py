@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
