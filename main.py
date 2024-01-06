@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
