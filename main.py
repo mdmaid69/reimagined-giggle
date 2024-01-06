@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_as_list(array):
+        return list(array)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
