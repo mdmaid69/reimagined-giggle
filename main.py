@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_pressure(force, area):
+        return force / area
