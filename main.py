@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
