@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def cube_number(x):
+        return x**3
+import os
+print(os.getcwd())
