@@ -1,6 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_speed(distance, time):
+        return distance / time
