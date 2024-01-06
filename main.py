@@ -1,6 +1,9 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
+  def convert_to_binary(n):
+        return bin(n)
