@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
