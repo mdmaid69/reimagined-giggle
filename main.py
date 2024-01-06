@@ -1,6 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
