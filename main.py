@@ -1,5 +1,12 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def find_max(lst):
-        return max(lst)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
