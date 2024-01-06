@@ -1,6 +1,5 @@
+def count_elements(lst):
+        return len(lst)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
