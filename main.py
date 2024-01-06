@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import re
+print(re.match("h.*o", "hello world"))
