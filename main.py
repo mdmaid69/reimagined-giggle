@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_speed(distance, time):
+        return distance / time
