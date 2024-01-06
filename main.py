@@ -1,6 +1,5 @@
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
