@@ -1,6 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
