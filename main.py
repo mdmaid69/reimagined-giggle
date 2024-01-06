@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def reverse_string(s):
-        return s[::-1]
+def convert_to_binary(n):
+        return bin(n)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
