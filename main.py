@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_pressure(force, area):
-        return force / area
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
