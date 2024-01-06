@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def get_array_as_int(array):
+        return int(array[0])
