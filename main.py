@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def add_numbers(x, y):
+        return x + y
+import os
+def change_working_directory(path):
+        os.chdir(path)
