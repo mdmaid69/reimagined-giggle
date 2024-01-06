@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  def count_elements(lst):
+        return len(lst)
