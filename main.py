@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
