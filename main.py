@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
