@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def count_words(sentence):
+        return len(sentence.split())
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
