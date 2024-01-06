@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
