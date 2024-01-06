@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
