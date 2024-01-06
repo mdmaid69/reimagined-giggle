@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
