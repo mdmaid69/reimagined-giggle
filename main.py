@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def get_array_length(array):
+        return len(array)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
