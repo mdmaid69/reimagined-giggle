@@ -1,5 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def convert_to_binary(n):
+        return bin(n)
+def reverse_list(lst):
+        return lst[::-1]
