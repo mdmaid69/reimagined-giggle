@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
