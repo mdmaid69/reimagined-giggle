@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def find_min(lst):
-        return min(lst)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
