@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def multiply_numbers(x, y):
+        return x * y
