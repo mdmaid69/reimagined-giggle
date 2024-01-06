@@ -1,5 +1,6 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def get_string_from_array(array):
+        return array.tobytes()
+import collections
+def create_stack():
+        return collections.deque()
