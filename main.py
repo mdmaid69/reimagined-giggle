@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
