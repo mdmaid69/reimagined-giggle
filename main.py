@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
