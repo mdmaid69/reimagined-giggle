@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
