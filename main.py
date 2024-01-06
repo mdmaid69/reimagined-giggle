@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
