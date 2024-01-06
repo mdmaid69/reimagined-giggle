@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-  def square_number(x):
-        return x**2
+import random
+print(random.randint(0, 100))
+def count_words(sentence):
+        return len(sentence.split())
