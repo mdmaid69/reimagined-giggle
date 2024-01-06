@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def count_words(sentence):
+        return len(sentence.split())
