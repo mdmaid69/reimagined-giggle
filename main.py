@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def remove_duplicates(lst):
-        return list(set(lst))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
