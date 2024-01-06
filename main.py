@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
