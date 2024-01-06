@@ -1,5 +1,6 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def count_words(sentence):
-        return len(sentence.split())
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
