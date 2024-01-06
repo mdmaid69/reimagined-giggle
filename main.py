@@ -1,6 +1,10 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
