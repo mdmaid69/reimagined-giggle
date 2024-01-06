@@ -1,6 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import sys
-def exit_program():
-        sys.exit()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
