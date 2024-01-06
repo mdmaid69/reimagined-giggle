@@ -1,5 +1,5 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def find_max(numbers):
-        return max(numbers)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+text = "Hello, world!"
+print("Words:", len(text.split()))
