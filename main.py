@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def calculate_area_rectangle(l, w):
+        return l * w
