@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
