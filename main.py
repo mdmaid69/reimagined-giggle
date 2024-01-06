@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
