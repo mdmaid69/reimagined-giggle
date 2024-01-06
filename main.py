@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
