@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
