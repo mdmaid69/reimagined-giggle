@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
