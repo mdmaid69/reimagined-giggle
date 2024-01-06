@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
