@@ -1,4 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def cube_number(x):
+        return x**3
