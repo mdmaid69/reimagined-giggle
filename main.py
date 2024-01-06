@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
