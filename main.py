@@ -1,6 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
