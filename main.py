@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
