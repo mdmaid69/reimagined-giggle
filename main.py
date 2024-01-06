@@ -1,5 +1,7 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import random
+def roll_die():
+        return random.randint(1, 6)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
