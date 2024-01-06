@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def divide_numbers(x, y):
-        return x / y
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
