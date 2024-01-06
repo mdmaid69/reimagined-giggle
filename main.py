@@ -1,8 +1,6 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def get_array_as_bytes(array):
+        return bytes(array)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
