@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  def is_odd(n):
-        return n % 2 != 0
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
