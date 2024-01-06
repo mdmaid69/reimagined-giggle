@@ -1,4 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-def count_elements(lst):
-        return len(lst)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
