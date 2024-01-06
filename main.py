@@ -1,5 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import os
-print(os.getcwd())
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
