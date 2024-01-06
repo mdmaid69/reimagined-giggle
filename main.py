@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
