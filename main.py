@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_string_from_array(array):
+        return array.tobytes()
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
