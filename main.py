@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
