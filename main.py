@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_list(array):
+        return list(array)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
