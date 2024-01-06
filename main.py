@@ -1,8 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
