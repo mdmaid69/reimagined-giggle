@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
