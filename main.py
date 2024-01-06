@@ -1,4 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  def sort_list(lst):
-        return sorted(lst)
+import tensorflow as tf
+print(tf.__version__)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
