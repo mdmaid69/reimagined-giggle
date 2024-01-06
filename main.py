@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import time
+def get_time_since_epoch():
+        return time.time()
