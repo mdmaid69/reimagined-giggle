@@ -1,5 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
