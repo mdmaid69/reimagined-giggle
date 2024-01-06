@@ -1,7 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  def is_odd(n):
-        return n % 2 != 0
+  def sort_list(lst):
+        return sorted(lst)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
