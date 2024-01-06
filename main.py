@@ -1,8 +1,9 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
 import array
-def get_array_from_bytes(bytes, typecode):
+def get_array_from_file(filename, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
         return a
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
