@@ -1,6 +1,5 @@
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
