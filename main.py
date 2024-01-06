@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
