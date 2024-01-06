@@ -1,6 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def clear_array(array):
+        array *= 0
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_arc_cosine(x):
+        return math.acos(x)
