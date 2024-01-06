@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
