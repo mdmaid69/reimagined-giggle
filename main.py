@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
