@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import logging
+def log_message(message):
+        logging.info(message)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
