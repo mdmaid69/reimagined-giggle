@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
