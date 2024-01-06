@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
