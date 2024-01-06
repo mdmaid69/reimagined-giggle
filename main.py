@@ -1,6 +1,6 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_complex(array):
+        return complex(array[0])
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
