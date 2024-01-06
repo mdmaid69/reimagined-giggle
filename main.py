@@ -1,6 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def remove_duplicates(lst):
+        return list(set(lst))
 import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+print(random.randint(0, 100))
