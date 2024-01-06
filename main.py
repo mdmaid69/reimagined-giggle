@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def calculate_acceleration(speed, time):
-        return speed / time
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
