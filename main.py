@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
