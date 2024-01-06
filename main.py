@@ -1,8 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
