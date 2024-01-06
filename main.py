@@ -1,6 +1,6 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
