@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import time
-def wait_for_seconds(seconds):
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import time
+  def wait_for_seconds(seconds):
         time.sleep(seconds)
