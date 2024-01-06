@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def multiply_numbers(x, y):
-        return x * y
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
