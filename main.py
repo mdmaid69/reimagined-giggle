@@ -1,5 +1,5 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  def sort_list(lst):
-        return sorted(lst)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import json
+print(json.dumps({"name": "John", "age": 30}))
