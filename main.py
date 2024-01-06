@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def find_max(numbers):
-        return max(numbers)
+  def convert_to_hex(n):
+        return hex(n)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
