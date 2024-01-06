@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def convert_to_hex(n):
+        return hex(n)
+import datetime
+def get_today_date():
+        return datetime.date.today()
