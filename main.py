@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def convert_to_binary(n):
+        return bin(n)
