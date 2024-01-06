@@ -1,6 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+def get_array_length(array):
+        return len(array)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
