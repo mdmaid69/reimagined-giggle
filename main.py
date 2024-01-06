@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
