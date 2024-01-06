@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
