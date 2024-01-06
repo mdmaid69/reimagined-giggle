@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  def is_odd(n):
-        return n % 2 != 0
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
