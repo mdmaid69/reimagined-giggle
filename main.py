@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
