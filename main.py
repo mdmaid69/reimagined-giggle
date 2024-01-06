@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def count_elements(lst):
+        return len(lst)
