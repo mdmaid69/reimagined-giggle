@@ -1,9 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
