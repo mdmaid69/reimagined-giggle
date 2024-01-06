@@ -1,7 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  def square_number(x):
-        return x**2
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
