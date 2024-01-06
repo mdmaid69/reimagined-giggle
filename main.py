@@ -1,5 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def sort_numbers(numbers):
+        return sorted(numbers)
