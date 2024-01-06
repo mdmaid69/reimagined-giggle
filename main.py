@@ -1,5 +1,6 @@
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
 import array
-def reverse_array(array):
-        array.reverse()
-def calculate_pressure(force, area):
-        return force / area
+def get_array_itemsize(array):
+        return array.itemsize
