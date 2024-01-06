@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import collections
-def create_queue():
-        return collections.deque()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
