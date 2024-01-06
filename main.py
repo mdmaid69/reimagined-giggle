@@ -1,8 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
