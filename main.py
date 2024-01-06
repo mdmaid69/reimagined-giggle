@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def get_array_as_set(array):
+        return set(array)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
