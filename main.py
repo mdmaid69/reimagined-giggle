@@ -1,7 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
