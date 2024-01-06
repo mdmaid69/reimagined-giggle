@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import numpy as np
+print(np.array([1, 2, 3]))
