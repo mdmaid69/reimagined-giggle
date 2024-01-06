@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_index(array, item):
+        return array.index(item)
