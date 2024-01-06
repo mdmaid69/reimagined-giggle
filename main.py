@@ -1,7 +1,8 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
