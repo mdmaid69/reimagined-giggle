@@ -1,15 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_tangent(x):
+        return math.tan(x)
