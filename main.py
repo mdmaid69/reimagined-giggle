@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def get_array_as_list(array):
-        return list(array)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+x = 10
+y = 20
+print("Sum:", x + y)
