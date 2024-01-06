@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  def is_odd(n):
-        return n % 2 != 0
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import os
+def change_working_directory(path):
+        os.chdir(path)
