@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
