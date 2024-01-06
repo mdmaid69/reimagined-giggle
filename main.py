@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
