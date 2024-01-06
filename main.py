@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-name = "Python"
-print("Hello,", name)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
