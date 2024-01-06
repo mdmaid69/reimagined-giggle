@@ -1,5 +1,8 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+x = 10
+y = 20
+print("Sum:", x + y)
