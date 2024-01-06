@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def convert_to_octal(n):
-        return oct(n)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def is_palindrome(s):
+        return s == s[::-1]
