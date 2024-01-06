@@ -1,6 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  def cube_number(x):
+        return x**3
