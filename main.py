@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import datetime
-print(datetime.datetime.now())
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def count_elements(lst):
+        return len(lst)
