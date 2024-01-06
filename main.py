@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_acceleration(speed, time):
+        return speed / time
