@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import platform
-def get_os_info():
-        return platform.uname()
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def get_array_item(array, i):
+        return array[i]
