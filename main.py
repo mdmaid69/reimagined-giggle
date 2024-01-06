@@ -1,6 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import time
+def get_current_time():
+        return time.ctime()
+import time
+def get_time_since_epoch():
+        return time.time()
