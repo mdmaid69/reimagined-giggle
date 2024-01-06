@@ -1,6 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
