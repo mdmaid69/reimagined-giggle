@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
