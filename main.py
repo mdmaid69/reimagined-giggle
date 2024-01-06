@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import numpy as np
+print(np.array([1, 2, 3]))
