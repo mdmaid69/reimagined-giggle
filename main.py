@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
