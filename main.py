@@ -1,5 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import sys
+  def get_python_version():
+        return sys.version
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
