@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_density(mass, volume):
+        return mass / volume
