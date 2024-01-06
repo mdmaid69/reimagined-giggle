@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def divide_numbers(x, y):
+        return x / y
