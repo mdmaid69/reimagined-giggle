@@ -1,6 +1,8 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
