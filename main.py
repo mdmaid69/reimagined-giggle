@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import collections
+def create_user_string():
+        return collections.UserString()
