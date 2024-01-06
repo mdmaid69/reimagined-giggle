@@ -1,6 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import sys
+  def get_python_version():
+        return sys.version
+import getpass
+def get_username():
+        return getpass.getuser()
