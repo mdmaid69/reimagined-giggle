@@ -1,7 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_area_rectangle(l, w):
+        return l * w
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
