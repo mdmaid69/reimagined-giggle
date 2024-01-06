@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import platform
+def get_python_version():
+        return platform.python_version()
