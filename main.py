@@ -1,5 +1,7 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
