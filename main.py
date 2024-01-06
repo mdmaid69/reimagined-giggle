@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
