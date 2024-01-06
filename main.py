@@ -1,5 +1,7 @@
-  def multiply_numbers(x, y):
-        return x * y
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
