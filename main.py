@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  def reverse_list(lst):
-        return lst[::-1]
+  def cube_number(x):
+        return x**3
+import array
+def append_to_array(array, item):
+        array.append(item)
