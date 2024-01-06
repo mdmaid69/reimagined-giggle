@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
