@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def calculate_power(work, time):
+        return work / time
