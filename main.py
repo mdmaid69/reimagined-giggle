@@ -1,5 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import logging
+def log_message(message):
+        logging.info(message)
