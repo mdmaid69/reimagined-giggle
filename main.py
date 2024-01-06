@@ -1,5 +1,8 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
