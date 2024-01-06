@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_tuple(array):
+        return tuple(array)
+print([x**2 for x in range(10)])
