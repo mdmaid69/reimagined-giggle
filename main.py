@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def subtract_numbers(x, y):
+        return x - y
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
