@@ -1,5 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-def calculate_density(mass, volume):
-        return mass / volume
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import sys
+def print_python_version():
+        return sys.version
