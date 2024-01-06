@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
