@@ -1,8 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
