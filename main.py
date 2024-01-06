@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_list_from_array(array):
+        return array.tolist()
