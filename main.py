@@ -1,5 +1,8 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
