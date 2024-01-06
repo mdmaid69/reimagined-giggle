@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
