@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
