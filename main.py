@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import array
-def get_array_length(array):
-        return len(array)
+def remove_duplicates(lst):
+        return list(set(lst))
+import time
+def get_time_since_epoch():
+        return time.time()
