@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
 def calculate_perimeter_rectangle(l, w):
         return 2 * (l + w)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
