@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
