@@ -1,5 +1,4 @@
-import math
-print(math.pi)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def greet(name):
+        print(f"Hello, {name}!")
+def cube_number(x):
+        return x**3
