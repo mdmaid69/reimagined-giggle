@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+name = "Python"
+print("Hello,", name)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
