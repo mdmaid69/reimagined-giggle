@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
