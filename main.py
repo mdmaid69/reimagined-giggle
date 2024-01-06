@@ -1,5 +1,4 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+print(sum(range(10)))
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
