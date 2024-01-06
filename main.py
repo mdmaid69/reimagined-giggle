@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import collections
+def create_queue():
+        return collections.deque()
