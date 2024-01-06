@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
