@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
