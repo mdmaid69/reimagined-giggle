@@ -1,7 +1,7 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
   import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
+  def plot_graph(x, y):
+        plt.plot(x, y)
         plt.show()
