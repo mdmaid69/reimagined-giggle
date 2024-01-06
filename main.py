@@ -1,6 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+print(sum(range(10)))
+import array
+def get_list_from_array(array):
+        return array.tolist()
