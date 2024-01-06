@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
