@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def reverse_list(lst):
+        return lst[::-1]
+  def square_number(x):
+        return x**2
