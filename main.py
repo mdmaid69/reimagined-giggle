@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
