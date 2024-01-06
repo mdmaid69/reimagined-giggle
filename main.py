@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def count_elements(lst):
+        return len(lst)
