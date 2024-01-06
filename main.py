@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
