@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def get_array_item(array, i):
-        return array[i]
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import platform
+def get_os_info():
+        return platform.uname()
