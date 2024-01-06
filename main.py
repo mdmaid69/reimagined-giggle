@@ -1,6 +1,5 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_density(mass, volume):
+        return mass / volume
