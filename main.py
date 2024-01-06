@@ -1,8 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
