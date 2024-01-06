@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_area_circle(r):
+        return 3.14 * r**2
