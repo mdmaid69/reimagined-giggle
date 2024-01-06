@@ -1,6 +1,6 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
