@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
