@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
