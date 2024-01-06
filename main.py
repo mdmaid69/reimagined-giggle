@@ -1,5 +1,8 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
