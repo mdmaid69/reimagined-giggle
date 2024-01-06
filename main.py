@@ -1,5 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def is_palindrome(s):
-        return s == s[::-1]
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
