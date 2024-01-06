@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
