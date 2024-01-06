@@ -1,6 +1,4 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_pressure(force, area):
+        return force / area
