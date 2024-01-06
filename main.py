@@ -1,5 +1,8 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
