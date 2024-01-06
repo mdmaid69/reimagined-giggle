@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def reverse_string(s):
+        return s[::-1]
