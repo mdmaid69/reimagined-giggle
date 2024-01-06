@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
