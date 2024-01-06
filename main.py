@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import time
-def get_current_time():
-        return time.time()
+import numpy as np
+print(np.array([1, 2, 3]))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
