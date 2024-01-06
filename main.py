@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_speed(distance, time):
+        return distance / time
