@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def count_words(sentence):
-        return len(sentence.split())
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
