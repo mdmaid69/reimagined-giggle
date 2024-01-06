@@ -1,5 +1,5 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def find_min(numbers):
-        return min(numbers)
+  def get_base_name(path):
+        return os.path.basename(path)
+  def count_elements(lst):
+        return len(lst)
