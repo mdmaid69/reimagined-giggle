@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
