@@ -1,6 +1,5 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def get_array_as_repr(array):
+        return repr(array)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
