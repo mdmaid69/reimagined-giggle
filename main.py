@@ -1,5 +1,6 @@
 import collections
-def create_priority_queue():
-        return collections.deque()
-def find_min(lst):
-        return min(lst)
+def create_user_list():
+        return collections.UserList()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
