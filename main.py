@@ -1,4 +1,8 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
