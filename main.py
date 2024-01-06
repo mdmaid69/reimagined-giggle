@@ -1,7 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def count_elements(lst):
+        return len(lst)
