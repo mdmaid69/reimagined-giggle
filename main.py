@@ -1,7 +1,6 @@
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_volume(length, width, height):
-        return length * width * height
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
