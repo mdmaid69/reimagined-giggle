@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def remove_from_array(array, item):
+        array.remove(item)
