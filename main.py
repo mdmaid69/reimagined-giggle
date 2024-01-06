@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
