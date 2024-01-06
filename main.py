@@ -1,5 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
