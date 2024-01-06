@@ -1,7 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
