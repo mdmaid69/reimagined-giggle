@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def find_min(lst):
-        return min(lst)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
