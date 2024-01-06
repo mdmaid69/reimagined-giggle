@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def remove_duplicates(lst):
-        return list(set(lst))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  def convert_to_hex(n):
+        return hex(n)
