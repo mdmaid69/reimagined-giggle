@@ -1,6 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import os
+print(os.getcwd())
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
