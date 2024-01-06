@@ -1,6 +1,5 @@
+def calculate_area(radius):
+        return 3.14 * radius * radius
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
