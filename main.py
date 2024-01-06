@@ -1,5 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_density(mass, volume):
-        return mass / volume
+def convert_to_octal(n):
+        return oct(n)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
