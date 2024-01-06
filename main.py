@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
