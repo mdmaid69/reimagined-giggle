@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
