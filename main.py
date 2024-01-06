@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
