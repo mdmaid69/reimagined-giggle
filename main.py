@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-def remove_duplicates(lst):
-        return list(set(lst))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
