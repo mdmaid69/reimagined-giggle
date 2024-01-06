@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
