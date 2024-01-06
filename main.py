@@ -1,5 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_sine(x):
+        return math.sin(x)
