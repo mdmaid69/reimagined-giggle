@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
