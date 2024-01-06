@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def cube_number(x):
+        return x**3
+import array
+def remove_from_array(array, item):
+        array.remove(item)
