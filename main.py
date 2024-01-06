@@ -1,6 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def count_words(sentence):
+        return len(sentence.split())
+import random
+print(random.randint(0, 100))
