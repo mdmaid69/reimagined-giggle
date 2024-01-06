@@ -1,6 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
