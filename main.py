@@ -1,6 +1,6 @@
 import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
