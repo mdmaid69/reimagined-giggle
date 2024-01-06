@@ -1,5 +1,7 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
