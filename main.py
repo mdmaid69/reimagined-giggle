@@ -1,6 +1,6 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
