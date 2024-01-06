@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
