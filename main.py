@@ -1,6 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def get_array_slice(array, i, j):
+        return array[i:j]
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
