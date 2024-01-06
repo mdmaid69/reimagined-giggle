@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_density(mass, volume):
+        return mass / volume
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
