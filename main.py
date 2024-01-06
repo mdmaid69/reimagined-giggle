@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def calculate_density(mass, volume):
+        return mass / volume
