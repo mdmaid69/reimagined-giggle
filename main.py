@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
 import os
-def remove_directory(path):
-        os.rmdir(path)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def get_file_size(filename):
+        return os.path.getsize(filename)
