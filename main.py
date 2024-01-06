@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
