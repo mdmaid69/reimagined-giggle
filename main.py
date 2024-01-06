@@ -1,6 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def get_array_as_float(array):
+        return float(array[0])
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
