@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def reverse_array(array):
+        array.reverse()
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
