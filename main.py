@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def reverse_array(array):
+        array.reverse()
