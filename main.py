@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
