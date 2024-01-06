@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import array
+def get_array_as_list(array):
+        return list(array)
