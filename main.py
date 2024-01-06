@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_acceleration(speed, time):
-        return speed / time
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
