@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_speed(distance, time):
-        return distance / time
+  def subtract_numbers(x, y):
+        return x - y
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
