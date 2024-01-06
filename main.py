@@ -1,5 +1,5 @@
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-text = "Hello, world!"
-print("Characters:", len(text))
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
