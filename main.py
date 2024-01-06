@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
