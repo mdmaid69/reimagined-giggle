@@ -1,6 +1,8 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
