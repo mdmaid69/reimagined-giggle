@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
