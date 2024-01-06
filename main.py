@@ -1,5 +1,7 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  def convert_to_hex(n):
-        return hex(n)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+i = 0
+while i < 5:
+        print(i)
+        i += 1
