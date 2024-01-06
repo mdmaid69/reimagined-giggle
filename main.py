@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
