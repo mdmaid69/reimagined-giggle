@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
