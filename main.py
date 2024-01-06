@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import array
-def get_array_as_set(array):
-        return set(array)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
