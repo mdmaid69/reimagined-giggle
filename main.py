@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import sys
-def exit_program():
-        sys.exit()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_volume(length, width, height):
+        return length * width * height
