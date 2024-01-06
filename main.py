@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def find_max(lst):
+        return max(lst)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
