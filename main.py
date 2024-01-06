@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
