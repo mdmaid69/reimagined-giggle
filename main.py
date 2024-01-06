@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
