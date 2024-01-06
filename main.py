@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
