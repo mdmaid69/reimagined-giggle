@@ -1,8 +1,8 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
