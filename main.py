@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
