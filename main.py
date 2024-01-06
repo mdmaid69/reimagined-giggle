@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_work(force, distance):
+        return force * distance
+import getpass
+def get_username():
+        return getpass.getuser()
