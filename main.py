@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  def cube_number(x):
+        return x**3
