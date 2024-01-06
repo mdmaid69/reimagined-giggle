@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  def reverse_list(lst):
+        return lst[::-1]
