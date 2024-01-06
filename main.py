@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
