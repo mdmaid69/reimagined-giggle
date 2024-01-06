@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
