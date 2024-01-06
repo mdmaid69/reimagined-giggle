@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
