@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def find_min(numbers):
-        return min(numbers)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+from collections import Counter
+print(Counter("hello world"))
