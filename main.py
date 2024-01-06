@@ -1,5 +1,8 @@
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_density(mass, volume):
-        return mass / volume
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
