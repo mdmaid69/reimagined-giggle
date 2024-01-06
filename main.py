@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_area(radius):
+        return 3.14 * radius * radius
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
