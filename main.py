@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
