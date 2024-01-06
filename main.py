@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
