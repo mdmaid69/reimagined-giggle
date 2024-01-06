@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
