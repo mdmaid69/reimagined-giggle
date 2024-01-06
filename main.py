@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+for i in range(5):
+        print(i)
