@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import os
+def get_current_working_directory():
+        return os.getcwd()
