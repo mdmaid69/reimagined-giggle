@@ -1,5 +1,7 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def subtract_numbers(x, y):
-        return x - y
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
