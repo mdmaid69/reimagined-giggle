@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
