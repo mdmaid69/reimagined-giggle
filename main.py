@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+for i in range(10): print(i)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
