@@ -1,4 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-print(math.pi)
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
