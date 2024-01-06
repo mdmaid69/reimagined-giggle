@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
