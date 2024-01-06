@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def count_elements(lst):
-        return len(lst)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
