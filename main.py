@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def count_elements(lst):
+        return len(lst)
