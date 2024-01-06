@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
