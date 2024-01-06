@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_pressure(force, area):
+        return force / area
