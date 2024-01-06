@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import collections
+def create_counter():
+        return collections.Counter()
