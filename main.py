@@ -1,5 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import collections
+def create_stack():
+        return collections.deque()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
