@@ -1,6 +1,10 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def set_array_item(array, i, item):
+        array[i] = item
