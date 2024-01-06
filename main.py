@@ -1,6 +1,7 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import datetime
+print(datetime.datetime.now())
