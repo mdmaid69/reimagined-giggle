@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
