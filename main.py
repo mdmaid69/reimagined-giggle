@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
