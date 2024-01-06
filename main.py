@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
