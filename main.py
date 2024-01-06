@@ -1,7 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import os
+print(os.getcwd())
+import tensorflow as tf
+print(tf.__version__)
