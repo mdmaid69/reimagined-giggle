@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def reverse_list(lst):
+        return lst[::-1]
