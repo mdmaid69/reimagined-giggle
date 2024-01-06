@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  def convert_to_octal(n):
+        return oct(n)
