@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def split_path(path):
+        return os.path.split(path)
