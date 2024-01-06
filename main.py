@@ -1,5 +1,6 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_tangent(x):
+        return math.tan(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
