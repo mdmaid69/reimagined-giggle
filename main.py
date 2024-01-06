@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def add_numbers(a, b):
+        return a + b
