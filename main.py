@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
