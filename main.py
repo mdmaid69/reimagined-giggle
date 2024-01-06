@@ -1,6 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  def subtract_numbers(x, y):
+        return x - y
