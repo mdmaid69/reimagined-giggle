@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_list_from_array(array):
+        return array.tolist()
