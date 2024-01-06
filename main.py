@@ -1,7 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
