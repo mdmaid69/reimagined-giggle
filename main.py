@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
