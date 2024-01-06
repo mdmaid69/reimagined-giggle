@@ -1,5 +1,8 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import random
-print(random.randint(0, 100))
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import collections
+def create_priority_queue():
+        return collections.deque()
