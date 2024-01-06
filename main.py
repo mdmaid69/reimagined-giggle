@@ -1,8 +1,12 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def get_array_as_str(array):
+        return str(array)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
