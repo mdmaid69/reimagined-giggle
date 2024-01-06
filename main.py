@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_density(mass, volume):
+        return mass / volume
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
