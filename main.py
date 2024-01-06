@@ -1,6 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def get_array_as_tuple(array):
+        return tuple(array)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
