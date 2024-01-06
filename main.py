@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def get_array_as_set(array):
+        return set(array)
