@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import getpass
-def get_username():
-        return getpass.getuser()
+def add_numbers(a, b):
+        return a + b
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
