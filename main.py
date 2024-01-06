@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def convert_to_hex(n):
+        return hex(n)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
