@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def remove_duplicates(lst):
+        return list(set(lst))
