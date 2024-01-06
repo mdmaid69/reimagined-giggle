@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
