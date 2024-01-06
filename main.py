@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
