@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_tangent(x):
+        return math.tan(x)
