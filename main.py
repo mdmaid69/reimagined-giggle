@@ -1,6 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
