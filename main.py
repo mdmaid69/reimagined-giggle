@@ -1,5 +1,7 @@
-import math
-print(math.pi)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
