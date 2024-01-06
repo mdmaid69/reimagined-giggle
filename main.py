@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
