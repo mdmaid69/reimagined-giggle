@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
