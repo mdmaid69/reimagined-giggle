@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
