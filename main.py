@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import array
+def get_array_as_bool(array):
+        return bool(array)
