@@ -1,4 +1,5 @@
-import math
-print(math.pi)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
