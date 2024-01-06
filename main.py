@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
