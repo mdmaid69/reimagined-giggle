@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def find_min(lst):
+        return min(lst)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
