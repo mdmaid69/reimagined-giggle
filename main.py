@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_array_typecode(array):
+        return array.typecode
