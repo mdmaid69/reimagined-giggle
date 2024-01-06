@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
