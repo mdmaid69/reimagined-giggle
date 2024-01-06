@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def convert_to_hex(n):
+        return hex(n)
