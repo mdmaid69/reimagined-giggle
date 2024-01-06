@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import datetime
+print(datetime.datetime.now())
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
