@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
