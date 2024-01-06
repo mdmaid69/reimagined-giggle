@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_work(force, distance):
+        return force * distance
