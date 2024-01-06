@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import collections
+def create_counter():
+        return collections.Counter()
