@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  def reverse_list(lst):
-        return lst[::-1]
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
