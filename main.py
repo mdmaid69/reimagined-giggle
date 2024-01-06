@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
