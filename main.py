@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
