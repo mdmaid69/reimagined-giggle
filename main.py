@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def convert_to_binary(n):
+        return bin(n)
