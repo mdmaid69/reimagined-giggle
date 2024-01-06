@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
