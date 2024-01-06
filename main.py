@@ -1,5 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  def convert_to_hex(n):
-        return hex(n)
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
