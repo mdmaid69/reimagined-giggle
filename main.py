@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def greet(name):
+        print(f"Hello, {name}!")
