@@ -1,4 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-print(sum(range(10)))
+  def add_numbers(x, y):
+        return x + y
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
