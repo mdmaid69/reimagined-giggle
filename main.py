@@ -1,5 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-def convert_to_hex(n):
-        return hex(n)
+def get_array_as_bytes(array):
+        return bytes(array)
