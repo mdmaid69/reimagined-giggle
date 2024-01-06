@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
