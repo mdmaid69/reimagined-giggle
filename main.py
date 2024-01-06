@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import os
+def get_current_working_directory():
+        return os.getcwd()
