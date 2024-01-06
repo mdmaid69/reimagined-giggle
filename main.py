@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
