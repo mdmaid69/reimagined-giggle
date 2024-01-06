@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def convert_to_hex(n):
-        return hex(n)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
