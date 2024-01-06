@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
