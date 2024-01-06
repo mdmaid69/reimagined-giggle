@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
