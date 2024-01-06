@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
