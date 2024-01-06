@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
