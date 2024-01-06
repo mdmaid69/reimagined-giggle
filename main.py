@@ -1,6 +1,8 @@
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_cosine(x):
+        return math.cos(x)
