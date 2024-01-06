@@ -1,6 +1,9 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
