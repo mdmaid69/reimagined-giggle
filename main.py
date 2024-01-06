@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
