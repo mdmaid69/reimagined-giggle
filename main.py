@@ -1,6 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def cube_number(x):
+        return x**3
