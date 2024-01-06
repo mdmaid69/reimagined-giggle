@@ -1,5 +1,4 @@
-  def is_even(n):
+def calculate_density(mass, volume):
+        return mass / volume
+def is_even(n):
         return n % 2 == 0
-import math
-def calculate_error_function(x):
-        return math.erf(x)
