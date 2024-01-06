@@ -1,4 +1,5 @@
 text = "Hello, world!"
-print("Uppercase:", text.upper())
-def find_min(numbers):
-        return min(numbers)
+print("Characters:", len(text))
+import collections
+def create_user_list():
+        return collections.UserList()
