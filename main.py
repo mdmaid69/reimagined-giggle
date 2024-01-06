@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def get_list_from_array(array):
+        return array.tolist()
