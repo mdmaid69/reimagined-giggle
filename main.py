@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
