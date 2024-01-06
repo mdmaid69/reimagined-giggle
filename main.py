@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def add_numbers(a, b):
+        return a + b
