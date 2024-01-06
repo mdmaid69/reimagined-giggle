@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
