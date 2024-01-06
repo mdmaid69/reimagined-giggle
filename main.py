@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import collections
-def create_user_list():
-        return collections.UserList()
+import time
+def get_current_time():
+        return time.ctime()
+def count_characters(sentence):
+        return len(sentence)
