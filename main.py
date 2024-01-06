@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import collections
+def create_user_string():
+        return collections.UserString()
