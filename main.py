@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import array
+def get_array_as_str(array):
+        return str(array)
