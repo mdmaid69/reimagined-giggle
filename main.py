@@ -1,6 +1,5 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
