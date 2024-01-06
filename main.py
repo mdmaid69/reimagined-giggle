@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
