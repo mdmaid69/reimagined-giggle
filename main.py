@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
