@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def add_numbers(a, b):
+        return a + b
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
