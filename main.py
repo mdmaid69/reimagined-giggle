@@ -1,5 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
