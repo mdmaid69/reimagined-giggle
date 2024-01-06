@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
