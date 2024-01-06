@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_density(mass, volume):
+        return mass / volume
