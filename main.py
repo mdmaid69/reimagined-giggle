@@ -1,8 +1,8 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
