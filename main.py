@@ -1,5 +1,7 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_power(work, time):
-        return work / time
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
