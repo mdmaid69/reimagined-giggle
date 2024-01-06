@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
