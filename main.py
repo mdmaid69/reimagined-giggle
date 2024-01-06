@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
