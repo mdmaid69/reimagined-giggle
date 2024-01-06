@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-def divide_numbers(x, y):
-        return x / y
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
