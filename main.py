@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import platform
+def get_os_info():
+        return platform.uname()
+import collections
+def create_stack():
+        return collections.deque()
