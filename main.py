@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
