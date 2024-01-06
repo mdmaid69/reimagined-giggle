@@ -1,6 +1,6 @@
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
