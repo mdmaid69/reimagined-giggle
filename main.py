@@ -1,6 +1,8 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def get_current_directory():
+        return os.getcwd()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
