@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
