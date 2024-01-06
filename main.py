@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def split_path(path):
+        return os.path.split(path)
+import math
+print(math.pi)
