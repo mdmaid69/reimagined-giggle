@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_speed(distance, time):
+        return distance / time
