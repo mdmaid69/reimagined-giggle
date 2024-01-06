@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
