@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
