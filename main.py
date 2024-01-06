@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
