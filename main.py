@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def clear_array(array):
-        array *= 0
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
