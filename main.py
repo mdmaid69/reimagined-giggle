@@ -1,6 +1,4 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import numpy as np
+print(np.array([1, 2, 3]))
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
