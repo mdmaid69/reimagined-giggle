@@ -1,5 +1,5 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def add_numbers(a, b):
+        return a + b
