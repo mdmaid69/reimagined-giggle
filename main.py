@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import collections
+def create_stack():
+        return collections.deque()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
