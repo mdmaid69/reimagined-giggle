@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_work(force, distance):
-        return force * distance
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
