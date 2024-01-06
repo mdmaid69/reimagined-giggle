@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
