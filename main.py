@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
