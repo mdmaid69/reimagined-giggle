@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import sys
-def print_python_version():
-        return sys.version
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
