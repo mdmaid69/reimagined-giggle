@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
