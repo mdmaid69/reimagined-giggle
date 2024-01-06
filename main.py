@@ -1,8 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
