@@ -1,8 +1,5 @@
+def greet(name):
+        print(f"Hello, {name}!")
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def get_string_from_array(array):
+        return array.tobytes()
