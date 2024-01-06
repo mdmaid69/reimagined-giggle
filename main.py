@@ -1,5 +1,9 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_power(work, time):
-        return work / time
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
