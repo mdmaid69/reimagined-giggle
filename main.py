@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import sys
-def exit_program():
-        sys.exit()
+  def cube_number(x):
+        return x**3
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
