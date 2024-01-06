@@ -1,5 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
