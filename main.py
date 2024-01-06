@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
