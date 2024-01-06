@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  def square_number(x):
-        return x**2
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
