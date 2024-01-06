@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
