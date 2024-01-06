@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+def remove_duplicates(lst):
+        return list(set(lst))
