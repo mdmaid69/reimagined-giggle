@@ -1,6 +1,8 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
