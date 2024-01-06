@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
