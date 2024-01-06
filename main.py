@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_force(mass, acceleration):
+        return mass * acceleration
