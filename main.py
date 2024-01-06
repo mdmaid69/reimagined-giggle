@@ -1,6 +1,5 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-x = 10
-y = 20
-print("Sum:", x + y)
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_area_rectangle(l, w):
+        return l * w
