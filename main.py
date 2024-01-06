@@ -1,5 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import tensorflow as tf
-print(tf.__version__)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+print([x**2 for x in range(10)])
