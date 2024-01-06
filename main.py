@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def reverse_string(s):
+        return s[::-1]
+  def count_elements(lst):
+        return len(lst)
