@@ -1,5 +1,7 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
