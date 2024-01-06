@@ -1,5 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-  def reverse_list(lst):
-        return lst[::-1]
+def get_array_slice(array, i, j):
+        return array[i:j]
