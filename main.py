@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  def convert_to_octal(n):
+        return oct(n)
