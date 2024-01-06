@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
