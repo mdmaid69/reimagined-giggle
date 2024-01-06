@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_speed(distance, time):
+        return distance / time
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
