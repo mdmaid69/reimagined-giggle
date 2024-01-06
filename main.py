@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def add_numbers(a, b):
+        return a + b
