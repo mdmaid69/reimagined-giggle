@@ -1,6 +1,10 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
