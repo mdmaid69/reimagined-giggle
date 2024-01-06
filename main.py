@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def add_numbers(x, y):
+        return x + y
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
