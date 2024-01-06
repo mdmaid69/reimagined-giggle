@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def convert_to_hex(n):
-        return hex(n)
+def greet(name):
+        print(f"Hello, {name}!")
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
