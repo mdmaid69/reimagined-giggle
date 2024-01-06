@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
