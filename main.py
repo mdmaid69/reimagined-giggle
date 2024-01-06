@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
