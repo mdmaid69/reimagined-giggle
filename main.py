@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import time
-print(time.time())
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
