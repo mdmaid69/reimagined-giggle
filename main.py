@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import collections
+def create_priority_queue():
+        return collections.deque()
