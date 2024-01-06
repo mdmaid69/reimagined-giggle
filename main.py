@@ -1,4 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-def find_min(lst):
-        return min(lst)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import array
+def get_array_as_repr(array):
+        return repr(array)
