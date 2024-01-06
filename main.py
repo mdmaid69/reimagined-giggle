@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
