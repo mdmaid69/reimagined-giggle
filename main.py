@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
