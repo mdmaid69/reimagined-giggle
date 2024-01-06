@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import time
+def get_current_time():
+        return time.time()
+  def is_even(n):
+        return n % 2 == 0
