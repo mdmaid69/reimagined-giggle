@@ -1,6 +1,7 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import getpass
-def get_username():
-        return getpass.getuser()
+name = "Python"
+print("Hello,", name)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
