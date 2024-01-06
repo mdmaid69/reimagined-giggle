@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+from collections import Counter
+print(Counter("hello world"))
