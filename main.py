@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
