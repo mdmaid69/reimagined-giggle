@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
