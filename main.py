@@ -1,6 +1,5 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
