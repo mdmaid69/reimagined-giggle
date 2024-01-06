@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import collections
+def create_user_list():
+        return collections.UserList()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
