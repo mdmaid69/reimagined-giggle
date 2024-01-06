@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  def multiply_numbers(x, y):
+        return x * y
