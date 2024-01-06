@@ -1,5 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_acceleration(speed, time):
+        return speed / time
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
