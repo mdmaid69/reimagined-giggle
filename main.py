@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import random
+def roll_die():
+        return random.randint(1, 6)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
