@@ -1,6 +1,7 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+def find_min(lst):
+        return min(lst)
