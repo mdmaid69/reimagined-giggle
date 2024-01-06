@@ -1,5 +1,8 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def remove_duplicates(lst):
-        return list(set(lst))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
