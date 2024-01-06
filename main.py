@@ -1,8 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
