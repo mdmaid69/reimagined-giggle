@@ -1,5 +1,8 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
