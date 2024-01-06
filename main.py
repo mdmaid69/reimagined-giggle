@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
