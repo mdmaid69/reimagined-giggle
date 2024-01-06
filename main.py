@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
