@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
