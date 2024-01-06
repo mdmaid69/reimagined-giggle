@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-  import sys
-  def get_python_version():
-        return sys.version
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
