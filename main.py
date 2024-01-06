@@ -1,5 +1,12 @@
-import datetime
-print(datetime.datetime.now())
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import logging
+def log_message(message):
+        logging.info(message)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
