@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
