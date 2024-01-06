@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
