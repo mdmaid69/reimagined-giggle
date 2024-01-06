@@ -1,5 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import getpass
+def get_username():
+        return getpass.getuser()
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
