@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
