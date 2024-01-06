@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
