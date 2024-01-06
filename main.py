@@ -1,12 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import time
+def get_current_time():
+        return time.ctime()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
