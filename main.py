@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def square_number(x):
+        return x**2
