@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import sys
-def print_python_version():
-        return sys.version
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def is_odd(n):
+        return n % 2 != 0
