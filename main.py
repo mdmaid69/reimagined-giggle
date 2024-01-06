@@ -1,8 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def is_odd(n):
+        return n % 2 != 0
