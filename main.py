@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
