@@ -1,6 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import platform
-def get_os_info():
-        return platform.uname()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
