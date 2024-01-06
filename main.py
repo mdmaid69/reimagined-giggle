@@ -1,8 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+for i in range(5):
+        print(i)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
