@@ -1,6 +1,5 @@
-import sys
-print(sys.version)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
