@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_error_function(x):
+        return math.erf(x)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
