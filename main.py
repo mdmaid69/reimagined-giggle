@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_list_from_array(array):
+        return array.tolist()
