@@ -1,6 +1,7 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def square_number(x):
+        return x**2
