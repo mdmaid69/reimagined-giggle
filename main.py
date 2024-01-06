@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
