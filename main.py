@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
