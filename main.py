@@ -1,5 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def cube_number(x):
-        return x**3
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  def is_odd(n):
+        return n % 2 != 0
