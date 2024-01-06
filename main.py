@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
