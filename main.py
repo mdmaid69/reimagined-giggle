@@ -1,6 +1,8 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
