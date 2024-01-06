@@ -1,5 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import collections
+def create_stack():
+        return collections.deque()
