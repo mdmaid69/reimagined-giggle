@@ -1,6 +1,6 @@
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
