@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  def is_odd(n):
-        return n % 2 != 0
+def convert_to_binary(n):
+        return bin(n)
+def reverse_string(s):
+        return s[::-1]
