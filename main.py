@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def square_number(x):
-        return x**2
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
