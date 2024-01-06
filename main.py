@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def find_max(numbers):
-        return max(numbers)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
