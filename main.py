@@ -1,5 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_length(array):
+        return len(array)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
