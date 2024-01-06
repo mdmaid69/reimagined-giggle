@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
