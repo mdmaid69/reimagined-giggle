@@ -1,6 +1,8 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
