@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  def remove_duplicates(lst):
+        return list(set(lst))
