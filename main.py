@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
