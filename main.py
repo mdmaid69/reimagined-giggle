@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
