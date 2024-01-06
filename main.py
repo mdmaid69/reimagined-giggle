@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+text = "Hello, world!"
+print("Uppercase:", text.upper())
