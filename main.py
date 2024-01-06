@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-def count_words(sentence):
-        return len(sentence.split())
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
