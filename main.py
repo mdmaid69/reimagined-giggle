@@ -1,5 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
