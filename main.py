@@ -1,5 +1,10 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
