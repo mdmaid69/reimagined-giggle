@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
