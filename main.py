@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
