@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
