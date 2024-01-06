@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
