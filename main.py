@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+x = 10
+y = 20
+print("Sum:", x + y)
