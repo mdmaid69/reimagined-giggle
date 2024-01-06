@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def calculate_area_rectangle(l, w):
+        return l * w
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
