@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def square_number(x):
+        return x**2
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
