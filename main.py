@@ -1,6 +1,6 @@
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
