@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+def divide_numbers(x, y):
+        return x / y
