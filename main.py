@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
