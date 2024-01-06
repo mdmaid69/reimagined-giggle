@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
