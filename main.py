@@ -1,7 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def find_min(numbers):
+        return min(numbers)
