@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_sine(x):
+        return math.sin(x)
