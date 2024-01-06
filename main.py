@@ -1,5 +1,8 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import platform
-def get_os_info():
-        return platform.uname()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
