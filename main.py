@@ -1,5 +1,7 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
