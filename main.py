@@ -1,4 +1,8 @@
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
   import os
-  def split_path(path):
-        return os.path.split(path)
-print([x**2 for x in range(10)])
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
