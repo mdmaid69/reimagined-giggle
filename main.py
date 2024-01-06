@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
