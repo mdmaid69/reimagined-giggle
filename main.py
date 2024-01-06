@@ -1,7 +1,12 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import math
+def calculate_exponential(x):
+        return math.exp(x)
