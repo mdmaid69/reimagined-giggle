@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import sys
+print(sys.version)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
