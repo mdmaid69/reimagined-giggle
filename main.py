@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
