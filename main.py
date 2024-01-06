@@ -1,5 +1,3 @@
-def find_max(lst):
-        return max(lst)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_power(work, time):
+        return work / time
+print([x**2 for x in range(10)])
