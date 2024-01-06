@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def count_characters(sentence):
+        return len(sentence)
