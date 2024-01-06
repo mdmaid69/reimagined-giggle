@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import getpass
+def get_username():
+        return getpass.getuser()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
