@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
