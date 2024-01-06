@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+x = 10
+y = 20
+print("Sum:", x + y)
