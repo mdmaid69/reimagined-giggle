@@ -1,9 +1,8 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
