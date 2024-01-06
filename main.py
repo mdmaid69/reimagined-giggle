@@ -1,6 +1,8 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
