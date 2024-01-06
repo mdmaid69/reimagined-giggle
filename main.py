@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
