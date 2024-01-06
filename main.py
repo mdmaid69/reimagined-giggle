@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
