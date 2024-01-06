@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
