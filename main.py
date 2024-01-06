@@ -1,6 +1,6 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
