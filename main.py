@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
