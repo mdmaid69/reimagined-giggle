@@ -1,6 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+for i in range(5):
+        print(i)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
