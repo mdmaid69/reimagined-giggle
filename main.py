@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
