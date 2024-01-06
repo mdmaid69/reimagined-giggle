@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import sys
+def exit_program():
+        sys.exit()
