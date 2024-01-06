@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_work(force, distance):
+        return force * distance
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
