@@ -1,8 +1,10 @@
-import unittest
+def find_max(lst):
+        return max(lst)
+import threading
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
