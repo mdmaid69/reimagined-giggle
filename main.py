@@ -1,5 +1,4 @@
 def calculate_pressure(force, area):
         return force / area
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
