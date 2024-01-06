@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
