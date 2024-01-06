@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import sys
+  def get_python_version():
+        return sys.version
