@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def convert_to_binary(n):
-        return bin(n)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
