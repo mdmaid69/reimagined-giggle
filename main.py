@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+from collections import Counter
+print(Counter("hello world"))
