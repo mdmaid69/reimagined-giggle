@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
