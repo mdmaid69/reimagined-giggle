@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
