@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-def count_characters(sentence):
-        return len(sentence)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
