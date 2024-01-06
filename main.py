@@ -1,12 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
