@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-from collections import Counter
-print(Counter("hello world"))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
