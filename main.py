@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import sys
-print(sys.version)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
