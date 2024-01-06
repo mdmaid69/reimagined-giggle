@@ -1,6 +1,9 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
