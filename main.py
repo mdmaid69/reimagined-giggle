@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
