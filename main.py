@@ -1,7 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
