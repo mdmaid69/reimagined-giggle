@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_work(force, distance):
+        return force * distance
