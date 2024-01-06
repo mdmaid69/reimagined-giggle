@@ -1,4 +1,7 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def subtract_numbers(x, y):
-        return x - y
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def convert_to_hex(n):
+        return hex(n)
