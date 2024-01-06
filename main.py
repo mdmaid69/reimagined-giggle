@@ -1,9 +1,7 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
