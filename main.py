@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
