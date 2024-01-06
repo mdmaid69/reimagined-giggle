@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
