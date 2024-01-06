@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def count_elements(lst):
+        return len(lst)
