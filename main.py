@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
