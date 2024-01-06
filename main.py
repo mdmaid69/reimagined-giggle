@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
