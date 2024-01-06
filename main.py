@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
