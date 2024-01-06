@@ -1,6 +1,3 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+print(sum(range(10)))
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
