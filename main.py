@@ -1,5 +1,8 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
