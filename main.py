@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def sort_list(lst):
+        return sorted(lst)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
