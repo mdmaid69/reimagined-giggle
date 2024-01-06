@@ -1,8 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
