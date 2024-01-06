@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
