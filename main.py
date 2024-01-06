@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
