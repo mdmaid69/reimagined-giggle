@@ -1,5 +1,6 @@
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def find_max(numbers):
-        return max(numbers)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
