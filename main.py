@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  def square_number(x):
+        return x**2
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
