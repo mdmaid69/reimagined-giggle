@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
