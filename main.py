@@ -1,5 +1,7 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def find_max(numbers):
-        return max(numbers)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
