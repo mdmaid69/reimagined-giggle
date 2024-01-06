@@ -1,6 +1,6 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
