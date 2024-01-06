@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
