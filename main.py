@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
 import json
-print(json.dumps({"name": "John", "age": 30}))
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
