@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
