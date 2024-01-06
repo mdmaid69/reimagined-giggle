@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
