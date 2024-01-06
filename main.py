@@ -1,6 +1,10 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
