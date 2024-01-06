@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
