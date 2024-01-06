@@ -1,6 +1,5 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def get_list_from_array(array):
+        return array.tolist()
+import json
+print(json.dumps({"name": "John", "age": 30}))
