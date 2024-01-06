@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
