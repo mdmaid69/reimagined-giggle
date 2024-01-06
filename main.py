@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_work(force, distance):
+        return force * distance
