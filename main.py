@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def count_characters(sentence):
-        return len(sentence)
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
