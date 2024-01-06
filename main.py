@@ -1,6 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import time
-def get_current_time():
-        return time.ctime()
+def add_numbers(a, b):
+        return a + b
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
