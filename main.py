@@ -1,8 +1,8 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
