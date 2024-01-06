@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_as_list(array):
+        return list(array)
+def calculate_pressure(force, area):
+        return force / area
