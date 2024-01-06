@@ -1,5 +1,6 @@
+import math
+def calculate_tangent(x):
+        return math.tan(x)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
