@@ -1,7 +1,8 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
