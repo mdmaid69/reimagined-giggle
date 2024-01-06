@@ -1,5 +1,7 @@
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
 import collections
-def create_user_string():
-        return collections.UserString()
-  def multiply_numbers(x, y):
-        return x * y
+def create_queue():
+        return collections.deque()
