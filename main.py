@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def convert_to_hex(n):
-        return hex(n)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+x = 10
+y = 20
+print("Sum:", x + y)
