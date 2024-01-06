@@ -1,5 +1,7 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
