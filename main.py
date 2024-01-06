@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
