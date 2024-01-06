@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
