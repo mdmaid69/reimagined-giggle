@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
