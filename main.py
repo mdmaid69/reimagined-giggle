@@ -1,9 +1,7 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import csv
-def load_csv(filename):
+def read_csv_file(filename):
         with open(filename, "r") as f:
         reader = csv.reader(f)
         return list(reader)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
