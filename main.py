@@ -1,5 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def subtract_numbers(x, y):
+        return x - y
