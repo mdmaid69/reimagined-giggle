@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
