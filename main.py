@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import sys
+def exit_program():
+        sys.exit()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
