@@ -1,8 +1,10 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
