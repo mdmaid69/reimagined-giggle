@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def find_min(numbers):
-        return min(numbers)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
