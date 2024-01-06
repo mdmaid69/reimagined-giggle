@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
