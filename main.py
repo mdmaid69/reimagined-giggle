@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import random
+def roll_die():
+        return random.randint(1, 6)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
