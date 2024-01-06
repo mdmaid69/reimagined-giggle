@@ -1,5 +1,8 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import tensorflow as tf
-print(tf.__version__)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import sys
+def print_python_version():
+        print(sys.version)
