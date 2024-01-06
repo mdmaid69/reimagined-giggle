@@ -1,9 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
