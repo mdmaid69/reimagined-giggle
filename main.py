@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
