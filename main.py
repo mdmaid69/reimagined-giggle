@@ -1,5 +1,5 @@
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
