@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
