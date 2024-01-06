@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
