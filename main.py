@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def greet(name):
+        print(f"Hello, {name}!")
