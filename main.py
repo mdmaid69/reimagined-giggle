@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import collections
+def create_user_string():
+        return collections.UserString()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
