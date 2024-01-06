@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_power(work, time):
+        return work / time
+x = 10
+y = 20
+print("Sum:", x + y)
