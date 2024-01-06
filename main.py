@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_density(mass, volume):
+        return mass / volume
