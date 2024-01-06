@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
