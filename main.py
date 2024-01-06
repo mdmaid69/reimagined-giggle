@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import collections
+def create_stack():
+        return collections.deque()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
