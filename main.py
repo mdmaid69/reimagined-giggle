@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
