@@ -1,5 +1,7 @@
-def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
