@@ -1,6 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
