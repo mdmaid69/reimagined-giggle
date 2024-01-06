@@ -1,8 +1,8 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
