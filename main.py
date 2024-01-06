@@ -1,7 +1,7 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
