@@ -1,6 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_acceleration(speed, time):
+        return speed / time
