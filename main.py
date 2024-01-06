@@ -1,6 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_work(force, distance):
+        return force * distance
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
