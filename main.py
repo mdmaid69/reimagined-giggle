@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def count_words(sentence):
-        return len(sentence.split())
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
