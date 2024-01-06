@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
