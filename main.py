@@ -1,5 +1,7 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import tensorflow as tf
-print(tf.__version__)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
