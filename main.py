@@ -1,7 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
