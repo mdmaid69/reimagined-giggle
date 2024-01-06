@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
