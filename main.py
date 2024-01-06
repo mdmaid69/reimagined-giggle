@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
