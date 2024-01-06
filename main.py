@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import getpass
-def get_username():
-        return getpass.getuser()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
