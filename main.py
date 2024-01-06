@@ -1,7 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+print(sum(range(10)))
