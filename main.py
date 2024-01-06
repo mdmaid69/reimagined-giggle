@@ -1,6 +1,5 @@
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
