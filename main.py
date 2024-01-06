@@ -1,4 +1,8 @@
-  def square_number(x):
-        return x**2
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
