@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import sys
+  def get_python_version():
+        return sys.version
