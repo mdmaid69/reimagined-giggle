@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  def square_number(x):
-        return x**2
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
