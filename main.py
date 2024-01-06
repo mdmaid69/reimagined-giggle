@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_factorial(n):
+        return math.factorial(n)
+import platform
+def get_python_version():
+        return platform.python_version()
