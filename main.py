@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
