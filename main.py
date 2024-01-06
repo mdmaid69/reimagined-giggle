@@ -1,7 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
