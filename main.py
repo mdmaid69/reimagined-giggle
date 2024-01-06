@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
