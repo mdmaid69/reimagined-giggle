@@ -1,4 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def square_number(x):
+        return x**2
