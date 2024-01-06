@@ -1,5 +1,6 @@
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
