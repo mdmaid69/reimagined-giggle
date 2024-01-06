@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  def cube_number(x):
+        return x**3
