@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
