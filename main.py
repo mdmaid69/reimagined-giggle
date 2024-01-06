@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
