@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def cube_number(x):
-        return x**3
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def convert_array_to_list(array):
+        return array.tolist()
