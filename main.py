@@ -1,7 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import sys
+def print_python_version():
+        return sys.version
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
