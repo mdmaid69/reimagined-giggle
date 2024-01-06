@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
