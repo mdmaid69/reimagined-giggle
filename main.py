@@ -1,6 +1,5 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def calculate_power(work, time):
+        return work / time
