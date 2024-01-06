@@ -1,5 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
