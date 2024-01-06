@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import time
-print(time.time())
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
