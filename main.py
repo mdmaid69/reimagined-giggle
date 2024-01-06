@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
