@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def count_elements(lst):
-        return len(lst)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
