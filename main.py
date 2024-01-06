@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import time
-def get_current_time():
-        return time.time()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import collections
+def create_counter():
+        return collections.Counter()
