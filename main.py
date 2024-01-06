@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import math
+def calculate_floor(x):
+        return math.floor(x)
