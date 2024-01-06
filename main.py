@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
