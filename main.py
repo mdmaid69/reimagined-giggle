@@ -1,6 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
