@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
