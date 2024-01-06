@@ -1,6 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def remove_from_array(array, item):
+        array.remove(item)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
