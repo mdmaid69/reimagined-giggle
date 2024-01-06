@@ -1,6 +1,6 @@
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import logging
+def log_message(message):
+        logging.info(message)
