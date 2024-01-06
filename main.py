@@ -1,5 +1,11 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  import sys
-  def get_python_version():
-        return sys.version
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
