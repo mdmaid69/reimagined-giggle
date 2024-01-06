@@ -1,9 +1,6 @@
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_as_tuple(array):
+        return tuple(array)
