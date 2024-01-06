@@ -1,5 +1,8 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
