@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+from collections import Counter
+print(Counter("hello world"))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
