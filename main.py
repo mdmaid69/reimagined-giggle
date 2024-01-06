@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
