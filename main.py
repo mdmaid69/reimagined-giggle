@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import array
-def reverse_array(array):
-        array.reverse()
+def extend_array(array, iterable):
+        array.extend(iterable)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
