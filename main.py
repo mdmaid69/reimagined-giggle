@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
