@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-text = "Hello, world!"
-print("Characters:", len(text))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
