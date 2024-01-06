@@ -1,7 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
