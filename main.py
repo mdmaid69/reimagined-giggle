@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  def cube_number(x):
+        return x**3
