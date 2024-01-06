@@ -1,6 +1,6 @@
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
