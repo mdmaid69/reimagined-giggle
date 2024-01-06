@@ -1,5 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
