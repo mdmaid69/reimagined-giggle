@@ -1,5 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
