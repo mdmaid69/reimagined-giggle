@@ -1,5 +1,7 @@
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
 import array
-def clear_array(array):
-        array *= 0
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
