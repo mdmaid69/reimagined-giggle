@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import time
+def get_current_time():
+        return time.ctime()
+from collections import Counter
+print(Counter("hello world"))
