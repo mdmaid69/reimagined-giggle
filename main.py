@@ -1,4 +1,5 @@
-print(sum(range(10)))
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
