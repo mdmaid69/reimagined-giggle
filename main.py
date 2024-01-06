@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
