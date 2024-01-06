@@ -1,5 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
