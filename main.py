@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
