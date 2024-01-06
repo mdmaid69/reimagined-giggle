@@ -1,5 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import sys
+print(sys.version)
