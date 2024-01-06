@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
