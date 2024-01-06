@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
