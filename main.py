@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def count_words(sentence):
+        return len(sentence.split())
+def sort_numbers(numbers):
+        return sorted(numbers)
