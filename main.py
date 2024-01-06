@@ -1,9 +1,6 @@
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
 import array
-def get_array_index(array, item):
-        return array.index(item)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def get_array_as_bool(array):
+        return bool(array)
