@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+name = "Python"
+print("Hello,", name)
+import collections
+def create_priority_queue():
+        return collections.deque()
