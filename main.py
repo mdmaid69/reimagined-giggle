@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
