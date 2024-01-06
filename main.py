@@ -1,5 +1,8 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
