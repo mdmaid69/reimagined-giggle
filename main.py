@@ -1,5 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import collections
+def create_user_dict():
+        return collections.UserDict()
