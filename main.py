@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import collections
+def create_user_list():
+        return collections.UserList()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
