@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  def reverse_list(lst):
-        return lst[::-1]
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
