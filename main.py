@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+def convert_to_octal(n):
+        return oct(n)
