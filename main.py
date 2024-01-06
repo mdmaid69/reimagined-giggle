@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
