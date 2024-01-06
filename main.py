@@ -1,6 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def add_numbers(x, y):
+        return x + y
