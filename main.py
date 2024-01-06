@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
