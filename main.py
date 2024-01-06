@@ -1,5 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import time
+def get_current_time():
+        return time.ctime()
+import os
+print(os.getcwd())
