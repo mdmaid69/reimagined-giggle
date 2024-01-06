@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def count_words(sentence):
+        return len(sentence.split())
 import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
