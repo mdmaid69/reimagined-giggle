@@ -1,7 +1,8 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
