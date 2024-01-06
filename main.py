@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import sys
+def exit_program():
+        sys.exit()
