@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def cube_number(x):
+        return x**3
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
