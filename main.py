@@ -1,5 +1,8 @@
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
