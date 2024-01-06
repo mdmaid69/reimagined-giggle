@@ -1,5 +1,5 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-def is_even(n):
-        return n % 2 == 0
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import time
+print(time.time())
