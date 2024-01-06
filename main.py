@@ -1,6 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  def count_elements(lst):
+        return len(lst)
+def convert_to_octal(n):
+        return oct(n)
