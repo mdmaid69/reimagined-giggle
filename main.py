@@ -1,5 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def multiply_numbers(x, y):
+        return x * y
+import os
+def get_current_working_directory():
+        return os.getcwd()
