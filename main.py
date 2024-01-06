@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_as_set(array):
-        return set(array)
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
