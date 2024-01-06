@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import collections
-def create_queue():
-        return collections.deque()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def is_palindrome(s):
+        return s == s[::-1]
