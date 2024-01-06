@@ -1,6 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
