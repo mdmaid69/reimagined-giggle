@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import platform
+def get_os_info():
+        return platform.uname()
+def reverse_list(lst):
+        return lst[::-1]
