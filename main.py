@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def square_number(x):
+        return x**2
