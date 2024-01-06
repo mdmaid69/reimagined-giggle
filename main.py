@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
