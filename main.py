@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import collections
-def create_counter():
-        return collections.Counter()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
