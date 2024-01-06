@@ -1,5 +1,4 @@
-def square_number(x):
-        return x**2
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def find_min(numbers):
+        return min(numbers)
