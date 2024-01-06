@@ -1,6 +1,7 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
