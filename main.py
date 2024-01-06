@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
