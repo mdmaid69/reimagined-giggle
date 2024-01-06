@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
