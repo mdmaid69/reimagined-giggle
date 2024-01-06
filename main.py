@@ -1,9 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
