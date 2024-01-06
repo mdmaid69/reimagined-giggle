@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
