@@ -1,6 +1,6 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
