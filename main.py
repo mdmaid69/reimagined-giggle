@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_error_function(x):
+        return math.erf(x)
