@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_length(array):
+        return len(array)
+  def is_even(n):
+        return n % 2 == 0
