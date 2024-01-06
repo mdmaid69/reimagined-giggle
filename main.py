@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def convert_to_octal(n):
+        return oct(n)
