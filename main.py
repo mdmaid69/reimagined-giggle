@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def divide_numbers(x, y):
-        return x / y
+  def cube_number(x):
+        return x**3
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
