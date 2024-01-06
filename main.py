@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def cube_number(x):
-        return x**3
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_volume(length, width, height):
+        return length * width * height
