@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_length(array):
+        return len(array)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
