@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def find_min(lst):
+        return min(lst)
