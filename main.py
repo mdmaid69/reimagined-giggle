@@ -1,6 +1,7 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
