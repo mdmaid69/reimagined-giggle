@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
