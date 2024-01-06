@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def convert_to_binary(n):
-        return bin(n)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def convert_to_octal(n):
+        return oct(n)
