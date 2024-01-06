@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def square_number(x):
+        return x**2
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
