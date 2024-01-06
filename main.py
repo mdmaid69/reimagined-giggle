@@ -1,5 +1,7 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def get_current_directory():
+        return os.getcwd()
