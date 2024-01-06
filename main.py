@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  def is_even(n):
-        return n % 2 == 0
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
