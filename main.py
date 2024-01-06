@@ -1,5 +1,6 @@
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_combinations(n, k):
+        return math.comb(n, k)
