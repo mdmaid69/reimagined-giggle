@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import os
-def remove_directory(path):
-        os.rmdir(path)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def is_odd(n):
+        return n % 2 != 0
