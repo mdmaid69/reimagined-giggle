@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def count_characters(sentence):
+        return len(sentence)
+import array
+def get_array_as_str(array):
+        return str(array)
