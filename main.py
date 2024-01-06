@@ -1,5 +1,4 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+for i in range(10): print(i)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
