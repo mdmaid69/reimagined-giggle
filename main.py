@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_power(work, time):
+        return work / time
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
