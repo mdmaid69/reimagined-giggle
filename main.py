@@ -1,5 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def convert_to_hex(n):
+        return hex(n)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
