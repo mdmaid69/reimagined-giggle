@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
