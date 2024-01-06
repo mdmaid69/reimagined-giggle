@@ -1,6 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def divide_numbers(x, y):
-        return x / y
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import getpass
+def get_username():
+        return getpass.getuser()
