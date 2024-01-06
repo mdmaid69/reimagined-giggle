@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+x = 10
+y = 20
+print("Sum:", x + y)
