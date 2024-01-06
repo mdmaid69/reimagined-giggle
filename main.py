@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import platform
+def get_os_info():
+        return platform.uname()
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
