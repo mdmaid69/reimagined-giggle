@@ -1,5 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  def add_numbers(x, y):
+        return x + y
