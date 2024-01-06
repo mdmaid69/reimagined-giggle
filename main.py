@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def reverse_string(s):
+        return s[::-1]
