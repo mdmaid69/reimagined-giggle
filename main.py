@@ -1,5 +1,4 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def convert_to_binary(n):
+        return bin(n)
