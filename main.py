@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
