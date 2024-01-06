@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
