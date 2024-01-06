@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
