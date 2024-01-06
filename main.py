@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import platform
+def get_python_version():
+        return platform.python_version()
