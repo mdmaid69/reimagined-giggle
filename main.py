@@ -1,5 +1,5 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
