@@ -1,8 +1,3 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def is_odd(n):
+        return n % 2 != 0
+print([x**2 for x in range(10)])
