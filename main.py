@@ -1,9 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
