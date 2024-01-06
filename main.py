@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+print([x**2 for x in range(10)])
+import os
+def change_working_directory(path):
+        os.chdir(path)
