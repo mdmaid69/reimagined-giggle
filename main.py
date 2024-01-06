@@ -1,6 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
