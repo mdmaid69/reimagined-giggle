@@ -1,6 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def count_elements(lst):
+        return len(lst)
