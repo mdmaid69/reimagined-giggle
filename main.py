@@ -1,4 +1,6 @@
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import time
-print(time.time())
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def get_time_since_epoch():
+        return time.time()
