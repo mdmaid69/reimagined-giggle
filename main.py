@@ -1,6 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def cube_number(x):
+        return x**3
