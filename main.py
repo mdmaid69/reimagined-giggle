@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
