@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def calculate_area_rectangle(l, w):
+        return l * w
