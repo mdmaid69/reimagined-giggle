@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import getpass
+def get_username():
+        return getpass.getuser()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
