@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
