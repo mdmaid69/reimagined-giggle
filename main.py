@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import collections
-def create_queue():
-        return collections.deque()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
