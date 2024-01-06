@@ -1,7 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
