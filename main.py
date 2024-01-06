@@ -1,5 +1,7 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
