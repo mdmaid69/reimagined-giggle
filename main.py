@@ -1,5 +1,9 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
