@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
