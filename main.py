@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
