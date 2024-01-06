@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
