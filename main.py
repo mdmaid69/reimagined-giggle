@@ -1,9 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def get_list_from_array(array):
+        return array.tolist()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
