@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
