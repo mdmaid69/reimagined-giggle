@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-for i in range(5):
-        print(i)
+  def is_odd(n):
+        return n % 2 != 0
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
