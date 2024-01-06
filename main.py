@@ -1,5 +1,4 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def is_odd(n):
+        return n % 2 != 0
+def find_max(numbers):
+        return max(numbers)
