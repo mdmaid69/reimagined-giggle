@@ -1,8 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import sys
+print(sys.version)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
