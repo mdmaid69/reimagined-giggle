@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
