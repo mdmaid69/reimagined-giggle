@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
