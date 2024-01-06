@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  def add_numbers(x, y):
+        return x + y
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
