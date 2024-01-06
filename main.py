@@ -1,6 +1,7 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
