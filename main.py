@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def count_words(sentence):
+        return len(sentence.split())
+x = 10
+y = 20
+print("Sum:", x + y)
