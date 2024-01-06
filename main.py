@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def divide_numbers(x, y):
+        return x / y
