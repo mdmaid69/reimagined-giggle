@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
