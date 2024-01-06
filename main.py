@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
