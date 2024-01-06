@@ -1,6 +1,6 @@
 import random
-def roll_die():
-        return random.randint(1, 6)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import datetime
+def get_current_date():
+        return datetime.date.today()
