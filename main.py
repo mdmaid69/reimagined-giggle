@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
