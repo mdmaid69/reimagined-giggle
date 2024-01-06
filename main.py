@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def sort_list(lst):
+        return sorted(lst)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
