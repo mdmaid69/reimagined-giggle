@@ -1,5 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_interest(principal, rate, time):
+def calculate_future_value(principal, rate, time):
         return principal * (1 + rate)**time
+import json
+print(json.dumps({"name": "John", "age": 30}))
