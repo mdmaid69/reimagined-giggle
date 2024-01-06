@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
