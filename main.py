@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
