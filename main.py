@@ -1,5 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
