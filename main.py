@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def count_words(sentence):
+        return len(sentence.split())
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
