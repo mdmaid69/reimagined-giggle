@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
