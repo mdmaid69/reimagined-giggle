@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
