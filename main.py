@@ -1,8 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
