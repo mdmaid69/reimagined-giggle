@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
