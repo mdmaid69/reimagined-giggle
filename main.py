@@ -1,5 +1,8 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
