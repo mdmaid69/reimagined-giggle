@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def add_numbers(x, y):
+        return x + y
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
