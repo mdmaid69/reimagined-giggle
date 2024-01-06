@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def cube_number(x):
+        return x**3
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
