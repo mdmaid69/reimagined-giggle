@@ -1,6 +1,5 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
