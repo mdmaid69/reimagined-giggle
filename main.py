@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
