@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
