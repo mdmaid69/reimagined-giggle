@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import array
+def convert_array_to_list(array):
+        return array.tolist()
