@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
