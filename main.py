@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
