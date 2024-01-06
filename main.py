@@ -1,5 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
