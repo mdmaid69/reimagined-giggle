@@ -1,7 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
