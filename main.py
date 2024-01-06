@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_base_name(path):
+        return os.path.basename(path)
+import numpy as np
+print(np.array([1, 2, 3]))
