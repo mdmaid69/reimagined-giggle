@@ -1,8 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
