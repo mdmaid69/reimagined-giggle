@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
