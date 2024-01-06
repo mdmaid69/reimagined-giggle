@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
