@@ -1,5 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  def convert_to_octal(n):
-        return oct(n)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
