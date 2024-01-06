@@ -1,6 +1,7 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import os
+def remove_directory(path):
+        os.rmdir(path)
