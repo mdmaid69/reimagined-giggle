@@ -1,7 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
