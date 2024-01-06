@@ -1,4 +1,4 @@
-import re
-print(re.match("h.*o", "hello world"))
-import sys
-print(sys.version)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
