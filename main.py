@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
