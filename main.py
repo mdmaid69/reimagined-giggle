@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_as_repr(array):
+        return repr(array)
+text = "Hello, world!"
+print("Characters:", len(text))
