@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
