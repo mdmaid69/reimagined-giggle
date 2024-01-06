@@ -1,5 +1,5 @@
+  def cube_number(x):
+        return x**3
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
