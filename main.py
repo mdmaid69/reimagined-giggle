@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
