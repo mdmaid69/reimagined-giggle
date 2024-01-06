@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
