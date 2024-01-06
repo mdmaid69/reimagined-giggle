@@ -1,6 +1,5 @@
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_error_function(x):
+        return math.erf(x)
