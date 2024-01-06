@@ -1,6 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
