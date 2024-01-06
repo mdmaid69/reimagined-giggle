@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
