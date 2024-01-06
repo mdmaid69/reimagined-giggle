@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
