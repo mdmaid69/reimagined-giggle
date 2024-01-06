@@ -1,5 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_density(mass, volume):
-        return mass / volume
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
