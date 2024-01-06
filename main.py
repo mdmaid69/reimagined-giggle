@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  def reverse_list(lst):
+        return lst[::-1]
