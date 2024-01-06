@@ -1,6 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
