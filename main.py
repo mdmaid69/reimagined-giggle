@@ -1,5 +1,4 @@
-import collections
-def create_stack():
-        return collections.deque()
-def multiply_numbers(x, y):
-        return x * y
+from collections import Counter
+print(Counter("hello world"))
+def count_characters(sentence):
+        return len(sentence)
