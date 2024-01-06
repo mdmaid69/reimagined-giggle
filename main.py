@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
