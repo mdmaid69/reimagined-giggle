@@ -1,5 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import random
+print(random.randint(0, 100))
+def calculate_speed(distance, time):
+        return distance / time
