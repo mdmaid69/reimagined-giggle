@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
