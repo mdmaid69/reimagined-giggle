@@ -1,5 +1,5 @@
+for i in range(5):
+        print(i)
   import os
-  def split_path(path):
-        return os.path.split(path)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
