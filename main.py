@@ -1,10 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def get_array_as_str(array):
+        return str(array)
