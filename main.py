@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_typecode(array):
+        return array.typecode
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
