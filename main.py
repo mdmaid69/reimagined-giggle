@@ -1,6 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
