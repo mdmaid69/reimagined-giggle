@@ -1,6 +1,6 @@
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
