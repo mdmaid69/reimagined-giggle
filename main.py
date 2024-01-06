@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def is_odd(n):
+        return n % 2 != 0
+  def convert_to_octal(n):
+        return oct(n)
