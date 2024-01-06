@@ -1,6 +1,7 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
