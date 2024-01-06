@@ -1,5 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
