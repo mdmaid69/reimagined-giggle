@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def get_array_item(array, i):
-        return array[i]
+def reverse_list(lst):
+        return lst[::-1]
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
