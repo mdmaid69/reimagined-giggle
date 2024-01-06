@@ -1,5 +1,7 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
