@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-print(math.pi)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
