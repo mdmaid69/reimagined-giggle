@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_area_rectangle(l, w):
+        return l * w
