@@ -1,3 +1,10 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-for i in range(10): print(i)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
