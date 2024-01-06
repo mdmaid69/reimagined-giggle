@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  def convert_to_hex(n):
-        return hex(n)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def add_numbers(a, b):
+        return a + b
