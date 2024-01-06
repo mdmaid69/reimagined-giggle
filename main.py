@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def divide_numbers(x, y):
+        return x / y
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_gamma_function(x):
+        return math.gamma(x)
