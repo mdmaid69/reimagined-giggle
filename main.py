@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
