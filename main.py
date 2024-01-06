@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_pressure(force, area):
+        return force / area
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
