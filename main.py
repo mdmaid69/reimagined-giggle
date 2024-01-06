@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_work(force, distance):
-        return force * distance
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
