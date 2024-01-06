@@ -1,8 +1,6 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
