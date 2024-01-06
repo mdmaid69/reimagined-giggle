@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
