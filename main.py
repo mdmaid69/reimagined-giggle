@@ -1,7 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_acceleration(speed, time):
+        return speed / time
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
