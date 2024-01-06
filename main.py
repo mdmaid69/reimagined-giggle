@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import logging
-def log_message(message):
-        logging.info(message)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
