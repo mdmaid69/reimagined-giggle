@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
