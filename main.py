@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-name = "Python"
-print("Hello,", name)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
