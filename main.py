@@ -1,8 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
