@@ -1,5 +1,4 @@
-def square_number(x):
-        return x**2
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def is_odd(n):
+        return n % 2 != 0
+def sort_numbers(numbers):
+        return sorted(numbers)
