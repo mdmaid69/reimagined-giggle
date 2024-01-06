@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import array
+def clear_array(array):
+        array *= 0
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
