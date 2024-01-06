@@ -1,8 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
 import array
-def get_array_item(array, i):
-        return array[i]
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
