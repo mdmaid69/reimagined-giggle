@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
