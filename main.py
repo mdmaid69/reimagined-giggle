@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
