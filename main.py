@@ -1,6 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
