@@ -1,5 +1,5 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def calculate_volume(length, width, height):
-        return length * width * height
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
