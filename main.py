@@ -1,6 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def find_max(lst):
+        return max(lst)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
