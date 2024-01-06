@@ -1,7 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_power(work, time):
+        return work / time
+def remove_duplicates(lst):
+        return list(set(lst))
