@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import time
+def get_current_time():
+        return time.ctime()
