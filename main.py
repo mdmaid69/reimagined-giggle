@@ -1,6 +1,5 @@
+def calculate_area_circle(r):
+        return 3.14 * r**2
 import array
-def get_array_length(array):
-        return len(array)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def convert_array_to_bytes(array):
+        return array.tobytes()
