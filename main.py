@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import collections
+def create_queue():
+        return collections.deque()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
