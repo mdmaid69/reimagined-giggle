@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import collections
+def create_user_list():
+        return collections.UserList()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
