@@ -1,6 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+x = 10
+y = 20
+print("Sum:", x + y)
