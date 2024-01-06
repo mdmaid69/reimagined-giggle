@@ -1,7 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+for i in range(10): print(i)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
