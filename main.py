@@ -1,5 +1,5 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def is_palindrome(s):
-        return s == s[::-1]
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
