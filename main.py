@@ -1,6 +1,5 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def delete_file(file_name):
+        os.remove(file_name)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
