@@ -1,5 +1,6 @@
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
