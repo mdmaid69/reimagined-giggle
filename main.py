@@ -1,6 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_perpetuity(payment, rate):
+        return payment / rate
