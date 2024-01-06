@@ -1,3 +1,8 @@
-from collections import Counter
-print(Counter("hello world"))
-print(sum(range(10)))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import time
+def get_current_time():
+        return time.time()
