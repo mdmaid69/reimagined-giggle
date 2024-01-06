@@ -1,5 +1,12 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def reverse_list(lst):
-        return lst[::-1]
+  def delete_file(file_name):
+        os.remove(file_name)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
