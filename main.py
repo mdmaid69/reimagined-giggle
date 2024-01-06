@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def find_max(numbers):
+        return max(numbers)
