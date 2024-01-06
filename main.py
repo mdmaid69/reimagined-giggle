@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
