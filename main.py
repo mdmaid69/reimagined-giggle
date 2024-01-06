@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def convert_array_to_list(array):
+        return array.tolist()
