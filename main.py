@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
