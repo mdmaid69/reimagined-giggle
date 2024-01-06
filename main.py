@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
