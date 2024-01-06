@@ -1,7 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
