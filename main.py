@@ -1,5 +1,5 @@
+def calculate_density(mass, volume):
+        return mass / volume
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def find_max(lst):
-        return max(lst)
+def convert_array_to_bytes(array):
+        return array.tobytes()
