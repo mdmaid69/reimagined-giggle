@@ -1,5 +1,9 @@
-  def multiply_numbers(x, y):
-        return x * y
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
