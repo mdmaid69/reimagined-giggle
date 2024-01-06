@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
