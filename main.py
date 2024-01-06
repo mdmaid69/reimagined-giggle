@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  def add_numbers(x, y):
+        return x + y
