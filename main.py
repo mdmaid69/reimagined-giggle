@@ -1,4 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-print([x**2 for x in range(10)])
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
