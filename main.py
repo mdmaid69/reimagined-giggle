@@ -1,7 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import collections
+def create_user_list():
+        return collections.UserList()
+def subtract_numbers(x, y):
+        return x - y
