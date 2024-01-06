@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
