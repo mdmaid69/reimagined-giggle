@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+from collections import Counter
+print(Counter("hello world"))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
