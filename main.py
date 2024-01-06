@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
