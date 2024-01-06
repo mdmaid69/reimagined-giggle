@@ -1,5 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
