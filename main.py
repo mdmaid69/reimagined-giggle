@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
