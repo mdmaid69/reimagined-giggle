@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def count_elements(lst):
-        return len(lst)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import collections
+def create_user_string():
+        return collections.UserString()
