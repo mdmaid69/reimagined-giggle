@@ -1,6 +1,9 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
