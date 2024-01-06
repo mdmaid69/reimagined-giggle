@@ -1,8 +1,6 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
