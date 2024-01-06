@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
