@@ -1,5 +1,7 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
