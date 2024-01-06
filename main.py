@@ -1,6 +1,6 @@
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def convert_array_to_list(array):
+        return array.tolist()
