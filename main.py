@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import re
-print(re.match("h.*o", "hello world"))
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
