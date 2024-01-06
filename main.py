@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
