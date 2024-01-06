@@ -1,6 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
