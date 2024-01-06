@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
