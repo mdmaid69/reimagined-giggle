@@ -1,4 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
