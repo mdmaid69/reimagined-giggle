@@ -1,8 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
 import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
