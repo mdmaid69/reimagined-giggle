@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def clear_array(array):
+        array *= 0
