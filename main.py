@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
