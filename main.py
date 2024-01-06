@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import sys
-def print_python_version():
-        print(sys.version)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
