@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import collections
-def create_counter():
-        return collections.Counter()
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
