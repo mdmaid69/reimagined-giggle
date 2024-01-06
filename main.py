@@ -1,5 +1,6 @@
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
