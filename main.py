@@ -1,4 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
