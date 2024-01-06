@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
