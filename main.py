@@ -1,5 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
