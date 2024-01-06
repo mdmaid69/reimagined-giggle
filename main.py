@@ -1,7 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
