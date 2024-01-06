@@ -1,9 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
