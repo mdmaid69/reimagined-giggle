@@ -1,6 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+from collections import Counter
+print(Counter("hello world"))
