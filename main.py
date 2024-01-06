@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import sys
+def exit_program():
+        sys.exit()
