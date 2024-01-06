@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
