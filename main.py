@@ -1,5 +1,7 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
