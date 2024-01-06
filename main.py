@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
