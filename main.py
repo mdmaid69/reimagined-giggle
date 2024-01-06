@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
