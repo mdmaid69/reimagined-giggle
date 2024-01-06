@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-x = 10
-y = 20
-print("Sum:", x + y)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
