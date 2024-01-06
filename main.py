@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
