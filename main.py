@@ -1,5 +1,11 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
