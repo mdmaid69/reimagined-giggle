@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_cosine(x):
+        return math.cos(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
