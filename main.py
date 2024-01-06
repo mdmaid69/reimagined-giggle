@@ -1,6 +1,5 @@
 import sys
 def exit_program():
         sys.exit()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
