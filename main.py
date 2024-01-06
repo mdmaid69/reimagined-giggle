@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import collections
-def create_queue():
-        return collections.deque()
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
