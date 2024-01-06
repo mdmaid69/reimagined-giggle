@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
