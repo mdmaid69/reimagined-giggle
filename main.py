@@ -1,6 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def reverse_list(lst):
+        return lst[::-1]
+def remove_duplicates(lst):
+        return list(set(lst))
