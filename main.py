@@ -1,6 +1,5 @@
+  def is_even(n):
+        return n % 2 == 0
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
