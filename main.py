@@ -1,5 +1,6 @@
 import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
