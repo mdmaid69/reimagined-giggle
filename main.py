@@ -1,5 +1,8 @@
-import collections
-def create_stack():
-        return collections.deque()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
