@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
