@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
