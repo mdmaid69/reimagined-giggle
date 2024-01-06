@@ -1,6 +1,6 @@
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
