@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
