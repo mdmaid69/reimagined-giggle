@@ -1,4 +1,8 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
