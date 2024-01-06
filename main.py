@@ -1,5 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  def convert_to_octal(n):
-        return oct(n)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
