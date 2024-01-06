@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def get_list_from_array(array):
+        return array.tolist()
