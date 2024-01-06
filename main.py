@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def split_path(path):
+        return os.path.split(path)
