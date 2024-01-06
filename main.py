@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def multiply_numbers(x, y):
-        return x * y
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
