@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+for i in range(5):
+        print(i)
