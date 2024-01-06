@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def convert_to_hex(n):
-        return hex(n)
+def add_numbers(a, b):
+        return a + b
+x = 10
+y = 20
+print("Sum:", x + y)
