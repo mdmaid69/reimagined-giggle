@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  def multiply_numbers(x, y):
-        return x * y
+  def reverse_list(lst):
+        return lst[::-1]
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
