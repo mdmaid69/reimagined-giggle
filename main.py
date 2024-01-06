@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_force(mass, acceleration):
+        return mass * acceleration
