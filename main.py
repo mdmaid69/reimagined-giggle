@@ -1,5 +1,7 @@
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
 import array
-def reverse_array(array):
-        array.reverse()
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
