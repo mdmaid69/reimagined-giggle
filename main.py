@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_speed(distance, time):
+        return distance / time
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_array_item(array, i):
+        return array[i]
