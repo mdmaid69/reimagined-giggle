@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
