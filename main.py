@@ -1,6 +1,4 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def is_even(n):
+        return n % 2 == 0
+import re
+print(re.match("h.*o", "hello world"))
