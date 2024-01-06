@@ -1,6 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def split_path(path):
+        return os.path.split(path)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
