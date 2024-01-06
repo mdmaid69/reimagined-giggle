@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
