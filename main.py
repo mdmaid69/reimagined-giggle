@@ -1,6 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
