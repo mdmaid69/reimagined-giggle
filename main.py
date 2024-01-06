@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
