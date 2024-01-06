@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+text = "Hello, world!"
+print("Reversed:", text[::-1])
