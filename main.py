@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def find_min(numbers):
+        return min(numbers)
