@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-from collections import Counter
-print(Counter("hello world"))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def get_array_length(array):
+        return len(array)
