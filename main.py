@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
