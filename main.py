@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
