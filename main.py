@@ -1,5 +1,7 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
