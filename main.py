@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
