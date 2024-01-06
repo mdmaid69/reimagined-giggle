@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def square_number(x):
+        return x**2
+import array
+def get_array_itemsize(array):
+        return array.itemsize
