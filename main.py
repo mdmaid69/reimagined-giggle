@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-def calculate_work(force, distance):
-        return force * distance
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
