@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_volume(length, width, height):
+        return length * width * height
+def multiply_numbers(x, y):
+        return x * y
