@@ -1,6 +1,7 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import datetime
+def get_today_date():
+        return datetime.date.today()
