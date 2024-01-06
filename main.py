@@ -1,4 +1,7 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def reverse_string(s):
-        return s[::-1]
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
