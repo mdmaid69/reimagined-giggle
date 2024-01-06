@@ -1,6 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_tangent(x):
+        return math.tan(x)
+def remove_duplicates(lst):
+        return list(set(lst))
