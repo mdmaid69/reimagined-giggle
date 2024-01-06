@@ -1,6 +1,11 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import sys
+def exit_program():
+        sys.exit()
