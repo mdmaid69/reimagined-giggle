@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
