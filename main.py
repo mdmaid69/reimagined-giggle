@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
