@@ -1,7 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import logging
+def log_message(message):
+        logging.info(message)
+def find_min(lst):
+        return min(lst)
