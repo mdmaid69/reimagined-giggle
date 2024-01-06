@@ -1,5 +1,4 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def is_palindrome(s):
+        return s == s[::-1]
