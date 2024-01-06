@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
