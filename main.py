@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_tangent(x):
+        return math.tan(x)
