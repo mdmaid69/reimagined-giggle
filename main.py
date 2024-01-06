@@ -1,6 +1,7 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
