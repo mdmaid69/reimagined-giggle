@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
