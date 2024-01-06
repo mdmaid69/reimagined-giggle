@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_speed(distance, time):
-        return distance / time
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def square_number(x):
+        return x**2
