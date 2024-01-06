@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
