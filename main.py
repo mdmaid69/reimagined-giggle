@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
