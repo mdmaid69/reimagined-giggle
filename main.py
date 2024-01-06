@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
