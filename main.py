@@ -1,5 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def square_number(x):
-        return x**2
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
