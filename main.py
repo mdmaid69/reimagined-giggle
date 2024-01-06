@@ -1,6 +1,6 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  def cube_number(x):
-        return x**3
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
