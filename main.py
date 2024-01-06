@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
