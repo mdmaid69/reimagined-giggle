@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
