@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
