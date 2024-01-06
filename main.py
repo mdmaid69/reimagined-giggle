@@ -1,5 +1,7 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
