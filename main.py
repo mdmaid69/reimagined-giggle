@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
