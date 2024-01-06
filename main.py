@@ -1,8 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
