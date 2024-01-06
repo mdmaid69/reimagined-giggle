@@ -1,6 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def count_elements(lst):
+        return len(lst)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
