@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
