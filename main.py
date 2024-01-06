@@ -1,5 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def count_words(sentence):
+        return len(sentence.split())
+text = "Hello, world!"
+print("Uppercase:", text.upper())
