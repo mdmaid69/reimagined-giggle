@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
