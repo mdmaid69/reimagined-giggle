@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
