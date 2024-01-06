@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
