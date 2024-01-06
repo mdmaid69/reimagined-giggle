@@ -1,8 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
