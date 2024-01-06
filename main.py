@@ -1,6 +1,7 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
