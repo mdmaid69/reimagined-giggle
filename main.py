@@ -1,5 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
