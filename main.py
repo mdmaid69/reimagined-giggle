@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
