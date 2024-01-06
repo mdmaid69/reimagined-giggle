@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
