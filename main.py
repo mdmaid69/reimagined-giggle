@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def multiply_numbers(x, y):
-        return x * y
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
