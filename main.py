@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
