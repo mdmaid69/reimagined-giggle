@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
