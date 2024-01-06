@@ -1,7 +1,8 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
