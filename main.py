@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
