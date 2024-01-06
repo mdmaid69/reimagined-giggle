@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def sort_numbers(numbers):
-        return sorted(numbers)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
