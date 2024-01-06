@@ -1,5 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_pressure(force, area):
+        return force / area
