@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
