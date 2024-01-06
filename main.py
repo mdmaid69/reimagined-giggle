@@ -1,6 +1,7 @@
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
