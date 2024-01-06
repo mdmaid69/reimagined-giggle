@@ -1,6 +1,5 @@
+def find_min(numbers):
+        return min(numbers)
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
