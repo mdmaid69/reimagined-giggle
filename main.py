@@ -1,4 +1,7 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-for i in range(5):
-        print(i)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
