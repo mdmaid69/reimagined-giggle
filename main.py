@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_sine(x):
+        return math.sin(x)
