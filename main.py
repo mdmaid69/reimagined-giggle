@@ -1,3 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-print(sum(range(10)))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
