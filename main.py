@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  def multiply_numbers(x, y):
-        return x * y
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_as_bool(array):
+        return bool(array)
