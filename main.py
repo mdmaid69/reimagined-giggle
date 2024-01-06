@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def set_array_item(array, i, item):
+        array[i] = item
