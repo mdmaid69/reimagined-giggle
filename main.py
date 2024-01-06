@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def find_max(lst):
-        return max(lst)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
