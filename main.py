@@ -1,5 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_work(force, distance):
+        return force * distance
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
