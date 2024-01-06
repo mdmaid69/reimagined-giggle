@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def is_odd(n):
+        return n % 2 != 0
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
