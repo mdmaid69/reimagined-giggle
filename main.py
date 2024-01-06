@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
