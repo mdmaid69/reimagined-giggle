@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import datetime
+def get_current_date():
+        return datetime.date.today()
