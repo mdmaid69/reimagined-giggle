@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
