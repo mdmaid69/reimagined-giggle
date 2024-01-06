@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def reverse_string(s):
+        return s[::-1]
+import platform
+def get_os_info():
+        return platform.uname()
