@@ -1,6 +1,8 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
