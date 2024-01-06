@@ -1,6 +1,8 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
