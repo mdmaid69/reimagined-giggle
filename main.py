@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
