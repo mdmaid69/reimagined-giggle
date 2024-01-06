@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
