@@ -1,6 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
