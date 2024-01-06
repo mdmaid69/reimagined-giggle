@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
