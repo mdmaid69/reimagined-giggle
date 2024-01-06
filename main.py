@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
