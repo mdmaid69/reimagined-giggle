@@ -1,6 +1,3 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+print([x**2 for x in range(10)])
