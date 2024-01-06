@@ -1,7 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
