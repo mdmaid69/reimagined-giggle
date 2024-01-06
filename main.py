@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
