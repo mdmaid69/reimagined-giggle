@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
