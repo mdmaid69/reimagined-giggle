@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_arc_tangent(x):
+        return math.atan(x)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
