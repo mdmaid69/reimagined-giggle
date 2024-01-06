@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def find_unique_words(sentence):
+        return set(sentence.split())
