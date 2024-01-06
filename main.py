@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def count_elements(lst):
+        return len(lst)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
