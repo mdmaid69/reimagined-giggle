@@ -1,4 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-print([x**2 for x in range(10)])
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
