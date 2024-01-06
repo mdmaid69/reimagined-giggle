@@ -1,7 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import json
+print(json.dumps({"name": "John", "age": 30}))
