@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def append_to_array(array, item):
-        array.append(item)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import sys
+def exit_program():
+        sys.exit()
