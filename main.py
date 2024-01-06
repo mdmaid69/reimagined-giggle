@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import platform
+def get_os_info():
+        return platform.uname()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
