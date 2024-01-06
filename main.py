@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_density(mass, volume):
+        return mass / volume
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
