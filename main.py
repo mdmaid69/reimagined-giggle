@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
