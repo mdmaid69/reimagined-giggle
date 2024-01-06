@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
