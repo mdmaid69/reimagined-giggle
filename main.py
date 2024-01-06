@@ -1,5 +1,7 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def count_characters(sentence):
-        return len(sentence)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
