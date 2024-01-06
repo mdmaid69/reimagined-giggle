@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
