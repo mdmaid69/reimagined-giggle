@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
