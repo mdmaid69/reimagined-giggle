@@ -1,6 +1,6 @@
+import math
+def calculate_cosine(x):
+        return math.cos(x)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
