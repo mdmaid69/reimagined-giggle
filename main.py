@@ -1,6 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def get_array_length(array):
+        return len(array)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
