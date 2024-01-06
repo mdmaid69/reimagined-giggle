@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
