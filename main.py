@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-x = 10
-y = 20
-print("Sum:", x + y)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import datetime
+print(datetime.datetime.now())
