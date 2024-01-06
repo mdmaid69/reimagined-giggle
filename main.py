@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def square_number(x):
+        return x**2
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
