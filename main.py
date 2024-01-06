@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
