@@ -1,4 +1,6 @@
-import os
-print(os.getcwd())
-def square_number(x):
-        return x**2
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
