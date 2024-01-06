@@ -1,6 +1,6 @@
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
