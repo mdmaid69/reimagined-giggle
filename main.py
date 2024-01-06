@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def is_even(n):
-        return n % 2 == 0
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
