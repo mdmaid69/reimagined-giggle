@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+x = 10
+y = 20
+print("Sum:", x + y)
+import numpy as np
+print(np.array([1, 2, 3]))
