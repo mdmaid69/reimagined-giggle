@@ -1,6 +1,7 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import time
-def get_current_time():
-        return time.ctime()
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
