@@ -1,6 +1,10 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
