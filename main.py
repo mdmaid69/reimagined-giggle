@@ -1,7 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def convert_to_binary(n):
+        return bin(n)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
