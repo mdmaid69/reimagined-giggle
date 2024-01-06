@@ -1,7 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import collections
+def create_user_list():
+        return collections.UserList()
