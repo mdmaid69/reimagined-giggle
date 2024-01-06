@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_as_complex(array):
+        return complex(array[0])
