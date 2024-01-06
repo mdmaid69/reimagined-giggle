@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
