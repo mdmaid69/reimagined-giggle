@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
