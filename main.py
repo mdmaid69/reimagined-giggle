@@ -1,6 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
