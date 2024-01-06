@@ -1,5 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_force(mass, acceleration):
+        return mass * acceleration
