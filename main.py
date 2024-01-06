@@ -1,5 +1,9 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
