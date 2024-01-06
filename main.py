@@ -1,5 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import random
+print(random.randint(0, 100))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
