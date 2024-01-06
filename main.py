@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def find_min(numbers):
+        return min(numbers)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
