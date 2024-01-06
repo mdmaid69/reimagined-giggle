@@ -1,6 +1,5 @@
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-x = 10
-y = 20
-print("Sum:", x + y)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
