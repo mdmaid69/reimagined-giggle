@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
