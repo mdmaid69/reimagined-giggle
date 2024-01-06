@@ -1,7 +1,8 @@
-  def cube_number(x):
-        return x**3
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
