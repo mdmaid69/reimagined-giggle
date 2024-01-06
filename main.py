@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
