@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def append_to_array(array, item):
+        array.append(item)
