@@ -1,4 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-for i in range(10): print(i)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
