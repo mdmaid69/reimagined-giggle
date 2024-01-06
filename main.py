@@ -1,6 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def count_characters(sentence):
+        return len(sentence)
