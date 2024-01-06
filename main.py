@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import collections
+def create_counter():
+        return collections.Counter()
