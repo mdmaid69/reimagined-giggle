@@ -1,6 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
