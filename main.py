@@ -1,6 +1,6 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
