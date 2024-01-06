@@ -1,6 +1,5 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def convert_to_octal(n):
+        return oct(n)
