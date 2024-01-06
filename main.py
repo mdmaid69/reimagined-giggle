@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import collections
-def create_counter():
-        return collections.Counter()
+  def sort_list(lst):
+        return sorted(lst)
+  def multiply_numbers(x, y):
+        return x * y
