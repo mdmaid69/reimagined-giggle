@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
