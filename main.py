@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import getpass
+def get_username():
+        return getpass.getuser()
+def square_number(x):
+        return x**2
