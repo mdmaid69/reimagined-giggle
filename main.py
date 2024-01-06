@@ -1,5 +1,6 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
