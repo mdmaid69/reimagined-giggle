@@ -1,5 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
