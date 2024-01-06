@@ -1,6 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
