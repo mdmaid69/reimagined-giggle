@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def multiply_numbers(x, y):
-        return x * y
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  def convert_to_binary(n):
+        return bin(n)
