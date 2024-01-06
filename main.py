@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import collections
-def create_user_string():
-        return collections.UserString()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
