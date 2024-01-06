@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
