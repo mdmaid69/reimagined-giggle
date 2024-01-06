@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
