@@ -1,6 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
