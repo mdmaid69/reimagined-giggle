@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+for i in range(10): print(i)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
