@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
