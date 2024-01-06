@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import time
-def get_time_since_epoch():
-        return time.time()
+def remove_duplicates(lst):
+        return list(set(lst))
+  def sort_list(lst):
+        return sorted(lst)
