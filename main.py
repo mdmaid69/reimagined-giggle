@@ -1,6 +1,5 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def get_array_as_list(array):
+        return list(array)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
