@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def append_to_array(array, item):
+        array.append(item)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
