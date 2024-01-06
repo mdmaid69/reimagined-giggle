@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
