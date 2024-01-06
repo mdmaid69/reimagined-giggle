@@ -1,5 +1,8 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
