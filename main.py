@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
