@@ -1,6 +1,8 @@
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
