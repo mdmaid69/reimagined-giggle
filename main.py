@@ -1,5 +1,9 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
