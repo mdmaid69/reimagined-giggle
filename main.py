@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  def square_number(x):
+        return x**2
