@@ -1,9 +1,6 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
