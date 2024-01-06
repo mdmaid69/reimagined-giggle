@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def add_numbers(x, y):
+        return x + y
