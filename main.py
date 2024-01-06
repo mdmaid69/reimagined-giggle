@@ -1,7 +1,7 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
