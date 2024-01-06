@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_as_repr(array):
+        return repr(array)
