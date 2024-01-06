@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import math
+def calculate_sine(x):
+        return math.sin(x)
