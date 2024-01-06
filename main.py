@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
 import math
 def calculate_root(x, n):
         return math.pow(x, 1/n)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
