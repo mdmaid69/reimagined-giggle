@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_density(mass, volume):
+        return mass / volume
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
