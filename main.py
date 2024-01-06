@@ -1,5 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
