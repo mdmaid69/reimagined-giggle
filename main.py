@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
