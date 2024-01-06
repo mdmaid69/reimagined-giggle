@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def find_max(lst):
-        return max(lst)
+for i in range(5):
+        print(i)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
