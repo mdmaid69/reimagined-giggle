@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
