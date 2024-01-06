@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
