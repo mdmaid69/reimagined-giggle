@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import numpy as np
-print(np.array([1, 2, 3]))
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
