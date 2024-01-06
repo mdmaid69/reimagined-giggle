@@ -1,5 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-for i in range(5):
-        print(i)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+print("Hello, world!")
