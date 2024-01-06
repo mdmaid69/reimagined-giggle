@@ -1,6 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
