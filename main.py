@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
