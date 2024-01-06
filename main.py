@@ -1,5 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+from collections import Counter
+print(Counter("hello world"))
+def cube_number(x):
+        return x**3
