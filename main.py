@@ -1,5 +1,7 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
