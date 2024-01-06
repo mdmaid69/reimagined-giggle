@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
