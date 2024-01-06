@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
