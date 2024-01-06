@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+for i in range(5):
+        print(i)
+import numpy as np
+print(np.array([1, 2, 3]))
