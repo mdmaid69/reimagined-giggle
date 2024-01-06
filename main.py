@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import sys
+  def get_python_version():
+        return sys.version
