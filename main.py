@@ -1,6 +1,5 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_density(mass, volume):
+        return mass / volume
