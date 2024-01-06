@@ -1,4 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-for i in range(10): print(i)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
