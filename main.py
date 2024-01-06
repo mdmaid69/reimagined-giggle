@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
