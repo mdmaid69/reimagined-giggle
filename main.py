@@ -1,5 +1,4 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  def reverse_list(lst):
+        return lst[::-1]
