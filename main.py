@@ -1,5 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
