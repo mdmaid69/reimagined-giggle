@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
