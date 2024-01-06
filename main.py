@@ -1,5 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
