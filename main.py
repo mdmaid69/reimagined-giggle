@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+def add_numbers(a, b):
+        return a + b
