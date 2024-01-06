@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-  def subtract_numbers(x, y):
-        return x - y
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
