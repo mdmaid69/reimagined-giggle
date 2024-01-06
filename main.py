@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def convert_to_hex(n):
+        return hex(n)
