@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import collections
+def create_user_list():
+        return collections.UserList()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
