@@ -1,5 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
