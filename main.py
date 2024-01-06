@@ -1,6 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
