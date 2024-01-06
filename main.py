@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def find_max(numbers):
+        return max(numbers)
