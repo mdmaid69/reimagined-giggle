@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
