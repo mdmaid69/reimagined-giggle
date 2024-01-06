@@ -1,6 +1,8 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
