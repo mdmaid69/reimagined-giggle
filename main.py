@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import time
+def get_current_time():
+        return time.time()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
