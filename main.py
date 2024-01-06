@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def clear_array(array):
+        array *= 0
