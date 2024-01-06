@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
