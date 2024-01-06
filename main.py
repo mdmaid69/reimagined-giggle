@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
