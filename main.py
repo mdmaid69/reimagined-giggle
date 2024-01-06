@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def is_even(n):
+        return n % 2 == 0
