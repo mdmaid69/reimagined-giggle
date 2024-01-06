@@ -1,5 +1,7 @@
-def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
