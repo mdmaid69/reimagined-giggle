@@ -1,5 +1,7 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
