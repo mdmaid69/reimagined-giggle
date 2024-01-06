@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
