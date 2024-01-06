@@ -1,6 +1,8 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
