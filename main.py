@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def find_min(numbers):
+        return min(numbers)
