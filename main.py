@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
