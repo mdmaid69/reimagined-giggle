@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
