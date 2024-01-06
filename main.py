@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
