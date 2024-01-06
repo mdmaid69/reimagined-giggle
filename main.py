@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
