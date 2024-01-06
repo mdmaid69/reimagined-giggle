@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
