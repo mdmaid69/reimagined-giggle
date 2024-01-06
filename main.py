@@ -1,5 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
