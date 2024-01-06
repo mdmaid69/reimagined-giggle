@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  def reverse_list(lst):
-        return lst[::-1]
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
