@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-def calculate_pressure(force, area):
-        return force / area
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
