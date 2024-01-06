@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
