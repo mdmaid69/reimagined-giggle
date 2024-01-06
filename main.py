@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
+import time
+def get_current_time():
+        return time.ctime()
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
