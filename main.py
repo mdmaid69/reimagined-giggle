@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
