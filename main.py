@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def find_max(numbers):
-        return max(numbers)
+import sys
+print(sys.version)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
