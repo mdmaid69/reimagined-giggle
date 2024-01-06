@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
