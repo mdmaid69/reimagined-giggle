@@ -1,6 +1,5 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def convert_to_binary(n):
+        return bin(n)
