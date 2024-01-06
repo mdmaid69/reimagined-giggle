@@ -1,4 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-print(sum(range(10)))
+def is_palindrome(s):
+        return s == s[::-1]
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
