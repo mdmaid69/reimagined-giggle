@@ -1,7 +1,6 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
