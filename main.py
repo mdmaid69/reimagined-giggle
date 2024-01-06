@@ -1,6 +1,7 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def count_elements(lst):
+        return len(lst)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
