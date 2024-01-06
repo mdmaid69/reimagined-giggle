@@ -1,6 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def cube_number(x):
+        return x**3
+def convert_to_binary(n):
+        return bin(n)
