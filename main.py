@@ -1,5 +1,12 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
