@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
