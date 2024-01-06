@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
