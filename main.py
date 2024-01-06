@@ -1,6 +1,4 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import collections
-def create_queue():
-        return collections.deque()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_force(mass, acceleration):
+        return mass * acceleration
