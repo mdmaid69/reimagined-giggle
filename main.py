@@ -1,6 +1,9 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
