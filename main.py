@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
