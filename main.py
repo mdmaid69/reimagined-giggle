@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
