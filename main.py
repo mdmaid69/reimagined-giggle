@@ -1,6 +1,5 @@
+  def is_even(n):
+        return n % 2 == 0
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_error_function(x):
+        return math.erf(x)
