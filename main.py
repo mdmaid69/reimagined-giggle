@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
