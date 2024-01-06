@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
