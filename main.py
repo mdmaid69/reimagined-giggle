@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
