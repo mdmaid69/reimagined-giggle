@@ -1,5 +1,4 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
