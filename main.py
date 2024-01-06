@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def find_max(lst):
-        return max(lst)
+import random
+print(random.randint(0, 100))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
