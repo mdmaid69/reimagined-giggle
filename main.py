@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import random
-print(random.randint(0, 100))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
