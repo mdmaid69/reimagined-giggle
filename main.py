@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import time
+def get_current_time():
+        return time.time()
+def calculate_acceleration(speed, time):
+        return speed / time
