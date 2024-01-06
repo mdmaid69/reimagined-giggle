@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
