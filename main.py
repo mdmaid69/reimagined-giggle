@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+x = 10
+y = 20
+print("Sum:", x + y)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
