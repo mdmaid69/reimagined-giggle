@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
