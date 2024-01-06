@@ -1,5 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  def count_elements(lst):
-        return len(lst)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_floor(x):
+        return math.floor(x)
