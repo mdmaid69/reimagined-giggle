@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import logging
+def log_message(message):
+        logging.info(message)
