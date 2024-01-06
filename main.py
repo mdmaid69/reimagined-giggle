@@ -1,6 +1,5 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import os
   def get_file_nlink(file_name):
         return os.stat(file_name).st_nlink
+def count_elements(lst):
+        return len(lst)
