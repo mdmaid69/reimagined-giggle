@@ -1,8 +1,7 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
