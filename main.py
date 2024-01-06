@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_pressure(force, area):
+        return force / area
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
