@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
