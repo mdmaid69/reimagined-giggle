@@ -1,8 +1,6 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def append_to_array(array, item):
+        array.append(item)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
