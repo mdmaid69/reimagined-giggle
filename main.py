@@ -1,7 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import sys
+def exit_program():
+        sys.exit()
