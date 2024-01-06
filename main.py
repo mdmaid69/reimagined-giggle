@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_pressure(force, area):
+        return force / area
