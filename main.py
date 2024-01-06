@@ -1,6 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def find_max(lst):
+        return max(lst)
+  def is_even(n):
+        return n % 2 == 0
