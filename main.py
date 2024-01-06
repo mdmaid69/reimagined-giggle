@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
