@@ -1,6 +1,5 @@
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def get_array_as_int(array):
+        return int(array[0])
