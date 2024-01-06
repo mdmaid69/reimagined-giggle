@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def square_number(x):
+        return x**2
