@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
