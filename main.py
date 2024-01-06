@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
