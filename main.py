@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+def greet(name):
+        print(f"Hello, {name}!")
