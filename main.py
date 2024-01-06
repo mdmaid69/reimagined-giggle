@@ -1,6 +1,7 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
