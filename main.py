@@ -1,6 +1,7 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
