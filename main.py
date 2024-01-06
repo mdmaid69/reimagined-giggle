@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_as_str(array):
+        return str(array)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
