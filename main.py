@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
