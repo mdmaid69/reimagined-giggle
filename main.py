@@ -1,9 +1,4 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
