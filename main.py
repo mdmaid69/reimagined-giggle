@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
