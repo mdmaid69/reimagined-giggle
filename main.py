@@ -1,5 +1,7 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
