@@ -1,5 +1,7 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
