@@ -1,8 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
