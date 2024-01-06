@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
