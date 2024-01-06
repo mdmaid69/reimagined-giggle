@@ -1,5 +1,7 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
