@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
