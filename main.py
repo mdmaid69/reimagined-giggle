@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_area_circle(r):
+        return 3.14 * r**2
