@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_power(work, time):
+        return work / time
