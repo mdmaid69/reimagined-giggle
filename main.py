@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import random
+print(random.randint(0, 100))
