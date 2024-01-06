@@ -1,4 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import os
-print(os.getcwd())
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
