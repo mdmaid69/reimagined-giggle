@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
