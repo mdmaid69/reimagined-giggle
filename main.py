@@ -1,5 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
