@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
