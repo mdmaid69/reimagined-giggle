@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
