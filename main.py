@@ -1,5 +1,3 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+print(sum(range(10)))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
