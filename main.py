@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
