@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def greet(name):
+        print(f"Hello, {name}!")
