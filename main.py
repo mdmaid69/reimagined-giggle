@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def extend_array(array, iterable):
+        array.extend(iterable)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
