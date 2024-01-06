@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
