@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import array
+def get_array_typecode(array):
+        return array.typecode
