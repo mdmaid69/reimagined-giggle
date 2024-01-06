@@ -1,6 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
