@@ -1,6 +1,4 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+print([x**2 for x in range(10)])
