@@ -1,6 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_floor(x):
+        return math.floor(x)
