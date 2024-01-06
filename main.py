@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
