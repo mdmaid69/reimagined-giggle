@@ -1,8 +1,12 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
