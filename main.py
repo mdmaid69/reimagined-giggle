@@ -1,5 +1,4 @@
-def reverse_list(lst):
-        return lst[::-1]
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import time
+print(time.time())
