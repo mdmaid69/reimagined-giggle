@@ -1,6 +1,7 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
