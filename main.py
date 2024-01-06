@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def find_max(numbers):
+        return max(numbers)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
