@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
