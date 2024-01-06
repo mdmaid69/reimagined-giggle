@@ -1,4 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def find_unique_words(sentence):
+        return set(sentence.split())
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
