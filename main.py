@@ -1,6 +1,8 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
