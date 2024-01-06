@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
