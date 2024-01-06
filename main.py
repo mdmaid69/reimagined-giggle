@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
