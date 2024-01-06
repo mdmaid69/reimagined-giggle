@@ -1,5 +1,6 @@
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
