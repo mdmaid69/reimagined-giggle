@@ -1,5 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def reverse_list(lst):
-        return lst[::-1]
+def count_words(sentence):
+        return len(sentence.split())
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
