@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
