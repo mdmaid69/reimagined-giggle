@@ -1,4 +1,8 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
