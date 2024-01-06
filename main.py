@@ -1,5 +1,7 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
