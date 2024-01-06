@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
