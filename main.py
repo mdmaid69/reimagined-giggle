@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
