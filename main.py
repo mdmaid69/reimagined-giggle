@@ -1,5 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import re
+print(re.match("h.*o", "hello world"))
