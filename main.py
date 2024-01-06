@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_pressure(force, area):
+        return force / area
