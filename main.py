@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def subtract_numbers(x, y):
+        return x - y
+import sys
+def print_python_version():
+        print(sys.version)
