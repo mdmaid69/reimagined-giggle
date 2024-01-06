@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
