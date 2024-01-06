@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
