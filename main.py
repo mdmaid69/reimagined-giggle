@@ -1,6 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import platform
+def get_python_version():
+        return platform.python_version()
+import sys
+def exit_program():
+        sys.exit()
