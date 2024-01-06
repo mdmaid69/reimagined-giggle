@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  def is_even(n):
+        return n % 2 == 0
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
