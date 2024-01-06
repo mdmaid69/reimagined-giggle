@@ -1,4 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-def calculate_work(force, distance):
-        return force * distance
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def find_max(lst):
+        return max(lst)
