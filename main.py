@@ -1,5 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def is_even(n):
+        return n % 2 == 0
+import sys
+def print_python_version():
+        print(sys.version)
