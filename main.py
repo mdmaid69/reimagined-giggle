@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import math
+def calculate_floor(x):
+        return math.floor(x)
