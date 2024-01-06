@@ -1,4 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-print([x**2 for x in range(10)])
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
