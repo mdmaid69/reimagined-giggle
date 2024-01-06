@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
