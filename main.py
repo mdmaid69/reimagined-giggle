@@ -1,9 +1,3 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import sys
-def exit_program():
-        sys.exit()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+for i in range(10): print(i)
