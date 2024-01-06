@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  def cube_number(x):
-        return x**3
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
