@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-def find_max(numbers):
-        return max(numbers)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_volume(length, width, height):
+        return length * width * height
