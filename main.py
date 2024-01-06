@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
