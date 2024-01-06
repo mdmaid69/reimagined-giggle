@@ -1,7 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
