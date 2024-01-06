@@ -1,6 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
