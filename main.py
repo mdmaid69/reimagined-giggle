@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def clear_array(array):
+        array *= 0
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
