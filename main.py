@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
