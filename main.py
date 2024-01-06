@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_area(radius):
+        return 3.14 * radius * radius
