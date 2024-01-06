@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def multiply_numbers(x, y):
+        return x * y
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
