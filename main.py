@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
