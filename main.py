@@ -1,8 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import os
+print(os.getcwd())
