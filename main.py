@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
