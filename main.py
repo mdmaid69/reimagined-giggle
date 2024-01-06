@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import collections
+def create_priority_queue():
+        return collections.deque()
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
