@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def cube_number(x):
-        return x**3
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
