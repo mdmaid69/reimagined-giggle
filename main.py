@@ -1,6 +1,6 @@
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
