@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_list(array):
+        return list(array)
