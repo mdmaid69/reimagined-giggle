@@ -1,7 +1,7 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
   import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
         plt.show()
