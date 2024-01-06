@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
