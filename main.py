@@ -1,7 +1,8 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
