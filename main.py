@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+from collections import Counter
+print(Counter("hello world"))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
