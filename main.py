@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
