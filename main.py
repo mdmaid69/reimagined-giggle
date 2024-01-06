@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
