@@ -1,6 +1,8 @@
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
 import collections
-def create_stack():
-        return collections.deque()
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def create_user_string():
+        return collections.UserString()
