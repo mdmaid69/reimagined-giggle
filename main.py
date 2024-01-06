@@ -1,5 +1,9 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import time
+def get_time_since_epoch():
+        return time.time()
