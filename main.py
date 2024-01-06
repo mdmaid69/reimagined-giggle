@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
