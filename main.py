@@ -1,10 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
