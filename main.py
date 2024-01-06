@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def square_number(x):
-        return x**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
