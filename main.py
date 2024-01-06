@@ -1,6 +1,7 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
