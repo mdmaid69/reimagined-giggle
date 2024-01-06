@@ -1,4 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-def multiply_numbers(x, y):
-        return x * y
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def find_min(numbers):
+        return min(numbers)
