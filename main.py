@@ -1,6 +1,5 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-import time
-def get_current_time():
-        return time.time()
+def extend_array(array, iterable):
+        array.extend(iterable)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
