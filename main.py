@@ -1,5 +1,8 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
