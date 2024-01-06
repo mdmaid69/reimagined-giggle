@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
