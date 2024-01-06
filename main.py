@@ -1,6 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import collections
-def create_user_list():
-        return collections.UserList()
+for i in range(10): print(i)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
