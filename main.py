@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
