@@ -1,5 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
