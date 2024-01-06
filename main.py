@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
