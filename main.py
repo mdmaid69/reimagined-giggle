@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import collections
+def create_user_dict():
+        return collections.UserDict()
