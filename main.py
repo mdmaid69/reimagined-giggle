@@ -1,7 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
