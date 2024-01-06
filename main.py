@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
