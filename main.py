@@ -1,6 +1,8 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
