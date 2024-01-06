@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
