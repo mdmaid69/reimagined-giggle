@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def square_number(x):
+        return x**2
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
