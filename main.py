@@ -1,5 +1,11 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
