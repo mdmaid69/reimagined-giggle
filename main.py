@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
