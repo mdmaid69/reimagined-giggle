@@ -1,5 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_volume(length, width, height):
-        return length * width * height
+def sort_list(lst):
+        return sorted(lst)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
