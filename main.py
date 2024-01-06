@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import array
-def get_array_item(array, i):
-        return array[i]
+  def convert_to_octal(n):
+        return oct(n)
+def divide_numbers(x, y):
+        return x / y
