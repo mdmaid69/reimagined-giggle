@@ -1,8 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
