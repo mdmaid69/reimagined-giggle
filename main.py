@@ -1,3 +1,5 @@
-print(sum(range(10)))
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import os
+print(os.getcwd())
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
