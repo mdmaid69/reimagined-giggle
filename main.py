@@ -1,5 +1,7 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def calculate_area_circle(r):
+        return 3.14 * r**2
