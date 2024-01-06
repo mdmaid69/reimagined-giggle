@@ -1,5 +1,5 @@
+import tensorflow as tf
+print(tf.__version__)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
