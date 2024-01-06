@@ -1,7 +1,8 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
