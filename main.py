@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
