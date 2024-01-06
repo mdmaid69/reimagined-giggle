@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import platform
+def get_os_info():
+        return platform.uname()
