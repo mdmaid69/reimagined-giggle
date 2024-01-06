@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
