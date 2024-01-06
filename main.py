@@ -1,6 +1,7 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_speed(distance, time):
+        return distance / time
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
