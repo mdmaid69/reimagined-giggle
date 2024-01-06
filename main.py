@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
