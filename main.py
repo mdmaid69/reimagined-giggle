@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import os
+print(os.getcwd())
+import collections
+def create_user_dict():
+        return collections.UserDict()
