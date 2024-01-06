@@ -1,6 +1,6 @@
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def get_array_as_int(array):
+        return int(array[0])
