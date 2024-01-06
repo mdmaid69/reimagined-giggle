@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import re
+print(re.match("h.*o", "hello world"))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
