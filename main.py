@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
