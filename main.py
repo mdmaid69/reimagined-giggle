@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_user_string():
-        return collections.UserString()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
