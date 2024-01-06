@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
