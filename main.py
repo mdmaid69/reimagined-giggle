@@ -1,6 +1,4 @@
+for i in range(10): print(i)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
