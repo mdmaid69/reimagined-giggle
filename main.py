@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
