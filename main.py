@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def get_array_as_bool(array):
+        return bool(array)
