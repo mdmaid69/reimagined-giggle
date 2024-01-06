@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
