@@ -1,8 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
