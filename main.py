@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
