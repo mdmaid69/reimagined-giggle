@@ -1,5 +1,8 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
