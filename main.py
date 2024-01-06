@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
