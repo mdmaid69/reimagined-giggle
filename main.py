@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
