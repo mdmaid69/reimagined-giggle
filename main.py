@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def is_odd(n):
-        return n % 2 != 0
+def sort_numbers(numbers):
+        return sorted(numbers)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
