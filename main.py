@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
