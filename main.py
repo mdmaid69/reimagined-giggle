@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_pressure(force, area):
-        return force / area
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
