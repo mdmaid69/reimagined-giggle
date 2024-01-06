@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
