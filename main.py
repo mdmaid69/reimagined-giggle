@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
