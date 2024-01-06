@@ -1,6 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def count_characters(sentence):
+        return len(sentence)
+  def is_even(n):
+        return n % 2 == 0
