@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import array
-def get_array_typecode(array):
-        return array.typecode
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import collections
+def create_priority_queue():
+        return collections.deque()
