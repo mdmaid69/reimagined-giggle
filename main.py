@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  def convert_to_octal(n):
+        return oct(n)
