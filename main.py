@@ -1,6 +1,5 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
