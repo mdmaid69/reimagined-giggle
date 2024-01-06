@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
