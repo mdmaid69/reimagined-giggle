@@ -1,6 +1,8 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
