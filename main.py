@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def subtract_numbers(x, y):
+        return x - y
