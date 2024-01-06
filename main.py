@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
