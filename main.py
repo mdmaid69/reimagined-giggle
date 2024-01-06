@@ -1,6 +1,7 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
