@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  def reverse_list(lst):
+        return lst[::-1]
