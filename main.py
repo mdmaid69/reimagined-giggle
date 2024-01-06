@@ -1,5 +1,6 @@
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
 import array
-def get_array_as_float(array):
-        return float(array[0])
-def is_odd(n):
-        return n % 2 != 0
+def get_array_as_frozenset(array):
+        return frozenset(array)
