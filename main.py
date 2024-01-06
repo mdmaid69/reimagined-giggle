@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import getpass
+def get_username():
+        return getpass.getuser()
+import collections
+def create_stack():
+        return collections.deque()
