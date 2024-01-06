@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
