@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def get_list_from_array(array):
+        return array.tolist()
