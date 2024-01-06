@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
