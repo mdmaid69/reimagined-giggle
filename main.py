@@ -1,6 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
