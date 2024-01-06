@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
