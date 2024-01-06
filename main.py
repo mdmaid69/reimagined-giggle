@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+x = 10
+y = 20
+print("Sum:", x + y)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
