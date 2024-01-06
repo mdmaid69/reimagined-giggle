@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def count_characters(sentence):
+        return len(sentence)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
