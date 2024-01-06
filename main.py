@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import collections
-def create_user_list():
-        return collections.UserList()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
