@@ -1,5 +1,5 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+  def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
