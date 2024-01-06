@@ -1,5 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
