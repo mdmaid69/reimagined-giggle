@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
