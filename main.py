@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  def sort_list(lst):
-        return sorted(lst)
+  def count_elements(lst):
+        return len(lst)
+import logging
+def log_message(message):
+        logging.info(message)
