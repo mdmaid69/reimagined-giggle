@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import tensorflow as tf
+print(tf.__version__)
