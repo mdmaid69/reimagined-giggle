@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_acceleration(speed, time):
+        return speed / time
