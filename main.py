@@ -1,6 +1,5 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
