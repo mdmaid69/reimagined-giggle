@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
