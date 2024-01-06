@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import math
-def calculate_hyperbolic_arc_cosine(x):
+def calculate_inverse_hyperbolic_cosine(x):
         return math.acosh(x)
