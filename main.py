@@ -1,4 +1,11 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def is_even(n):
-        return n % 2 == 0
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
