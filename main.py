@@ -1,5 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import time
-print(time.time())
+def calculate_acceleration(speed, time):
+        return speed / time
+  def sort_list(lst):
+        return sorted(lst)
