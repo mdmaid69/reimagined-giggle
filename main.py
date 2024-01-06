@@ -1,5 +1,8 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
