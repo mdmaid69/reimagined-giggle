@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
