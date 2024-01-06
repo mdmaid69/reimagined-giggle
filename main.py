@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_floor(x):
+        return math.floor(x)
