@@ -1,5 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def convert_to_octal(n):
+        return oct(n)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
