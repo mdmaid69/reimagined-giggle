@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
