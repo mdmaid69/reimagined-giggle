@@ -1,6 +1,8 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
