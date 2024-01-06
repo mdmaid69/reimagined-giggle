@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_density(mass, volume):
+        return mass / volume
