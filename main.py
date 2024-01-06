@@ -1,14 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
