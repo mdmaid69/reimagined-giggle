@@ -1,5 +1,7 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
