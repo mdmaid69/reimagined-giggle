@@ -1,5 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def get_array_as_repr(array):
+        return repr(array)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
