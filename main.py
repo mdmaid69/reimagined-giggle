@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
 import sys
-def exit_program():
-        sys.exit()
+def print_python_version():
+        return sys.version
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
