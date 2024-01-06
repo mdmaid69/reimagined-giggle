@@ -1,7 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
