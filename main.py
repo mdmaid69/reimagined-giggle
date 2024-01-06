@@ -1,5 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  def remove_duplicates(lst):
-        return list(set(lst))
+import tensorflow as tf
+print(tf.__version__)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
