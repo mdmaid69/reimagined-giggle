@@ -1,5 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def calculate_pressure(force, area):
-        return force / area
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
