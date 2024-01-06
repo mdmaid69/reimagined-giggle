@@ -1,6 +1,6 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
