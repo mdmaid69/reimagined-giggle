@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
