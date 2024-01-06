@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-x = 10
-y = 20
-print("Sum:", x + y)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
