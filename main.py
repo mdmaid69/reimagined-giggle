@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
