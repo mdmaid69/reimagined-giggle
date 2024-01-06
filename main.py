@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
