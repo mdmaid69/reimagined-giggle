@@ -1,6 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
