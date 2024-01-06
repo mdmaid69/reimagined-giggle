@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import numpy as np
+print(np.array([1, 2, 3]))
