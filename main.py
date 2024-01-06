@@ -1,7 +1,5 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+text = "Hello, world!"
+print("Reversed:", text[::-1])
