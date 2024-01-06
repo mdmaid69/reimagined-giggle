@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_array_as_int(array):
+        return int(array[0])
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
