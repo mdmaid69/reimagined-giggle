@@ -1,6 +1,8 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
