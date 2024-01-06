@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_area_rectangle(l, w):
+        return l * w
