@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
