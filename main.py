@@ -1,6 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
