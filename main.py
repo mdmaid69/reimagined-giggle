@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import os
+def change_working_directory(path):
+        os.chdir(path)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_sign(x):
+        return math.copysign(1, x)
