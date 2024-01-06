@@ -1,5 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import re
-print(re.match("h.*o", "hello world"))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def calculate_area_rectangle(l, w):
+        return l * w
