@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def convert_array_to_string(array):
+        return array.tostring()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
