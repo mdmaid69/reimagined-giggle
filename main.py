@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
