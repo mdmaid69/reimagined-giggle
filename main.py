@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import tensorflow as tf
+print(tf.__version__)
+import collections
+def create_queue():
+        return collections.deque()
