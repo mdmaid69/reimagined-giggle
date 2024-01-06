@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
