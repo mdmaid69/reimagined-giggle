@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def sort_list(lst):
+        return sorted(lst)
