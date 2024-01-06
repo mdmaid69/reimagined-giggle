@@ -1,6 +1,9 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import getpass
+def get_username():
+        return getpass.getuser()
