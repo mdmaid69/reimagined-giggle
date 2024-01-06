@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  def is_even(n):
-        return n % 2 == 0
+  def square_number(x):
+        return x**2
+import array
+def remove_from_array(array, item):
+        array.remove(item)
