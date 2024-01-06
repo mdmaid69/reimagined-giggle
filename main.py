@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import tensorflow as tf
-print(tf.__version__)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
