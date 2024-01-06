@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
