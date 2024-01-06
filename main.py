@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def add_numbers(x, y):
+        return x + y
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_sine(x):
+        return math.sin(x)
