@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
