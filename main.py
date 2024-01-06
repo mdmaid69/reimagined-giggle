@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def get_array_as_str(array):
+        return str(array)
