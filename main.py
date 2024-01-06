@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
 import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
