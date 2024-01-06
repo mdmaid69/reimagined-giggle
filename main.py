@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  def cube_number(x):
+        return x**3
