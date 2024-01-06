@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  def convert_to_octal(n):
+        return oct(n)
