@@ -1,4 +1,9 @@
-  def square_number(x):
-        return x**2
-  def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
