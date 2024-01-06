@@ -1,6 +1,3 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+print([x**2 for x in range(10)])
+def calculate_power(work, time):
+        return work / time
