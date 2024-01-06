@@ -1,5 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
