@@ -1,6 +1,5 @@
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
