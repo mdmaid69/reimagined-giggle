@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def find_unique_words(sentence):
+        return set(sentence.split())
