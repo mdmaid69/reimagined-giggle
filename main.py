@@ -1,6 +1,5 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
