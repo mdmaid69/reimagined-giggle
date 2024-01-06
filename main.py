@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def get_array_itemsize(array):
+        return array.itemsize
