@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
