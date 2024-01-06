@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import collections
+def create_user_string():
+        return collections.UserString()
