@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
