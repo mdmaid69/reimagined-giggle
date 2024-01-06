@@ -1,5 +1,8 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import random
-print(random.randint(0, 100))
+import array
+def reverse_array(array):
+        array.reverse()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
