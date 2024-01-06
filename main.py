@@ -1,4 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def cube_number(x):
-        return x**3
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  def calculate_area_rectangle(l, w):
+        return l * w
