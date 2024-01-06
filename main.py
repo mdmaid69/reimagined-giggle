@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  def sort_list(lst):
+        return sorted(lst)
