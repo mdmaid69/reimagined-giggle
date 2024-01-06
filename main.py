@@ -1,6 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
