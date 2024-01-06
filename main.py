@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
