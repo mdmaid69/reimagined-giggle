@@ -1,6 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
