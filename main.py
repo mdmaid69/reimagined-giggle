@@ -1,5 +1,7 @@
-def is_even(n):
-        return n % 2 == 0
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
