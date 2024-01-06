@@ -1,6 +1,7 @@
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
