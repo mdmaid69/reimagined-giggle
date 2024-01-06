@@ -1,6 +1,6 @@
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
