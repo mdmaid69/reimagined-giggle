@@ -1,6 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+print(sum(range(10)))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
