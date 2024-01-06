@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import re
+print(re.match("h.*o", "hello world"))
