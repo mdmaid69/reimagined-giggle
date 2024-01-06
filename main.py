@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
