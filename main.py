@@ -1,4 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
