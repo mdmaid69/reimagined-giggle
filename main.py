@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
