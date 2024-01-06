@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import random
-print(random.randint(0, 100))
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def multiply_numbers(x, y):
+        return x * y
