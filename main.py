@@ -1,6 +1,6 @@
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
 import array
-def reverse_array(array):
-        array.reverse()
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
