@@ -1,5 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
