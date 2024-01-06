@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
