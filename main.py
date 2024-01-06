@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  def convert_to_binary(n):
-        return bin(n)
+def remove_duplicates(lst):
+        return list(set(lst))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
