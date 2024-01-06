@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
