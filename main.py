@@ -1,4 +1,8 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
