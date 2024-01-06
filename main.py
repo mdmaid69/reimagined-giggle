@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
