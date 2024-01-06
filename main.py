@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
