@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import logging
+def log_message(message):
+        logging.info(message)
