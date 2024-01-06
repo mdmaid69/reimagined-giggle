@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import sys
+def exit_program():
+        sys.exit()
