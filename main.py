@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_pressure(force, area):
+        return force / area
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
