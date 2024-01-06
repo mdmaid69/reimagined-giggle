@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
