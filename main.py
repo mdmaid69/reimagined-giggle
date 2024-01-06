@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
