@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
