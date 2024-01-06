@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
 n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
