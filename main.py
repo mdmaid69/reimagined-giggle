@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import sys
+def print_python_version():
+        print(sys.version)
