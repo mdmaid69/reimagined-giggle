@@ -1,6 +1,5 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def find_min(numbers):
+        return min(numbers)
