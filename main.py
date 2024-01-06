@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
