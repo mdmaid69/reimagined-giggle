@@ -1,7 +1,5 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
