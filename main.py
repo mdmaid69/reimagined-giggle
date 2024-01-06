@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
