@@ -1,4 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-print([x**2 for x in range(10)])
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+print(sum(range(10)))
