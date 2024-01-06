@@ -1,5 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
