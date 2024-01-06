@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
