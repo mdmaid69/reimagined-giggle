@@ -1,6 +1,7 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
