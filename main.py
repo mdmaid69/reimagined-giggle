@@ -1,4 +1,6 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
