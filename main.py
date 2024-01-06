@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  def cube_number(x):
-        return x**3
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
