@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_tangent(x):
+        return math.tan(x)
