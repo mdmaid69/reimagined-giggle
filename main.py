@@ -1,6 +1,8 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
