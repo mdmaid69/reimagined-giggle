@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import platform
-def get_os_info():
-        return platform.uname()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  def multiply_numbers(x, y):
+        return x * y
