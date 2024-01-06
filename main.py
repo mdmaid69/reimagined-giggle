@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
