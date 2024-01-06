@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
