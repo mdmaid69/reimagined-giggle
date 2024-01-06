@@ -1,8 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
