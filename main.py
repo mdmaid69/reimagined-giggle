@@ -1,5 +1,7 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
