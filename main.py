@@ -1,5 +1,4 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
