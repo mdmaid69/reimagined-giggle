@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
