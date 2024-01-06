@@ -1,6 +1,8 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
