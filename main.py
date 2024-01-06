@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
