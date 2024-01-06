@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
