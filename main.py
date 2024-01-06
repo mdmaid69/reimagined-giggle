@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def get_array_item(array, i):
+        return array[i]
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
