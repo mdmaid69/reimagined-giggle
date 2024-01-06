@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import time
-def get_current_time():
-        return time.time()
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
