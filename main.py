@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
