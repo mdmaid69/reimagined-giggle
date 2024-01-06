@@ -1,8 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
