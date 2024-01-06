@@ -1,6 +1,8 @@
-import time
-def get_current_time():
-        return time.ctime()
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_as_float(array):
+        return float(array[0])
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
