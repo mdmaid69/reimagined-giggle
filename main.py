@@ -1,7 +1,7 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def is_even(n):
+        return n % 2 == 0
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
