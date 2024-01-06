@@ -1,7 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_power(work, time):
+        return work / time
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
