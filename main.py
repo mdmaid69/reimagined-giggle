@@ -1,12 +1,7 @@
-import queue
+import unittest
 
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
