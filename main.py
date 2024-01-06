@@ -1,6 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
