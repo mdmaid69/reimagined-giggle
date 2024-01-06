@@ -1,5 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def convert_to_binary(n):
-        return bin(n)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
