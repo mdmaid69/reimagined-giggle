@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import platform
+def get_python_version():
+        return platform.python_version()
