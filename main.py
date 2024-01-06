@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_ceiling(x):
+        return math.ceil(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
