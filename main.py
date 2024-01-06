@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
