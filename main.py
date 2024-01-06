@@ -1,12 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
