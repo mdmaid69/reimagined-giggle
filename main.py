@@ -1,5 +1,9 @@
-def is_even(n):
-        return n % 2 == 0
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
