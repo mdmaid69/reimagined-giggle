@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import getpass
+def get_username():
+        return getpass.getuser()
