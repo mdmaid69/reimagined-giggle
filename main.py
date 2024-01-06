@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def get_array_as_str(array):
+        return str(array)
