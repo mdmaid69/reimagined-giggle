@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def cube_number(x):
-        return x**3
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
