@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
