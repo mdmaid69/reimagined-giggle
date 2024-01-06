@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def count_characters(sentence):
-        return len(sentence)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
