@@ -1,4 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-for i in range(10): print(i)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
