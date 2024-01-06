@@ -1,5 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
