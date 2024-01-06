@@ -1,5 +1,6 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
