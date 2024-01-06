@@ -1,6 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_acceleration(speed, time):
+        return speed / time
+def find_union(list1, list2):
+        return set(list1) | set(list2)
