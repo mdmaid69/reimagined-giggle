@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_power(work, time):
-        return work / time
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
