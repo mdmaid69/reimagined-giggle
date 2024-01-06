@@ -1,6 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import array
-def get_list_from_array(array):
-        return array.tolist()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
