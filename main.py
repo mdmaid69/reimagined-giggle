@@ -1,5 +1,7 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
