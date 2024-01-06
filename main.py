@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def reverse_list(lst):
+        return lst[::-1]
