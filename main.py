@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import collections
+def create_queue():
+        return collections.deque()
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
