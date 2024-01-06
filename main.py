@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
