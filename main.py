@@ -1,4 +1,6 @@
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
 import time
-print(time.time())
-text = "Hello, world!"
-print("Characters:", len(text))
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
