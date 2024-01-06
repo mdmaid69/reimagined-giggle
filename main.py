@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
