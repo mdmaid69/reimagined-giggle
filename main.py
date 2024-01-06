@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def reverse_string(s):
-        return s[::-1]
+import datetime
+print(datetime.datetime.now())
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
