@@ -1,6 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_area_circle(r):
+        return 3.14 * r**2
