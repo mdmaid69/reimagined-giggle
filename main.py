@@ -1,6 +1,4 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def square_number(x):
+        return x**2
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
