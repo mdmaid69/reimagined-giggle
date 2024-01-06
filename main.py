@@ -1,4 +1,6 @@
-for i in range(10): print(i)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_tangent(x):
+        return math.tan(x)
+import platform
+def get_os_info():
+        return platform.uname()
