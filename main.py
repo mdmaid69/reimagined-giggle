@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
