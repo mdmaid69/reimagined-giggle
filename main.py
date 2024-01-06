@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
