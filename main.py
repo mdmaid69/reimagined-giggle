@@ -1,5 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def count_characters(sentence):
-        return len(sentence)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_acceleration(speed, time):
+        return speed / time
