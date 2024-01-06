@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
