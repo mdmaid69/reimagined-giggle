@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
