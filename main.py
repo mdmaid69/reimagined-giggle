@@ -1,4 +1,8 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
