@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  def cube_number(x):
-        return x**3
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
