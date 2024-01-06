@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
