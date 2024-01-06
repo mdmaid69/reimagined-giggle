@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import sys
+  def get_python_version():
+        return sys.version
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
