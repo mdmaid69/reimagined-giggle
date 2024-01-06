@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
