@@ -1,5 +1,8 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
