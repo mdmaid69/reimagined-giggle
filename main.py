@@ -1,5 +1,6 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
