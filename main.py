@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
+def calculate_interest(principal, rate, time):
         return principal * (1 + rate)**time
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
