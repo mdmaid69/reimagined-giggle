@@ -1,5 +1,3 @@
-import time
-def get_current_time():
-        return time.time()
-def remove_duplicates(lst):
-        return list(set(lst))
+print("Hello, world!")
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
