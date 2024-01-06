@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
