@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
