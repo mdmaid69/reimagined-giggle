@@ -1,9 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
