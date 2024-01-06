@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
