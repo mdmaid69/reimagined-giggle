@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
