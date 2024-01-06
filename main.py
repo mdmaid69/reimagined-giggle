@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import datetime
+print(datetime.datetime.now())
+i = 0
+while i < 5:
+        print(i)
+        i += 1
