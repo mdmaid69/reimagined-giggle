@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
