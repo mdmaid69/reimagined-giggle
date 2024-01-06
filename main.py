@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def find_min(lst):
-        return min(lst)
+import collections
+def create_counter():
+        return collections.Counter()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
