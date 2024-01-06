@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
