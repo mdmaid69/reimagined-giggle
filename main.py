@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import sys
-def exit_program():
-        sys.exit()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
