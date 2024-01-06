@@ -1,7 +1,5 @@
+  def remove_duplicates(lst):
+        return list(set(lst))
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
