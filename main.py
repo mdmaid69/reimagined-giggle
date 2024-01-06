@@ -1,7 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def convert_to_octal(n):
+        return oct(n)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
