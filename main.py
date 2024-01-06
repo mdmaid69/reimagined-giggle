@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  def sort_list(lst):
+        return sorted(lst)
