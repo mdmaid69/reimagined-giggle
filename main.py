@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
