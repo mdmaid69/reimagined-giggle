@@ -1,5 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
