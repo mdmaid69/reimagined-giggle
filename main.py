@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
