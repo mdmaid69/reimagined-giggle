@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
