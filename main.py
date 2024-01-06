@@ -1,5 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def get_bytes_from_array(array):
+        return array.tobytes()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
