@@ -1,5 +1,7 @@
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
 import array
-def append_to_array(array, item):
-        array.append(item)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
