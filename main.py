@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
