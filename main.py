@@ -1,5 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  def is_even(n):
-        return n % 2 == 0
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
