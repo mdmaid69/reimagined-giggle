@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
