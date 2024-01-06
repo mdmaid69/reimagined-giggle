@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def find_unique_words(sentence):
+        return set(sentence.split())
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
