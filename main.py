@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def sort_list(lst):
+        return sorted(lst)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
