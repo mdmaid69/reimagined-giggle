@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def find_min(lst):
+        return min(lst)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
