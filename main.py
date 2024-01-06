@@ -1,6 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
