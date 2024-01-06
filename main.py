@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
