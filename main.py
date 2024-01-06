@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import array
+def convert_array_to_string(array):
+        return array.tostring()
