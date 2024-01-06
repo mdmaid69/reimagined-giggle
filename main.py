@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
