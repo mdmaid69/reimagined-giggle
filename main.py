@@ -1,5 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
