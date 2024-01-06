@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
