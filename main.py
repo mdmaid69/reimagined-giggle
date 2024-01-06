@@ -1,5 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
