@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
