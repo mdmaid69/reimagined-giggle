@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
