@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
