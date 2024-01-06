@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
