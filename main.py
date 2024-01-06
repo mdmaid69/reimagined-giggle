@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
