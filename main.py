@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
