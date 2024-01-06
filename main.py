@@ -1,4 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-  def count_elements(lst):
-        return len(lst)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
