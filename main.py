@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
