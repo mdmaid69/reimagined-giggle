@@ -1,8 +1,6 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
