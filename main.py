@@ -1,8 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
