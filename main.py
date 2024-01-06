@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import re
-print(re.match("h.*o", "hello world"))
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
