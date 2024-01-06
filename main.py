@@ -1,5 +1,7 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
