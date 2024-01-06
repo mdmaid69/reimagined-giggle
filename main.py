@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def get_array_length(array):
+        return len(array)
+  def add_numbers(x, y):
+        return x + y
