@@ -1,4 +1,4 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def is_even(n):
+        return n % 2 == 0
