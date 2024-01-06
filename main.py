@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
