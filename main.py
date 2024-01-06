@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def remove_duplicates(lst):
+  def remove_duplicates(lst):
         return list(set(lst))
+import array
+def clear_array(array):
+        array *= 0
