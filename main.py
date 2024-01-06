@@ -1,8 +1,5 @@
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
