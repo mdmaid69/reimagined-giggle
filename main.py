@@ -1,5 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
