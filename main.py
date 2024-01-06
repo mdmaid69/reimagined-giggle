@@ -1,6 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_area_circle(r):
+        return 3.14 * r**2
