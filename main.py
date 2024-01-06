@@ -1,8 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
