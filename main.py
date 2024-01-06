@@ -1,4 +1,11 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def count_elements(lst):
-        return len(lst)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
