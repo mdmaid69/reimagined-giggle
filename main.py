@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-from collections import Counter
-print(Counter("hello world"))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
