@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
