@@ -1,5 +1,4 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+for i in range(10): print(i)
