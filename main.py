@@ -1,8 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
