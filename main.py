@@ -1,6 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
