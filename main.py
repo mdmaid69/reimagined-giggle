@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
