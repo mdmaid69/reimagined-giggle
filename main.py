@@ -1,5 +1,5 @@
+def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
