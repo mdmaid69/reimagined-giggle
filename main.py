@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+print(math.pi)
