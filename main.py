@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_speed(distance, time):
-        return distance / time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+from collections import Counter
+print(Counter("hello world"))
