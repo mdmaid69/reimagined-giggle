@@ -1,6 +1,7 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import array
-def get_array_length(array):
-        return len(array)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
