@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_acceleration(speed, time):
-        return speed / time
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
