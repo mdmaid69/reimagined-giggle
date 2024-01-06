@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
