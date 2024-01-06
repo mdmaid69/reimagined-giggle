@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  def sort_list(lst):
-        return sorted(lst)
+import random
+print(random.randint(0, 100))
+def reverse_string(s):
+        return s[::-1]
