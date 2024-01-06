@@ -1,3 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-for i in range(10): print(i)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
