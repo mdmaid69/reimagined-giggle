@@ -1,5 +1,8 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
