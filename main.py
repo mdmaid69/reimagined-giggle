@@ -1,5 +1,7 @@
-def find_min(lst):
-        return min(lst)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
