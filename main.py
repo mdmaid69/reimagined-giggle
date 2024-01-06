@@ -1,5 +1,8 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def is_palindrome(s):
+        return s == s[::-1]
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
