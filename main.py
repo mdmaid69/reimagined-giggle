@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import collections
-def create_user_string():
-        return collections.UserString()
+  def is_even(n):
+        return n % 2 == 0
+import array
+def append_to_array(array, item):
+        array.append(item)
