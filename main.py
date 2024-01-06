@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def sort_numbers(numbers):
+        return sorted(numbers)
+for i in range(5):
+        print(i)
