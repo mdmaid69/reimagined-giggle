@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
