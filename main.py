@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import os
+def get_current_working_directory():
+        return os.getcwd()
