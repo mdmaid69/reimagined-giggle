@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
