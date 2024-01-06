@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_as_list(array):
-        return list(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+from collections import Counter
+print(Counter("hello world"))
