@@ -1,5 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_area_circle(r):
+        return 3.14 * r**2
