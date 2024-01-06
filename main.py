@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
