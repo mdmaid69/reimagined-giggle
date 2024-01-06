@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
