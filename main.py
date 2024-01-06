@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
