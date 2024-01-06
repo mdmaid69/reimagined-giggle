@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import datetime
+def get_today_date():
+        return datetime.date.today()
