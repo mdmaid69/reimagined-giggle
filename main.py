@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
