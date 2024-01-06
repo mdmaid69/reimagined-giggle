@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import tensorflow as tf
-print(tf.__version__)
+def is_palindrome(s):
+        return s == s[::-1]
+import array
+def append_to_array(array, item):
+        array.append(item)
