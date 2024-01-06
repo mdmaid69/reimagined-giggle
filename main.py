@@ -1,4 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-for i in range(10): print(i)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
