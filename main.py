@@ -1,5 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
