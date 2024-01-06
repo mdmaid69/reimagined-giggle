@@ -1,5 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+print(sum(range(10)))
