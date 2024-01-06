@@ -1,8 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def is_even(n):
+        return n % 2 == 0
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
