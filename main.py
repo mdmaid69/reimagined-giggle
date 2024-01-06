@@ -1,7 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
