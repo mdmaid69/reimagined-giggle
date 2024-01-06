@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
