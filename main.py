@@ -1,4 +1,5 @@
-import math
-print(math.pi)
-def square_number(x):
-        return x**2
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
