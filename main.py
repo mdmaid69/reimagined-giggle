@@ -1,7 +1,7 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
