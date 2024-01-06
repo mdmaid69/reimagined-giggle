@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
