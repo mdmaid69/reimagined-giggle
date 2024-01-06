@@ -1,6 +1,4 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+print([x**2 for x in range(10)])
