@@ -1,5 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
