@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
