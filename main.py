@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
