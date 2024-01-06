@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
