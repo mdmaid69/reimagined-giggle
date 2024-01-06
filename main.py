@@ -1,5 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
