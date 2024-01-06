@@ -1,6 +1,8 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
