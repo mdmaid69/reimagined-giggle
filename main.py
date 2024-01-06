@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
