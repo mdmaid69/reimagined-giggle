@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def count_characters(sentence):
-        return len(sentence)
+import time
+def get_time_since_epoch():
+        return time.time()
+import time
+def get_current_time():
+        return time.ctime()
