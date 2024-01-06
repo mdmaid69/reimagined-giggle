@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
 import collections
-def create_priority_queue():
-        return collections.deque()
+def create_ordered_dict():
+        return collections.OrderedDict()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
