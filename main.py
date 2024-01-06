@@ -1,5 +1,6 @@
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def generate_random_number(start, end):
+        return random.randint(start, end)
