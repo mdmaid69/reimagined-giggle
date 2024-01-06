@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import sys
+def exit_program():
+        sys.exit()
+import random
+print(random.randint(0, 100))
