@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
