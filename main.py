@@ -1,5 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def is_odd(n):
-        return n % 2 != 0
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
