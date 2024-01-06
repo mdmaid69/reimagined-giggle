@@ -1,6 +1,4 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import random
+print(random.randint(0, 100))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
