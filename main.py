@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_area_circle(r):
+        return 3.14 * r**2
