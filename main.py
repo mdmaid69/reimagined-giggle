@@ -1,6 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_ceiling(x):
+        return math.ceil(x)
