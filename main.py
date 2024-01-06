@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import json
+def convert_to_json(data):
+        return json.dumps(data)
