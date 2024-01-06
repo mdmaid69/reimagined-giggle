@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_perpetuity(payment, rate):
+        return payment / rate
