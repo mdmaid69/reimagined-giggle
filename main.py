@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
