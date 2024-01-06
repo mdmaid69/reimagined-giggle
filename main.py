@@ -1,6 +1,5 @@
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
