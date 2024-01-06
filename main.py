@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  def remove_duplicates(lst):
-        return list(set(lst))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
