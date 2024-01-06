@@ -1,4 +1,6 @@
-for i in range(10): print(i)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_as_str(array):
+        return str(array)
