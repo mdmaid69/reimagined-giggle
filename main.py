@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import getpass
-def get_username():
-        return getpass.getuser()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
