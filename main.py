@@ -1,6 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
