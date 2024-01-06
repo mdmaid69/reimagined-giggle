@@ -1,9 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
