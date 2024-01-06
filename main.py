@@ -1,5 +1,11 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import time
+def get_current_time():
+        return time.time()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
