@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  def subtract_numbers(x, y):
+        return x - y
