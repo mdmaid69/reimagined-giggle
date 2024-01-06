@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
