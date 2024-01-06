@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def append_to_array(array, item):
-        array.append(item)
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
