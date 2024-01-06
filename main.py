@@ -1,4 +1,8 @@
-def calculate_pressure(force, area):
-        return force / area
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
