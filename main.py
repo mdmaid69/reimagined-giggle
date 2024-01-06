@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
 import json
 print(json.dumps({"name": "John", "age": 30}))
+import platform
+def get_python_version():
+        return platform.python_version()
