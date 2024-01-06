@@ -1,5 +1,7 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
