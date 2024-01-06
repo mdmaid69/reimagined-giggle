@@ -1,6 +1,5 @@
 import re
-def find_all_occurrences(pattern, string):
+def find_pattern(pattern, string):
         return re.findall(pattern, string)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
