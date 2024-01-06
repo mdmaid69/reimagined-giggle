@@ -1,5 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def convert_to_octal(n):
-        return oct(n)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+for i in range(10): print(i)
