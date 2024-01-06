@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
