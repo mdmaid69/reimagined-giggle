@@ -1,5 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
