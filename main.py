@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
