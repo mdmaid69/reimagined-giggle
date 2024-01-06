@@ -1,6 +1,7 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import tensorflow as tf
+print(tf.__version__)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
