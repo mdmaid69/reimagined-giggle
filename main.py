@@ -1,5 +1,6 @@
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
 import time
-def get_time_since_epoch():
+def get_current_time():
         return time.time()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
