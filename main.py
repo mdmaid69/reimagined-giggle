@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
