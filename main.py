@@ -1,5 +1,8 @@
-def is_odd(n):
-        return n % 2 != 0
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
