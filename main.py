@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
