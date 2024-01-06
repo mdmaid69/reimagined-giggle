@@ -1,5 +1,12 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
