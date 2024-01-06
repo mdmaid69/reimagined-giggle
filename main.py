@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+def count_elements(lst):
+        return len(lst)
