@@ -1,5 +1,7 @@
-import collections
-def create_stack():
-        return collections.deque()
-from collections import Counter
-print(Counter("hello world"))
+import numpy as np
+print(np.array([1, 2, 3]))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
