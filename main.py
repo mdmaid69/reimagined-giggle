@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  def square_number(x):
+        return x**2
