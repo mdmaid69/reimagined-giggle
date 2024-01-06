@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import collections
-def create_queue():
-        return collections.deque()
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import platform
+def get_os_info():
+        return platform.uname()
