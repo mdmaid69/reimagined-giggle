@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def find_min(lst):
-        return min(lst)
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
