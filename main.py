@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
