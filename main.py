@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
 import array
-def reverse_array(array):
-        array.reverse()
+def get_bytes_from_array(array):
+        return array.tobytes()
+def add_numbers(a, b):
+        return a + b
