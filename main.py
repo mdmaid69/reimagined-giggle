@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import time
-print(time.time())
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
