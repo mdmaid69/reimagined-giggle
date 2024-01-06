@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
