@@ -1,5 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def reverse_array(array):
-        array.reverse()
-import random
-print(random.randint(0, 100))
+def get_array_item_count(array, item):
+        return array.count(item)
