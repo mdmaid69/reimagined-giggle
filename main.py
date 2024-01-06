@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def split_path(path):
+        return os.path.split(path)
