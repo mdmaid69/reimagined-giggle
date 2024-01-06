@@ -1,4 +1,5 @@
-import sys
-print(sys.version)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
