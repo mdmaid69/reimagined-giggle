@@ -1,6 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
