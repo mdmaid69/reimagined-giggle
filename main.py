@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
