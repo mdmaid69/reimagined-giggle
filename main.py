@@ -1,7 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_memoryview(array):
+        return memoryview(array)
