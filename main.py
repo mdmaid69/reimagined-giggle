@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def is_odd(n):
+        return n % 2 != 0
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
