@@ -1,6 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def convert_to_hex(n):
+        return hex(n)
