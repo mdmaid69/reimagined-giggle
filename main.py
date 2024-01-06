@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
