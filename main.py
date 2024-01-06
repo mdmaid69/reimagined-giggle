@@ -1,8 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+print(sum(range(10)))
