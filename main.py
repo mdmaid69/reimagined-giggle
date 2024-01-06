@@ -1,6 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
