@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import sys
-def exit_program():
-        sys.exit()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
