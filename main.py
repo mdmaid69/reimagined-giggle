@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
