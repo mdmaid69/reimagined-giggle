@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import sys
+def print_python_version():
+        return sys.version
