@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
