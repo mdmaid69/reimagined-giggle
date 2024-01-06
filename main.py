@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def convert_array_to_list(array):
+        return array.tolist()
