@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
