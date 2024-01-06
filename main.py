@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_array_length(array):
+        return len(array)
