@@ -1,8 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
