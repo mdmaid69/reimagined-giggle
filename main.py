@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
