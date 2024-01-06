@@ -1,7 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  def add_numbers(x, y):
-        return x + y
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
