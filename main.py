@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
