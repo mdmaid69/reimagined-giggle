@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def subtract_numbers(x, y):
+        return x - y
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
