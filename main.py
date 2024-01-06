@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
