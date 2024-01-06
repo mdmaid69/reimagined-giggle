@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def convert_to_octal(n):
+        return oct(n)
