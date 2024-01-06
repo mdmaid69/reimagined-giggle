@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
