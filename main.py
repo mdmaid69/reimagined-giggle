@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def check_if_array_contains_item(array, item):
+        return item in array
+import sys
+def exit_program():
+        sys.exit()
