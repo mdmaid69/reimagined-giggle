@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
