@@ -1,6 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+def calculate_area_rectangle(l, w):
+        return l * w
