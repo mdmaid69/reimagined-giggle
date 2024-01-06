@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def calculate_area_rectangle(l, w):
-        return l * w
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
