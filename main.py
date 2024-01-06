@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
