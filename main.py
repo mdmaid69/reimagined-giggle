@@ -1,5 +1,8 @@
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
