@@ -1,5 +1,8 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import time
+def get_current_time():
+        return time.ctime()
