@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_array_length(array):
+        return len(array)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
