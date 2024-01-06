@@ -1,7 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_density(mass, volume):
+        return mass / volume
