@@ -1,5 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
