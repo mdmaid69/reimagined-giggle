@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
