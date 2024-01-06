@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
