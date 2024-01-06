@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
