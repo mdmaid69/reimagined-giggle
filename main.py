@@ -1,5 +1,7 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import platform
+def get_python_version():
+        return platform.python_version()
