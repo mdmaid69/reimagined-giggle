@@ -1,6 +1,7 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
