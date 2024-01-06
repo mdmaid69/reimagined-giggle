@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
+def find_min(lst):
+        return min(lst)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
