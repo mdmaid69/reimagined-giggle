@@ -1,5 +1,6 @@
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def add_numbers(x, y):
-        return x + y
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
