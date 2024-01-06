@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import datetime
+def get_today_date():
+        return datetime.date.today()
