@@ -1,5 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_speed(distance, time):
+        return distance / time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
