@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
