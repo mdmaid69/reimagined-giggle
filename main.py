@@ -1,5 +1,3 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+for i in range(10): print(i)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
