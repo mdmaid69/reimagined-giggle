@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
