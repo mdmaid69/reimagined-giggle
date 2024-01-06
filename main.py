@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
