@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-def divide_numbers(x, y):
-        return x / y
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
