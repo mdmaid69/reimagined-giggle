@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
