@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
