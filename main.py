@@ -1,6 +1,4 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def calculate_work(force, distance):
+        return force * distance
+import json
+print(json.dumps({"name": "John", "age": 30}))
