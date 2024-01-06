@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def reverse_array(array):
+        array.reverse()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
