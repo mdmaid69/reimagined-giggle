@@ -1,6 +1,4 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def subtract_numbers(x, y):
+        return x - y
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
