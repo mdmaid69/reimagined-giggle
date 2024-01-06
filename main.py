@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
