@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_power(work, time):
+        return work / time
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
