@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import time
-def get_time_since_epoch():
-        return time.time()
+def add_numbers(x, y):
+        return x + y
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
