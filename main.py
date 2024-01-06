@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
