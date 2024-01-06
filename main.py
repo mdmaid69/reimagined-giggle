@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import datetime
+def get_current_date():
+        return datetime.date.today()
