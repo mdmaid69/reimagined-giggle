@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
