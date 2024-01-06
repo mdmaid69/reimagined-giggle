@@ -1,8 +1,5 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def get_array_index(array, item):
+        return array.index(item)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
