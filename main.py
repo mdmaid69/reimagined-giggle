@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_floor(x):
+        return math.floor(x)
