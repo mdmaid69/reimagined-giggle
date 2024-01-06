@@ -1,6 +1,6 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def get_array_as_repr(array):
+        return repr(array)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
