@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def reverse_list(lst):
+        return lst[::-1]
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
