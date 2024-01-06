@@ -1,8 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
