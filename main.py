@@ -1,5 +1,7 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
