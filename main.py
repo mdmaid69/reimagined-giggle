@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import sys
-def print_python_version():
-        print(sys.version)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
