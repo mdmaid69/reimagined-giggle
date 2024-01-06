@@ -1,10 +1,5 @@
-print("Hello, world!")
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import collections
+def create_user_list():
+        return collections.UserList()
+def find_min(lst):
+        return min(lst)
