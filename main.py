@@ -1,5 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-text = "Hello, world!"
-print("Characters:", len(text))
+def is_palindrome(s):
+        return s == s[::-1]
+def reverse_string(s):
+        return s[::-1]
