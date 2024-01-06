@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
