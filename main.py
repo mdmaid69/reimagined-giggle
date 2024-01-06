@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
