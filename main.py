@@ -1,5 +1,7 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def divide_numbers(x, y):
-        return x / y
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
