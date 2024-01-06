@@ -1,10 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
