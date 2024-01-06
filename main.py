@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
