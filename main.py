@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-def calculate_power(work, time):
-        return work / time
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
