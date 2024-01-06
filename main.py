@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  def subtract_numbers(x, y):
-        return x - y
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
