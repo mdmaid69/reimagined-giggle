@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
