@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_as_float(array):
+        return float(array[0])
+def is_odd(n):
+        return n % 2 != 0
