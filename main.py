@@ -1,5 +1,8 @@
-def find_max(numbers):
-        return max(numbers)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import array
+def get_array_index(array, item):
+        return array.index(item)
