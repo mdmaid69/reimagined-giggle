@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
 import array
-def reverse_array(array):
-        array.reverse()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import os
+def get_current_working_directory():
+        return os.getcwd()
