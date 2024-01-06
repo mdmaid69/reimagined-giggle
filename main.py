@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import os
-print(os.getcwd())
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import collections
+def create_counter():
+        return collections.Counter()
