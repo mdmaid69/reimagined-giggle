@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def divide_numbers(x, y):
-        return x / y
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
