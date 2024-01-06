@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
