@@ -1,5 +1,8 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
