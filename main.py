@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def find_min(lst):
+        return min(lst)
