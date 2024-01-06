@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_as_float(array):
+        return float(array[0])
