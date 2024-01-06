@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
