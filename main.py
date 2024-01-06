@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
