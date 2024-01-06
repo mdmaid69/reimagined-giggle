@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
