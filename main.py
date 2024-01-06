@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def cube_number(x):
+        return x**3
+import random
+print(random.randint(0, 100))
