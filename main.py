@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  def add_numbers(x, y):
+        return x + y
