@@ -1,6 +1,8 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_slice(array, i, j):
+        return array[i:j]
