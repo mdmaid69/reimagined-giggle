@@ -1,5 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  def add_numbers(x, y):
-        return x + y
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def count_words(sentence):
+        return len(sentence.split())
