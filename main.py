@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def calculate_volume(length, width, height):
-        return length * width * height
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
