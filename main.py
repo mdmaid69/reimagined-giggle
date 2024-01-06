@@ -1,4 +1,5 @@
-def square_number(x):
-        return x**2
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
