@@ -1,6 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
