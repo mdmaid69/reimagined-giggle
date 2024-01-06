@@ -1,5 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
