@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_error_function(x):
+        return math.erf(x)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
