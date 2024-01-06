@@ -1,9 +1,4 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import array
-def get_array_as_str(array):
-        return str(array)
+for i in range(10): print(i)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
