@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
