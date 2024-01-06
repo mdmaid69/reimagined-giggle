@@ -1,6 +1,6 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
