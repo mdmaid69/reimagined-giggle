@@ -1,5 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def add_numbers(a, b):
-        return a + b
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
