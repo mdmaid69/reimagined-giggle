@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_speed(distance, time):
-        return distance / time
+  def count_elements(lst):
+        return len(lst)
+def calculate_area(radius):
+        return 3.14 * radius * radius
