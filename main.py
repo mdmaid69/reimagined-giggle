@@ -1,5 +1,7 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
