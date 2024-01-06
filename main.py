@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def convert_to_hex(n):
+        return hex(n)
+import collections
+def create_user_string():
+        return collections.UserString()
