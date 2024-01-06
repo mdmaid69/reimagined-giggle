@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
