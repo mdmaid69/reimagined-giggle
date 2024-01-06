@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import collections
+def create_stack():
+        return collections.deque()
+import sys
+def exit_program():
+        sys.exit()
