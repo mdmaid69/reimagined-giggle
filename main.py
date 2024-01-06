@@ -1,5 +1,7 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
