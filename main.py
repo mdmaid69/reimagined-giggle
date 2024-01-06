@@ -1,5 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
