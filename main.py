@@ -1,6 +1,6 @@
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
