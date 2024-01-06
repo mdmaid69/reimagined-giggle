@@ -1,6 +1,8 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
