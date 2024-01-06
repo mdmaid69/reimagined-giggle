@@ -1,8 +1,8 @@
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
 import csv
-def save_csv(data, filename):
+def write_csv_file(filename, data):
         with open(filename, "w", newline="") as f:
         writer = csv.writer(f)
         writer.writerows(data)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
