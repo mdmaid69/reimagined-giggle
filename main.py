@@ -1,8 +1,8 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
