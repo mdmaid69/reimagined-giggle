@@ -1,5 +1,6 @@
-import time
-print(time.time())
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
