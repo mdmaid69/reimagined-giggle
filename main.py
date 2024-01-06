@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import collections
-def create_queue():
-        return collections.deque()
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def is_palindrome(s):
+        return s == s[::-1]
