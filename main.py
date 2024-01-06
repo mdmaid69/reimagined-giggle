@@ -1,5 +1,6 @@
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-def count_characters(sentence):
-        return len(sentence)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
