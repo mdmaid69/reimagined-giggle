@@ -1,5 +1,7 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
