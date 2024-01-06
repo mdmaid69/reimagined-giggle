@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def check_if_array_contains_item(array, item):
+        return item in array
