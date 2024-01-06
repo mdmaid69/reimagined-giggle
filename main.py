@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def add_numbers(x, y):
-        return x + y
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
