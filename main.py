@@ -1,5 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import platform
+def get_os_info():
+        return platform.uname()
