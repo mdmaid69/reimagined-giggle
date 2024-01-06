@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
