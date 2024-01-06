@@ -1,6 +1,6 @@
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
