@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import random
+def roll_die():
+        return random.randint(1, 6)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
