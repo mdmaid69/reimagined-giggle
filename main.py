@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import getpass
+def get_username():
+        return getpass.getuser()
