@@ -1,6 +1,10 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
