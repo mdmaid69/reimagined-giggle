@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def subtract_numbers(x, y):
-        return x - y
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_as_repr(array):
+        return repr(array)
