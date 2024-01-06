@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
