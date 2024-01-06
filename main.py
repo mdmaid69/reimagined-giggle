@@ -1,7 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
