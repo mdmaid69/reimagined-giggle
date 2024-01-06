@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_pressure(force, area):
+        return force / area
