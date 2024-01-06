@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def clear_array(array):
+        array *= 0
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
