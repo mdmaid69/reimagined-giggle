@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_current_working_directory():
+        return os.getcwd()
+x = 10
+y = 20
+print("Sum:", x + y)
