@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def reverse_string(s):
+        return s[::-1]
