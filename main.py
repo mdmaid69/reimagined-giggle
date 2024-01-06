@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  def remove_duplicates(lst):
-        return list(set(lst))
+import sys
+print(sys.version)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
