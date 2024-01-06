@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
