@@ -1,6 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
