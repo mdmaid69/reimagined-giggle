@@ -1,6 +1,7 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
