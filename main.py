@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import datetime
+def get_today_date():
+        return datetime.date.today()
