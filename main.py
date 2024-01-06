@@ -1,6 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+text = "Hello, world!"
+print("Characters:", len(text))
