@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import collections
+def create_priority_queue():
+        return collections.deque()
