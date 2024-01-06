@@ -1,5 +1,6 @@
+def calculate_work(force, distance):
+        return force * distance
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
