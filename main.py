@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
