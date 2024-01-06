@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def square_number(x):
-        return x**2
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
