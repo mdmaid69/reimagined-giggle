@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+print([x**2 for x in range(10)])
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
