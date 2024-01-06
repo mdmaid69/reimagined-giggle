@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
