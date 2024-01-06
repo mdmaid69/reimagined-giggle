@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_index(array, item):
+        return array.index(item)
