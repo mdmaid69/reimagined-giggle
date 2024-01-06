@@ -1,6 +1,6 @@
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
