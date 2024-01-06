@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_sine(x):
+        return math.sin(x)
+def convert_to_octal(n):
+        return oct(n)
