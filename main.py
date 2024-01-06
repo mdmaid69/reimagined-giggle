@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import datetime
-print(datetime.datetime.now())
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
