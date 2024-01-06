@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import platform
+def get_python_version():
+        return platform.python_version()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
