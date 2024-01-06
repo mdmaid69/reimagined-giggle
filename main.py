@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def convert_to_hex(n):
+        return hex(n)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
