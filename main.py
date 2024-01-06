@@ -1,6 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
