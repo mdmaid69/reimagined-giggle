@@ -1,6 +1,8 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
