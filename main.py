@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
