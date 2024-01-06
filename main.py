@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
