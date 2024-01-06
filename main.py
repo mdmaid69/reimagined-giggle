@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def multiply_numbers(x, y):
+        return x * y
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
