@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import time
-def get_current_time():
-        return time.time()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def count_characters(sentence):
+        return len(sentence)
