@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
