@@ -1,5 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import time
+def get_time_since_epoch():
+        return time.time()
