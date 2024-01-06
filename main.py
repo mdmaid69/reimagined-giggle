@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
