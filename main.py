@@ -1,5 +1,7 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
