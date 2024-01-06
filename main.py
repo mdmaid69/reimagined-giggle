@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
