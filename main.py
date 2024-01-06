@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
