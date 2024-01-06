@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+for i in range(5):
+        print(i)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
