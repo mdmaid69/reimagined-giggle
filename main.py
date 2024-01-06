@@ -1,9 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_pressure(force, area):
+        return force / area
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
