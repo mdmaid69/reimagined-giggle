@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
