@@ -1,10 +1,7 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
