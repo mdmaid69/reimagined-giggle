@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import time
-print(time.time())
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
