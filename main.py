@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-name = "Python"
-print("Hello,", name)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_work(force, distance):
+        return force * distance
