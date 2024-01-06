@@ -1,4 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def count_elements(lst):
-        return len(lst)
+def find_max(numbers):
+        return max(numbers)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
