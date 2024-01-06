@@ -1,6 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
