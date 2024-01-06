@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import sys
-def exit_program():
-        sys.exit()
+  def subtract_numbers(x, y):
+        return x - y
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
