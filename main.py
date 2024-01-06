@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def clear_array(array):
+        array *= 0
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
