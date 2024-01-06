@@ -1,7 +1,6 @@
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
