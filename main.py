@@ -1,4 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import numpy as np
-print(np.array([1, 2, 3]))
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
