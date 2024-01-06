@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def add_numbers(x, y):
+        return x + y
+  import os
+  def split_path(path):
+        return os.path.split(path)
