@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-name = "Python"
-print("Hello,", name)
+  def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_error_function(x):
+        return math.erf(x)
