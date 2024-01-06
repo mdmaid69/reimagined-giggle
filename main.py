@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def find_min(numbers):
-        return min(numbers)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
