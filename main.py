@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
