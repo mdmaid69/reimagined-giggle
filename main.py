@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+name = "Python"
+print("Hello,", name)
+import array
+def get_array_as_set(array):
+        return set(array)
