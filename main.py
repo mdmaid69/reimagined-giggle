@@ -1,7 +1,4 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-def is_odd(n):
-        return n % 2 != 0
+import datetime
+print(datetime.datetime.now())
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
