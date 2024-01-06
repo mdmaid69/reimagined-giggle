@@ -1,5 +1,6 @@
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def find_unique_words(sentence):
-        return set(sentence.split())
+def pop_from_array(array, i=-1):
+        return array.pop(i)
