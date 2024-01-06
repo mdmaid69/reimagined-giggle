@@ -1,5 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def convert_to_octal(n):
-        return oct(n)
+  def is_odd(n):
+        return n % 2 != 0
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
