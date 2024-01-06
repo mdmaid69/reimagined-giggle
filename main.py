@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_exponential(x):
+        return math.exp(x)
