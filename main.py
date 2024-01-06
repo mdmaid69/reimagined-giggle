@@ -1,5 +1,5 @@
 import math
-print(math.pi)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  def convert_to_hex(n):
+        return hex(n)
