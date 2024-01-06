@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
