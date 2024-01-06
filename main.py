@@ -1,7 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
