@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  def convert_to_octal(n):
-        return oct(n)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
