@@ -1,7 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def get_array_as_str(array):
+        return str(array)
