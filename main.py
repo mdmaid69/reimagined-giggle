@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
