@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
