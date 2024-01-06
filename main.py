@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def convert_to_binary(n):
+        return bin(n)
