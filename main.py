@@ -1,6 +1,8 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
