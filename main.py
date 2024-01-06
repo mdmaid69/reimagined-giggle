@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
 import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
