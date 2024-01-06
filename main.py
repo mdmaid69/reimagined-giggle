@@ -1,10 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def count_words(sentence):
+        return len(sentence.split())
