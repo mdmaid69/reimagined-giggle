@@ -1,7 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def find_min(lst):
+        return min(lst)
