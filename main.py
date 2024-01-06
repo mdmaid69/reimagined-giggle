@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
