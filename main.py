@@ -1,6 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_work(force, distance):
+        return force * distance
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
