@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_bytes(array):
+        return bytes(array)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
