@@ -1,8 +1,12 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
