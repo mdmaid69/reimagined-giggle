@@ -1,4 +1,4 @@
-def find_max(lst):
-        return max(lst)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_acceleration(speed, time):
+        return speed / time
+def reverse_list(lst):
+        return lst[::-1]
