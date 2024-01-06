@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
