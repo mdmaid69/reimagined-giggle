@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def get_array_as_float(array):
+        return float(array[0])
