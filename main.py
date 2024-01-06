@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
