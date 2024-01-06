@@ -1,5 +1,7 @@
-def find_max(numbers):
-        return max(numbers)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import collections
+def create_user_dict():
+        return collections.UserDict()
