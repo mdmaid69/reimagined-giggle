@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  def is_even(n):
+        return n % 2 == 0
+import array
+def remove_from_array(array, item):
+        array.remove(item)
