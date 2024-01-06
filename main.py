@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
