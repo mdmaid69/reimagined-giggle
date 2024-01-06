@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
