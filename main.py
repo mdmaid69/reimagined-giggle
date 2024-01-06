@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
