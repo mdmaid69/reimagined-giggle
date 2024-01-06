@@ -1,4 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
