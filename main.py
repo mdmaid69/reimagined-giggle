@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  import os
+  def split_path(path):
+        return os.path.split(path)
