@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
