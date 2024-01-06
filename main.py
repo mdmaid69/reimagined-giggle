@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_density(mass, volume):
+        return mass / volume
