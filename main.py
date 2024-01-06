@@ -1,5 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def is_odd(n):
-        return n % 2 != 0
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
