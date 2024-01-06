@@ -1,5 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
 import math
-print(math.pi)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
