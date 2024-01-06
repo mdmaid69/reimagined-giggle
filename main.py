@@ -1,5 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def reverse_list(lst):
+        return lst[::-1]
+def find_union(list1, list2):
+        return set(list1) | set(list2)
