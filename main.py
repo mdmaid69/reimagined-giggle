@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
