@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import re
-print(re.match("h.*o", "hello world"))
+  def count_elements(lst):
+        return len(lst)
+import sys
+def exit_program():
+        sys.exit()
