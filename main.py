@@ -1,6 +1,7 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+def calculate_area_rectangle(l, w):
+        return l * w
