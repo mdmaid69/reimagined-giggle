@@ -1,7 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
