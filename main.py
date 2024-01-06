@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
