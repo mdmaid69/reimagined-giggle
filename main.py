@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
