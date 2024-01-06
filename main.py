@@ -1,6 +1,9 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
