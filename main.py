@@ -1,5 +1,4 @@
-import re
-print(re.match("h.*o", "hello world"))
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def find_unique_words(sentence):
+        return set(sentence.split())
