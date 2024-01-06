@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import platform
-def get_os_info():
-        return platform.uname()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
