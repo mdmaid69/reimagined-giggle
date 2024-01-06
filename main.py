@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
