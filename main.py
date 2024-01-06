@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
