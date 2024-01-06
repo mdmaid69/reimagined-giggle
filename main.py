@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def square_number(x):
-        return x**2
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
