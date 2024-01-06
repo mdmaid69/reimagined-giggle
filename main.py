@@ -1,5 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import time
+def get_current_time():
+        return time.time()
