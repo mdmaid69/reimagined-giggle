@@ -1,5 +1,7 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import time
+def get_time_since_epoch():
+        return time.time()
