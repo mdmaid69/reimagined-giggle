@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
