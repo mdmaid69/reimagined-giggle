@@ -1,7 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def get_array_index(array, item):
+        return array.index(item)
