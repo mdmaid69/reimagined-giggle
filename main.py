@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def cube_number(x):
+        return x**3
