@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-name = "Python"
-print("Hello,", name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import sys
+def exit_program():
+        sys.exit()
