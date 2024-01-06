@@ -1,5 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
