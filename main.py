@@ -1,5 +1,5 @@
+def is_even(n):
+        return n % 2 == 0
   import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
