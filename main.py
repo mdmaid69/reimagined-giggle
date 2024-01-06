@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def get_array_item(array, i):
-        return array[i]
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
