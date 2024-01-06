@@ -1,4 +1,4 @@
-for i in range(10): print(i)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
