@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  def cube_number(x):
+        return x**3
