@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def square_number(x):
-        return x**2
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_cosine(x):
+        return math.cos(x)
