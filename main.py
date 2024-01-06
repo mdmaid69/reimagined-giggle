@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def reverse_list(lst):
+        return lst[::-1]
+def count_elements(lst):
+        return len(lst)
