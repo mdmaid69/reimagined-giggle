@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
 import sys
-def print_python_version():
-        return sys.version
-import sys
-def print_python_version():
-        print(sys.version)
+def exit_program():
+        sys.exit()
