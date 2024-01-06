@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_area_rectangle(l, w):
-        return l * w
+def convert_to_octal(n):
+        return oct(n)
+import sys
+def print_python_version():
+        print(sys.version)
