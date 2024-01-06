@@ -1,8 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
