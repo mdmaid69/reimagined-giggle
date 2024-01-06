@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def cube_number(x):
+        return x**3
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
