@@ -1,6 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
