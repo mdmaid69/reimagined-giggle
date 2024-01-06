@@ -1,7 +1,7 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
