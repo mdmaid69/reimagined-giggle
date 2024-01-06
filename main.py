@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+print(sum(range(10)))
