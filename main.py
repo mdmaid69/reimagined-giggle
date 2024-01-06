@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
