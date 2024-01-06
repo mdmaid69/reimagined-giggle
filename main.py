@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def reverse_string(s):
-        return s[::-1]
+def calculate_speed(distance, time):
+        return distance / time
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
