@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def convert_to_octal(n):
+        return oct(n)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
