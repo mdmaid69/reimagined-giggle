@@ -1,5 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
