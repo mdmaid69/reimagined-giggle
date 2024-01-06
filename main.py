@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_pressure(force, area):
+        return force / area
+import json
+def convert_to_json(data):
+        return json.dumps(data)
