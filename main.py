@@ -1,4 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-def reverse_string(s):
-        return s[::-1]
+for i in range(10): print(i)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
