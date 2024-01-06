@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
