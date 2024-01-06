@@ -1,5 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_sine(x):
+        return math.sin(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
