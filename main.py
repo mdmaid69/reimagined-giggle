@@ -1,5 +1,6 @@
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def remove_from_array(array, item):
+        array.remove(item)
