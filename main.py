@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
