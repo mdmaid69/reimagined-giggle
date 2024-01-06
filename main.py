@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
