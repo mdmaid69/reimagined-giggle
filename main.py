@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def count_characters(sentence):
+        return len(sentence)
