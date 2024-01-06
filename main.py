@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import array
+def get_array_as_int(array):
+        return int(array[0])
