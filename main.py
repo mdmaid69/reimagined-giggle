@@ -1,5 +1,6 @@
+import array
+def reverse_array(array):
+        array.reverse()
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
