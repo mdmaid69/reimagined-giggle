@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
