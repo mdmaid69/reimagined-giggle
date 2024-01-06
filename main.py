@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
