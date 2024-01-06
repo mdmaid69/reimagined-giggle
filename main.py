@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_area_rectangle(l, w):
+        return l * w
