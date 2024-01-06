@@ -1,5 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
