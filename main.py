@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def greet(name):
-        print(f"Hello, {name}!")
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import os
+print(os.getcwd())
