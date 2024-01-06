@@ -1,6 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import sys
+def exit_program():
+        sys.exit()
