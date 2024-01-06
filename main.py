@@ -1,6 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
