@@ -1,6 +1,8 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def get_array_item_count(array, item):
+        return array.count(item)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
