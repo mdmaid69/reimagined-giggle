@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  def sort_list(lst):
+        return sorted(lst)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
