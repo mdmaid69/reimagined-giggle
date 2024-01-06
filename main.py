@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_speed(distance, time):
+        return distance / time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
