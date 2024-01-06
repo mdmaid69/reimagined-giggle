@@ -1,6 +1,6 @@
   import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def calculate_median(arr):
+        return np.median(arr)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def split_path(path):
+        return os.path.split(path)
