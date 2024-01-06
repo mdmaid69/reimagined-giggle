@@ -1,7 +1,7 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
