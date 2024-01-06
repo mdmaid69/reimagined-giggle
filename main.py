@@ -1,5 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def convert_array_to_list(array):
+        return array.tolist()
