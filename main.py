@@ -1,5 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-def convert_to_binary(n):
-        return bin(n)
+def find_max(lst):
+        return max(lst)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
