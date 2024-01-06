@@ -1,5 +1,4 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 text = "Hello, world!"
-print("Uppercase:", text.upper())
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+print("Reversed:", text[::-1])
