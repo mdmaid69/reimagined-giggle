@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  def count_elements(lst):
+        return len(lst)
