@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def convert_to_octal(n):
+        return oct(n)
