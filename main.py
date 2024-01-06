@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def remove_duplicates(lst):
+        return list(set(lst))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
