@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
