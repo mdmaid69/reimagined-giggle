@@ -1,7 +1,4 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
