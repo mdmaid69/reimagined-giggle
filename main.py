@@ -1,5 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_density(mass, volume):
+        return mass / volume
