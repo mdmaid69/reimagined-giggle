@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import math
-print(math.pi)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
