@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import tensorflow as tf
-print(tf.__version__)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import datetime
+def get_today_date():
+        return datetime.date.today()
