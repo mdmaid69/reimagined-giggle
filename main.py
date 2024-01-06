@@ -1,5 +1,8 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def get_array_length(array):
+        return len(array)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
