@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
