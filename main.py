@@ -1,5 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
