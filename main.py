@@ -1,5 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  import sys
+  def get_python_version():
+        return sys.version
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
