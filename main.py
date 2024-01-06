@@ -1,5 +1,7 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
