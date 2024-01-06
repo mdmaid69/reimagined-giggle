@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  def is_odd(n):
+        return n % 2 != 0
