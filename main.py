@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
