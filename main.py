@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
