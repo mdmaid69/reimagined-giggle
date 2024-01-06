@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
