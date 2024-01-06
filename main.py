@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def square_number(x):
+        return x**2
