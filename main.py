@@ -1,5 +1,4 @@
-for i in range(10): print(i)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
