@@ -1,5 +1,12 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-from collections import Counter
-print(Counter("hello world"))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
