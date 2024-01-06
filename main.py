@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
