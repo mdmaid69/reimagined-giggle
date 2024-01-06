@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
