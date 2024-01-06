@@ -1,6 +1,6 @@
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
