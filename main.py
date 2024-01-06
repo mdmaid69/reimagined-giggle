@@ -1,5 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def greet(name):
+        print(f"Hello, {name}!")
