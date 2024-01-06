@@ -1,6 +1,4 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def multiply_numbers(x, y):
+        return x * y
