@@ -1,6 +1,3 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+print("Hello, world!")
+def is_even(n):
+        return n % 2 == 0
