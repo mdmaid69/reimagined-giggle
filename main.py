@@ -1,5 +1,8 @@
-  def square_number(x):
-        return x**2
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
