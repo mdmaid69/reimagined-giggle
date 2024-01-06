@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
