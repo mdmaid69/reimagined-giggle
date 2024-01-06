@@ -1,5 +1,4 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
