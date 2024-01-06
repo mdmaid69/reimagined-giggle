@@ -1,5 +1,8 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
