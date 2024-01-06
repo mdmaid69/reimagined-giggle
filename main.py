@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_density(mass, volume):
-        return mass / volume
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_area_rectangle(l, w):
+        return l * w
