@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
