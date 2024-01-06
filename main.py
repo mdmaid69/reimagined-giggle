@@ -1,4 +1,6 @@
-print("Hello, world!")
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
