@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import tensorflow as tf
+print(tf.__version__)
