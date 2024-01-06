@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def convert_to_octal(n):
+        return oct(n)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
