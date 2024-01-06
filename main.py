@@ -1,6 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def convert_to_octal(n):
+        return oct(n)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
