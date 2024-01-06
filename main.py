@@ -1,5 +1,9 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def reverse_string(s):
-        return s[::-1]
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
