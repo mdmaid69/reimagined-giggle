@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
