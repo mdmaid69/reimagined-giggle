@@ -1,6 +1,7 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def remove_duplicates(lst):
+        return list(set(lst))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
