@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
