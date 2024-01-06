@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_work(force, distance):
+        return force * distance
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
