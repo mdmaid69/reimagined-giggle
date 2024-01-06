@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
