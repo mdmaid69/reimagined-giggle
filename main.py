@@ -1,6 +1,7 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_volume(length, width, height):
+        return length * width * height
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
