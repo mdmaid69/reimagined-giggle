@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import collections
+def create_user_dict():
+        return collections.UserDict()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
