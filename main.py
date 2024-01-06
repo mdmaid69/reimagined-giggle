@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
