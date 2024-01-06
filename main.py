@@ -1,4 +1,4 @@
-for i in range(10): print(i)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
