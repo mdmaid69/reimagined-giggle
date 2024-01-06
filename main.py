@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
