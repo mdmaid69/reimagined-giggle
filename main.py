@@ -1,5 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  def multiply_numbers(x, y):
+        return x * y
