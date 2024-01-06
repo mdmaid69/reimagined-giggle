@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
