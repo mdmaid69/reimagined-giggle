@@ -1,5 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  def square_number(x):
-        return x**2
+def calculate_power(work, time):
+        return work / time
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
