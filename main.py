@@ -1,8 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import logging
+def log_message(message):
+        logging.info(message)
