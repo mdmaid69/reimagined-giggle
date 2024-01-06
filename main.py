@@ -1,6 +1,6 @@
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
