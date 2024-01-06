@@ -1,8 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
