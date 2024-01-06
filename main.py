@@ -1,7 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
