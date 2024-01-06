@@ -1,5 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_acceleration(speed, time):
+        return speed / time
+import tensorflow as tf
+print(tf.__version__)
