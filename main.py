@@ -1,6 +1,5 @@
+def cube_number(x):
+        return x**3
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import logging
-def log_message(message):
-        logging.info(message)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
