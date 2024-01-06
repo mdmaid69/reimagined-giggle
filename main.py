@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def find_min(lst):
-        return min(lst)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
