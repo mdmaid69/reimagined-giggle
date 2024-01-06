@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
