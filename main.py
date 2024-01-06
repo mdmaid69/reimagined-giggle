@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def sort_list(lst):
-        return sorted(lst)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
