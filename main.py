@@ -1,6 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
