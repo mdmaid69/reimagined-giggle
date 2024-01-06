@@ -1,11 +1,3 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+for i in range(10): print(i)
