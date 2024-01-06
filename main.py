@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
