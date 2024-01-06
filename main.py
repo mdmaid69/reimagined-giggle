@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import os
+def change_working_directory(path):
+        os.chdir(path)
