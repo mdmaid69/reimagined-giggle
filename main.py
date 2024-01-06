@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
