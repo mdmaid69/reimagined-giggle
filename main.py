@@ -1,5 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-for i in range(5):
-        print(i)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  def reverse_list(lst):
+        return lst[::-1]
