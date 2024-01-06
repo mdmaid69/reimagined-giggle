@@ -1,5 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def count_characters(sentence):
-        return len(sentence)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
