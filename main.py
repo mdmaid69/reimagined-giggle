@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+x = 10
+y = 20
+print("Sum:", x + y)
