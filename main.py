@@ -1,5 +1,7 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-  def convert_to_hex(n):
-        return hex(n)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
