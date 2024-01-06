@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import random
+print(random.randint(0, 100))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
