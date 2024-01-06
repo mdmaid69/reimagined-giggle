@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import time
-print(time.time())
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
