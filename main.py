@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-x = 10
-y = 20
-print("Sum:", x + y)
+print("Hello, world!")
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
