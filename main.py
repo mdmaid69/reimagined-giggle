@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_as_float(array):
+        return float(array[0])
