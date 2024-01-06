@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
