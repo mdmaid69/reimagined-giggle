@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
