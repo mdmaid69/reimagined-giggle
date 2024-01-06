@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_work(force, distance):
+        return force * distance
