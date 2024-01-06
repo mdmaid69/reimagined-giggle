@@ -1,6 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+text = "Hello, world!"
+print("Words:", len(text.split()))
