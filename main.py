@@ -1,4 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-def sort_list(lst):
-        return sorted(lst)
+def count_words(sentence):
+        return len(sentence.split())
+def find_union(list1, list2):
+        return set(list1) | set(list2)
