@@ -1,8 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
