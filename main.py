@@ -1,5 +1,4 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import time
+print(time.time())
+def calculate_pressure(force, area):
+        return force / area
