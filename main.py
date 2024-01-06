@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
