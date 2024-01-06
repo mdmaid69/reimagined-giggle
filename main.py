@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def sort_list(lst):
+        return sorted(lst)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
