@@ -1,4 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-print(sum(range(10)))
+def calculate_pressure(force, area):
+        return force / area
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
