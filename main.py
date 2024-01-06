@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
