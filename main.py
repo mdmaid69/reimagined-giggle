@@ -1,6 +1,4 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+for i in range(10): print(i)
