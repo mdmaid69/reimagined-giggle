@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_repr(array):
+        return repr(array)
