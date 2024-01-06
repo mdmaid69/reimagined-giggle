@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-print(math.pi)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
