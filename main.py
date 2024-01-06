@@ -1,7 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
