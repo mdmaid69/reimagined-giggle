@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
