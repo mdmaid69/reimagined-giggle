@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import array
-def get_array_item(array, i):
-        return array[i]
+import os
+def change_working_directory(path):
+        os.chdir(path)
+text = "Hello, world!"
+print("Characters:", len(text))
