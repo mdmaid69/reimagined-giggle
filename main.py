@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
