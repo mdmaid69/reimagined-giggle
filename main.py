@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
