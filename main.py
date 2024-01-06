@@ -1,11 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
