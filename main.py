@@ -1,4 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
