@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
