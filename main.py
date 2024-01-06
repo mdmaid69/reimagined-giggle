@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
