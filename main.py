@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import platform
+def get_os_info():
+        return platform.uname()
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_exponential(x):
+        return math.exp(x)
