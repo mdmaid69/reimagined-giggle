@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
