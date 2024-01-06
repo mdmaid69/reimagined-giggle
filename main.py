@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Reversed:", text[::-1])
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
