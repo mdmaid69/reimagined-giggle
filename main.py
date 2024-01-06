@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_area_circle(r):
+        return 3.14 * r**2
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
