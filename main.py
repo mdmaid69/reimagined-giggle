@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def append_to_array(array, item):
+        array.append(item)
