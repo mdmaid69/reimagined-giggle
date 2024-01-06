@@ -1,5 +1,5 @@
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
