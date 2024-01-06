@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
