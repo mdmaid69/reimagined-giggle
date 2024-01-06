@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import array
+def reverse_array(array):
+        array.reverse()
+import collections
+def create_user_dict():
+        return collections.UserDict()
