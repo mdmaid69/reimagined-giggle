@@ -1,5 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def find_max(numbers):
+        return max(numbers)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
