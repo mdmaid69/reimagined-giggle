@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
