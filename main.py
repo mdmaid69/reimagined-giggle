@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import time
+def get_current_time():
+        return time.time()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
