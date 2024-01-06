@@ -1,4 +1,7 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
