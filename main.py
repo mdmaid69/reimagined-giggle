@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
