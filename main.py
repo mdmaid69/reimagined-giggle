@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
