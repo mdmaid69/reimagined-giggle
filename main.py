@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
