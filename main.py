@@ -1,6 +1,6 @@
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
