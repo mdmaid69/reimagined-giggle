@@ -1,6 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import os
+def remove_directory(path):
+        os.rmdir(path)
