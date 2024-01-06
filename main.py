@@ -1,8 +1,7 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def calculate_error_function(x):
+        return math.erf(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
