@@ -1,4 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-print([x**2 for x in range(10)])
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
