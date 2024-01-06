@@ -1,6 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+print([x**2 for x in range(10)])
