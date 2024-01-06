@@ -1,6 +1,5 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
