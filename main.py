@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import json
+print(json.dumps({"name": "John", "age": 30}))
