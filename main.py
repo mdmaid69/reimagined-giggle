@@ -1,6 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def get_array_length(array):
+        return len(array)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
