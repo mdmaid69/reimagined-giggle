@@ -1,7 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
