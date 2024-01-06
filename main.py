@@ -1,6 +1,6 @@
+import array
+def get_list_from_array(array):
+        return array.tolist()
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
