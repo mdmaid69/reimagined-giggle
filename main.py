@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
