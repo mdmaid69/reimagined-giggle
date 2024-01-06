@@ -1,6 +1,7 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import json
+def convert_to_json(data):
+        return json.dumps(data)
