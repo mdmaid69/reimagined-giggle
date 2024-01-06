@@ -1,7 +1,5 @@
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
