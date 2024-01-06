@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
