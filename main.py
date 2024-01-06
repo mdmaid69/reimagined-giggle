@@ -1,6 +1,6 @@
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def remove_from_array(array, item):
+        array.remove(item)
