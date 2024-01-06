@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
