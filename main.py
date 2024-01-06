@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
