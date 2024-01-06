@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import array
-def get_array_as_str(array):
-        return str(array)
+import random
+print(random.randint(0, 100))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
