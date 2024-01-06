@@ -1,8 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
