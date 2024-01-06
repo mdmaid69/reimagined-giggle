@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
