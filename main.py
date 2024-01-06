@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import array
+def get_array_as_repr(array):
+        return repr(array)
