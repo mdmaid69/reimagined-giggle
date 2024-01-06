@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_array_item(array, i):
+        return array[i]
