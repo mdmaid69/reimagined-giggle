@@ -1,4 +1,6 @@
-import os
-print(os.getcwd())
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
