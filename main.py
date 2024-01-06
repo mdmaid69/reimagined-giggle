@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
