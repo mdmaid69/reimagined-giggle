@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
