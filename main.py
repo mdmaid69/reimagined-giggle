@@ -1,6 +1,5 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  def add_numbers(x, y):
+        return x + y
