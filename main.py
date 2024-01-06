@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_acceleration(speed, time):
+        return speed / time
