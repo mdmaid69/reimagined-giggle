@@ -1,6 +1,7 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def count_characters(sentence):
+        return len(sentence)
