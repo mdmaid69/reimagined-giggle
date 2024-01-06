@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import collections
+def create_user_dict():
+        return collections.UserDict()
