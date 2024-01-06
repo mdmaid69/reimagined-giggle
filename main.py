@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_pressure(force, area):
-        return force / area
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
