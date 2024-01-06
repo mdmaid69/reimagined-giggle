@@ -1,4 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-print([x**2 for x in range(10)])
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+print(math.pi)
