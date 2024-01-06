@@ -1,5 +1,6 @@
+import array
+def get_array_index(array, item):
+        return array.index(item)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def count_elements(lst):
-        return len(lst)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
