@@ -1,5 +1,8 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import array
+def get_array_as_str(array):
+        return str(array)
