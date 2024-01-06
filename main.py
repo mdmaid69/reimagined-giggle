@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  def count_elements(lst):
-        return len(lst)
+def subtract_numbers(x, y):
+        return x - y
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
