@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+text = "Hello, world!"
+print("Uppercase:", text.upper())
