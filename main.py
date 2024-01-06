@@ -1,5 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
