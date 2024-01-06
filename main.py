@@ -1,4 +1,6 @@
-for i in range(10): print(i)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
