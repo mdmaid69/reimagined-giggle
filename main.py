@@ -1,6 +1,7 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def is_odd(n):
+        return n % 2 != 0
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
