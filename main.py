@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
