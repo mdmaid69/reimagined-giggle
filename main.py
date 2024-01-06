@@ -1,6 +1,6 @@
 import os
-def remove_directory(path):
-        os.rmdir(path)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def get_current_working_directory():
+        return os.getcwd()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
