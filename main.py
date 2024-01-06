@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
