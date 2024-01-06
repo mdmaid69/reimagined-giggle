@@ -1,7 +1,6 @@
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def remove_from_array(array, item):
+        array.remove(item)
