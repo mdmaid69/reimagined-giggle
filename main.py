@@ -1,5 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
