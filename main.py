@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
