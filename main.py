@@ -1,9 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
