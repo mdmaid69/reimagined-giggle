@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
