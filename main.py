@@ -1,5 +1,7 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import time
+def get_current_time():
+        return time.ctime()
