@@ -1,5 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+print("Hello, world!")
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
