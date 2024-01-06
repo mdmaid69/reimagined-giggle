@@ -1,4 +1,12 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
