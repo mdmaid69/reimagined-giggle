@@ -1,6 +1,12 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def delete_file(file_name):
+        os.remove(file_name)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
