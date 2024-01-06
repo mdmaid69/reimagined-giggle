@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
