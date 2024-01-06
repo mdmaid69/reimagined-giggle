@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_item_count(array, item):
+        return array.count(item)
