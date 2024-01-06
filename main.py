@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_power(work, time):
+        return work / time
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def append_to_array(array, item):
+        array.append(item)
