@@ -1,5 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def count_words(sentence):
-        return len(sentence.split())
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import time
+def get_current_time():
+        return time.time()
