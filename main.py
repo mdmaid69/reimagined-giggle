@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
