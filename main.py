@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def get_array_typecode(array):
+        return array.typecode
