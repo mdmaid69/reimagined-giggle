@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
