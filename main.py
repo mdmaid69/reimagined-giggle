@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import collections
-def create_queue():
-        return collections.deque()
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
