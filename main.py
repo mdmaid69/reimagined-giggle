@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_sine(x):
+        return math.sin(x)
