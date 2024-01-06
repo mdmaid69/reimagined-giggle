@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-def find_min(lst):
-        return min(lst)
+import time
+def get_current_time():
+        return time.time()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
