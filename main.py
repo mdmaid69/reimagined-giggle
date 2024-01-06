@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import random
-print(random.randint(0, 100))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
