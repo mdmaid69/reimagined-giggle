@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
