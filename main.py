@@ -1,6 +1,6 @@
+import math
+def calculate_tangent(x):
+        return math.tan(x)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import collections
-def create_queue():
-        return collections.deque()
+def remove_from_array(array, item):
+        array.remove(item)
