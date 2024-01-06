@@ -1,6 +1,4 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
