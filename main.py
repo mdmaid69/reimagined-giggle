@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def count_elements(lst):
+        return len(lst)
+import platform
+def get_os_info():
+        return platform.uname()
