@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  def is_even(n):
+        return n % 2 == 0
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
