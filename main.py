@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
