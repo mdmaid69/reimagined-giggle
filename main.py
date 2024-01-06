@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_index(array, item):
-        return array.index(item)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def remove_duplicates(lst):
+        return list(set(lst))
