@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
+  def calculate_area_rectangle(l, w):
+        return l * w
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
