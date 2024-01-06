@@ -1,7 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
