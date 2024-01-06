@@ -1,6 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_density(mass, volume):
+        return mass / volume
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
