@@ -1,5 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def count_characters(sentence):
+        return len(sentence)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
