@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
