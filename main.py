@@ -1,6 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
