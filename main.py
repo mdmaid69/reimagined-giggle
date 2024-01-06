@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import platform
+def get_os_info():
+        return platform.uname()
+import json
+print(json.dumps({"name": "John", "age": 30}))
