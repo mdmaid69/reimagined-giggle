@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import datetime
+print(datetime.datetime.now())
