@@ -1,6 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
