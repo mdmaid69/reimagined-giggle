@@ -1,5 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def reverse_list(lst):
+        return lst[::-1]
