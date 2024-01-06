@@ -1,7 +1,8 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import array
-def clear_array(array):
-        array *= 0
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
