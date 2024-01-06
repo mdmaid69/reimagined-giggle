@@ -1,5 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def multiply_numbers(x, y):
-        return x * y
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
