@@ -1,5 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+for i in range(10): print(i)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
