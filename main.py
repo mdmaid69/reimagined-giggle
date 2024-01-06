@@ -1,8 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+def count_elements(lst):
+        return len(lst)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
