@@ -1,5 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def convert_to_octal(n):
-        return oct(n)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import tensorflow as tf
+print(tf.__version__)
