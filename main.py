@@ -1,6 +1,5 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_area_circle(r):
+        return 3.14 * r**2
