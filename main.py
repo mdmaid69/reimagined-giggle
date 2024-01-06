@@ -1,6 +1,8 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
