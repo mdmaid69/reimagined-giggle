@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
