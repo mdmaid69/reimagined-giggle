@@ -1,7 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
