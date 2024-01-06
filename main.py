@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
