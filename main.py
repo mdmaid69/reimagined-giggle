@@ -1,7 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
