@@ -1,6 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import re
+print(re.match("h.*o", "hello world"))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
