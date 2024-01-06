@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_area(radius):
+        return 3.14 * radius * radius
