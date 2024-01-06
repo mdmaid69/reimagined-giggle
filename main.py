@@ -1,4 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  def reverse_list(lst):
+        return lst[::-1]
