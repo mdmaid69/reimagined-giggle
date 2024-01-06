@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
