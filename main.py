@@ -1,3 +1,7 @@
-print(sum(range(10)))
-def reverse_list(lst):
-        return lst[::-1]
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def split_path(path):
+        return os.path.split(path)
