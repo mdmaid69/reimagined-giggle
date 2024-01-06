@@ -1,7 +1,8 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import time
-def get_current_time():
-        return time.ctime()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
