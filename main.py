@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
