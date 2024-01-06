@@ -1,5 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
