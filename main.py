@@ -1,6 +1,8 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import array
+def get_array_index(array, item):
+        return array.index(item)
