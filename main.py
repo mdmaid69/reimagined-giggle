@@ -1,9 +1,5 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
