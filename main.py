@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import time
-def get_time_since_epoch():
-        return time.time()
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def append_to_array(array, item):
+        array.append(item)
