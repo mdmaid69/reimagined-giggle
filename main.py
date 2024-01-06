@@ -1,5 +1,7 @@
-def square_number(x):
-        return x**2
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
