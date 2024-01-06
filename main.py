@@ -1,5 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def reverse_list(lst):
+        return lst[::-1]
