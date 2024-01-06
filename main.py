@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
