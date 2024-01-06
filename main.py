@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def get_list_from_array(array):
+        return array.tolist()
