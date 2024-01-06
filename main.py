@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def sort_list(lst):
+        return sorted(lst)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
