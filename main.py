@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
