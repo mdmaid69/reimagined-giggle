@@ -1,6 +1,6 @@
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
