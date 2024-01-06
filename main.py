@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  def is_even(n):
-        return n % 2 == 0
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
