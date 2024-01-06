@@ -1,8 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
