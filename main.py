@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import getpass
+def get_username():
+        return getpass.getuser()
