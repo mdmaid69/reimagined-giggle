@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
