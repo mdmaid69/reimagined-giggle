@@ -1,4 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def square_number(x):
+        return x**2
