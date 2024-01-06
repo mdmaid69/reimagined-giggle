@@ -1,6 +1,6 @@
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
