@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def count_words(sentence):
-        return len(sentence.split())
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_density(mass, volume):
+        return mass / volume
