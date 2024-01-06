@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
