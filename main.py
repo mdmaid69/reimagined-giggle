@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_speed(distance, time):
-        return distance / time
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_tangent(x):
+        return math.tan(x)
