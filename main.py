@@ -1,5 +1,6 @@
+import array
+def get_array_as_set(array):
+        return set(array)
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def find_min(numbers):
-        return min(numbers)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
