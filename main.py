@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import time
-def get_time_since_epoch():
-        return time.time()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
