@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  def reverse_list(lst):
+        return lst[::-1]
