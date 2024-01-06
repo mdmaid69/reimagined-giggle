@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
