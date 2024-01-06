@@ -1,6 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_floor(x):
+        return math.floor(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
