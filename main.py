@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
