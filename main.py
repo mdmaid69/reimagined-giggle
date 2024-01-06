@@ -1,8 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
