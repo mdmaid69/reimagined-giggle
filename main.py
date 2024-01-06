@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
