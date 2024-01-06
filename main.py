@@ -1,6 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_area(radius):
+        return 3.14 * radius * radius
