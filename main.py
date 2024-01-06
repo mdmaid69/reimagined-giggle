@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  def convert_to_octal(n):
-        return oct(n)
+def divide_numbers(x, y):
+        return x / y
+import collections
+def create_user_list():
+        return collections.UserList()
