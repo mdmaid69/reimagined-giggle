@@ -1,5 +1,4 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def is_palindrome(s):
+        return s == s[::-1]
+def count_characters(sentence):
+        return len(sentence)
