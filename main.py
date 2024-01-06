@@ -1,5 +1,7 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
