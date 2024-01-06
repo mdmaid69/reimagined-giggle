@@ -1,8 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import array
+def get_array_item(array, i):
+        return array[i]
