@@ -1,5 +1,7 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+from collections import Counter
+print(Counter("hello world"))
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
