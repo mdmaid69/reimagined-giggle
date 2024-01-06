@@ -1,5 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def reverse_string(s):
-        return s[::-1]
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_pressure(force, area):
+        return force / area
