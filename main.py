@@ -1,5 +1,6 @@
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import math
-def calculate_floor(x):
-        return math.floor(x)
-def cube_number(x):
-        return x**3
+def calculate_tangent(x):
+        return math.tan(x)
