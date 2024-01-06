@@ -1,6 +1,5 @@
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
