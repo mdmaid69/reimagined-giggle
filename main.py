@@ -1,5 +1,9 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
