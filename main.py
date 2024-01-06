@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
