@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def convert_to_binary(n):
+        return bin(n)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def delete_file(file_name):
+        os.remove(file_name)
