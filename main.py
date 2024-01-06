@@ -1,6 +1,7 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_power(work, time):
-        return work / time
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
