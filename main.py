@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
