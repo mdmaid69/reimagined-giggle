@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def is_odd(n):
-        return n % 2 != 0
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
