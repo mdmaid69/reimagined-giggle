@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
