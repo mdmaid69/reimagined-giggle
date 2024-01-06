@@ -1,5 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_area_rectangle(l, w):
+        return l * w
