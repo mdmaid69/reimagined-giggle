@@ -1,4 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def count_words(sentence):
+        return len(sentence.split())
