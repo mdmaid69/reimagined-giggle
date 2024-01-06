@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+x = 10
+y = 20
+print("Sum:", x + y)
