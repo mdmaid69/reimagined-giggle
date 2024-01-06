@@ -1,3 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-for i in range(10): print(i)
+import random
+print(random.randint(0, 100))
+import collections
+def create_stack():
+        return collections.deque()
