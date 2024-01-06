@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
