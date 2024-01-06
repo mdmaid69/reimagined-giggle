@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-text = "Hello, world!"
-print("Characters:", len(text))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
