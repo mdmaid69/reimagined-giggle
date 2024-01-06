@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
