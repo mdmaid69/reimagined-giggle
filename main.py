@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
