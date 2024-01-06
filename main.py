@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
