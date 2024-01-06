@@ -1,5 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def find_max(numbers):
-        return max(numbers)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
