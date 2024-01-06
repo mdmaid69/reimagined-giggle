@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
 import collections
-def create_priority_queue():
-        return collections.deque()
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def convert_to_octal(n):
+        return oct(n)
