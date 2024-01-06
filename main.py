@@ -1,5 +1,4 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def greet(name):
+        print(f"Hello, {name}!")
+def is_even(n):
+        return n % 2 == 0
