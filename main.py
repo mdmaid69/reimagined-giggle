@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+print(math.pi)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
