@@ -1,6 +1,8 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
