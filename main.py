@@ -1,6 +1,3 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+print(sum(range(10)))
+def reverse_list(lst):
+        return lst[::-1]
