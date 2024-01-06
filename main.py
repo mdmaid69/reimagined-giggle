@@ -1,5 +1,6 @@
+import array
+def get_array_typecode(array):
+        return array.typecode
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
