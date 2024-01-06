@@ -1,6 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
