@@ -1,5 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def count_characters(sentence):
-        return len(sentence)
+def calculate_work(force, distance):
+        return force * distance
+def find_max(numbers):
+        return max(numbers)
