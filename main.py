@@ -1,5 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def get_array_as_repr(array):
+        return repr(array)
