@@ -1,5 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def square_number(x):
-        return x**2
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
