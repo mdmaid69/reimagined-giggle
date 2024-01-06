@@ -1,6 +1,5 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_sign(x):
+        return math.copysign(1, x)
+def remove_duplicates(lst):
+        return list(set(lst))
