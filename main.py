@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def add_numbers(x, y):
+        return x + y
