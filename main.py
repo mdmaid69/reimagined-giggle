@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
