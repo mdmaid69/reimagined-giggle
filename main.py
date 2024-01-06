@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
