@@ -1,6 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def calculate_area_circle(r):
+        return 3.14 * r**2
