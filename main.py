@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
