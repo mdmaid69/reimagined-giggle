@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
 import array
-def get_array_as_list(array):
-        return list(array)
+def clear_array(array):
+        array *= 0
+def calculate_force(mass, acceleration):
+        return mass * acceleration
