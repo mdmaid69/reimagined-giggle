@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import array
-def get_array_item(array, i):
-        return array[i]
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_pressure(force, area):
+        return force / area
