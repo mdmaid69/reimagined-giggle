@@ -1,6 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  def convert_to_binary(n):
+        return bin(n)
