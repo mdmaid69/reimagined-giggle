@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
