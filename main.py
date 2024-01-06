@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import platform
+def get_os_info():
+        return platform.uname()
