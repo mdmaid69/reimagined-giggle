@@ -1,5 +1,7 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
