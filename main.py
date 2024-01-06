@@ -1,5 +1,7 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_buffer_info(array):
+        return array.buffer_info()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
