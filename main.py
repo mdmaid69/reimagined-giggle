@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
