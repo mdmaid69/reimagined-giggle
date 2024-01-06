@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import random
+print(random.randint(0, 100))
