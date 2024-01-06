@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def convert_to_binary(n):
+        return bin(n)
