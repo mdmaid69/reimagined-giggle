@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
