@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import tensorflow as tf
+print(tf.__version__)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def split_path(path):
+        return os.path.split(path)
