@@ -1,6 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
