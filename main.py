@@ -1,10 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
