@@ -1,6 +1,5 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
