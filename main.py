@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
