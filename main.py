@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
