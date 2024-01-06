@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import os
+def change_working_directory(path):
+        os.chdir(path)
