@@ -1,5 +1,8 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_speed(distance, time):
-        return distance / time
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
