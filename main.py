@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
