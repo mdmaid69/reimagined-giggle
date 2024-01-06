@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def square_number(x):
-        return x**2
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import tensorflow as tf
+print(tf.__version__)
