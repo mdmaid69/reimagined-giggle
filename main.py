@@ -1,7 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def convert_to_octal(n):
+        return oct(n)
