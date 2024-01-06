@@ -1,6 +1,7 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
