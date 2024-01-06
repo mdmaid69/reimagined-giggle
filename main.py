@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
