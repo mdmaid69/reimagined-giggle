@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
