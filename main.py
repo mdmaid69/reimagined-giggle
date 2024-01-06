@@ -1,5 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-for i in range(5):
-        print(i)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import os
+def get_current_working_directory():
+        return os.getcwd()
