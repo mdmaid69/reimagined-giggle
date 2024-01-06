@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import collections
-def create_user_list():
-        return collections.UserList()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+print([x**2 for x in range(10)])
