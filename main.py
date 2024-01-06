@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def remove_duplicates(lst):
-        return list(set(lst))
+import tensorflow as tf
+print(tf.__version__)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
