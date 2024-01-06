@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import collections
+def create_user_string():
+        return collections.UserString()
