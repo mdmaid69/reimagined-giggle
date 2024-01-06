@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
