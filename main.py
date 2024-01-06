@@ -1,6 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def calculate_work(force, distance):
+        return force * distance
