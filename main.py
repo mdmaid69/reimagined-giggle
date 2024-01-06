@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
