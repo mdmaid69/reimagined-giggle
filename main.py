@@ -1,7 +1,8 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
