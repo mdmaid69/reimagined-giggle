@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
