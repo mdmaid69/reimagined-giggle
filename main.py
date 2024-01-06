@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
