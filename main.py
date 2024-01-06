@@ -1,5 +1,4 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
