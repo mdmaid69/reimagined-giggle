@@ -1,7 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def split_path(path):
+        return os.path.split(path)
