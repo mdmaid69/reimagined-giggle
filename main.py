@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
