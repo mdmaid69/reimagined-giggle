@@ -1,6 +1,5 @@
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
   import os
-  def split_path(path):
-        return os.path.split(path)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
