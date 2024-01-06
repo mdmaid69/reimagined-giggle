@@ -1,4 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_volume(length, width, height):
-        return length * width * height
+  def subtract_numbers(x, y):
+        return x - y
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
