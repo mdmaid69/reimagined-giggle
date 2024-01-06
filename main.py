@@ -1,5 +1,7 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import datetime
-print(datetime.datetime.now())
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
