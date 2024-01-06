@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
