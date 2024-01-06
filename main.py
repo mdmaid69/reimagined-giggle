@@ -1,6 +1,5 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
