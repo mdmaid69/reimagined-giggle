@@ -1,5 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+  def convert_to_binary(n):
+        return bin(n)
+  def convert_to_octal(n):
+        return oct(n)
