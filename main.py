@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_pressure(force, area):
+        return force / area
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
