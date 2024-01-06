@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
