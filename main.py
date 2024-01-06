@@ -1,5 +1,5 @@
+import array
+def get_array_index(array, item):
+        return array.index(item)
 text = "Hello, world!"
-print("Words:", len(text.split()))
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+print("Is palindrome:", text == text[::-1])
