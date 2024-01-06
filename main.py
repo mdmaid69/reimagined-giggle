@@ -1,7 +1,5 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import os
-print(os.getcwd())
+def get_array_as_tuple(array):
+        return tuple(array)
+def is_even(n):
+        return n % 2 == 0
