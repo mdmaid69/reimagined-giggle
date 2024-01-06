@@ -1,6 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
