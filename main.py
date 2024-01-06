@@ -1,6 +1,8 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
