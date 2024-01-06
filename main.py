@@ -1,10 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
