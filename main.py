@@ -1,5 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
