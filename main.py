@@ -1,6 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  def reverse_list(lst):
+        return lst[::-1]
