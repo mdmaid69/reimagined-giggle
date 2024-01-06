@@ -1,4 +1,8 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
