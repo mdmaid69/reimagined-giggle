@@ -1,6 +1,8 @@
 import array
-def clear_array(array):
-        array *= 0
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
