@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def append_to_array(array, item):
+        array.append(item)
