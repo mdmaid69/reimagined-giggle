@@ -1,6 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+print("Hello, world!")
