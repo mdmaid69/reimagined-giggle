@@ -1,5 +1,7 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import tensorflow as tf
-print(tf.__version__)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import time
+def get_current_time():
+        return time.ctime()
