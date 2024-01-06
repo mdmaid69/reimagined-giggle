@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
