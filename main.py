@@ -1,6 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
