@@ -1,12 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def get_array_length(array):
+        return len(array)
