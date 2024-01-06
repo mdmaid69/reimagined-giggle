@@ -1,7 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def find_max(lst):
+        return max(lst)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
