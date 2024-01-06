@@ -1,5 +1,5 @@
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def add_numbers(a, b):
-        return a + b
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
