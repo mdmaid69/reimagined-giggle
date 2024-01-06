@@ -1,7 +1,7 @@
-import collections
-def create_queue():
-        return collections.deque()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
