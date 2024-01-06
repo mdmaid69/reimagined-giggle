@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
