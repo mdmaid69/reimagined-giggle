@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def convert_array_to_list(array):
+        return array.tolist()
