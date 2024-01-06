@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
