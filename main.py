@@ -1,8 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
