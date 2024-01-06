@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def divide_numbers(x, y):
-        return x / y
+import platform
+def get_os_info():
+        return platform.uname()
+import re
+print(re.match("h.*o", "hello world"))
