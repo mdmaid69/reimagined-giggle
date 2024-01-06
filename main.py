@@ -1,6 +1,5 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
