@@ -1,5 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_combinations(n, k):
+        return math.comb(n, k)
