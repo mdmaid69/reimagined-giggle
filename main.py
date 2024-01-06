@@ -1,6 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import collections
+def create_user_list():
+        return collections.UserList()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
