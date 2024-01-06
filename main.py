@@ -1,5 +1,5 @@
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_acceleration(speed, time):
-        return speed / time
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
