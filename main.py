@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def subtract_numbers(x, y):
+        return x - y
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def delete_file(file_name):
+        os.remove(file_name)
