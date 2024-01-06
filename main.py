@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def add_numbers(a, b):
-        return a + b
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_work(force, distance):
+        return force * distance
