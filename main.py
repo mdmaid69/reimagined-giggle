@@ -1,5 +1,5 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
