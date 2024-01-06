@@ -1,6 +1,9 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import array
+def get_string_from_array(array):
+        return array.tobytes()
