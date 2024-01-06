@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
