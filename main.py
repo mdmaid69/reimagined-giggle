@@ -1,4 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-print([x**2 for x in range(10)])
+  def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
