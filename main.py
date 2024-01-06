@@ -1,8 +1,8 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
