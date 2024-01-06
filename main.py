@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
