@@ -1,8 +1,11 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
