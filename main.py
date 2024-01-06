@@ -1,5 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
