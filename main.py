@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def reverse_string(s):
-        return s[::-1]
+  def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
