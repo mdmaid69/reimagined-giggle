@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
