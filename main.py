@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
