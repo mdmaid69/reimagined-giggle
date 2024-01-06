@@ -1,8 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def add_numbers(x, y):
+        return x + y
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
