@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def convert_to_hex(n):
+        return hex(n)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
