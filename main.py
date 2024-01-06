@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
