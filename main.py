@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import platform
-def get_python_version():
-        return platform.python_version()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
