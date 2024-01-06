@@ -1,5 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def square_number(x):
+        return x**2
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
