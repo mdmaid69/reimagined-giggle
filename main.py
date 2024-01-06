@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+for i in range(5):
+        print(i)
