@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
