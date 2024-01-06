@@ -1,5 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
