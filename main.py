@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import collections
-def create_user_dict():
-        return collections.UserDict()
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_current_directory():
+        return os.getcwd()
