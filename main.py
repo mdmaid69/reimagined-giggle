@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
