@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
