@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
