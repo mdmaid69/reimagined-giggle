@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def find_min(numbers):
+        return min(numbers)
