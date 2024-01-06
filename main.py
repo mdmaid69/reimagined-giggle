@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
 import collections
-def create_user_string():
-        return collections.UserString()
+def create_counter():
+        return collections.Counter()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
