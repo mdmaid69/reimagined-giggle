@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+for i in range(10): print(i)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
