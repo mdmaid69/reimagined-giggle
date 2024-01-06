@@ -1,5 +1,4 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  def convert_to_binary(n):
-        return bin(n)
+def convert_to_hex(n):
+        return hex(n)
+import random
+print(random.randint(0, 100))
