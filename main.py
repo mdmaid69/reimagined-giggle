@@ -1,5 +1,8 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
