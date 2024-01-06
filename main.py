@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def reverse_array(array):
-        array.reverse()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def add_numbers(a, b):
+        return a + b
