@@ -1,6 +1,6 @@
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
