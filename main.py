@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-def sort_list(lst):
-        return sorted(lst)
+import math
+print(math.pi)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
