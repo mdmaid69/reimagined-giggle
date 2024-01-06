@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
