@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
