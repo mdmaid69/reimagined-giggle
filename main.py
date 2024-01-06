@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-def count_words(sentence):
-        return len(sentence.split())
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
