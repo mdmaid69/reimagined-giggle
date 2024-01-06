@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import collections
-def create_user_string():
-        return collections.UserString()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
