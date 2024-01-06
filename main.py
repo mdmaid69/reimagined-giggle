@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
