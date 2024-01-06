@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
