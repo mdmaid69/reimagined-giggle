@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def convert_to_binary(n):
+        return bin(n)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
