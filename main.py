@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
