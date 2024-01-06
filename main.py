@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
