@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def multiply_numbers(x, y):
+        return x * y
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
