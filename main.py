@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
