@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
