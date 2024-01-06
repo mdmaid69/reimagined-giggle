@@ -1,5 +1,6 @@
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def get_array_as_bytes(array):
+        return bytes(array)
