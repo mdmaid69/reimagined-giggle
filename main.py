@@ -1,5 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-for i in range(5):
-        print(i)
+def find_min(numbers):
+        return min(numbers)
+def cube_number(x):
+        return x**3
