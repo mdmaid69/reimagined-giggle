@@ -4,5 +4,6 @@ def parse_arguments():
         parser.add_argument("--input")
         parser.add_argument("--output")
         return parser.parse_args()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def get_string_from_array(array):
+        return array.tobytes()
