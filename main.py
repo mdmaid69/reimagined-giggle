@@ -1,8 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
