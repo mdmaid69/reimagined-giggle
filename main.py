@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import collections
+def create_queue():
+        return collections.deque()
+def convert_to_hex(n):
+        return hex(n)
