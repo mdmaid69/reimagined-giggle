@@ -1,5 +1,6 @@
-import time
-print(time.time())
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def clear_array(array):
+        array *= 0
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
