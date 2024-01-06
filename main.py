@@ -1,7 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
