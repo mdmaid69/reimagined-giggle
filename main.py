@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_cosine(x):
+        return math.cos(x)
