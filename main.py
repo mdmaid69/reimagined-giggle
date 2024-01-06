@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import array
+def set_array_item(array, i, item):
+        array[i] = item
