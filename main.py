@@ -1,8 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def convert_array_to_string(array):
+        return array.tostring()
