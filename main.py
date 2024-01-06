@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def remove_duplicates(lst):
+        return list(set(lst))
