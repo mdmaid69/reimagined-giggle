@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_acceleration(speed, time):
-        return speed / time
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import sys
+def print_python_version():
+        return sys.version
