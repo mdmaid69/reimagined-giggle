@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_acceleration(speed, time):
+        return speed / time
