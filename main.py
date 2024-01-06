@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
