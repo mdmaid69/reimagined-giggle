@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def cube_number(x):
+        return x**3
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
