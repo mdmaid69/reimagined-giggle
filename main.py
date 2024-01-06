@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import time
-def get_time_since_epoch():
-        return time.time()
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import collections
+def create_queue():
+        return collections.deque()
