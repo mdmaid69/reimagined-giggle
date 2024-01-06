@@ -1,6 +1,8 @@
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
