@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
