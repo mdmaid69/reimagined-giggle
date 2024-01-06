@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+for i in range(5):
+        print(i)
+  def subtract_numbers(x, y):
+        return x - y
