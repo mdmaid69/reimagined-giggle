@@ -1,7 +1,4 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_acceleration(speed, time):
+        return speed / time
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
