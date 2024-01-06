@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+text = "Hello, world!"
+print("Characters:", len(text))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
