@@ -1,5 +1,10 @@
-import time
-print(time.time())
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
