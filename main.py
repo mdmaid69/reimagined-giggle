@@ -1,6 +1,5 @@
+def calculate_power(work, time):
+        return work / time
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
