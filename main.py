@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import getpass
+def get_username():
+        return getpass.getuser()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
