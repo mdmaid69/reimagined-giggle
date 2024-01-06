@@ -1,3 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-print(sum(range(10)))
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
