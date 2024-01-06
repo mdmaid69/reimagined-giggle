@@ -1,4 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-for i in range(10): print(i)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import json
+print(json.dumps({"name": "John", "age": 30}))
