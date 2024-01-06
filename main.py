@@ -1,6 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
