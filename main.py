@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import sys
+def print_python_version():
+        print(sys.version)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
