@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
