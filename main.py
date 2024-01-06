@@ -1,6 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
