@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_itemsize(array):
+        return array.itemsize
