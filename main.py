@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
