@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def count_words(sentence):
+        return len(sentence.split())
