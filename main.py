@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  def sort_list(lst):
+        return sorted(lst)
