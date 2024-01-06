@@ -1,8 +1,6 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+x = 10
+y = 20
+print("Sum:", x + y)
