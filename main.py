@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
