@@ -1,4 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import random
+print(random.randint(0, 100))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
