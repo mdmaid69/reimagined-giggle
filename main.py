@@ -1,6 +1,8 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
