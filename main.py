@@ -1,6 +1,8 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
