@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
