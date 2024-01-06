@@ -1,6 +1,6 @@
+import array
+def get_array_typecode(array):
+        return array.typecode
   import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
