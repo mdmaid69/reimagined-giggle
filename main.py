@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
