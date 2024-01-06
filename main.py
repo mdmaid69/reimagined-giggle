@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
