@@ -1,7 +1,4 @@
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
