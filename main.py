@@ -1,5 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import time
-print(time.time())
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
