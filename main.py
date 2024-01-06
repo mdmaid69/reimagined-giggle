@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def count_elements(lst):
+        return len(lst)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
