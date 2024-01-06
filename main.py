@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
+import collections
+def create_counter():
+        return collections.Counter()
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
