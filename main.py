@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_cosine(x):
+        return math.cos(x)
