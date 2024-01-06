@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  def count_elements(lst):
-        return len(lst)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import os
+def remove_directory(path):
+        os.rmdir(path)
