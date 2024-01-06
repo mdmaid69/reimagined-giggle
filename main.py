@@ -1,5 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import sys
+print(sys.version)
+  def remove_duplicates(lst):
+        return list(set(lst))
