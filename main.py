@@ -1,6 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+  def convert_to_binary(n):
+        return bin(n)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
