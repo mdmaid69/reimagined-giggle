@@ -1,6 +1,5 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
