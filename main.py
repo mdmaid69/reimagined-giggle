@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import tensorflow as tf
+print(tf.__version__)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
