@@ -1,6 +1,12 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
