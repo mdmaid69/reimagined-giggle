@@ -1,4 +1,7 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_volume(length, width, height):
-        return length * width * height
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
