@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
