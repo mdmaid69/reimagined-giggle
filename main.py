@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
