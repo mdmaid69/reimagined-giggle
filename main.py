@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_as_repr(array):
+        return repr(array)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
