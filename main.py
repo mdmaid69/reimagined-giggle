@@ -1,4 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def divide_numbers(x, y):
-        return x / y
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_user_dict():
+        return collections.UserDict()
