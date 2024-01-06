@@ -1,7 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
