@@ -1,6 +1,5 @@
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
