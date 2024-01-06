@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
