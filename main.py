@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
