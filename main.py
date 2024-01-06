@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-def convert_to_binary(n):
-        return bin(n)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import time
+def get_current_time():
+        return time.time()
