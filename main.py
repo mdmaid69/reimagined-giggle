@@ -1,7 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def is_even(n):
+        return n % 2 == 0
+  def subtract_numbers(x, y):
+        return x - y
