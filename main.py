@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  def cube_number(x):
+        return x**3
