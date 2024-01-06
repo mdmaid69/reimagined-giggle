@@ -1,5 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  def count_elements(lst):
-        return len(lst)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
