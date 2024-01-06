@@ -1,6 +1,7 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
