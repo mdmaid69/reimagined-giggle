@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def is_odd(n):
+        return n % 2 != 0
