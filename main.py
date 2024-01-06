@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def is_even(n):
+        return n % 2 == 0
