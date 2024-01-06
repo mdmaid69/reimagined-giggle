@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_pressure(force, area):
+        return force / area
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
