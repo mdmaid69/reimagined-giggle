@@ -1,9 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
