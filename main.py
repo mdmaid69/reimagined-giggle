@@ -1,7 +1,8 @@
-def count_elements(lst):
-        return len(lst)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
