@@ -1,5 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import numpy as np
-print(np.array([1, 2, 3]))
+import re
+print(re.match("h.*o", "hello world"))
+  def is_odd(n):
+        return n % 2 != 0
