@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def find_unique_words(sentence):
+        return set(sentence.split())
