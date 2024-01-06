@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import collections
+def create_stack():
+        return collections.deque()
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
