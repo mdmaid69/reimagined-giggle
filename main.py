@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
