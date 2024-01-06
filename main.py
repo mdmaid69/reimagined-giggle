@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
