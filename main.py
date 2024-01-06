@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_exponential(x):
+        return math.exp(x)
