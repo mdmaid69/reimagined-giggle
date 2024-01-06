@@ -1,6 +1,7 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
