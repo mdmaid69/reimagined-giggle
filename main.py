@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def add_numbers(x, y):
+        return x + y
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
