@@ -1,8 +1,5 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def append_to_array(array, item):
+        array.append(item)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
