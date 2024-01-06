@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
