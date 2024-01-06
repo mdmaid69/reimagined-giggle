@@ -1,4 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-print([x**2 for x in range(10)])
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
