@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_sine(x):
+        return math.sin(x)
