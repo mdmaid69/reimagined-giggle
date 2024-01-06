@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
