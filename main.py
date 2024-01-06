@@ -1,6 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
