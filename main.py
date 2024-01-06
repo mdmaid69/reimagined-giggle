@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
