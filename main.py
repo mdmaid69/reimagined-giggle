@@ -1,5 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_power(work, time):
-        return work / time
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
