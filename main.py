@@ -1,5 +1,8 @@
+import math
+def calculate_exponential(x):
+        return math.exp(x)
 import array
-def get_array_length(array):
-        return len(array)
-  def is_even(n):
-        return n % 2 == 0
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
