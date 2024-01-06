@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
