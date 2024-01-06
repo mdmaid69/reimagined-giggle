@@ -1,5 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_area_circle(r):
+        return 3.14 * r**2
