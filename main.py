@@ -1,6 +1,12 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_string_from_array(array):
+        return array.tobytes()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
