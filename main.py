@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def count_elements(lst):
-        return len(lst)
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
