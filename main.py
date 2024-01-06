@@ -1,6 +1,12 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
