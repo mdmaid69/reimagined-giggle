@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  def subtract_numbers(x, y):
-        return x - y
+import platform
+def get_os_info():
+        return platform.uname()
+  def remove_duplicates(lst):
+        return list(set(lst))
