@@ -1,7 +1,6 @@
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
