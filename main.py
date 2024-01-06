@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import time
+def get_time_since_epoch():
+        return time.time()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
