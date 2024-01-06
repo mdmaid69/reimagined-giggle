@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import array
-def get_array_item(array, i):
-        return array[i]
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
