@@ -1,11 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def calculate_work(force, distance):
+        return force * distance
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
