@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import time
+def get_time_since_epoch():
+        return time.time()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
