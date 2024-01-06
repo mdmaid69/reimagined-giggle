@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
