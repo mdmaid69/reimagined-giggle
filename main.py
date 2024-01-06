@@ -1,8 +1,4 @@
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+print(random.randint(0, 100))
+  def add_numbers(x, y):
+        return x + y
