@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
