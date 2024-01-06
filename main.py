@@ -1,6 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  def is_odd(n):
+        return n % 2 != 0
