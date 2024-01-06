@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
