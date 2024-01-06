@@ -1,5 +1,4 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import time
-def get_time_since_epoch():
-        return time.time()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
