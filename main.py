@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
