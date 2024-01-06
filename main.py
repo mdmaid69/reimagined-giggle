@@ -1,8 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
