@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
