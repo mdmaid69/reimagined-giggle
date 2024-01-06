@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def cube_number(x):
+        return x**3
