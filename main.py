@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
