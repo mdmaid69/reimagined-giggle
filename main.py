@@ -1,7 +1,6 @@
-  def cube_number(x):
-        return x**3
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
