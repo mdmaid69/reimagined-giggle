@@ -1,6 +1,3 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import sys
-def exit_program():
-        sys.exit()
+print(sum(range(10)))
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
