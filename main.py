@@ -1,7 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def subtract_numbers(x, y):
+        return x - y
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
