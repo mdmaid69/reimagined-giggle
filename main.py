@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_error_function(x):
+        return math.erf(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
