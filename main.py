@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
