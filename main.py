@@ -1,8 +1,4 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def count_elements(lst):
+        return len(lst)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
