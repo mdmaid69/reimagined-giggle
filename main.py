@@ -1,6 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import sys
-def exit_program():
-        sys.exit()
+def get_bytes_from_array(array):
+        return array.tobytes()
