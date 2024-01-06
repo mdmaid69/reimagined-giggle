@@ -1,5 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def add_numbers(a, b):
+        return a + b
 n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
