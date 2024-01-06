@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
