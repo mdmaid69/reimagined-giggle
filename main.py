@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
