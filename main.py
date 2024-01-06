@@ -1,6 +1,8 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import array
-def reverse_array(array):
-        array.reverse()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
