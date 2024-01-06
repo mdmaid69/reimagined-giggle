@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def convert_to_binary(n):
-        return bin(n)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
