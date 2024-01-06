@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
