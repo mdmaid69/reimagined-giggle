@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
