@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
