@@ -1,4 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-print([x**2 for x in range(10)])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
