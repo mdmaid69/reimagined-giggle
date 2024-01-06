@@ -1,6 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def count_elements(lst):
+        return len(lst)
