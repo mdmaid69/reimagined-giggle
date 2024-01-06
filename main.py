@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
