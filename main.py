@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-def calculate_acceleration(speed, time):
-        return speed / time
+def is_palindrome(s):
+        return s == s[::-1]
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
