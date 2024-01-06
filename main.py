@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
