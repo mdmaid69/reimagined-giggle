@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def add_numbers(x, y):
+        return x + y
