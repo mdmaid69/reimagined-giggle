@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def is_even(n):
+        return n % 2 == 0
 import array
-def convert_array_to_bytes(array):
+def get_string_from_array(array):
         return array.tobytes()
