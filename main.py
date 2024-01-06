@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import sys
-def exit_program():
-        sys.exit()
+import array
+def append_to_array(array, item):
+        array.append(item)
+import collections
+def create_counter():
+        return collections.Counter()
