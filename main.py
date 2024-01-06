@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
