@@ -1,4 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
