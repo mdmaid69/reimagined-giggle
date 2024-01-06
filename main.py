@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import logging
+def log_message(message):
+        logging.info(message)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
