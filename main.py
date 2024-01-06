@@ -1,4 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
