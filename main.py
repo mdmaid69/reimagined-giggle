@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def sort_list(lst):
+        return sorted(lst)
