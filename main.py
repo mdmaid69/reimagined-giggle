@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import collections
+def create_user_list():
+        return collections.UserList()
