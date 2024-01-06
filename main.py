@@ -1,4 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-  def cube_number(x):
-        return x**3
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
