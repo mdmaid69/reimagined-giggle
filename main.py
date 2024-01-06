@@ -1,6 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
