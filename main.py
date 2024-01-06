@@ -1,6 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
