@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_as_bool(array):
+        return bool(array)
