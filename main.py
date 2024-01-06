@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def cube_number(x):
+        return x**3
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
