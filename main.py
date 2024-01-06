@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
