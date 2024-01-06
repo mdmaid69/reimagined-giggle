@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def get_array_as_int(array):
+        return int(array[0])
