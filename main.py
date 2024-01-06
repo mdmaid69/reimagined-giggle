@@ -1,5 +1,6 @@
+import array
+def get_array_typecode(array):
+        return array.typecode
 import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-for i in range(5):
-        print(i)
+def print_python_version():
+        return sys.version
