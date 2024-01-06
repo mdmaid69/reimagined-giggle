@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import numpy as np
+print(np.array([1, 2, 3]))
