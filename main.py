@@ -1,5 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import collections
+def create_priority_queue():
+        return collections.deque()
