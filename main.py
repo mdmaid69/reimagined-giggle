@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
