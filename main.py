@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
