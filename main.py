@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
