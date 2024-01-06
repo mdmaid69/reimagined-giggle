@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import platform
+def get_os_info():
+        return platform.uname()
