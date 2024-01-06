@@ -1,8 +1,8 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
