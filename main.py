@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_slice(array, i, j):
+        return array[i:j]
