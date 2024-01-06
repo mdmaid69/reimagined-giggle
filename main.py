@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
