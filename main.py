@@ -1,5 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def find_min(numbers):
+        return min(numbers)
