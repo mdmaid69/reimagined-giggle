@@ -1,4 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-text = "Hello, world!"
-print("Characters:", len(text))
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
