@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def reverse_list(lst):
+        return lst[::-1]
+import collections
+def create_user_dict():
+        return collections.UserDict()
