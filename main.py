@@ -1,6 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def sort_list(lst):
+        return sorted(lst)
+import time
+def get_current_time():
+        return time.time()
