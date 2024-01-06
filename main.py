@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def create_queue():
+        return collections.deque()
