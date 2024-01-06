@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
