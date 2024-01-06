@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def is_even(n):
-        return n % 2 == 0
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_sine(x):
+        return math.sin(x)
