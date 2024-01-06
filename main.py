@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def remove_duplicates(lst):
+        return list(set(lst))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
