@@ -1,5 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
