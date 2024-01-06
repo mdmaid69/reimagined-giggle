@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+from collections import Counter
+print(Counter("hello world"))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
