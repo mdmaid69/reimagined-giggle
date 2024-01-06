@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_work(force, distance):
+        return force * distance
