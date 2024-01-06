@@ -1,4 +1,8 @@
-  def is_odd(n):
-        return n % 2 != 0
-def multiply_numbers(x, y):
-        return x * y
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import array
+def get_array_as_repr(array):
+        return repr(array)
