@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
