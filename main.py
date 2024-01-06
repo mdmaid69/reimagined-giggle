@@ -1,8 +1,7 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
