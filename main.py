@@ -1,5 +1,5 @@
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
