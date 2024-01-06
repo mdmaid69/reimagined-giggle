@@ -1,6 +1,9 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
