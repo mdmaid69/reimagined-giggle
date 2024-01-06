@@ -1,5 +1,6 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_power(work, time):
-        return work / time
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
