@@ -1,6 +1,10 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
