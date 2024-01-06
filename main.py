@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+def calculate_density(mass, volume):
+        return mass / volume
