@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import random
+print(random.randint(0, 100))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
