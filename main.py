@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
