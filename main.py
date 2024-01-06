@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
