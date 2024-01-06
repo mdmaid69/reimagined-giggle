@@ -1,5 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_work(force, distance):
-        return force * distance
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def square_number(x):
+        return x**2
