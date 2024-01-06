@@ -1,6 +1,3 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+for i in range(10): print(i)
