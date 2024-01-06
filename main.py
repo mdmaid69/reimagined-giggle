@@ -1,5 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
