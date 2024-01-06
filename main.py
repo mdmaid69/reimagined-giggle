@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
