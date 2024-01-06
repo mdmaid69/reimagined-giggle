@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import getpass
-def get_username():
-        return getpass.getuser()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def reverse_list(lst):
+        return lst[::-1]
