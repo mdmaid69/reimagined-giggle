@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def multiply_numbers(x, y):
+        return x * y
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
