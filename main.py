@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import logging
+def log_message(message):
+        logging.info(message)
+import sys
+def exit_program():
+        sys.exit()
