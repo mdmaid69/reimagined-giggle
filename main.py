@@ -1,9 +1,6 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import getpass
-def get_username():
-        return getpass.getuser()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
