@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def divide_numbers(x, y):
+        return x / y
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
