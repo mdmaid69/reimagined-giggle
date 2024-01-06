@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
