@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
