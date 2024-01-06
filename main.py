@@ -1,6 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def count_characters(sentence):
+        return len(sentence)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
