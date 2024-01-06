@@ -1,6 +1,4 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
