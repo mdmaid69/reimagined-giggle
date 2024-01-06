@@ -1,6 +1,8 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
