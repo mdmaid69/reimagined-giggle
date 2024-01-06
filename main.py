@@ -1,5 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def find_min(numbers):
+        return min(numbers)
