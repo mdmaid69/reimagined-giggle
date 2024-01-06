@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
