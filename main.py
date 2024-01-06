@@ -1,13 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
