@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import tensorflow as tf
-print(tf.__version__)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
