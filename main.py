@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
