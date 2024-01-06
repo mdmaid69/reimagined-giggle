@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
