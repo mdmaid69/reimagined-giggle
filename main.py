@@ -1,8 +1,3 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import time
-def get_current_time():
-        return time.ctime()
+  def count_elements(lst):
+        return len(lst)
+print([x**2 for x in range(10)])
