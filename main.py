@@ -1,5 +1,8 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
