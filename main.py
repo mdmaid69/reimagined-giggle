@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
