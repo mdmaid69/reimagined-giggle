@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
