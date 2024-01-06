@@ -1,10 +1,6 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
