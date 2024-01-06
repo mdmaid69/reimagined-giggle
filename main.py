@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def find_min(lst):
-        return min(lst)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
