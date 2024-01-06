@@ -1,6 +1,3 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+for i in range(10): print(i)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
