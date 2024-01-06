@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
