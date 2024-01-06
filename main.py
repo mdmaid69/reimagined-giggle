@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def find_min(lst):
+        return min(lst)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
