@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def subtract_numbers(x, y):
+        return x - y
