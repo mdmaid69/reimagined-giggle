@@ -1,5 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def find_min(lst):
-        return min(lst)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
