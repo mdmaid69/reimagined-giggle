@@ -1,11 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
