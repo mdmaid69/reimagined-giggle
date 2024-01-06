@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
