@@ -1,4 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def multiply_numbers(x, y):
+        return x * y
