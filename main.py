@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def get_array_as_list(array):
+        return list(array)
