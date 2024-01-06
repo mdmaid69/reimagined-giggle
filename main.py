@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def find_min(numbers):
-        return min(numbers)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
