@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-text = "Hello, world!"
-print("Characters:", len(text))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
