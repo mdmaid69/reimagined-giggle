@@ -1,7 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
