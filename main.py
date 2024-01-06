@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def convert_to_hex(n):
-        return hex(n)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
