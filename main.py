@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
