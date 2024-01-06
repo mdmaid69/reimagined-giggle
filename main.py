@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def count_elements(lst):
-        return len(lst)
+  def sort_list(lst):
+        return sorted(lst)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
