@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import time
-def get_current_time():
-        return time.time()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
