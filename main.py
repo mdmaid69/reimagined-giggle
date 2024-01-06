@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import array
+def get_array_as_set(array):
+        return set(array)
