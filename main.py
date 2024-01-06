@@ -1,4 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-  def subtract_numbers(x, y):
-        return x - y
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import tensorflow as tf
+print(tf.__version__)
