@@ -1,7 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import os
+print(os.getcwd())
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
