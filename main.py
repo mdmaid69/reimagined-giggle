@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
