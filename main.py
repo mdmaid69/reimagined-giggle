@@ -1,6 +1,7 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
