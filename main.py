@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import tensorflow as tf
+print(tf.__version__)
