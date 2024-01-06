@@ -1,6 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import collections
+def create_user_dict():
+        return collections.UserDict()
