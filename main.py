@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
