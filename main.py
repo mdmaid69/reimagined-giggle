@@ -1,4 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-print(sum(range(10)))
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def is_palindrome(s):
+        return s == s[::-1]
