@@ -1,6 +1,9 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
