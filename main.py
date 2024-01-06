@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
