@@ -1,5 +1,4 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import os
+print(os.getcwd())
+def find_min(lst):
+        return min(lst)
