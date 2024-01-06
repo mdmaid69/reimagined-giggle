@@ -1,6 +1,7 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def add_numbers(a, b):
-        return a + b
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def sort_list(lst):
+        return sorted(lst)
