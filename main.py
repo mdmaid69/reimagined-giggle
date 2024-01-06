@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+text = "Hello, world!"
+print("Characters:", len(text))
