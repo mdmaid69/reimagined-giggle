@@ -1,7 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
