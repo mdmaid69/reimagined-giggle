@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
