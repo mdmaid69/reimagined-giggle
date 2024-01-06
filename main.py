@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def reverse_string(s):
+        return s[::-1]
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
