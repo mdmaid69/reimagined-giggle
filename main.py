@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_length(array):
+        return len(array)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
