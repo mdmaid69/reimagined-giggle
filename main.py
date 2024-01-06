@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import array
+def get_array_index(array, item):
+        return array.index(item)
