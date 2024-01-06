@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def count_elements(lst):
+        return len(lst)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
