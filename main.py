@@ -1,5 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import collections
+def create_user_string():
+        return collections.UserString()
+import array
+def get_array_index(array, item):
+        return array.index(item)
