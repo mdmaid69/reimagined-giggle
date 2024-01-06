@@ -1,9 +1,7 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
