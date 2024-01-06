@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def reverse_list(lst):
-        return lst[::-1]
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
