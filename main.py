@@ -1,5 +1,6 @@
   import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def create_numpy_array(lst):
+        return np.array(lst)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
