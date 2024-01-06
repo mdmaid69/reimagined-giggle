@@ -1,6 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
