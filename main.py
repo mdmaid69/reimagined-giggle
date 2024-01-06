@@ -1,6 +1,7 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
