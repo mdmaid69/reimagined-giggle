@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def count_elements(lst):
-        return len(lst)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import time
+def get_current_time():
+        return time.ctime()
