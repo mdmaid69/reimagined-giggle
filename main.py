@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
