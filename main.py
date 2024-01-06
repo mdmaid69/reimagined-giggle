@@ -1,6 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
