@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import logging
+def log_message(message):
+        logging.info(message)
+import collections
+def create_stack():
+        return collections.deque()
