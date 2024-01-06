@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def is_palindrome(s):
+        return s == s[::-1]
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
