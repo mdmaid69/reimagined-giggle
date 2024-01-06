@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
