@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def add_numbers(x, y):
+        return x + y
