@@ -1,5 +1,7 @@
-def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import platform
+def get_python_version():
+        return platform.python_version()
