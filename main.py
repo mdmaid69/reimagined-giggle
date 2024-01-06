@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import sys
+def exit_program():
+        sys.exit()
