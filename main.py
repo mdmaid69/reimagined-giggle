@@ -1,5 +1,6 @@
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def multiply_numbers(x, y):
-        return x * y
+def create_priority_queue():
+        return collections.deque()
