@@ -1,5 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
