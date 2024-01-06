@@ -1,5 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
