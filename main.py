@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import collections
+def create_stack():
+        return collections.deque()
