@@ -1,6 +1,7 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
