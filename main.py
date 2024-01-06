@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
