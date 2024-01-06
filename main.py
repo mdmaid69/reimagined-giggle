@@ -1,6 +1,5 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_force(mass, acceleration):
+        return mass * acceleration
