@@ -1,5 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
