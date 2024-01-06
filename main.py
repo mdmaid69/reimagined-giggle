@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
