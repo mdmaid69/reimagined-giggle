@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
