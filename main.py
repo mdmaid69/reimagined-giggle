@@ -1,4 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-print(sum(range(10)))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import getpass
+def get_username():
+        return getpass.getuser()
