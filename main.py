@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def add_numbers(a, b):
-        return a + b
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
