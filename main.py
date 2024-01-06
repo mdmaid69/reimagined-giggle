@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def convert_to_hex(n):
-        return hex(n)
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
