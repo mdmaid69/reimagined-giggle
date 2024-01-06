@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
