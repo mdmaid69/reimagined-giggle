@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import random
-def roll_die():
-        return random.randint(1, 6)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
