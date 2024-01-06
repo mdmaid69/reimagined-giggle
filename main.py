@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import collections
+def create_user_list():
+        return collections.UserList()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
