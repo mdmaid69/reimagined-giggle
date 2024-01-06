@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
