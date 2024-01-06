@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
