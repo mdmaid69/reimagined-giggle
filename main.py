@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import collections
-def create_priority_queue():
-        return collections.deque()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
