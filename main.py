@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def count_elements(lst):
-        return len(lst)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
