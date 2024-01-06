@@ -1,5 +1,7 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
