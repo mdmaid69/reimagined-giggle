@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import time
+print(time.time())
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
