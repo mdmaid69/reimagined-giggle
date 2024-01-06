@@ -1,6 +1,5 @@
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def get_array_length(array):
+        return len(array)
