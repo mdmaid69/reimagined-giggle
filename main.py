@@ -1,4 +1,8 @@
-for i in range(10): print(i)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
