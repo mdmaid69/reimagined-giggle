@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
