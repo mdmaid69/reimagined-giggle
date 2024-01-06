@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def reverse_array(array):
+        array.reverse()
