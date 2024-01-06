@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  def convert_to_binary(n):
-        return bin(n)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
