@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  def sort_list(lst):
-        return sorted(lst)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
