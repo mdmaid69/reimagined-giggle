@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def find_max(lst):
+        return max(lst)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
