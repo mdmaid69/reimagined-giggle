@@ -1,5 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
