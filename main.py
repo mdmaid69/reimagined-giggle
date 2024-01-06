@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+text = "Hello, world!"
+print("Uppercase:", text.upper())
