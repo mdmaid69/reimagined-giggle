@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
