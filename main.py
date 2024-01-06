@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
