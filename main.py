@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_length(array):
+        return len(array)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
