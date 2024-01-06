@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_index(array, item):
+        return array.index(item)
