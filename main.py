@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def convert_to_hex(n):
-        return hex(n)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
