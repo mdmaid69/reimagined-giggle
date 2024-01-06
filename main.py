@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
