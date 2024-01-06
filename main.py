@@ -1,6 +1,8 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
