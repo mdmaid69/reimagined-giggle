@@ -1,6 +1,4 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  def count_elements(lst):
+        return len(lst)
