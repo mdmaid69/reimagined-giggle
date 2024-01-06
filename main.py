@@ -1,8 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
