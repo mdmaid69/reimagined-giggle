@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
