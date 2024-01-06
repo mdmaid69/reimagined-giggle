@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-for i in range(5):
-        print(i)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
