@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def square_number(x):
+        return x**2
+import array
+def get_array_as_set(array):
+        return set(array)
