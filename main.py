@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
