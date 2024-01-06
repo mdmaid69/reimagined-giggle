@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  def convert_to_binary(n):
+        return bin(n)
