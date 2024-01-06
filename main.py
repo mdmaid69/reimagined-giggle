@@ -1,5 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+x = 10
+y = 20
+print("Sum:", x + y)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
