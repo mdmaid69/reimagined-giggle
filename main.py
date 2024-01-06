@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import array
+def get_array_as_str(array):
+        return str(array)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
