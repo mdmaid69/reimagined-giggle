@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
