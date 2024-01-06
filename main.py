@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import collections
-def create_counter():
-        return collections.Counter()
+import random
+def roll_die():
+        return random.randint(1, 6)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
