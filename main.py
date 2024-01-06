@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import array
-def reverse_array(array):
-        array.reverse()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def reverse_string(s):
+        return s[::-1]
