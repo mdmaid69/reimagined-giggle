@@ -1,7 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-i = 0
-while i < 5:
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+for i in range(5):
         print(i)
-        i += 1
