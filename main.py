@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
