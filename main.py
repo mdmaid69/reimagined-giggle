@@ -1,5 +1,8 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
