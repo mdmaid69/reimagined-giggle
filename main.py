@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
