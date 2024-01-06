@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def remove_duplicates(lst):
-        return list(set(lst))
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def sort_numbers(numbers):
+        return sorted(numbers)
