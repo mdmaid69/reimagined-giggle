@@ -1,5 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_power(work, time):
+        return work / time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
