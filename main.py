@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
