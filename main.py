@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
