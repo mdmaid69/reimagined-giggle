@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  def add_numbers(x, y):
-        return x + y
+def find_unique_words(sentence):
+        return set(sentence.split())
+def count_elements(lst):
+        return len(lst)
