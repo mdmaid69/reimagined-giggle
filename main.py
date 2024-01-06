@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
