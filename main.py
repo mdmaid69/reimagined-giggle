@@ -1,6 +1,4 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
