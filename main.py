@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
