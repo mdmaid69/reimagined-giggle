@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_acceleration(speed, time):
-        return speed / time
+for i in range(5):
+        print(i)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
