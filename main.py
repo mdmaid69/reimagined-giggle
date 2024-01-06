@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  def convert_to_octal(n):
+        return oct(n)
