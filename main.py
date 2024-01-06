@@ -1,6 +1,8 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
