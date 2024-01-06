@@ -1,5 +1,4 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+for i in range(10): print(i)
