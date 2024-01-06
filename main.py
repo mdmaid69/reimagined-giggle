@@ -1,6 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_base_name(path):
+        return os.path.basename(path)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
