@@ -1,5 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def convert_to_octal(n):
-        return oct(n)
+import sys
+print(sys.version)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
