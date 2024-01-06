@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
