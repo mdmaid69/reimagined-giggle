@@ -1,5 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_area_rectangle(l, w):
-        return l * w
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
