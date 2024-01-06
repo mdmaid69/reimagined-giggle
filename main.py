@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
