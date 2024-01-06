@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
