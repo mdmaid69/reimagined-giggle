@@ -1,10 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def reverse_list(lst):
+        return lst[::-1]
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
