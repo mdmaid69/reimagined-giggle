@@ -1,7 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def calculate_speed(distance, time):
+        return distance / time
