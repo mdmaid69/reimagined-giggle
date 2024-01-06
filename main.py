@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import sys
-  def get_python_version():
-        return sys.version
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
