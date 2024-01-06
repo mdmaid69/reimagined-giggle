@@ -1,5 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def subtract_numbers(x, y):
+        return x - y
