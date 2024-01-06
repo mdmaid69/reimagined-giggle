@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+x = 10
+y = 20
+print("Sum:", x + y)
