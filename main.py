@@ -1,6 +1,6 @@
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import sys
-def exit_program():
-        sys.exit()
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
