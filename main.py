@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def add_numbers(x, y):
+        return x + y
+import datetime
+def get_today_date():
+        return datetime.date.today()
