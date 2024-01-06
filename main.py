@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import time
+def get_current_time():
+        return time.time()
