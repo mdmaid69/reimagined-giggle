@@ -1,4 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-name = "Python"
-print("Hello,", name)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
