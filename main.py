@@ -1,7 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import random
+def roll_die():
+        return random.randint(1, 6)
