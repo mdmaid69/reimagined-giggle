@@ -1,5 +1,8 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
