@@ -1,6 +1,5 @@
+import math
+print(math.pi)
 import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def read_from_json(json_string):
+        return json.loads(json_string)
