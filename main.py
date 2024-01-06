@@ -1,11 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
