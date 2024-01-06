@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_speed(distance, time):
+        return distance / time
+import json
+def convert_to_json(data):
+        return json.dumps(data)
