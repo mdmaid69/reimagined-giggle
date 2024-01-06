@@ -1,7 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
