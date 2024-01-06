@@ -1,5 +1,10 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def find_min(lst):
-        return min(lst)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
