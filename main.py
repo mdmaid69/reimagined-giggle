@@ -1,7 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def is_even(n):
+        return n % 2 == 0
