@@ -1,8 +1,7 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
 import array
-def get_array_from_string(string, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.fromunicode(unicode)
         return a
+def calculate_power(work, time):
+        return work / time
