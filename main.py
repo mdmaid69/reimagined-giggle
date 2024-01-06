@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def subtract_numbers(x, y):
+        return x - y
