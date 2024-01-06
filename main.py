@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def find_max(numbers):
+        return max(numbers)
+import json
+print(json.dumps({"name": "John", "age": 30}))
