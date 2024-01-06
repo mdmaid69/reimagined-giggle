@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
