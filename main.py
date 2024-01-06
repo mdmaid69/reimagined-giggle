@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import array
+def get_array_as_set(array):
+        return set(array)
