@@ -1,5 +1,4 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-print([x**2 for x in range(10)])
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  def remove_duplicates(lst):
+        return list(set(lst))
