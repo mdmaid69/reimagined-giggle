@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
