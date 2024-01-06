@@ -1,6 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
