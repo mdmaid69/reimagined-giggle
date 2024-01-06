@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
