@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import time
-print(time.time())
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import tensorflow as tf
+print(tf.__version__)
