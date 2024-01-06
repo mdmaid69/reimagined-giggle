@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
