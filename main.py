@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import collections
+def create_user_list():
+        return collections.UserList()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
