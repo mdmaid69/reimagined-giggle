@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def get_array_as_bool(array):
+        return bool(array)
