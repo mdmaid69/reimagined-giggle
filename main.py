@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-def calculate_speed(distance, time):
-        return distance / time
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
