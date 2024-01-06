@@ -1,6 +1,5 @@
 import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def log_message(message):
+        logging.info(message)
+def calculate_density(mass, volume):
+        return mass / volume
