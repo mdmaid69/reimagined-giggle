@@ -1,5 +1,8 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import collections
+def create_user_string():
+        return collections.UserString()
