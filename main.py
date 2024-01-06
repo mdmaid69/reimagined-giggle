@@ -1,10 +1,6 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
