@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
