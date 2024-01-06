@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def get_array_item(array, i):
+        return array[i]
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
