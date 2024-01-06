@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-def calculate_power(work, time):
-        return work / time
+def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
