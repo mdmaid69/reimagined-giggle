@@ -1,5 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
