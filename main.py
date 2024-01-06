@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  def convert_to_binary(n):
-        return bin(n)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
