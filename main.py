@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
