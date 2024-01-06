@@ -1,7 +1,4 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
