@@ -1,5 +1,7 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_work(force, distance):
-        return force * distance
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
