@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import logging
+def log_message(message):
+        logging.info(message)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
