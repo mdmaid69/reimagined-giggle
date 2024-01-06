@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
