@@ -1,5 +1,4 @@
-import os
-print(os.getcwd())
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def convert_to_octal(n):
+        return oct(n)
+name = "Python"
+print("Hello,", name)
