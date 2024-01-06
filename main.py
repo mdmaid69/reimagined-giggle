@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def cube_number(x):
+        return x**3
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
