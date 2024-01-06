@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def count_words(sentence):
-        return len(sentence.split())
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
