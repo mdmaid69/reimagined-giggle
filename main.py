@@ -1,5 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
