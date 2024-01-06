@@ -1,5 +1,5 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_exponential(x):
+        return math.exp(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
