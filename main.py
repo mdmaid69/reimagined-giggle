@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def count_characters(sentence):
+        return len(sentence)
