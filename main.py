@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
