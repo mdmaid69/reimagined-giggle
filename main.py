@@ -1,5 +1,8 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def add_numbers(x, y):
-        return x + y
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
