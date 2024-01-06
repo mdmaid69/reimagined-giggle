@@ -1,4 +1,8 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-for i in range(5):
-        print(i)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
