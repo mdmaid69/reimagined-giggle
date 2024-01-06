@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def create_user_dict():
+        return collections.UserDict()
