@@ -1,5 +1,5 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  def convert_to_binary(n):
+        return bin(n)
