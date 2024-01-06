@@ -1,5 +1,7 @@
-  def square_number(x):
+def square_number(x):
         return x**2
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
