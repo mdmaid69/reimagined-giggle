@@ -1,6 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def square_number(x):
+        return x**2
