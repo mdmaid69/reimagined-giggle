@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def append_to_array(array, item):
+        array.append(item)
+def cube_number(x):
+        return x**3
