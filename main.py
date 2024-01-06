@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
