@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
