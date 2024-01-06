@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
