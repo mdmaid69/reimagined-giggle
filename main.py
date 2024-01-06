@@ -1,5 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
