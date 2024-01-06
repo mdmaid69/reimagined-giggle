@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import tensorflow as tf
+print(tf.__version__)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
