@@ -1,4 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
