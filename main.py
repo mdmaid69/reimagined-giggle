@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def add_numbers(x, y):
-        return x + y
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
