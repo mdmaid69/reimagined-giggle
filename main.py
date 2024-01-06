@@ -1,8 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
