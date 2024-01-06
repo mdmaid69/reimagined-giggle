@@ -1,6 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_work(force, distance):
+        return force * distance
