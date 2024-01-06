@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
