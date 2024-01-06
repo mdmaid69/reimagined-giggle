@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
