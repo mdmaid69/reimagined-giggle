@@ -1,6 +1,8 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import time
-def get_time_since_epoch():
-        return time.time()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
