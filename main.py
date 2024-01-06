@@ -1,6 +1,7 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
