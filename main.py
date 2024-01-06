@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
