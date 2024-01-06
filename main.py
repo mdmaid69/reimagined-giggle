@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
