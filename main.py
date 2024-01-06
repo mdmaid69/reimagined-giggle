@@ -1,7 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import platform
+def get_os_info():
+        return platform.uname()
+def convert_to_hex(n):
+        return hex(n)
