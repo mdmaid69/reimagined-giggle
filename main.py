@@ -1,5 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_exponential(x):
+        return math.exp(x)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
