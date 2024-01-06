@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
