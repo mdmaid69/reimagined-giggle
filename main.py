@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import datetime
+print(datetime.datetime.now())
