@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def find_min(lst):
+        return min(lst)
