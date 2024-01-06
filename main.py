@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def convert_to_binary(n):
+        return bin(n)
