@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import collections
-def create_user_string():
-        return collections.UserString()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
