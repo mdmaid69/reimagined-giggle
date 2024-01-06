@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import os
+def change_working_directory(path):
+        os.chdir(path)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
