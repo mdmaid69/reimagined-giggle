@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def count_words(sentence):
-        return len(sentence.split())
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
