@@ -1,5 +1,6 @@
+import collections
+def create_counter():
+        return collections.Counter()
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def calculate_power(work, time):
-        return work / time
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
