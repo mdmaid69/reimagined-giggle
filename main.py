@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
