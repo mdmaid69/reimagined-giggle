@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-def calculate_pressure(force, area):
-        return force / area
+  def cube_number(x):
+        return x**3
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
