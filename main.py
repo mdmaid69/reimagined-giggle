@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
