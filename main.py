@@ -1,5 +1,6 @@
+import array
+def get_string_from_array(array):
+        return array.tobytes()
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  def subtract_numbers(x, y):
-        return x - y
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
