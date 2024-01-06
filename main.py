@@ -1,6 +1,3 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  def convert_to_hex(n):
+        return hex(n)
+for i in range(10): print(i)
