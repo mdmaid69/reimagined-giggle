@@ -1,8 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
