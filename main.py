@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_density(mass, volume):
+        return mass / volume
