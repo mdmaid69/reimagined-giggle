@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
