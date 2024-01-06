@@ -1,8 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def calculate_speed(distance, time):
+        return distance / time
