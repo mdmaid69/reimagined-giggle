@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
