@@ -1,6 +1,7 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
