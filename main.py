@@ -1,7 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def convert_to_hex(n):
+        return hex(n)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
