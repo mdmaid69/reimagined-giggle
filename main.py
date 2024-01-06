@@ -1,5 +1,6 @@
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
