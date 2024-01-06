@@ -1,7 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_power(work, time):
+        return work / time
