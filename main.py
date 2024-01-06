@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def greet(name):
+        print(f"Hello, {name}!")
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
