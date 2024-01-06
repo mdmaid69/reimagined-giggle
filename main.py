@@ -1,5 +1,8 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
