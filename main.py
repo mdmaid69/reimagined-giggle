@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def sort_list(lst):
-        return sorted(lst)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
