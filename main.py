@@ -1,5 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-name = "Python"
-print("Hello,", name)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
