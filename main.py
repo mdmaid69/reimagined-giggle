@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_directory_name(path):
+        return os.path.dirname(path)
