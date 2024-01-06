@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
