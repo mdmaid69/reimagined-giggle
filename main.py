@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
