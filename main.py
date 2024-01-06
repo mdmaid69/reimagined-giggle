@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import tensorflow as tf
-print(tf.__version__)
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
