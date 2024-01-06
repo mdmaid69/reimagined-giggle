@@ -1,5 +1,7 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def convert_to_hex(n):
-        return hex(n)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
