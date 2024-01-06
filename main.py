@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
