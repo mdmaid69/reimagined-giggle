@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
