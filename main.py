@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
