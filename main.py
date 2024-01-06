@@ -1,3 +1,4 @@
-for i in range(10): print(i)
-def find_max(lst):
-        return max(lst)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def count_elements(lst):
+        return len(lst)
