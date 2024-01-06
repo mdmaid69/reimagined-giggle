@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def is_even(n):
+        return n % 2 == 0
