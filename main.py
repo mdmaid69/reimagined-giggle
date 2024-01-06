@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def reverse_string(s):
+        return s[::-1]
