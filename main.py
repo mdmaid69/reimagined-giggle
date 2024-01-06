@@ -1,6 +1,7 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def convert_array_to_string(array):
+        return array.tostring()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
