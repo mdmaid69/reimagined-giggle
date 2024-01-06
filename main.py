@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import array
+def reverse_array(array):
+        array.reverse()
+import getpass
+def get_username():
+        return getpass.getuser()
