@@ -1,5 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
