@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
 import sys
-def exit_program():
-        sys.exit()
+def add_to_python_path(path):
+        sys.path.append(path)
