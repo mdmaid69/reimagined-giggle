@@ -1,7 +1,7 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  def sort_list(lst):
+        return sorted(lst)
