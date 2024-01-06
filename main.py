@@ -1,6 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
