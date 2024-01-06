@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import collections
-def create_queue():
-        return collections.deque()
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
