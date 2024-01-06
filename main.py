@@ -1,6 +1,6 @@
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_arc_sine(x):
+        return math.asin(x)
