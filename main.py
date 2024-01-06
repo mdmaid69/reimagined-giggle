@@ -1,5 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_acceleration(speed, time):
-        return speed / time
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def sort_numbers(numbers):
+        return sorted(numbers)
