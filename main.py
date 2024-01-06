@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-import random
-print(random.randint(0, 100))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def clear_array(array):
+        array *= 0
