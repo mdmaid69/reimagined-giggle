@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def split_path(path):
+        return os.path.split(path)
