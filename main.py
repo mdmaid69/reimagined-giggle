@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  def convert_to_octal(n):
-        return oct(n)
+import sys
+print(sys.version)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
