@@ -1,6 +1,6 @@
+import collections
+def create_stack():
+        return collections.deque()
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
