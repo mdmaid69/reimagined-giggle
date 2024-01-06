@@ -1,7 +1,6 @@
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def calculate_variance(arr):
+        return np.var(arr)
