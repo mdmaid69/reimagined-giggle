@@ -1,6 +1,6 @@
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
