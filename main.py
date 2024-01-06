@@ -1,7 +1,7 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
