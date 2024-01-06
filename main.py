@@ -1,6 +1,7 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
