@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
