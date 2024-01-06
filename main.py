@@ -1,6 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
