@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
