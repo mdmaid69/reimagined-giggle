@@ -1,5 +1,8 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
