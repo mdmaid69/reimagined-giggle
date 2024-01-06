@@ -1,6 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def calculate_work(force, distance):
+        return force * distance
+  def multiply_numbers(x, y):
+        return x * y
