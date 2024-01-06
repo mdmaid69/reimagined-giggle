@@ -1,5 +1,8 @@
-import time
-def get_current_time():
-        return time.ctime()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
