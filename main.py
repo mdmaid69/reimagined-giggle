@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
