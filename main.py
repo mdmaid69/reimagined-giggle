@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
