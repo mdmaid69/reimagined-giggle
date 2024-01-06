@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_array_as_str(array):
+        return str(array)
