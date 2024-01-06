@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
