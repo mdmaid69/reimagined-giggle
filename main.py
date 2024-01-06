@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-from collections import Counter
-print(Counter("hello world"))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
