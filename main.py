@@ -1,8 +1,6 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
