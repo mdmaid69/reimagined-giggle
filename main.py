@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-import random
-print(random.randint(0, 100))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
