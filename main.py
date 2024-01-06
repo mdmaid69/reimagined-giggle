@@ -1,6 +1,8 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
