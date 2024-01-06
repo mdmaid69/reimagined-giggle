@@ -1,5 +1,7 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
