@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
