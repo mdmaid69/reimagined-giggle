@@ -1,5 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import collections
+def create_counter():
+        return collections.Counter()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
