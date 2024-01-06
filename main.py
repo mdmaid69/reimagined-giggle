@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
