@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def get_array_as_int(array):
+        return int(array[0])
