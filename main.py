@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
