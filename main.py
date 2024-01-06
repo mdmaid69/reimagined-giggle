@@ -1,5 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
