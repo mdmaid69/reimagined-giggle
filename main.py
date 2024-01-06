@@ -1,6 +1,6 @@
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
