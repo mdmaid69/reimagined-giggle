@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_array_as_set(array):
+        return set(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
