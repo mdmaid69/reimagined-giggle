@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
