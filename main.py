@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
