@@ -1,5 +1,9 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
