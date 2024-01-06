@@ -1,7 +1,5 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-def add_numbers(a, b):
-        return a + b
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
