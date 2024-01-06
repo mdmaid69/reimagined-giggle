@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+for i in range(10): print(i)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
