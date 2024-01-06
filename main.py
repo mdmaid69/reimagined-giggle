@@ -1,4 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-print([x**2 for x in range(10)])
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
