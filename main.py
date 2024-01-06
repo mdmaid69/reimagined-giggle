@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
