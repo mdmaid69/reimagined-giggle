@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def sort_list(lst):
+        return sorted(lst)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
