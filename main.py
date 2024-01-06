@@ -1,8 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
