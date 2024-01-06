@@ -1,6 +1,4 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_work(force, distance):
+        return force * distance
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
