@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
