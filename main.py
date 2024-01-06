@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
