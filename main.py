@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import random
+print(random.randint(0, 100))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
