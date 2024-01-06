@@ -1,4 +1,10 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_work(force, distance):
+        return force * distance
