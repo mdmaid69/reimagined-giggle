@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def append_to_array(array, item):
+        array.append(item)
