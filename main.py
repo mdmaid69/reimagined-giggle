@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
