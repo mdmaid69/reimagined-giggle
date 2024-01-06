@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
