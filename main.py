@@ -1,7 +1,6 @@
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
