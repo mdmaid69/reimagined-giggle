@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
