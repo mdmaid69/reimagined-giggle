@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
