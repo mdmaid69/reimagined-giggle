@@ -1,5 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
