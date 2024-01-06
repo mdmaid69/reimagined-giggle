@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
