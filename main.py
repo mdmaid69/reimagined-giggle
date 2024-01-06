@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
