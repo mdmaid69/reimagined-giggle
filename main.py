@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
