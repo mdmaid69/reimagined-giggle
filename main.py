@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
