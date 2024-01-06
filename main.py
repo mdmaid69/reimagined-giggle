@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import collections
-def create_stack():
-        return collections.deque()
+print(sum(range(10)))
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
