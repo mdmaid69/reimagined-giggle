@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
