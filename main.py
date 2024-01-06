@@ -1,8 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
