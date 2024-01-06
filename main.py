@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_pressure(force, area):
+        return force / area
