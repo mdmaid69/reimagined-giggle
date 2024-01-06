@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
