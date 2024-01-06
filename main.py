@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
