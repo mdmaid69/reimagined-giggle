@@ -1,5 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
