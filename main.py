@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import array
+def get_array_as_list(array):
+        return list(array)
