@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def convert_to_binary(n):
+        return bin(n)
+import array
+def reverse_array(array):
+        array.reverse()
