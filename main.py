@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import datetime
+def get_today_date():
+        return datetime.date.today()
