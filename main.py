@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
