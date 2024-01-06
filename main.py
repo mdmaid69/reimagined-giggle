@@ -1,6 +1,6 @@
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
