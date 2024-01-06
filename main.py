@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def clear_array(array):
+        array *= 0
