@@ -1,6 +1,6 @@
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
