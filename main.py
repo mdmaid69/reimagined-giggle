@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
