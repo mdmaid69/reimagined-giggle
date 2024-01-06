@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
