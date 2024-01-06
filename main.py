@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
