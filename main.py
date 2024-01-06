@@ -1,6 +1,10 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import math
+def calculate_tangent(x):
+        return math.tan(x)
