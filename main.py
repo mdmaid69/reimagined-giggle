@@ -1,4 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-print(sum(range(10)))
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
