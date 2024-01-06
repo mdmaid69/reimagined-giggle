@@ -1,5 +1,4 @@
-def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
