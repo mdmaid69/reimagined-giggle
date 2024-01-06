@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+x = 10
+y = 20
+print("Sum:", x + y)
+def is_odd(n):
+        return n % 2 != 0
