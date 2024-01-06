@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_str(array):
+        return str(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
