@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  def count_elements(lst):
-        return len(lst)
+import array
+def get_array_length(array):
+        return len(array)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
