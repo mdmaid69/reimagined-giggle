@@ -1,5 +1,4 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+for i in range(5):
+        print(i)
