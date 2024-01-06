@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
