@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import array
-def reverse_array(array):
-        array.reverse()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
