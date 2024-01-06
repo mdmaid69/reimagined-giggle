@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
