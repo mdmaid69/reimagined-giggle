@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_acceleration(speed, time):
+        return speed / time
