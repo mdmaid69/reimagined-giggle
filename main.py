@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
