@@ -1,5 +1,8 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
