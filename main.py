@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
