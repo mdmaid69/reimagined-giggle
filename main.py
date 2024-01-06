@@ -1,7 +1,11 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
