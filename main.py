@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
