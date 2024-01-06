@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import time
+def get_current_time():
+        return time.ctime()
