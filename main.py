@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+i = 0
+while i < 5:
+        print(i)
+        i += 1
