@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
