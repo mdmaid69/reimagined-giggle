@@ -1,8 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
