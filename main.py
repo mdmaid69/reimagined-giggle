@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
