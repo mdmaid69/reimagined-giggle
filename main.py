@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
