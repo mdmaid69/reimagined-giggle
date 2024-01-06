@@ -1,5 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def is_palindrome(s):
-        return s == s[::-1]
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
