@@ -1,6 +1,7 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
