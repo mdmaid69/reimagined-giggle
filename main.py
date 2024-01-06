@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_exponential(x):
+        return math.exp(x)
