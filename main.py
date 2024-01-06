@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
