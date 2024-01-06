@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def subtract_numbers(x, y):
+        return x - y
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
