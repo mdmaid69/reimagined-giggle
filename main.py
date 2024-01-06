@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import sys
-print(sys.version)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import random
+print(random.randint(0, 100))
