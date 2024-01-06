@@ -1,8 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
