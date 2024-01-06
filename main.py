@@ -1,8 +1,6 @@
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def get_string_from_array(array):
+        return array.tobytes()
