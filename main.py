@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
