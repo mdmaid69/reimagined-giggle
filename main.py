@@ -1,5 +1,7 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_density(mass, volume):
-        return mass / volume
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
