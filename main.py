@@ -1,4 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
