@@ -1,4 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-print(sum(range(10)))
+  import sys
+  def get_python_version():
+        return sys.version
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
