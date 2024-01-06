@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import collections
+def create_user_list():
+        return collections.UserList()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
