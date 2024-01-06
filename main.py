@@ -1,6 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def multiply_numbers(x, y):
+        return x * y
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
