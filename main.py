@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def reverse_string(s):
-        return s[::-1]
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
