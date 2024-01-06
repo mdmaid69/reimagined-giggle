@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  def add_numbers(x, y):
-        return x + y
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import time
+def get_current_time():
+        return time.ctime()
