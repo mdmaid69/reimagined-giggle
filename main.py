@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
