@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def reverse_array(array):
+        array.reverse()
