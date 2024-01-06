@@ -1,6 +1,5 @@
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def create_user_dict():
+        return collections.UserDict()
+  def count_elements(lst):
+        return len(lst)
