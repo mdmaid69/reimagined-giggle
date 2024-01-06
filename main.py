@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
