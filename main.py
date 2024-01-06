@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
