@@ -1,6 +1,8 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
