@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
