@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import array
+def reverse_array(array):
+        array.reverse()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
