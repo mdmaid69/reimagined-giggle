@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+text = "Hello, world!"
+print("Words:", len(text.split()))
