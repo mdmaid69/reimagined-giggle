@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import time
+def get_current_time():
+        return time.time()
