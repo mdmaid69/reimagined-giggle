@@ -1,4 +1,6 @@
-for i in range(10): print(i)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
