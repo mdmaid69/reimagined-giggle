@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import os
+def get_current_working_directory():
+        return os.getcwd()
