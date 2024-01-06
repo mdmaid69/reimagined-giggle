@@ -1,5 +1,5 @@
+def add_numbers(x, y):
+        return x + y
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
