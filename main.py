@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
