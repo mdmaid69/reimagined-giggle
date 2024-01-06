@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def is_odd(n):
+        return n % 2 != 0
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
