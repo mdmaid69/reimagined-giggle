@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  def add_numbers(x, y):
+        return x + y
