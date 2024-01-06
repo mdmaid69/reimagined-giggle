@@ -1,5 +1,6 @@
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
