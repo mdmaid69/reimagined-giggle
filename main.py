@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
