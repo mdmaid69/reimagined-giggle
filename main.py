@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_acceleration(speed, time):
+        return speed / time
+import collections
+def create_user_dict():
+        return collections.UserDict()
