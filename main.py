@@ -1,7 +1,7 @@
 import array
-def get_array_from_string(string, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.frombytes(bytes)
         return a
-def find_max(numbers):
-        return max(numbers)
+  def square_number(x):
+        return x**2
