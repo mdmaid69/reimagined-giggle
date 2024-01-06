@@ -1,6 +1,7 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def calculate_speed(distance, time):
+        return distance / time
