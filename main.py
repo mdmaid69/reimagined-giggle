@@ -1,6 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_error_function(x):
+        return math.erf(x)
+import sys
+def print_python_version():
+        print(sys.version)
