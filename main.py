@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
