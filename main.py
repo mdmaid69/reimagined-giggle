@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import time
-print(time.time())
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
