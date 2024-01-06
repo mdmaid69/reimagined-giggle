@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  def sort_list(lst):
-        return sorted(lst)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
