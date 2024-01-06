@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
