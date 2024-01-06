@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
