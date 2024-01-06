@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
