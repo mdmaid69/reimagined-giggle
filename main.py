@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
