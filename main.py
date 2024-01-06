@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def get_array_as_list(array):
+        return list(array)
