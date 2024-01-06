@@ -1,6 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
