@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
