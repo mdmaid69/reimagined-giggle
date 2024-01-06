@@ -1,5 +1,4 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+print([x**2 for x in range(10)])
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
