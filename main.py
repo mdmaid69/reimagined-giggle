@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def reverse_list(lst):
+        return lst[::-1]
