@@ -1,4 +1,5 @@
-import sys
-print(sys.version)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def convert_to_binary(n):
+        return bin(n)
