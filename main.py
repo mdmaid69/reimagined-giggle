@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def reverse_string(s):
-        return s[::-1]
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
