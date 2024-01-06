@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
