@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_bytes(array):
+        return bytes(array)
+import array
+def clear_array(array):
+        array *= 0
