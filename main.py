@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import numpy as np
+print(np.array([1, 2, 3]))
