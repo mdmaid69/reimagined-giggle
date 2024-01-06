@@ -1,11 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
