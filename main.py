@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def append_to_array(array, item):
+        array.append(item)
