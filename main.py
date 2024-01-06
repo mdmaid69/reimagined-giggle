@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
