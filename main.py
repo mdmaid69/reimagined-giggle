@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def convert_to_binary(n):
-        return bin(n)
+def get_list_from_array(array):
+        return array.tolist()
