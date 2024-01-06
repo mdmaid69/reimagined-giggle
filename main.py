@@ -1,6 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
