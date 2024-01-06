@@ -1,8 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def remove_duplicates(lst):
+        return list(set(lst))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
