@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import array
-def get_array_item(array, i):
-        return array[i]
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
