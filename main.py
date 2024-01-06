@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def insert_into_array(array, i, item):
+        array.insert(i, item)
