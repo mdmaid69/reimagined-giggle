@@ -1,5 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  def count_elements(lst):
-        return len(lst)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import platform
+def get_os_info():
+        return platform.uname()
