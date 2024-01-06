@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def multiply_numbers(x, y):
-        return x * y
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
