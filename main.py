@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
 import json
-def convert_to_json(data):
-        return json.dumps(data)
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def sort_numbers(numbers):
+        return sorted(numbers)
