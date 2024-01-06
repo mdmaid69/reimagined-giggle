@@ -1,7 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import time
+def get_current_time():
+        return time.time()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
