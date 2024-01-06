@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def is_palindrome(s):
+        return s == s[::-1]
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
