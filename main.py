@@ -1,4 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_power(work, time):
+        return work / time
+def calculate_average(lst):
+        return sum(lst) / len(lst)
