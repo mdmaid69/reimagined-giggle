@@ -1,6 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+print([x**2 for x in range(10)])
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
