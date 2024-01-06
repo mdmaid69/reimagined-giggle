@@ -1,5 +1,7 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
