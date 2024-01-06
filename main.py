@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
