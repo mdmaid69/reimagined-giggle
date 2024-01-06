@@ -1,4 +1,7 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
