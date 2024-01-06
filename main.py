@@ -1,7 +1,6 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
