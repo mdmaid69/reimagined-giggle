@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
