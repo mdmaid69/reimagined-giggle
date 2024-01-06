@@ -1,5 +1,6 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
