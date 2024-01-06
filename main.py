@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_as_list(array):
-        return list(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
