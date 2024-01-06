@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def remove_duplicates(lst):
+        return list(set(lst))
