@@ -1,6 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def cube_number(x):
+        return x**3
