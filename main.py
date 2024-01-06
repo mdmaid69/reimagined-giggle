@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
