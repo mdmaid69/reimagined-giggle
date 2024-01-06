@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-for i in range(5):
-        print(i)
+  def subtract_numbers(x, y):
+        return x - y
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
