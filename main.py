@@ -1,5 +1,4 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def convert_to_hex(n):
+        return hex(n)
+import numpy as np
+print(np.array([1, 2, 3]))
