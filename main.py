@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import sys
-  def get_python_version():
-        return sys.version
+def find_max(numbers):
+        return max(numbers)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
