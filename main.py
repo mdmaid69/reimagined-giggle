@@ -1,6 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
