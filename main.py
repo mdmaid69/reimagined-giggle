@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+print("Hello, world!")
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
