@@ -1,4 +1,4 @@
-def find_max(lst):
-        return max(lst)
-  def square_number(x):
-        return x**2
+def calculate_work(force, distance):
+        return force * distance
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
