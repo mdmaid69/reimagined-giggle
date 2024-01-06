@@ -1,6 +1,5 @@
+def remove_duplicates(lst):
+        return list(set(lst))
 import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def create_user_string():
+        return collections.UserString()
