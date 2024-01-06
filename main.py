@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def find_min(numbers):
-        return min(numbers)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  def cube_number(x):
+        return x**3
