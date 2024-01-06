@@ -1,7 +1,11 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
