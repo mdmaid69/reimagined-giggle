@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_work(force, distance):
+        return force * distance
