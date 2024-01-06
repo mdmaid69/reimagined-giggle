@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_area_circle(r):
+        return 3.14 * r**2
