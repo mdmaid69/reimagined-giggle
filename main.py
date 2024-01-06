@@ -1,5 +1,11 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
