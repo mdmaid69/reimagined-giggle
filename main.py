@@ -1,8 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
