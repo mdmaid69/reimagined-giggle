@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
