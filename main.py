@@ -1,5 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def is_even(n):
+        return n % 2 == 0
