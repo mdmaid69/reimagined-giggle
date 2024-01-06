@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-for i in range(5):
-        print(i)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
