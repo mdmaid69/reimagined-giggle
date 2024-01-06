@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-def find_max(lst):
-        return max(lst)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_sine(x):
+        return math.sin(x)
