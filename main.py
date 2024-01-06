@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def cube_number(x):
-        return x**3
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
