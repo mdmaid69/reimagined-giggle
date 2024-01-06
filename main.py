@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
