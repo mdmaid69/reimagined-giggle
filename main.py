@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def convert_to_hex(n):
+        return hex(n)
