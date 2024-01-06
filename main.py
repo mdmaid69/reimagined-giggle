@@ -1,9 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import os
+print(os.getcwd())
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
