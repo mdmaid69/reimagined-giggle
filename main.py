@@ -1,6 +1,6 @@
-for i in range(10): print(i)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
