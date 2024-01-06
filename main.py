@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
