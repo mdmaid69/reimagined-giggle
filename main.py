@@ -1,6 +1,8 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
