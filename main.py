@@ -1,6 +1,7 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def greet(name):
+        print(f"Hello, {name}!")
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
