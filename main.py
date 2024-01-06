@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def square_number(x):
-        return x**2
+  def calculate_area_rectangle(l, w):
+        return l * w
+import datetime
+print(datetime.datetime.now())
