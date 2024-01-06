@@ -1,7 +1,5 @@
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def extend_array(array, iterable):
+        array.extend(iterable)
