@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
