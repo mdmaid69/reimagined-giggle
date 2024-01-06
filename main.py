@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
