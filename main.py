@@ -1,5 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
