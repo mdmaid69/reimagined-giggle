@@ -1,6 +1,5 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  def convert_to_octal(n):
+        return oct(n)
