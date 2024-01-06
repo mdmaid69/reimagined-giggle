@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
