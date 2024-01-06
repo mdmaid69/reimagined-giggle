@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
