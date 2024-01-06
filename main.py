@@ -1,5 +1,5 @@
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def reverse_string(s):
-        return s[::-1]
+  def get_directory_name(path):
+        return os.path.dirname(path)
