@@ -1,8 +1,7 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
