@@ -1,4 +1,5 @@
 import math
-print(math.pi)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
