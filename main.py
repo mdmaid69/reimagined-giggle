@@ -1,6 +1,6 @@
+import array
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
