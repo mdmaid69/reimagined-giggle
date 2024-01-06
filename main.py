@@ -1,6 +1,5 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def extend_array(array, iterable):
+        array.extend(iterable)
+def is_odd(n):
+        return n % 2 != 0
