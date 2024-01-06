@@ -1,5 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def get_array_length(array):
+        return len(array)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
