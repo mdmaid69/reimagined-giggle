@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
