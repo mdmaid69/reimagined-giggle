@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
