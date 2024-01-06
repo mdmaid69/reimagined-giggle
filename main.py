@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import sys
+def exit_program():
+        sys.exit()
