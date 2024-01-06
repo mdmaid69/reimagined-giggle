@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
