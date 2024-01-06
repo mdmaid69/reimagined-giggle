@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  def is_even(n):
+        return n % 2 == 0
