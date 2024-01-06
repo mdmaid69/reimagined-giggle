@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
