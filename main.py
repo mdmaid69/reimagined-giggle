@@ -1,4 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def remove_duplicates(lst):
-        return list(set(lst))
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
