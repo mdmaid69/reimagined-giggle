@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_pressure(force, area):
+        return force / area
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
