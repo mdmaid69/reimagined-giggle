@@ -1,6 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
