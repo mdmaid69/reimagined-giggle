@@ -1,5 +1,6 @@
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def count_elements(lst):
-        return len(lst)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
