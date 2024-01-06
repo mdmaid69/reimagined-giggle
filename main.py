@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
+def find_min(lst):
+        return min(lst)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
