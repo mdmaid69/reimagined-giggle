@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
