@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_length(array):
+        return len(array)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
