@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def is_odd(n):
-        return n % 2 != 0
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def calculate_volume(length, width, height):
+        return length * width * height
