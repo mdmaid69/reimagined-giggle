@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
