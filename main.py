@@ -1,6 +1,5 @@
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
