@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def reverse_list(lst):
+        return lst[::-1]
+i = 0
+while i < 5:
+        print(i)
+        i += 1
