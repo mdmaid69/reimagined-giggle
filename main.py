@@ -1,8 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def add_numbers(x, y):
+        return x + y
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
