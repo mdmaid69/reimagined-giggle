@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
