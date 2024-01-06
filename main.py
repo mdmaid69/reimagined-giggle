@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
