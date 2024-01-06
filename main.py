@@ -1,4 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
