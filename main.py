@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  def convert_to_hex(n):
+        return hex(n)
