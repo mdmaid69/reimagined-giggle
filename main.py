@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def find_max(numbers):
+        return max(numbers)
+def calculate_speed(distance, time):
+        return distance / time
