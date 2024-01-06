@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
