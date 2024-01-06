@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import array
+def clear_array(array):
+        array *= 0
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
