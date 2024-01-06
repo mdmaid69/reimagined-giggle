@@ -1,5 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
