@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def reverse_string(s):
+        return s[::-1]
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
