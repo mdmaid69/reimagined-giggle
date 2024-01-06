@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
