@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import time
+def get_time_since_epoch():
+        return time.time()
 n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
