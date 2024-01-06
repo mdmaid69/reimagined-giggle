@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import tensorflow as tf
+print(tf.__version__)
