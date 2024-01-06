@@ -1,6 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def remove_duplicates(lst):
+        return list(set(lst))
+  def is_odd(n):
+        return n % 2 != 0
