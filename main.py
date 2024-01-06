@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
