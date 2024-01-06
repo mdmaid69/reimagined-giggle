@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def find_min(lst):
-        return min(lst)
+  def cube_number(x):
+        return x**3
+import sys
+def exit_program():
+        sys.exit()
