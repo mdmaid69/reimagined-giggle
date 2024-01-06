@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
