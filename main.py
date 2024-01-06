@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def clear_array(array):
+        array *= 0
