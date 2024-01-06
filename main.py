@@ -1,5 +1,8 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
