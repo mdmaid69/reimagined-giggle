@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
