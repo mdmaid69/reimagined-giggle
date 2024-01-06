@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
