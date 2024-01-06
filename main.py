@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
