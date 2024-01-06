@@ -1,6 +1,6 @@
   import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import logging
-def log_message(message):
-        logging.info(message)
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
