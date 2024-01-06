@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
