@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
