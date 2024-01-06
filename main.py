@@ -1,5 +1,5 @@
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
 import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def get_array_as_list(array):
+        return list(array)
