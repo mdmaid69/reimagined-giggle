@@ -1,7 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
