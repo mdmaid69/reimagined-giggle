@@ -1,11 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_irr(cash_flows):
-        rate = 0.1
-        for _ in range(100):
-        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-        if abs(npv) < 1e-6:
-                return rate
-        rate += 0.01
-        return None
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
