@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
