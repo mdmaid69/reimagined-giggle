@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
