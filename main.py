@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
