@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import datetime
+def get_today_date():
+        return datetime.date.today()
