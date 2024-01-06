@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
