@@ -1,6 +1,8 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def get_array_item(array, i):
+        return array[i]
