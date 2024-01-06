@@ -1,5 +1,8 @@
 import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def remove_duplicates(lst):
-        return list(set(lst))
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
