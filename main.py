@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
