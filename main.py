@@ -1,5 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_sine(x):
+        return math.sin(x)
