@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
