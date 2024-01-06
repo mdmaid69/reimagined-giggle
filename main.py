@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def cube_number(x):
-        return x**3
+  def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def get_array_index(array, item):
+        return array.index(item)
