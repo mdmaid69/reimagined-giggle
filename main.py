@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
