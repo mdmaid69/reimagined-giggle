@@ -1,5 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
