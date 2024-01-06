@@ -1,5 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
