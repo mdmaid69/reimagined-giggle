@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def subtract_numbers(x, y):
-        return x - y
+  def remove_duplicates(lst):
+        return list(set(lst))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
