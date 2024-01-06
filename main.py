@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_array_as_int(array):
+        return int(array[0])
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
