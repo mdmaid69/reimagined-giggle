@@ -1,5 +1,7 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  def cube_number(x):
-        return x**3
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
