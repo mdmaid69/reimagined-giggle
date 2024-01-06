@@ -1,7 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
