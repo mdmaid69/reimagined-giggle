@@ -1,4 +1,7 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
