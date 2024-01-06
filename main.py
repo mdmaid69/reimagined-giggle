@@ -1,6 +1,5 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_factorial(n):
+        return math.factorial(n)
+from collections import Counter
+print(Counter("hello world"))
