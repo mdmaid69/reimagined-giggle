@@ -1,6 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
