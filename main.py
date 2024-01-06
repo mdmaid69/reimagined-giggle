@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_work(force, distance):
-        return force * distance
+def convert_to_octal(n):
+        return oct(n)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
