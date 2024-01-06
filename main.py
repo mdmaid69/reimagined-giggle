@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def cube_number(x):
+        return x**3
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
