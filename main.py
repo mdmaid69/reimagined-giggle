@@ -1,6 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def convert_to_octal(n):
+        return oct(n)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
