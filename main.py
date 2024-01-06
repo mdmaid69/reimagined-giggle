@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
