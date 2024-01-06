@@ -1,6 +1,7 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
