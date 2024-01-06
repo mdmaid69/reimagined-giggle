@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
