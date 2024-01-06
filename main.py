@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import os
-print(os.getcwd())
+import array
+def get_array_as_str(array):
+        return str(array)
+import array
+def get_array_as_repr(array):
+        return repr(array)
