@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
