@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import array
+def get_array_as_set(array):
+        return set(array)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
