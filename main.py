@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import logging
+def log_message(message):
+        logging.info(message)
