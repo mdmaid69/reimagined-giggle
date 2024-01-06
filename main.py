@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
