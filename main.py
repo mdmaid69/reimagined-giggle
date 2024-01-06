@@ -1,8 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_pressure(force, area):
+        return force / area
+import sys
+def print_python_version():
+        print(sys.version)
