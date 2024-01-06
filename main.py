@@ -1,4 +1,5 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
