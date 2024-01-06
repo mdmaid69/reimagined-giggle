@@ -1,8 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import platform
+def get_python_version():
+        return platform.python_version()
