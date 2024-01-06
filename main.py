@@ -1,5 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
