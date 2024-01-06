@@ -1,7 +1,6 @@
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+def get_array_as_complex(array):
+        return complex(array[0])
