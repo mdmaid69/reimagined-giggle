@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
