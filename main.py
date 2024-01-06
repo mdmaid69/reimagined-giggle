@@ -1,6 +1,5 @@
+def greet(name):
+        print(f"Hello, {name}!")
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
