@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
