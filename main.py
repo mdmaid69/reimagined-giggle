@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
