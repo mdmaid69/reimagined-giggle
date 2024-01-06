@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import sys
-print(sys.version)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def find_max(lst):
+        return max(lst)
