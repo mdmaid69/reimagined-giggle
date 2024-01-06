@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def convert_to_hex(n):
+        return hex(n)
+import sys
+def print_python_version():
+        print(sys.version)
