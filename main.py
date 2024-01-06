@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
