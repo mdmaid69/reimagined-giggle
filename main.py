@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
