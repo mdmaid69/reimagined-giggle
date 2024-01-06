@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def is_palindrome(s):
+        return s == s[::-1]
 import collections
 def create_priority_queue():
         return collections.deque()
