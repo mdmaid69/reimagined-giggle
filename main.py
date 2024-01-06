@@ -1,6 +1,8 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
