@@ -1,5 +1,4 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import datetime
-print(datetime.datetime.now())
+from collections import Counter
+print(Counter("hello world"))
+def square_number(x):
+        return x**2
