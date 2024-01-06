@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
 import os
-def get_current_working_directory():
-        return os.getcwd()
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
