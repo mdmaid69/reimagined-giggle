@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import random
-print(random.randint(0, 100))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
