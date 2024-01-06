@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def convert_to_binary(n):
+        return bin(n)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
