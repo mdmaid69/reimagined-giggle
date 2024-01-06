@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
