@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
