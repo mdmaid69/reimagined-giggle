@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
