@@ -1,5 +1,8 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
