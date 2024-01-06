@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
