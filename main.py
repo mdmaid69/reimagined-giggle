@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
