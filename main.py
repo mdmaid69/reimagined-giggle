@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def convert_to_hex(n):
+        return hex(n)
+import array
+def clear_array(array):
+        array *= 0
