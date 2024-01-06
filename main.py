@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import platform
-def get_os_info():
-        return platform.uname()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
