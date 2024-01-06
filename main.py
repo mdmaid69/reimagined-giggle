@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
