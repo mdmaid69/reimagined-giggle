@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import collections
+def create_user_string():
+        return collections.UserString()
+def find_max(lst):
+        return max(lst)
