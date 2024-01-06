@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
