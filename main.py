@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
