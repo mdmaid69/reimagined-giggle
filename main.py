@@ -1,6 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def reverse_array(array):
-        array.reverse()
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
