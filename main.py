@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
