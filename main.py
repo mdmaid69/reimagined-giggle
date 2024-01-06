@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
