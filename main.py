@@ -1,5 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
