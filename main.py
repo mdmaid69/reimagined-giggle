@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
