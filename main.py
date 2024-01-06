@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_acceleration(speed, time):
-        return speed / time
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
