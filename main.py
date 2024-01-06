@@ -1,5 +1,9 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
