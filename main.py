@@ -1,6 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
