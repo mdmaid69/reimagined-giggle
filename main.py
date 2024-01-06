@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
