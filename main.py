@@ -1,6 +1,8 @@
-import array
-def get_array_as_list(array):
-        return list(array)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
