@@ -1,6 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import sys
+def print_python_version():
+        return sys.version
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
