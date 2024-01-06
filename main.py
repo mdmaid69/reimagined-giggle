@@ -1,5 +1,4 @@
-import sys
-print(sys.version)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
