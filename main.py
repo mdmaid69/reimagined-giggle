@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
