@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
