@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_density(mass, volume):
-        return mass / volume
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
