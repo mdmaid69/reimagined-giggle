@@ -1,5 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  def add_numbers(x, y):
-        return x + y
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
