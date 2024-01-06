@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_perpetuity(payment, rate):
+        return payment / rate
