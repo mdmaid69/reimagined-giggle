@@ -1,8 +1,7 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
