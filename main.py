@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import datetime
+def get_current_date():
+        return datetime.date.today()
