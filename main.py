@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
