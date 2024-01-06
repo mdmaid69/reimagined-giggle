@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import collections
+def create_stack():
+        return collections.deque()
