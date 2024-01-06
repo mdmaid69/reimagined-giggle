@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
