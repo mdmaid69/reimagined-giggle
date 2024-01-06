@@ -1,5 +1,5 @@
+def greet(name):
+        print(f"Hello, {name}!")
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-for i in range(5):
-        print(i)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
