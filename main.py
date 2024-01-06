@@ -1,5 +1,6 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def get_base_name(path):
+        return os.path.basename(path)
