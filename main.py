@@ -1,5 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
