@@ -1,5 +1,8 @@
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
