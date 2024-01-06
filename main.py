@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  def is_odd(n):
+        return n % 2 != 0
