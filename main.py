@@ -1,5 +1,5 @@
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
