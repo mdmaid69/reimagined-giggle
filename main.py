@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
