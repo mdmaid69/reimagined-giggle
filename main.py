@@ -1,5 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
