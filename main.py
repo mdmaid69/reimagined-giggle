@@ -1,6 +1,4 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
