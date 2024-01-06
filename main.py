@@ -1,5 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  def count_elements(lst):
-        return len(lst)
+def remove_duplicates(lst):
+        return list(set(lst))
+  def convert_to_binary(n):
+        return bin(n)
