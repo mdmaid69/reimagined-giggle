@@ -1,5 +1,4 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def reverse_string(s):
+        return s[::-1]
+def reverse_string(s):
+        return s[::-1]
