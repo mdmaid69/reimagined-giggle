@@ -1,4 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def count_words(sentence):
-        return len(sentence.split())
+def convert_to_binary(n):
+        return bin(n)
+import os
+print(os.getcwd())
