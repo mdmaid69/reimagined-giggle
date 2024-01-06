@@ -1,5 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def reverse_string(s):
+        return s[::-1]
