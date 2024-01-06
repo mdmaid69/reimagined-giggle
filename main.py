@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
