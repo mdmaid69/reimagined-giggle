@@ -1,8 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  def calculate_area_circle(r):
+        return 3.14 * r**2
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
