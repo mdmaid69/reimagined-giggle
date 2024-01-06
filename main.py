@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import random
+def roll_die():
+        return random.randint(1, 6)
