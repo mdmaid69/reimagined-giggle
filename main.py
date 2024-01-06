@@ -1,5 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def divide_numbers(x, y):
+        return x / y
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
