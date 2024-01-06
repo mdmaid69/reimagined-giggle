@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_acceleration(speed, time):
-        return speed / time
+import collections
+def create_user_list():
+        return collections.UserList()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
