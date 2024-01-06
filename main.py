@@ -1,5 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  def multiply_numbers(x, y):
-        return x * y
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
