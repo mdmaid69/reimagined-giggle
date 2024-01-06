@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def greet(name):
+        print(f"Hello, {name}!")
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
