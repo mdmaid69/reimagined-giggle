@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
