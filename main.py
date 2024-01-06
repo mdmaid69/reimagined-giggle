@@ -1,5 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
