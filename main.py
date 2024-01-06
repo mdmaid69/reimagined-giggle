@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+from collections import Counter
+print(Counter("hello world"))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
