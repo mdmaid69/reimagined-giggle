@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
