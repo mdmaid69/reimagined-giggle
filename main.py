@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
