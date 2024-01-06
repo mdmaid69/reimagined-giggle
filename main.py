@@ -1,5 +1,5 @@
+def convert_to_octal(n):
+        return oct(n)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def count_elements(lst):
-        return len(lst)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
