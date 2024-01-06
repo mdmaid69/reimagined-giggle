@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_speed(distance, time):
-        return distance / time
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import sys
+def exit_program():
+        sys.exit()
