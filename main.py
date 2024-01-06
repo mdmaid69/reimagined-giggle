@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  def remove_duplicates(lst):
+        return list(set(lst))
