@@ -1,6 +1,7 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
