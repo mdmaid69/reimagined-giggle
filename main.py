@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
