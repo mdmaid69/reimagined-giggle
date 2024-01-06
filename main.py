@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def convert_to_octal(n):
+        return oct(n)
