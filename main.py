@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import array
-def get_array_item(array, i):
-        return array[i]
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
