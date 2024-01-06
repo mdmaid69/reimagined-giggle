@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
