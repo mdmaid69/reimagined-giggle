@@ -1,6 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def remove_duplicates(lst):
+        return list(set(lst))
