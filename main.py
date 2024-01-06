@@ -1,5 +1,8 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
