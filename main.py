@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
