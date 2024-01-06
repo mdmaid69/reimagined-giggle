@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
