@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
