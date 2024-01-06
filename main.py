@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def calculate_speed(distance, time):
-        return distance / time
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
