@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
