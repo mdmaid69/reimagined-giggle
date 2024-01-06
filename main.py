@@ -1,8 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
