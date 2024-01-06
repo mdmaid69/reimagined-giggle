@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
   import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
