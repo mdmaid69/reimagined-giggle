@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def convert_to_hex(n):
+        return hex(n)
