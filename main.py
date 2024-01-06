@@ -1,7 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import platform
-def get_python_version():
-        return platform.python_version()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  def calculate_area_rectangle(l, w):
+        return l * w
