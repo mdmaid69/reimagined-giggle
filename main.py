@@ -1,4 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+for i in range(5):
+        print(i)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
