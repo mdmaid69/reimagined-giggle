@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
