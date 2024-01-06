@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
