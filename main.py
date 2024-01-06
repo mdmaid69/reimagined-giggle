@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import re
-print(re.match("h.*o", "hello world"))
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  def multiply_numbers(x, y):
+        return x * y
