@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
