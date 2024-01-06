@@ -1,4 +1,8 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
