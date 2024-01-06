@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def delete_file(file_name):
+        os.remove(file_name)
