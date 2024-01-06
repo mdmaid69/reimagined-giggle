@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
