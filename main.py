@@ -1,5 +1,5 @@
+name = "Python"
+print("Hello,", name)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
