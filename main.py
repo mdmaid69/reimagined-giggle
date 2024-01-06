@@ -1,8 +1,6 @@
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
