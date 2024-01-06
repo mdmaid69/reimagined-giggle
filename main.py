@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def is_odd(n):
+        return n % 2 != 0
+import sys
+def print_python_version():
+        print(sys.version)
