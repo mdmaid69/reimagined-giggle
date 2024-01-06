@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
