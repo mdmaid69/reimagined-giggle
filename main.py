@@ -1,5 +1,4 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import tensorflow as tf
+print(tf.__version__)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
