@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def is_even(n):
-        return n % 2 == 0
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
