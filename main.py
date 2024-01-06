@@ -1,5 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def subtract_numbers(x, y):
+        return x - y
+def cube_number(x):
+        return x**3
