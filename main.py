@@ -1,5 +1,8 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
