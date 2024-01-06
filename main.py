@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
