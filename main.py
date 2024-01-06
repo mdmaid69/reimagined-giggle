@@ -1,6 +1,6 @@
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_buffer_info(array):
+        return array.buffer_info()
