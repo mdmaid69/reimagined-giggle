@@ -1,7 +1,11 @@
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
 import array
-def convert_bytes_to_array(bytes, typecode):
+def get_array_from_file(filename, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
         return a
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
