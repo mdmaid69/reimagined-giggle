@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
