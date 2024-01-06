@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_absolute_value(x):
+        return math.fabs(x)
