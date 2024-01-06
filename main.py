@@ -1,5 +1,8 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import time
-print(time.time())
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
