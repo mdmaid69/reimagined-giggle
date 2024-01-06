@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
 import re
-def replace_pattern(pattern, replacement, string):
+def replace_all_occurrences(pattern, replacement, string):
         return re.sub(pattern, replacement, string)
+import array
+def reverse_array(array):
+        array.reverse()
