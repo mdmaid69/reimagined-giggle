@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
