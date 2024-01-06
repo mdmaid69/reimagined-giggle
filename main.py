@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import sys
-def exit_program():
-        sys.exit()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
