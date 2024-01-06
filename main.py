@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import random
+print(random.randint(0, 100))
