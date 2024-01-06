@@ -1,5 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import re
+print(re.match("h.*o", "hello world"))
+import math
+print(math.pi)
