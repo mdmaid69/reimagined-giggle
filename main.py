@@ -1,6 +1,5 @@
 import collections
-def create_counter():
-        return collections.Counter()
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def create_stack():
+        return collections.deque()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
