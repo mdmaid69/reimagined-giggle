@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import getpass
+def get_username():
+        return getpass.getuser()
+import random
+def roll_die():
+        return random.randint(1, 6)
