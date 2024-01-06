@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def get_array_item(array, i):
+        return array[i]
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
