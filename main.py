@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import sys
-def print_python_version():
-        return sys.version
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
