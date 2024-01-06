@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
