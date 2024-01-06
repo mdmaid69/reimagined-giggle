@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def get_array_as_list(array):
+        return list(array)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
