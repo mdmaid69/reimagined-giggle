@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_sign(x):
+        return math.copysign(1, x)
