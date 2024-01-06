@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import sys
-def print_python_version():
-        print(sys.version)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
