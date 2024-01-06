@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
