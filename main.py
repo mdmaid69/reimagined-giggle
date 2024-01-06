@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_pressure(force, area):
-        return force / area
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
