@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import collections
-def create_queue():
-        return collections.deque()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def divide_numbers(x, y):
+        return x / y
