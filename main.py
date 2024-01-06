@@ -1,6 +1,7 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
