@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def get_array_length(array):
-        return len(array)
+def find_max(lst):
+        return max(lst)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
