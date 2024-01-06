@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def cube_number(x):
+        return x**3
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
