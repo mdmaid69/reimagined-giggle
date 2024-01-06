@@ -1,5 +1,7 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
