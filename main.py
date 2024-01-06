@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
