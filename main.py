@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
