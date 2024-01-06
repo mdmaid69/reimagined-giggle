@@ -1,6 +1,8 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
