@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import sys
+def exit_program():
+        sys.exit()
