@@ -1,3 +1,6 @@
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
 def calculate_irr(cash_flows):
         rate = 0.1
         for _ in range(100):
@@ -6,6 +9,3 @@ def calculate_irr(cash_flows):
                 return rate
         rate += 0.01
         return None
-import array
-def set_array_item(array, i, item):
-        array[i] = item
