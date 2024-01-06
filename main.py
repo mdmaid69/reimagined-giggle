@@ -1,5 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
