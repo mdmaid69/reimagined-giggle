@@ -1,5 +1,8 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
