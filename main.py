@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
