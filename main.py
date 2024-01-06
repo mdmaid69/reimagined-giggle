@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
