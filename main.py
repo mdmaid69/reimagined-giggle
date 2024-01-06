@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
