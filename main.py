@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
