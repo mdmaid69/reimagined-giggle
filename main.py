@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import tensorflow as tf
-print(tf.__version__)
+import time
+print(time.time())
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
