@@ -1,4 +1,6 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import collections
+def create_counter():
+        return collections.Counter()
