@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def sort_numbers(numbers):
+        return sorted(numbers)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
