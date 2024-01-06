@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
