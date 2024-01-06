@@ -1,6 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def calculate_work(force, distance):
+        return force * distance
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
