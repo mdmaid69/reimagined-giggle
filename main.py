@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import logging
+def log_message(message):
+        logging.info(message)
+import time
+print(time.time())
