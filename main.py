@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
