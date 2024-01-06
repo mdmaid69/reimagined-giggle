@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def subtract_numbers(x, y):
-        return x - y
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import sys
+def exit_program():
+        sys.exit()
