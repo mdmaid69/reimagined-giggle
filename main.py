@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
