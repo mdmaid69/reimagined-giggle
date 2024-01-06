@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
