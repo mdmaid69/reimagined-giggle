@@ -1,7 +1,9 @@
-def calculate_work(force, distance):
-        return force * distance
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def is_palindrome(s):
+        return s == s[::-1]
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
