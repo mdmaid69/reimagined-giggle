@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
