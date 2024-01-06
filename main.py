@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_volume(length, width, height):
+        return length * width * height
