@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import os
+def get_current_working_directory():
+        return os.getcwd()
