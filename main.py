@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
