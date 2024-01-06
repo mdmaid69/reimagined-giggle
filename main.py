@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
