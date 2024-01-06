@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_area_rectangle(l, w):
+        return l * w
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
