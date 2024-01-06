@@ -1,6 +1,6 @@
+  import os
+  def get_current_directory():
+        return os.getcwd()
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
