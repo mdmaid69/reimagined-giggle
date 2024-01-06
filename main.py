@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
