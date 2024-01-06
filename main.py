@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
