@@ -1,6 +1,5 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def get_array_index(array, item):
+        return array.index(item)
+  def multiply_numbers(x, y):
+        return x * y
