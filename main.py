@@ -1,7 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
