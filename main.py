@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  def is_even(n):
+        return n % 2 == 0
