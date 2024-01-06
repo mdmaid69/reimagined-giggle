@@ -1,4 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
