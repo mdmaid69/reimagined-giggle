@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
