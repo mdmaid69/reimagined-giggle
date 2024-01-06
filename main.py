@@ -1,5 +1,7 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import array
-def reverse_array(array):
-        array.reverse()
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
