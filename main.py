@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+text = "Hello, world!"
+print("Characters:", len(text))
