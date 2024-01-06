@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+text = "Hello, world!"
+print("Characters:", len(text))
