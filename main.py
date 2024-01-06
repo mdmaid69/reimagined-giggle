@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def add_numbers(a, b):
+        return a + b
+i = 0
+while i < 5:
+        print(i)
+        i += 1
