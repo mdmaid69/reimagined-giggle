@@ -1,5 +1,8 @@
-def sort_list(lst):
-        return sorted(lst)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
