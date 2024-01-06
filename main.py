@@ -1,5 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def convert_to_binary(n):
-        return bin(n)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def divide_numbers(x, y):
+        return x / y
