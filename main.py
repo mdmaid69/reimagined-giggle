@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
