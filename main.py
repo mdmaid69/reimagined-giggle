@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import re
+print(re.match("h.*o", "hello world"))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
