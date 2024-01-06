@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def count_characters(sentence):
-        return len(sentence)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
