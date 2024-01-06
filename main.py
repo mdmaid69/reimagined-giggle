@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
