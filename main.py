@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  def add_numbers(x, y):
-        return x + y
+def calculate_pressure(force, area):
+        return force / area
+import os
+def change_working_directory(path):
+        os.chdir(path)
