@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import time
+def get_current_time():
+        return time.time()
