@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def find_min(lst):
+        return min(lst)
 import array
-def get_array_item(array, i):
-        return array[i]
+def clear_array(array):
+        array *= 0
