@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
