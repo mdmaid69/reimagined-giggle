@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
