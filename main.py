@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
