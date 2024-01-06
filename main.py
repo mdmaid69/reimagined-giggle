@@ -1,6 +1,8 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
