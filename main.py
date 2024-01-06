@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
