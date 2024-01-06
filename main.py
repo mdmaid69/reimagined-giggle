@@ -1,5 +1,8 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
