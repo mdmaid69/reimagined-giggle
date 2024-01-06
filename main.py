@@ -1,4 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
