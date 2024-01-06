@@ -1,4 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
