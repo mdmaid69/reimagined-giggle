@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
