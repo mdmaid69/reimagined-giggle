@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
