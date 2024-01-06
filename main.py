@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import collections
+def create_user_string():
+        return collections.UserString()
