@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import sys
+def exit_program():
+        sys.exit()
