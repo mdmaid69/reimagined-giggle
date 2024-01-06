@@ -1,6 +1,5 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def get_array_item(array, i):
+        return array[i]
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
