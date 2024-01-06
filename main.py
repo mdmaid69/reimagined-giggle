@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_user_string():
+        return collections.UserString()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
