@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import array
+def get_list_from_array(array):
+        return array.tolist()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
