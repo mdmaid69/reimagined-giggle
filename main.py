@@ -1,6 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
