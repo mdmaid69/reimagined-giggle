@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
