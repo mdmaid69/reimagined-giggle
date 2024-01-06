@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  def count_elements(lst):
-        return len(lst)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
