@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
