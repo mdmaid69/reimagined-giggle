@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import sys
+print(sys.version)
