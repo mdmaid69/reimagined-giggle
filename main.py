@@ -1,5 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
