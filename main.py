@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
