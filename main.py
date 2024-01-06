@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import time
+def get_current_time():
+        return time.ctime()
+import random
+print(random.randint(0, 100))
