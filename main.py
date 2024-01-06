@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import collections
+def create_priority_queue():
+        return collections.deque()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
