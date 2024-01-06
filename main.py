@@ -1,5 +1,8 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import sys
-print(sys.version)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
