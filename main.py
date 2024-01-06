@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_power(work, time):
+        return work / time
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
