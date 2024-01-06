@@ -1,5 +1,8 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
