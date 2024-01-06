@@ -1,6 +1,6 @@
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
