@@ -1,6 +1,6 @@
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import platform
-def get_python_version():
-        return platform.python_version()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
