@@ -1,5 +1,5 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
