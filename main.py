@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
