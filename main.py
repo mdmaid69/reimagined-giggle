@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_density(mass, volume):
+        return mass / volume
