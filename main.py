@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def square_number(x):
+        return x**2
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
