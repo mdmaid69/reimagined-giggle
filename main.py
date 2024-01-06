@@ -1,4 +1,3 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def convert_to_hex(n):
-        return hex(n)
+print([x**2 for x in range(10)])
+from collections import Counter
+print(Counter("hello world"))
