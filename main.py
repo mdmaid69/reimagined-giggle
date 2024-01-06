@@ -1,4 +1,6 @@
-print(sum(range(10)))
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
