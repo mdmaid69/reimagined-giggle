@@ -1,6 +1,4 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+from collections import Counter
+print(Counter("hello world"))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
