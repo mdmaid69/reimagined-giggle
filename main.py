@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-from collections import Counter
-print(Counter("hello world"))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
