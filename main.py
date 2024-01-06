@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
