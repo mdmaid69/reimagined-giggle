@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
