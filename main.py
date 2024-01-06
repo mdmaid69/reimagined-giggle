@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_array_index(array, item):
+        return array.index(item)
