@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
