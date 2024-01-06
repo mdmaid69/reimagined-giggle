@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
