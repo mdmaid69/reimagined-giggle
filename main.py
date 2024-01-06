@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
