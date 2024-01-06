@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
