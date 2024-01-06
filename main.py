@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  def convert_to_octal(n):
+        return oct(n)
