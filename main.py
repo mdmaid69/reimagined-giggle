@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
