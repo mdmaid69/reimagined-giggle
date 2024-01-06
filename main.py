@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import array
-def get_array_as_list(array):
-        return list(array)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
