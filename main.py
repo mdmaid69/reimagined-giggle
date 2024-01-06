@@ -1,5 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def add_numbers(a, b):
-        return a + b
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
