@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def reverse_string(s):
+        return s[::-1]
