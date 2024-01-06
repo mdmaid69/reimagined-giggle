@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
