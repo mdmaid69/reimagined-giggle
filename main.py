@@ -1,8 +1,4 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_area_rectangle(l, w):
+        return l * w
+def subtract_numbers(x, y):
+        return x - y
