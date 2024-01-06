@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
