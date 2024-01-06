@@ -1,6 +1,9 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import collections
+def create_counter():
+        return collections.Counter()
