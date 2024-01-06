@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_acceleration(speed, time):
+        return speed / time
