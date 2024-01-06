@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
