@@ -1,5 +1,11 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def is_even(n):
-        return n % 2 == 0
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
