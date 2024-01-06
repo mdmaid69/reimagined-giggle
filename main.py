@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
