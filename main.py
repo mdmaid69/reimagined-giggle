@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
