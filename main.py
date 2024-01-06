@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  def cube_number(x):
+        return x**3
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
