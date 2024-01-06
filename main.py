@@ -1,5 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import sys
-print(sys.version)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import logging
+def log_message(message):
+        logging.info(message)
