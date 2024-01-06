@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def reverse_array(array):
+        array.reverse()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
