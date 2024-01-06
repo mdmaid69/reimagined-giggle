@@ -1,6 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
