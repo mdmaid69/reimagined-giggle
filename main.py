@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
