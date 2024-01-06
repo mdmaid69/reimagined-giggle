@@ -1,5 +1,7 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import time
+def get_current_time():
+        return time.time()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
