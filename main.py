@@ -1,6 +1,5 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+print(math.pi)
