@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
