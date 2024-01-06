@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
