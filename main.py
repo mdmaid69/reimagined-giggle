@@ -1,4 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  def is_odd(n):
-        return n % 2 != 0
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
