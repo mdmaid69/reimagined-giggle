@@ -1,6 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def append_to_array(array, item):
-        array.append(item)
+def subtract_numbers(x, y):
+        return x - y
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
