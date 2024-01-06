@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_work(force, distance):
+        return force * distance
