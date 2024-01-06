@@ -1,5 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def cube_number(x):
+def cube_number(x):
         return x**3
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
