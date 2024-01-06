@@ -1,6 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import tensorflow as tf
+print(tf.__version__)
+import sys
+print(sys.version)
