@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import tensorflow as tf
-print(tf.__version__)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import collections
+def create_priority_queue():
+        return collections.deque()
