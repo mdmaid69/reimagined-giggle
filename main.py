@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
