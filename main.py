@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def find_min(numbers):
-        return min(numbers)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
