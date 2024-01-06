@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def find_max(numbers):
+        return max(numbers)
+text = "Hello, world!"
+print("Characters:", len(text))
