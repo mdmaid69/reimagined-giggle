@@ -1,6 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def sort_list(lst):
+        return sorted(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
