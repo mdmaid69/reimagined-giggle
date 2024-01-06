@@ -1,8 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def remove_duplicates(lst):
+        return list(set(lst))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
