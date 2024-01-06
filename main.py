@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import datetime
+def get_today_date():
+        return datetime.date.today()
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
