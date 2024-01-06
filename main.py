@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
