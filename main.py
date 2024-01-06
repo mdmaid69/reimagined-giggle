@@ -1,9 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
