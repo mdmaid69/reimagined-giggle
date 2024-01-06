@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+for i in range(5):
+        print(i)
