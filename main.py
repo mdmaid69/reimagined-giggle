@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def square_number(x):
+        return x**2
+def is_palindrome(s):
+        return s == s[::-1]
