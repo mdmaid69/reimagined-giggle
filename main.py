@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def count_words(sentence):
-        return len(sentence.split())
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
