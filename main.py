@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
