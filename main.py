@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
