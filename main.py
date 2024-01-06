@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import random
-print(random.randint(0, 100))
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
