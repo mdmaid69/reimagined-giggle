@@ -1,7 +1,11 @@
-import socket
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import threading
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
