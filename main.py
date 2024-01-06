@@ -1,7 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def remove_duplicates(lst):
+        return list(set(lst))
