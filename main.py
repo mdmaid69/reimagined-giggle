@@ -1,5 +1,6 @@
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def is_odd(n):
-        return n % 2 != 0
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
