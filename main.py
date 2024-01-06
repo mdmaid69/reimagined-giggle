@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def find_unique_words(sentence):
+        return set(sentence.split())
