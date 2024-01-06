@@ -1,6 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def convert_to_binary(n):
+        return bin(n)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
