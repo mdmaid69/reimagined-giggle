@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import platform
-def get_python_version():
-        return platform.python_version()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
