@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
