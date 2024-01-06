@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-x = 10
-y = 20
-print("Sum:", x + y)
+  def multiply_numbers(x, y):
+        return x * y
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
