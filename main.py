@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
