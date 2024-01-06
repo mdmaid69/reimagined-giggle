@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import getpass
+def get_username():
+        return getpass.getuser()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
