@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
