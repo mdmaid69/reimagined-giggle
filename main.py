@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  def convert_to_hex(n):
+        return hex(n)
