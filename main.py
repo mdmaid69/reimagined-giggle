@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def reverse_array(array):
+        array.reverse()
+import collections
+def create_user_dict():
+        return collections.UserDict()
