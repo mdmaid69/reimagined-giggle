@@ -1,6 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
