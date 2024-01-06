@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
