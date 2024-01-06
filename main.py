@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def reverse_string(s):
+        return s[::-1]
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
