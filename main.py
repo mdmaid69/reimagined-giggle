@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
