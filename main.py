@@ -1,6 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def square_number(x):
+        return x**2
