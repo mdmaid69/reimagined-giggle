@@ -1,5 +1,4 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_force(mass, acceleration):
+        return mass * acceleration
