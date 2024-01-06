@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
