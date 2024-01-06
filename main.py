@@ -1,6 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  def remove_duplicates(lst):
+        return list(set(lst))
