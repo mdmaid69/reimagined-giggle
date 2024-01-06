@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
