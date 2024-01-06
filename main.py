@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import time
+def get_current_time():
+        return time.ctime()
