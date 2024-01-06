@@ -1,7 +1,8 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
