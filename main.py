@@ -1,5 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
