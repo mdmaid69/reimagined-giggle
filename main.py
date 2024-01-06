@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
