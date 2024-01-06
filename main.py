@@ -1,5 +1,6 @@
+def calculate_pressure(force, area):
+        return force / area
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-def remove_duplicates(lst):
-        return list(set(lst))
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
