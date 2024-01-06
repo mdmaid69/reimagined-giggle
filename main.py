@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
