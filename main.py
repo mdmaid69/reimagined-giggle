@@ -1,5 +1,6 @@
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import numpy as np
-print(np.array([1, 2, 3]))
+  def delete_file(file_name):
+        os.remove(file_name)
