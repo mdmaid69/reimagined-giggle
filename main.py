@@ -1,6 +1,5 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_factorial(n):
+        return math.factorial(n)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
