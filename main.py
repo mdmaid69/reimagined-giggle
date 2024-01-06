@@ -1,5 +1,8 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
