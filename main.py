@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
