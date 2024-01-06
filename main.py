@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
