@@ -1,6 +1,11 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import collections
-def create_queue():
-        return collections.deque()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def sort_numbers(numbers):
+        return sorted(numbers)
