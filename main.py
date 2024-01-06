@@ -1,5 +1,8 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
