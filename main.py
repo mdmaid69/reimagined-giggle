@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_tuple(array):
+        return tuple(array)
