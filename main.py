@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-print(math.pi)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import random
+def roll_die():
+        return random.randint(1, 6)
