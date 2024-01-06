@@ -1,5 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_speed(distance, time):
-        return distance / time
+def subtract_numbers(x, y):
+        return x - y
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
