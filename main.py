@@ -1,5 +1,5 @@
+  def is_even(n):
+        return n % 2 == 0
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
