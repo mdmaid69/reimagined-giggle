@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
