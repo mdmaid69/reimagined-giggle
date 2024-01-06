@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
