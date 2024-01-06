@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
