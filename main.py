@@ -1,8 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
