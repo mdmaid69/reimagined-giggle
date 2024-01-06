@@ -1,5 +1,11 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
