@@ -1,5 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_work(force, distance):
+        return force * distance
+def convert_to_octal(n):
+        return oct(n)
