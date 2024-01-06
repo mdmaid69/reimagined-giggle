@@ -1,6 +1,7 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
