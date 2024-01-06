@@ -1,4 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
