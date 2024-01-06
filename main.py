@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
