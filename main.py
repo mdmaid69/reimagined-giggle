@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
