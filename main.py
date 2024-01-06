@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def is_odd(n):
+        return n % 2 != 0
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
