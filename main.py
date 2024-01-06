@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
