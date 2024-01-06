@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
