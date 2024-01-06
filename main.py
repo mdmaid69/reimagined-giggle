@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
