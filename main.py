@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
