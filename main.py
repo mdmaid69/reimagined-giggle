@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+from collections import Counter
+print(Counter("hello world"))
+import array
+def get_array_as_str(array):
+        return str(array)
