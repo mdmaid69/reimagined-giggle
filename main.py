@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def sort_numbers(numbers):
-        return sorted(numbers)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
