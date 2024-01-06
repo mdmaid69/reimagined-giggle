@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+from collections import Counter
+print(Counter("hello world"))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
