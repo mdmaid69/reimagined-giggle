@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
