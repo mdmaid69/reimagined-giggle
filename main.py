@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
