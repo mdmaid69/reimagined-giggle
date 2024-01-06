@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import re
+print(re.match("h.*o", "hello world"))
