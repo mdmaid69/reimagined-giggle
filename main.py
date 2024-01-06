@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
