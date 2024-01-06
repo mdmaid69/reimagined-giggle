@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
