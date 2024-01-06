@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def convert_to_octal(n):
-        return oct(n)
+import datetime
+print(datetime.datetime.now())
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
