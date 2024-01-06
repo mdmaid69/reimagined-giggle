@@ -1,6 +1,6 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def clear_array(array):
+        array *= 0
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
