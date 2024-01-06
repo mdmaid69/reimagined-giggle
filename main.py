@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import collections
-def create_user_list():
-        return collections.UserList()
+from collections import Counter
+print(Counter("hello world"))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
