@@ -1,7 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
