@@ -1,5 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def is_palindrome(s):
+        return s == s[::-1]
