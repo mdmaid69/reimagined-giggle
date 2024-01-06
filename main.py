@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
