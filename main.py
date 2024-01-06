@@ -1,6 +1,7 @@
-import time
-def get_current_time():
-        return time.time()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
