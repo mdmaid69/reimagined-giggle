@@ -1,5 +1,8 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
