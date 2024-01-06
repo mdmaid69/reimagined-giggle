@@ -1,7 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import os
-print(os.getcwd())
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
