@@ -1,5 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def add_numbers(x, y):
+        return x + y
+  def cube_number(x):
+        return x**3
