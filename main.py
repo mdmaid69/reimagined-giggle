@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def convert_to_hex(n):
+        return hex(n)
