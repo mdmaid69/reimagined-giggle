@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+for i in range(10): print(i)
