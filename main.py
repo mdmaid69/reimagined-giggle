@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_density(mass, volume):
+        return mass / volume
