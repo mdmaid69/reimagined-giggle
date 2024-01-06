@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def count_characters(sentence):
+        return len(sentence)
+import collections
+def create_queue():
+        return collections.deque()
