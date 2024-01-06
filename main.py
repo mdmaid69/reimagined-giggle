@@ -1,5 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
