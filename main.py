@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
