@@ -1,6 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+print([x**2 for x in range(10)])
