@@ -1,6 +1,6 @@
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
