@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
