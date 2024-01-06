@@ -1,3 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-print([x**2 for x in range(10)])
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+def calculate_speed(distance, time):
+        return distance / time
