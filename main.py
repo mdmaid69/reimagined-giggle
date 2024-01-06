@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
