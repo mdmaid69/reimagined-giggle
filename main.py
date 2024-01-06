@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import tensorflow as tf
-print(tf.__version__)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import os
+print(os.getcwd())
