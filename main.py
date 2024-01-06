@@ -1,8 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
