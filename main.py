@@ -1,8 +1,6 @@
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  def get_base_name(path):
+        return os.path.basename(path)
