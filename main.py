@@ -1,5 +1,7 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
