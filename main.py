@@ -1,5 +1,7 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_length(array):
-        return len(array)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
