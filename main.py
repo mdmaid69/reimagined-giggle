@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import platform
-def get_python_version():
-        return platform.python_version()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
