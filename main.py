@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
