@@ -1,4 +1,5 @@
-print("Hello, world!")
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_square_root(x):
+        return math.sqrt(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
