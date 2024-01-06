@@ -1,6 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
