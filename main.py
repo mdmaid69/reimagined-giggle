@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import array
+def reverse_array(array):
+        array.reverse()
