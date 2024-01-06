@@ -1,6 +1,8 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
