@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import collections
-def create_stack():
-        return collections.deque()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_as_float(array):
+        return float(array[0])
