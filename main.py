@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
