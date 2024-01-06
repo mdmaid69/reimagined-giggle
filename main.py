@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def get_array_as_list(array):
+        return list(array)
