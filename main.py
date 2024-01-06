@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
