@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+def calculate_speed(distance, time):
+        return distance / time
