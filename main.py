@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
