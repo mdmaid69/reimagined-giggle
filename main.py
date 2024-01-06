@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def square_number(x):
+        return x**2
+import sys
+def print_python_version():
+        print(sys.version)
