@@ -1,9 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import xml.etree.ElementTree as ET
-root = ET.Element("root")
-doc = ET.SubElement(root, "doc")
-ET.SubElement(doc, "field1", name="blah").text = "some value1"
-ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
-tree = ET.ElementTree(root)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
