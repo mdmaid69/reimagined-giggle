@@ -1,5 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def is_even(n):
+        return n % 2 == 0
