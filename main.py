@@ -1,5 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import sys
+print(sys.version)
