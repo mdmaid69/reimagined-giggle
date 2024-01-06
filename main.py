@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
