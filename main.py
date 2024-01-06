@@ -1,5 +1,4 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+for i in range(10): print(i)
+import array
+def get_list_from_array(array):
+        return array.tolist()
