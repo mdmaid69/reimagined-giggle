@@ -1,5 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def find_min(lst):
-        return min(lst)
+def get_array_length(array):
+        return len(array)
