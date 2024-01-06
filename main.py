@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  def is_odd(n):
-        return n % 2 != 0
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
