@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import platform
+def get_python_version():
+        return platform.python_version()
