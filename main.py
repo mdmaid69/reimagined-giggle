@@ -1,7 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def square_number(x):
-        return x**2
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
