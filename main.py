@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def convert_to_octal(n):
+        return oct(n)
+import collections
+def create_counter():
+        return collections.Counter()
