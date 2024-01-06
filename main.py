@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
