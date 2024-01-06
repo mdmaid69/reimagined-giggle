@@ -1,6 +1,5 @@
+def cube_number(x):
+        return x**3
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
