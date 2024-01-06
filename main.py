@@ -1,5 +1,7 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
