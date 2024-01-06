@@ -1,6 +1,5 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_acceleration(speed, time):
+        return speed / time
