@@ -1,4 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-  def subtract_numbers(x, y):
-        return x - y
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
