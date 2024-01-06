@@ -1,8 +1,6 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
