@@ -1,5 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def multiply_numbers(x, y):
-        return x * y
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
