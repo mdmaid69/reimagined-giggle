@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
