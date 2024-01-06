@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
