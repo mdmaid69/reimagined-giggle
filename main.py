@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
