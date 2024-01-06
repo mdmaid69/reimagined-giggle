@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  def multiply_numbers(x, y):
-        return x * y
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
