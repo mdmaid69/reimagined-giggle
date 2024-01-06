@@ -1,5 +1,11 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import sys
+def exit_program():
+        sys.exit()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
