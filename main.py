@@ -1,5 +1,7 @@
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def convert_to_octal(n):
-        return oct(n)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  def add_numbers(x, y):
+        return x + y
