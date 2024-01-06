@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_density(mass, volume):
+        return mass / volume
