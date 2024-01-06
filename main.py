@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_item(array, i):
+        return array[i]
