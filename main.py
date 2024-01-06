@@ -1,5 +1,5 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  def get_directory_name(path):
+        return os.path.dirname(path)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
