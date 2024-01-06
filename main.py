@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
