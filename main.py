@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def find_min(lst):
-        return min(lst)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
