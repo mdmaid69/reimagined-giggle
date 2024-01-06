@@ -1,5 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_density(mass, volume):
-        return mass / volume
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
