@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
