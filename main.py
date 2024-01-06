@@ -1,5 +1,7 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
