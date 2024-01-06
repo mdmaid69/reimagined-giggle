@@ -1,8 +1,9 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_cosine(x):
+        return math.cos(x)
 import array
-def get_array_from_bytes(bytes, typecode):
+def get_array_from_file(filename, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
         return a
