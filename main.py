@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import json
-print(json.dumps({"name": "John", "age": 30}))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
