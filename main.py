@@ -1,5 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
