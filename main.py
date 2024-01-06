@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def find_unique_words(sentence):
+        return set(sentence.split())
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
