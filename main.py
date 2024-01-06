@@ -1,6 +1,5 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def extend_array(array, iterable):
+        array.extend(iterable)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
