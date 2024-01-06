@@ -1,6 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def convert_to_binary(n):
+        return bin(n)
