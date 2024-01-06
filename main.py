@@ -1,6 +1,10 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
