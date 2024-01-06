@@ -1,6 +1,8 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
