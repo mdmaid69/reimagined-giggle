@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
