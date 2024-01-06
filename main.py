@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
