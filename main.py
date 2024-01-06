@@ -1,6 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
