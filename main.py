@@ -1,6 +1,5 @@
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
