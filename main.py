@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def count_characters(sentence):
+        return len(sentence)
