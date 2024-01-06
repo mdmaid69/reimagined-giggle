@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
