@@ -1,5 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
