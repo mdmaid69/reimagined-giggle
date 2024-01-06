@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
