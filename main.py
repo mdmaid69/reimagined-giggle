@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
