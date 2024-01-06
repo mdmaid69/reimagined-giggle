@@ -1,6 +1,5 @@
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
