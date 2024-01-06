@@ -1,4 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-def reverse_string(s):
-        return s[::-1]
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
