@@ -1,6 +1,9 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_as_list(array):
+        return list(array)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
