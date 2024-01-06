@@ -1,4 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  def multiply_numbers(x, y):
-        return x * y
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import math
+def calculate_tangent(x):
+        return math.tan(x)
