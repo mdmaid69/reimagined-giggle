@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def calculate_power(work, time):
-        return work / time
+import sys
+def exit_program():
+        sys.exit()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
