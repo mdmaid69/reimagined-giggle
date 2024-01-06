@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def is_odd(n):
-        return n % 2 != 0
+import time
+def get_current_time():
+        return time.time()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
