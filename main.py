@@ -1,5 +1,8 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  def sort_list(lst):
+        return sorted(lst)
