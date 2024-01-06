@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  def square_number(x):
-        return x**2
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
