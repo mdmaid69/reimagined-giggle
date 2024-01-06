@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def get_array_length(array):
-        return len(array)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import sys
+print(sys.version)
