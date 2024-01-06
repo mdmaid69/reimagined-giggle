@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_volume(length, width, height):
+        return length * width * height
