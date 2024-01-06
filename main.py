@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_cosine(x):
+        return math.cos(x)
