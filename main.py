@@ -1,5 +1,7 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
