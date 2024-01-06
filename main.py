@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_length(array):
+        return len(array)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
