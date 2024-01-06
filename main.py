@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
