@@ -1,5 +1,6 @@
-for i in range(10): print(i)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
