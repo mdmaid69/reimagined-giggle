@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
 import array
-def clear_array(array):
-        array *= 0
+def convert_array_to_unicode(array):
+        return array.tounicode()
