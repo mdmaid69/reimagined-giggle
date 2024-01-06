@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_area_circle(r):
+        return 3.14 * r**2
