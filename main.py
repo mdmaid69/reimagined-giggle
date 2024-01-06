@@ -1,6 +1,8 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import logging
-def log_message(message):
-        logging.info(message)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
