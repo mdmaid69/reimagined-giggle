@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
