@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import array
-def reverse_array(array):
-        array.reverse()
+import sys
+def print_python_version():
+        print(sys.version)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
