@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
