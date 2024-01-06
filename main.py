@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_pressure(force, area):
+        return force / area
