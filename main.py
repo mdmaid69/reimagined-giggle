@@ -1,6 +1,6 @@
+  import os
+  def get_current_directory():
+        return os.getcwd()
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def convert_array_to_string(array):
+        return array.tostring()
