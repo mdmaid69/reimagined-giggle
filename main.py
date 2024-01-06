@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def square_number(x):
-        return x**2
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
