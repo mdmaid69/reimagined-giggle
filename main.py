@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def remove_duplicates(lst):
-        return list(set(lst))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
