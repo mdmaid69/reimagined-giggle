@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_slice(array, i, j):
+        return array[i:j]
