@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def subtract_numbers(x, y):
+        return x - y
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
