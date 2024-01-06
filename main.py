@@ -1,3 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-print(sum(range(10)))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
