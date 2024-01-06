@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
