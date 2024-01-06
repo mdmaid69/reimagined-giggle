@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_power(work, time):
+        return work / time
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
