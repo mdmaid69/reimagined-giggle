@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
