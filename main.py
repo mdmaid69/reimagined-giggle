@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def cube_number(x):
+        return x**3
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
