@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-  def square_number(x):
-        return x**2
+import collections
+def create_stack():
+        return collections.deque()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
