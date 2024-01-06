@@ -1,8 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def find_min(lst):
+        return min(lst)
