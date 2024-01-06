@@ -1,5 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+for i in range(10): print(i)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
