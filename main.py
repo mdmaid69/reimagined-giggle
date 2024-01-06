@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  def convert_to_octal(n):
-        return oct(n)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
