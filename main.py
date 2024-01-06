@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
