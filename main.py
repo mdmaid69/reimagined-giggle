@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_power(work, time):
+        return work / time
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
