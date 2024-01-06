@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import sys
-def exit_program():
-        sys.exit()
+import logging
+def log_message(message):
+        logging.info(message)
+def sort_numbers(numbers):
+        return sorted(numbers)
