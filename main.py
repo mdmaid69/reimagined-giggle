@@ -1,10 +1,7 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  def square_number(x):
-        return x**2
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
