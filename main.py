@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import re
+print(re.match("h.*o", "hello world"))
