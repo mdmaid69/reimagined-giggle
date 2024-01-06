@@ -1,6 +1,8 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def get_array_as_set(array):
+        return set(array)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
