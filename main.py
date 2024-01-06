@@ -1,6 +1,9 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
