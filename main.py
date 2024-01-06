@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
