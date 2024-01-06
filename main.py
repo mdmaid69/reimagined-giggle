@@ -1,6 +1,7 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
