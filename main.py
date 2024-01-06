@@ -1,5 +1,9 @@
-def calculate_work(force, distance):
-        return force * distance
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
