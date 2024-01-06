@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_area_rectangle(l, w):
+        return l * w
+def is_even(n):
+        return n % 2 == 0
