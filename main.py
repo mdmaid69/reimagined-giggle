@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def is_palindrome(s):
+        return s == s[::-1]
