@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  def remove_duplicates(lst):
+        return list(set(lst))
