@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
