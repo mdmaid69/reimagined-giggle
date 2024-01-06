@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
