@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_pressure(force, area):
+        return force / area
