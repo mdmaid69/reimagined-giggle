@@ -1,8 +1,5 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
