@@ -1,6 +1,7 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
