@@ -1,11 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def cube_number(x):
+        return x**3
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
