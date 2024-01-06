@@ -1,5 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
