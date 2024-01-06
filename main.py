@@ -1,5 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def find_max(numbers):
+        return max(numbers)
