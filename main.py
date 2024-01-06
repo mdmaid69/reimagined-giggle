@@ -1,7 +1,6 @@
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def get_array_slice(array, i, j):
+        return array[i:j]
