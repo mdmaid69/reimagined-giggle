@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
