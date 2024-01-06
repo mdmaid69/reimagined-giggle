@@ -1,6 +1,7 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
