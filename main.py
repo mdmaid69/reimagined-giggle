@@ -1,9 +1,6 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import logging
+def log_message(message):
+        logging.info(message)
