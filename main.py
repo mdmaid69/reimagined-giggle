@@ -1,4 +1,7 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  def reverse_list(lst):
-        return lst[::-1]
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
