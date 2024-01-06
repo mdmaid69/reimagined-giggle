@@ -1,5 +1,6 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
