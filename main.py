@@ -1,5 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
