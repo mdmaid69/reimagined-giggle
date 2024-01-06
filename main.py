@@ -1,5 +1,7 @@
-def count_characters(sentence):
-        return len(sentence)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import array
-def get_array_as_str(array):
-        return str(array)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
