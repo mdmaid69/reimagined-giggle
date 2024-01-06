@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
