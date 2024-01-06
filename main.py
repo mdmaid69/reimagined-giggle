@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
