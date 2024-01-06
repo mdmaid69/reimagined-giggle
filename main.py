@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-for i in range(5):
-        print(i)
+import sys
+def print_python_version():
+        print(sys.version)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
