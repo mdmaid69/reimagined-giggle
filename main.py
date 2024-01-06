@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  def convert_to_binary(n):
+        return bin(n)
 import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
