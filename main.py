@@ -1,5 +1,6 @@
 import math
 def calculate_tangent(x):
         return math.tan(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
