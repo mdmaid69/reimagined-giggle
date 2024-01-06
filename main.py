@@ -1,7 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import os
+def remove_directory(path):
+        os.rmdir(path)
