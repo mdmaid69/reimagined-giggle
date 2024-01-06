@@ -1,5 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import random
-print(random.randint(0, 100))
+def find_max(lst):
+        return max(lst)
+def count_characters(sentence):
+        return len(sentence)
