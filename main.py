@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import collections
+def create_priority_queue():
+        return collections.deque()
