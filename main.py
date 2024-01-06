@@ -1,8 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
