@@ -1,8 +1,5 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
