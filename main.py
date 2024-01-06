@@ -1,5 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def is_even(n):
-        return n % 2 == 0
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
