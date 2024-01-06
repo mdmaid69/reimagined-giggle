@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import tensorflow as tf
-print(tf.__version__)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
