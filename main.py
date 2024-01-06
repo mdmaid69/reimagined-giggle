@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import collections
+def create_stack():
+        return collections.deque()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
