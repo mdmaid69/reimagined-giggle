@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
