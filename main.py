@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def count_elements(lst):
-        return len(lst)
+def find_min(numbers):
+        return min(numbers)
+import collections
+def create_user_string():
+        return collections.UserString()
