@@ -1,10 +1,6 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
