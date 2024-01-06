@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def is_even(n):
+        return n % 2 == 0
