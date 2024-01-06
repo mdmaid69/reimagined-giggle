@@ -1,8 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_speed(distance, time):
+        return distance / time
+text = "Hello, world!"
+print("Uppercase:", text.upper())
