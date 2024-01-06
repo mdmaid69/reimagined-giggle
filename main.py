@@ -1,5 +1,5 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def reverse_list(lst):
+        return lst[::-1]
