@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import array
-def get_array_as_set(array):
-        return set(array)
+  def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
