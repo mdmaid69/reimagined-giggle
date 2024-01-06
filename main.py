@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
