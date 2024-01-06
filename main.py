@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
