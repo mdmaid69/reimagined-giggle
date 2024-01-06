@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
