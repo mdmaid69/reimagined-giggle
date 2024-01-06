@@ -1,6 +1,6 @@
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
