@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import numpy as np
+print(np.array([1, 2, 3]))
