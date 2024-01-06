@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_typecode(array):
+        return array.typecode
