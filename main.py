@@ -1,5 +1,8 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
