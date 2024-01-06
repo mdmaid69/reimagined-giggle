@@ -1,4 +1,5 @@
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
 n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_volume(length, width, height):
-        return length * width * height
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
