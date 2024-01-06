@@ -1,4 +1,4 @@
-import os
-print(os.getcwd())
-import random
-print(random.randint(0, 100))
+from collections import Counter
+print(Counter("hello world"))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
