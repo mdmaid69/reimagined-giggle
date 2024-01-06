@@ -1,5 +1,7 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
