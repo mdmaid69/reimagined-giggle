@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
