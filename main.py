@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def get_array_item(array, i):
-        return array[i]
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
