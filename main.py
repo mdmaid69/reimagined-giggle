@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
