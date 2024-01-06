@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
