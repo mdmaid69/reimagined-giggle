@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
