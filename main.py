@@ -1,5 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
