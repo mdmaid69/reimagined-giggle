@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def get_array_as_list(array):
-        return list(array)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
