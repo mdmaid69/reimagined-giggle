@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
