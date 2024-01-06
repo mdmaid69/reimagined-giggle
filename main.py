@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
