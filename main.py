@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
