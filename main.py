@@ -1,8 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
