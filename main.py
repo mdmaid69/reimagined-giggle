@@ -1,5 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def reverse_array(array):
+        array.reverse()
