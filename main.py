@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
