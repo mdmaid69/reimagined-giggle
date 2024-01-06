@@ -1,5 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import time
+def get_current_time():
+        return time.ctime()
+import os
+def remove_directory(path):
+        os.rmdir(path)
