@@ -1,5 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  def convert_to_binary(n):
-        return bin(n)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
