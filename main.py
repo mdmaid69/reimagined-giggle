@@ -1,5 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def add_numbers(a, b):
+        return a + b
+def find_max(lst):
+        return max(lst)
