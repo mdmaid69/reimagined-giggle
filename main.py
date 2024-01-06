@@ -1,5 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_pressure(force, area):
-        return force / area
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def clear_array(array):
+        array *= 0
