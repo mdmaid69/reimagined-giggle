@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
