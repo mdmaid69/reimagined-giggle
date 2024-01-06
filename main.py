@@ -1,5 +1,6 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 import json
-print(json.dumps({"name": "John", "age": 30}))
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def convert_to_json(data):
+        return json.dumps(data)
