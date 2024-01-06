@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def reverse_list(lst):
+        return lst[::-1]
+import time
+def get_current_time():
+        return time.time()
