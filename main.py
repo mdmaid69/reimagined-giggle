@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import collections
+def create_user_string():
+        return collections.UserString()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
