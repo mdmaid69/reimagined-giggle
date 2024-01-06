@@ -1,6 +1,4 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
