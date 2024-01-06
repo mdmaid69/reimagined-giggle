@@ -1,4 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_volume(length, width, height):
-        return length * width * height
+for i in range(10): print(i)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
