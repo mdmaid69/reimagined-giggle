@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
