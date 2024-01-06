@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
