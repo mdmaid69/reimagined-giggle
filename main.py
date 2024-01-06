@@ -1,4 +1,8 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
