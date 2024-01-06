@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
