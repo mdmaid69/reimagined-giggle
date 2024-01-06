@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def cube_number(x):
+        return x**3
