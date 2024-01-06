@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def convert_to_hex(n):
+        return hex(n)
