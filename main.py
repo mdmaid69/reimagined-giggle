@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+text = "Hello, world!"
+print("Uppercase:", text.upper())
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
