@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
