@@ -1,6 +1,8 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import time
-def get_current_time():
-        return time.ctime()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
