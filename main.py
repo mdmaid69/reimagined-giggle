@@ -1,5 +1,8 @@
-def add_numbers(x, y):
-        return x + y
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
