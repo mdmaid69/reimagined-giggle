@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
