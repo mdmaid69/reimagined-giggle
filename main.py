@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def count_elements(lst):
-        return len(lst)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
