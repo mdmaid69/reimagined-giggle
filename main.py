@@ -1,5 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
