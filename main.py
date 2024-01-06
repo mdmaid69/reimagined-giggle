@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import sys
+def exit_program():
+        sys.exit()
