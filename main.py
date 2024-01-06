@@ -1,5 +1,8 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import sys
+def exit_program():
+        sys.exit()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
