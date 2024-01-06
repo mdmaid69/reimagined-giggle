@@ -1,3 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-print("Hello, world!")
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def reverse_string(s):
+        return s[::-1]
