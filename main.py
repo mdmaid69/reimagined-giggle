@@ -1,5 +1,8 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
