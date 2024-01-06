@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_force(mass, acceleration):
+        return mass * acceleration
