@@ -1,6 +1,4 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
