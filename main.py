@@ -1,6 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
