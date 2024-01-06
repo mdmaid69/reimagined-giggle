@@ -1,7 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_as_bool(array):
+        return bool(array)
