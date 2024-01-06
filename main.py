@@ -1,5 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
