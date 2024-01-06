@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
