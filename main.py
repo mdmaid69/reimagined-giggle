@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_speed(distance, time):
-        return distance / time
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def split_path(path):
+        return os.path.split(path)
