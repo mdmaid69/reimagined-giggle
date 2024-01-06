@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
