@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+text = "Hello, world!"
+print("Words:", len(text.split()))
