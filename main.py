@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
