@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def find_min(lst):
+        return min(lst)
