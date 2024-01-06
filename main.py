@@ -1,7 +1,5 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
