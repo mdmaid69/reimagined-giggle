@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
