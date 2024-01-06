@@ -1,8 +1,5 @@
 import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-print([x**2 for x in range(10)])
+def get_time_since_epoch():
+        return time.time()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
