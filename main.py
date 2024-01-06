@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
