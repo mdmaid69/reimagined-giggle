@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def square_number(x):
-        return x**2
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
