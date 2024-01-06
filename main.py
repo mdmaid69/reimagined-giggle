@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import collections
+def create_user_string():
+        return collections.UserString()
