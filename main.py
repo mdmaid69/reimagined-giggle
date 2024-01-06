@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
