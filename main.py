@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import time
+def get_time_since_epoch():
+        return time.time()
