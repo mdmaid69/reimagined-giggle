@@ -1,6 +1,5 @@
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
