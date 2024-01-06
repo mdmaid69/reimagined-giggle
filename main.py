@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
