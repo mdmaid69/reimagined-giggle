@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
