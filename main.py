@@ -1,5 +1,9 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
