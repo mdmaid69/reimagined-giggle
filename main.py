@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_factorial(n):
+        return math.factorial(n)
