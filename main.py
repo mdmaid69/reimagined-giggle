@@ -1,8 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
