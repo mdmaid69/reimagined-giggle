@@ -1,8 +1,5 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-x = 10
-y = 20
-print("Sum:", x + y)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
