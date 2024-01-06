@@ -1,6 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+print([x**2 for x in range(10)])
