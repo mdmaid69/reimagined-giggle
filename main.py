@@ -1,5 +1,6 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def sort_numbers(numbers):
-        return sorted(numbers)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
