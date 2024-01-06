@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
