@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
