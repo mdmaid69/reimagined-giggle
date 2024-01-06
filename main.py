@@ -1,4 +1,7 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def is_palindrome(s):
-        return s == s[::-1]
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
