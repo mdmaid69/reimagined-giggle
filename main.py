@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def count_characters(sentence):
-        return len(sentence)
+import collections
+def create_user_list():
+        return collections.UserList()
+def find_unique_words(sentence):
+        return set(sentence.split())
