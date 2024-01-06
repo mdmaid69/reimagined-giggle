@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def find_min(numbers):
-        return min(numbers)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
