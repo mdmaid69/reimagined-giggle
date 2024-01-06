@@ -1,6 +1,6 @@
-def count_elements(lst):
-        return len(lst)
   import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
         plt.show()
+  def multiply_numbers(x, y):
+        return x * y
