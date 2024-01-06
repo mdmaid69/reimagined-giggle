@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
