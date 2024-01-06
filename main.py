@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_power(work, time):
-        return work / time
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
