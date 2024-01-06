@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import sys
+print(sys.version)
