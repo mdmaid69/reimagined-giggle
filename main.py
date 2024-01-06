@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  def is_odd(n):
-        return n % 2 != 0
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  def reverse_list(lst):
+        return lst[::-1]
