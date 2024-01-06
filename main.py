@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def append_to_array(array, item):
+        array.append(item)
