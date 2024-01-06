@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import sys
-def print_python_version():
-        return sys.version
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import time
+def get_current_time():
+        return time.ctime()
