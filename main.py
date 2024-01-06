@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
