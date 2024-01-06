@@ -1,5 +1,8 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def find_max(numbers):
-        return max(numbers)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
