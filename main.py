@@ -1,6 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
