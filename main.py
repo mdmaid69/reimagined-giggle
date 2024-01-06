@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
