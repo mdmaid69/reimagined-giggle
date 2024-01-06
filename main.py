@@ -1,5 +1,5 @@
+  def count_elements(lst):
+        return len(lst)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_power(work, time):
-        return work / time
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
