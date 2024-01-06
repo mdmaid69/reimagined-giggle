@@ -1,5 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import re
+print(re.match("h.*o", "hello world"))
