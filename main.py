@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+for i in range(5):
+        print(i)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
