@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
 import array
-def get_array_item(array, i):
-        return array[i]
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
