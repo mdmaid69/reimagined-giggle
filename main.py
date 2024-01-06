@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
