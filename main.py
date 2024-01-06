@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+from collections import Counter
+print(Counter("hello world"))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
