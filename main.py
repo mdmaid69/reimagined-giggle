@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import collections
+def create_counter():
+        return collections.Counter()
