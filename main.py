@@ -1,6 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-sentence = "Hello, world!"
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
 from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+print(Counter("hello world"))
