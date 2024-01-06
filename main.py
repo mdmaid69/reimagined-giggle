@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
