@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import platform
+def get_python_version():
+        return platform.python_version()
