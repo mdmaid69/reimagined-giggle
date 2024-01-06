@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def convert_to_octal(n):
-        return oct(n)
+  def is_odd(n):
+        return n % 2 != 0
+import collections
+def create_counter():
+        return collections.Counter()
