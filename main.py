@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
