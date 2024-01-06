@@ -1,6 +1,7 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
