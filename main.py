@@ -1,6 +1,5 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_volume(length, width, height):
+        return length * width * height
