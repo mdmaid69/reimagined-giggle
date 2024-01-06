@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import sys
+  def get_python_version():
+        return sys.version
