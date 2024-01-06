@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def multiply_numbers(x, y):
+        return x * y
