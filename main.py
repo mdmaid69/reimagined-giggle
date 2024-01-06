@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
