@@ -1,5 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def divide_numbers(x, y):
+        return x / y
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
