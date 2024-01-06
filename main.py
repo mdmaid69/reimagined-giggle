@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+for i in range(5):
+        print(i)
+import os
+def change_working_directory(path):
+        os.chdir(path)
