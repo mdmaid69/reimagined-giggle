@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import tensorflow as tf
-print(tf.__version__)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
