@@ -1,4 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import time
-print(time.time())
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def multiply_numbers(x, y):
+        return x * y
