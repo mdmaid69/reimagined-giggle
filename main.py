@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_work(force, distance):
+        return force * distance
