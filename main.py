@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def reverse_list(lst):
+        return lst[::-1]
+import logging
+def log_message(message):
+        logging.info(message)
