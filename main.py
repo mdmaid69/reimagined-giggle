@@ -1,5 +1,6 @@
+import getpass
+def get_username():
+        return getpass.getuser()
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def subtract_numbers(x, y):
-        return x - y
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
