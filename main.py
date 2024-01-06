@@ -1,5 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def count_words(sentence):
-        return len(sentence.split())
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import numpy as np
+print(np.array([1, 2, 3]))
