@@ -1,8 +1,4 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
