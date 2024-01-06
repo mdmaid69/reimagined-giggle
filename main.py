@@ -1,7 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
