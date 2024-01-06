@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import collections
+def create_user_list():
+        return collections.UserList()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
