@@ -1,5 +1,3 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def is_palindrome(s):
+        return s == s[::-1]
+for i in range(10): print(i)
