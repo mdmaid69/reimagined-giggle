@@ -1,6 +1,6 @@
+import os
+def get_current_working_directory():
+        return os.getcwd()
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
