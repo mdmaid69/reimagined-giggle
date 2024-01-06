@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def append_to_array(array, item):
+        array.append(item)
