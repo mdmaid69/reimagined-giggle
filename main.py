@@ -1,5 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
