@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
