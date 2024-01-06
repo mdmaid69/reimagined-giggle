@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
