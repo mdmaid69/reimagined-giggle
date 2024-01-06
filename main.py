@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import time
+def get_current_time():
+        return time.time()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
