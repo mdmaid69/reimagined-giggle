@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
