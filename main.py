@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def delete_file(file_name):
+        os.remove(file_name)
