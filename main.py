@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
