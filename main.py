@@ -1,5 +1,9 @@
-import tensorflow as tf
-print(tf.__version__)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
