@@ -1,5 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def remove_duplicates(lst):
+        return list(set(lst))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
