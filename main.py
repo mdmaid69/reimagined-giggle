@@ -1,7 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_index(array, item):
+        return array.index(item)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
