@@ -1,6 +1,5 @@
+def convert_to_hex(n):
+        return hex(n)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
