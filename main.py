@@ -1,5 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def is_odd(n):
+        return n % 2 != 0
+text = "Hello, world!"
+print("Characters:", len(text))
