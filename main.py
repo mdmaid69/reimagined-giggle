@@ -1,7 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
