@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_itemsize(array):
+        return array.itemsize
