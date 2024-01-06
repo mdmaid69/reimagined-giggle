@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def convert_to_octal(n):
+        return oct(n)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
