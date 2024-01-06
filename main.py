@@ -1,6 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def remove_duplicates(lst):
+        return list(set(lst))
