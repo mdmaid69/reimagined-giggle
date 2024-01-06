@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_acceleration(speed, time):
+        return speed / time
