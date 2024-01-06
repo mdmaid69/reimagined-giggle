@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
