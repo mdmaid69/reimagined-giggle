@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def count_elements(lst):
+        return len(lst)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
