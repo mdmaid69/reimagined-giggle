@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_power(work, time):
-        return work / time
+import collections
+def create_priority_queue():
+        return collections.deque()
+for i in range(10): print(i)
