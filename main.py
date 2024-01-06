@@ -1,6 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
