@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import platform
-def get_os_info():
-        return platform.uname()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
