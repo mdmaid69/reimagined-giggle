@@ -1,6 +1,5 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
