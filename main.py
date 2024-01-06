@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
