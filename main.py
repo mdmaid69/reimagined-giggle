@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def convert_to_octal(n):
-        return oct(n)
+import collections
+def create_stack():
+        return collections.deque()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
