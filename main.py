@@ -1,5 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
