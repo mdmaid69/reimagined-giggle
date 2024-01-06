@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
