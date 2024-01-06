@@ -1,6 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
