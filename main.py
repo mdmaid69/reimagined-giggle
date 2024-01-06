@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import json
+print(json.dumps({"name": "John", "age": 30}))
