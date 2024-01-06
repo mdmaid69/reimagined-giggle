@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
 import array
-def get_array_length(array):
-        return len(array)
+def reverse_array(array):
+        array.reverse()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
