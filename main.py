@@ -1,6 +1,7 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
