@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
