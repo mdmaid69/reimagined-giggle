@@ -1,4 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
