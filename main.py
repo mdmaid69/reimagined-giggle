@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
