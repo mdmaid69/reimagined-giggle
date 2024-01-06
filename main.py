@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
