@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+x = 10
+y = 20
+print("Sum:", x + y)
