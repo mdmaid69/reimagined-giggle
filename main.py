@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def count_characters(sentence):
+        return len(sentence)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
