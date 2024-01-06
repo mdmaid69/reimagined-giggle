@@ -1,6 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
