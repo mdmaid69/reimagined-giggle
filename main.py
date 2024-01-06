@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import time
+def get_current_time():
+        return time.ctime()
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
