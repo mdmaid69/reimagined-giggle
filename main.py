@@ -1,5 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def find_min(lst):
-        return min(lst)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
