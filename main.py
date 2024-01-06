@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
