@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  def convert_to_octal(n):
-        return oct(n)
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
