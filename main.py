@@ -1,5 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def convert_to_octal(n):
-        return oct(n)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
