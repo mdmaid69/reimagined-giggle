@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
