@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def set_array_item(array, i, item):
+        array[i] = item
