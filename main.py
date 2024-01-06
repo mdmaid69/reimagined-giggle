@@ -1,5 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import collections
+def create_user_string():
+        return collections.UserString()
