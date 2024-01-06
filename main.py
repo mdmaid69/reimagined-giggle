@@ -1,5 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+print([x**2 for x in range(10)])
