@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
