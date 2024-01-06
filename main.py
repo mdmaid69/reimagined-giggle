@@ -1,5 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
