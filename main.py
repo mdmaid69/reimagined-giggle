@@ -1,6 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
