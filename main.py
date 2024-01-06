@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import time
-def get_time_since_epoch():
-        return time.time()
+  def count_elements(lst):
+        return len(lst)
+def reverse_string(s):
+        return s[::-1]
