@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
