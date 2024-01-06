@@ -1,6 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def split_path(path):
+        return os.path.split(path)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
