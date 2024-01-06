@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
