@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def cube_number(x):
+        return x**3
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
