@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import platform
+def get_python_version():
+        return platform.python_version()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
