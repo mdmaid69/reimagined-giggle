@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import time
+print(time.time())
