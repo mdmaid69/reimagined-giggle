@@ -1,6 +1,8 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
