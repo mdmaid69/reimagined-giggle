@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
