@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def reverse_string(s):
+        return s[::-1]
