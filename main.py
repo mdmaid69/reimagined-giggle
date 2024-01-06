@@ -1,5 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_speed(distance, time):
-        return distance / time
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_volume(length, width, height):
+        return length * width * height
