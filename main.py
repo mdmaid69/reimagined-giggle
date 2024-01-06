@@ -1,6 +1,9 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
