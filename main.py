@@ -1,4 +1,8 @@
-def find_min(lst):
-        return min(lst)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
