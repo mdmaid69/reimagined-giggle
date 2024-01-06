@@ -1,5 +1,4 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
+print("Hello, world!")
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_absolute_value(x):
+        return math.fabs(x)
