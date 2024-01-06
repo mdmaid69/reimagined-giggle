@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
