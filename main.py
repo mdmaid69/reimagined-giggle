@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_area_rectangle(l, w):
+        return l * w
