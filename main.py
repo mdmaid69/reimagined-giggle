@@ -1,5 +1,8 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
