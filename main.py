@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  def square_number(x):
+        return x**2
