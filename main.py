@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
