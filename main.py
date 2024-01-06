@@ -1,4 +1,5 @@
-import sys
-print(sys.version)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_floor(x):
+        return math.floor(x)
