@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
