@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import datetime
+print(datetime.datetime.now())
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
