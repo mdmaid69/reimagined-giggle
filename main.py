@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import collections
+def create_priority_queue():
+        return collections.deque()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
