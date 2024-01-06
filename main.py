@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
