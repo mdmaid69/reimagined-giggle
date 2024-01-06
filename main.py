@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_density(mass, volume):
+        return mass / volume
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
