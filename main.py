@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
