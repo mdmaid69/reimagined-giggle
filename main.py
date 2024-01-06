@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
