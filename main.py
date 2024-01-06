@@ -1,7 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
