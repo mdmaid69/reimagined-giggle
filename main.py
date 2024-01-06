@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def add_numbers(x, y):
+        return x + y
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
