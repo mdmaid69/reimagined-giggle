@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import collections
+def create_priority_queue():
+        return collections.deque()
