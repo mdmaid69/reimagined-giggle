@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
