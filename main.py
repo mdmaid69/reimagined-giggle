@@ -1,7 +1,9 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def count_words(sentence):
+        return len(sentence.split())
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
