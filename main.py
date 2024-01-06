@@ -1,6 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import sys
+print(sys.version)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
