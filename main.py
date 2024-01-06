@@ -1,5 +1,7 @@
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def cube_number(x):
-        return x**3
+def calculate_square_root(x):
+        return math.sqrt(x)
