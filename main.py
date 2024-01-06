@@ -1,6 +1,4 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
