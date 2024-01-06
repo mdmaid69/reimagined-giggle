@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
