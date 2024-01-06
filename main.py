@@ -1,4 +1,10 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_power(work, time):
-        return work / time
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
