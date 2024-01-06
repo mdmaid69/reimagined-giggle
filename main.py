@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
