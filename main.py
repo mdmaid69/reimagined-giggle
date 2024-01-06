@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def multiply_numbers(x, y):
-        return x * y
+def calculate_pressure(force, area):
+        return force / area
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
