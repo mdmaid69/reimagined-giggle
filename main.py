@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def get_array_as_int(array):
+        return int(array[0])
