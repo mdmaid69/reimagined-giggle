@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def square_number(x):
+        return x**2
+import collections
+def create_stack():
+        return collections.deque()
