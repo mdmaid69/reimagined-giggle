@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import re
-print(re.match("h.*o", "hello world"))
+import logging
+def log_message(message):
+        logging.info(message)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
