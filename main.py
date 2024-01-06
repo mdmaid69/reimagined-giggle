@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
