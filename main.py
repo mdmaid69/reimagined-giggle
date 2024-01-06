@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import time
-def get_time_since_epoch():
-        return time.time()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
