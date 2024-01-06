@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
