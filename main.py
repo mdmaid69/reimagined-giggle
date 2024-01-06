@@ -1,5 +1,8 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import time
-def get_time_since_epoch():
-        return time.time()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
