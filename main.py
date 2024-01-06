@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
