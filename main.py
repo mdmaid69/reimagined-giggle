@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
