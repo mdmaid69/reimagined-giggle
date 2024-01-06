@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def is_odd(n):
+        return n % 2 != 0
