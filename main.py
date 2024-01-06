@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def square_number(x):
+        return x**2
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
