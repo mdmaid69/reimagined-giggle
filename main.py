@@ -1,5 +1,7 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
