@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import collections
-def create_priority_queue():
-        return collections.deque()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
