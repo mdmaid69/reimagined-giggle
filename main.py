@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import collections
+def create_user_list():
+        return collections.UserList()
