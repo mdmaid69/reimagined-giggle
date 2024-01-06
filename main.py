@@ -1,5 +1,6 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import sys
-print(sys.version)
+  def get_base_name(path):
+        return os.path.basename(path)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
