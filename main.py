@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def is_palindrome(s):
+        return s == s[::-1]
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
