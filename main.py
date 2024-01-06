@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-def is_odd(n):
-        return n % 2 != 0
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
