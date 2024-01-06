@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
