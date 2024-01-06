@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
