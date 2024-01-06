@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def convert_to_hex(n):
+        return hex(n)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
