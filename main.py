@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
