@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def delete_file(file_name):
+        os.remove(file_name)
