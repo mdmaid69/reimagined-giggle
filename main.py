@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import collections
+def create_counter():
+        return collections.Counter()
+  def subtract_numbers(x, y):
+        return x - y
