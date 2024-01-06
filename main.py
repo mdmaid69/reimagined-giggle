@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def set_array_item(array, i, item):
+        array[i] = item
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
