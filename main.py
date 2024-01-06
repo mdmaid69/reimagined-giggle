@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
