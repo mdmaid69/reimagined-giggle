@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import sys
-def exit_program():
-        sys.exit()
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def convert_array_to_string(array):
+        return array.tostring()
