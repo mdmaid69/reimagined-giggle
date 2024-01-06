@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-def multiply_numbers(x, y):
-        return x * y
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
