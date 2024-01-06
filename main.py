@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
