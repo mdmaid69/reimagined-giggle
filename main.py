@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
