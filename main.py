@@ -1,4 +1,7 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import numpy as np
-print(np.array([1, 2, 3]))
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+def is_odd(n):
+        return n % 2 != 0
