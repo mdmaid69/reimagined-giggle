@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_density(mass, volume):
+        return mass / volume
+import json
+def convert_to_json(data):
+        return json.dumps(data)
