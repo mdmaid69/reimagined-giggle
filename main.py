@@ -1,5 +1,5 @@
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
