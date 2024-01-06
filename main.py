@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_volume(length, width, height):
+        return length * width * height
