@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
