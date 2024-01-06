@@ -1,6 +1,7 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def reverse_array(array):
+        array.reverse()
