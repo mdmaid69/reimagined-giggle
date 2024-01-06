@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
