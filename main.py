@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
