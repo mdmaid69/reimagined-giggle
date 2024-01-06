@@ -1,5 +1,7 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
