@@ -1,5 +1,5 @@
 n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+print("Square numbers:", [x**2 for x in range(n)])
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
