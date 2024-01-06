@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
