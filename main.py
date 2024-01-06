@@ -1,12 +1,7 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
