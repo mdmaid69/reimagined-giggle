@@ -1,5 +1,6 @@
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def is_even(n):
-        return n % 2 == 0
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
