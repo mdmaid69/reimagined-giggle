@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import sys
+  def get_python_version():
+        return sys.version
