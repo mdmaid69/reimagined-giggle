@@ -1,5 +1,8 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  def count_elements(lst):
-        return len(lst)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
