@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
