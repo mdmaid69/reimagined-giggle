@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import array
-def get_array_typecode(array):
-        return array.typecode
+def convert_to_binary(n):
+        return bin(n)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
