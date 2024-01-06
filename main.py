@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def subtract_numbers(x, y):
+        return x - y
