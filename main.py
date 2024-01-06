@@ -1,6 +1,5 @@
+def add_numbers(a, b):
+        return a + b
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
