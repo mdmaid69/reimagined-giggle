@@ -1,5 +1,8 @@
-def cube_number(x):
-        return x**3
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
