@@ -1,8 +1,5 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
