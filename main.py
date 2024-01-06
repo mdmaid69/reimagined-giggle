@@ -1,6 +1,7 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def is_even(n):
+        return n % 2 == 0
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
