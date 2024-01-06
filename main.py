@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import collections
+def create_counter():
+        return collections.Counter()
