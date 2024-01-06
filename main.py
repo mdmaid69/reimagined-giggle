@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import time
+print(time.time())
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
