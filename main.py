@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
