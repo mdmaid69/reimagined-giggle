@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
