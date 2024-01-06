@@ -1,4 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
