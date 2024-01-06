@@ -1,5 +1,4 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def count_characters(sentence):
+        return len(sentence)
+def count_elements(lst):
+        return len(lst)
