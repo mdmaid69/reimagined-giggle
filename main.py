@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_power(work, time):
+        return work / time
