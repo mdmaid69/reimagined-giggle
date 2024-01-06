@@ -1,7 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
