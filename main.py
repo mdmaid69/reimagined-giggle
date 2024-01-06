@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import sys
-def print_python_version():
-        return sys.version
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
