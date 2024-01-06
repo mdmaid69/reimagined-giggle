@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
