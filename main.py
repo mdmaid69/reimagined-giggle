@@ -1,6 +1,8 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
