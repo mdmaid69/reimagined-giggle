@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
