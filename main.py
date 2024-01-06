@@ -1,6 +1,5 @@
+import sys
+print(sys.version)
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def get_array_itemsize(array):
+        return array.itemsize
