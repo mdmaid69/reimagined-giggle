@@ -1,6 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
