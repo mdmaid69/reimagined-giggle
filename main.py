@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
