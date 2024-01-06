@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import collections
+def create_stack():
+        return collections.deque()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
