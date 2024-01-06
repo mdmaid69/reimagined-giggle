@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
