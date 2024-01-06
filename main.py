@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
