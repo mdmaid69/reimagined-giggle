@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
