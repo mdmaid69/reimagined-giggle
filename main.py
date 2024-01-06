@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
