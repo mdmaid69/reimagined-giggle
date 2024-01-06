@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  def count_elements(lst):
+        return len(lst)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
