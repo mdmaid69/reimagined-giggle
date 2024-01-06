@@ -1,6 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
