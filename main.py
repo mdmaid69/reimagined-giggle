@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
