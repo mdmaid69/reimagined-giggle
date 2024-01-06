@@ -1,4 +1,7 @@
-for i in range(5):
-        print(i)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
