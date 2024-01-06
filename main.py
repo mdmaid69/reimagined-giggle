@@ -1,5 +1,8 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
