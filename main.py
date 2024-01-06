@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
