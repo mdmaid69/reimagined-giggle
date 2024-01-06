@@ -1,4 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_pressure(force, area):
-        return force / area
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
