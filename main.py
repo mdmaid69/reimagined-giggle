@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
