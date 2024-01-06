@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def split_path(path):
+        return os.path.split(path)
