@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
