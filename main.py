@@ -1,5 +1,5 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_acceleration(speed, time):
-        return speed / time
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
