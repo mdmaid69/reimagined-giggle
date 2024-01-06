@@ -1,5 +1,5 @@
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def remove_from_array(array, item):
+        array.remove(item)
