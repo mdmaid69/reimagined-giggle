@@ -1,4 +1,7 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
