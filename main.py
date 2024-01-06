@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
