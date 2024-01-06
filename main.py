@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+print([x**2 for x in range(10)])
