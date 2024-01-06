@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def square_number(x):
+        return x**2
+def calculate_area(radius):
+        return 3.14 * radius * radius
