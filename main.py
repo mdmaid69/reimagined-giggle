@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
