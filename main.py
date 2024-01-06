@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def add_numbers(x, y):
+        return x + y
