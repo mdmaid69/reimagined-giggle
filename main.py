@@ -1,5 +1,4 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def square_number(x):
+        return x**2
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
