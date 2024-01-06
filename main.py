@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
