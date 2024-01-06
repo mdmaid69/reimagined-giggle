@@ -1,5 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-def divide_numbers(x, y):
-        return x / y
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def calculate_speed(distance, time):
+        return distance / time
