@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
