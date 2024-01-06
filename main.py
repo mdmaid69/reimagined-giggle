@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
