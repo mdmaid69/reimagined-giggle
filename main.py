@@ -1,3 +1,8 @@
-def calculate_density(mass, volume):
-        return mass / volume
-for i in range(10): print(i)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
