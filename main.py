@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
