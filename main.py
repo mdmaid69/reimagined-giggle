@@ -1,4 +1,8 @@
-print("Hello, world!")
-import array
-def get_array_length(array):
-        return len(array)
+import getpass
+def get_username():
+        return getpass.getuser()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
