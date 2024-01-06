@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
