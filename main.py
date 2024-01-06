@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import re
-print(re.match("h.*o", "hello world"))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
