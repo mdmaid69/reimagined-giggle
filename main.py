@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import time
+def get_current_time():
+        return time.ctime()
+def count_words(sentence):
+        return len(sentence.split())
