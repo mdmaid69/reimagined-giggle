@@ -1,7 +1,8 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
