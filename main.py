@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def convert_array_to_list(array):
+        return array.tolist()
