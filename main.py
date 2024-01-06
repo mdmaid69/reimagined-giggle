@@ -1,5 +1,5 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
