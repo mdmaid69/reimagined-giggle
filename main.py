@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
