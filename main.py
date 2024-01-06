@@ -1,6 +1,5 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
