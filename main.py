@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def find_max(lst):
+        return max(lst)
+import array
+def get_array_index(array, item):
+        return array.index(item)
