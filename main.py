@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
