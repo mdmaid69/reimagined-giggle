@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
