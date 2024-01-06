@@ -1,5 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import re
-print(re.match("h.*o", "hello world"))
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
