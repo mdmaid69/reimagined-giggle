@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-for i in range(5):
-        print(i)
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
