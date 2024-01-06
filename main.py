@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
