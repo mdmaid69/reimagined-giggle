@@ -1,7 +1,10 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
 import time
-def get_time_since_epoch():
-        return time.time()
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
