@@ -1,6 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import collections
-def create_counter():
-        return collections.Counter()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
