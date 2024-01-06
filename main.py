@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
