@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def is_even(n):
-        return n % 2 == 0
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
