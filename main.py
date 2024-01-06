@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def convert_to_octal(n):
-        return oct(n)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
