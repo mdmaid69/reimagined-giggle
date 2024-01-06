@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def is_odd(n):
-        return n % 2 != 0
+def sort_numbers(numbers):
+        return sorted(numbers)
+import collections
+def create_user_string():
+        return collections.UserString()
