@@ -1,5 +1,7 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
