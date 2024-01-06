@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
