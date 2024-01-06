@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def get_array_as_float(array):
+        return float(array[0])
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
