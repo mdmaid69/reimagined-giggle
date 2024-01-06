@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
