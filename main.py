@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
