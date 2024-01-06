@@ -1,6 +1,5 @@
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
