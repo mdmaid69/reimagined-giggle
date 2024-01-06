@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
