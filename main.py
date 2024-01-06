@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
