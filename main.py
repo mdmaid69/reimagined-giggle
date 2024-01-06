@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
