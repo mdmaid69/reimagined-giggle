@@ -1,6 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
