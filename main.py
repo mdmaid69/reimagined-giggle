@@ -1,5 +1,12 @@
-def is_odd(n):
-        return n % 2 != 0
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
