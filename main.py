@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def multiply_numbers(x, y):
+        return x * y
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
