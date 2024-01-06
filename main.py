@@ -1,5 +1,7 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def sort_numbers(numbers):
+        return sorted(numbers)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
