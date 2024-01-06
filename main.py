@@ -1,6 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
