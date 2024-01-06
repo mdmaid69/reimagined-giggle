@@ -1,5 +1,8 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import os
+def remove_directory(path):
+        os.rmdir(path)
