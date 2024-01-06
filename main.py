@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def is_even(n):
+        return n % 2 == 0
