@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
