@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
