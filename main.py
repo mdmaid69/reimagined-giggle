@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def is_palindrome(s):
+        return s == s[::-1]
