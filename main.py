@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import sys
+def exit_program():
+        sys.exit()
