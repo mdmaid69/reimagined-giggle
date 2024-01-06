@@ -1,5 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
