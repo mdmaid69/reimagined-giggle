@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def remove_duplicates(lst):
+        return list(set(lst))
+def find_min(numbers):
+        return min(numbers)
