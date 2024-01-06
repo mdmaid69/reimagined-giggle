@@ -1,4 +1,9 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
