@@ -1,5 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
