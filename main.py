@@ -1,5 +1,5 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import random
-print(random.randint(0, 100))
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def add_numbers(x, y):
+        return x + y
