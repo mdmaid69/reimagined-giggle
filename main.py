@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  def multiply_numbers(x, y):
+        return x * y
