@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def clear_array(array):
+        array *= 0
