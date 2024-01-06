@@ -1,5 +1,6 @@
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
