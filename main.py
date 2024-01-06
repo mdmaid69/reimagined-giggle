@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def convert_to_octal(n):
+        return oct(n)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
