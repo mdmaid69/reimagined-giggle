@@ -1,6 +1,4 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
