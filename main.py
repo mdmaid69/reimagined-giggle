@@ -1,8 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
