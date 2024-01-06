@@ -1,4 +1,4 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_density(mass, volume):
+        return mass / volume
