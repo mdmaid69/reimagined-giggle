@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
