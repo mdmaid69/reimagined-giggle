@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def clear_array(array):
+        array *= 0
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
