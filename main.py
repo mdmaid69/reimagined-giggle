@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def multiply_numbers(x, y):
+        return x * y
