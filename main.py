@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def is_odd(n):
+        return n % 2 != 0
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
