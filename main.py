@@ -1,7 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import array
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def split_path(path):
+        return os.path.split(path)
