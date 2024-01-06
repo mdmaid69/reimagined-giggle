@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_work(force, distance):
+        return force * distance
