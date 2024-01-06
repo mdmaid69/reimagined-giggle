@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import os
+print(os.getcwd())
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
