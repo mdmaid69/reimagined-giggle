@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
