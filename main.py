@@ -1,6 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
