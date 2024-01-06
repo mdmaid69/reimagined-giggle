@@ -1,6 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def cube_number(x):
+        return x**3
+text = "Hello, world!"
+print("Characters:", len(text))
