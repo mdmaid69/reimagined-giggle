@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import logging
-def log_message(message):
-        logging.info(message)
+  def convert_to_binary(n):
+        return bin(n)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
