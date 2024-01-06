@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def convert_to_octal(n):
+        return oct(n)
