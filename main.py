@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
