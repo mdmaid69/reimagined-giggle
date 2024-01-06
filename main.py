@@ -1,4 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+print([x**2 for x in range(10)])
