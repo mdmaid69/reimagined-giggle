@@ -1,5 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+print(sum(range(10)))
