@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
