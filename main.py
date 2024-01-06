@@ -1,8 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
