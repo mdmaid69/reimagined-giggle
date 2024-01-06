@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
