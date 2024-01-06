@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import sys
-def exit_program():
-        sys.exit()
+import os
+print(os.getcwd())
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
