@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import getpass
-def get_username():
-        return getpass.getuser()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
