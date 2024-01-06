@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
