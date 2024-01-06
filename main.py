@@ -1,4 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
