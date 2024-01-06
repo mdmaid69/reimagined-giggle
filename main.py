@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def calculate_acceleration(speed, time):
+        return speed / time
