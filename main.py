@@ -1,12 +1,7 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import queue
+import socket
 
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
