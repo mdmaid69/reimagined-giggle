@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
