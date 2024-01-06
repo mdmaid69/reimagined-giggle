@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import datetime
+def get_current_date():
+        return datetime.date.today()
