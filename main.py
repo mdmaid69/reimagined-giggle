@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import datetime
+def get_today_date():
+        return datetime.date.today()
