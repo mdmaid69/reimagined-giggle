@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def count_characters(sentence):
+        return len(sentence)
+  def convert_to_binary(n):
+        return bin(n)
