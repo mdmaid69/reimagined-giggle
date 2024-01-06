@@ -1,4 +1,8 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_density(mass, volume):
-        return mass / volume
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def get_array_length(array):
+        return len(array)
