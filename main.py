@@ -1,5 +1,8 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
