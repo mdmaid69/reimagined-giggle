@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import sys
-print(sys.version)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  def add_numbers(x, y):
+        return x + y
