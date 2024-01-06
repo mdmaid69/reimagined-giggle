@@ -1,8 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
