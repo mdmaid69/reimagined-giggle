@@ -1,5 +1,7 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
