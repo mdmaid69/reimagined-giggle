@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_power(work, time):
-        return work / time
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
