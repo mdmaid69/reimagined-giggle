@@ -1,5 +1,6 @@
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
