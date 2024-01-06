@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def convert_array_to_string(array):
+        return array.tostring()
