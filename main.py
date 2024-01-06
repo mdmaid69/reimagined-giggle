@@ -1,7 +1,7 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
