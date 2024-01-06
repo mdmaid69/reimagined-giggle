@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-def count_characters(sentence):
-        return len(sentence)
+  def multiply_numbers(x, y):
+        return x * y
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
