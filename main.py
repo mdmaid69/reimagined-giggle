@@ -1,5 +1,9 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def count_elements(lst):
-        return len(lst)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
