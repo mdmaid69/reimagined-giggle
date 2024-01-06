@@ -1,6 +1,5 @@
+import os
+print(os.getcwd())
 import getpass
 def get_password(prompt):
         return getpass.getpass(prompt)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
