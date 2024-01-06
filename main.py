@@ -1,6 +1,5 @@
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
