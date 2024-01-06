@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
