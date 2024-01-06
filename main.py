@@ -1,6 +1,4 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def convert_to_octal(n):
+        return oct(n)
+def sort_list(lst):
+        return sorted(lst)
