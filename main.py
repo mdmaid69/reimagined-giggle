@@ -1,6 +1,7 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
