@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
