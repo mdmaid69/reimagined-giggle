@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  def square_number(x):
+        return x**2
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
