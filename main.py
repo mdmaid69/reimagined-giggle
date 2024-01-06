@@ -1,5 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
