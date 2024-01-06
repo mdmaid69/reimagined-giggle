@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def remove_duplicates(lst):
+        return list(set(lst))
