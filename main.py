@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
