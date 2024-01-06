@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
