@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
