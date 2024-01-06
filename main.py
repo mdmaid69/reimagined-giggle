@@ -1,6 +1,5 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
