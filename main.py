@@ -1,5 +1,6 @@
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
