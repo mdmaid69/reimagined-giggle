@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  def cube_number(x):
+        return x**3
