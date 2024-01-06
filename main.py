@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def cube_number(x):
-        return x**3
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
