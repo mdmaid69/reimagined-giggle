@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
