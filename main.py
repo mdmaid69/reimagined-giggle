@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def find_max(numbers):
+        return max(numbers)
