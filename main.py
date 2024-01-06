@@ -1,6 +1,6 @@
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def get_array_as_int(array):
+        return int(array[0])
