@@ -1,5 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
