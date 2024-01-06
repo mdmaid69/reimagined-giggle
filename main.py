@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
