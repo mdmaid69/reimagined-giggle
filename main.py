@@ -1,6 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
