@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  def multiply_numbers(x, y):
-        return x * y
+def is_odd(n):
+        return n % 2 != 0
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
