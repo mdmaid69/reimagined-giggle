@@ -1,5 +1,6 @@
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def find_max(numbers):
-        return max(numbers)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
