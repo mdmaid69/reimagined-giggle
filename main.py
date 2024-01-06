@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
