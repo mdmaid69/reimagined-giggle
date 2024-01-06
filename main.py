@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import random
+print(random.randint(0, 100))
