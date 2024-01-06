@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_speed(distance, time):
-        return distance / time
+def is_palindrome(s):
+        return s == s[::-1]
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
