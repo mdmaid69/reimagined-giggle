@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
