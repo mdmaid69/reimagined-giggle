@@ -1,6 +1,7 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
