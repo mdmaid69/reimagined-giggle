@@ -1,5 +1,6 @@
+import array
+def get_array_as_bool(array):
+        return bool(array)
 import math
-print(math.pi)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
