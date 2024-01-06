@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import random
-print(random.randint(0, 100))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
