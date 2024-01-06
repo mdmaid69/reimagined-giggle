@@ -1,5 +1,6 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def cube_number(x):
-        return x**3
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def get_array_index(array, item):
+        return array.index(item)
