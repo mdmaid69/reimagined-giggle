@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import datetime
-print(datetime.datetime.now())
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
