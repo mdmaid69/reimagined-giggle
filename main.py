@@ -1,6 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
 import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def convert_to_json(data):
+        return json.dumps(data)
