@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import os
+def change_working_directory(path):
+        os.chdir(path)
