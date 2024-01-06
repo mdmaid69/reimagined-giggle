@@ -1,5 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def count_elements(lst):
+        return len(lst)
+def find_min(numbers):
+        return min(numbers)
