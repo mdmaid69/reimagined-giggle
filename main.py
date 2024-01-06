@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import collections
+def create_stack():
+        return collections.deque()
+  def calculate_area_rectangle(l, w):
+        return l * w
