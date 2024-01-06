@@ -1,7 +1,6 @@
 import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def square_number(x):
-        return x**2
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import time
+def get_current_time():
+        return time.time()
