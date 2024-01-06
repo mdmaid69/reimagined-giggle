@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
