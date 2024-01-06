@@ -1,5 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_volume(length, width, height):
+        return length * width * height
+def greet(name):
+        print(f"Hello, {name}!")
