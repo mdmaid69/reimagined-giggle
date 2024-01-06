@@ -1,6 +1,12 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
