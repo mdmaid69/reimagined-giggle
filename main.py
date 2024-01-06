@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
