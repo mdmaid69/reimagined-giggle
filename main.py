@@ -1,6 +1,6 @@
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
