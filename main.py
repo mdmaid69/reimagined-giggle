@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
