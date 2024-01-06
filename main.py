@@ -1,5 +1,5 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def get_array_length(array):
+        return len(array)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
