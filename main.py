@@ -1,4 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def find_max(lst):
-        return max(lst)
+  def square_number(x):
+        return x**2
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
