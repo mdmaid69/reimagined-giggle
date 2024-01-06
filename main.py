@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
