@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import json
+print(json.dumps({"name": "John", "age": 30}))
