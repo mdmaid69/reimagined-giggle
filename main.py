@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def clear_array(array):
-        array *= 0
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def square_number(x):
+        return x**2
