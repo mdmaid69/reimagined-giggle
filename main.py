@@ -1,5 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
