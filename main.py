@@ -1,5 +1,7 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def remove_duplicates(lst):
+        return list(set(lst))
