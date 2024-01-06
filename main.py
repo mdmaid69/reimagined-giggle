@@ -1,6 +1,8 @@
-import sys
-def exit_program():
-        sys.exit()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
