@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
