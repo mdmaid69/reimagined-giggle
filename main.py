@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
