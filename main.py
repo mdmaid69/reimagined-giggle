@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import re
+print(re.match("h.*o", "hello world"))
