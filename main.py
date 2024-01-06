@@ -1,5 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
