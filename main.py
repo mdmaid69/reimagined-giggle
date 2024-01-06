@@ -1,6 +1,5 @@
+def calculate_power(work, time):
+        return work / time
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import collections
-def create_stack():
-        return collections.deque()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
