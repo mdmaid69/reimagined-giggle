@@ -1,6 +1,5 @@
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def get_array_item(array, i):
-        return array[i]
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
