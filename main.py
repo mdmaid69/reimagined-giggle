@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
