@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
