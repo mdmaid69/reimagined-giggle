@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
