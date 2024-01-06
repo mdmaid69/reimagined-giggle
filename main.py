@@ -1,5 +1,5 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def convert_to_binary(n):
+        return bin(n)
