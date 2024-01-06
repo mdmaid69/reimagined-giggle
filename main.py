@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
