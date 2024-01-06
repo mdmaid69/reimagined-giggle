@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
