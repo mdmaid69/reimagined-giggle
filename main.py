@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
