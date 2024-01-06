@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def find_min(numbers):
-        return min(numbers)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_power(work, time):
+        return work / time
