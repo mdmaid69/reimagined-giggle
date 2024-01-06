@@ -1,6 +1,4 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-x = 10
-y = 20
-print("Sum:", x + y)
+  def multiply_numbers(x, y):
+        return x * y
+import re
+print(re.match("h.*o", "hello world"))
