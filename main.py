@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def find_union(list1, list2):
+        return set(list1) | set(list2)
