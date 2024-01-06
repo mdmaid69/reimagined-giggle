@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
