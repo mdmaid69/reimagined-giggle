@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
