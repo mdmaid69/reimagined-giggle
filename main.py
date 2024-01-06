@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
+print([x**2 for x in range(10)])
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
