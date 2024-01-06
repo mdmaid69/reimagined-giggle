@@ -1,6 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def count_elements(lst):
+        return len(lst)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
