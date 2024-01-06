@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
