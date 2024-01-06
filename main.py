@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import logging
+def log_message(message):
+        logging.info(message)
+  def is_even(n):
+        return n % 2 == 0
