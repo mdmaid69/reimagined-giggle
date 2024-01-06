@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
