@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def remove_duplicates(lst):
+        return list(set(lst))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
