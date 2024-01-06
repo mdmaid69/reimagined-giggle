@@ -1,4 +1,8 @@
-def convert_to_octal(n):
-        return oct(n)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
