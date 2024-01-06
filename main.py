@@ -1,6 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import logging
-def log_message(message):
-        logging.info(message)
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
