@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
