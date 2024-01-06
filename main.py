@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import sys
-def exit_program():
-        sys.exit()
+def count_elements(lst):
+        return len(lst)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
