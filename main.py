@@ -1,5 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def find_max(numbers):
+        return max(numbers)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
