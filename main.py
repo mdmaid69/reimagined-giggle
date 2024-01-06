@@ -1,8 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import time
+def get_current_time():
+        return time.time()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
