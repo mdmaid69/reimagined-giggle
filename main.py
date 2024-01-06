@@ -1,5 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
