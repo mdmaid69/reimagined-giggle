@@ -1,6 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def greet(name):
+        print(f"Hello, {name}!")
+def cube_number(x):
+        return x**3
