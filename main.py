@@ -1,6 +1,6 @@
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
