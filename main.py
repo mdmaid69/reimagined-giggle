@@ -1,6 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def count_elements(lst):
+        return len(lst)
