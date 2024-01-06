@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
