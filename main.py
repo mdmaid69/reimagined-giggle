@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import platform
+def get_python_version():
+        return platform.python_version()
+def remove_duplicates(lst):
+        return list(set(lst))
