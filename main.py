@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def count_words(sentence):
-        return len(sentence.split())
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
