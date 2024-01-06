@@ -1,5 +1,11 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
