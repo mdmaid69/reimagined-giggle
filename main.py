@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_array_as_list(array):
+        return list(array)
