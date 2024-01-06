@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def is_palindrome(s):
+        return s == s[::-1]
