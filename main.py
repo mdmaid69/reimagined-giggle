@@ -1,7 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
