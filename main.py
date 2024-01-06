@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import math
+def calculate_exponential(x):
+        return math.exp(x)
