@@ -1,3 +1,4 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-print(sum(range(10)))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_perpetuity(payment, rate):
+        return payment / rate
