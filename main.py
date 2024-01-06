@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import numpy as np
+print(np.array([1, 2, 3]))
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
