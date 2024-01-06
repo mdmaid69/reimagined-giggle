@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_volume(length, width, height):
+        return length * width * height
