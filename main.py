@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
