@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
