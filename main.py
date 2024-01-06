@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
