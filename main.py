@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
