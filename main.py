@@ -1,8 +1,4 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def count_words(sentence):
+        return len(sentence.split())
+  def calculate_area_rectangle(l, w):
+        return l * w
