@@ -1,6 +1,8 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_power(work, time):
-        return work / time
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
