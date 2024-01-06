@@ -1,5 +1,4 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_volume(length, width, height):
+        return length * width * height
