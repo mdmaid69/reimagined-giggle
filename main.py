@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import time
+def get_time_since_epoch():
+        return time.time()
