@@ -1,5 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
