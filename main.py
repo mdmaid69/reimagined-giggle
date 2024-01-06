@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def is_odd(n):
-        return n % 2 != 0
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
