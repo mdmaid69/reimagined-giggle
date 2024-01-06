@@ -1,5 +1,7 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
