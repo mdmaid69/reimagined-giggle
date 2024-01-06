@@ -1,8 +1,4 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+print("Hello, world!")
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
