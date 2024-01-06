@@ -1,5 +1,9 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import array
-def reverse_array(array):
-        array.reverse()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
