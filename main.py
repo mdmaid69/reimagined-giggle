@@ -1,6 +1,6 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
