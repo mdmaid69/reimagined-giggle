@@ -1,6 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_area_rectangle(l, w):
+        return l * w
