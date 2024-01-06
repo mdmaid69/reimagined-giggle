@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import time
-print(time.time())
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_as_list(array):
+        return list(array)
