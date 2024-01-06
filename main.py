@@ -1,8 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import random
+print(random.randint(0, 100))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
