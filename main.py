@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-def count_elements(lst):
-        return len(lst)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
