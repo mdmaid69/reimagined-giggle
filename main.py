@@ -1,6 +1,6 @@
 import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
