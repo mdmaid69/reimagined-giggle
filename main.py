@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  def multiply_numbers(x, y):
+        return x * y
