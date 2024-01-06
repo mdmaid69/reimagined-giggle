@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
