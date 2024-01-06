@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
