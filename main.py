@@ -1,4 +1,7 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
