@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
