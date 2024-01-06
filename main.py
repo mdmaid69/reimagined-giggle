@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def add_numbers(a, b):
-        return a + b
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import platform
+def get_os_info():
+        return platform.uname()
