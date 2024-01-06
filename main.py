@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
