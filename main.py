@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import collections
+def create_user_string():
+        return collections.UserString()
