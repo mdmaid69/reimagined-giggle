@@ -1,10 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
