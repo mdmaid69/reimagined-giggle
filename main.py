@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
