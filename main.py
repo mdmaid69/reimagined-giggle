@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def find_max(lst):
-        return max(lst)
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
