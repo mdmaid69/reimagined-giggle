@@ -1,6 +1,11 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
