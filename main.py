@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
 import array
-def get_array_as_str(array):
-        return str(array)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
