@@ -1,10 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import time
+def get_time_since_epoch():
+        return time.time()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
