@@ -1,5 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
