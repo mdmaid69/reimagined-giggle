@@ -1,6 +1,6 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
