@@ -1,5 +1,7 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def remove_duplicates(lst):
+        return list(set(lst))
