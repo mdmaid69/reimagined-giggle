@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def calculate_pressure(force, area):
-        return force / area
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
