@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
