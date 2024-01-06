@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import tensorflow as tf
+print(tf.__version__)
+import array
+def get_list_from_array(array):
+        return array.tolist()
