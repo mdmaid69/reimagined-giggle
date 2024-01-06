@@ -1,5 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_force(mass, acceleration):
+        return mass * acceleration
