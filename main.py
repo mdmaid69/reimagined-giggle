@@ -1,5 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
