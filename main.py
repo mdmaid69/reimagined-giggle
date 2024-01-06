@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
 import collections
-def create_user_string():
-        return collections.UserString()
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
