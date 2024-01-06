@@ -1,5 +1,5 @@
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_area_rectangle(l, w):
-        return l * w
+def get_array_buffer_info(array):
+        return array.buffer_info()
