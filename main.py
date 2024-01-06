@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
