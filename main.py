@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
