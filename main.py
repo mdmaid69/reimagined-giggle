@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
