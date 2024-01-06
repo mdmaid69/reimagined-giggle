@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
