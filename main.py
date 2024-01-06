@@ -1,8 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def is_even(n):
+        return n % 2 == 0
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
