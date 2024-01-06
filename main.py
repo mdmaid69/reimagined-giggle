@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import getpass
+def get_username():
+        return getpass.getuser()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
