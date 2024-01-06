@@ -1,6 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
