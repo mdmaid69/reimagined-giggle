@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def find_min(lst):
+        return min(lst)
