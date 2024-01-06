@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
