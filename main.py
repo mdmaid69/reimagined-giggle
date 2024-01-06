@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  def convert_to_binary(n):
-        return bin(n)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
