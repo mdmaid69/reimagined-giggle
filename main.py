@@ -1,5 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_power(work, time):
-        return work / time
+def calculate_volume(length, width, height):
+        return length * width * height
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
