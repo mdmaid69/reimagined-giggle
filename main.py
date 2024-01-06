@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def convert_to_hex(n):
-        return hex(n)
+def reverse_string(s):
+        return s[::-1]
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
