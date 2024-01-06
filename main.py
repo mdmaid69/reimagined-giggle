@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
