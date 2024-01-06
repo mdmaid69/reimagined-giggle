@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
