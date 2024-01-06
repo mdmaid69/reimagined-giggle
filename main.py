@@ -1,8 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import platform
+def get_os_info():
+        return platform.uname()
