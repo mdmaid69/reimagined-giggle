@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
