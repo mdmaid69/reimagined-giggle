@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
