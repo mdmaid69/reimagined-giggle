@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
