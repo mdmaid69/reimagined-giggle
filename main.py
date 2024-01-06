@@ -1,4 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def cube_number(x):
-        return x**3
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def remove_duplicates(lst):
+        return list(set(lst))
