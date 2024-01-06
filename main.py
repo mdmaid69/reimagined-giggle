@@ -1,6 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
