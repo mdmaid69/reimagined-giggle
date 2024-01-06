@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def subtract_numbers(x, y):
+        return x - y
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
