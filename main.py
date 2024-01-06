@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_floor(x):
+        return math.floor(x)
