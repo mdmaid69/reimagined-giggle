@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import time
+def get_current_time():
+        return time.time()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
