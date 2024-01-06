@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import collections
+def create_stack():
+        return collections.deque()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
