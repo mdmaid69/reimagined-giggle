@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  def count_elements(lst):
-        return len(lst)
+def is_even(n):
+        return n % 2 == 0
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
