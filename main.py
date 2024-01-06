@@ -1,4 +1,4 @@
-def sort_list(lst):
-        return sorted(lst)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def find_max(lst):
+        return max(lst)
