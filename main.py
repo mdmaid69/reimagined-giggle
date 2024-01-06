@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
