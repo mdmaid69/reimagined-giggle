@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def square_number(x):
+        return x**2
+import array
+def set_array_item(array, i, item):
+        array[i] = item
