@@ -1,5 +1,6 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def create_counter():
+        return collections.Counter()
