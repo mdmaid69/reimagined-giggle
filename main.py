@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
