@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
