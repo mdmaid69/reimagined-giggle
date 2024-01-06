@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import collections
-def create_user_string():
-        return collections.UserString()
+import time
+def get_current_time():
+        return time.time()
+import math
+def calculate_floor(x):
+        return math.floor(x)
