@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
