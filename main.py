@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
