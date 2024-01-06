@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
