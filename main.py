@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def sort_numbers(numbers):
+        return sorted(numbers)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_complex(array):
+        return complex(array[0])
