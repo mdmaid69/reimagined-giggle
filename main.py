@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
