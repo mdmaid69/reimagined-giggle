@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+name = "Python"
+print("Hello,", name)
+import array
+def get_list_from_array(array):
+        return array.tolist()
