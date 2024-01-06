@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
