@@ -1,7 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def convert_to_octal(n):
+        return oct(n)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
