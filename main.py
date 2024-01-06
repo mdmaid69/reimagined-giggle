@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
