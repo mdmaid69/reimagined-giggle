@@ -1,7 +1,6 @@
-import random
-print(random.randint(0, 100))
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
