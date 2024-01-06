@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def add_numbers(a, b):
-        return a + b
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
