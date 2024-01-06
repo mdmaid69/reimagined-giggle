@@ -1,6 +1,12 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import collections
+def create_user_dict():
+        return collections.UserDict()
