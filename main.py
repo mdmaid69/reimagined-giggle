@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
