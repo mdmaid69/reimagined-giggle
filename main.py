@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def clear_array(array):
+        array *= 0
+import datetime
+def get_today_date():
+        return datetime.date.today()
