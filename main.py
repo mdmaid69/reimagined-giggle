@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def get_array_as_repr(array):
+        return repr(array)
