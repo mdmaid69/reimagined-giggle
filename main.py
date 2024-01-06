@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
