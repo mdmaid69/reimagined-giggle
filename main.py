@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
