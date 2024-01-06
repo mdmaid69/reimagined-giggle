@@ -1,7 +1,8 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def extend_array(array, iterable):
+        array.extend(iterable)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
