@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
 import os
-def remove_directory(path):
-        os.rmdir(path)
+def change_working_directory(path):
+        os.chdir(path)
+text = "Hello, world!"
+print("Words:", len(text.split()))
