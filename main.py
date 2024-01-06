@@ -1,5 +1,8 @@
-def count_elements(lst):
-        return len(lst)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
