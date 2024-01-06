@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_factorial(n):
+        return math.factorial(n)
