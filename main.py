@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import sys
+def print_python_version():
+        return sys.version
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
