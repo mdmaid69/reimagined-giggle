@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
