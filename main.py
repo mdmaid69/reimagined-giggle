@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def clear_array(array):
+        array *= 0
+def calculate_speed(distance, time):
+        return distance / time
