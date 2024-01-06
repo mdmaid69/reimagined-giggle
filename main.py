@@ -1,5 +1,5 @@
+def greet(name):
+        print(f"Hello, {name}!")
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
