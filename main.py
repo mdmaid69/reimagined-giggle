@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
