@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
 import math
-print(math.pi)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
