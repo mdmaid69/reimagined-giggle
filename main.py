@@ -1,5 +1,7 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
