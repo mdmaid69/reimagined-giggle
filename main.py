@@ -1,5 +1,7 @@
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
