@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import os
+def remove_directory(path):
+        os.rmdir(path)
