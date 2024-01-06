@@ -1,6 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_floor(x):
+        return math.floor(x)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_index(array, item):
+        return array.index(item)
