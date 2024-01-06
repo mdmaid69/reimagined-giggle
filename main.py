@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
