@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
