@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
