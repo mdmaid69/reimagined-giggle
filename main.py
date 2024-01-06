@@ -1,5 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
