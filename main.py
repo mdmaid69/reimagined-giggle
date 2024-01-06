@@ -1,5 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  def convert_to_octal(n):
-        return oct(n)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
