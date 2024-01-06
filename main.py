@@ -1,5 +1,7 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
