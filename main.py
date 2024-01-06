@@ -1,8 +1,8 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
