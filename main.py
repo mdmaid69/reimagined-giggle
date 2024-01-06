@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def is_odd(n):
-        return n % 2 != 0
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
