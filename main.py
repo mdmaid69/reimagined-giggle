@@ -1,7 +1,2 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+print([x**2 for x in range(10)])
+for i in range(10): print(i)
