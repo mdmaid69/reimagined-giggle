@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
