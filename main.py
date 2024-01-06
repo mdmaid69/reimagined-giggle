@@ -1,7 +1,6 @@
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
