@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import re
+print(re.match("h.*o", "hello world"))
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
