@@ -1,3 +1,7 @@
-print("Hello, world!")
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
