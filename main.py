@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
