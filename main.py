@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import time
+print(time.time())
