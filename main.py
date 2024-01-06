@@ -1,5 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
