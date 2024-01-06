@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
