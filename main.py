@@ -1,4 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-def is_odd(n):
-        return n % 2 != 0
+print(sum(range(10)))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
