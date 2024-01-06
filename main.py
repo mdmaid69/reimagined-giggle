@@ -1,5 +1,6 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def divide_numbers(x, y):
-        return x / y
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
