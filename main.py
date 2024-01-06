@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
