@@ -1,8 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
