@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def add_numbers(a, b):
-        return a + b
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_area_circle(r):
+        return 3.14 * r**2
