@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
