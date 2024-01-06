@@ -1,6 +1,7 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+x = 10
+y = 20
+print("Sum:", x + y)
