@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
