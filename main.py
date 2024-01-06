@@ -1,5 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  def remove_duplicates(lst):
+        return list(set(lst))
