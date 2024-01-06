@@ -1,6 +1,8 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
