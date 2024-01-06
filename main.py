@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
