@@ -1,5 +1,6 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def divide_numbers(x, y):
-        return x / y
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  import os
+  def split_path(path):
+        return os.path.split(path)
