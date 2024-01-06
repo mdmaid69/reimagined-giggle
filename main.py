@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
