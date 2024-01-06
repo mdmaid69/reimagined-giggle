@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+for i in range(10): print(i)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
