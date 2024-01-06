@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
