@@ -1,6 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+print(sum(range(10)))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
