@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_as_str(array):
+        return str(array)
