@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_volume(length, width, height):
-        return length * width * height
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import os
+def remove_directory(path):
+        os.rmdir(path)
