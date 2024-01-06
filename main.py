@@ -1,5 +1,7 @@
-def divide_numbers(x, y):
-        return x / y
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def reverse_string(s):
+        return s[::-1]
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
