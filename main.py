@@ -1,4 +1,4 @@
-import datetime
-print(datetime.datetime.now())
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_pressure(force, area):
+        return force / area
+  def count_elements(lst):
+        return len(lst)
