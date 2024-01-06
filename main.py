@@ -1,6 +1,5 @@
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def reverse_array(array):
+        array.reverse()
