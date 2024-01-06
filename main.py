@@ -1,3 +1,6 @@
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
 import functools
 def memoize(func):
         cache = {}
@@ -7,6 +10,3 @@ def memoize(func):
                 cache[args] = func(*args)
         return cache[args]
         return wrapper
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
