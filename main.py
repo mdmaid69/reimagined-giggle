@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
