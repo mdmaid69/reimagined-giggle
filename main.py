@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import array
+def clear_array(array):
+        array *= 0
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
