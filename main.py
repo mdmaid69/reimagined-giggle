@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
