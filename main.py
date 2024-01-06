@@ -1,6 +1,7 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
