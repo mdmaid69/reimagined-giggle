@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import time
+def get_current_time():
+        return time.time()
