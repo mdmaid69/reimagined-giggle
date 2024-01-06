@@ -1,5 +1,4 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+for i in range(10): print(i)
