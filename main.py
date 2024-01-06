@@ -1,6 +1,5 @@
+def convert_to_octal(n):
+        return oct(n)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
