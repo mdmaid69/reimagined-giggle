@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import time
+def get_time_since_epoch():
+        return time.time()
