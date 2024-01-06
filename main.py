@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
