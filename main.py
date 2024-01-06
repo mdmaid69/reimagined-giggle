@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import getpass
-def get_username():
-        return getpass.getuser()
+def add_numbers(x, y):
+        return x + y
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
