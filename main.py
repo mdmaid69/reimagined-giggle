@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-  def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
