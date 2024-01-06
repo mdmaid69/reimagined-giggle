@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
