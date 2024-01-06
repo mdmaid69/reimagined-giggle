@@ -1,6 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+print(sum(range(10)))
