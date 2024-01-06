@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
