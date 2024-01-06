@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
