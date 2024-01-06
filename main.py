@@ -1,5 +1,8 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+i = 0
+while i < 5:
+        print(i)
+        i += 1
