@@ -1,5 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+for i in range(10): print(i)
