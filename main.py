@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_perpetuity(payment, rate):
+        return payment / rate
