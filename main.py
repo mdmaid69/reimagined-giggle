@@ -1,5 +1,9 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
