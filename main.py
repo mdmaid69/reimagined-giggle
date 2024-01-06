@@ -1,4 +1,7 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def reverse_string(s):
-        return s[::-1]
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
