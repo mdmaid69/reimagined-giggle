@@ -1,6 +1,7 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
