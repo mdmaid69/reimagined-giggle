@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-x = 10
-y = 20
-print("Sum:", x + y)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
