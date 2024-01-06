@@ -1,6 +1,3 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+print([x**2 for x in range(10)])
+import sys
+print(sys.version)
