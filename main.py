@@ -1,7 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import array
+def get_array_length(array):
+        return len(array)
+import os
+def get_current_working_directory():
+        return os.getcwd()
