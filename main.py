@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_work(force, distance):
+        return force * distance
+def find_unique_words(sentence):
+        return set(sentence.split())
