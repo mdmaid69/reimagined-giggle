@@ -1,6 +1,6 @@
 import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
