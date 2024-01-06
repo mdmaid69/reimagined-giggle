@@ -1,5 +1,5 @@
-import time
-print(time.time())
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_index(array, item):
+        return array.index(item)
