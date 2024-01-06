@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import collections
-def create_queue():
-        return collections.deque()
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
