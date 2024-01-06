@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  def cube_number(x):
+        return x**3
