@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
