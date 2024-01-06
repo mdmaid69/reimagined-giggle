@@ -1,4 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def find_min(numbers):
+        return min(numbers)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
