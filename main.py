@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+def convert_to_hex(n):
+        return hex(n)
