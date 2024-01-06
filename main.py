@@ -1,5 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  def count_elements(lst):
-        return len(lst)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+text = "Hello, world!"
+print("Characters:", len(text))
