@@ -1,5 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_acceleration(speed, time):
-        return speed / time
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
