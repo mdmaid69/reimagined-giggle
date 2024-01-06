@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
