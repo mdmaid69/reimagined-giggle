@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def count_characters(sentence):
+        return len(sentence)
