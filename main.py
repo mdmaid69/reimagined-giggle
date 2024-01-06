@@ -1,6 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+name = "Python"
+print("Hello,", name)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
