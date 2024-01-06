@@ -1,8 +1,3 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+print([x**2 for x in range(10)])
+def is_even(n):
+        return n % 2 == 0
