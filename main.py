@@ -1,8 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
