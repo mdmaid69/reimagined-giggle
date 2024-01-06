@@ -1,6 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def remove_duplicates(lst):
+        return list(set(lst))
