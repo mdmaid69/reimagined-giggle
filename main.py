@@ -1,6 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_area_circle(r):
+        return 3.14 * r**2
