@@ -1,5 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def add_numbers(x, y):
+        return x + y
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
