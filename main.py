@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
