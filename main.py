@@ -1,5 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
