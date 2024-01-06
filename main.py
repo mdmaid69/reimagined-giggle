@@ -1,4 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def add_numbers(a, b):
+        return a + b
