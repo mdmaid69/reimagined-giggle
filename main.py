@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
