@@ -1,5 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import math
+print(math.pi)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
