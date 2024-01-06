@@ -1,6 +1,8 @@
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
