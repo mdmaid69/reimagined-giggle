@@ -1,6 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
