@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
