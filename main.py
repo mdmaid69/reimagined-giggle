@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
