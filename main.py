@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_as_list(array):
-        return list(array)
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
