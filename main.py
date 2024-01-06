@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
