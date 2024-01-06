@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def greet(name):
+        print(f"Hello, {name}!")
