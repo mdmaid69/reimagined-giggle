@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def multiply_numbers(x, y):
+        return x * y
