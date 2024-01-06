@@ -1,5 +1,8 @@
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
 import array
-def get_array_as_str(array):
-        return str(array)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
