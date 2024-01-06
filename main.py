@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
