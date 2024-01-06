@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import tensorflow as tf
-print(tf.__version__)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_volume(length, width, height):
+        return length * width * height
