@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
