@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
