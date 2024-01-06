@@ -1,5 +1,4 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def cube_number(x):
+        return x**3
+def calculate_acceleration(speed, time):
+        return speed / time
