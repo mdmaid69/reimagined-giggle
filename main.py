@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def find_unique_words(sentence):
+        return set(sentence.split())
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
