@@ -1,5 +1,6 @@
+import array
+def convert_array_to_string(array):
+        return array.tostring()
   import os
-  def get_current_directory():
-        return os.getcwd()
-  def add_numbers(x, y):
-        return x + y
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
