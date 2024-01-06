@@ -1,5 +1,7 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
