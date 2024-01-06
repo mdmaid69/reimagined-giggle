@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
