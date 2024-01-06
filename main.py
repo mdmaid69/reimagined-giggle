@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def is_palindrome(s):
+        return s == s[::-1]
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def set_array_item(array, i, item):
+        array[i] = item
