@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
