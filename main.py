@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  def count_elements(lst):
+        return len(lst)
