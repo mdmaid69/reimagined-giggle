@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+text = "Hello, world!"
+print("Reversed:", text[::-1])
