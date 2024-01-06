@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import collections
+def create_user_list():
+        return collections.UserList()
