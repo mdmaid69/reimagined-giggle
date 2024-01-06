@@ -1,4 +1,10 @@
-import array
-def get_array_length(array):
-        return len(array)
-print(sum(range(10)))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  def multiply_numbers(x, y):
+        return x * y
