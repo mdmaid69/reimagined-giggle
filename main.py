@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  def cube_number(x):
-        return x**3
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
