@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
