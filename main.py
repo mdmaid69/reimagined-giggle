@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import os
+print(os.getcwd())
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
