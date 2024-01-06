@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
