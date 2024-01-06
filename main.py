@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_as_float(array):
+        return float(array[0])
+def square_number(x):
+        return x**2
