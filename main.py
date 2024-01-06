@@ -1,4 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def get_array_as_float(array):
+        return float(array[0])
