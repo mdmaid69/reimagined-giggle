@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_speed(distance, time):
+        return distance / time
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
