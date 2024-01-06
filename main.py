@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import time
+def get_time_since_epoch():
+        return time.time()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
