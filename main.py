@@ -1,5 +1,6 @@
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def set_array_item(array, i, item):
+        array[i] = item
