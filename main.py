@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
