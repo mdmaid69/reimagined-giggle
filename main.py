@@ -1,6 +1,5 @@
+from collections import Counter
+print(Counter("hello world"))
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def get_current_working_directory():
+        return os.getcwd()
