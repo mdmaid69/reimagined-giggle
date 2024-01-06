@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
