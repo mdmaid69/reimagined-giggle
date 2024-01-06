@@ -1,6 +1,10 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
