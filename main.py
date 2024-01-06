@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
