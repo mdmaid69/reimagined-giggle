@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
