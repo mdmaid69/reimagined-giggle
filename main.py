@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_work(force, distance):
-        return force * distance
+import sys
+def exit_program():
+        sys.exit()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
