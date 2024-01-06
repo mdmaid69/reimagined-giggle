@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
