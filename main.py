@@ -1,6 +1,6 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
