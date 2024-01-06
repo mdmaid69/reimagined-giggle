@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
