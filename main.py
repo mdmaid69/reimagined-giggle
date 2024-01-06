@@ -1,5 +1,7 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
