@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
