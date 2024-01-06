@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
