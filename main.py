@@ -1,6 +1,5 @@
+  def reverse_list(lst):
+        return lst[::-1]
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
