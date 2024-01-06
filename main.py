@@ -1,6 +1,6 @@
+import array
+def convert_array_to_string(array):
+        return array.tostring()
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
