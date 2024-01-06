@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
