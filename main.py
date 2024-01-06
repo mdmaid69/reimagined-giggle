@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def calculate_work(force, distance):
-        return force * distance
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def find_min(numbers):
+        return min(numbers)
