@@ -1,9 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
