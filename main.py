@@ -1,6 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
