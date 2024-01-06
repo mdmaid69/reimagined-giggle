@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  def reverse_list(lst):
+        return lst[::-1]
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
