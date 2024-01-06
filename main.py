@@ -1,6 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
