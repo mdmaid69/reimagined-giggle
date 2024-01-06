@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
