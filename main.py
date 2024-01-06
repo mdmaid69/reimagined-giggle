@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
