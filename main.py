@@ -1,5 +1,4 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
