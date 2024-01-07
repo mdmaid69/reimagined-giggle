@@ -1,8 +1,6 @@
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
