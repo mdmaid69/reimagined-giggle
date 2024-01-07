@@ -1,7 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_acceleration(speed, time):
+        return speed / time
