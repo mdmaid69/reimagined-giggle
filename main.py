@@ -1,5 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+print(math.pi)
