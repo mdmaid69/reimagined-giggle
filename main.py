@@ -1,5 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
