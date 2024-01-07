@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
