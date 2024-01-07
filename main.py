@@ -1,7 +1,5 @@
-import os
-print(os.getcwd())
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
