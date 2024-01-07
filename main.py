@@ -1,5 +1,5 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def multiply_numbers(x, y):
+        return x * y
