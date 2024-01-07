@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
