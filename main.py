@@ -1,6 +1,8 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import logging
+def log_message(message):
+        logging.info(message)
