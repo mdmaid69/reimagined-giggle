@@ -1,6 +1,5 @@
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
