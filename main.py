@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
