@@ -1,5 +1,6 @@
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  def count_elements(lst):
-        return len(lst)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
