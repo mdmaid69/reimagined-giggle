@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import time
-print(time.time())
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
