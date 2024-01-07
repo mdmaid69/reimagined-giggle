@@ -1,7 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import tensorflow as tf
-print(tf.__version__)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
