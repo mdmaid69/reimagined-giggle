@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
