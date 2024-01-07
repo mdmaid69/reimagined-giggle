@@ -1,5 +1,5 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def get_array_length(array):
+        return len(array)
+name = "Python"
+print("Hello,", name)
