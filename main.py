@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+text = "Hello, world!"
+print("Words:", len(text.split()))
