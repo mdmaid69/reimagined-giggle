@@ -1,6 +1,5 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def count_characters(sentence):
+        return len(sentence)
