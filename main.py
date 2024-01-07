@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
