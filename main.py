@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def find_min(numbers):
-        return min(numbers)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
