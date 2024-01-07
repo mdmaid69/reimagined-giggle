@@ -1,7 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
