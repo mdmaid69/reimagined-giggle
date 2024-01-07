@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
