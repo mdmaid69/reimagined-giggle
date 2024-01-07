@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_as_repr(array):
+        return repr(array)
