@@ -1,8 +1,7 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
