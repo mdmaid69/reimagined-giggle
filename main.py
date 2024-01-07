@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
