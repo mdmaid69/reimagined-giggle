@@ -1,6 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
