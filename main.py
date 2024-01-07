@@ -1,5 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
