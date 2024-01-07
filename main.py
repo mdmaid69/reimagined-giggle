@@ -1,6 +1,6 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 import array
-def get_array_item(array, i):
-        return array[i]
-import collections
-def create_stack():
-        return collections.deque()
+def get_array_as_bytes(array):
+        return bytes(array)
