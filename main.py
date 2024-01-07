@@ -1,7 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
