@@ -1,6 +1,7 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
