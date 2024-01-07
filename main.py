@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def find_max(numbers):
+        return max(numbers)
