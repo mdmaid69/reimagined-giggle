@@ -1,5 +1,6 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def get_array_as_str(array):
+        return str(array)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
