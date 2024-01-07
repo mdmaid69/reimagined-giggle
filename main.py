@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
