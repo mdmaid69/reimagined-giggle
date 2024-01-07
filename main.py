@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def reverse_list(lst):
-        return lst[::-1]
+for i in range(5):
+        print(i)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
