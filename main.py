@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
