@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
