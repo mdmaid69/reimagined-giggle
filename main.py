@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
+  def square_number(x):
+        return x**2
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_list_from_array(array):
+        return array.tolist()
