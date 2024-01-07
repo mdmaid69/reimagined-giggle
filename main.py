@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import collections
+def create_user_dict():
+        return collections.UserDict()
