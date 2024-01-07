@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
