@@ -1,5 +1,12 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
