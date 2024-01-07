@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
