@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
