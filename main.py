@@ -1,4 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-from collections import Counter
-print(Counter("hello world"))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
