@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
