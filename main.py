@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_pressure(force, area):
+        return force / area
