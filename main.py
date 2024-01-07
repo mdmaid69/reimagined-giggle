@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import logging
+def log_message(message):
+        logging.info(message)
+  def multiply_numbers(x, y):
+        return x * y
