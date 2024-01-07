@@ -1,9 +1,4 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
