@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
