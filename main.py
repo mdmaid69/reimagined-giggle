@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def count_elements(lst):
+        return len(lst)
