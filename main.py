@@ -1,6 +1,7 @@
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
