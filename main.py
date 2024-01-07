@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_pressure(force, area):
+        return force / area
