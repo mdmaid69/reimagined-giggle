@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
