@@ -1,8 +1,5 @@
-name = "Python"
-print("Hello,", name)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import collections
+def create_counter():
+        return collections.Counter()
+def reverse_list(lst):
+        return lst[::-1]
