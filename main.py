@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
