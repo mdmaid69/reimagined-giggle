@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def append_to_array(array, item):
+        array.append(item)
