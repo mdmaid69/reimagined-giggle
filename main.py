@@ -1,4 +1,4 @@
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
 def calculate_debt_ratio(total_debt, total_assets):
         return total_debt / total_assets
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
