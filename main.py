@@ -1,9 +1,6 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
