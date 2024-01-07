@@ -1,5 +1,7 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
