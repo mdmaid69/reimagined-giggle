@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def clear_array(array):
+        array *= 0
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
