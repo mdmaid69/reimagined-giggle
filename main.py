@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_area(radius):
+        return 3.14 * radius * radius
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
