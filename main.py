@@ -1,6 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_area_rectangle(l, w):
+        return l * w
+  def sort_list(lst):
+        return sorted(lst)
