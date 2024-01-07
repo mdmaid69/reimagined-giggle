@@ -1,5 +1,8 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
