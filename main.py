@@ -1,6 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import random
+print(random.randint(0, 100))
+import datetime
+print(datetime.datetime.now())
