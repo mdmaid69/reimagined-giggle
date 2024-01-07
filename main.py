@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def find_min(lst):
+        return min(lst)
