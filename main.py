@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
