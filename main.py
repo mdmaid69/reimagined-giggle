@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
