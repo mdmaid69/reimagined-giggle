@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
