@@ -1,8 +1,5 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_volume(length, width, height):
+        return length * width * height
