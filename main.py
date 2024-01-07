@@ -1,5 +1,4 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def get_array_as_float(array):
+        return float(array[0])
+print(sum(range(10)))
