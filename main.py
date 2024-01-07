@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import re
+print(re.match("h.*o", "hello world"))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
