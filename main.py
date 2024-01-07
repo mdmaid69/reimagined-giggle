@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def greet(name):
-        print(f"Hello, {name}!")
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
