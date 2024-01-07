@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
