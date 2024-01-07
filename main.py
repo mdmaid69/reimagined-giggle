@@ -1,6 +1,10 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
