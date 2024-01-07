@@ -1,6 +1,6 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_list(array):
+        return list(array)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
