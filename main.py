@@ -1,5 +1,6 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import sys
-print(sys.version)
+def convert_array_to_list(array):
+        return array.tolist()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
