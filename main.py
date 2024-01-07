@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def remove_duplicates(lst):
+        return list(set(lst))
