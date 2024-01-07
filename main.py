@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import os
+def remove_directory(path):
+        os.rmdir(path)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
