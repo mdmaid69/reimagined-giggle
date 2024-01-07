@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
