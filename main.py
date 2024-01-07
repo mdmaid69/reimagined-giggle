@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
