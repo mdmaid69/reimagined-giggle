@@ -1,5 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
 n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+print("Powers of 2:", [2**x for x in range(n)])
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
