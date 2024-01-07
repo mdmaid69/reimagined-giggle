@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def count_characters(sentence):
+        return len(sentence)
