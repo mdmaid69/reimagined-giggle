@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
