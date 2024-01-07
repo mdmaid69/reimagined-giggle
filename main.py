@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
