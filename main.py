@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
