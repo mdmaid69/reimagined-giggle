@@ -1,7 +1,6 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
