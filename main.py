@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  def add_numbers(x, y):
+        return x + y
