@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def count_elements(lst):
-        return len(lst)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+text = "Hello, world!"
+print("Words:", len(text.split()))
