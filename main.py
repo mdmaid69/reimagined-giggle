@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def find_min(lst):
+        return min(lst)
