@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import tensorflow as tf
+print(tf.__version__)
