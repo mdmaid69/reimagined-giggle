@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
