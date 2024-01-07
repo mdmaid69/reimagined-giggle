@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_acceleration(speed, time):
+        return speed / time
