@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
