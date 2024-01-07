@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_as_int(array):
+        return int(array[0])
