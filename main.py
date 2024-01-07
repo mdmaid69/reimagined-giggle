@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def cube_number(x):
+        return x**3
