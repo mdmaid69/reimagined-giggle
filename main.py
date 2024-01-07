@@ -1,9 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  def add_numbers(x, y):
+        return x + y
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
