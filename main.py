@@ -1,6 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def append_to_array(array, item):
+        array.append(item)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
