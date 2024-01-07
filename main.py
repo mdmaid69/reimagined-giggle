@@ -1,6 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
