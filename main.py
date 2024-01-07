@@ -1,10 +1,7 @@
-import threading
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import socket
 
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
