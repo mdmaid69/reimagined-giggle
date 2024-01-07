@@ -1,6 +1,4 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import tensorflow as tf
+print(tf.__version__)
