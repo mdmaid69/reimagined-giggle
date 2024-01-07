@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import time
+def get_current_time():
+        return time.time()
