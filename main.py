@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
