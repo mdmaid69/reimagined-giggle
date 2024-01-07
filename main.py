@@ -1,10 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_irr(cash_flows):
-        rate = 0.1
-        for _ in range(100):
-        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-        if abs(npv) < 1e-6:
-                return rate
-        rate += 0.01
-        return None
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import collections
+def create_stack():
+        return collections.deque()
