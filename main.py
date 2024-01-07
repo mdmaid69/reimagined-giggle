@@ -1,8 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
