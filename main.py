@@ -1,8 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_as_repr(array):
+        return repr(array)
