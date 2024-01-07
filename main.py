@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  def convert_to_octal(n):
+        return oct(n)
