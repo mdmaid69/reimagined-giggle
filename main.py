@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import collections
+def create_queue():
+        return collections.deque()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
