@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import sys
+print(sys.version)
