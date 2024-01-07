@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
