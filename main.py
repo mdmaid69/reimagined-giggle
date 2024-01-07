@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
