@@ -1,4 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-name = "Python"
-print("Hello,", name)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def is_odd(n):
+        return n % 2 != 0
