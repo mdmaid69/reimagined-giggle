@@ -1,7 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import numpy as np
+print(np.array([1, 2, 3]))
