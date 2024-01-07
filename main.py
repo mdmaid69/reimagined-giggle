@@ -1,5 +1,5 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-def find_max(numbers):
-        return max(numbers)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
