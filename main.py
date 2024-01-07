@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
