@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import time
+def get_current_time():
+        return time.time()
+print("Hello, world!")
