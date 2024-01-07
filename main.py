@@ -1,7 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
