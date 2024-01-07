@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import sys
+def print_python_version():
+        return sys.version
