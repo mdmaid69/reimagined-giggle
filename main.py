@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
