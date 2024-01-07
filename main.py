@@ -1,5 +1,9 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
