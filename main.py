@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
+def calculate_volume(length, width, height):
+        return length * width * height
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
