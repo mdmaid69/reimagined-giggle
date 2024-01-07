@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
