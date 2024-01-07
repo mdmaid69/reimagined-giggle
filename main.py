@@ -1,5 +1,13 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def count_characters(sentence):
-        return len(sentence)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
