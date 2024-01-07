@@ -1,5 +1,7 @@
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def reverse_list(lst):
-        return lst[::-1]
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
