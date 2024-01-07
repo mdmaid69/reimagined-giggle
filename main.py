@@ -1,6 +1,6 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
