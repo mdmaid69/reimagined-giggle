@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
