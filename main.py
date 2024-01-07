@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import os
+print(os.getcwd())
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
