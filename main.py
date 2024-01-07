@@ -1,6 +1,8 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
