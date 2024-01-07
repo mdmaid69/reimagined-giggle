@@ -1,6 +1,5 @@
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def reverse_array(array):
-        array.reverse()
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
