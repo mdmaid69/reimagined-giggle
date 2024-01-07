@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
