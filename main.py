@@ -1,11 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
