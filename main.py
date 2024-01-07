@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def is_palindrome(s):
-        return s == s[::-1]
+def is_even(n):
+        return n % 2 == 0
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
