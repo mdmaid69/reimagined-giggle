@@ -1,7 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
