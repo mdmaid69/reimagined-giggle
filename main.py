@@ -1,8 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import time
+print(time.time())
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
