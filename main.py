@@ -1,6 +1,7 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
