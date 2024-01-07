@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
