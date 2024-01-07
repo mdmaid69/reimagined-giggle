@@ -1,5 +1,7 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import array
+def get_array_as_bool(array):
+        return bool(array)
