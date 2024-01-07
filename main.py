@@ -1,7 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
