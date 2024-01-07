@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import time
+def get_time_since_epoch():
+        return time.time()
