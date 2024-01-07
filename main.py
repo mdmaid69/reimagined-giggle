@@ -1,6 +1,7 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
