@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import logging
-def log_message(message):
-        logging.info(message)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
