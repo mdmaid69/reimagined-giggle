@@ -1,6 +1,4 @@
 n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
