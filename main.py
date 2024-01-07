@@ -1,12 +1,5 @@
   import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
