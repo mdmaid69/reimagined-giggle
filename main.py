@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import os
+print(os.getcwd())
+import json
+def convert_to_json(data):
+        return json.dumps(data)
