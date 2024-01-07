@@ -1,5 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def find_min(numbers):
-        return min(numbers)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
