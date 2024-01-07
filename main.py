@@ -1,4 +1,5 @@
-print("Hello, world!")
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def convert_array_to_string(array):
+        return array.tostring()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
