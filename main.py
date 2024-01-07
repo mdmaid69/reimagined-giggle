@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def append_to_array(array, item):
-        array.append(item)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+text = "Hello, world!"
+print("Words:", len(text.split()))
