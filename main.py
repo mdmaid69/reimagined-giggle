@@ -1,15 +1,6 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
