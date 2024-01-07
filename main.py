@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
