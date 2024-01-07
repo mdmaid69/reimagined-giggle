@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def find_min(lst):
-        return min(lst)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
