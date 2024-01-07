@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
