@@ -1,6 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+print(math.pi)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
