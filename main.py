@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
