@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
