@@ -1,5 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
