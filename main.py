@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
