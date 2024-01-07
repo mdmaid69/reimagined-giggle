@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import collections
+def create_queue():
+        return collections.deque()
