@@ -1,6 +1,6 @@
+import array
+def get_array_itemsize(array):
+        return array.itemsize
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
