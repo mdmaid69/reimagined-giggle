@@ -1,5 +1,9 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def get_array_length(array):
+        return len(array)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
