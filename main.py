@@ -1,6 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
