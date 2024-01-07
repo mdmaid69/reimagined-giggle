@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
