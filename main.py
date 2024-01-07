@@ -1,6 +1,6 @@
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
