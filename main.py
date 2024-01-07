@@ -1,5 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def square_number(x):
+        return x**2
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
