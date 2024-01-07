@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
