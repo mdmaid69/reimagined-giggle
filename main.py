@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
