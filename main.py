@@ -1,5 +1,7 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def cube_number(x):
+        return x**3
