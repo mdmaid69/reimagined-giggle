@@ -1,4 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def cube_number(x):
+        return x**3
+import numpy as np
+print(np.array([1, 2, 3]))
