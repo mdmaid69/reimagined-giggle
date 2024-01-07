@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
