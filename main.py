@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+name = "Python"
+print("Hello,", name)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
