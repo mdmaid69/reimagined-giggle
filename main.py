@@ -1,5 +1,4 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_queue():
-        return collections.deque()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
