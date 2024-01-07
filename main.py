@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
