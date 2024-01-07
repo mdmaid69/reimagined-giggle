@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+print(math.pi)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
