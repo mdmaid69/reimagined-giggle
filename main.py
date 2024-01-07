@@ -1,6 +1,12 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
