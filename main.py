@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def convert_to_hex(n):
-        return hex(n)
+import datetime
+print(datetime.datetime.now())
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
