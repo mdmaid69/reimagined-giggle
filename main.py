@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_area_rectangle(l, w):
-        return l * w
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
