@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
