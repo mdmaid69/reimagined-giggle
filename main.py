@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import collections
+def create_priority_queue():
+        return collections.deque()
