@@ -1,7 +1,7 @@
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
   import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
         plt.show()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
