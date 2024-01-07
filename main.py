@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def find_max(lst):
+        return max(lst)
+def calculate_density(mass, volume):
+        return mass / volume
