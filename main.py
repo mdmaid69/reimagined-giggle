@@ -1,6 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def get_array_as_set(array):
+        return set(array)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
