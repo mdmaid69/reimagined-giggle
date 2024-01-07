@@ -1,9 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
