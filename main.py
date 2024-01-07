@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
