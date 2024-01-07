@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
