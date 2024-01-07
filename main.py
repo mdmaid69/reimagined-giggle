@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import numpy as np
-print(np.array([1, 2, 3]))
+import sys
+def exit_program():
+        sys.exit()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
