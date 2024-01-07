@@ -1,6 +1,5 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def count_characters(sentence):
+        return len(sentence)
