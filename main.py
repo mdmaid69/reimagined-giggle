@@ -1,5 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
