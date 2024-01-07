@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
