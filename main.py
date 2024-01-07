@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
