@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import sys
+def print_python_version():
+        print(sys.version)
+def count_words(sentence):
+        return len(sentence.split())
