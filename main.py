@@ -1,4 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
