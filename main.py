@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def find_min(lst):
-        return min(lst)
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_current_directory():
+        return os.getcwd()
