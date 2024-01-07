@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+name = "Python"
+print("Hello,", name)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
