@@ -1,6 +1,8 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
