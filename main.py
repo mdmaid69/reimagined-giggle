@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
