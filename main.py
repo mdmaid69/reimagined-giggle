@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
