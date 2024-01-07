@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def append_to_array(array, item):
+        array.append(item)
