@@ -1,8 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
