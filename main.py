@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+for i in range(10): print(i)
