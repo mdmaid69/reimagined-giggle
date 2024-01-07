@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
