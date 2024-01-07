@@ -1,4 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-print(sum(range(10)))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def convert_array_to_list(array):
+        return array.tolist()
