@@ -1,7 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
