@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
