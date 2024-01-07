@@ -1,6 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
