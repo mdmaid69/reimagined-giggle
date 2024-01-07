@@ -1,5 +1,5 @@
+def calculate_density(mass, volume):
+        return mass / volume
 import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def get_array_buffer_info(array):
+        return array.buffer_info()
