@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def count_words(sentence):
+        return len(sentence.split())
