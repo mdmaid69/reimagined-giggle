@@ -1,5 +1,7 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
