@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_area_circle(r):
+        return 3.14 * r**2
