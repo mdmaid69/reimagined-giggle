@@ -1,5 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def count_elements(lst):
+        return len(lst)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
