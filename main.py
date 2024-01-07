@@ -1,5 +1,6 @@
-import time
-print(time.time())
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import datetime
+def get_current_date():
+        return datetime.date.today()
