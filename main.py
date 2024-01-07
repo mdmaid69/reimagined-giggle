@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
   import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def calculate_median(arr):
+        return np.median(arr)
