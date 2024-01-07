@@ -1,4 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-import datetime
-print(datetime.datetime.now())
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+for i in range(10): print(i)
