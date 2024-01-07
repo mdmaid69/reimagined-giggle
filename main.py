@@ -1,5 +1,8 @@
-def sort_list(lst):
-        return sorted(lst)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
