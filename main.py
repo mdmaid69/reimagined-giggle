@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+print([x**2 for x in range(10)])
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
