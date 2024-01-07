@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  def convert_to_octal(n):
-        return oct(n)
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
