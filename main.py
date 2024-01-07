@@ -1,7 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  def subtract_numbers(x, y):
-        return x - y
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
