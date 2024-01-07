@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def clear_array(array):
+        array *= 0
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
