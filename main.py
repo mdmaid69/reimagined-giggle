@@ -1,6 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import platform
-def get_os_info():
-        return platform.uname()
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
