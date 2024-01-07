@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
