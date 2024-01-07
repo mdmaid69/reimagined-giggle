@@ -1,6 +1,8 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
