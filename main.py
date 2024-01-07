@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import getpass
-def get_username():
-        return getpass.getuser()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
