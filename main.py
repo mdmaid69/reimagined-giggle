@@ -1,4 +1,4 @@
-for i in range(10): print(i)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def subtract_numbers(x, y):
+        return x - y
+def count_characters(sentence):
+        return len(sentence)
