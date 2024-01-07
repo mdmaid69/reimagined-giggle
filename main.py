@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
