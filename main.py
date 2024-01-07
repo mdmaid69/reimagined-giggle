@@ -1,6 +1,7 @@
-import platform
-def get_os_info():
-        return platform.uname()
 import array
-def get_array_typecode(array):
-        return array.typecode
+def convert_array_to_list(array):
+        return array.tolist()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
