@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
