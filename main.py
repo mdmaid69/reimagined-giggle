@@ -1,8 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
