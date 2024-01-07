@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_work(force, distance):
+        return force * distance
