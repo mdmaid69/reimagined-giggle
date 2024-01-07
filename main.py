@@ -1,6 +1,5 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_as_str(array):
-        return str(array)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def subtract_numbers(x, y):
+        return x - y
