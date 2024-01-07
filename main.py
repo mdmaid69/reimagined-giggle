@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
