@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
