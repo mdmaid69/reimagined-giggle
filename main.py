@@ -1,5 +1,8 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
