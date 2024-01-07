@@ -1,6 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
