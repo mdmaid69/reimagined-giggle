@@ -1,6 +1,7 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def sort_numbers(numbers):
+        return sorted(numbers)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
