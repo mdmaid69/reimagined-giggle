@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import collections
+def create_priority_queue():
+        return collections.deque()
+import collections
+def create_user_string():
+        return collections.UserString()
