@@ -1,8 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import os
+  def get_current_directory():
+        return os.getcwd()
