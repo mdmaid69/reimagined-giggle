@@ -1,5 +1,2 @@
-import array
-def clear_array(array):
-        array *= 0
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+for i in range(10): print(i)
+print(sum(range(10)))
