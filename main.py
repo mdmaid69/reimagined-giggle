@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
