@@ -1,5 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
