@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
