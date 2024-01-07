@@ -1,5 +1,6 @@
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
