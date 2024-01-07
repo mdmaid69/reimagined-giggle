@@ -1,6 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
