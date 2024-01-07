@@ -1,5 +1,8 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
