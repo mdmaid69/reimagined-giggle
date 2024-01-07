@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
