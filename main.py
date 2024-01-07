@@ -1,8 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
