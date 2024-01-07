@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
