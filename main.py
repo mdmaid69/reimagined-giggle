@@ -1,5 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import logging
+def log_message(message):
+        logging.info(message)
