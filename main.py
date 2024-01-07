@@ -1,6 +1,7 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import time
-def get_current_time():
-        return time.time()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
