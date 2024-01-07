@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def reverse_array(array):
-        array.reverse()
+  def is_even(n):
+        return n % 2 == 0
+import collections
+def create_counter():
+        return collections.Counter()
