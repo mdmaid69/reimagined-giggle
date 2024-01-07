@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import collections
+def create_stack():
+        return collections.deque()
