@@ -1,6 +1,5 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_force(mass, acceleration):
+        return mass * acceleration
