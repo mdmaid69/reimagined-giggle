@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
