@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def reverse_string(s):
+        return s[::-1]
