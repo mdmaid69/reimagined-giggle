@@ -1,5 +1,7 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
