@@ -1,9 +1,10 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-from flask import Flask
-app = Flask(__name__)
+import sys
+print(sys.version)
+import threading
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
