@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
