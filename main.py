@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
