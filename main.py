@@ -1,5 +1,7 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+for i in range(5):
+        print(i)
