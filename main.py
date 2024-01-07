@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import sys
+def print_python_version():
+        return sys.version
