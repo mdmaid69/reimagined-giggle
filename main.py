@@ -1,4 +1,5 @@
-import math
-print(math.pi)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def is_odd(n):
+        return n % 2 != 0
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
