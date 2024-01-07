@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
