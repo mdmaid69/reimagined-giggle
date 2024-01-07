@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import platform
+def get_python_version():
+        return platform.python_version()
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_ceiling(x):
+        return math.ceil(x)
