@@ -1,8 +1,5 @@
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def extend_array(array, iterable):
+        array.extend(iterable)
