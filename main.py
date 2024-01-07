@@ -1,5 +1,8 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
