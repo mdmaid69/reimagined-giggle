@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
