@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
+name = "Python"
+print("Hello,", name)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_as_int(array):
+        return int(array[0])
