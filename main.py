@@ -1,8 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import sys
+def print_python_version():
+        return sys.version
+import os
+def remove_directory(path):
+        os.rmdir(path)
