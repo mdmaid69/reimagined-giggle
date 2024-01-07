@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
