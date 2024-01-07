@@ -1,7 +1,7 @@
-import time
-def get_current_time():
-        return time.time()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
