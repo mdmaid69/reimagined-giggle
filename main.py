@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import time
+print(time.time())
