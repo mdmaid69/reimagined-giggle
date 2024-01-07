@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
