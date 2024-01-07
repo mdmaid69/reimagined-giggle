@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import time
+def get_time_since_epoch():
+        return time.time()
+import collections
+def create_counter():
+        return collections.Counter()
