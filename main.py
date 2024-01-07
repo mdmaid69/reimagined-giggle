@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
