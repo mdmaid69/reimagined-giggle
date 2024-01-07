@@ -1,5 +1,8 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def get_array_length(array):
+        return len(array)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
