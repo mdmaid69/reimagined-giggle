@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
