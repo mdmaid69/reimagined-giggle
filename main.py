@@ -1,6 +1,6 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
