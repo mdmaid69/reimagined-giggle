@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import sys
+def print_python_version():
+        return sys.version
+import datetime
+def get_current_date():
+        return datetime.date.today()
