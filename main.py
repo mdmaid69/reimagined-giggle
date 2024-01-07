@@ -1,4 +1,5 @@
+import sys
+def print_python_version():
+        print(sys.version)
 text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def count_elements(lst):
-        return len(lst)
+print("Uppercase:", text.upper())
