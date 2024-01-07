@@ -1,7 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
