@@ -1,5 +1,6 @@
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
