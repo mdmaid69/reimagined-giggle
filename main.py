@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import sys
-def exit_program():
-        sys.exit()
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
