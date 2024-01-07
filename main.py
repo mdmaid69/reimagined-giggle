@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import random
+def roll_die():
+        return random.randint(1, 6)
