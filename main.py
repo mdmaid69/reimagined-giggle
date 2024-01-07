@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
