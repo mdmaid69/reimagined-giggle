@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def greet(name):
-        print(f"Hello, {name}!")
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_pressure(force, area):
+        return force / area
