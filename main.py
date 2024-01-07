@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def get_array_item(array, i):
+        return array[i]
