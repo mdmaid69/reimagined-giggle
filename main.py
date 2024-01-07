@@ -1,8 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def add_numbers(x, y):
+        return x + y
