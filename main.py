@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import sys
+  def get_python_version():
+        return sys.version
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
