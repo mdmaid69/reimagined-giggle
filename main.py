@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
