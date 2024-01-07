@@ -1,5 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def reverse_list(lst):
-        return lst[::-1]
+def add_numbers(x, y):
+        return x + y
+text = "Hello, world!"
+print("Reversed:", text[::-1])
