@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
