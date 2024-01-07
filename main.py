@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
