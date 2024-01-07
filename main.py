@@ -1,8 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
