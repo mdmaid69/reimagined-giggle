@@ -1,6 +1,7 @@
+def sort_list(lst):
+        return sorted(lst)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
