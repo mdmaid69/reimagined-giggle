@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
