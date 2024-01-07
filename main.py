@@ -1,5 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
