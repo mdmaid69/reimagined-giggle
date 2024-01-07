@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
