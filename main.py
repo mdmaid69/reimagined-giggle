@@ -1,5 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
