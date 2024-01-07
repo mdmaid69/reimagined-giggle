@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_as_tuple(array):
+        return tuple(array)
