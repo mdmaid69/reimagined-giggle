@@ -1,4 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_work(force, distance):
-        return force * distance
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def find_min(numbers):
+        return min(numbers)
