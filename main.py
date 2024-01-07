@@ -1,4 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-print(sum(range(10)))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
