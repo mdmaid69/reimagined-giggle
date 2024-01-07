@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
