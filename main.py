@@ -1,6 +1,6 @@
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
