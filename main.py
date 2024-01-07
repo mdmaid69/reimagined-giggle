@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def cube_number(x):
+        return x**3
+def sort_numbers(numbers):
+        return sorted(numbers)
