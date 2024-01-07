@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
