@@ -1,7 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
