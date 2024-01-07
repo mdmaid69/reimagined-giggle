@@ -1,6 +1,6 @@
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
