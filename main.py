@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
