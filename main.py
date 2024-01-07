@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import sys
+def print_python_version():
+        return sys.version
