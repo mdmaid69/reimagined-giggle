@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
