@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_length(array):
+        return len(array)
