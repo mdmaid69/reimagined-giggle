@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def cube_number(x):
+        return x**3
