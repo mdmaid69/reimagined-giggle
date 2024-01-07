@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def reverse_list(lst):
-        return lst[::-1]
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
