@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import time
-def get_current_time():
-        return time.time()
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
