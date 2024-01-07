@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def find_min(lst):
+        return min(lst)
