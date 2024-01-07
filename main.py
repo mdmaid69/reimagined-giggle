@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import math
+def calculate_sine(x):
+        return math.sin(x)
