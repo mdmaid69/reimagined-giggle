@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def convert_to_octal(n):
-        return oct(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
