@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
