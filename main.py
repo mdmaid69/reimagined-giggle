@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
