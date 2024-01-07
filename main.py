@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_area_rectangle(l, w):
-        return l * w
+def convert_to_binary(n):
+        return bin(n)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
