@@ -1,5 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_area_circle(r):
+        return 3.14 * r**2
