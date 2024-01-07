@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_floor(x):
+        return math.floor(x)
