@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
