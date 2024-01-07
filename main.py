@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
