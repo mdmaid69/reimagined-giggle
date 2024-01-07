@@ -1,6 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
