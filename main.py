@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
