@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_error_function(x):
+        return math.erf(x)
