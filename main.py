@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  def square_number(x):
-        return x**2
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  def cube_number(x):
+        return x**3
