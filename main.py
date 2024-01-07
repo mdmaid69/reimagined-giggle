@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import collections
-def create_queue():
-        return collections.deque()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_acceleration(speed, time):
+        return speed / time
