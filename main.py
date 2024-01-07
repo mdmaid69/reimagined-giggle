@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
