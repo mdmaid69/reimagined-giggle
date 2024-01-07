@@ -1,7 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  def calculate_area_circle(r):
+        return 3.14 * r**2
