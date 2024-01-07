@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  def square_number(x):
+        return x**2
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def convert_array_to_string(array):
+        return array.tostring()
