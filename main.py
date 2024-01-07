@@ -1,6 +1,6 @@
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
