@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import platform
-def get_os_info():
-        return platform.uname()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
