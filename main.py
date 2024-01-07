@@ -1,4 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import array
+def get_array_index(array, item):
+        return array.index(item)
