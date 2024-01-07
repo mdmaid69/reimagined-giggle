@@ -1,5 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def add_numbers(x, y):
-        return x + y
+def calculate_area_rectangle(l, w):
+        return l * w
+import datetime
+print(datetime.datetime.now())
