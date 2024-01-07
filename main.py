@@ -1,5 +1,5 @@
+def calculate_density(mass, volume):
+        return mass / volume
 import array
-def get_array_as_bool(array):
-        return bool(array)
-def add_numbers(a, b):
-        return a + b
+def get_array_typecode(array):
+        return array.typecode
