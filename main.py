@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import tensorflow as tf
+print(tf.__version__)
 import array
-def get_array_item(array, i):
-        return array[i]
+def check_if_array_contains_item(array, item):
+        return item in array
