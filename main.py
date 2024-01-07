@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import sys
-  def get_python_version():
-        return sys.version
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
