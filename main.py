@@ -1,7 +1,8 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import random
+print(random.randint(0, 100))
