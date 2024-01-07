@@ -1,6 +1,7 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
