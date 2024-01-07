@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def insert_into_array(array, i, item):
+        array.insert(i, item)
