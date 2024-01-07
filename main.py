@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import collections
+def create_counter():
+        return collections.Counter()
