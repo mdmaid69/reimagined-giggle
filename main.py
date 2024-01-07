@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import sys
+def print_python_version():
+        print(sys.version)
