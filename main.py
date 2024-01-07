@@ -1,3 +1,6 @@
-print(sum(range(10)))
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
