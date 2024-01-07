@@ -1,6 +1,8 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
