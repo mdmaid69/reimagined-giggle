@@ -1,7 +1,11 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
