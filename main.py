@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
