@@ -1,6 +1,11 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
