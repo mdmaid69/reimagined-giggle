@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_speed(distance, time):
+        return distance / time
+import platform
+def get_python_version():
+        return platform.python_version()
