@@ -1,5 +1,3 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+for i in range(10): print(i)
+def calculate_acceleration(speed, time):
+        return speed / time
