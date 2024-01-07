@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import random
+def roll_die():
+        return random.randint(1, 6)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
