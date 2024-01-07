@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
