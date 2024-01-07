@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_volume(length, width, height):
+        return length * width * height
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
