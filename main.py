@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import collections
-def create_counter():
-        return collections.Counter()
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def remove_duplicates(lst):
+        return list(set(lst))
