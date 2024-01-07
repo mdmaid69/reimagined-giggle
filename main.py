@@ -1,5 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def count_characters(sentence):
-        return len(sentence)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
