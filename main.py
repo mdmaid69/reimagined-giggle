@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
