@@ -1,5 +1,7 @@
-  def cube_number(x):
-        return x**3
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
