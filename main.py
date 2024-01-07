@@ -1,4 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  def convert_to_hex(n):
+        return hex(n)
