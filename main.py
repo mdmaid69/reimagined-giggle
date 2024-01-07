@@ -1,5 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
