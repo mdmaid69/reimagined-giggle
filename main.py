@@ -1,6 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
