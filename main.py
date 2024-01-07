@@ -1,5 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  def square_number(x):
-        return x**2
+  def cube_number(x):
+        return x**3
+  def sort_list(lst):
+        return sorted(lst)
