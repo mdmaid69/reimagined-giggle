@@ -1,6 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
