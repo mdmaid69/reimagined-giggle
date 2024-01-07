@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
