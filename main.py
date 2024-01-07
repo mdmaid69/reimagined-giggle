@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import collections
-def create_user_list():
-        return collections.UserList()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
