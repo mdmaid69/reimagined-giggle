@@ -1,6 +1,8 @@
-import array
-def reverse_array(array):
-        array.reverse()
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
