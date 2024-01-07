@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
