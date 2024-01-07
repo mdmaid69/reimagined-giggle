@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
