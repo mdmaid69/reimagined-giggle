@@ -1,5 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import logging
-def log_message(message):
-        logging.info(message)
+print(sum(range(10)))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
