@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Reversed:", text[::-1])
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
