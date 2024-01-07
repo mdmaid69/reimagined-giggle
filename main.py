@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def clear_array(array):
-        array *= 0
+  def subtract_numbers(x, y):
+        return x - y
+i = 0
+while i < 5:
+        print(i)
+        i += 1
