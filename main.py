@@ -1,7 +1,5 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import datetime
-print(datetime.datetime.now())
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_area_rectangle(l, w):
+        return l * w
