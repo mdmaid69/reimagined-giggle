@@ -1,6 +1,7 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
