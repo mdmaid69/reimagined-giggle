@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
