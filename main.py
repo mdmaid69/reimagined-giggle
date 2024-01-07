@@ -1,4 +1,7 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import platform
+def get_python_version():
+        return platform.python_version()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
