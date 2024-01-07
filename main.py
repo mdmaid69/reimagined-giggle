@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_speed(distance, time):
+        return distance / time
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
