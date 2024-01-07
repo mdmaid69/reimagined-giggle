@@ -1,6 +1,7 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
