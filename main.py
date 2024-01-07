@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
