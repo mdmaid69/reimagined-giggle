@@ -1,5 +1,9 @@
-for i in range(5):
-        print(i)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
