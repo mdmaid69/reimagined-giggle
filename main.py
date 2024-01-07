@@ -1,5 +1,7 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
