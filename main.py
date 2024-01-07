@@ -1,7 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
