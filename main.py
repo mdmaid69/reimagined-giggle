@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def subtract_numbers(x, y):
+        return x - y
