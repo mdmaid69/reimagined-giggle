@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
