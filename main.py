@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_list_from_array(array):
+        return array.tolist()
+import collections
+def create_user_string():
+        return collections.UserString()
