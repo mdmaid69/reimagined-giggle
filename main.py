@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def is_palindrome(s):
-        return s == s[::-1]
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
