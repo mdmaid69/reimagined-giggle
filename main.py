@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import random
+print(random.randint(0, 100))
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
