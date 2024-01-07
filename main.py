@@ -1,6 +1,6 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def get_array_itemsize(array):
+        return array.itemsize
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
