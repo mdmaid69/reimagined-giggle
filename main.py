@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
