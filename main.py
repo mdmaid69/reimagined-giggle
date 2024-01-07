@@ -1,7 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def count_elements(lst):
+        return len(lst)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
