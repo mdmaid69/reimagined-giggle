@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
