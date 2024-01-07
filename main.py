@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+x = 10
+y = 20
+print("Sum:", x + y)
