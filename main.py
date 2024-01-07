@@ -1,6 +1,5 @@
+import sys
+print(sys.version)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
