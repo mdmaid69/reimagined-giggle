@@ -1,5 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def is_even(n):
+        return n % 2 == 0
+def calculate_pressure(force, area):
+        return force / area
