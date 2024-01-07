@@ -1,8 +1,6 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
