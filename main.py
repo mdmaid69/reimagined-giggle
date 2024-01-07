@@ -1,6 +1,8 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
