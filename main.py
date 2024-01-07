@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import random
+def roll_die():
+        return random.randint(1, 6)
