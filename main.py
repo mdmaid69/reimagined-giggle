@@ -1,8 +1,8 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
