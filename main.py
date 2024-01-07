@@ -1,5 +1,8 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
