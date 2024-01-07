@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
