@@ -1,5 +1,5 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
