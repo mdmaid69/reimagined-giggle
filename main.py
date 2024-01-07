@@ -1,6 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def is_even(n):
+        return n % 2 == 0
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
