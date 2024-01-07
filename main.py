@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import tensorflow as tf
+print(tf.__version__)
