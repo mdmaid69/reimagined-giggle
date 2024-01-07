@@ -1,7 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
