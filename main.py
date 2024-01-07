@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_density(mass, volume):
+        return mass / volume
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
