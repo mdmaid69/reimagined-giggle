@@ -1,5 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import random
-print(random.randint(0, 100))
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
