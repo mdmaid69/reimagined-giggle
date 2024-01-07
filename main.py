@@ -1,6 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import datetime
+def get_today_date():
+        return datetime.date.today()
