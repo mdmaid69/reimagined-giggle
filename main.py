@@ -1,6 +1,6 @@
+import array
+def get_array_as_str(array):
+        return str(array)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def delete_file(file_name):
+        os.remove(file_name)
