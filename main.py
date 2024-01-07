@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
