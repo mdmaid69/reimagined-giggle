@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
