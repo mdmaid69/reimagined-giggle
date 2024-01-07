@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
