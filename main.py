@@ -1,6 +1,5 @@
 import sys
-def exit_program():
-        sys.exit()
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def print_python_version():
+        return sys.version
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
