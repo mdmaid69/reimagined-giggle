@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
