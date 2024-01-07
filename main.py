@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
