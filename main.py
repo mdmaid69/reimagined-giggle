@@ -1,6 +1,5 @@
+def convert_to_octal(n):
+        return oct(n)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
