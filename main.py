@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
