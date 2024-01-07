@@ -1,6 +1,8 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
