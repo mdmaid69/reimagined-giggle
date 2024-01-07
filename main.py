@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import random
+print(random.randint(0, 100))
