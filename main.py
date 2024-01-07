@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import platform
-def get_os_info():
-        return platform.uname()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
