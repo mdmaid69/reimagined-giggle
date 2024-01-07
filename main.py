@@ -1,8 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
