@@ -1,5 +1,12 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
