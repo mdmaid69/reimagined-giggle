@@ -1,10 +1,10 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-from flask import Flask
-app = Flask(__name__)
+import threading
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import datetime
+print(datetime.datetime.now())
