@@ -1,7 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
