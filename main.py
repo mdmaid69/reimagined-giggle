@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
