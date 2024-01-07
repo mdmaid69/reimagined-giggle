@@ -1,4 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import array
+def reverse_array(array):
+        array.reverse()
