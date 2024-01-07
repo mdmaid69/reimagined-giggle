@@ -1,5 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+text = "Hello, world!"
+print("Words:", len(text.split()))
