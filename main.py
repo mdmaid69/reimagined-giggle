@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  def multiply_numbers(x, y):
+        return x * y
