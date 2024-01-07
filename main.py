@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
