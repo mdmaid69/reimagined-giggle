@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
