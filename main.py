@@ -1,5 +1,4 @@
-  def square_number(x):
+def square_number(x):
         return x**2
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def reverse_list(lst):
+        return lst[::-1]
