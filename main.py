@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
