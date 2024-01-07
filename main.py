@@ -1,6 +1,10 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
