@@ -1,5 +1,4 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import os
-print(os.getcwd())
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
