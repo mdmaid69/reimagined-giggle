@@ -1,5 +1,6 @@
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
