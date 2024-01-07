@@ -1,7 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+print("Hello, world!")
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
