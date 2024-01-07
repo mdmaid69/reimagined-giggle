@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import sys
-def print_python_version():
-        print(sys.version)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
