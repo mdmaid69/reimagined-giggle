@@ -1,5 +1,4 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  def is_odd(n):
+        return n % 2 != 0
