@@ -1,5 +1,9 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+  def remove_duplicates(lst):
+        return list(set(lst))
