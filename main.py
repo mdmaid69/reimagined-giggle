@@ -1,11 +1,11 @@
-import threading
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import queue
 
-def print_hello():
-        print("Hello, world!")
+q = queue.Queue()
 
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
