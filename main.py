@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  def cube_number(x):
-        return x**3
+def greet(name):
+        print(f"Hello, {name}!")
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
