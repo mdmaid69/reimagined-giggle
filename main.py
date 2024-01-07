@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_volume(length, width, height):
+        return length * width * height
+import datetime
+def get_today_date():
+        return datetime.date.today()
