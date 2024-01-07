@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
