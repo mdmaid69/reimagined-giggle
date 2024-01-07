@@ -1,6 +1,9 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
