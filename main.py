@@ -1,7 +1,9 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import sys
+def print_python_version():
+        print(sys.version)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
