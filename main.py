@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_volume(length, width, height):
+        return length * width * height
