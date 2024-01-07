@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import array
-def get_array_as_str(array):
-        return str(array)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
