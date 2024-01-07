@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import platform
+def get_python_version():
+        return platform.python_version()
