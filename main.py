@@ -1,4 +1,9 @@
-  def is_odd(n):
-        return n % 2 != 0
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
