@@ -1,6 +1,6 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def get_array_as_complex(array):
+        return complex(array[0])
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
