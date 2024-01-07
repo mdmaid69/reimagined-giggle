@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+x = 10
+y = 20
+print("Sum:", x + y)
