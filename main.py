@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
