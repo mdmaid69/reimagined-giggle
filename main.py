@@ -1,6 +1,7 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
