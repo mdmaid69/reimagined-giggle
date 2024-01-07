@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
