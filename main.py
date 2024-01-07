@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
