@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
