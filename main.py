@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
+import platform
+def get_python_version():
+        return platform.python_version()
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def extend_array(array, iterable):
+        array.extend(iterable)
