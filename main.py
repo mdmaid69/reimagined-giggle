@@ -1,6 +1,5 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  def sort_list(lst):
+        return sorted(lst)
