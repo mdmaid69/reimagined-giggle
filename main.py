@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_power(work, time):
+        return work / time
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
