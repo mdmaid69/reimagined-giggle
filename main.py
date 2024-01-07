@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_area(radius):
+        return 3.14 * radius * radius
