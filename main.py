@@ -1,6 +1,6 @@
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
