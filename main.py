@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
