@@ -1,6 +1,12 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
