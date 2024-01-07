@@ -1,6 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
