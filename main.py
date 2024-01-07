@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
