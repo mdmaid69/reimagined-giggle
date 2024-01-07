@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  def subtract_numbers(x, y):
-        return x - y
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
