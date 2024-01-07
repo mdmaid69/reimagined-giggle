@@ -1,10 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
