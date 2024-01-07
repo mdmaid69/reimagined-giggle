@@ -1,5 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
