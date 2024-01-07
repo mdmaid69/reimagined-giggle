@@ -1,5 +1,7 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
