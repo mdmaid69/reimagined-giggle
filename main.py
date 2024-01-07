@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
