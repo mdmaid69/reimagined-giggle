@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
