@@ -1,6 +1,8 @@
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_arc_sine(x):
+        return math.asin(x)
