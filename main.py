@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
