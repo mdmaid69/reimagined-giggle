@@ -1,5 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_work(force, distance):
-        return force * distance
+def find_min(numbers):
+        return min(numbers)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
