@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def remove_duplicates(lst):
+        return list(set(lst))
