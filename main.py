@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def get_array_as_list(array):
+        return list(array)
