@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  def convert_to_binary(n):
+        return bin(n)
+import time
+def get_time_since_epoch():
+        return time.time()
