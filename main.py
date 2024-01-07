@@ -1,5 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_acceleration(speed, time):
-        return speed / time
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
