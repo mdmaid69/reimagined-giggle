@@ -1,5 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def add_numbers(a, b):
-        return a + b
+import collections
+def create_stack():
+        return collections.deque()
+import array
+def append_to_array(array, item):
+        array.append(item)
