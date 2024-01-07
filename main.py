@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_area_rectangle(l, w):
-        return l * w
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
