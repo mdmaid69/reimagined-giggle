@@ -1,4 +1,5 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
 n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import json
-print(json.dumps({"name": "John", "age": 30}))
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
