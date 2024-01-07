@@ -1,6 +1,5 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def add_numbers(a, b):
-        return a + b
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_work(force, distance):
+        return force * distance
