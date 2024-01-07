@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
