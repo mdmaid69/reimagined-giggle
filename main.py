@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
