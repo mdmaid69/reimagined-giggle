@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
