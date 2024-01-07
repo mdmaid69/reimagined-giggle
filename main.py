@@ -1,6 +1,7 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
