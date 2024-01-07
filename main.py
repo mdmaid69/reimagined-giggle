@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
