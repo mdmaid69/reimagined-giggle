@@ -1,6 +1,5 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def convert_to_hex(n):
+        return hex(n)
