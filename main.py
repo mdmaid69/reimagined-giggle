@@ -1,5 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_speed(distance, time):
-        return distance / time
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def subtract_numbers(x, y):
+        return x - y
