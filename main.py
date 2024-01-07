@@ -1,4 +1,4 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  def sort_list(lst):
-        return sorted(lst)
+import math
+print(math.pi)
+import re
+print(re.match("h.*o", "hello world"))
