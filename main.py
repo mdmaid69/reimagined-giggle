@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import sys
-def print_python_version():
-        return sys.version
+import collections
+def create_user_string():
+        return collections.UserString()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
