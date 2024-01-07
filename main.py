@@ -1,5 +1,7 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import platform
+def get_python_version():
+        return platform.python_version()
