@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def count_elements(lst):
+        return len(lst)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
