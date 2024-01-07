@@ -1,6 +1,7 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
