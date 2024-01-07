@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
