@@ -1,5 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_power(work, time):
-        return work / time
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
