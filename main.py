@@ -1,6 +1,7 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def convert_to_binary(n):
+        return bin(n)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
