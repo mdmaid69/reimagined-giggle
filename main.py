@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
