@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import getpass
+def get_username():
+        return getpass.getuser()
