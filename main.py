@@ -1,6 +1,4 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def is_palindrome(s):
+        return s == s[::-1]
