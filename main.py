@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
