@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+def cube_number(x):
+        return x**3
