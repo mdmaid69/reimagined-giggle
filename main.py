@@ -1,5 +1,6 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_power(work, time):
-        return work / time
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
