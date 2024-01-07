@@ -1,5 +1,6 @@
+import array
+def get_array_typecode(array):
+        return array.typecode
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
