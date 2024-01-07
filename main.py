@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
