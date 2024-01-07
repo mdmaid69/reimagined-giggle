@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
