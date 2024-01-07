@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
