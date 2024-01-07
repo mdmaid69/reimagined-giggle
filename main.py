@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
