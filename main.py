@@ -1,6 +1,6 @@
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
