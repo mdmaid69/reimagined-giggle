@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
