@@ -1,6 +1,8 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
