@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
