@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
