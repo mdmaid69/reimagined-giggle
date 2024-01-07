@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def reverse_string(s):
-        return s[::-1]
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
