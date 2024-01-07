@@ -1,8 +1,3 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import collections
-def create_user_string():
-        return collections.UserString()
+def count_characters(sentence):
+        return len(sentence)
+print([x**2 for x in range(10)])
