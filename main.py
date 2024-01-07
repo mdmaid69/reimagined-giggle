@@ -1,5 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+print([x**2 for x in range(10)])
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
