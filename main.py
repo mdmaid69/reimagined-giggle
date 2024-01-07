@@ -1,7 +1,5 @@
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  def delete_file(file_name):
+        os.remove(file_name)
