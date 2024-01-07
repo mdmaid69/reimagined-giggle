@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
