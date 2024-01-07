@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def clear_array(array):
+        array *= 0
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
