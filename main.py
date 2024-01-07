@@ -1,6 +1,6 @@
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import collections
-def create_user_string():
-        return collections.UserString()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
