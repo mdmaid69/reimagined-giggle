@@ -1,6 +1,9 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
