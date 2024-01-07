@@ -1,4 +1,7 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  def count_elements(lst):
-        return len(lst)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+for i in range(5):
+        print(i)
