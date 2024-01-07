@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
