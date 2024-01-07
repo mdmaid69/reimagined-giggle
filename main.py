@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
