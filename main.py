@@ -1,6 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_floor(x):
+        return math.floor(x)
