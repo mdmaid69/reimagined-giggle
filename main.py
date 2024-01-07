@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
