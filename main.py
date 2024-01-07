@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
