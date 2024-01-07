@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
