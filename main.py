@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
