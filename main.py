@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_floor(x):
+        return math.floor(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
