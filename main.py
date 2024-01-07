@@ -1,6 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
