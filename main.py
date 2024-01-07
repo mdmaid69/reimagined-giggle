@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
