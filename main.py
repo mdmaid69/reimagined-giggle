@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import sys
-def exit_program():
-        sys.exit()
+def cube_number(x):
+        return x**3
+import array
+def convert_array_to_list(array):
+        return array.tolist()
