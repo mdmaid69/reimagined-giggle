@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-text = "Hello, world!"
-print("Characters:", len(text))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import platform
+def get_python_version():
+        return platform.python_version()
