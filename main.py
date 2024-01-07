@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import collections
+def create_counter():
+        return collections.Counter()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
