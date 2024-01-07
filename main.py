@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
