@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
