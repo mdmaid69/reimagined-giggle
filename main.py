@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
