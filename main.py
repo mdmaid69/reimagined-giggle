@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
