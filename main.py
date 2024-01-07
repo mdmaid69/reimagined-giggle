@@ -1,5 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
