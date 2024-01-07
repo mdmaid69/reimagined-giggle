@@ -1,5 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_density(mass, volume):
-        return mass / volume
+import sys
+print(sys.version)
+def count_characters(sentence):
+        return len(sentence)
