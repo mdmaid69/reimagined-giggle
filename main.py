@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
