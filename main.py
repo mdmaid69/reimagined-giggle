@@ -1,6 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def count_characters(sentence):
+        return len(sentence)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
