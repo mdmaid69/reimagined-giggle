@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  def remove_duplicates(lst):
+        return list(set(lst))
