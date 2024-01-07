@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_work(force, distance):
-        return force * distance
+import platform
+def get_python_version():
+        return platform.python_version()
+import collections
+def create_queue():
+        return collections.deque()
