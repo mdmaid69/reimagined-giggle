@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+print(math.pi)
+import os
+def get_current_working_directory():
+        return os.getcwd()
