@@ -1,4 +1,4 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def convert_to_octal(n):
+        return oct(n)
