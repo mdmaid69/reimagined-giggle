@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import collections
-def create_user_list():
-        return collections.UserList()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def convert_to_octal(n):
+        return oct(n)
