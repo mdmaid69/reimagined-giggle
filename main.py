@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def convert_to_binary(n):
+        return bin(n)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
