@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
