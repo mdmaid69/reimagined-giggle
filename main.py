@@ -1,8 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
