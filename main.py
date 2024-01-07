@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import random
+def roll_die():
+        return random.randint(1, 6)
