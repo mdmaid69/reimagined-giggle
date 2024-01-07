@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def get_array_as_list(array):
-        return list(array)
+import time
+def get_time_since_epoch():
+        return time.time()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
