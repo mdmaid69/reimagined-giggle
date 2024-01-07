@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def convert_to_octal(n):
-        return oct(n)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
