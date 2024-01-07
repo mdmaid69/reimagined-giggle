@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+name = "Python"
+print("Hello,", name)
