@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
