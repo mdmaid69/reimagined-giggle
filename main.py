@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
