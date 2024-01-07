@@ -1,5 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def count_elements(lst):
+        return len(lst)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
