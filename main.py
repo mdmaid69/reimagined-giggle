@@ -1,5 +1,6 @@
+import math
+def calculate_cosine(x):
+        return math.cos(x)
 import array
-def get_array_typecode(array):
-        return array.typecode
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def get_array_as_str(array):
+        return str(array)
