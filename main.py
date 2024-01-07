@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import os
-print(os.getcwd())
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
