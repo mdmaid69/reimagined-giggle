@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
