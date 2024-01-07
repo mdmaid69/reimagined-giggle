@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  def cube_number(x):
-        return x**3
+import logging
+def log_message(message):
+        logging.info(message)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
