@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
