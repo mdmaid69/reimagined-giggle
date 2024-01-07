@@ -1,5 +1,7 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
