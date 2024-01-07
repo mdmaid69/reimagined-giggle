@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def reverse_string(s):
+        return s[::-1]
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
