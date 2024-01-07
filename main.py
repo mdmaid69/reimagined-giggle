@@ -1,5 +1,8 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
