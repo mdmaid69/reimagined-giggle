@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
