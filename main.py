@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
