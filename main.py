@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import tensorflow as tf
-print(tf.__version__)
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
