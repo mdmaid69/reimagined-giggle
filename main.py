@@ -1,8 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
