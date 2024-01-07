@@ -1,5 +1,6 @@
+import array
+def get_array_as_set(array):
+        return set(array)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
