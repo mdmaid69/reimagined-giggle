@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import platform
+def get_python_version():
+        return platform.python_version()
