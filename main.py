@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
