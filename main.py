@@ -1,6 +1,5 @@
+def find_min(lst):
+        return min(lst)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
