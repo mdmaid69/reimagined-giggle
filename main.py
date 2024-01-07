@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
