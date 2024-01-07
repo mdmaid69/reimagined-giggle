@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import os
-print(os.getcwd())
+def divide_numbers(x, y):
+        return x / y
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
