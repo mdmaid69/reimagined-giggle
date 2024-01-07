@@ -1,6 +1,8 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
