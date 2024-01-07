@@ -1,5 +1,6 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import collections
+def create_stack():
+        return collections.deque()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
