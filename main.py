@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
