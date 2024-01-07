@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
