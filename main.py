@@ -1,5 +1,6 @@
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def count_elements(lst):
-        return len(lst)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
