@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
