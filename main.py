@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
