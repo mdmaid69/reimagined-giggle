@@ -1,6 +1,3 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+print([x**2 for x in range(10)])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
