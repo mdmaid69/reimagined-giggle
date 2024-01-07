@@ -1,4 +1,9 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
