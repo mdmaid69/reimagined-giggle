@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
