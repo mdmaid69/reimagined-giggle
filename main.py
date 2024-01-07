@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
