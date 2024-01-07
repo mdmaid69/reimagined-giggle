@@ -1,6 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
