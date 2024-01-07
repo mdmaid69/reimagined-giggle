@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
