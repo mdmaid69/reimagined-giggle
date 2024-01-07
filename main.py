@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
