@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+text = "Hello, world!"
+print("Characters:", len(text))
