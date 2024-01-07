@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
