@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
