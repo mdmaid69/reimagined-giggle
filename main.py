@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import time
+def get_current_time():
+        return time.time()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
