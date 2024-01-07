@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def is_even(n):
+        return n % 2 == 0
