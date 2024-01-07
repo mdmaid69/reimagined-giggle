@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import collections
+def create_user_dict():
+        return collections.UserDict()
