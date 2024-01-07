@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def split_path(path):
+        return os.path.split(path)
