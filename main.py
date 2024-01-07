@@ -1,6 +1,6 @@
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def get_list_from_array(array):
+        return array.tolist()
