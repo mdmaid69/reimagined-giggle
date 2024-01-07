@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
