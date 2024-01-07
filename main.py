@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
