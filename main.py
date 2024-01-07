@@ -1,4 +1,10 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
