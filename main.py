@@ -1,5 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import platform
+def get_os_info():
+        return platform.uname()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
