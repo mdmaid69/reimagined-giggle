@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
