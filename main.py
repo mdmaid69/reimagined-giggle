@@ -1,6 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def convert_to_octal(n):
+        return oct(n)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
