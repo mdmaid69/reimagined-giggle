@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def square_number(x):
+        return x**2
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
