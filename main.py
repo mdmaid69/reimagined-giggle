@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
 import collections
-def create_stack():
-        return collections.deque()
+def create_counter():
+        return collections.Counter()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
