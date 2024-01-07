@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def split_path(path):
+        return os.path.split(path)
