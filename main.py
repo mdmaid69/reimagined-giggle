@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
