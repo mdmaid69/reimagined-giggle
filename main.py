@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import collections
+def create_user_list():
+        return collections.UserList()
