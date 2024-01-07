@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
