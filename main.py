@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def cube_number(x):
-        return x**3
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
