@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
