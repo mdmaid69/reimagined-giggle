@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_pressure(force, area):
+        return force / area
