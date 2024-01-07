@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  def subtract_numbers(x, y):
+        return x - y
