@@ -1,6 +1,6 @@
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def extend_array(array, iterable):
+        array.extend(iterable)
