@@ -1,7 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
