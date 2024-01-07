@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import collections
+def create_counter():
+        return collections.Counter()
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
