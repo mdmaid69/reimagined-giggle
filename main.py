@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import time
-def get_time_since_epoch():
-        return time.time()
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
