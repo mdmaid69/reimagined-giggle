@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
