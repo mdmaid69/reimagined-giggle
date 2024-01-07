@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+for i in range(5):
+        print(i)
