@@ -1,6 +1,6 @@
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
