@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def sort_list(lst):
-        return sorted(lst)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
