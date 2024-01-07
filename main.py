@@ -1,6 +1,6 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def get_current_working_directory():
+        return os.getcwd()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
