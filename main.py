@@ -1,8 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import collections
+def create_counter():
+        return collections.Counter()
+  import sys
+  def get_python_version():
+        return sys.version
