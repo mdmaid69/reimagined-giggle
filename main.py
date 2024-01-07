@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def cube_number(x):
+        return x**3
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
