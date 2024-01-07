@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
