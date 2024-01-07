@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def convert_to_binary(n):
-        return bin(n)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
