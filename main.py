@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
