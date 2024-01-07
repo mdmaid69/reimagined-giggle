@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import logging
-def log_message(message):
-        logging.info(message)
+  def multiply_numbers(x, y):
+        return x * y
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
