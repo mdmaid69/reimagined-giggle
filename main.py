@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def convert_to_octal(n):
+        return oct(n)
