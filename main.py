@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def sort_list(lst):
+        return sorted(lst)
