@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
