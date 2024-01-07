@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
