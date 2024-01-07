@@ -1,11 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
