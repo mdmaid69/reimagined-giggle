@@ -1,6 +1,9 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
