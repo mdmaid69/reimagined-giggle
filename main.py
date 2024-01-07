@@ -1,5 +1,11 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
