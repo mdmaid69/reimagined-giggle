@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def square_number(x):
+        return x**2
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
