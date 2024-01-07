@@ -1,5 +1,6 @@
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
 import math
-print(math.pi)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
