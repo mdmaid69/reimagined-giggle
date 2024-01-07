@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
