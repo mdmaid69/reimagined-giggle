@@ -1,7 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
