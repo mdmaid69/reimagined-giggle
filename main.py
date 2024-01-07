@@ -1,4 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
