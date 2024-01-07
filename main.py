@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def find_max(numbers):
-        return max(numbers)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import sys
+def exit_program():
+        sys.exit()
