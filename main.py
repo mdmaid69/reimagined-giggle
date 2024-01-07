@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
