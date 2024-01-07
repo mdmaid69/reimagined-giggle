@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_base_name(path):
+        return os.path.basename(path)
