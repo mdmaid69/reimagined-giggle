@@ -1,5 +1,6 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
