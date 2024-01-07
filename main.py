@@ -1,4 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_array_typecode(array):
+        return array.typecode
