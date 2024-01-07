@@ -1,4 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-print("Hello, world!")
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
