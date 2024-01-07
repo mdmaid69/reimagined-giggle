@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
