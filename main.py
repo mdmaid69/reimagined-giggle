@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import time
+def get_current_time():
+        return time.time()
