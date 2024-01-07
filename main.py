@@ -1,6 +1,6 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
