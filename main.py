@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-for i in range(5):
-        print(i)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_area_circle(r):
+        return 3.14 * r**2
