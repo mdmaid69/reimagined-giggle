@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+i = 0
+while i < 5:
+        print(i)
+        i += 1
