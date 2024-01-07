@@ -1,6 +1,10 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
