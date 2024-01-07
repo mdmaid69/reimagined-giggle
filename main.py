@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
