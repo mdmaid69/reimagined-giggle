@@ -1,6 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
   import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
         plt.show()
+import collections
+def create_user_dict():
+        return collections.UserDict()
