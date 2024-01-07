@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
