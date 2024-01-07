@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
