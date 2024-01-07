@@ -1,5 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-import time
-def get_current_time():
-        return time.ctime()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
