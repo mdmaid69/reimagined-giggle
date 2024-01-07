@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
