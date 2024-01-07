@@ -1,4 +1,6 @@
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def is_palindrome(s):
-        return s == s[::-1]
+print("Cube numbers:", [x**3 for x in range(n)])
+i = 0
+while i < 5:
+        print(i)
+        i += 1
