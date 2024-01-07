@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
