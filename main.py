@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
