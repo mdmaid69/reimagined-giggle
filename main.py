@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import time
+print(time.time())
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
