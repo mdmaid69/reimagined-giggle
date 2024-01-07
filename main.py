@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import collections
+def create_counter():
+        return collections.Counter()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
