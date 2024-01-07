@@ -1,6 +1,6 @@
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
