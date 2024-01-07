@@ -1,8 +1,5 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import random
+print(random.randint(0, 100))
