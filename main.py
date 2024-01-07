@@ -1,5 +1,5 @@
+def calculate_perpetuity(payment, rate):
+        return payment / rate
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def is_even(n):
-        return n % 2 == 0
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
