@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  def sort_list(lst):
-        return sorted(lst)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
