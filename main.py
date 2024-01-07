@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
