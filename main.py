@@ -1,7 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def square_number(x):
+        return x**2
+import getpass
+def get_username():
+        return getpass.getuser()
