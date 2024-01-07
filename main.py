@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
