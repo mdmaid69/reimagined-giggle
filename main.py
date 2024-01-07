@@ -1,6 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def calculate_exponential(x):
+        return math.exp(x)
