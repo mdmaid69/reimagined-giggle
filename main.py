@@ -1,6 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
