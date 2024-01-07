@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
