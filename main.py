@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-print(math.pi)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  def add_numbers(x, y):
+        return x + y
