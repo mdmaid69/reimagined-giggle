@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
