@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import getpass
+def get_username():
+        return getpass.getuser()
