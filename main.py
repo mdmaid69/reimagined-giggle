@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
