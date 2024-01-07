@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def set_array_item(array, i, item):
+        array[i] = item
