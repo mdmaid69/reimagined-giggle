@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def greet(name):
-        print(f"Hello, {name}!")
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
