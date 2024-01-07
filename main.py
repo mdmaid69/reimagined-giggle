@@ -1,5 +1,4 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def find_max(numbers):
+        return max(numbers)
