@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
