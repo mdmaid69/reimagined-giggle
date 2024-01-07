@@ -1,5 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_power(work, time):
-        return work / time
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
