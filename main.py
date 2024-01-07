@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import collections
-def create_stack():
-        return collections.deque()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
