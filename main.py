@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def subtract_numbers(x, y):
+        return x - y
