@@ -1,7 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import random
-print(random.randint(0, 100))
+import time
+def get_current_time():
+        return time.ctime()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
