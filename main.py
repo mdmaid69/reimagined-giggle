@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def reverse_string(s):
+        return s[::-1]
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
