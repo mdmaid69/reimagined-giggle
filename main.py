@@ -1,5 +1,8 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import array
+def get_string_from_array(array):
+        return array.tobytes()
