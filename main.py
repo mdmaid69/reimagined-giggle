@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def square_number(x):
-        return x**2
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
