@@ -1,6 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
