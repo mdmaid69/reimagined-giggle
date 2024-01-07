@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  def convert_to_octal(n):
+        return oct(n)
