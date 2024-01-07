@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
+x = 10
+y = 20
+print("Sum:", x + y)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_absolute_value(x):
+        return math.fabs(x)
