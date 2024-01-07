@@ -1,6 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def get_array_item(array, i):
+        return array[i]
