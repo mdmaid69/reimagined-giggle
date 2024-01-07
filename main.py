@@ -1,11 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-def sort_numbers(numbers):
-        return sorted(numbers)
+from collections import Counter
+print(Counter("hello world"))
+import time
+def get_current_time():
+        return time.time()
