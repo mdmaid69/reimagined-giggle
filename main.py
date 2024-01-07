@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
