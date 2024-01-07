@@ -1,6 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
