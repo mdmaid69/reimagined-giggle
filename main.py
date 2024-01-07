@@ -1,4 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
