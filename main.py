@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
