@@ -1,5 +1,4 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+for i in range(10): print(i)
