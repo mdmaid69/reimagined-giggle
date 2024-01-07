@@ -1,6 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
