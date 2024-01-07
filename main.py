@@ -1,8 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_exponential(x):
+        return math.exp(x)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_as_str(array):
+        return str(array)
