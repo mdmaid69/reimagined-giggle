@@ -1,10 +1,4 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_area_rectangle(l, w):
+        return l * w
+  def add_numbers(x, y):
+        return x + y
