@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
