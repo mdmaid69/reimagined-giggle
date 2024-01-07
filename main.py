@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
