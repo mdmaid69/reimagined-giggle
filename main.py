@@ -1,7 +1,7 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import sys
+def print_python_version():
+        return sys.version
