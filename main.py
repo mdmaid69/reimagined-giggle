@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import time
+def get_current_time():
+        return time.time()
