@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def is_odd(n):
+        return n % 2 != 0
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
