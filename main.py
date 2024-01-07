@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def count_words(sentence):
-        return len(sentence.split())
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
