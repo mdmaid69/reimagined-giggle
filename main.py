@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
