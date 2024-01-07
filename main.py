@@ -1,5 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_area_circle(r):
+        return 3.14 * r**2
