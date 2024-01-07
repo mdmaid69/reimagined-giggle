@@ -1,5 +1,3 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+for i in range(10): print(i)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
