@@ -1,7 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
