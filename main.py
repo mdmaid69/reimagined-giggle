@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def subtract_numbers(x, y):
-        return x - y
+import random
+def roll_die():
+        return random.randint(1, 6)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
