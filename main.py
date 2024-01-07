@@ -1,6 +1,6 @@
 import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import collections
+def create_priority_queue():
+        return collections.deque()
