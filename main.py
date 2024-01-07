@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
