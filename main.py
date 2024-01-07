@@ -1,5 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
