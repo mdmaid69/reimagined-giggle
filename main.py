@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
