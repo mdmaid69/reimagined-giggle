@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
