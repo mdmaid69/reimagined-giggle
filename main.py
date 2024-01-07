@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import collections
+def create_stack():
+        return collections.deque()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
