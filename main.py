@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
