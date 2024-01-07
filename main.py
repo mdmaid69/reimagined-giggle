@@ -1,6 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
