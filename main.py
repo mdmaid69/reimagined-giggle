@@ -1,6 +1,12 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
