@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
