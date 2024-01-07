@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import collections
-def create_queue():
-        return collections.deque()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import logging
+def log_message(message):
+        logging.info(message)
