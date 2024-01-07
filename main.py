@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
