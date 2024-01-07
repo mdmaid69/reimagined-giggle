@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
