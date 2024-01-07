@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
