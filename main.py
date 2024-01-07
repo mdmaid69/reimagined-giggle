@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def count_elements(lst):
+        return len(lst)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
