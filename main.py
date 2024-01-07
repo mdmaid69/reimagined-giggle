@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
