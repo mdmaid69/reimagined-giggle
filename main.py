@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import sys
+def print_python_version():
+        return sys.version
+def calculate_area(radius):
+        return 3.14 * radius * radius
