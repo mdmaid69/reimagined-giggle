@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_pressure(force, area):
+        return force / area
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
