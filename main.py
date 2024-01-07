@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
