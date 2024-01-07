@@ -1,5 +1,6 @@
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
