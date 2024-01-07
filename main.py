@@ -1,7 +1,6 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def get_array_as_complex(array):
+        return complex(array[0])
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
