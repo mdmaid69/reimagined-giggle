@@ -1,8 +1,6 @@
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
