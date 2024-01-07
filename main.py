@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def greet(name):
+        print(f"Hello, {name}!")
