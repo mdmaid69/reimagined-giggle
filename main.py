@@ -1,5 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
