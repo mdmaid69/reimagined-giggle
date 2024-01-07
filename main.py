@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import collections
-def create_user_list():
-        return collections.UserList()
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
