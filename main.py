@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
