@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import numpy as np
-print(np.array([1, 2, 3]))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
