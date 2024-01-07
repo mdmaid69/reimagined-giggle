@@ -1,5 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def calculate_density(mass, volume):
-        return mass / volume
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import sys
+  def get_python_version():
+        return sys.version
