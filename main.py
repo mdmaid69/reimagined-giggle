@@ -1,5 +1,4 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import os
-print(os.getcwd())
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def count_characters(sentence):
+        return len(sentence)
