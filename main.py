@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
