@@ -1,6 +1,3 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+print([x**2 for x in range(10)])
