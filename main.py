@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
