@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
