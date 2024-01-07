@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
