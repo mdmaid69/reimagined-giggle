@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
