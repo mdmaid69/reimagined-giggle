@@ -1,6 +1,7 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def sort_list(lst):
+        return sorted(lst)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
