@@ -1,10 +1,6 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
