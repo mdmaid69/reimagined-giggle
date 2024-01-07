@@ -1,6 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def get_array_as_str(array):
+        return str(array)
