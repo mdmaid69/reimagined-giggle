@@ -1,5 +1,8 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
