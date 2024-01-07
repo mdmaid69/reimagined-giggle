@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
