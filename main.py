@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
