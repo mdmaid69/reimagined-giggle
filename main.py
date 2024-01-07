@@ -1,9 +1,6 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
