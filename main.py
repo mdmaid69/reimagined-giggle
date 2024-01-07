@@ -1,5 +1,8 @@
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_work(force, distance):
-        return force * distance
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
