@@ -1,5 +1,5 @@
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-def divide_numbers(x, y):
-        return x / y
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
