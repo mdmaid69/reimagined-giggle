@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
