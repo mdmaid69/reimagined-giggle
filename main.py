@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def convert_to_hex(n):
+        return hex(n)
