@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  def convert_to_binary(n):
-        return bin(n)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
