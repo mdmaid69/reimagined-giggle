@@ -1,4 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def sort_list(lst):
-        return sorted(lst)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
