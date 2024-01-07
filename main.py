@@ -1,5 +1,8 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def sort_list(lst):
-        return sorted(lst)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
