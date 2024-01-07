@@ -1,5 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+print(sum(range(10)))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
