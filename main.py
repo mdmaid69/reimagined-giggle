@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def add_numbers(x, y):
+        return x + y
