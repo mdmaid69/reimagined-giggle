@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_as_float(array):
+        return float(array[0])
