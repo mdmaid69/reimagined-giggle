@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
