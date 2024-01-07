@@ -1,5 +1,6 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
