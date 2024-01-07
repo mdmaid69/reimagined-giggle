@@ -1,6 +1,8 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
