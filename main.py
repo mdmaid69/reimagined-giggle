@@ -1,6 +1,4 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import platform
-def get_python_version():
-        return platform.python_version()
+def find_unique_words(sentence):
+        return set(sentence.split())
+  def count_elements(lst):
+        return len(lst)
