@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def reverse_array(array):
+        array.reverse()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
