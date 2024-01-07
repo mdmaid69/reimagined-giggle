@@ -1,5 +1,6 @@
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
 import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def get_array_buffer_info(array):
+        return array.buffer_info()
