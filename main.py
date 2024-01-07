@@ -1,8 +1,5 @@
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
