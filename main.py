@@ -1,6 +1,6 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
