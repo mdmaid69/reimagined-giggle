@@ -1,4 +1,4 @@
-def find_min(numbers):
-        return min(numbers)
-def find_min(numbers):
-        return min(numbers)
+def sort_list(lst):
+        return sorted(lst)
+  def count_elements(lst):
+        return len(lst)
