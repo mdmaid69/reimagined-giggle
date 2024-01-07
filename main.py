@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
