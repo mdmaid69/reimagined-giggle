@@ -1,6 +1,5 @@
+import time
+print(time.time())
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
