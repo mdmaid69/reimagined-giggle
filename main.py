@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_cosine(x):
+        return math.cos(x)
