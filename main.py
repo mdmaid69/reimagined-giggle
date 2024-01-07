@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
