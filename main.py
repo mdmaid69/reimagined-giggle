@@ -1,5 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
