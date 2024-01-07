@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+for i in range(5):
+        print(i)
