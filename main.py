@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
