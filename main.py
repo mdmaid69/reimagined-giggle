@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def cube_number(x):
+        return x**3
+import array
+def get_list_from_array(array):
+        return array.tolist()
