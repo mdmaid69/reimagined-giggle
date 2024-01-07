@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
