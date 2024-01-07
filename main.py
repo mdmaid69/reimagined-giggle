@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import sys
-def print_python_version():
-        print(sys.version)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def calculate_area_rectangle(l, w):
+        return l * w
