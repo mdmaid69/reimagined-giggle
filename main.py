@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def square_number(x):
-        return x**2
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import collections
+def create_user_string():
+        return collections.UserString()
