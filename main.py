@@ -1,4 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-for i in range(10): print(i)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import collections
+def create_user_string():
+        return collections.UserString()
