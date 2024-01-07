@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
