@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
