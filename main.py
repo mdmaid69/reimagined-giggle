@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_arc_sine(x):
+        return math.asin(x)
