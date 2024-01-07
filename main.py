@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+x = 10
+y = 20
+print("Sum:", x + y)
+import platform
+def get_python_version():
+        return platform.python_version()
