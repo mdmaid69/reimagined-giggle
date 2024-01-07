@@ -1,5 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
