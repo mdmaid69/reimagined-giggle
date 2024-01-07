@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def reverse_list(lst):
+        return lst[::-1]
