@@ -1,9 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
