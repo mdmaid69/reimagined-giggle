@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
