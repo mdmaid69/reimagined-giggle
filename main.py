@@ -1,6 +1,5 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  def subtract_numbers(x, y):
+        return x - y
