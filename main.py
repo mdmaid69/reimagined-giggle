@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
