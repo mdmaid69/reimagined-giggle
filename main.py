@@ -1,5 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
