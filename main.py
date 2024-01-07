@@ -1,4 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+from collections import Counter
+print(Counter("hello world"))
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
