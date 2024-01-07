@@ -1,5 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def sort_list(lst):
+        return sorted(lst)
+  def is_even(n):
+        return n % 2 == 0
