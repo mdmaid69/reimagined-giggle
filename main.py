@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
