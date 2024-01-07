@@ -1,6 +1,4 @@
-def square_number(x):
-        return x**2
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def find_max(numbers):
+        return max(numbers)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
