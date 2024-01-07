@@ -1,5 +1,6 @@
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
 import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_density(mass, volume):
-        return mass / volume
+def get_array_item(array, i):
+        return array[i]
