@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import sys
-def exit_program():
-        sys.exit()
+def calculate_volume(length, width, height):
+        return length * width * height
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
