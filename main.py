@@ -1,8 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
