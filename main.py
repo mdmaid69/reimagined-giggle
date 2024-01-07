@@ -1,6 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def convert_array_to_unicode(array):
+        return array.tounicode()
