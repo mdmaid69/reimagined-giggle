@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
