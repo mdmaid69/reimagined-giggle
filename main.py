@@ -1,5 +1,5 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
