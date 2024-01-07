@@ -1,7 +1,6 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
