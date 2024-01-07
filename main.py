@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import collections
+def create_counter():
+        return collections.Counter()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
