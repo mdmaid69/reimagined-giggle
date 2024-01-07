@@ -1,6 +1,5 @@
+import time
+print(time.time())
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
