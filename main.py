@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
