@@ -1,4 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-print([x**2 for x in range(10)])
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
