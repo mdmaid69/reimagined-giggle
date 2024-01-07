@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import sys
+def print_python_version():
+        return sys.version
