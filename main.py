@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def get_array_length(array):
+        return len(array)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
