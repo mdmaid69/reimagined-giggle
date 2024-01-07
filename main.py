@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def clear_array(array):
-        array *= 0
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
