@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def get_array_as_str(array):
+        return str(array)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
