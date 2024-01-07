@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
