@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
