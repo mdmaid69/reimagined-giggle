@@ -1,5 +1,7 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
