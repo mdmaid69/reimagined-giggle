@@ -1,5 +1,11 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_acceleration(speed, time):
+        return speed / time
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
