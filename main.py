@@ -1,6 +1,7 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def find_max(numbers):
+        return max(numbers)
