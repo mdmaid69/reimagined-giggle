@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def clear_array(array):
-        array *= 0
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
