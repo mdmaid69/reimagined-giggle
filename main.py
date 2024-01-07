@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
