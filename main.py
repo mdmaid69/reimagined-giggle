@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def clear_array(array):
+        array *= 0
