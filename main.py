@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_array_itemsize(array):
+        return array.itemsize
