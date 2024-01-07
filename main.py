@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-text = "Hello, world!"
-print("Characters:", len(text))
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
