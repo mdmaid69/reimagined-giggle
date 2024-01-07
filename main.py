@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
+  def convert_to_binary(n):
+        return bin(n)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
