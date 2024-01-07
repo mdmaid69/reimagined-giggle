@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
