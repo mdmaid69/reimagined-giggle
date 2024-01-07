@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
