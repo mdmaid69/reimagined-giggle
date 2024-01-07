@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import sys
-  def get_python_version():
-        return sys.version
+name = "Python"
+print("Hello,", name)
+  def reverse_list(lst):
+        return lst[::-1]
