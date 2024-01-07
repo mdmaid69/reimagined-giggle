@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  def calculate_area_rectangle(l, w):
+        return l * w
