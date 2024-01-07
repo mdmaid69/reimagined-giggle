@@ -1,7 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+for i in range(10): print(i)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
