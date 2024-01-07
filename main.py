@@ -1,4 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_as_int(array):
+        return int(array[0])
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
