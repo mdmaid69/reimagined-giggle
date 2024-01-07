@@ -1,7 +1,7 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_speed(distance, time):
+        return distance / time
 import array
-def convert_unicode_to_array(unicode, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
-        a.fromunicode(unicode)
+        a.frombytes(bytes)
         return a
