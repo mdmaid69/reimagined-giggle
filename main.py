@@ -1,6 +1,6 @@
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def get_current_working_directory():
+        return os.getcwd()
