@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
