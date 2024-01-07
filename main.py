@@ -1,5 +1,7 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_index(array, item):
+        return array.index(item)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
