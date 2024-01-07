@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
