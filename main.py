@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
