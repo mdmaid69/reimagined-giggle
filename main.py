@@ -1,5 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
