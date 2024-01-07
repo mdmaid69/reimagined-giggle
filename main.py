@@ -1,8 +1,4 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
