@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import os
-print(os.getcwd())
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_density(mass, volume):
+        return mass / volume
