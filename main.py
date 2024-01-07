@@ -1,8 +1,6 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def get_array_as_bytes(array):
+        return bytes(array)
+import array
+def get_array_as_list(array):
+        return list(array)
