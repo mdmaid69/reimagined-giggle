@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def get_array_typecode(array):
+        return array.typecode
