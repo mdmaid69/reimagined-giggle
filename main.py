@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
