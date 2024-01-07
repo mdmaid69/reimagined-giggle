@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
