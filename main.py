@@ -1,5 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def convert_to_binary(n):
+        return bin(n)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
