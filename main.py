@@ -1,8 +1,9 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
