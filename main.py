@@ -1,4 +1,7 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-print([x**2 for x in range(10)])
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
