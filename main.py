@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
