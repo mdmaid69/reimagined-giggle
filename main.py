@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
