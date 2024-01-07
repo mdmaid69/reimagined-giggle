@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+def count_words(sentence):
+        return len(sentence.split())
