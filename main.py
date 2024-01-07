@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
