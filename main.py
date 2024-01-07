@@ -1,8 +1,5 @@
+def find_min(lst):
+        return min(lst)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
