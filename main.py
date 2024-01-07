@@ -1,6 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_area_rectangle(l, w):
+        return l * w
