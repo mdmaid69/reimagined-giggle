@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
