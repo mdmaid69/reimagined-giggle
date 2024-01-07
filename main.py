@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
 import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
