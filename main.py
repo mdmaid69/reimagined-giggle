@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
