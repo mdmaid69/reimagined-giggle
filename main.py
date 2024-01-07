@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
