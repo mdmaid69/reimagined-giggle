@@ -1,6 +1,6 @@
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
