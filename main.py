@@ -1,5 +1,5 @@
+def calculate_power(work, time):
+        return work / time
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def check_if_array_contains_item(array, item):
+        return item in array
