@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def reverse_list(lst):
-        return lst[::-1]
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
