@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
