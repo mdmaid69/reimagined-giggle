@@ -1,5 +1,6 @@
-import math
-print(math.pi)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
