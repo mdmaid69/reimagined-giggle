@@ -1,6 +1,7 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def multiply_numbers(x, y):
+        return x * y
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
