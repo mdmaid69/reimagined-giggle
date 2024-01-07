@@ -1,7 +1,6 @@
-def cube_number(x):
-        return x**3
+import platform
+def get_os_info():
+        return platform.uname()
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_itemsize(array):
+        return array.itemsize
