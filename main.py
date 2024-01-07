@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def count_elements(lst):
+        return len(lst)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
