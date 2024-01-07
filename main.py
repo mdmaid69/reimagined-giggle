@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def convert_to_hex(n):
+        return hex(n)
