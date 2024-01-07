@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import sys
-  def get_python_version():
-        return sys.version
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
