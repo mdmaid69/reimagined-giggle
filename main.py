@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import time
+def get_time_since_epoch():
+        return time.time()
