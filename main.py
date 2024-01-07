@@ -1,7 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_list_from_array(array):
+        return array.tolist()
