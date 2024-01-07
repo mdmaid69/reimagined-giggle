@@ -1,5 +1,7 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import os
-def change_working_directory(path):
-        os.chdir(path)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
