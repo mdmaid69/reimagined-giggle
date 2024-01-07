@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import sys
+def exit_program():
+        sys.exit()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
