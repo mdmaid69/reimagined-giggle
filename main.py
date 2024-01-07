@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
