@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
