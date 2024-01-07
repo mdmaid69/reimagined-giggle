@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
