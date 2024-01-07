@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import platform
-def get_python_version():
-        return platform.python_version()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
