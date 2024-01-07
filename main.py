@@ -1,5 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import array
+def get_array_as_repr(array):
+        return repr(array)
