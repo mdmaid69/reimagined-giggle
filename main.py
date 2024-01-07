@@ -1,7 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
