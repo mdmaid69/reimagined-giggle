@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def convert_to_binary(n):
-        return bin(n)
+import logging
+def log_message(message):
+        logging.info(message)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
