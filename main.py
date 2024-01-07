@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def count_elements(lst):
+        return len(lst)
