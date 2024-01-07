@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
