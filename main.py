@@ -1,6 +1,6 @@
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def get_array_item(array, i):
-        return array[i]
+def append_to_array(array, item):
+        array.append(item)
