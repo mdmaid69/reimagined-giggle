@@ -1,5 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_area_rectangle(l, w):
+        return l * w
