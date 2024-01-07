@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def convert_to_octal(n):
+        return oct(n)
