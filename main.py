@@ -1,6 +1,4 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def is_even(n):
+        return n % 2 == 0
