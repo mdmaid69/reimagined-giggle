@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  def cube_number(x):
+        return x**3
