@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
