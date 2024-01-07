@@ -1,5 +1,8 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
