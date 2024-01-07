@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
