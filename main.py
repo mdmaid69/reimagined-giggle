@@ -1,4 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_sine(x):
+        return math.sin(x)
