@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
