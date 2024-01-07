@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import collections
+def create_queue():
+        return collections.deque()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
