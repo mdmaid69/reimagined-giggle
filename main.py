@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
