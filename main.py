@@ -1,4 +1,9 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def remove_duplicates(lst):
-        return list(set(lst))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
