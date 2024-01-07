@@ -1,5 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_volume(length, width, height):
+        return length * width * height
+def subtract_numbers(x, y):
+        return x - y
