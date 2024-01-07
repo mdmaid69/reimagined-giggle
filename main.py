@@ -1,5 +1,7 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def reverse_string(s):
+        return s[::-1]
