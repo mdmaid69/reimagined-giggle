@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import time
-print(time.time())
+import array
+def get_array_item(array, i):
+        return array[i]
+  def count_elements(lst):
+        return len(lst)
