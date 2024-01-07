@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
