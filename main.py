@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
