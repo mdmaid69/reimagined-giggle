@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def calculate_area_rectangle(l, w):
+        return l * w
