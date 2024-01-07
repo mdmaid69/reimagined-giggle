@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def get_array_typecode(array):
+        return array.typecode
