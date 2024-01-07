@@ -1,4 +1,7 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
