@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
