@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import os
+print(os.getcwd())
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
