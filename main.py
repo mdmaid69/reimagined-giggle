@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def count_elements(lst):
+        return len(lst)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_directory_name(path):
+        return os.path.dirname(path)
