@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def get_array_as_str(array):
+        return str(array)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
