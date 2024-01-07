@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import sys
-def exit_program():
-        sys.exit()
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def sort_list(lst):
+        return sorted(lst)
