@@ -1,7 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
