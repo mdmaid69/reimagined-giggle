@@ -1,6 +1,5 @@
+  def is_even(n):
+        return n % 2 == 0
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_as_set(array):
-        return set(array)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
