@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import array
-def get_array_as_list(array):
-        return list(array)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
