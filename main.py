@@ -1,4 +1,8 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-for i in range(10): print(i)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
