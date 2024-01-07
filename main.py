@@ -1,6 +1,6 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
