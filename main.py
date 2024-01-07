@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def divide_numbers(x, y):
+        return x / y
