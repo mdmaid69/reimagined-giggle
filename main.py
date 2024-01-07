@@ -1,4 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_cosine(x):
+        return math.cos(x)
