@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
