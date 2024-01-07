@@ -1,6 +1,6 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
