@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
