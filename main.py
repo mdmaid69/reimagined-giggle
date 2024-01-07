@@ -1,8 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
