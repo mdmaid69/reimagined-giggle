@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import logging
+def log_message(message):
+        logging.info(message)
 import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
