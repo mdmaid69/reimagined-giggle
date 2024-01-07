@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import platform
-def get_os_info():
-        return platform.uname()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
