@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def cube_number(x):
+        return x**3
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
