@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_speed(distance, time):
+        return distance / time
+def count_words(sentence):
+        return len(sentence.split())
