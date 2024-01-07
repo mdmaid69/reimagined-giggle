@@ -1,6 +1,4 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+for i in range(10): print(i)
