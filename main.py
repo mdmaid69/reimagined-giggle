@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def calculate_area_rectangle(l, w):
+        return l * w
