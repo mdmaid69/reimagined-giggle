@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  def sort_list(lst):
-        return sorted(lst)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
