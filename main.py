@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
