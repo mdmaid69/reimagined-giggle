@@ -1,6 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
