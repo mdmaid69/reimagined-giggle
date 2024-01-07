@@ -1,8 +1,6 @@
 import collections
-def create_counter():
-        return collections.Counter()
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def create_user_dict():
+        return collections.UserDict()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
