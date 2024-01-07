@@ -1,6 +1,5 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def reverse_array(array):
+        array.reverse()
+def find_min(lst):
+        return min(lst)
