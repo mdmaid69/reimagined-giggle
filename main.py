@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def calculate_area_rectangle(l, w):
+        return l * w
