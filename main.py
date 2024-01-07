@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
