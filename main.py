@@ -1,4 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-print([x**2 for x in range(10)])
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
