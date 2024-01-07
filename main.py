@@ -1,5 +1,7 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def find_min(lst):
-        return min(lst)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
