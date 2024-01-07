@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
