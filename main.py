@@ -1,5 +1,3 @@
-def is_even(n):
-        return n % 2 == 0
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+for i in range(10): print(i)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
