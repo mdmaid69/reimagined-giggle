@@ -1,4 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  def is_odd(n):
-        return n % 2 != 0
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import array
+def get_array_as_set(array):
+        return set(array)
