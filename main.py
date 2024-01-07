@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def find_max(lst):
+        return max(lst)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
