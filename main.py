@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
