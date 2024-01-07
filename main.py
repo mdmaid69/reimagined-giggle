@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_speed(distance, time):
+        return distance / time
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
