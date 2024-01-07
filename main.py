@@ -1,6 +1,9 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import collections
+def create_stack():
+        return collections.deque()
