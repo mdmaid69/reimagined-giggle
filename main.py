@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
