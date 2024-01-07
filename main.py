@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
