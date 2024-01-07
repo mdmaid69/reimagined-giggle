@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
