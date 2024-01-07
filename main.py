@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
