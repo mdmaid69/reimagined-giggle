@@ -1,6 +1,3 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+print(sum(range(10)))
