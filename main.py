@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import os
+print(os.getcwd())
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
