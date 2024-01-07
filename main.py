@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
