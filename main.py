@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import sys
+  def get_python_version():
+        return sys.version
