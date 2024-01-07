@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
