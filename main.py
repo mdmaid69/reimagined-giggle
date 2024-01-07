@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
