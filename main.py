@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def find_min(lst):
-        return min(lst)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
