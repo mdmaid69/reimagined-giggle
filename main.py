@@ -1,5 +1,6 @@
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
