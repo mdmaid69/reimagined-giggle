@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_density(mass, volume):
+        return mass / volume
+import datetime
+def get_current_date():
+        return datetime.date.today()
