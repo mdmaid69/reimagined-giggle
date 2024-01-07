@@ -1,5 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_pressure(force, area):
+        return force / area
