@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
