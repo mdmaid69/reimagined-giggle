@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
