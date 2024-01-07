@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import array
+def get_array_as_bool(array):
+        return bool(array)
