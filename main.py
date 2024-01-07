@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
