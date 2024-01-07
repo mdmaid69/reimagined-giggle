@@ -1,7 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
