@@ -1,4 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import collections
+def create_stack():
+        return collections.deque()
