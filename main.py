@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
