@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import tensorflow as tf
+print(tf.__version__)
