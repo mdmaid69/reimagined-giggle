@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import os
+def remove_directory(path):
+        os.rmdir(path)
