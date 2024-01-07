@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import collections
+def create_user_dict():
+        return collections.UserDict()
