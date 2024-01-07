@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def get_string_from_array(array):
+        return array.tobytes()
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
