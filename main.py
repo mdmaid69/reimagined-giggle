@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
