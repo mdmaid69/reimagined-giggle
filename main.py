@@ -1,7 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_area_circle(r):
+        return 3.14 * r**2
