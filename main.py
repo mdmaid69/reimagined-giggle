@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
