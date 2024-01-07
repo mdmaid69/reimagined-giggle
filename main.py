@@ -1,7 +1,7 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
