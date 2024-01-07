@@ -1,6 +1,8 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
