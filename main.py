@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  def reverse_list(lst):
+        return lst[::-1]
