@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
