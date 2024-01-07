@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
