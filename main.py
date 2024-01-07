@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_repr(array):
+        return repr(array)
+import collections
+def create_user_list():
+        return collections.UserList()
