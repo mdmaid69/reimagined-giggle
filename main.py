@@ -1,7 +1,8 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
