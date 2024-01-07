@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
