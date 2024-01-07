@@ -1,4 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
 text = "Hello, world!"
 print("Is palindrome:", text == text[::-1])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
