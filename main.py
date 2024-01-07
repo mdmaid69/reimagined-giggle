@@ -1,5 +1,4 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_force(mass, acceleration):
+        return mass * acceleration
