@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def calculate_speed(distance, time):
+        return distance / time
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
