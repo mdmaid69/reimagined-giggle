@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
