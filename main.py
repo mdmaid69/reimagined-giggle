@@ -1,6 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
