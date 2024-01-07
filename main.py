@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
