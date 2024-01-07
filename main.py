@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
