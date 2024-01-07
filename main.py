@@ -1,7 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
