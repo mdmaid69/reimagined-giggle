@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  def is_even(n):
-        return n % 2 == 0
+  def subtract_numbers(x, y):
+        return x - y
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
