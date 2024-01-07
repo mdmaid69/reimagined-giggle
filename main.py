@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def sort_list(lst):
+        return sorted(lst)
