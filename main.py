@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
