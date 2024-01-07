@@ -1,6 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def count_characters(sentence):
+        return len(sentence)
+  def count_elements(lst):
+        return len(lst)
