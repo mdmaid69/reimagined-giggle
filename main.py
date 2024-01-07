@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
