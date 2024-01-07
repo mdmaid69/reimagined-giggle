@@ -1,6 +1,9 @@
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import sys
-  def get_python_version():
-        return sys.version
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
