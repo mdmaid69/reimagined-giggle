@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  def sort_list(lst):
+        return sorted(lst)
+import sys
+def print_python_version():
+        print(sys.version)
