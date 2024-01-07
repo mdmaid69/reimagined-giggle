@@ -1,5 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def is_palindrome(s):
+        return s == s[::-1]
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
