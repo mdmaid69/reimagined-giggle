@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+from collections import Counter
+print(Counter("hello world"))
