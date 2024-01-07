@@ -1,3 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-for i in range(10): print(i)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
