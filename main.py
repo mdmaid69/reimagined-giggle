@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
