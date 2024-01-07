@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_area_rectangle(l, w):
-        return l * w
+  def convert_to_hex(n):
+        return hex(n)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
