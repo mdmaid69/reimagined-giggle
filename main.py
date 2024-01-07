@@ -1,6 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+print("Hello, world!")
+import platform
+def get_os_info():
+        return platform.uname()
