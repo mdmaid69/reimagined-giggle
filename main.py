@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
