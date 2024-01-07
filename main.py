@@ -1,6 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
