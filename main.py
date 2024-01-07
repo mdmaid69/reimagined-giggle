@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import datetime
+print(datetime.datetime.now())
