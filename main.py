@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def remove_from_array(array, item):
+        array.remove(item)
