@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
