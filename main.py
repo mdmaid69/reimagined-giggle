@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_array_as_set(array):
+        return set(array)
