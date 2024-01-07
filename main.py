@@ -1,5 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
