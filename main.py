@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
