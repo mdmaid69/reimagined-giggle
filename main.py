@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def reverse_string(s):
+        return s[::-1]
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
