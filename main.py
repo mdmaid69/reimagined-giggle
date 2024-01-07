@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
