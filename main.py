@@ -1,6 +1,5 @@
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def calculate_work(force, distance):
+        return force * distance
