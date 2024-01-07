@@ -1,5 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def clear_array(array):
+        array *= 0
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
