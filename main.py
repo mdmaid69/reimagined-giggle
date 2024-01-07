@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import datetime
-print(datetime.datetime.now())
+import time
+print(time.time())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
