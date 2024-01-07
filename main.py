@@ -1,6 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def get_array_item(array, i):
+        return array[i]
