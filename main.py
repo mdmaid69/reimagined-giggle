@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
