@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
