@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
