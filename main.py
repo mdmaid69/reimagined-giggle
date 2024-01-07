@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_power(work, time):
-        return work / time
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
