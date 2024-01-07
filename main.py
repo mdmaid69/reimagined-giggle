@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
