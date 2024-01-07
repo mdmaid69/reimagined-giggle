@@ -1,5 +1,7 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
