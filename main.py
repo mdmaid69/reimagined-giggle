@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+for i in range(5):
+        print(i)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
