@@ -1,5 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
