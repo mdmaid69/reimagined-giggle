@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
