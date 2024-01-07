@@ -1,4 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-print([x**2 for x in range(10)])
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
