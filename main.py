@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def count_characters(sentence):
-        return len(sentence)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
