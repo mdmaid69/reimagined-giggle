@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
