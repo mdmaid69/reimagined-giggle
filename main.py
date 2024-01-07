@@ -1,6 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import time
+print(time.time())
