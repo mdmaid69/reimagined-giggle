@@ -1,6 +1,6 @@
+import array
+def set_array_item(array, i, item):
+        array[i] = item
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
