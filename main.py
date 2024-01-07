@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
