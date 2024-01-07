@@ -1,10 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
