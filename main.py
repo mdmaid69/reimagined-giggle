@@ -1,6 +1,6 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
