@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  def convert_to_octal(n):
+        return oct(n)
