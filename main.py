@@ -1,6 +1,7 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import platform
-def get_python_version():
-        return platform.python_version()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
