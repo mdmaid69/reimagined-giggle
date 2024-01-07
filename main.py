@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
