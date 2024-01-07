@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_acceleration(speed, time):
+        return speed / time
