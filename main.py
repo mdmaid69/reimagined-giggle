@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+from collections import Counter
+print(Counter("hello world"))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
