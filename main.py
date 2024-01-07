@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  import sys
-  def get_python_version():
-        return sys.version
+def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
