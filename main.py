@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def subtract_numbers(x, y):
+        return x - y
+import platform
+def get_python_version():
+        return platform.python_version()
