@@ -1,4 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-print([x**2 for x in range(10)])
+x = 10
+y = 20
+print("Sum:", x + y)
+import getpass
+def get_username():
+        return getpass.getuser()
