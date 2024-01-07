@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
