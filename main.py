@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
