@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
