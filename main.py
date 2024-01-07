@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
