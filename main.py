@@ -1,7 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def find_min(lst):
+        return min(lst)
+import array
+def get_array_as_float(array):
+        return float(array[0])
