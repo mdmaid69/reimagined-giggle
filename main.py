@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import os
-print(os.getcwd())
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
