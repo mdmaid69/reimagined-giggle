@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
