@@ -1,6 +1,5 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def cube_number(x):
+        return x**3
