@@ -1,6 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def find_unique_words(sentence):
+        return set(sentence.split())
