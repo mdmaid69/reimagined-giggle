@@ -1,6 +1,5 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
