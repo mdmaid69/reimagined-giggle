@@ -1,5 +1,8 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
