@@ -1,5 +1,4 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  def add_numbers(x, y):
+        return x + y
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
