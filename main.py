@@ -1,7 +1,6 @@
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
 import collections
-def create_user_dict():
-        return collections.UserDict()
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
