@@ -1,6 +1,7 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_work(force, distance):
+        return force * distance
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
