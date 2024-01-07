@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import random
-def roll_die():
-        return random.randint(1, 6)
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
