@@ -1,5 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
