@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
