@@ -1,8 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import os
+def get_current_working_directory():
+        return os.getcwd()
