@@ -1,5 +1,4 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
