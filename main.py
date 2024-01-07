@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
