@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
