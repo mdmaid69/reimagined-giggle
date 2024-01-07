@@ -1,6 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
