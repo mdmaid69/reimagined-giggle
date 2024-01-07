@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_floor(x):
+        return math.floor(x)
