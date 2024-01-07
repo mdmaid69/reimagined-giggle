@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_work(force, distance):
+        return force * distance
