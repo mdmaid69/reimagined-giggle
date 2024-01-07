@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def count_characters(sentence):
-        return len(sentence)
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
