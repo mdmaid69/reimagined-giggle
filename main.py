@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
