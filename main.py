@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
