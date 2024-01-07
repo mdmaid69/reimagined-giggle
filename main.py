@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
