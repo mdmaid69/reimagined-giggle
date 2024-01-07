@@ -1,6 +1,5 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
