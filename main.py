@@ -1,7 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import array
+def get_array_as_bool(array):
+        return bool(array)
