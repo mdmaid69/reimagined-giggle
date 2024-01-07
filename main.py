@@ -1,5 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def clear_array(array):
+        array *= 0
