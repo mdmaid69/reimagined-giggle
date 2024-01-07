@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import platform
+def get_os_info():
+        return platform.uname()
+def divide_numbers(x, y):
+        return x / y
