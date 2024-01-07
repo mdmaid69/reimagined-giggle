@@ -1,6 +1,8 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
