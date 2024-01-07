@@ -1,5 +1,8 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_stack():
+        return collections.deque()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
