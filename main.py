@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_volume(length, width, height):
+        return length * width * height
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
