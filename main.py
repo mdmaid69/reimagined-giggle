@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import sys
-def print_python_version():
-        print(sys.version)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
