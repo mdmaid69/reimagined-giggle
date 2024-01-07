@@ -1,5 +1,3 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def greet(name):
-        print(f"Hello, {name}!")
+text = "Hello, world!"
+print("Characters:", len(text))
+for i in range(10): print(i)
