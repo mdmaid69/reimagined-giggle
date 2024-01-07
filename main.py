@@ -1,5 +1,8 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def count_characters(sentence):
-        return len(sentence)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import random
+print(random.randint(0, 100))
