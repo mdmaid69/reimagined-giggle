@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_area_circle(r):
+        return 3.14 * r**2
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_floor(x):
+        return math.floor(x)
