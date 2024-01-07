@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def reverse_array(array):
+        array.reverse()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
