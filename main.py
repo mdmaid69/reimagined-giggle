@@ -1,6 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def get_array_as_set(array):
+        return set(array)
