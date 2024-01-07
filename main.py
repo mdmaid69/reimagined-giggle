@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
