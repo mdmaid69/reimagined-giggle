@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def convert_array_to_string(array):
+        return array.tostring()
