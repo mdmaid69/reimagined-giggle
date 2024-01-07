@@ -1,5 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
