@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def get_array_as_set(array):
+        return set(array)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
