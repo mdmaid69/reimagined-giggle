@@ -1,5 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def subtract_numbers(x, y):
-        return x - y
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
