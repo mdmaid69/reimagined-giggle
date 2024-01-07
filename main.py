@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
