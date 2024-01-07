@@ -1,6 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def cube_number(x):
+        return x**3
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
