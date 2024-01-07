@@ -1,6 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def is_even(n):
+        return n % 2 == 0
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
