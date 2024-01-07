@@ -1,6 +1,6 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_square_root(x):
+        return math.sqrt(x)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
