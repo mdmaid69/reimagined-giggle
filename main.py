@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_current_directory():
+        return os.getcwd()
