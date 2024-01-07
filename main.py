@@ -1,4 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
