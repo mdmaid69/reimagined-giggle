@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
