@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
