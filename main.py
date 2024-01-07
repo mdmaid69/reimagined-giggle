@@ -1,8 +1,4 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
