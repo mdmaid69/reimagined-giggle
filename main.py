@@ -1,8 +1,4 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def divide_numbers(x, y):
+        return x / y
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
