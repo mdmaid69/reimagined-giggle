@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
