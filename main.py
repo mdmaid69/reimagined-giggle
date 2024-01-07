@@ -1,6 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def reverse_string(s):
+        return s[::-1]
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
