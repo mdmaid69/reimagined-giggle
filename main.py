@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
