@@ -1,6 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import collections
+def create_user_string():
+        return collections.UserString()
