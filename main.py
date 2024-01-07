@@ -1,4 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-  def is_odd(n):
-        return n % 2 != 0
+import math
+print(math.pi)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
