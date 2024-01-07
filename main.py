@@ -1,6 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
