@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  def remove_duplicates(lst):
+        return list(set(lst))
