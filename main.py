@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
