@@ -1,5 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
