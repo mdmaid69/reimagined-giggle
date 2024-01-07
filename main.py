@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_list_from_array(array):
+        return array.tolist()
