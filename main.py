@@ -1,5 +1,8 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_acceleration(speed, time):
-        return speed / time
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
