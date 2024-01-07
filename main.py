@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
