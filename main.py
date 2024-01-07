@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
