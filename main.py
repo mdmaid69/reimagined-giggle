@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
