@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import platform
+def get_python_version():
+        return platform.python_version()
