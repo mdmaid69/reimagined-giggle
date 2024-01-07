@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-for i in range(5):
-        print(i)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
