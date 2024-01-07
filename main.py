@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
