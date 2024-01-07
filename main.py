@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def sort_list(lst):
+        return sorted(lst)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
