@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import sys
-def exit_program():
-        sys.exit()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
