@@ -1,6 +1,7 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
