@@ -1,7 +1,11 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  def convert_to_binary(n):
-        return bin(n)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+text = "Hello, world!"
+print("Characters:", len(text))
