@@ -1,5 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def find_min(lst):
-        return min(lst)
+def multiply_numbers(x, y):
+        return x * y
+def is_odd(n):
+        return n % 2 != 0
