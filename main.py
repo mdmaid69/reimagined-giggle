@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
