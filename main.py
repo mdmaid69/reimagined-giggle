@@ -1,5 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
