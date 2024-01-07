@@ -1,5 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def count_words(sentence):
+        return len(sentence.split())
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
