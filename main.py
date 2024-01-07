@@ -1,5 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-import platform
-def get_python_version():
-        return platform.python_version()
+def subtract_numbers(x, y):
+        return x - y
+def remove_duplicates(lst):
+        return list(set(lst))
