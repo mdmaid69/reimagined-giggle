@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def count_elements(lst):
+        return len(lst)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
