@@ -1,5 +1,4 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def sort_numbers(numbers):
+        return sorted(numbers)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
