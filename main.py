@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
