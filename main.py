@@ -1,6 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
