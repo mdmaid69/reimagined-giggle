@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
