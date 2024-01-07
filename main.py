@@ -1,5 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
