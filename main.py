@@ -1,5 +1,7 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  def is_odd(n):
-        return n % 2 != 0
+def reverse_list(lst):
+        return lst[::-1]
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
