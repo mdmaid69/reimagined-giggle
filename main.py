@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
