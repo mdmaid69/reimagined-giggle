@@ -1,5 +1,5 @@
+def multiply_numbers(x, y):
+        return x * y
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def insert_into_array(array, i, item):
+        array.insert(i, item)
