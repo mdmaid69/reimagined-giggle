@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
