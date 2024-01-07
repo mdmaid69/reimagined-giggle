@@ -1,8 +1,7 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import sys
+def print_python_version():
+        return sys.version
