@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
