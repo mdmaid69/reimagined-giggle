@@ -1,4 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_work(force, distance):
-        return force * distance
+def find_max(lst):
+        return max(lst)
+import collections
+def create_user_dict():
+        return collections.UserDict()
