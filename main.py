@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
