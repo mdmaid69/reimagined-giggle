@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
