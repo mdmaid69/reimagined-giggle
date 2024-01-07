@@ -1,7 +1,5 @@
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def read_from_json(json_string):
+        return json.loads(json_string)
