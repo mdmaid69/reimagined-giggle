@@ -1,7 +1,8 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import time
+def get_time_since_epoch():
+        return time.time()
