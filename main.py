@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
