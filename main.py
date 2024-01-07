@@ -1,5 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def divide_numbers(x, y):
-        return x / y
+  def split_path(path):
+        return os.path.split(path)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
