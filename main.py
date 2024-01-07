@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-for i in range(5):
-        print(i)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import collections
+def create_queue():
+        return collections.deque()
