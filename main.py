@@ -1,5 +1,7 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def find_min(lst):
+        return min(lst)
