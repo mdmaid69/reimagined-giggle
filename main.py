@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
