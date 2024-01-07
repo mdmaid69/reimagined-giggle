@@ -1,7 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
