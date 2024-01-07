@@ -1,4 +1,7 @@
-  def sort_list(lst):
-        return sorted(lst)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
