@@ -1,6 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+def find_min(lst):
+        return min(lst)
