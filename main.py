@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
