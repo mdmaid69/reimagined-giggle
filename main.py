@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
