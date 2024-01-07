@@ -1,5 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-print(sum(range(10)))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def divide_numbers(x, y):
+        return x / y
