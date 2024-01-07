@@ -1,6 +1,7 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
