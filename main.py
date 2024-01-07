@@ -1,5 +1,4 @@
+print([x**2 for x in range(10)])
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import sys
-print(sys.version)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
