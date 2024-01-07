@@ -1,4 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def reverse_string(s):
-        return s[::-1]
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
