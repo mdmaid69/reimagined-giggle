@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def get_array_as_str(array):
+        return str(array)
