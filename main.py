@@ -1,6 +1,7 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def get_array_slice(array, i, j):
+        return array[i:j]
+i = 0
+while i < 5:
+        print(i)
+        i += 1
