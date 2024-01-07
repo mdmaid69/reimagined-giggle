@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
