@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  def convert_to_hex(n):
-        return hex(n)
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
