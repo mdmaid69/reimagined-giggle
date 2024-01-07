@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
