@@ -1,8 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
