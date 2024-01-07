@@ -1,5 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def sort_list(lst):
-        return sorted(lst)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
