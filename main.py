@@ -1,5 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import datetime
-print(datetime.datetime.now())
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
