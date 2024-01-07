@@ -1,4 +1,8 @@
-  def is_even(n):
-        return n % 2 == 0
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
