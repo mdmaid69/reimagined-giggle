@@ -1,5 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
