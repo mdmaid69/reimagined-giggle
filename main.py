@@ -1,5 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def convert_to_binary(n):
+        return bin(n)
+  def subtract_numbers(x, y):
+        return x - y
