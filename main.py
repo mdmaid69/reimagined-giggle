@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import json
+print(json.dumps({"name": "John", "age": 30}))
