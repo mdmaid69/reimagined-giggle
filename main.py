@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
