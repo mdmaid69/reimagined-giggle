@@ -1,6 +1,6 @@
+import array
+def get_array_as_bool(array):
+        return bool(array)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import platform
-def get_python_version():
-        return platform.python_version()
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
