@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import time
+print(time.time())
+import array
+def get_string_from_array(array):
+        return array.tobytes()
