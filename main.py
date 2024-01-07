@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
