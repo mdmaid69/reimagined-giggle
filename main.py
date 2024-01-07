@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
