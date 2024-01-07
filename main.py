@@ -1,6 +1,6 @@
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def generate_random_number(start, end):
+        return random.randint(start, end)
