@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def count_characters(sentence):
+        return len(sentence)
