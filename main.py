@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
