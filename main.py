@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_work(force, distance):
+        return force * distance
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
