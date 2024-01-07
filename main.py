@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def greet(name):
+        print(f"Hello, {name}!")
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
