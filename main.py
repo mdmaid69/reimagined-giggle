@@ -1,8 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+print(sum(range(10)))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
