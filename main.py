@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
