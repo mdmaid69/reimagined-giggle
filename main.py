@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
