@@ -1,5 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def multiply_numbers(x, y):
-        return x * y
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
