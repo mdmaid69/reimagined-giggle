@@ -1,6 +1,4 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import getpass
-def get_username():
-        return getpass.getuser()
+  def get_current_working_directory():
+        return os.getcwd()
+print([x**2 for x in range(10)])
