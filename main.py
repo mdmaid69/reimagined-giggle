@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-text = "Hello, world!"
-print("Characters:", len(text))
+  import sys
+  def get_python_version():
+        return sys.version
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
