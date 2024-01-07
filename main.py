@@ -1,7 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
