@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
