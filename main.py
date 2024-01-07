@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
