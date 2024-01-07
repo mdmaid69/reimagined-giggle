@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
+import tensorflow as tf
+print(tf.__version__)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_itemsize(array):
+        return array.itemsize
