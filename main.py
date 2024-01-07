@@ -1,5 +1,7 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
