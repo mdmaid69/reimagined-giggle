@@ -1,6 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
