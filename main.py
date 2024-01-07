@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
