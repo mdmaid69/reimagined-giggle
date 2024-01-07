@@ -1,4 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def find_max(numbers):
-        return max(numbers)
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_pressure(force, area):
+        return force / area
