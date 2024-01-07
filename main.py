@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
