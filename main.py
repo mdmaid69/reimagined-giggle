@@ -1,6 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
