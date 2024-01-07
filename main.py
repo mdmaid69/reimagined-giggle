@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def get_array_as_list(array):
+        return list(array)
