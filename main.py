@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+print(sum(range(10)))
