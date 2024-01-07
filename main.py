@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  def convert_to_octal(n):
-        return oct(n)
+print("Hello, world!")
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
