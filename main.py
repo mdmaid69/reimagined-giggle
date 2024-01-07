@@ -1,5 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
