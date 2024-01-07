@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
