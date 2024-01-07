@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
