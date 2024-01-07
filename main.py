@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def convert_to_hex(n):
+        return hex(n)
