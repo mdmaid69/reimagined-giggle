@@ -1,4 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-print([x**2 for x in range(10)])
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import tensorflow as tf
+print(tf.__version__)
