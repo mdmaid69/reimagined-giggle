@@ -1,6 +1,7 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
