@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  def square_number(x):
-        return x**2
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
