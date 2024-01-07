@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import platform
+def get_os_info():
+        return platform.uname()
