@@ -1,6 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def sort_list(lst):
+        return sorted(lst)
