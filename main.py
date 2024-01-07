@@ -1,6 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def add_numbers(x, y):
+        return x + y
+  def cube_number(x):
+        return x**3
