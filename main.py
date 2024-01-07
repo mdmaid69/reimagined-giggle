@@ -1,6 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import time
+print(time.time())
