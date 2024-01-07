@@ -1,5 +1,7 @@
-  def convert_to_octal(n):
-        return oct(n)
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_typecode(array):
+        return array.typecode
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
