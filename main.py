@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_perpetuity(payment, rate):
+        return payment / rate
