@@ -1,5 +1,7 @@
-  def multiply_numbers(x, y):
-        return x * y
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def iterate_over_array(array):
+        for item in array:
+        print(item)
