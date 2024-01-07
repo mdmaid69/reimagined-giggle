@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
