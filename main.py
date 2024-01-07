@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
