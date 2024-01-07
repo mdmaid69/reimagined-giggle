@@ -1,6 +1,5 @@
+  def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
