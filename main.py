@@ -1,4 +1,5 @@
-print(sum(range(10)))
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import collections
+def create_user_string():
+        return collections.UserString()
