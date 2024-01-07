@@ -1,6 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
