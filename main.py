@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import collections
+def create_user_string():
+        return collections.UserString()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
