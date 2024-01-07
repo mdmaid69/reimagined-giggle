@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def find_max(numbers):
-        return max(numbers)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
