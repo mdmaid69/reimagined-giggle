@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
