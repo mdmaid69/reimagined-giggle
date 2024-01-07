@@ -1,4 +1,8 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
