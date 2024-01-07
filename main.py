@@ -1,6 +1,5 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def subtract_numbers(x, y):
+        return x - y
