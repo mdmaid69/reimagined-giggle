@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def is_even(n):
+        return n % 2 == 0
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
