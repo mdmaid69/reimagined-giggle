@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
