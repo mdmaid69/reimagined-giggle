@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  def reverse_list(lst):
-        return lst[::-1]
+def add_numbers(x, y):
+        return x + y
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
