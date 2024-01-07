@@ -1,5 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
