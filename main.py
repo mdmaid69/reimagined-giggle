@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import getpass
+def get_username():
+        return getpass.getuser()
