@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
