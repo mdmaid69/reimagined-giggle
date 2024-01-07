@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
