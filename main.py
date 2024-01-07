@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  def convert_to_hex(n):
+        return hex(n)
