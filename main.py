@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
