@@ -1,6 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  def calculate_area_rectangle(l, w):
+        return l * w
