@@ -1,5 +1,8 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
