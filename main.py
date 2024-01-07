@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
