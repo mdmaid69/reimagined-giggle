@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def is_palindrome(s):
-        return s == s[::-1]
+import sys
+def exit_program():
+        sys.exit()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
