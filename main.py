@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
