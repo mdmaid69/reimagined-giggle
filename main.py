@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def is_palindrome(s):
+        return s == s[::-1]
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
