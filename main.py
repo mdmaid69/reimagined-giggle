@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
