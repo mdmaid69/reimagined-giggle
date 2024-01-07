@@ -1,6 +1,11 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
 import array
-def get_array_as_str(array):
-        return str(array)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
