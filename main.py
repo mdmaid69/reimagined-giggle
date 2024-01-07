@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-for i in range(5):
-        print(i)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
