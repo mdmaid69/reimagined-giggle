@@ -1,7 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
