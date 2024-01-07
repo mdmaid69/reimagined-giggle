@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
