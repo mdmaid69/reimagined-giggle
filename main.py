@@ -1,5 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-def multiply_numbers(x, y):
-        return x * y
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
