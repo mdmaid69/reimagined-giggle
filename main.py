@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
