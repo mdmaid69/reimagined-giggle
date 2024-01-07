@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import os
+print(os.getcwd())
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
