@@ -1,6 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
