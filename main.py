@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
