@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def convert_to_octal(n):
-        return oct(n)
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
