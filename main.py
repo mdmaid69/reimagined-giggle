@@ -1,6 +1,6 @@
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_sine(x):
+        return math.sin(x)
