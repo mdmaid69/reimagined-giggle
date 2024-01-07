@@ -1,9 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
