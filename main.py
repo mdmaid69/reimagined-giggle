@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
