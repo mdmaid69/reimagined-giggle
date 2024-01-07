@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
