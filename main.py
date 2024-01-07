@@ -1,7 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_acceleration(speed, time):
+        return speed / time
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
