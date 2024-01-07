@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
