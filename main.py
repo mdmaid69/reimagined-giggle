@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
