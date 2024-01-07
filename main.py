@@ -1,5 +1,8 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
