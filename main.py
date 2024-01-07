@@ -1,5 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
