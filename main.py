@@ -1,4 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import numpy as np
+print(np.array([1, 2, 3]))
+import random
+print(random.randint(0, 100))
