@@ -1,5 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import tensorflow as tf
-print(tf.__version__)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
