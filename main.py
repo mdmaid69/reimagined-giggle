@@ -1,5 +1,6 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-  def reverse_list(lst):
-        return lst[::-1]
+def get_array_as_complex(array):
+        return complex(array[0])
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
