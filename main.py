@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
