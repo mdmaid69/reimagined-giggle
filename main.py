@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
