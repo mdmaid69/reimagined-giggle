@@ -1,5 +1,8 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_acceleration(speed, time):
-        return speed / time
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
