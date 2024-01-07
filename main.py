@@ -1,5 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  def subtract_numbers(x, y):
-        return x - y
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
