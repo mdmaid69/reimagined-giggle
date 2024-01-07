@@ -1,6 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_arc_tangent(x):
+        return math.atan(x)
