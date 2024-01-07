@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
