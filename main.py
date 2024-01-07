@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_power(work, time):
+        return work / time
