@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  def convert_to_binary(n):
-        return bin(n)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
