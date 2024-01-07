@@ -1,8 +1,8 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
