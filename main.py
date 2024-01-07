@@ -1,8 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def reverse_array(array):
+        array.reverse()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
