@@ -1,8 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
