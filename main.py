@@ -1,5 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+for i in range(10): print(i)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
