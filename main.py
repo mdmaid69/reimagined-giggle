@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_work(force, distance):
+        return force * distance
