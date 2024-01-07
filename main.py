@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
