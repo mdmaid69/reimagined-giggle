@@ -1,5 +1,7 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def subtract_numbers(x, y):
+        return x - y
