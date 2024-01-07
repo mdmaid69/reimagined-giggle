@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
