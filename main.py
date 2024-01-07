@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_floor(x):
+        return math.floor(x)
