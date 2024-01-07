@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
