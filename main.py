@@ -1,5 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  def cube_number(x):
-        return x**3
+import array
+def get_array_typecode(array):
+        return array.typecode
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
