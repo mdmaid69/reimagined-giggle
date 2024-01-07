@@ -1,4 +1,8 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def is_even(n):
-        return n % 2 == 0
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import logging
+def log_message(message):
+        logging.info(message)
