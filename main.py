@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
+import time
+def get_current_time():
+        return time.ctime()
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
