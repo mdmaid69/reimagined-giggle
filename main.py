@@ -1,8 +1,6 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def get_array_index(array, item):
+        return array.index(item)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
