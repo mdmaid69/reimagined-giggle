@@ -1,6 +1,8 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
