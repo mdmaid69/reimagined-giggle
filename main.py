@@ -1,5 +1,8 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
