@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
