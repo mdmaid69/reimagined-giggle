@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_as_list(array):
+        return list(array)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
