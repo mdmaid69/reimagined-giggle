@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
