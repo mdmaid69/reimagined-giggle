@@ -1,5 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import os
-print(os.getcwd())
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def find_min(numbers):
+        return min(numbers)
