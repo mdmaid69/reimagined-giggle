@@ -1,6 +1,7 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
