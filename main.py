@@ -1,5 +1,8 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  def multiply_numbers(x, y):
-        return x * y
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+def convert_to_hex(n):
+        return hex(n)
