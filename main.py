@@ -1,5 +1,8 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def sort_list(lst):
-        return sorted(lst)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
