@@ -1,6 +1,8 @@
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
 import array
-def get_array_as_int(array):
-        return int(array[0])
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def append_to_array(array, item):
+        array.append(item)
