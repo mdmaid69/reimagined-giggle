@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_density(mass, volume):
+        return mass / volume
