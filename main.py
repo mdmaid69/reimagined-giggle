@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
