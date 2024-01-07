@@ -1,5 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def multiply_numbers(x, y):
+        return x * y
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
