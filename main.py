@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def reverse_string(s):
+        return s[::-1]
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
