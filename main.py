@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
