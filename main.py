@@ -1,10 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
