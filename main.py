@@ -1,4 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-  def convert_to_binary(n):
-        return bin(n)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
