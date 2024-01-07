@@ -1,8 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
