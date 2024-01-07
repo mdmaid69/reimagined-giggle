@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import logging
-def log_message(message):
-        logging.info(message)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
