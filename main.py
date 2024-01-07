@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def get_array_length(array):
-        return len(array)
+import time
+def get_current_time():
+        return time.time()
+import tensorflow as tf
+print(tf.__version__)
