@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_array_typecode(array):
-        return array.typecode
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
