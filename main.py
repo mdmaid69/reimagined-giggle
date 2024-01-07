@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
