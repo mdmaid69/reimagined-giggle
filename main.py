@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import tensorflow as tf
+print(tf.__version__)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
