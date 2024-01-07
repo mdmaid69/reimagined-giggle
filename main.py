@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
