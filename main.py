@@ -1,5 +1,6 @@
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def subtract_numbers(x, y):
-        return x - y
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
