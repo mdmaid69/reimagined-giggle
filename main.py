@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def split_path(path):
+        return os.path.split(path)
