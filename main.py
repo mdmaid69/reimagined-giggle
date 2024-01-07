@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import collections
+def create_counter():
+        return collections.Counter()
