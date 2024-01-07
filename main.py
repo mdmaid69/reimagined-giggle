@@ -1,5 +1,7 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import getpass
-def get_username():
-        return getpass.getuser()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
