@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_acceleration(speed, time):
+        return speed / time
