@@ -1,5 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def find_max(lst):
-        return max(lst)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
