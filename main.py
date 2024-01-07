@@ -1,4 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def cube_number(x):
+        return x**3
+  def count_elements(lst):
+        return len(lst)
