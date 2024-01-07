@@ -1,7 +1,8 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
