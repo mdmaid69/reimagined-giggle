@@ -1,6 +1,5 @@
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
