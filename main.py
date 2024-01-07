@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import collections
+def create_stack():
+        return collections.deque()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
