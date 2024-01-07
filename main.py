@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
