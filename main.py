@@ -1,5 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
