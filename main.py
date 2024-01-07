@@ -1,5 +1,7 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
