@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def sort_numbers(numbers):
+        return sorted(numbers)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
