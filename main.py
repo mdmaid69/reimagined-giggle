@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import sys
-  def get_python_version():
-        return sys.version
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def convert_array_to_string(array):
+        return array.tostring()
