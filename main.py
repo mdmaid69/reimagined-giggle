@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
