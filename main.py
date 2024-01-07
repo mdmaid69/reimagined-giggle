@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
