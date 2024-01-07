@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
