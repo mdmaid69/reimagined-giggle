@@ -1,6 +1,5 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_area_rectangle(l, w):
+        return l * w
