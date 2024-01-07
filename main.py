@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
