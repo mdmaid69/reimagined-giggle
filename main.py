@@ -1,8 +1,4 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
