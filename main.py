@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_volume(length, width, height):
+        return length * width * height
