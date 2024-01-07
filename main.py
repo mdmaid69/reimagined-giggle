@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  def is_even(n):
+        return n % 2 == 0
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
