@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
