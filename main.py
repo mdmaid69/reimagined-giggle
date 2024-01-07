@@ -1,5 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import random
-print(random.randint(0, 100))
+def is_even(n):
+        return n % 2 == 0
+def calculate_work(force, distance):
+        return force * distance
