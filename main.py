@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
