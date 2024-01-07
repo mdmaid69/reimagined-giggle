@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def cube_number(x):
+        return x**3
+  def is_even(n):
+        return n % 2 == 0
