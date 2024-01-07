@@ -1,6 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  def convert_to_binary(n):
+        return bin(n)
