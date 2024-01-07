@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
 import sys
-def exit_program():
-        sys.exit()
+def print_python_version():
+        print(sys.version)
