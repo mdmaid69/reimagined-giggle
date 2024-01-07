@@ -1,4 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-print([x**2 for x in range(10)])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def is_even(n):
+        return n % 2 == 0
