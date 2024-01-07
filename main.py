@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
