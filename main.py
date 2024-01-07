@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
