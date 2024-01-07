@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
