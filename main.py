@@ -1,6 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_work(force, distance):
+        return force * distance
