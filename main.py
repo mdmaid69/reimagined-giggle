@@ -1,4 +1,4 @@
-  def subtract_numbers(x, y):
-        return x - y
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
