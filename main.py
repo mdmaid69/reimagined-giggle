@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
