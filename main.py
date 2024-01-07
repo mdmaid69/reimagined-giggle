@@ -1,6 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  def reverse_list(lst):
+        return lst[::-1]
+  def subtract_numbers(x, y):
+        return x - y
