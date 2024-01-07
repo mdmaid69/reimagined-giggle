@@ -1,5 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def add_numbers(a, b):
-        return a + b
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
