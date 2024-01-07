@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
