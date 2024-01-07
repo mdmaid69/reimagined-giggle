@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
