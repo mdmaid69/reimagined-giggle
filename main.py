@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
