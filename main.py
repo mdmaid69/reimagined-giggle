@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def get_array_length(array):
+        return len(array)
+  def remove_duplicates(lst):
+        return list(set(lst))
