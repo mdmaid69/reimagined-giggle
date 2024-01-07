@@ -1,5 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
