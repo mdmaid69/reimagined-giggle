@@ -1,5 +1,8 @@
-  def sort_list(lst):
-        return sorted(lst)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import array
+def get_array_as_str(array):
+        return str(array)
