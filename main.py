@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
