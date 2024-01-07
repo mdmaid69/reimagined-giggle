@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
