@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import time
+def get_current_time():
+        return time.ctime()
