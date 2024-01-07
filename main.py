@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_power(work, time):
+        return work / time
