@@ -1,5 +1,7 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def reverse_string(s):
-        return s[::-1]
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
