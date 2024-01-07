@@ -1,6 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
