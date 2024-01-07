@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-for i in range(5):
-        print(i)
+x = 10
+y = 20
+print("Sum:", x + y)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
