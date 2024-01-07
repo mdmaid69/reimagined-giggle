@@ -1,5 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  def convert_to_binary(n):
+        return bin(n)
