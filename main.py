@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
