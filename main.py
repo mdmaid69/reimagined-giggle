@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import os
+def remove_directory(path):
+        os.rmdir(path)
