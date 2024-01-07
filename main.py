@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
