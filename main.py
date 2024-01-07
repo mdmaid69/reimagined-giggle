@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
