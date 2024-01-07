@@ -1,4 +1,4 @@
-print([x**2 for x in range(10)])
-import collections
-def create_counter():
-        return collections.Counter()
+for i in range(10): print(i)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
