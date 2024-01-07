@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
