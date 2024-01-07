@@ -1,8 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def get_array_as_list(array):
+        return list(array)
+  def square_number(x):
+        return x**2
