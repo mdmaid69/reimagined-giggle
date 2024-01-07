@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_area_circle(r):
+        return 3.14 * r**2
