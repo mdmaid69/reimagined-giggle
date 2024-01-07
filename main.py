@@ -1,5 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
