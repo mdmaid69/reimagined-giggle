@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
