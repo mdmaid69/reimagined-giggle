@@ -1,6 +1,4 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def is_palindrome(s):
+        return s == s[::-1]
+  def subtract_numbers(x, y):
+        return x - y
