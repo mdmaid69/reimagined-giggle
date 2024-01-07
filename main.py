@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import sys
+def print_python_version():
+        print(sys.version)
