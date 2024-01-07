@@ -1,4 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import datetime
-print(datetime.datetime.now())
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
