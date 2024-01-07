@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+print(json.dumps({"name": "John", "age": 30}))
