@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
