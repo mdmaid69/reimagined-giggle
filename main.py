@@ -1,3 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-print(sum(range(10)))
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_as_set(array):
+        return set(array)
