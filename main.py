@@ -1,5 +1,6 @@
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
