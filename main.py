@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-name = "Python"
-print("Hello,", name)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_pressure(force, area):
+        return force / area
