@@ -1,4 +1,12 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
