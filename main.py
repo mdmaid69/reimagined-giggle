@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
