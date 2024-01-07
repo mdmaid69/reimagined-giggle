@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import time
+def get_time_since_epoch():
+        return time.time()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
