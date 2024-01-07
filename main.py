@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
