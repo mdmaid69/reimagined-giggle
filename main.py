@@ -1,14 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
