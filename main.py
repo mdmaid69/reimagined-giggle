@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def reverse_list(lst):
+        return lst[::-1]
