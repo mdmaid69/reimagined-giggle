@@ -1,5 +1,6 @@
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def add_numbers(a, b):
-        return a + b
+def remove_directory(path):
+        os.rmdir(path)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
