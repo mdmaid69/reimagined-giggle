@@ -1,4 +1,4 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
