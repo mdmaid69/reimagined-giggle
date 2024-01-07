@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import getpass
-def get_username():
-        return getpass.getuser()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_acceleration(speed, time):
+        return speed / time
