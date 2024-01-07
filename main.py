@@ -1,6 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
