@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def multiply_numbers(x, y):
+        return x * y
