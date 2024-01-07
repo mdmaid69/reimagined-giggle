@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
