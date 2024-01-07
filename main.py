@@ -1,3 +1,6 @@
-  def cube_number(x):
-        return x**3
-for i in range(10): print(i)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+x = 10
+y = 20
+print("Sum:", x + y)
