@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
