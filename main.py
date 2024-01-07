@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_power(work, time):
-        return work / time
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_sine(x):
+        return math.sin(x)
