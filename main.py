@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
