@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def calculate_acceleration(speed, time):
-        return speed / time
+import platform
+def get_os_info():
+        return platform.uname()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
