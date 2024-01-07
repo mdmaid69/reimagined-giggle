@@ -1,8 +1,5 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_square_root(x):
+        return math.sqrt(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
