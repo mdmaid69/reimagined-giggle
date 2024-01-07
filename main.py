@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
