@@ -1,4 +1,10 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
