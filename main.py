@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
