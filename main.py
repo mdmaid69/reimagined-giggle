@@ -1,5 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_pressure(force, area):
-        return force / area
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
