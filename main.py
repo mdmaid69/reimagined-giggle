@@ -1,8 +1,8 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
 import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
