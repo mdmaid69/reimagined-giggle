@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
