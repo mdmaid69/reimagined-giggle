@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
