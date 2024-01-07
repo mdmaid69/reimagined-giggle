@@ -1,7 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def sort_list(lst):
+        return sorted(lst)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def convert_array_to_unicode(array):
+        return array.tounicode()
