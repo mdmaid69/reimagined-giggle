@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
