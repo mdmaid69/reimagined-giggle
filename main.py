@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def convert_to_binary(n):
+        return bin(n)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
