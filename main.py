@@ -1,5 +1,5 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
