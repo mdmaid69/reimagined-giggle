@@ -1,5 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def find_max(lst):
-        return max(lst)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def find_max(numbers):
+        return max(numbers)
