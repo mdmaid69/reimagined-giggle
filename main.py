@@ -1,7 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+x = 10
+y = 20
+print("Sum:", x + y)
