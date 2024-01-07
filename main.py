@@ -1,5 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
