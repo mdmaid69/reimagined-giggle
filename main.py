@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
