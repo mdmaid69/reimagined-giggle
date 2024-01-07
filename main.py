@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
