@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import random
-print(random.randint(0, 100))
+import collections
+def create_priority_queue():
+        return collections.deque()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
