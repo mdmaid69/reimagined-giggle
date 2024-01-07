@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
