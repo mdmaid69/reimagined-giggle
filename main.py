@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import logging
-def log_message(message):
-        logging.info(message)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
