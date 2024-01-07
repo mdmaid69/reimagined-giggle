@@ -1,8 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
