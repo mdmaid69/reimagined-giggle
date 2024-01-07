@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
