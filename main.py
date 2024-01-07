@@ -1,6 +1,4 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+print([x**2 for x in range(10)])
