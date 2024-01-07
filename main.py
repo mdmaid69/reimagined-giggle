@@ -1,6 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def get_array_as_set(array):
-        return set(array)
+def find_min(numbers):
+        return min(numbers)
+  def reverse_list(lst):
+        return lst[::-1]
