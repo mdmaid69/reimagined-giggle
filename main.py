@@ -1,5 +1,7 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import sys
+def exit_program():
+        sys.exit()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
