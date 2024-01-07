@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
