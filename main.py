@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  def add_numbers(x, y):
-        return x + y
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def find_min(lst):
+        return min(lst)
