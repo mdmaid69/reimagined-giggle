@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
