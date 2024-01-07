@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
