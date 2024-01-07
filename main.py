@@ -1,4 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-print([x**2 for x in range(10)])
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
