@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
