@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
