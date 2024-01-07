@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import datetime
+print(datetime.datetime.now())
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
