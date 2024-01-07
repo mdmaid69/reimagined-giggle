@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
