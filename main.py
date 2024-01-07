@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def count_words(sentence):
+        return len(sentence.split())
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
