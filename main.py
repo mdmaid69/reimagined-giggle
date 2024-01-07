@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
