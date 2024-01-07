@@ -1,5 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
