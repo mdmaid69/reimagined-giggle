@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import sys
+def print_python_version():
+        return sys.version
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
