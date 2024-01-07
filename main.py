@@ -1,6 +1,6 @@
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
