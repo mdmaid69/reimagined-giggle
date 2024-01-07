@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  def multiply_numbers(x, y):
-        return x * y
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def add_numbers(a, b):
+        return a + b
