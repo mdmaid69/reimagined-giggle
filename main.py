@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import array
+def get_list_from_array(array):
+        return array.tolist()
