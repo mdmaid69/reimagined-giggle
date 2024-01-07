@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
 import array
-def get_array_item(array, i):
-        return array[i]
+def insert_into_array(array, i, item):
+        array.insert(i, item)
