@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
