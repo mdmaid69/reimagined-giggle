@@ -1,8 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def greet(name):
+        print(f"Hello, {name}!")
