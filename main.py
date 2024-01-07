@@ -1,5 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_speed(distance, time):
+        return distance / time
+def count_elements(lst):
+        return len(lst)
