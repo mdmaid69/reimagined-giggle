@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_volume(length, width, height):
-        return length * width * height
+import sys
+print(sys.version)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
