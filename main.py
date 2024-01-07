@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import os
+print(os.getcwd())
+def find_unique_words(sentence):
+        return set(sentence.split())
