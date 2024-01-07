@@ -1,5 +1,7 @@
-import datetime
-print(datetime.datetime.now())
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import getpass
+def get_username():
+        return getpass.getuser()
