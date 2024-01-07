@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
