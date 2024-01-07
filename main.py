@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def count_elements(lst):
+        return len(lst)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
