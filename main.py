@@ -1,5 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
