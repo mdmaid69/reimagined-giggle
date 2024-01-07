@@ -1,6 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def convert_to_hex(n):
+        return hex(n)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
