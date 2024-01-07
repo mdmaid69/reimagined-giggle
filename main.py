@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
