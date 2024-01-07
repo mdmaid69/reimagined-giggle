@@ -1,6 +1,4 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
