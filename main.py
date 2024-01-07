@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
