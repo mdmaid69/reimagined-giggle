@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
