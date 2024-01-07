@@ -1,5 +1,8 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
