@@ -1,6 +1,6 @@
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
