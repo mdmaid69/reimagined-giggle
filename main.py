@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
