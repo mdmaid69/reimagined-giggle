@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
