@@ -1,5 +1,7 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
