@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_pressure(force, area):
-        return force / area
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
