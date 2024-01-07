@@ -1,5 +1,8 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
