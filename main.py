@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-x = 10
-y = 20
-print("Sum:", x + y)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
