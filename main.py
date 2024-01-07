@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def convert_to_octal(n):
-        return oct(n)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
