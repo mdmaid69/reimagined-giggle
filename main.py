@@ -1,3 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-print([x**2 for x in range(10)])
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
