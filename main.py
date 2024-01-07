@@ -1,5 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def sort_list(lst):
-        return sorted(lst)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
