@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
