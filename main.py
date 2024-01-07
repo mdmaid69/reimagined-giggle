@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def calculate_volume(length, width, height):
-        return length * width * height
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  def is_even(n):
+        return n % 2 == 0
