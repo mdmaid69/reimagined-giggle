@@ -1,9 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
