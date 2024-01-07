@@ -1,5 +1,4 @@
-def find_max(lst):
-        return max(lst)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+name = "Python"
+print("Hello,", name)
+def calculate_area_rectangle(l, w):
+        return l * w
