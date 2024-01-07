@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import random
+def roll_die():
+        return random.randint(1, 6)
