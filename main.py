@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def count_elements(lst):
+        return len(lst)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
