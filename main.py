@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import random
-print(random.randint(0, 100))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
