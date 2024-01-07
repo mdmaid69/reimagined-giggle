@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import datetime
-print(datetime.datetime.now())
+for i in range(5):
+        print(i)
+def count_words(sentence):
+        return len(sentence.split())
