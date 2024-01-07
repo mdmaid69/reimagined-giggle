@@ -1,6 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
