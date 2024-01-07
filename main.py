@@ -1,5 +1,8 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  def count_elements(lst):
-        return len(lst)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
