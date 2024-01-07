@@ -1,6 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
