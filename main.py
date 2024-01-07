@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
