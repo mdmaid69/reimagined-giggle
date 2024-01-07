@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
