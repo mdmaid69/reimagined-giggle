@@ -1,5 +1,9 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
