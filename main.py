@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import array
-def get_array_as_set(array):
-        return set(array)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
