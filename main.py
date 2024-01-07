@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def multiply_numbers(x, y):
+        return x * y
+x = 10
+y = 20
+print("Sum:", x + y)
