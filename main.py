@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
