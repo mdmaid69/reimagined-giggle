@@ -1,5 +1,7 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def find_min(numbers):
-        return min(numbers)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
