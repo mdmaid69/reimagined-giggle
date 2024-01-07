@@ -1,6 +1,9 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def convert_to_octal(n):
+        return oct(n)
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
