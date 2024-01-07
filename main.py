@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def subtract_numbers(x, y):
+        return x - y
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
