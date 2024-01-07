@@ -1,6 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
