@@ -1,5 +1,5 @@
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def is_palindrome(s):
-        return s == s[::-1]
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
