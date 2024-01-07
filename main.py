@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
