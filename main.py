@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+from collections import Counter
+print(Counter("hello world"))
