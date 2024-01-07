@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
