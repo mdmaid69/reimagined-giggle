@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_power(work, time):
-        return work / time
+def calculate_area_rectangle(l, w):
+        return l * w
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
