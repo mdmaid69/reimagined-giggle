@@ -1,7 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
