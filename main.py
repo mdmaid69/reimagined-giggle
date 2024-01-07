@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import collections
+def create_user_list():
+        return collections.UserList()
