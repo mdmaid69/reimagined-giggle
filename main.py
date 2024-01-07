@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import collections
+def create_priority_queue():
+        return collections.deque()
