@@ -1,5 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+for i in range(5):
+        print(i)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
