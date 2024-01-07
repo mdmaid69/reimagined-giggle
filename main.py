@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
