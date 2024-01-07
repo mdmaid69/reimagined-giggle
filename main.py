@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import sys
-def print_python_version():
-        return sys.version
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
