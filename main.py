@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
