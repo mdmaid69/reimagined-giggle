@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
