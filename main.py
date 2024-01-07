@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
