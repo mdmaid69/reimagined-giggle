@@ -1,6 +1,4 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import numpy as np
+print(np.array([1, 2, 3]))
+def is_palindrome(s):
+        return s == s[::-1]
