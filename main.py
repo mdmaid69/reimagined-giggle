@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def divide_numbers(x, y):
+        return x / y
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
