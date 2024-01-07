@@ -1,5 +1,8 @@
+import platform
+def get_python_version():
+        return platform.python_version()
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
