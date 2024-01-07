@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
