@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
