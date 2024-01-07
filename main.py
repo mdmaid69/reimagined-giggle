@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import array
+def get_array_as_str(array):
+        return str(array)
+import sys
+print(sys.version)
