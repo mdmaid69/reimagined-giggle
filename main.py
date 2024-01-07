@@ -1,5 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def remove_duplicates(lst):
-        return list(set(lst))
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
