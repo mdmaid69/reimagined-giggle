@@ -1,5 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-name = "Python"
-print("Hello,", name)
+def find_min(lst):
+        return min(lst)
+def count_elements(lst):
+        return len(lst)
