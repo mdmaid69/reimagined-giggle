@@ -1,4 +1,4 @@
-import os
-print(os.getcwd())
-def find_unique_words(sentence):
-        return set(sentence.split())
+def add_numbers(x, y):
+        return x + y
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
