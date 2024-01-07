@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def get_string_from_array(array):
+        return array.tobytes()
