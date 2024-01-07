@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def remove_duplicates(lst):
-        return list(set(lst))
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
