@@ -1,7 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import os
-print(os.getcwd())
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
