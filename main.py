@@ -1,6 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
