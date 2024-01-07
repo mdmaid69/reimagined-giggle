@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_sine(x):
+        return math.sin(x)
