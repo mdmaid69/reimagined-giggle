@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
