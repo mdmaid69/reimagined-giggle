@@ -1,8 +1,8 @@
-import collections
-def create_counter():
-        return collections.Counter()
 import array
-def get_array_from_bytes(bytes, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        a.fromunicode(unicode)
         return a
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
