@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_density(mass, volume):
+        return mass / volume
