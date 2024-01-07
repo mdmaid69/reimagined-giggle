@@ -1,6 +1,7 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
