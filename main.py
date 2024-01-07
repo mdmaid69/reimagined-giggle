@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
