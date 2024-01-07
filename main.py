@@ -1,6 +1,5 @@
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
