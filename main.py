@@ -1,4 +1,10 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
