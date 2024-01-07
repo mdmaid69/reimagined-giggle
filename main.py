@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
