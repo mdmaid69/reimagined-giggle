@@ -1,4 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-print("Hello, world!")
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
