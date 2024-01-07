@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
