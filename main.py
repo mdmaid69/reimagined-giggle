@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  def subtract_numbers(x, y):
+        return x - y
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
