@@ -1,9 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
