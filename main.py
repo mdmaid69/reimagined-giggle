@@ -1,5 +1,8 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
