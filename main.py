@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def check_if_array_contains_item(array, item):
+        return item in array
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
