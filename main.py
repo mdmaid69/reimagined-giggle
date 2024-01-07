@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
