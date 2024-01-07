@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  def square_number(x):
+        return x**2
