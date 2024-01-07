@@ -1,8 +1,3 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+print([x**2 for x in range(10)])
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
