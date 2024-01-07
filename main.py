@@ -1,5 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def convert_to_octal(n):
+        return oct(n)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
