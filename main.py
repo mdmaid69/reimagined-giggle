@@ -1,6 +1,6 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import sys
+  def get_python_version():
+        return sys.version
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
