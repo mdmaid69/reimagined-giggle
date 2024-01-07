@@ -1,8 +1,5 @@
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
