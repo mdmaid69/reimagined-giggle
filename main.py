@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
