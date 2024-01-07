@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
