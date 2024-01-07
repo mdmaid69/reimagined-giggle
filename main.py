@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
