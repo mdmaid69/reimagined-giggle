@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
