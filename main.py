@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_volume(length, width, height):
-        return length * width * height
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
