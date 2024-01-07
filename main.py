@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
