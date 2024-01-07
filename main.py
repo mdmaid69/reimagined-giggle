@@ -1,5 +1,7 @@
-  def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_work(force, distance):
+        return force * distance
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
