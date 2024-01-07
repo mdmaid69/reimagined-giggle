@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_area_circle(r):
+        return 3.14 * r**2
