@@ -1,6 +1,6 @@
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
 import array
-def get_array_as_str(array):
-        return str(array)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def check_if_array_contains_item(array, item):
+        return item in array
