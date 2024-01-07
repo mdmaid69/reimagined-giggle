@@ -1,5 +1,6 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
