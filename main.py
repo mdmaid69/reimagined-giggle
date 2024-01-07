@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  def square_number(x):
+        return x**2
