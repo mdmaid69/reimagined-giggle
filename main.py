@@ -1,12 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import time
-def get_time_since_epoch():
-        return time.time()
+print([x**2 for x in range(10)])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
