@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def get_array_as_str(array):
-        return str(array)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_density(mass, volume):
+        return mass / volume
