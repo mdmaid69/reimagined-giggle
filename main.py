@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def add_numbers(a, b):
+        return a + b
+import datetime
+def get_current_date():
+        return datetime.date.today()
