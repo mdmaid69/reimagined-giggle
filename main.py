@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
 import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
