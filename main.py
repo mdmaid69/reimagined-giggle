@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_acceleration(speed, time):
-        return speed / time
+import random
+print(random.randint(0, 100))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
