@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
