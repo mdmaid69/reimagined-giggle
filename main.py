@@ -1,5 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_density(mass, volume):
+        return mass / volume
