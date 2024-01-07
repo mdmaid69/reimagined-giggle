@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
