@@ -1,5 +1,6 @@
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
