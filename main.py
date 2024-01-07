@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
