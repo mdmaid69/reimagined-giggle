@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
