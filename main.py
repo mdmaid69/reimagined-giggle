@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_area(radius):
+        return 3.14 * radius * radius
