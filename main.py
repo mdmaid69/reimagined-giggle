@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
