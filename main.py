@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
