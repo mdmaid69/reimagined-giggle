@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
