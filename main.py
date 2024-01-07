@@ -1,7 +1,4 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_work(force, distance):
+        return force * distance
+def reverse_string(s):
+        return s[::-1]
