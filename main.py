@@ -1,5 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def count_words(sentence):
-        return len(sentence.split())
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
