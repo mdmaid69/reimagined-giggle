@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import array
+def clear_array(array):
+        array *= 0
