@@ -1,5 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  def multiply_numbers(x, y):
-        return x * y
+import tensorflow as tf
+print(tf.__version__)
+def divide_numbers(x, y):
+        return x / y
