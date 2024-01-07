@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_work(force, distance):
+        return force * distance
