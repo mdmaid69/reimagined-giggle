@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
