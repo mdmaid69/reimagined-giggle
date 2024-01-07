@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
