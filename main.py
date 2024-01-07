@@ -1,6 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def get_array_length(array):
+        return len(array)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
