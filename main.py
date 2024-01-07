@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def reverse_string(s):
+        return s[::-1]
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
