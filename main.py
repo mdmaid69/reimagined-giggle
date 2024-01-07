@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def pop_from_array(array, i=-1):
+        return array.pop(i)
