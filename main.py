@@ -1,12 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def cube_number(x):
+        return x**3
