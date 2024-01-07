@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
