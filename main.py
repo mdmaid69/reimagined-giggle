@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  def convert_to_octal(n):
-        return oct(n)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
