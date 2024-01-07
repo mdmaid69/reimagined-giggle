@@ -1,9 +1,8 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
