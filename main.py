@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def count_elements(lst):
+        return len(lst)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
