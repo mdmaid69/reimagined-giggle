@@ -1,8 +1,6 @@
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def get_bytes_from_array(array):
+        return array.tobytes()
