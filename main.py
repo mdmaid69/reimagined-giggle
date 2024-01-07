@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
