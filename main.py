@@ -1,5 +1,4 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import numpy as np
+print(np.array([1, 2, 3]))
+def find_min(lst):
+        return min(lst)
