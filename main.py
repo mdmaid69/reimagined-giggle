@@ -1,5 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
