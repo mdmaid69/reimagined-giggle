@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import random
+print(random.randint(0, 100))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
