@@ -1,4 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import datetime
-print(datetime.datetime.now())
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  def is_even(n):
+        return n % 2 == 0
