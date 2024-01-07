@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import os
+  def get_current_directory():
+        return os.getcwd()
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
