@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
