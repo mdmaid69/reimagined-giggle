@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
