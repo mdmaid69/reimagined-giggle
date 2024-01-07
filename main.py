@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_as_int(array):
+        return int(array[0])
+def find_max(numbers):
+        return max(numbers)
