@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_user_string():
-        return collections.UserString()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_power(work, time):
+        return work / time
