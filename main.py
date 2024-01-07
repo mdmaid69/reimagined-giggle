@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
