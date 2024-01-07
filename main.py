@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
