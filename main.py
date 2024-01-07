@@ -1,8 +1,3 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+for i in range(10): print(i)
+def calculate_acceleration(speed, time):
+        return speed / time
