@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import collections
+def create_user_list():
+        return collections.UserList()
