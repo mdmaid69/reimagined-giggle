@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def sort_list(lst):
-        return sorted(lst)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+def sort_numbers(numbers):
+        return sorted(numbers)
