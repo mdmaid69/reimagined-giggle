@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  def subtract_numbers(x, y):
+        return x - y
