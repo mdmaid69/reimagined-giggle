@@ -1,5 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
