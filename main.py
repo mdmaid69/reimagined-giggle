@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
