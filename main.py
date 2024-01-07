@@ -1,7 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
