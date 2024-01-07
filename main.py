@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  def convert_to_binary(n):
+        return bin(n)
