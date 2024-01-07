@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
