@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
