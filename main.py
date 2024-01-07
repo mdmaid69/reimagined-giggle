@@ -1,5 +1,4 @@
-  def subtract_numbers(x, y):
-        return x - y
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def multiply_numbers(x, y):
+        return x * y
+def reverse_list(lst):
+        return lst[::-1]
