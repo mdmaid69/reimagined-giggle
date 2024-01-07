@@ -1,6 +1,7 @@
-import collections
-def create_queue():
-        return collections.deque()
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def divide_numbers(x, y):
+        return x / y
