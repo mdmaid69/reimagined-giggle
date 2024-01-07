@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
