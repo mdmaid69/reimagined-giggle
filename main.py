@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
