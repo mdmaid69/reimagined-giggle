@@ -1,5 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def check_if_array_contains_item(array, item):
+        return item in array
