@@ -1,6 +1,7 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
