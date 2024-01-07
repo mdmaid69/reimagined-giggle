@@ -1,8 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
