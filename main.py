@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
