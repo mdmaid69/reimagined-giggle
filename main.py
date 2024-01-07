@@ -1,6 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def get_array_as_bool(array):
+        return bool(array)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
