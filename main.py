@@ -1,6 +1,5 @@
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
