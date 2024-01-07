@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def reverse_string(s):
+        return s[::-1]
