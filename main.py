@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
