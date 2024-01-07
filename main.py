@@ -1,6 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
