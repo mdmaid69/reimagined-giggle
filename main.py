@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
