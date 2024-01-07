@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-import math
-print(math.pi)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
