@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def append_to_array(array, item):
+        array.append(item)
