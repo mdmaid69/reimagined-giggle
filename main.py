@@ -1,5 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  def add_numbers(x, y):
-        return x + y
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
