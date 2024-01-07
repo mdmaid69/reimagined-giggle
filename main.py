@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
