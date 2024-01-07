@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import collections
+def create_user_string():
+        return collections.UserString()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
