@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
