@@ -1,6 +1,8 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
