@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+from collections import Counter
+print(Counter("hello world"))
+import array
+def get_array_index(array, item):
+        return array.index(item)
