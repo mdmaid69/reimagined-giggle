@@ -1,4 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def reverse_string(s):
+        return s[::-1]
