@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
