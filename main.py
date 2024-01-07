@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
