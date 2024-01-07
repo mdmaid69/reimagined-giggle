@@ -1,7 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
