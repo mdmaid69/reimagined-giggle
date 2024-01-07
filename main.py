@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
