@@ -1,5 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
