@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import array
+def get_array_as_list(array):
+        return list(array)
