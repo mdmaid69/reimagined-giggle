@@ -1,5 +1,4 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def is_odd(n):
+        return n % 2 != 0
