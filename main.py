@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
