@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
