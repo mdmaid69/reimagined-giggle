@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_bytes_from_array(array):
+        return array.tobytes()
