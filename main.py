@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def find_min(numbers):
-        return min(numbers)
+def calculate_acceleration(speed, time):
+        return speed / time
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
