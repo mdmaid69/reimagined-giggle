@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
