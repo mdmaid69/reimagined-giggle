@@ -1,12 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
