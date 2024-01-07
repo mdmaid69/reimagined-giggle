@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
