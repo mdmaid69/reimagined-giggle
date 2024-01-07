@@ -1,8 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
