@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def convert_to_binary(n):
+        return bin(n)
