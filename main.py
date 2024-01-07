@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
