@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
