@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_pressure(force, area):
-        return force / area
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
