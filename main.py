@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
