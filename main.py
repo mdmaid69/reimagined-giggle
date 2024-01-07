@@ -1,5 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import sys
-def print_python_version():
-        print(sys.version)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_density(mass, volume):
+        return mass / volume
