@@ -1,5 +1,8 @@
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
