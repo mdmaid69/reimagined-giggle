@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
