@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
