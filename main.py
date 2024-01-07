@@ -1,5 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
