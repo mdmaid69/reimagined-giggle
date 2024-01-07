@@ -1,5 +1,7 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
