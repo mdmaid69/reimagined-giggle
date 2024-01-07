@@ -1,5 +1,8 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def calculate_work(force, distance):
-        return force * distance
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
