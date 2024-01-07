@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_volume(length, width, height):
+        return length * width * height
