@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
