@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  def convert_to_hex(n):
+        return hex(n)
