@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-name = "Python"
-print("Hello,", name)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
