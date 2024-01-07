@@ -1,5 +1,7 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_pressure(force, area):
-        return force / area
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
