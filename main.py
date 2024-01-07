@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def convert_to_hex(n):
+        return hex(n)
