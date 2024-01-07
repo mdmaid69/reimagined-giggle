@@ -1,9 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
