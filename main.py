@@ -1,6 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
