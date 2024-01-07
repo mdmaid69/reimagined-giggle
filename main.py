@@ -1,4 +1,6 @@
-for i in range(10): print(i)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
