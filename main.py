@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def find_min(lst):
+        return min(lst)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
