@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
 text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+print("Words:", len(text.split()))
