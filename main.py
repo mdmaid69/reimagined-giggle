@@ -1,12 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def remove_from_array(array, item):
+        array.remove(item)
