@@ -1,5 +1,6 @@
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
