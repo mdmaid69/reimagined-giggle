@@ -1,5 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def find_max(numbers):
-        return max(numbers)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def find_min(lst):
+        return min(lst)
