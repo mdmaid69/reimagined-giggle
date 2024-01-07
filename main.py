@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import array
-def get_array_as_list(array):
-        return list(array)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
