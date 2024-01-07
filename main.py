@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
