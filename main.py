@@ -1,5 +1,9 @@
-def calculate_speed(distance, time):
-        return distance / time
-import sys
-def print_python_version():
-        return sys.version
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
