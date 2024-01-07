@@ -1,5 +1,7 @@
-  def square_number(x):
-        return x**2
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
