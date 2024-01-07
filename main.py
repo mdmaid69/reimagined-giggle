@@ -1,5 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+print("Hello, world!")
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
