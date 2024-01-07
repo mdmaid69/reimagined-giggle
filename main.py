@@ -1,7 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
