@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
