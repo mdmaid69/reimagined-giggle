@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_power(work, time):
+        return work / time
