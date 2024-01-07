@@ -1,7 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
