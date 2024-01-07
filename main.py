@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
