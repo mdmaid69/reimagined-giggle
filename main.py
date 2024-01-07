@@ -1,8 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def square_number(x):
+        return x**2
