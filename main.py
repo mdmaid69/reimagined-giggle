@@ -1,5 +1,10 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def subtract_numbers(x, y):
-        return x - y
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
