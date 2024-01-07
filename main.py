@@ -1,5 +1,8 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
