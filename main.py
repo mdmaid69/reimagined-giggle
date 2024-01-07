@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
