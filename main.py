@@ -1,4 +1,7 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-for i in range(10): print(i)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import array
+def get_array_as_str(array):
+        return str(array)
