@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def convert_to_hex(n):
+        return hex(n)
