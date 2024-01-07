@@ -1,6 +1,5 @@
+  def is_odd(n):
+        return n % 2 != 0
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_gamma_function(x):
+        return math.gamma(x)
