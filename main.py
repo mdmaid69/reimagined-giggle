@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
