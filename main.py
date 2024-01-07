@@ -1,6 +1,5 @@
+  def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def calculate_gamma_function(x):
+        return math.gamma(x)
