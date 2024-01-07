@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
