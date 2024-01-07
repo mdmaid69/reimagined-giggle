@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
