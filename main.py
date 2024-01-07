@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  def cube_number(x):
+        return x**3
