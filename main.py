@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import logging
+def log_message(message):
+        logging.info(message)
+def convert_to_hex(n):
+        return hex(n)
