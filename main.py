@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
