@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import logging
-def log_message(message):
-        logging.info(message)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
