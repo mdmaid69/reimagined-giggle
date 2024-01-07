@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
