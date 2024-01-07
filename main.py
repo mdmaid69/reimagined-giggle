@@ -1,7 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
