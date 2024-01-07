@@ -1,5 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
