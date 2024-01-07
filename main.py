@@ -1,6 +1,8 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
