@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
