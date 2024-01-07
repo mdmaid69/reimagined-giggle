@@ -1,6 +1,12 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
