@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
