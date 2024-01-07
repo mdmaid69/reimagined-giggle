@@ -1,6 +1,6 @@
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def reverse_array(array):
+        array.reverse()
