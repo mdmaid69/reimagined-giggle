@@ -1,5 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def count_characters(sentence):
+        return len(sentence)
