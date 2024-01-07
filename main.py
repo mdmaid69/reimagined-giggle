@@ -1,8 +1,6 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def get_string_from_array(array):
+        return array.tobytes()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
