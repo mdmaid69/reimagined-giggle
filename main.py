@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import collections
-def create_counter():
-        return collections.Counter()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  def is_odd(n):
+        return n % 2 != 0
