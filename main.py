@@ -1,5 +1,8 @@
-name = "Python"
-print("Hello,", name)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
