@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
