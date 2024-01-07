@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
