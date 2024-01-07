@@ -1,5 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+  def count_elements(lst):
+        return len(lst)
+  def sort_list(lst):
+        return sorted(lst)
