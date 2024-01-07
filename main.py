@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  def is_even(n):
-        return n % 2 == 0
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import array
+def get_string_from_array(array):
+        return array.tobytes()
