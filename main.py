@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
