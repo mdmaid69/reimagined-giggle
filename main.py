@@ -1,5 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_sine(x):
+        return math.sin(x)
