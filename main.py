@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
