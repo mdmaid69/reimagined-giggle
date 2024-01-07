@@ -1,5 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def count_characters(sentence):
-        return len(sentence)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
