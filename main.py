@@ -1,8 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
