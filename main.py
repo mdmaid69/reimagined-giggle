@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def divide_numbers(x, y):
+        return x / y
