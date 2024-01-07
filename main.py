@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
