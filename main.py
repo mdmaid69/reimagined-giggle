@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
