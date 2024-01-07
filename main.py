@@ -1,6 +1,8 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
