@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def get_array_typecode(array):
+        return array.typecode
