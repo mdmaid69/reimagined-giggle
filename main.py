@@ -1,6 +1,8 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
