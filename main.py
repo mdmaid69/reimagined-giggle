@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_array_item(array, i):
-        return array[i]
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def add_numbers(x, y):
+        return x + y
