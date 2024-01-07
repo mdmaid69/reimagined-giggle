@@ -1,4 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_work(force, distance):
-        return force * distance
+def find_min(lst):
+        return min(lst)
+def greet(name):
+        print(f"Hello, {name}!")
