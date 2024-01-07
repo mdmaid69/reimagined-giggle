@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def reverse_array(array):
-        array.reverse()
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
