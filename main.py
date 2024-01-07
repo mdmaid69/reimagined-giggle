@@ -1,5 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_pressure(force, area):
+        return force / area
+  def multiply_numbers(x, y):
+        return x * y
