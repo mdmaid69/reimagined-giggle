@@ -1,6 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import os
+def get_current_working_directory():
+        return os.getcwd()
