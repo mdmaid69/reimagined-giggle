@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
