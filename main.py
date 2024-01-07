@@ -1,7 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_stack():
+        return collections.deque()
