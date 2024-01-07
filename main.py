@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import array
+def get_array_item(array, i):
+        return array[i]
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
