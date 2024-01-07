@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
