@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
