@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import collections
-def create_user_list():
-        return collections.UserList()
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_area_circle(r):
+        return 3.14 * r**2
