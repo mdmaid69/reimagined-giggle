@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+def is_even(n):
+        return n % 2 == 0
