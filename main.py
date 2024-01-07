@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-def sort_list(lst):
-        return sorted(lst)
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
