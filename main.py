@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import array
+def get_array_as_str(array):
+        return str(array)
