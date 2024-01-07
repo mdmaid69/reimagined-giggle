@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
+import collections
+def create_counter():
+        return collections.Counter()
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
