@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def find_min(numbers):
-        return min(numbers)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def divide_numbers(x, y):
+        return x / y
