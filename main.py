@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import sys
+  def get_python_version():
+        return sys.version
