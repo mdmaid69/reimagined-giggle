@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
