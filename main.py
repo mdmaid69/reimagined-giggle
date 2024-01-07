@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
