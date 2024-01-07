@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
