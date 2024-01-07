@@ -1,6 +1,8 @@
-import collections
-def create_queue():
-        return collections.deque()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
