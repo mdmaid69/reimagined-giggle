@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def find_min(numbers):
+        return min(numbers)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
