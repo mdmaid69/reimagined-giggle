@@ -1,5 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import re
-print(re.match("h.*o", "hello world"))
+def sort_list(lst):
+        return sorted(lst)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
