@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-def count_words(sentence):
-        return len(sentence.split())
+import getpass
+def get_username():
+        return getpass.getuser()
+def find_max(lst):
+        return max(lst)
