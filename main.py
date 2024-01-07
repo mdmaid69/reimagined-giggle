@@ -1,8 +1,4 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+text = "Hello, world!"
+print("Characters:", len(text))
+def find_min(lst):
+        return min(lst)
