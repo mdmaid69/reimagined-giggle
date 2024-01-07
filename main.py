@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
