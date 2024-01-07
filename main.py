@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def split_path(path):
+        return os.path.split(path)
