@@ -1,5 +1,7 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import os
+print(os.getcwd())
