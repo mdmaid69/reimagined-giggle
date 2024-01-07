@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
