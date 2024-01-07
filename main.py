@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def add_numbers(x, y):
+        return x + y
 import collections
-def create_counter():
-        return collections.Counter()
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
