@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def is_even(n):
-        return n % 2 == 0
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
