@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import time
+print(time.time())
