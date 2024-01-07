@@ -1,7 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
