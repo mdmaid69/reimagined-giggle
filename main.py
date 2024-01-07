@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import array
+def clear_array(array):
+        array *= 0
+import datetime
+def get_today_date():
+        return datetime.date.today()
