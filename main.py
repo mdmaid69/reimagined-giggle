@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_volume(length, width, height):
-        return length * width * height
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
