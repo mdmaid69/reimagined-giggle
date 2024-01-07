@@ -1,4 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-for i in range(10): print(i)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
