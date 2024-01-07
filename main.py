@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
