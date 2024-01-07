@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import sys
+def print_python_version():
+        print(sys.version)
