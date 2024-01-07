@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  def cube_number(x):
-        return x**3
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
