@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
