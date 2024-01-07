@@ -1,12 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_area_rectangle(l, w):
+        return l * w
+def count_characters(sentence):
+        return len(sentence)
