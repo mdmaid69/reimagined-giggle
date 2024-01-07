@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def calculate_average(lst):
+        return sum(lst) / len(lst)
