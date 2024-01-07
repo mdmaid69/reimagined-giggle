@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
