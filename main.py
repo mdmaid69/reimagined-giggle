@@ -1,5 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import datetime
-print(datetime.datetime.now())
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import collections
+def create_user_string():
+        return collections.UserString()
