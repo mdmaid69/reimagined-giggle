@@ -1,4 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_area_rectangle(l, w):
+        return l * w
