@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import numpy as np
+print(np.array([1, 2, 3]))
