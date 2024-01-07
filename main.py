@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def find_unique_words(sentence):
+        return set(sentence.split())
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
