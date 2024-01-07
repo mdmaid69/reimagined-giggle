@@ -1,5 +1,4 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import time
+print(time.time())
