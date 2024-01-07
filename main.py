@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
