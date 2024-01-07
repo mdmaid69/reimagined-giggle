@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
