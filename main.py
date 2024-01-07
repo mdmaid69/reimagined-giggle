@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def convert_to_hex(n):
+        return hex(n)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
