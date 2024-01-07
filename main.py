@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  def is_even(n):
-        return n % 2 == 0
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
