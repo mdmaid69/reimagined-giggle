@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
