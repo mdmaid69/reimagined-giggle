@@ -1,5 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
