@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def find_max(numbers):
-        return max(numbers)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def count_characters(sentence):
+        return len(sentence)
