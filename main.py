@@ -1,4 +1,6 @@
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-for i in range(10): print(i)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
