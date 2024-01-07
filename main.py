@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def reverse_string(s):
+        return s[::-1]
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
