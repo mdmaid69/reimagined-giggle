@@ -1,6 +1,5 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def get_array_as_set(array):
+        return set(array)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
