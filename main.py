@@ -1,5 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_force(mass, acceleration):
+        return mass * acceleration
