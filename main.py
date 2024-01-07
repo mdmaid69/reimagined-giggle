@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def convert_array_to_bytes(array):
+        return array.tobytes()
