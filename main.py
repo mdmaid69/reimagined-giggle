@@ -1,5 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def convert_to_binary(n):
+        return bin(n)
+import os
+print(os.getcwd())
