@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
