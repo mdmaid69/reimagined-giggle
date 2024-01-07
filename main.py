@@ -1,8 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  def calculate_area_rectangle(l, w):
+        return l * w
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
