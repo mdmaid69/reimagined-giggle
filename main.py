@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def get_array_item_count(array, item):
+        return array.count(item)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
