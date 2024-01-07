@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_typecode(array):
+        return array.typecode
+import collections
+def create_user_list():
+        return collections.UserList()
