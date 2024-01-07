@@ -1,6 +1,5 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import sys
-def print_python_version():
-        return sys.version
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
