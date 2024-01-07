@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
