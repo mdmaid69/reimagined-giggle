@@ -1,7 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+def cube_number(x):
+        return x**3
+import math
+def calculate_exponential(x):
+        return math.exp(x)
