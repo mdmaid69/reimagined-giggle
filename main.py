@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def convert_to_octal(n):
+        return oct(n)
