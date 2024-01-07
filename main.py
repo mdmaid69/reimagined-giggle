@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import collections
+def create_user_string():
+        return collections.UserString()
