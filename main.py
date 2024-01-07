@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def reverse_string(s):
+        return s[::-1]
+import logging
+def log_message(message):
+        logging.info(message)
