@@ -1,6 +1,11 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
