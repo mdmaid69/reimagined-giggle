@@ -1,5 +1,6 @@
 import math
-print(math.pi)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
