@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def count_elements(lst):
+        return len(lst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
