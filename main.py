@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
