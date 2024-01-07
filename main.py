@@ -1,5 +1,7 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def convert_to_octal(n):
-        return oct(n)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
