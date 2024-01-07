@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import array
+def convert_array_to_list(array):
+        return array.tolist()
