@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_acceleration(speed, time):
+        return speed / time
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
