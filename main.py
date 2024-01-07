@@ -1,8 +1,10 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+i = 0
+while i < 5:
+        print(i)
+        i += 1
