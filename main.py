@@ -1,5 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-def multiply_numbers(x, y):
-        return x * y
+print([x**2 for x in range(10)])
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
