@@ -1,7 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
