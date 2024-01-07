@@ -1,5 +1,5 @@
+  def convert_to_binary(n):
+        return bin(n)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def add_numbers(a, b):
-        return a + b
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
