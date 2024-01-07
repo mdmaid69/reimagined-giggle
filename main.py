@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def subtract_numbers(x, y):
-        return x - y
+def find_max(lst):
+        return max(lst)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
