@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
