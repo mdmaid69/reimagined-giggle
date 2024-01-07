@@ -1,5 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  def square_number(x):
-        return x**2
+def calculate_power(work, time):
+        return work / time
+  def calculate_area_rectangle(l, w):
+        return l * w
