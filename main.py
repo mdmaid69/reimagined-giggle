@@ -1,7 +1,6 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-from collections import Counter
-print(Counter("hello world"))
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
