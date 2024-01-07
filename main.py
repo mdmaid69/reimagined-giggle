@@ -1,6 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
