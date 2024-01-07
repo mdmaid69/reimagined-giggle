@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
