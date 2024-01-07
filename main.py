@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import array
+def get_array_typecode(array):
+        return array.typecode
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
