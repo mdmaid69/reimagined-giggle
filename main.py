@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
