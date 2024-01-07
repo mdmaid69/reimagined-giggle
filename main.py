@@ -1,6 +1,8 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
