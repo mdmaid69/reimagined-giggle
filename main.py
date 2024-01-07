@@ -1,5 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def count_characters(sentence):
+        return len(sentence)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
