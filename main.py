@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_speed(distance, time):
+        return distance / time
