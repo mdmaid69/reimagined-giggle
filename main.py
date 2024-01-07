@@ -1,6 +1,11 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def is_odd(n):
+        return n % 2 != 0
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
