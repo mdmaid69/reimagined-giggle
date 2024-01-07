@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def cube_number(x):
+        return x**3
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
