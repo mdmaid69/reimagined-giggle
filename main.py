@@ -1,8 +1,4 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def is_even(n):
+        return n % 2 == 0
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
