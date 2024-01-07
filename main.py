@@ -1,5 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
