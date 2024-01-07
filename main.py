@@ -1,5 +1,4 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_typecode(array):
+        return array.typecode
+print([x**2 for x in range(10)])
