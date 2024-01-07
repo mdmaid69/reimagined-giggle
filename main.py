@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def convert_to_octal(n):
+        return oct(n)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
