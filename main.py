@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
