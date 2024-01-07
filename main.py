@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
