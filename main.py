@@ -1,4 +1,7 @@
-print([x**2 for x in range(10)])
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
