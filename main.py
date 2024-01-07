@@ -1,8 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def divide_numbers(x, y):
+        return x / y
