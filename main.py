@@ -1,6 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import os
+def get_current_working_directory():
+        return os.getcwd()
