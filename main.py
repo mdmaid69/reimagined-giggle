@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
