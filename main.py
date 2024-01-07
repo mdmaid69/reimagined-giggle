@@ -1,5 +1,6 @@
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
 import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_work(force, distance):
-        return force * distance
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
