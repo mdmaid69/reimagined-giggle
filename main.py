@@ -1,6 +1,9 @@
-import socket
+from flask import Flask
+app = Flask(__name__)
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
