@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
