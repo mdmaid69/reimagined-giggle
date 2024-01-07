@@ -1,6 +1,8 @@
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
