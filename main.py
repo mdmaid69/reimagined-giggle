@@ -1,4 +1,6 @@
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-print([x**2 for x in range(10)])
+def remove_from_array(array, item):
+        array.remove(item)
