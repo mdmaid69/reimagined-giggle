@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def calculate_area_rectangle(l, w):
+        return l * w
