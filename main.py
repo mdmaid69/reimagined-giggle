@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import collections
+def create_priority_queue():
+        return collections.deque()
+  def convert_to_octal(n):
+        return oct(n)
