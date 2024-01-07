@@ -1,3 +1,5 @@
+for i in range(5):
+        print(i)
 import threading
 
 def print_hello():
@@ -6,6 +8,3 @@ def print_hello():
 thread = threading.Thread(target=print_hello)
 thread.start()
 thread.join()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
