@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import sys
+print(sys.version)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
