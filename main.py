@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_work(force, distance):
+        return force * distance
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
