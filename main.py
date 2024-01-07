@@ -1,6 +1,6 @@
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def append_to_array(array, item):
+        array.append(item)
