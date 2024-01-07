@@ -1,8 +1,5 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def is_palindrome(s):
+        return s == s[::-1]
