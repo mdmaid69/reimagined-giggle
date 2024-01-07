@@ -1,6 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def count_words(sentence):
+        return len(sentence.split())
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
