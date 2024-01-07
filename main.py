@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
