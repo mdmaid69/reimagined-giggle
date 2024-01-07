@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
