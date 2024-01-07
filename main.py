@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
