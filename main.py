@@ -1,4 +1,5 @@
-name = "Python"
-print("Hello,", name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
