@@ -1,6 +1,8 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
