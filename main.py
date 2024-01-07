@@ -1,9 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
