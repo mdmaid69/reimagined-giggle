@@ -1,8 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
