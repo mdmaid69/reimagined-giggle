@@ -1,6 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def find_unique_words(sentence):
+        return set(sentence.split())
