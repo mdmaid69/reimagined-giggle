@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def sort_numbers(numbers):
-        return sorted(numbers)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def cube_number(x):
+        return x**3
