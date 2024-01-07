@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
