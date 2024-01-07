@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def sort_list(lst):
+        return sorted(lst)
