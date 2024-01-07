@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
