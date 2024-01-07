@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_speed(distance, time):
+        return distance / time
