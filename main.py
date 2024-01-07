@@ -1,6 +1,5 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def is_palindrome(s):
+        return s == s[::-1]
