@@ -1,5 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  def convert_to_hex(n):
+        return hex(n)
