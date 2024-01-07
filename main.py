@@ -1,10 +1,4 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+for i in range(5):
+        print(i)
+text = "Hello, world!"
+print("Characters:", len(text))
