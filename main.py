@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def divide_numbers(x, y):
+        return x / y
+name = "Python"
+print("Hello,", name)
