@@ -1,8 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  def cube_number(x):
+        return x**3
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
