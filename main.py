@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import sys
-print(sys.version)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import platform
+def get_python_version():
+        return platform.python_version()
