@@ -1,5 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
