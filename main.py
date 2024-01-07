@@ -1,8 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import os
+print(os.getcwd())
