@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def is_even(n):
+        return n % 2 == 0
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
