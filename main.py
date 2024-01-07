@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_list_from_array(array):
+        return array.tolist()
