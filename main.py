@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
