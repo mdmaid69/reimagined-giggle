@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
