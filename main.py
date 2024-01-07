@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-x = 10
-y = 20
-print("Sum:", x + y)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
