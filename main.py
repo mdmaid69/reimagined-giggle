@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
