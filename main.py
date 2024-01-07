@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
