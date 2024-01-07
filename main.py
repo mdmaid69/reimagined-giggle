@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
