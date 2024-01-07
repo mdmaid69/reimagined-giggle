@@ -1,6 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
