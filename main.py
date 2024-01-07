@@ -1,5 +1,4 @@
 def find_union(list1, list2):
         return set(list1) | set(list2)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def is_odd(n):
+        return n % 2 != 0
