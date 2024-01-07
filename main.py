@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
