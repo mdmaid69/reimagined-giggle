@@ -1,6 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
