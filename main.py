@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
