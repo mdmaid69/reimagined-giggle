@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
