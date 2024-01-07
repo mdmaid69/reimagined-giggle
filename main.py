@@ -1,6 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import array
+def get_string_from_array(array):
+        return array.tobytes()
