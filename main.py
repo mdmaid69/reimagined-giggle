@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import collections
+def create_counter():
+        return collections.Counter()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
