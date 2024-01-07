@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def is_palindrome(s):
-        return s == s[::-1]
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
