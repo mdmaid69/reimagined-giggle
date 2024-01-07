@@ -1,6 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def square_number(x):
+        return x**2
+def reverse_string(s):
+        return s[::-1]
