@@ -1,5 +1,7 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
