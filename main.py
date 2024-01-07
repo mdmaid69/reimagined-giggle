@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def calculate_power(work, time):
-        return work / time
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import collections
+def create_user_list():
+        return collections.UserList()
