@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
