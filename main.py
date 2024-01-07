@@ -1,8 +1,7 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
