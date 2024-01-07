@@ -1,6 +1,6 @@
+import os
+def remove_directory(path):
+        os.rmdir(path)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
