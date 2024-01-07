@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def divide_numbers(x, y):
-        return x / y
+def is_palindrome(s):
+        return s == s[::-1]
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
