@@ -1,6 +1,4 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
