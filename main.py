@@ -1,8 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
