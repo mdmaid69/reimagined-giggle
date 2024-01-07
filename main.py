@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def is_odd(n):
-        return n % 2 != 0
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def multiply_numbers(x, y):
+        return x * y
