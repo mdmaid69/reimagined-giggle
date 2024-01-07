@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
