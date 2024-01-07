@@ -1,7 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
