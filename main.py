@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def append_to_array(array, item):
+        array.append(item)
