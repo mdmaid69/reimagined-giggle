@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def add_numbers(x, y):
+        return x + y
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
