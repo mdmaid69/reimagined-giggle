@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
