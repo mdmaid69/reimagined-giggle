@@ -1,5 +1,7 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def multiply_numbers(x, y):
-        return x * y
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
