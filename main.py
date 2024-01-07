@@ -1,4 +1,4 @@
-import datetime
-print(datetime.datetime.now())
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import os
+print(os.getcwd())
+import numpy as np
+print(np.array([1, 2, 3]))
