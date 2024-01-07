@@ -1,6 +1,6 @@
+import math
+def calculate_cosine(x):
+        return math.cos(x)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
