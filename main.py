@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import sys
+def print_python_version():
+        return sys.version
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
