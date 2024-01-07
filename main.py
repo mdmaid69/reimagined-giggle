@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
