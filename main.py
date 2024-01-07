@@ -1,5 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
