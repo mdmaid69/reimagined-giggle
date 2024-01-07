@@ -1,7 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  def multiply_numbers(x, y):
-        return x * y
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
