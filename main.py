@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def convert_array_to_string(array):
+        return array.tostring()
