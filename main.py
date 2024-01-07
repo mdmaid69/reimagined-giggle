@@ -1,7 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
