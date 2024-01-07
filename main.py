@@ -1,5 +1,8 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import datetime
-print(datetime.datetime.now())
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
