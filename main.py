@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_array_itemsize(array):
+        return array.itemsize
