@@ -1,6 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def find_max(numbers):
+        return max(numbers)
+def calculate_area(radius):
+        return 3.14 * radius * radius
