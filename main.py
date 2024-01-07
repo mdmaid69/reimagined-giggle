@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def append_to_array(array, item):
+        array.append(item)
