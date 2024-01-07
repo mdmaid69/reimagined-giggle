@@ -1,6 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def convert_to_octal(n):
+        return oct(n)
+def calculate_work(force, distance):
+        return force * distance
