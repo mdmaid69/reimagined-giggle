@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import platform
+def get_os_info():
+        return platform.uname()
