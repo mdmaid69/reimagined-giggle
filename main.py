@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
