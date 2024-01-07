@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import sys
+def print_python_version():
+        print(sys.version)
