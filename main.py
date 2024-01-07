@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
