@@ -1,3 +1,8 @@
-def convert_to_binary(n):
-        return bin(n)
-print([x**2 for x in range(10)])
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
