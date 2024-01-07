@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
