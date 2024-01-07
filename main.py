@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def divide_numbers(x, y):
+        return x / y
+def divide_numbers(x, y):
+        return x / y
