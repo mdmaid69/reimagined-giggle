@@ -1,6 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def count_characters(sentence):
+        return len(sentence)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
