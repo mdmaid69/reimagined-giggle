@@ -1,6 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  def is_odd(n):
-        return n % 2 != 0
+def divide_numbers(x, y):
+        return x / y
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
