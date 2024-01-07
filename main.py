@@ -1,6 +1,3 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import collections
-def create_user_list():
-        return collections.UserList()
+print([x**2 for x in range(10)])
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
