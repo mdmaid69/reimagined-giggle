@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
