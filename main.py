@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def add_numbers(a, b):
+        return a + b
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
