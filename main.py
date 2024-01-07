@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+name = "Python"
+print("Hello,", name)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
