@@ -1,5 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
