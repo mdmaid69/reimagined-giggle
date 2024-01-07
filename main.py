@@ -1,5 +1,7 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import random
-print(random.randint(0, 100))
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
