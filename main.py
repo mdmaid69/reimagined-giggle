@@ -1,5 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
