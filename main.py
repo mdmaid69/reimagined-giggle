@@ -1,7 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
