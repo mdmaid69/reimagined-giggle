@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
