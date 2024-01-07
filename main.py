@@ -1,6 +1,8 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
