@@ -1,6 +1,4 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  def convert_to_binary(n):
+        return bin(n)
