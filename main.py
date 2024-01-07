@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
