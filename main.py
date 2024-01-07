@@ -1,5 +1,9 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
