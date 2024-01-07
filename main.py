@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_floor(x):
+        return math.floor(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
