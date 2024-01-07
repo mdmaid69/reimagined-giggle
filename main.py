@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def find_max(lst):
-        return max(lst)
+import array
+def clear_array(array):
+        array *= 0
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
