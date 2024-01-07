@@ -1,6 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def get_array_length(array):
-        return len(array)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def get_array_as_complex(array):
+        return complex(array[0])
