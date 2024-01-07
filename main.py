@@ -1,5 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_item(array, i):
+        return array[i]
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
