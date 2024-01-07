@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
