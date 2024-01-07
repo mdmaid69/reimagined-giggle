@@ -1,4 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-  def add_numbers(x, y):
-        return x + y
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
