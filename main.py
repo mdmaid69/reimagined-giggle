@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
