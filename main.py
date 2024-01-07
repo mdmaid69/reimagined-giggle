@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_user_string():
+        return collections.UserString()
