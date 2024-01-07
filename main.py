@@ -1,5 +1,6 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_acceleration(speed, time):
-        return speed / time
+def get_array_itemsize(array):
+        return array.itemsize
