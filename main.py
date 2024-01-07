@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
