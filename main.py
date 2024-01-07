@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
