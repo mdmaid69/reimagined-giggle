@@ -1,6 +1,5 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import random
-def roll_die():
-        return random.randint(1, 6)
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
