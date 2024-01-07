@@ -1,8 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
