@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
