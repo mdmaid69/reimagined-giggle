@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_pressure(force, area):
-        return force / area
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
