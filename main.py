@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def find_max(lst):
+        return max(lst)
