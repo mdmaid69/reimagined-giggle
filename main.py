@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
