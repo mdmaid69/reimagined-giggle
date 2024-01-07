@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
