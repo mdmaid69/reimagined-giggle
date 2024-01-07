@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
