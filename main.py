@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
