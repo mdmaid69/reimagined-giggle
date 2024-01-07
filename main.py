@@ -1,6 +1,4 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
