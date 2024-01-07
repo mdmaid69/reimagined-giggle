@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
