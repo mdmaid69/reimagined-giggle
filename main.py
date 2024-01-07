@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
