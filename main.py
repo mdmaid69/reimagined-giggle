@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
