@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
