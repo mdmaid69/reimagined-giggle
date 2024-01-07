@@ -1,6 +1,6 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def get_array_as_bool(array):
+        return bool(array)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
