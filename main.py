@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_work(force, distance):
-        return force * distance
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
