@@ -1,5 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+print(sum(range(10)))
