@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
