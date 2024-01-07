@@ -1,5 +1,8 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
