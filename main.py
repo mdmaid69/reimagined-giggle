@@ -1,5 +1,7 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
