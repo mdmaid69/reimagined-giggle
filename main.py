@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import collections
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
