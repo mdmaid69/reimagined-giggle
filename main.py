@@ -1,7 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
