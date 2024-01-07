@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import getpass
-def get_username():
-        return getpass.getuser()
+import numpy as np
+print(np.array([1, 2, 3]))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
