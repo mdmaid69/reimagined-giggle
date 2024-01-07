@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
