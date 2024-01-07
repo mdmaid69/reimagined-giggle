@@ -1,6 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
