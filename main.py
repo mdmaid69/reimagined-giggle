@@ -1,7 +1,10 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
