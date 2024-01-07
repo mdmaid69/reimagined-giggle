@@ -1,9 +1,8 @@
-import collections
-def create_queue():
-        return collections.deque()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
