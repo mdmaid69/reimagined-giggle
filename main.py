@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
