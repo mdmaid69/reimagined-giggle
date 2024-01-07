@@ -1,5 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
