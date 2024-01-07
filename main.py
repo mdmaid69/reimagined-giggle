@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def find_max(lst):
+        return max(lst)
