@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def multiply_numbers(x, y):
-        return x * y
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
