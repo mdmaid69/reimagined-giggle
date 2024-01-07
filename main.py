@@ -1,5 +1,7 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def multiply_numbers(x, y):
-        return x * y
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
