@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
