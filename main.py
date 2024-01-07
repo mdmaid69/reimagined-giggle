@@ -1,7 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-  def add_numbers(x, y):
-        return x + y
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
