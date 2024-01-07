@@ -1,6 +1,7 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
