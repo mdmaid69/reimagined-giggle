@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
