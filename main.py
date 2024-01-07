@@ -1,5 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import tensorflow as tf
-print(tf.__version__)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
