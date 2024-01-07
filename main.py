@@ -1,5 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
