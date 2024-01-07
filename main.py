@@ -1,5 +1,9 @@
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import time
-print(time.time())
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
