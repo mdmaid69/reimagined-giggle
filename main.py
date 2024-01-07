@@ -1,5 +1,7 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import sys
-def exit_program():
-        sys.exit()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
