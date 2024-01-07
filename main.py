@@ -1,7 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
