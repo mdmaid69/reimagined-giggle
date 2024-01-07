@@ -1,4 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
