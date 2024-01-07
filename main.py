@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def cube_number(x):
+        return x**3
