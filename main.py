@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import datetime
+print(datetime.datetime.now())
