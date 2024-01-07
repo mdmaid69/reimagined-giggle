@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+text = "Hello, world!"
+print("Characters:", len(text))
