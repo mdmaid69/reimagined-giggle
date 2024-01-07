@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
