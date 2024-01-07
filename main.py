@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
