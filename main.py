@@ -1,6 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def find_max(lst):
+        return max(lst)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
