@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
