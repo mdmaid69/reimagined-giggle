@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
