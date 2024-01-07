@@ -1,5 +1,4 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_density(mass, volume):
-        return mass / volume
+def convert_to_octal(n):
+        return oct(n)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
