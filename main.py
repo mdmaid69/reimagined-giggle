@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import time
+def get_current_time():
+        return time.ctime()
