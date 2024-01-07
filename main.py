@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import getpass
+def get_username():
+        return getpass.getuser()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
