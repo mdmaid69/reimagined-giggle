@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
