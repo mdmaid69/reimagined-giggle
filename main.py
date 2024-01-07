@@ -1,11 +1,7 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
