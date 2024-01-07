@@ -1,6 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
