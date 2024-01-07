@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
