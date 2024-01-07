@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
