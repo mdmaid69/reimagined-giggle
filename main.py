@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  def sort_list(lst):
+        return sorted(lst)
