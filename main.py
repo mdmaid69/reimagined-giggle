@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_current_directory():
+        return os.getcwd()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
