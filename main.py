@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import platform
+def get_python_version():
+        return platform.python_version()
