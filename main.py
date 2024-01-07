@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
