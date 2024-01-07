@@ -1,7 +1,8 @@
-  import re
-  def find_all_occurrences(pattern, string):
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import re
+def find_pattern(pattern, string):
         return re.findall(pattern, string)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
