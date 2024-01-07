@@ -1,7 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
