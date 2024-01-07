@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_as_tuple(array):
+        return tuple(array)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
