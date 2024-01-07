@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
