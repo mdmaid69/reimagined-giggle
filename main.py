@@ -1,5 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def find_min(numbers):
-        return min(numbers)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def count_elements(lst):
+        return len(lst)
