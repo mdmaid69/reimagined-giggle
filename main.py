@@ -1,6 +1,6 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
