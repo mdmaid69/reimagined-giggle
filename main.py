@@ -1,6 +1,8 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
