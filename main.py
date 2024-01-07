@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import collections
+def create_user_string():
+        return collections.UserString()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
