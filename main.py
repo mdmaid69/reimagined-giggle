@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
