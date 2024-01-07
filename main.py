@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
