@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import collections
+def create_queue():
+        return collections.deque()
