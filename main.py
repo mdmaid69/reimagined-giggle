@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
