@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
