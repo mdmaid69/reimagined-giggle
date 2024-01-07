@@ -1,6 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  def subtract_numbers(x, y):
+        return x - y
