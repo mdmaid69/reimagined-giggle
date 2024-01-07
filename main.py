@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def convert_to_binary(n):
+        return bin(n)
