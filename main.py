@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
