@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import datetime
+def get_today_date():
+        return datetime.date.today()
