@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_acceleration(speed, time):
-        return speed / time
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def split_path(path):
+        return os.path.split(path)
