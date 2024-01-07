@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import datetime
-print(datetime.datetime.now())
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
