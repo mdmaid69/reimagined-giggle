@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
