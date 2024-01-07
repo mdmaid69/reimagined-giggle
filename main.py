@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
