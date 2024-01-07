@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
