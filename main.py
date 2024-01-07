@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
