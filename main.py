@@ -1,5 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
