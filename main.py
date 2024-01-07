@@ -1,6 +1,8 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
