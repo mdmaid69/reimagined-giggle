@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
