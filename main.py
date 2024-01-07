@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def count_characters(sentence):
+        return len(sentence)
