@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import logging
+def log_message(message):
+        logging.info(message)
