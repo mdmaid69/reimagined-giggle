@@ -1,6 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def sort_list(lst):
+        return sorted(lst)
