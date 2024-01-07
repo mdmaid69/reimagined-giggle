@@ -1,6 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  def reverse_list(lst):
+        return lst[::-1]
