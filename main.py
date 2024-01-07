@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
