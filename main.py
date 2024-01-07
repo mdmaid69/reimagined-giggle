@@ -1,5 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
