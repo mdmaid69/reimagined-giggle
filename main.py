@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
