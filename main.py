@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
