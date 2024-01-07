@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import logging
+def log_message(message):
+        logging.info(message)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
