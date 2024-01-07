@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
