@@ -1,4 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def is_palindrome(s):
+        return s == s[::-1]
+  def remove_duplicates(lst):
+        return list(set(lst))
