@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
