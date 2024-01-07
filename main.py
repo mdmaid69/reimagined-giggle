@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_directory_name(path):
+        return os.path.dirname(path)
