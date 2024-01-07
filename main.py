@@ -1,6 +1,8 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
