@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
