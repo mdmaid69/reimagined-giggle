@@ -1,8 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_speed(distance, time):
+        return distance / time
