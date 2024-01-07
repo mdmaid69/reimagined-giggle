@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
