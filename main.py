@@ -1,6 +1,7 @@
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
 import array
-def get_array_as_int(array):
-        return int(array[0])
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
