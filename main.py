@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import math
+def calculate_cosine(x):
+        return math.cos(x)
