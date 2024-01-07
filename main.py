@@ -1,5 +1,7 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import math
+def calculate_sine(x):
+        return math.sin(x)
