@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def add_numbers(a, b):
+        return a + b
+i = 0
+while i < 5:
+        print(i)
+        i += 1
