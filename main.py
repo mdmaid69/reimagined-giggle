@@ -1,6 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
