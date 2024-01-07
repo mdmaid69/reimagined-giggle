@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
