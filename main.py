@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def convert_to_hex(n):
+        return hex(n)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
