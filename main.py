@@ -1,5 +1,6 @@
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def get_array_item_count(array, item):
+        return array.count(item)
