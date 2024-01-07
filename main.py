@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import collections
+def create_priority_queue():
+        return collections.deque()
