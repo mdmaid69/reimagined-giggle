@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
