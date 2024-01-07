@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def greet(name):
-        print(f"Hello, {name}!")
+for i in range(5):
+        print(i)
+import sys
+def exit_program():
+        sys.exit()
