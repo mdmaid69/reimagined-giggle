@@ -1,6 +1,3 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+for i in range(10): print(i)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
