@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
