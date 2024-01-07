@@ -1,5 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def convert_to_octal(n):
+        return oct(n)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
