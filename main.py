@@ -1,6 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-def convert_to_hex(n):
-        return hex(n)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
