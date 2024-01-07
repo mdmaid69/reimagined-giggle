@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
