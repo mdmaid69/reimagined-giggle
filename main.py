@@ -1,6 +1,5 @@
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
 import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def get_array_as_float(array):
+        return float(array[0])
