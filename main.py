@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  def convert_to_binary(n):
+        return bin(n)
