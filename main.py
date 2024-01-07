@@ -1,6 +1,5 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
