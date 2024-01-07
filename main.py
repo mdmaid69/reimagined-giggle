@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
