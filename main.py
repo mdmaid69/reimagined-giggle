@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import datetime
+def get_today_date():
+        return datetime.date.today()
