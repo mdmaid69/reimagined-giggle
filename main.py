@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
+def add_numbers(x, y):
+        return x + y
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
