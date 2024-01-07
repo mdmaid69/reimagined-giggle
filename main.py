@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
