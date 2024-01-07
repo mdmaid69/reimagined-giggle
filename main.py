@@ -1,4 +1,7 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_work(force, distance):
-        return force * distance
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
