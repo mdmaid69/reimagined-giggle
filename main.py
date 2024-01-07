@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
