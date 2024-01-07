@@ -1,4 +1,7 @@
-def divide_numbers(x, y):
-        return x / y
-def divide_numbers(x, y):
-        return x / y
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
