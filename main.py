@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-x = 10
-y = 20
-print("Sum:", x + y)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
