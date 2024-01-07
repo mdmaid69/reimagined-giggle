@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def remove_duplicates(lst):
+        return list(set(lst))
