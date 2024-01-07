@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
