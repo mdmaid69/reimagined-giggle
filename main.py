@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def get_array_as_list(array):
+        return list(array)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
