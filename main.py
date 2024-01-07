@@ -1,5 +1,5 @@
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def calculate_pressure(force, area):
+        return force / area
