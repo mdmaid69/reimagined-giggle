@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
