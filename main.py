@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import platform
+def get_python_version():
+        return platform.python_version()
+import time
+def get_current_time():
+        return time.ctime()
