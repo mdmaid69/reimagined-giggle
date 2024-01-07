@@ -1,8 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
