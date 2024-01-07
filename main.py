@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def add_numbers(x, y):
+        return x + y
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
