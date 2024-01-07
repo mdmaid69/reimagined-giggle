@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def find_max(lst):
+        return max(lst)
