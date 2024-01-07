@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def is_odd(n):
+        return n % 2 != 0
