@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  def add_numbers(x, y):
-        return x + y
+import sys
+print(sys.version)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
