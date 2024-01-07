@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
