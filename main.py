@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import random
+def roll_die():
+        return random.randint(1, 6)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
