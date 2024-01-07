@@ -1,6 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
