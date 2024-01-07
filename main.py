@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
