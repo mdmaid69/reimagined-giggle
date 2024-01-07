@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
+import sys
+def print_python_version():
+        print(sys.version)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_bytes_from_array(array):
+        return array.tobytes()
