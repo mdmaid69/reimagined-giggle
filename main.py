@@ -1,5 +1,11 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
