@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
