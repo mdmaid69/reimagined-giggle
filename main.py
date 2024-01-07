@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import time
-def get_current_time():
-        return time.time()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
