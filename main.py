@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
