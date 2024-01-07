@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
