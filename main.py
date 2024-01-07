@@ -1,4 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
 text = "Hello, world!"
-print("Uppercase:", text.upper())
+print("Characters:", len(text))
+def greet(name):
+        print(f"Hello, {name}!")
