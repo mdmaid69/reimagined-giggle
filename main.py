@@ -1,5 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def find_min(lst):
+        return min(lst)
