@@ -1,6 +1,7 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
