@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_as_list(array):
+        return list(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
