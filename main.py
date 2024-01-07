@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
