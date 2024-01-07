@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
