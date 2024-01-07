@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_array_item(array, i):
+        return array[i]
