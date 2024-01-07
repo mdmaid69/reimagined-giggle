@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  def subtract_numbers(x, y):
-        return x - y
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
