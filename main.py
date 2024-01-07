@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
