@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_acceleration(speed, time):
+        return speed / time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
