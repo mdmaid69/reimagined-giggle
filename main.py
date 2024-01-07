@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def divide_numbers(x, y):
+        return x / y
+import logging
+def log_message(message):
+        logging.info(message)
