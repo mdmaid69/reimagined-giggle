@@ -1,5 +1,11 @@
-def multiply_numbers(x, y):
-        return x * y
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+def is_odd(n):
+        return n % 2 != 0
