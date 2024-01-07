@@ -1,5 +1,7 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
