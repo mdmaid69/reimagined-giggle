@@ -1,6 +1,8 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
