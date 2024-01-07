@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import os
+def change_working_directory(path):
+        os.chdir(path)
