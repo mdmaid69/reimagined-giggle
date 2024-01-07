@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def get_array_typecode(array):
-        return array.typecode
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
