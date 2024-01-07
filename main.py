@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
