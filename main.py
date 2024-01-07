@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
