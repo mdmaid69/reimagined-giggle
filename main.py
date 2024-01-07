@@ -1,6 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
