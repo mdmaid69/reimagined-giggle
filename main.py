@@ -1,6 +1,5 @@
+  def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def get_current_working_directory():
+        return os.getcwd()
