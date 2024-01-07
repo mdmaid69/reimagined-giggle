@@ -1,8 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
