@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
