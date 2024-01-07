@@ -1,7 +1,6 @@
+x = 10
+y = 20
+print("Sum:", x + y)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def get_array_as_bytearray(array):
+        return bytearray(array)
