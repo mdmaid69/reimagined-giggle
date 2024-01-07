@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
