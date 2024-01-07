@@ -1,7 +1,4 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def add_numbers(x, y):
+        return x + y
+def calculate_power(work, time):
+        return work / time
