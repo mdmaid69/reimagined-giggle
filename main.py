@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def is_even(n):
+        return n % 2 == 0
