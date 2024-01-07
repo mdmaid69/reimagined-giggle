@@ -1,7 +1,5 @@
+def square_number(x):
+        return x**2
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  def get_current_directory():
+        return os.getcwd()
