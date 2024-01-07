@@ -1,5 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
