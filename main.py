@@ -1,7 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def convert_to_octal(n):
+        return oct(n)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
