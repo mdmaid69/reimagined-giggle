@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def is_even(n):
+        return n % 2 == 0
 import collections
-def create_priority_queue():
-        return collections.deque()
+def count_elements(iterable):
+        return collections.Counter(iterable)
