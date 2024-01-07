@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
