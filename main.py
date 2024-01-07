@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def get_current_directory():
+        return os.getcwd()
