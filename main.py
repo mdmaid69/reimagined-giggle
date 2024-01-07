@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def reverse_string(s):
+        return s[::-1]
