@@ -1,5 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+print(sum(range(10)))
