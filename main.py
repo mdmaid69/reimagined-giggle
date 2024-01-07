@@ -1,5 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def reverse_string(s):
-        return s[::-1]
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
