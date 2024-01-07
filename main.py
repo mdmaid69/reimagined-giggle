@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_sine(x):
+        return math.sin(x)
