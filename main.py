@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import time
-def get_time_since_epoch():
-        return time.time()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import datetime
+print(datetime.datetime.now())
