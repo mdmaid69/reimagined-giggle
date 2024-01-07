@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import collections
+def create_queue():
+        return collections.deque()
