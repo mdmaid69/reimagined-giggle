@@ -1,6 +1,7 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
