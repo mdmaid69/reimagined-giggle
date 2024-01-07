@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
