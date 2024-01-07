@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import datetime
+def get_current_date():
+        return datetime.date.today()
