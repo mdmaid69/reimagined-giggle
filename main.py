@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def reverse_list(lst):
+        return lst[::-1]
