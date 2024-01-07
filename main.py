@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def convert_to_hex(n):
+        return hex(n)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
