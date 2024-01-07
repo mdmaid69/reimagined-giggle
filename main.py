@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
