@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import datetime
-print(datetime.datetime.now())
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import sys
+def exit_program():
+        sys.exit()
