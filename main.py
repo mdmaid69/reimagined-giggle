@@ -1,6 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
