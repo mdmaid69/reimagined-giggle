@@ -1,7 +1,7 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
