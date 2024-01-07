@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
