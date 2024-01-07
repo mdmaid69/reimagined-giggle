@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def multiply_numbers(x, y):
+        return x * y
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
