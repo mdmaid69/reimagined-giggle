@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
