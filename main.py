@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
