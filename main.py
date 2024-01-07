@@ -1,5 +1,8 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
