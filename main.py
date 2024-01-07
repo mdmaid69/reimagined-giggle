@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
