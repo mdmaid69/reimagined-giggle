@@ -1,7 +1,6 @@
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
