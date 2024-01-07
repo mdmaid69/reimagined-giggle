@@ -1,5 +1,9 @@
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def is_even(n):
-        return n % 2 == 0
+def calculate_logarithm(base, x):
+        return math.log(x, base)
