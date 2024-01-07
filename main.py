@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
