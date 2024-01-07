@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
