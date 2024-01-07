@@ -1,7 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def convert_array_to_string(array):
+        return array.tostring()
