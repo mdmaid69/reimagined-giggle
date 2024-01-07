@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
