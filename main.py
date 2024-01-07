@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
