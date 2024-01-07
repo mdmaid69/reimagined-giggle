@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
   import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def calculate_variance(arr):
+        return np.var(arr)
+import collections
+def create_user_string():
+        return collections.UserString()
