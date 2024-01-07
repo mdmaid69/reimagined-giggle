@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import array
-def get_array_as_str(array):
-        return str(array)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
