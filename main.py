@@ -1,6 +1,6 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
