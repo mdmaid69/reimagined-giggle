@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
