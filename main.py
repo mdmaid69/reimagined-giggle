@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
