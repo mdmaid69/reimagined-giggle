@@ -1,4 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import random
+print(random.randint(0, 100))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
