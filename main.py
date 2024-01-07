@@ -1,8 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def convert_array_to_list(array):
+        return array.tolist()
+def add_numbers(x, y):
+        return x + y
