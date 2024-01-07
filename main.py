@@ -1,12 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
