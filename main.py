@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
