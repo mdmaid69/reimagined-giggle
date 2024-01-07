@@ -1,8 +1,6 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
