@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def add_numbers(x, y):
+        return x + y
