@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
