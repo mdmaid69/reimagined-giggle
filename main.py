@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import logging
+def log_message(message):
+        logging.info(message)
