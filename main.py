@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import time
+def get_current_time():
+        return time.time()
