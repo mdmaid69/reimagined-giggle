@@ -1,7 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
