@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
