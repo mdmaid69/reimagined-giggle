@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def convert_to_hex(n):
-        return hex(n)
+from collections import Counter
+print(Counter("hello world"))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
