@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  def sort_list(lst):
+        return sorted(lst)
