@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def get_array_length(array):
+        return len(array)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
