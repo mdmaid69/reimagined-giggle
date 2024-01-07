@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
