@@ -1,5 +1,3 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+print(sum(range(10)))
+def greet(name):
+        print(f"Hello, {name}!")
