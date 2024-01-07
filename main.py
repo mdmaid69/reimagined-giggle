@@ -1,6 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
