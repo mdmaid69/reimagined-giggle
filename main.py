@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_exponential(x):
+        return math.exp(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
