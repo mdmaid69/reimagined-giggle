@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
