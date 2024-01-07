@@ -1,5 +1,7 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
