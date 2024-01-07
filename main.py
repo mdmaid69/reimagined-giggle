@@ -1,8 +1,4 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def add_numbers(a, b):
-        return a + b
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_power(work, time):
+        return work / time
