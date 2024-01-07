@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
