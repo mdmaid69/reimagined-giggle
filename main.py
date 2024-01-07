@@ -1,5 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  def add_numbers(x, y):
-        return x + y
+def find_max(numbers):
+        return max(numbers)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
