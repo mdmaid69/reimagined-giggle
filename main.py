@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
