@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
