@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import tensorflow as tf
+print(tf.__version__)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def convert_array_to_string(array):
+        return array.tostring()
