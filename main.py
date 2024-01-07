@@ -1,6 +1,6 @@
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def get_base_name(path):
+        return os.path.basename(path)
