@@ -1,5 +1,6 @@
 import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import random
-print(random.randint(0, 100))
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
