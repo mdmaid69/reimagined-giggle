@@ -1,7 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+i = 0
+while i < 5:
+        print(i)
+        i += 1
