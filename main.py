@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
