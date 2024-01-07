@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
