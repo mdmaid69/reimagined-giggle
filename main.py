@@ -1,5 +1,8 @@
-def reverse_string(s):
-        return s[::-1]
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def sort_list(lst):
+        return sorted(lst)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
