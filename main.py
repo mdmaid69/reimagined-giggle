@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
