@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
