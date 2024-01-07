@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
