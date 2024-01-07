@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import os
+def change_working_directory(path):
+        os.chdir(path)
