@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
+import time
+def get_current_time():
+        return time.ctime()
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
