@@ -1,7 +1,8 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
