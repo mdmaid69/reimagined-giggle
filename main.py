@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-text = "Hello, world!"
-print("Characters:", len(text))
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
