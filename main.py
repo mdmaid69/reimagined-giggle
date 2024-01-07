@@ -1,4 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_speed(distance, time):
-        return distance / time
+text = "Hello, world!"
+print("Words:", len(text.split()))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
