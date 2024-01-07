@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
