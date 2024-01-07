@@ -1,5 +1,8 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
