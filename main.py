@@ -1,5 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import re
+print(re.match("h.*o", "hello world"))
