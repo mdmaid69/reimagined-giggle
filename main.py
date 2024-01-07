@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
