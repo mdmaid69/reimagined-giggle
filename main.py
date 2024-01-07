@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def count_characters(sentence):
-        return len(sentence)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def greet(name):
+        print(f"Hello, {name}!")
