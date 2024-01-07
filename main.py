@@ -1,5 +1,7 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
