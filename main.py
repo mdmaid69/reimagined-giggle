@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import array
+def get_array_typecode(array):
+        return array.typecode
