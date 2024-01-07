@@ -1,6 +1,7 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
