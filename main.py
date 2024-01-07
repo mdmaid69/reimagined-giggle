@@ -1,6 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import getpass
-def get_username():
-        return getpass.getuser()
+def subtract_numbers(x, y):
+        return x - y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
