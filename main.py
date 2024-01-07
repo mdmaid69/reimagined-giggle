@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
