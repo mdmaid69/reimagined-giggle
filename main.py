@@ -1,5 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-print(math.pi)
+  def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
