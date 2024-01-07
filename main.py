@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
