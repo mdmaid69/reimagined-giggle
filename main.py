@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-def find_max(lst):
-        return max(lst)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
