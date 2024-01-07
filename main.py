@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import math
+def calculate_sine(x):
+        return math.sin(x)
