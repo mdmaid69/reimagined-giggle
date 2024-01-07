@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def subtract_numbers(x, y):
+        return x - y
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
