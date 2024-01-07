@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import numpy as np
-print(np.array([1, 2, 3]))
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_power(work, time):
+        return work / time
