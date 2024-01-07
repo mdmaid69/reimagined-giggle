@@ -1,8 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def greet(name):
+        print(f"Hello, {name}!")
