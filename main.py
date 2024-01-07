@@ -1,4 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+print([x**2 for x in range(10)])
