@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+x = 10
+y = 20
+print("Sum:", x + y)
