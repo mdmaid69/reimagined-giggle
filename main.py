@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import random
+print(random.randint(0, 100))
