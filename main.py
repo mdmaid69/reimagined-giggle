@@ -1,5 +1,3 @@
-for i in range(5):
-        print(i)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def count_elements(lst):
+        return len(lst)
+for i in range(10): print(i)
