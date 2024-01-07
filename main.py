@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_density(mass, volume):
+        return mass / volume
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
