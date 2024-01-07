@@ -1,5 +1,6 @@
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
 import array
-def get_array_index(array, item):
-        return array.index(item)
-  def square_number(x):
-        return x**2
+def convert_array_to_string(array):
+        return array.tostring()
