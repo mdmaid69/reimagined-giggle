@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
