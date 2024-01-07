@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import datetime
-print(datetime.datetime.now())
+  def is_odd(n):
+        return n % 2 != 0
+  import sys
+  def get_python_version():
+        return sys.version
