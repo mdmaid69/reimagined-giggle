@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def is_odd(n):
-        return n % 2 != 0
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
