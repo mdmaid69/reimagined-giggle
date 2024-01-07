@@ -1,5 +1,8 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
