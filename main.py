@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
