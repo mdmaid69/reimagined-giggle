@@ -1,6 +1,6 @@
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
