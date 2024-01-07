@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-text = "Hello, world!"
-print("Characters:", len(text))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import logging
+def log_message(message):
+        logging.info(message)
