@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
