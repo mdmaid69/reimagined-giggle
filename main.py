@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_power(work, time):
+        return work / time
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
