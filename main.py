@@ -1,5 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
