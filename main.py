@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def subtract_numbers(x, y):
+        return x - y
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
