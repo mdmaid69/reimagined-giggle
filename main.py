@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
