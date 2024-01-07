@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
