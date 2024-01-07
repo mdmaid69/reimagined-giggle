@@ -1,4 +1,8 @@
-def convert_to_hex(n):
-        return hex(n)
-def square_number(x):
-        return x**2
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
