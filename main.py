@@ -1,6 +1,6 @@
-for i in range(10): print(i)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
