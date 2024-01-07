@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def append_to_array(array, item):
+        array.append(item)
