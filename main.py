@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import os
+print(os.getcwd())
