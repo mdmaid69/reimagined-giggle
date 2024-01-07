@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
