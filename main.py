@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_pressure(force, area):
+        return force / area
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
