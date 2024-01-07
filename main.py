@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
