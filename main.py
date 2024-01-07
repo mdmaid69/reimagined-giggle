@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
