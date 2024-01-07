@@ -1,5 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def cube_number(x):
+        return x**3
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
