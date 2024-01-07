@@ -1,6 +1,4 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+print([x**2 for x in range(10)])
