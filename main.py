@@ -1,6 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import sys
+def exit_program():
+        sys.exit()
+import datetime
+def get_today_date():
+        return datetime.date.today()
