@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_acceleration(speed, time):
+        return speed / time
