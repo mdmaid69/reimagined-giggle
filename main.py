@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-def calculate_density(mass, volume):
-        return mass / volume
+import collections
+def create_user_list():
+        return collections.UserList()
+def convert_to_hex(n):
+        return hex(n)
