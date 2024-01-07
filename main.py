@@ -1,5 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_area(radius):
+        return 3.14 * radius * radius
