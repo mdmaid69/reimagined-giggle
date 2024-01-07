@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def find_unique_words(sentence):
+        return set(sentence.split())
