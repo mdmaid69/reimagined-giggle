@@ -1,5 +1,7 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def reverse_string(s):
-        return s[::-1]
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
