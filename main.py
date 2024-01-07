@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
