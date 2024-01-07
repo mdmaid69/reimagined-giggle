@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
