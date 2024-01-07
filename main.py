@@ -1,6 +1,8 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
