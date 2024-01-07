@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
