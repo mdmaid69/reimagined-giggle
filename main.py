@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
