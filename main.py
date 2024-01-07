@@ -1,5 +1,5 @@
+  def calculate_area_circle(r):
+        return 3.14 * r**2
 import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_power(work, time):
-        return work / time
+def get_array_as_int(array):
+        return int(array[0])
