@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
   import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
