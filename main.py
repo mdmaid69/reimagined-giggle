@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
