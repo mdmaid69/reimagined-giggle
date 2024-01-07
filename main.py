@@ -1,5 +1,6 @@
+import array
+def get_array_as_repr(array):
+        return repr(array)
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def reverse_string(s):
-        return s[::-1]
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
