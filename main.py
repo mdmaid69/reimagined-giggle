@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
