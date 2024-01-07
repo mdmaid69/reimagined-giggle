@@ -1,8 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
