@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
