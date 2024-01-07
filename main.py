@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_pressure(force, area):
+        return force / area
