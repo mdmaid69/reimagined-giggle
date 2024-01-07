@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
