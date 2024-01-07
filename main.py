@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import sys
+def exit_program():
+        sys.exit()
