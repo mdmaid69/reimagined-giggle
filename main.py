@@ -1,5 +1,6 @@
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
