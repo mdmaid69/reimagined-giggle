@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
