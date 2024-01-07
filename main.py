@@ -1,6 +1,6 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
