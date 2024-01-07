@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
