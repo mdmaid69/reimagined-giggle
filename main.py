@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
