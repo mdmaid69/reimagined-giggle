@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
