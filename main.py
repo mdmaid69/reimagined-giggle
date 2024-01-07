@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
