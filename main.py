@@ -1,6 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def square_number(x):
+        return x**2
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
