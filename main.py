@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
