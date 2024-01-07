@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  def add_numbers(x, y):
-        return x + y
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
