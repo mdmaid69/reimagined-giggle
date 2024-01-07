@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
