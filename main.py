@@ -1,6 +1,8 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import getpass
+def get_username():
+        return getpass.getuser()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
