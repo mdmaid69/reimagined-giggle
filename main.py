@@ -1,6 +1,5 @@
+def cube_number(x):
+        return x**3
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def append_to_array(array, item):
+        array.append(item)
