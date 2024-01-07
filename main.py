@@ -1,6 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import array
-def clear_array(array):
-        array *= 0
+import time
+def get_time_since_epoch():
+        return time.time()
+import time
+def get_time_since_epoch():
+        return time.time()
