@@ -1,5 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def convert_to_hex(n):
-        return hex(n)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
