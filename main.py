@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
