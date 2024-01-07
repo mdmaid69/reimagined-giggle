@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import random
+print(random.randint(0, 100))
