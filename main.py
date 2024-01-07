@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
