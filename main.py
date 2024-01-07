@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def reverse_string(s):
+        return s[::-1]
