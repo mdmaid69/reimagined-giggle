@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def append_to_array(array, item):
+        array.append(item)
