@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
