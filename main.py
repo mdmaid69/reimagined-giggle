@@ -1,6 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-for i in range(10): print(i)
+def calculate_acceleration(speed, time):
+        return speed / time
+import logging
+def log_message(message):
+        logging.info(message)
