@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
