@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
