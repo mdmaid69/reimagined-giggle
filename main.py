@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
