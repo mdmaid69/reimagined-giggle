@@ -1,5 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
