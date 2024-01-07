@@ -1,10 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
