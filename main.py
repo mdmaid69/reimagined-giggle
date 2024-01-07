@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
