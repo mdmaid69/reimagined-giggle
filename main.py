@@ -1,7 +1,8 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
