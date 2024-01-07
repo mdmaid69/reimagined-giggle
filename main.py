@@ -1,5 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
