@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_area(radius):
+        return 3.14 * radius * radius
