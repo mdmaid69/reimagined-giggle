@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
