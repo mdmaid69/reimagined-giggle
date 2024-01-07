@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
