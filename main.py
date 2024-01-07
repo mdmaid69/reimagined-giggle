@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def multiply_numbers(x, y):
+        return x * y
+import datetime
+def get_current_date():
+        return datetime.date.today()
