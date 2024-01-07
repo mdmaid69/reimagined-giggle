@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
