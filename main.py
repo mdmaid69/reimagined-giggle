@@ -1,5 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def reverse_string(s):
-        return s[::-1]
+  def convert_to_octal(n):
+        return oct(n)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
