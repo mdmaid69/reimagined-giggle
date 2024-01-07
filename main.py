@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def find_max(numbers):
+        return max(numbers)
