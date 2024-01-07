@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import math
+def calculate_floor(x):
+        return math.floor(x)
