@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
