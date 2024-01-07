@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import time
+def get_time_since_epoch():
+        return time.time()
