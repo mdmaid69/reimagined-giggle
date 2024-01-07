@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def divide_numbers(x, y):
-        return x / y
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
