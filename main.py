@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+from collections import Counter
+print(Counter("hello world"))
+import numpy as np
+print(np.array([1, 2, 3]))
