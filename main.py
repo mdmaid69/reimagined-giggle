@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import sys
+def print_python_version():
+        print(sys.version)
