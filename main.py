@@ -1,8 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_itemsize(array):
+        return array.itemsize
+import time
+def get_current_time():
+        return time.ctime()
