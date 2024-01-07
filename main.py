@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+def find_max(numbers):
+        return max(numbers)
