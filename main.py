@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
