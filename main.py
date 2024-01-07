@@ -1,4 +1,4 @@
-print([x**2 for x in range(10)])
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import os
+print(os.getcwd())
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
