@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
