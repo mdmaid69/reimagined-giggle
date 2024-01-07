@@ -1,5 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def remove_duplicates(lst):
+        return list(set(lst))
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
