@@ -1,7 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
   import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
         plt.show()
+  def convert_to_octal(n):
+        return oct(n)
