@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def add_numbers(x, y):
+        return x + y
