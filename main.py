@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
