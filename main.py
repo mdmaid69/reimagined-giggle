@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import logging
+def log_message(message):
+        logging.info(message)
