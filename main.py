@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+print([x**2 for x in range(10)])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
