@@ -1,5 +1,6 @@
-import math
-print(math.pi)
+import collections
+def create_user_string():
+        return collections.UserString()
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
