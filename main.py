@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import datetime
-print(datetime.datetime.now())
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  def sort_list(lst):
+        return sorted(lst)
