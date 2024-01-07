@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
