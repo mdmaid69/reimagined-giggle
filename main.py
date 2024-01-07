@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
