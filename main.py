@@ -1,7 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
