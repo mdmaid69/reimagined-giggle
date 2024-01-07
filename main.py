@@ -1,5 +1,5 @@
-import math
-print(math.pi)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
