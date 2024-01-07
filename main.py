@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
