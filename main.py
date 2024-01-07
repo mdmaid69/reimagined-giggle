@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def find_min(numbers):
+        return min(numbers)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
