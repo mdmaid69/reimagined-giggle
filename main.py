@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  def is_odd(n):
+        return n % 2 != 0
