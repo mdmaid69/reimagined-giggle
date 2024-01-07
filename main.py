@@ -1,5 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def count_elements(lst):
-        return len(lst)
+  def is_even(n):
+        return n % 2 == 0
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
