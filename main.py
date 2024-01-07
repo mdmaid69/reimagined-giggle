@@ -1,4 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-print("Hello, world!")
+  def reverse_list(lst):
+        return lst[::-1]
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
