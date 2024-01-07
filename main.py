@@ -1,5 +1,7 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_speed(distance, time):
-        return distance / time
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
