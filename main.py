@@ -1,5 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def is_odd(n):
+        return n % 2 != 0
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
