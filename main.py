@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
