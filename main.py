@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
