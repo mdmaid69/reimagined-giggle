@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
