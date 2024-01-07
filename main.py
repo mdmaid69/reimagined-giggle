@@ -1,7 +1,7 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
