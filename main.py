@@ -1,6 +1,6 @@
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
