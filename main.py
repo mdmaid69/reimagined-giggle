@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import time
-def get_time_since_epoch():
-        return time.time()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
