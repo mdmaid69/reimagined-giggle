@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_pressure(force, area):
+        return force / area
+import collections
+def create_user_dict():
+        return collections.UserDict()
