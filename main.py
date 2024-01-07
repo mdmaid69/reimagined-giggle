@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def reverse_array(array):
+        array.reverse()
+def greet(name):
+        print(f"Hello, {name}!")
