@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
