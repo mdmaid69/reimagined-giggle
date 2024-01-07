@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
