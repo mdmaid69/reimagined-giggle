@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import sys
-def exit_program():
-        sys.exit()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import array
+def get_array_length(array):
+        return len(array)
