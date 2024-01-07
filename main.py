@@ -1,6 +1,7 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import platform
+def get_python_version():
+        return platform.python_version()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
