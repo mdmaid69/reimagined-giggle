@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
