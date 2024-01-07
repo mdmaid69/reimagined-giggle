@@ -1,7 +1,8 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
