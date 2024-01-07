@@ -1,6 +1,8 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
