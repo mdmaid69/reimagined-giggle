@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
