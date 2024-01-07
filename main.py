@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
