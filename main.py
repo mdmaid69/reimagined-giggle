@@ -1,7 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
