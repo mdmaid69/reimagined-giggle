@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_sine(x):
+        return math.sin(x)
