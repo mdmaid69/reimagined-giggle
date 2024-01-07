@@ -1,6 +1,9 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def add_numbers(a, b):
+        return a + b
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
