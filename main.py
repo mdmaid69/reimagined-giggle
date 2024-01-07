@@ -1,10 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import logging
+def log_message(message):
+        logging.info(message)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
