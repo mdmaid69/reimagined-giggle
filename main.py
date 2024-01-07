@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
