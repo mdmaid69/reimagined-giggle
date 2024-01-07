@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import sys
+def print_python_version():
+        print(sys.version)
