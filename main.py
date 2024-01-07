@@ -1,6 +1,9 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import sys
-def print_python_version():
-        return sys.version
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
