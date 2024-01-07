@@ -1,5 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  def subtract_numbers(x, y):
-        return x - y
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import collections
+def create_counter():
+        return collections.Counter()
