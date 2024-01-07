@@ -1,4 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-print([x**2 for x in range(10)])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
