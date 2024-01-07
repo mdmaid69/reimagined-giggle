@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
