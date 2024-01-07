@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
