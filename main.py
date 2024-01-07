@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
