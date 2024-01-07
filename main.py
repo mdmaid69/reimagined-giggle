@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import numpy as np
+print(np.array([1, 2, 3]))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
