@@ -1,6 +1,6 @@
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
