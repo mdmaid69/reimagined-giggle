@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
