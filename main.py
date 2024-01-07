@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+for i in range(10): print(i)
