@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  def convert_to_octal(n):
-        return oct(n)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
