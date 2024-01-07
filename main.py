@@ -1,6 +1,8 @@
-import sys
-def exit_program():
-        sys.exit()
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def get_array_as_set(array):
+        return set(array)
