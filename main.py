@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_item(array, i):
+        return array[i]
