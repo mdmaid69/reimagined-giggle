@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
