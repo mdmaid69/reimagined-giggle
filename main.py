@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def find_max(numbers):
+        return max(numbers)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
