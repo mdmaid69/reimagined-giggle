@@ -1,6 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
