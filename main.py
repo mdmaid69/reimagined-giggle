@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def count_characters(sentence):
+        return len(sentence)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
