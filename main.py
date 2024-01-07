@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def subtract_numbers(x, y):
+        return x - y
