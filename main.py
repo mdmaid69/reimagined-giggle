@@ -1,5 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_base_name(path):
+        return os.path.basename(path)
 n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
