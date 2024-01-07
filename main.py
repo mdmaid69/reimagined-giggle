@@ -1,6 +1,6 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
