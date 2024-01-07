@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_tangent(x):
+        return math.tan(x)
