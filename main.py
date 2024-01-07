@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def find_min(numbers):
+        return min(numbers)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
