@@ -1,5 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
