@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import collections
+def create_priority_queue():
+        return collections.deque()
+def is_even(n):
+        return n % 2 == 0
