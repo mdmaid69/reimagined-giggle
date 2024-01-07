@@ -1,7 +1,9 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
