@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_average(lst):
+        return sum(lst) / len(lst)
