@@ -1,7 +1,4 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def convert_to_hex(n):
+        return hex(n)
