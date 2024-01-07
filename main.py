@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
