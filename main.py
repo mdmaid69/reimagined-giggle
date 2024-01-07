@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
