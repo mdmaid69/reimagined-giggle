@@ -1,5 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import collections
+def create_priority_queue():
+        return collections.deque()
