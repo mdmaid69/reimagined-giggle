@@ -1,5 +1,8 @@
-def subtract_numbers(x, y):
-        return x - y
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
