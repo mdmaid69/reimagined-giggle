@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
