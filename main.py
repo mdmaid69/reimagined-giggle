@@ -1,8 +1,4 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
