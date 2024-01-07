@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_power(work, time):
+        return work / time
