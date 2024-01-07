@@ -1,5 +1,11 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
