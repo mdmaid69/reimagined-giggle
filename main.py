@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
