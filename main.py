@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
