@@ -1,6 +1,5 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
