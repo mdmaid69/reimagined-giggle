@@ -1,4 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-print([x**2 for x in range(10)])
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
