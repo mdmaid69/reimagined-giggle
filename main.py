@@ -1,10 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+def calculate_pressure(force, area):
+        return force / area
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
