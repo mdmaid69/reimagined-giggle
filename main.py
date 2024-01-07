@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_base_name(path):
+        return os.path.basename(path)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
