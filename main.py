@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_acceleration(speed, time):
+        return speed / time
