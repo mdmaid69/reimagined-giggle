@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
