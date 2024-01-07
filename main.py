@@ -1,8 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
