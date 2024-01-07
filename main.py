@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def find_max(numbers):
+        return max(numbers)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
