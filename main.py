@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_tangent(x):
+        return math.tan(x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
