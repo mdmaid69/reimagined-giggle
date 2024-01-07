@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def get_environment_variable(var):
+        return os.getenv(var)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
