@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_sine(x):
+        return math.sin(x)
