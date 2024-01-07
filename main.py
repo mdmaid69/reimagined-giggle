@@ -1,4 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-print([x**2 for x in range(10)])
+def cube_number(x):
+        return x**3
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
