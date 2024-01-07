@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
