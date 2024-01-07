@@ -1,4 +1,4 @@
-print("Hello, world!")
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_speed(distance, time):
+        return distance / time
+def is_odd(n):
+        return n % 2 != 0
