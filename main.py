@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
