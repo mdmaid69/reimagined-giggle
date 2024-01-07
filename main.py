@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def divide_numbers(x, y):
+        return x / y
