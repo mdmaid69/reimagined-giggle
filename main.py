@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def get_array_as_float(array):
+        return float(array[0])
