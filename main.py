@@ -1,8 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
