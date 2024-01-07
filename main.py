@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import collections
+def create_user_dict():
+        return collections.UserDict()
