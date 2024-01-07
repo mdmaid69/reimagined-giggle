@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
