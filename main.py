@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  def square_number(x):
-        return x**2
+import platform
+def get_python_version():
+        return platform.python_version()
+  def calculate_area_rectangle(l, w):
+        return l * w
