@@ -1,6 +1,7 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
