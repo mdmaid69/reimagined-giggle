@@ -1,4 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def is_odd(n):
-        return n % 2 != 0
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
