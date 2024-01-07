@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+for i in range(5):
+        print(i)
+import collections
+def create_user_list():
+        return collections.UserList()
