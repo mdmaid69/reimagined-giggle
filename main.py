@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def calculate_work(force, distance):
+        return force * distance
