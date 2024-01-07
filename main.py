@@ -1,5 +1,8 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
