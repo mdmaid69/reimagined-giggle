@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-  def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
