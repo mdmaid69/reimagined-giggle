@@ -1,6 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
