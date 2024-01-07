@@ -1,6 +1,5 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
