@@ -1,5 +1,6 @@
+def calculate_pressure(force, area):
+        return force / area
 import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
