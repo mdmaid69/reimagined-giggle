@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
