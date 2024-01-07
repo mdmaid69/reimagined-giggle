@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import platform
-def get_os_info():
-        return platform.uname()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
