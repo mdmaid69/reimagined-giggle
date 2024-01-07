@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
