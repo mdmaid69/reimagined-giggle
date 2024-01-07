@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def add_numbers(a, b):
+        return a + b
