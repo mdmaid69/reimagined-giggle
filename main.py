@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def subtract_numbers(x, y):
+        return x - y
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
