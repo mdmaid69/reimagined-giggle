@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_area_rectangle(l, w):
+        return l * w
+import collections
+def create_user_dict():
+        return collections.UserDict()
