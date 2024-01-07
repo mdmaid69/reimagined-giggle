@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
