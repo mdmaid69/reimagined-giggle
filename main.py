@@ -1,7 +1,9 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
