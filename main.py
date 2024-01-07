@@ -1,7 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
