@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def count_characters(sentence):
-        return len(sentence)
+def square_number(x):
+        return x**2
+import math
+def calculate_sine(x):
+        return math.sin(x)
