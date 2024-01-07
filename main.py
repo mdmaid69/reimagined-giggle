@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
