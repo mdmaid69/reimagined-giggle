@@ -1,5 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
