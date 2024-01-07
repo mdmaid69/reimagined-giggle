@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
