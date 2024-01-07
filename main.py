@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import array
+def clear_array(array):
+        array *= 0
