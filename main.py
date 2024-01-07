@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import array
+def get_array_as_repr(array):
+        return repr(array)
