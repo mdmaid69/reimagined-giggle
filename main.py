@@ -1,9 +1,5 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
