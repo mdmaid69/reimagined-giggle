@@ -1,6 +1,5 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def clear_array(array):
+        array *= 0
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
