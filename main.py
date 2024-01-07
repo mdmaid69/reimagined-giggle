@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
