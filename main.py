@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
