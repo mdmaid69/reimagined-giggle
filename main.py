@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
