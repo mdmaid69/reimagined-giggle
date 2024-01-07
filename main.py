@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
