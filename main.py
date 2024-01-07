@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  def calculate_area_rectangle(l, w):
-        return l * w
+def cube_number(x):
+        return x**3
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
