@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
