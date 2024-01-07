@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
