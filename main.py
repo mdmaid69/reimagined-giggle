@@ -1,5 +1,8 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  def cube_number(x):
-        return x**3
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
