@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-def square_number(x):
-        return x**2
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
