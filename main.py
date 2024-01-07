@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  def is_odd(n):
+        return n % 2 != 0
