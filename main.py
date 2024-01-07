@@ -1,4 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def find_min(numbers):
-        return min(numbers)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
