@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
