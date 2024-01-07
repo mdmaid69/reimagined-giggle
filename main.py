@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
