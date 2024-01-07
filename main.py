@@ -1,6 +1,7 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_density(mass, volume):
+        return mass / volume
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
