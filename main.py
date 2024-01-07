@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def append_to_array(array, item):
+        array.append(item)
+def convert_to_octal(n):
+        return oct(n)
