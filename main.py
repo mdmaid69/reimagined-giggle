@@ -1,6 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def sort_list(lst):
+        return sorted(lst)
+def reverse_list(lst):
+        return lst[::-1]
