@@ -1,6 +1,7 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import collections
-def create_priority_queue():
-        return collections.deque()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
