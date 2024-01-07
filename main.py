@@ -1,4 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def find_max(numbers):
-        return max(numbers)
+import tensorflow as tf
+print(tf.__version__)
+def sort_list(lst):
+        return sorted(lst)
