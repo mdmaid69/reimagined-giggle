@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
