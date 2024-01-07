@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
