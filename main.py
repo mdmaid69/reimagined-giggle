@@ -1,6 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
