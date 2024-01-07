@@ -1,6 +1,4 @@
+print(sum(range(10)))
 import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import platform
-def get_python_version():
-        return platform.python_version()
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
