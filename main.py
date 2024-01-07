@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
