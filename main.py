@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
