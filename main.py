@@ -1,8 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
