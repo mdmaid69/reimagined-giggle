@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  def cube_number(x):
-        return x**3
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_work(force, distance):
+        return force * distance
