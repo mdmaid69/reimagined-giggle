@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import random
+print(random.randint(0, 100))
