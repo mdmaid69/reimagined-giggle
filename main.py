@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def count_characters(sentence):
-        return len(sentence)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def find_unique_words(sentence):
+        return set(sentence.split())
