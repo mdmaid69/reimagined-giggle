@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import sys
+def print_python_version():
+        return sys.version
+def is_palindrome(s):
+        return s == s[::-1]
