@@ -1,5 +1,5 @@
+def calculate_average(lst):
+        return sum(lst) / len(lst)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
