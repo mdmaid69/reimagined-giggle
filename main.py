@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def convert_to_octal(n):
-        return oct(n)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
