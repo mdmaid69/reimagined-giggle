@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
