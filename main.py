@@ -1,5 +1,8 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
