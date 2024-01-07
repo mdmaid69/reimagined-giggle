@@ -1,7 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def count_words(sentence):
-        return len(sentence.split())
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
