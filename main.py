@@ -1,6 +1,6 @@
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
