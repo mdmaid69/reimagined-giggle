@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_typecode(array):
+        return array.typecode
+i = 0
+while i < 5:
+        print(i)
+        i += 1
