@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
