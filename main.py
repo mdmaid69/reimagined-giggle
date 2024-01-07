@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
