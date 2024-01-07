@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
