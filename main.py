@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
