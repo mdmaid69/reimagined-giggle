@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
