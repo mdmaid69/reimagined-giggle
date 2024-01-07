@@ -1,7 +1,8 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
