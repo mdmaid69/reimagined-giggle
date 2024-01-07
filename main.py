@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
