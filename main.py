@@ -1,5 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+for i in range(5):
+        print(i)
