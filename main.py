@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
