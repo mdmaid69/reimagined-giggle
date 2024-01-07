@@ -1,4 +1,5 @@
 text = "Hello, world!"
-print("Words:", len(text.split()))
-import random
-print(random.randint(0, 100))
+print("Uppercase:", text.upper())
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
