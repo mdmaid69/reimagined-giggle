@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_area_rectangle(l, w):
-        return l * w
+import collections
+def create_queue():
+        return collections.deque()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
