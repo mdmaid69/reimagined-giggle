@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def convert_to_hex(n):
+        return hex(n)
