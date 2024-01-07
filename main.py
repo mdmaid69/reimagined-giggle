@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
