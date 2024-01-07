@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import getpass
+def get_username():
+        return getpass.getuser()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
