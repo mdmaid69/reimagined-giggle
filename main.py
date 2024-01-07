@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
