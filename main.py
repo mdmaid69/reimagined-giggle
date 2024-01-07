@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
