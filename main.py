@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
