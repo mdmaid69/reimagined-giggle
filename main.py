@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
