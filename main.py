@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import logging
-def log_message(message):
-        logging.info(message)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
