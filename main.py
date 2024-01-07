@@ -1,6 +1,7 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
