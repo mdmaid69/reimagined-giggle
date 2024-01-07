@@ -1,7 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
