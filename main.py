@@ -1,6 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
