@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def divide_numbers(x, y):
+        return x / y
+import array
+def get_array_as_set(array):
+        return set(array)
