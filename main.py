@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
