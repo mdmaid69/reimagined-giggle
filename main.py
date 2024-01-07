@@ -1,6 +1,7 @@
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
   import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
+  def plot_graph(x, y):
+        plt.plot(x, y)
         plt.show()
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
