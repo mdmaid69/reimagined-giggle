@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def cube_number(x):
-        return x**3
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
