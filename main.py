@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_volume(length, width, height):
+        return length * width * height
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
