@@ -1,6 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+print("Hello, world!")
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
