@@ -1,6 +1,7 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def is_odd(n):
+        return n % 2 != 0
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
