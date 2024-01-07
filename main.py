@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import platform
+def get_os_info():
+        return platform.uname()
