@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
