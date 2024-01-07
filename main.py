@@ -1,5 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import json
+print(json.dumps({"name": "John", "age": 30}))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
