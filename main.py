@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
