@@ -1,4 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
