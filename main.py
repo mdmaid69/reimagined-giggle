@@ -1,5 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_work(force, distance):
+        return force * distance
