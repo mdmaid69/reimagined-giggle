@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  def add_numbers(x, y):
+        return x + y
