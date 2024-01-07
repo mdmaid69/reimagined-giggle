@@ -1,7 +1,6 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def count_characters(sentence):
-        return len(sentence)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import collections
+def create_priority_queue():
+        return collections.deque()
