@@ -1,5 +1,8 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
