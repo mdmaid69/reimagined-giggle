@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_bytes(array):
+        return bytes(array)
+import os
+def change_working_directory(path):
+        os.chdir(path)
