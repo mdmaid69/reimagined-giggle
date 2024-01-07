@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
