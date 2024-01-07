@@ -1,5 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def find_unique_words(sentence):
+        return set(sentence.split())
