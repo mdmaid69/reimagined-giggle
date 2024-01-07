@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def remove_duplicates(lst):
-        return list(set(lst))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
