@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import array
+def get_list_from_array(array):
+        return array.tolist()
