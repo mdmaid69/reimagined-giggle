@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  def subtract_numbers(x, y):
-        return x - y
+def multiply_numbers(x, y):
+        return x * y
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
