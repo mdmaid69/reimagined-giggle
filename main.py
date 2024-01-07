@@ -1,8 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
