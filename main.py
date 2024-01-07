@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-for i in range(5):
-        print(i)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
