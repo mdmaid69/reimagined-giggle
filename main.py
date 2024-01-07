@@ -1,4 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def sort_numbers(numbers):
+        return sorted(numbers)
+def count_characters(sentence):
+        return len(sentence)
