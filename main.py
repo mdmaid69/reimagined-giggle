@@ -1,7 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_work(force, distance):
+        return force * distance
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
