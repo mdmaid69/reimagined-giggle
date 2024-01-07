@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def is_even(n):
+        return n % 2 == 0
+import platform
+def get_os_info():
+        return platform.uname()
