@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def count_elements(lst):
-        return len(lst)
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
