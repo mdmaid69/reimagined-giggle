@@ -1,8 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
