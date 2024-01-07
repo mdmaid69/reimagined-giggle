@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
