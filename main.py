@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
