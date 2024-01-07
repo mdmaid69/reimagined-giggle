@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
