@@ -1,5 +1,10 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
 n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
