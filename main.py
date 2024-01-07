@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
