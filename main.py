@@ -1,5 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
