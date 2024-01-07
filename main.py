@@ -1,6 +1,5 @@
+def is_even(n):
+        return n % 2 == 0
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_sine(x):
+        return math.sin(x)
