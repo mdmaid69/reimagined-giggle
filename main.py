@@ -1,4 +1,4 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  def remove_duplicates(lst):
-        return list(set(lst))
+print("Reversed:", text[::-1])
