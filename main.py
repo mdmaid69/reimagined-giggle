@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def get_array_as_set(array):
-        return set(array)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
