@@ -1,6 +1,8 @@
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
