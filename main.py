@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
 import array
-def get_array_length(array):
-        return len(array)
+def get_array_as_str(array):
+        return str(array)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
