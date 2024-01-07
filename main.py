@@ -1,5 +1,4 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def add_numbers(x, y):
+        return x + y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
