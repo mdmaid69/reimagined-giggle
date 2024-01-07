@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
