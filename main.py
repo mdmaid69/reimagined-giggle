@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_pressure(force, area):
-        return force / area
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
