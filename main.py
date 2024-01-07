@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def add_numbers(a, b):
+        return a + b
+import getpass
+def get_username():
+        return getpass.getuser()
