@@ -1,6 +1,6 @@
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
