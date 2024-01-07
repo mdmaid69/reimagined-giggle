@@ -1,5 +1,4 @@
-def cube_number(x):
-        return x**3
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def calculate_work(force, distance):
+        return force * distance
+text = "Hello, world!"
+print("Words:", len(text.split()))
