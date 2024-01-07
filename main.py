@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
