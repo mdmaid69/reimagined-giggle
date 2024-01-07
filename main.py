@@ -1,7 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-  import sys
-  def get_python_version():
-        return sys.version
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
