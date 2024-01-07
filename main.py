@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-def divide_numbers(x, y):
-        return x / y
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
