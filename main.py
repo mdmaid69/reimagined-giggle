@@ -1,7 +1,8 @@
 import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
