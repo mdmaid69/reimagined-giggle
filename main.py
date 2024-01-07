@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
