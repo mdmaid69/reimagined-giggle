@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def convert_to_octal(n):
+        return oct(n)
