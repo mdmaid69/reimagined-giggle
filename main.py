@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
