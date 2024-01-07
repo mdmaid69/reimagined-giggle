@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
