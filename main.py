@@ -1,6 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+for i in range(10): print(i)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
