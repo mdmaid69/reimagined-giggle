@@ -1,6 +1,4 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import datetime
+print(datetime.datetime.now())
+def reverse_list(lst):
+        return lst[::-1]
