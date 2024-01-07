@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import tensorflow as tf
-print(tf.__version__)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
