@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def reverse_list(lst):
-        return lst[::-1]
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
