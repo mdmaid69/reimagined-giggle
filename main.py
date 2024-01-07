@@ -1,5 +1,5 @@
+def is_odd(n):
+        return n % 2 != 0
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-text = "Hello, world!"
-print("Characters:", len(text))
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
