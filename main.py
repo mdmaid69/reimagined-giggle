@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import datetime
+def get_current_date():
+        return datetime.date.today()
