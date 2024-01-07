@@ -1,5 +1,8 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
