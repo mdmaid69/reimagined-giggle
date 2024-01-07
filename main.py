@@ -1,6 +1,6 @@
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
