@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
