@@ -1,5 +1,8 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def add_numbers(x, y):
-        return x + y
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
