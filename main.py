@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
