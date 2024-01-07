@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
