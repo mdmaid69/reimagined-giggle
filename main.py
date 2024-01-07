@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
