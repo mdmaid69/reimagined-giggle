@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import sys
+print(sys.version)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
