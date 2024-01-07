@@ -1,6 +1,5 @@
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
