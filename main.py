@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
 import collections
 def create_user_string():
         return collections.UserString()
