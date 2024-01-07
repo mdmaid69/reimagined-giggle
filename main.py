@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
