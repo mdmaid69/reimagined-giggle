@@ -1,6 +1,8 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
