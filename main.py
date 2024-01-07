@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
