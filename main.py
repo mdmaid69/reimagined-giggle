@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def find_min(numbers):
+        return min(numbers)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
