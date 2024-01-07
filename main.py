@@ -1,4 +1,5 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
 for i in range(10): print(i)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
