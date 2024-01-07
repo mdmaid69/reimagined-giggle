@@ -1,6 +1,9 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
