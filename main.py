@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
