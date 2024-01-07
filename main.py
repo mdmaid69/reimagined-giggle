@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
