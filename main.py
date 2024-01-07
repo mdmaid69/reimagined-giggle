@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import sys
+def exit_program():
+        sys.exit()
