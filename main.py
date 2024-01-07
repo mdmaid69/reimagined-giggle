@@ -1,6 +1,8 @@
-import collections
-def create_queue():
-        return collections.deque()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
