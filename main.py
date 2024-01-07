@@ -1,7 +1,4 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
