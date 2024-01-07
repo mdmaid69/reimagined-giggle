@@ -1,5 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
