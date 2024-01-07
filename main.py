@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
