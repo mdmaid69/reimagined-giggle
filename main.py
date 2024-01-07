@@ -1,5 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def is_even(n):
-        return n % 2 == 0
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
