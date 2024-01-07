@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def divide_numbers(x, y):
-        return x / y
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def convert_to_binary(n):
+        return bin(n)
