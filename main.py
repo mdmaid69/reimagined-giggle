@@ -1,10 +1,8 @@
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
 import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import datetime
-print(datetime.datetime.now())
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
