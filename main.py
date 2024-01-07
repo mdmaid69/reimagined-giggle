@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
