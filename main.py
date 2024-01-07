@@ -1,5 +1,6 @@
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def greet(name):
-        print(f"Hello, {name}!")
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
