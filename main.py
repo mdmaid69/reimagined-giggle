@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def split_path(path):
+        return os.path.split(path)
