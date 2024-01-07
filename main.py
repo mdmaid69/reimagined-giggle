@@ -1,5 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def multiply_numbers(x, y):
+        return x * y
