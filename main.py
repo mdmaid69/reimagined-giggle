@@ -1,8 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_float(array):
+        return float(array[0])
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
