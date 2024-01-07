@@ -1,5 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def subtract_numbers(x, y):
+        return x - y
