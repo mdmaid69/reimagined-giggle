@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
