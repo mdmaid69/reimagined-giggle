@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import time
+def get_current_time():
+        return time.time()
