@@ -1,7 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
