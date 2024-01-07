@@ -1,7 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
