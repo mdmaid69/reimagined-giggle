@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
+  def subtract_numbers(x, y):
+        return x - y
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_absolute_value(x):
+        return math.fabs(x)
