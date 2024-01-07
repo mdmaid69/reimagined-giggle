@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
