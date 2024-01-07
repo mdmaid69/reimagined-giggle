@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import tensorflow as tf
+print(tf.__version__)
+import collections
+def create_queue():
+        return collections.deque()
