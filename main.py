@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
