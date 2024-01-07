@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def calculate_work(force, distance):
-        return force * distance
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import array
+def get_array_index(array, item):
+        return array.index(item)
