@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
