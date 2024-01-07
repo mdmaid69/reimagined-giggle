@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
