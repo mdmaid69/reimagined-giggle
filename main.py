@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_acceleration(speed, time):
+        return speed / time
