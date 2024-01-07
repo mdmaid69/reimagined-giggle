@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
