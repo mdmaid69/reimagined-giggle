@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
