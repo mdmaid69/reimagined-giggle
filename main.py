@@ -1,6 +1,4 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import collections
-def create_counter():
-        return collections.Counter()
+import os
+print(os.getcwd())
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
