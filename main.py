@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
