@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
