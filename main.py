@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_density(mass, volume):
+        return mass / volume
