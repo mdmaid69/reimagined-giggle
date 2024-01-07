@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
