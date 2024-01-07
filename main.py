@@ -1,7 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_work(force, distance):
+        return force * distance
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
