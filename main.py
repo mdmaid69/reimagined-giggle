@@ -1,5 +1,6 @@
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
