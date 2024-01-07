@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def convert_to_octal(n):
+        return oct(n)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
