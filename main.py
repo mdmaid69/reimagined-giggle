@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_acceleration(speed, time):
+        return speed / time
