@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+for i in range(5):
+        print(i)
