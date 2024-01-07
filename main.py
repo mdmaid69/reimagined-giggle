@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
