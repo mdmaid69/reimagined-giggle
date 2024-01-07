@@ -1,8 +1,5 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_absolute_value(x):
+        return math.fabs(x)
