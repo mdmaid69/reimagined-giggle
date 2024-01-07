@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def find_min(numbers):
+        return min(numbers)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
