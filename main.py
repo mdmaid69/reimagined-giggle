@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import collections
+def create_stack():
+        return collections.deque()
