@@ -1,6 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def count_characters(sentence):
+        return len(sentence)
+def calculate_density(mass, volume):
+        return mass / volume
