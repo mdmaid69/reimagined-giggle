@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def add_numbers(x, y):
+        return x + y
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
