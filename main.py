@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  def is_even(n):
-        return n % 2 == 0
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def find_min(lst):
+        return min(lst)
