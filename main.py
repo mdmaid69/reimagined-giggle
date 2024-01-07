@@ -1,8 +1,4 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import sys
-def print_python_version():
-        return sys.version
+print(sum(range(10)))
+import collections
+def create_user_list():
+        return collections.UserList()
