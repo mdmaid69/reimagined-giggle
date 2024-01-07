@@ -1,8 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+text = "Hello, world!"
+print("Words:", len(text.split()))
