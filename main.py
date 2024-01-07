@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import datetime
+print(datetime.datetime.now())
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
