@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  def square_number(x):
+        return x**2
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
