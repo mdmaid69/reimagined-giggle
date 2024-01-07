@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_speed(distance, time):
-        return distance / time
+import getpass
+def get_username():
+        return getpass.getuser()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
