@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def create_queue():
+        return collections.deque()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
