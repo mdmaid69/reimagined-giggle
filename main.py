@@ -1,6 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import tensorflow as tf
+print(tf.__version__)
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
