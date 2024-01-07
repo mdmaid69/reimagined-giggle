@@ -1,5 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def reverse_string(s):
-        return s[::-1]
+import time
+def get_current_time():
+        return time.ctime()
+print([x**2 for x in range(10)])
