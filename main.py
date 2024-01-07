@@ -1,8 +1,11 @@
-import unittest
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import threading
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
