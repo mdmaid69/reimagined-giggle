@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
