@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
