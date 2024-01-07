@@ -1,4 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-print([x**2 for x in range(10)])
+  def reverse_list(lst):
+        return lst[::-1]
+def add_numbers(x, y):
+        return x + y
