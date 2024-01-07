@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
