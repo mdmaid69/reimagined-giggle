@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_as_int(array):
+        return int(array[0])
