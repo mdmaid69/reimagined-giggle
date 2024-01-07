@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import random
+print(random.randint(0, 100))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
