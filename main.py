@@ -1,5 +1,7 @@
-  def multiply_numbers(x, y):
-        return x * y
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
