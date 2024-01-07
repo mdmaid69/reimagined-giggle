@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
