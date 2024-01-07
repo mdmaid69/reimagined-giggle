@@ -1,5 +1,6 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import os
+def get_current_working_directory():
+        return os.getcwd()
