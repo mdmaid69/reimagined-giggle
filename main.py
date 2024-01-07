@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
