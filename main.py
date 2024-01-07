@@ -1,7 +1,5 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
