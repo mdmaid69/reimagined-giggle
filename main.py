@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  def multiply_numbers(x, y):
+        return x * y
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
