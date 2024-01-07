@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def reverse_list(lst):
+        return lst[::-1]
