@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def find_max(numbers):
-        return max(numbers)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def multiply_numbers(x, y):
+        return x * y
