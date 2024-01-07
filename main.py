@@ -1,5 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
-def find_min(numbers):
-        return min(numbers)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def count_words(sentence):
+        return len(sentence.split())
