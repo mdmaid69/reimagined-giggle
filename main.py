@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
