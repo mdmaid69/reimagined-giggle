@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
