@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
