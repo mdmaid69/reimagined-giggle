@@ -1,3 +1,5 @@
-print(sum(range(10)))
-def count_characters(sentence):
-        return len(sentence)
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
