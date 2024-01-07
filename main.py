@@ -1,5 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
