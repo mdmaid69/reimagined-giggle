@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_sine(x):
+        return math.sin(x)
