@@ -1,9 +1,4 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+from collections import Counter
+print(Counter("hello world"))
+def is_odd(n):
+        return n % 2 != 0
