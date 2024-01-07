@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
