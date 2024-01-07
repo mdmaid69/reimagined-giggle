@@ -1,5 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def divide_numbers(x, y):
-        return x / y
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
