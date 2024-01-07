@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def check_if_array_contains_item(array, item):
+        return item in array
+import time
+def get_time_since_epoch():
+        return time.time()
