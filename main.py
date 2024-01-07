@@ -1,8 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def append_to_array(array, item):
+        array.append(item)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
