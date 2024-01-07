@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
