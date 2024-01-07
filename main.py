@@ -1,3 +1,8 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-print(sum(range(10)))
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
