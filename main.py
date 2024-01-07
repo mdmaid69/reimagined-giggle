@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-def find_max(numbers):
-        return max(numbers)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
