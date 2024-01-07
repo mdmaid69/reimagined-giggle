@@ -1,5 +1,11 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
