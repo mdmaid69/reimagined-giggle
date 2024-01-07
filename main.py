@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
