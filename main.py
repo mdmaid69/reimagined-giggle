@@ -1,8 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
