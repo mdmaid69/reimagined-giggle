@@ -1,6 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
