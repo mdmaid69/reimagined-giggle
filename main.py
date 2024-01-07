@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
