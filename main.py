@@ -1,6 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def check_if_array_contains_item(array, item):
+        return item in array
