@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
