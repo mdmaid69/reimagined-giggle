@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
