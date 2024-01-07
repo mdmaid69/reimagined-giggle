@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
