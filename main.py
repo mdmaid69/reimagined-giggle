@@ -1,5 +1,4 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  def is_odd(n):
+        return n % 2 != 0
