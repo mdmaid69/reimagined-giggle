@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
