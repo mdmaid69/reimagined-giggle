@@ -1,12 +1,7 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import array
-def get_array_length(array):
-        return len(array)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
