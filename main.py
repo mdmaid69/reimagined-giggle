@@ -1,6 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
