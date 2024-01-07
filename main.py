@@ -1,8 +1,4 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
