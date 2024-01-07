@@ -1,4 +1,7 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_acceleration(speed, time):
-        return speed / time
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
