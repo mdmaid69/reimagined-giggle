@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
