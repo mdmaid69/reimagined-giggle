@@ -1,8 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
