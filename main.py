@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def reverse_string(s):
+        return s[::-1]
