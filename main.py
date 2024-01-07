@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import sys
-def exit_program():
-        sys.exit()
+def is_odd(n):
+        return n % 2 != 0
+import collections
+def create_user_string():
+        return collections.UserString()
