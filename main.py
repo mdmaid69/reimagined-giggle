@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
