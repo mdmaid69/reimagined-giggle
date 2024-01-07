@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_density(mass, volume):
+        return mass / volume
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
