@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
+def reverse_string(s):
+        return s[::-1]
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
