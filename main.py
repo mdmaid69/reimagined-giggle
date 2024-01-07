@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
