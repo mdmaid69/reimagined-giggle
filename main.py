@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_acceleration(speed, time):
+        return speed / time
+  def calculate_area_rectangle(l, w):
+        return l * w
