@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
