@@ -1,4 +1,7 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-print("Hello, world!")
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
