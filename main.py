@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
