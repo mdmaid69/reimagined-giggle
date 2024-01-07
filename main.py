@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
