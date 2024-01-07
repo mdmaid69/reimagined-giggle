@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
