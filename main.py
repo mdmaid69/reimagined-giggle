@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
