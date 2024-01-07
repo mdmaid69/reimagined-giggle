@@ -1,5 +1,7 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import array
+def get_array_as_float(array):
+        return float(array[0])
