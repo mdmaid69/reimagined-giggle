@@ -1,8 +1,11 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
