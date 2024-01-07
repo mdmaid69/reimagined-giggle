@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def reverse_string(s):
-        return s[::-1]
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
