@@ -1,5 +1,8 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  def subtract_numbers(x, y):
-        return x - y
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
