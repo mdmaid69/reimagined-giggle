@@ -1,6 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
