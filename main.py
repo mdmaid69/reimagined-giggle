@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import getpass
+def get_username():
+        return getpass.getuser()
+import datetime
+print(datetime.datetime.now())
