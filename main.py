@@ -1,7 +1,6 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
