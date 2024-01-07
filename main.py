@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
