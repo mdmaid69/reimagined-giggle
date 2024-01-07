@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import collections
+def create_user_list():
+        return collections.UserList()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
