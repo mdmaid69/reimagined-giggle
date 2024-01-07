@@ -1,5 +1,7 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+print([x**2 for x in range(10)])
