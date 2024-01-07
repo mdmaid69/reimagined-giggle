@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
