@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def convert_array_to_string(array):
+        return array.tostring()
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
