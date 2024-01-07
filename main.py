@@ -1,5 +1,10 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
