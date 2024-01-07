@@ -1,6 +1,10 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
