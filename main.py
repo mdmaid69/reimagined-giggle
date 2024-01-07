@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import collections
+def create_queue():
+        return collections.deque()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
