@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
