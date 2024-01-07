@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import datetime
+def get_today_date():
+        return datetime.date.today()
