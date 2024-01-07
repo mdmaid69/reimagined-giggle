@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
