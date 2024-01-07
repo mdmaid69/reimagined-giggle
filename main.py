@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def find_max(lst):
-        return max(lst)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
