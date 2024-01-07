@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_as_repr(array):
+        return repr(array)
+import collections
+def create_user_list():
+        return collections.UserList()
