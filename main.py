@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
