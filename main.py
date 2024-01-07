@@ -1,5 +1,6 @@
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-text = "Hello, world!"
-print("Characters:", len(text))
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
