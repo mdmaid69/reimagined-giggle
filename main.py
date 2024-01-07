@@ -1,5 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def reverse_string(s):
-        return s[::-1]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
