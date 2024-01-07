@@ -1,6 +1,8 @@
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
