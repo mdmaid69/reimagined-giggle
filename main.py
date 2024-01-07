@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_cosine(x):
+        return math.cos(x)
