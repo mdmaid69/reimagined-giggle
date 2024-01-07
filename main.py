@@ -1,5 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
