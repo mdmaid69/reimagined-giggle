@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_area_circle(r):
+        return 3.14 * r**2
