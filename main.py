@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_power(work, time):
-        return work / time
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
