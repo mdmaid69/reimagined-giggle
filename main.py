@@ -1,5 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import sys
+def print_python_version():
+        return sys.version
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
