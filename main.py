@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import getpass
+def get_username():
+        return getpass.getuser()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
