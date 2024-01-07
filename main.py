@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
