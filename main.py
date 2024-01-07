@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
