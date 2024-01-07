@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import os
+print(os.getcwd())
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
