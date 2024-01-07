@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
