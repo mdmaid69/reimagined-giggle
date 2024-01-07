@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  def square_number(x):
-        return x**2
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_volume(length, width, height):
+        return length * width * height
