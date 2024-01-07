@@ -1,5 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
