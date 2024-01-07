@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
