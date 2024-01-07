@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
