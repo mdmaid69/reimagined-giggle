@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
