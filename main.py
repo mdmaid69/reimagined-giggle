@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_pressure(force, area):
+        return force / area
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
