@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
