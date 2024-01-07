@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
