@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+name = "Python"
+print("Hello,", name)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
