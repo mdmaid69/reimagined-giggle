@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
