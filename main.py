@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import sys
+def print_python_version():
+        print(sys.version)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
