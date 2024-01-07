@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import random
-def roll_die():
-        return random.randint(1, 6)
+import getpass
+def get_username():
+        return getpass.getuser()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
