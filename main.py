@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import time
+def get_current_time():
+        return time.time()
+import collections
+def create_user_list():
+        return collections.UserList()
