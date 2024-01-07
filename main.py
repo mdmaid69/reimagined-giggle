@@ -1,7 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def count_characters(sentence):
+        return len(sentence)
