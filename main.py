@@ -1,5 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def find_min(numbers):
-        return min(numbers)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
