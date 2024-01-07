@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_work(force, distance):
+        return force * distance
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
