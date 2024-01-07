@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
