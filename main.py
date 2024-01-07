@@ -1,8 +1,6 @@
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def get_array_as_int(array):
+        return int(array[0])
