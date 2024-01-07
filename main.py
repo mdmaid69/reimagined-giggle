@@ -1,4 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_density(mass, volume):
-        return mass / volume
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def is_palindrome(s):
+        return s == s[::-1]
