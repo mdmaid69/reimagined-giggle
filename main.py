@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def divide_numbers(x, y):
+        return x / y
+x = 10
+y = 20
+print("Sum:", x + y)
