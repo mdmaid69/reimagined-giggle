@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  def calculate_area_rectangle(l, w):
+        return l * w
