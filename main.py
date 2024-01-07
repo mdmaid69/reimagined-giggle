@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import math
+def calculate_floor(x):
+        return math.floor(x)
