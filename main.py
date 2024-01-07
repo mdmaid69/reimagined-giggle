@@ -1,9 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
