@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
