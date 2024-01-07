@@ -1,5 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  def square_number(x):
-        return x**2
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
