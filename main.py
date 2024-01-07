@@ -1,5 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_work(force, distance):
-        return force * distance
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+def calculate_pressure(force, area):
+        return force / area
