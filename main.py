@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
