@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
