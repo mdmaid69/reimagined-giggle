@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import collections
-def create_user_string():
-        return collections.UserString()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
