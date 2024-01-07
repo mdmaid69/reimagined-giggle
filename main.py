@@ -1,5 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-print(math.pi)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  def convert_to_binary(n):
+        return bin(n)
