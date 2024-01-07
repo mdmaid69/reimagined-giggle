@@ -1,8 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
