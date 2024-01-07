@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import collections
+def create_user_list():
+        return collections.UserList()
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
