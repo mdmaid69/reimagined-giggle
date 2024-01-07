@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
