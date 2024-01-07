@@ -1,5 +1,12 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import sys
+  def get_python_version():
+        return sys.version
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
