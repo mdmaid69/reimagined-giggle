@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def square_number(x):
-        return x**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
