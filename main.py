@@ -1,5 +1,11 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def add_numbers(x, y):
-        return x + y
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
