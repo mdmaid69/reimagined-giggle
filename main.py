@@ -1,10 +1,6 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
