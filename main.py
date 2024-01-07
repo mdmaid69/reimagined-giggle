@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def is_even(n):
-        return n % 2 == 0
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
