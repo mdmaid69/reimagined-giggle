@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
