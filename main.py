@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
