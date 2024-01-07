@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
