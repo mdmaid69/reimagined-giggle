@@ -1,8 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import os
+print(os.getcwd())
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
