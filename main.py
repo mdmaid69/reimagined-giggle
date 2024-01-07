@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  def convert_to_hex(n):
-        return hex(n)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
