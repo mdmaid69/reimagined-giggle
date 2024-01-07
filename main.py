@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
