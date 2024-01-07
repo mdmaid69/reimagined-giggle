@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import time
-def get_current_time():
-        return time.time()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
