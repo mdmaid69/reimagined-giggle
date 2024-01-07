@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
