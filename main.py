@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def convert_to_hex(n):
+        return hex(n)
