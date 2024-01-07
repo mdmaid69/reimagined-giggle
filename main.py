@@ -1,4 +1,5 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-print(sum(range(10)))
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
