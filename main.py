@@ -1,8 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def convert_to_binary(n):
+        return bin(n)
+  def is_odd(n):
+        return n % 2 != 0
