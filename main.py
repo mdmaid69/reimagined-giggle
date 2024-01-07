@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import json
+print(json.dumps({"name": "John", "age": 30}))
