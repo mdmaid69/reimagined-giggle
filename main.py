@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import sys
+  def get_python_version():
+        return sys.version
