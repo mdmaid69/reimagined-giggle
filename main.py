@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def multiply_numbers(x, y):
+        return x * y
