@@ -1,6 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
