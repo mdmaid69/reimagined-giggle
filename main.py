@@ -1,5 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def find_max(numbers):
+        return max(numbers)
