@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+name = "Python"
+print("Hello,", name)
