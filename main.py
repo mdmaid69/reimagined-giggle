@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import re
-print(re.match("h.*o", "hello world"))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
