@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
