@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import getpass
+def get_username():
+        return getpass.getuser()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
