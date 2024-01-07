@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import time
+print(time.time())
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
