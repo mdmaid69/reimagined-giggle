@@ -1,4 +1,4 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+text = "Hello, world!"
+print("Reversed:", text[::-1])
