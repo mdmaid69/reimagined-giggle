@@ -1,8 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def reverse_string(s):
+        return s[::-1]
+  def convert_to_binary(n):
+        return bin(n)
