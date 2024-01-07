@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
