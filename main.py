@@ -1,5 +1,7 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
