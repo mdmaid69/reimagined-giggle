@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
