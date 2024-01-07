@@ -1,5 +1,6 @@
+import collections
+def create_user_list():
+        return collections.UserList()
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
