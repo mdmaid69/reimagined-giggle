@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def get_array_length(array):
+        return len(array)
