@@ -1,5 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
