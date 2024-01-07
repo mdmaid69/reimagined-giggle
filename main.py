@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
