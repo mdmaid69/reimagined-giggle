@@ -1,6 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
