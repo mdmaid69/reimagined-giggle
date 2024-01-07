@@ -1,10 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
