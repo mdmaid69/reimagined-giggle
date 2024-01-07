@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import sys
+def exit_program():
+        sys.exit()
