@@ -1,3 +1,5 @@
-print(sum(range(10)))
-def subtract_numbers(x, y):
-        return x - y
+name = "Python"
+print("Hello,", name)
+import array
+def get_array_item(array, i):
+        return array[i]
