@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
