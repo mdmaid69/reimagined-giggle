@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def reverse_string(s):
+        return s[::-1]
+def count_characters(sentence):
+        return len(sentence)
