@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
