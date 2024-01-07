@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def find_unique_words(sentence):
+        return set(sentence.split())
+  def convert_to_octal(n):
+        return oct(n)
