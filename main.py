@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
