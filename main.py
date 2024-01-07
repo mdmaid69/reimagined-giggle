@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
