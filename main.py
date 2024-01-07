@@ -1,5 +1,7 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
