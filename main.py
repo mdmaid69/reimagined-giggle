@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def get_directory_name(path):
+        return os.path.dirname(path)
