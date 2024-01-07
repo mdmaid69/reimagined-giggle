@@ -1,6 +1,7 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
