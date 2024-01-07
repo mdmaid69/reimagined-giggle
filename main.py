@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def get_array_index(array, item):
+        return array.index(item)
