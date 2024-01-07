@@ -1,6 +1,6 @@
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
