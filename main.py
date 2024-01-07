@@ -1,6 +1,7 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
