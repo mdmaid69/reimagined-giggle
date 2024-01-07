@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import os
+def get_current_working_directory():
+        return os.getcwd()
