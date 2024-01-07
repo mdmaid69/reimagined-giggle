@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def greet(name):
+        print(f"Hello, {name}!")
+  def convert_to_octal(n):
+        return oct(n)
