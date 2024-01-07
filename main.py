@@ -1,4 +1,8 @@
-  def multiply_numbers(x, y):
-        return x * y
-def find_min(lst):
-        return min(lst)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
