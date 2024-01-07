@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
