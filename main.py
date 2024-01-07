@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import array
-def get_array_as_set(array):
-        return set(array)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
