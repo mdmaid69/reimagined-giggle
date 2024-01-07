@@ -1,8 +1,5 @@
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+print(math.pi)
