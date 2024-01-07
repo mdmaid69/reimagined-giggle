@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import collections
-def create_user_string():
-        return collections.UserString()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
