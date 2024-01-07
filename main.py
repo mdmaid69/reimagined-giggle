@@ -1,5 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
