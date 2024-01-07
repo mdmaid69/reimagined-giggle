@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import random
+def roll_die():
+        return random.randint(1, 6)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
