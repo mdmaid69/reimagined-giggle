@@ -1,6 +1,8 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
