@@ -1,7 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
