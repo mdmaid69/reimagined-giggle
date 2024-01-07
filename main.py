@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
