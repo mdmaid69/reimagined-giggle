@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  def sort_list(lst):
-        return sorted(lst)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
