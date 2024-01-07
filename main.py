@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
