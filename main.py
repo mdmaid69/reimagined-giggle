@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def subtract_numbers(x, y):
-        return x - y
+  def convert_to_octal(n):
+        return oct(n)
+import random
+def roll_die():
+        return random.randint(1, 6)
