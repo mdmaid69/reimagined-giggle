@@ -1,8 +1,5 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_ceiling(x):
+        return math.ceil(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
