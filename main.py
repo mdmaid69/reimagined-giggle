@@ -1,6 +1,6 @@
 import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import collections
-def create_priority_queue():
-        return collections.deque()
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+x = 10
+y = 20
+print("Sum:", x + y)
