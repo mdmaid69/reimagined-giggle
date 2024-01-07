@@ -1,3 +1,11 @@
-for i in range(10): print(i)
-def reverse_string(s):
-        return s[::-1]
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
