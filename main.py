@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
