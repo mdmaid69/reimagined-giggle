@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import sys
+def print_python_version():
+        print(sys.version)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
