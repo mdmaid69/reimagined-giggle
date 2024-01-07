@@ -1,6 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def square_number(x):
+        return x**2
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
