@@ -1,5 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
