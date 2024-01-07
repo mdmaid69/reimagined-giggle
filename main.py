@@ -1,6 +1,6 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
