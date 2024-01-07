@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
