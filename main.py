@@ -1,5 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
