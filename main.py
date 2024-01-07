@@ -1,7 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import random
+print(random.randint(0, 100))
+def convert_to_hex(n):
+        return hex(n)
