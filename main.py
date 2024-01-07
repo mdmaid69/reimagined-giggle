@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import time
+def get_time_since_epoch():
+        return time.time()
+  def sort_list(lst):
+        return sorted(lst)
