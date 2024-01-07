@@ -1,7 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def subtract_numbers(x, y):
+        return x - y
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
