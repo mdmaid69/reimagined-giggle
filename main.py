@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import sys
+def print_python_version():
+        print(sys.version)
