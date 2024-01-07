@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
