@@ -1,5 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_area(radius):
+        return 3.14 * radius * radius
