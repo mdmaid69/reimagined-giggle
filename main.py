@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
