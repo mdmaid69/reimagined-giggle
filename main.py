@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_acceleration(speed, time):
+        return speed / time
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
