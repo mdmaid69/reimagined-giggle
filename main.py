@@ -1,10 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
