@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
