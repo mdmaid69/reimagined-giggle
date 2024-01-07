@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
