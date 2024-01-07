@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def add_numbers(x, y):
+        return x + y
+def find_unique_words(sentence):
+        return set(sentence.split())
