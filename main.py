@@ -1,5 +1,5 @@
 import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_density(mass, volume):
-        return mass / volume
+def list_files_in_directory(path):
+        return os.listdir(path)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
