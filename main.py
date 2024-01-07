@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import datetime
-def get_today_date():
-        return datetime.date.today()
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
