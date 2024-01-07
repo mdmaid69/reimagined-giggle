@@ -1,7 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
