@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
