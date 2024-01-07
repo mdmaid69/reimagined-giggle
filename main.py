@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
