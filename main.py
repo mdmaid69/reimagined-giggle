@@ -1,6 +1,7 @@
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
