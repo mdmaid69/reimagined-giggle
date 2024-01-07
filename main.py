@@ -1,5 +1,6 @@
+  import sys
+  def get_python_version():
+        return sys.version
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def calculate_speed(distance, time):
-        return distance / time
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
