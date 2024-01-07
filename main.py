@@ -1,6 +1,7 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def split_path(path):
+        return os.path.split(path)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
