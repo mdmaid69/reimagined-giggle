@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
