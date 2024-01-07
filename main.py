@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
