@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_density(mass, volume):
+        return mass / volume
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
