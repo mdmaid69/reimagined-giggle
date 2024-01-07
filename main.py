@@ -1,5 +1,5 @@
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
 import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def get_array_typecode(array):
+        return array.typecode
