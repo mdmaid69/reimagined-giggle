@@ -1,5 +1,8 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
