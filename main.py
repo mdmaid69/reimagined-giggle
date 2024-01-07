@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
