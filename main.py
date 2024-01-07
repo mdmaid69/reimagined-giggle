@@ -1,6 +1,4 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def count_elements(lst):
+        return len(lst)
+  def sort_list(lst):
+        return sorted(lst)
