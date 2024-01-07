@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
