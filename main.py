@@ -1,5 +1,4 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def find_min(lst):
-        return min(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def multiply_numbers(x, y):
+        return x * y
