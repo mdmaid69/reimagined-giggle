@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
