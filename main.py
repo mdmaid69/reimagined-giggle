@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
