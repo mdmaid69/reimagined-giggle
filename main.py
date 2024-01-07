@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import array
-def get_array_as_set(array):
-        return set(array)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
