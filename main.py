@@ -1,6 +1,7 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import datetime
+print(datetime.datetime.now())
