@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import tensorflow as tf
+print(tf.__version__)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
