@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
