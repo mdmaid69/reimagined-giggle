@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
