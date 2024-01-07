@@ -1,4 +1,8 @@
-def calculate_pressure(force, area):
-        return force / area
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
