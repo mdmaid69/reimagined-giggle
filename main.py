@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def sort_numbers(numbers):
+        return sorted(numbers)
