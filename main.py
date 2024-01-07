@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
