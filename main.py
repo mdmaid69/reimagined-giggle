@@ -1,5 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def find_min(lst):
+        return min(lst)
