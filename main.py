@@ -1,4 +1,5 @@
-import math
-print(math.pi)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def is_odd(n):
+        return n % 2 != 0
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
