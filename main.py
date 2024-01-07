@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
