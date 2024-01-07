@@ -1,6 +1,7 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
