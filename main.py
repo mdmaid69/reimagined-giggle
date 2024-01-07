@@ -1,6 +1,7 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
