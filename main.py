@@ -1,4 +1,4 @@
-print(sum(range(10)))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
