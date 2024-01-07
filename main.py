@@ -1,9 +1,8 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
 import array
-def get_array_from_file(filename, typecode):
+def convert_string_to_array(string, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.fromstring(string)
         return a
