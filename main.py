@@ -1,6 +1,8 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
