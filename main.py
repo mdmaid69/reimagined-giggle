@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
