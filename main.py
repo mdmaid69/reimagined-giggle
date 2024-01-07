@@ -1,8 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
