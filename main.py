@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+print("Hello, world!")
+  import os
+  def split_path(path):
+        return os.path.split(path)
