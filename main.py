@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import array
+def get_array_as_str(array):
+        return str(array)
