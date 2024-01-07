@@ -1,5 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def get_array_length(array):
+        return len(array)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
