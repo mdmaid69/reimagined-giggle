@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def find_max(lst):
-        return max(lst)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
