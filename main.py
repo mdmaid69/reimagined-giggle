@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
