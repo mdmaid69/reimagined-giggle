@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
