@@ -1,5 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
