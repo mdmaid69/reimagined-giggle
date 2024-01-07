@@ -1,5 +1,8 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
