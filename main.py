@@ -1,5 +1,8 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
