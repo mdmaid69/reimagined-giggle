@@ -1,6 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
