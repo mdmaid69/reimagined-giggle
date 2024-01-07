@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
