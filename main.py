@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_density(mass, volume):
-        return mass / volume
+def add_numbers(a, b):
+        return a + b
+import array
+def get_list_from_array(array):
+        return array.tolist()
