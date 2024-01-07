@@ -1,6 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def reverse_string(s):
+        return s[::-1]
+def calculate_average(lst):
+        return sum(lst) / len(lst)
