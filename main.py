@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
