@@ -1,9 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import time
+print(time.time())
