@@ -1,6 +1,8 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+import array
+def set_array_item(array, i, item):
+        array[i] = item
