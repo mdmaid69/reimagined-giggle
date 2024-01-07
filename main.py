@@ -1,5 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
