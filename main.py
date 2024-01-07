@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
