@@ -1,8 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
