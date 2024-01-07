@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
