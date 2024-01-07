@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def is_palindrome(s):
-        return s == s[::-1]
+text = "Hello, world!"
+print("Words:", len(text.split()))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
