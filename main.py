@@ -1,9 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def reverse_list(lst):
+        return lst[::-1]
