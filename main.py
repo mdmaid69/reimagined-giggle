@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
