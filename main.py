@@ -1,12 +1,11 @@
-import queue
+import threading
 
-q = queue.Queue()
+def print_hello():
+        print("Hello, world!")
 
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
