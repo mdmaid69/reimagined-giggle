@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import sys
+def exit_program():
+        sys.exit()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
