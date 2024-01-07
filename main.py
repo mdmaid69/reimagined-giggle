@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
 import math
-print(math.pi)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def reverse_list(lst):
+        return lst[::-1]
