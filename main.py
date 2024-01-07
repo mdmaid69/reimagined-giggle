@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
