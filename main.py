@@ -1,5 +1,4 @@
-import sys
-print(sys.version)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_power(work, time):
+        return work / time
+  def calculate_area_rectangle(l, w):
+        return l * w
