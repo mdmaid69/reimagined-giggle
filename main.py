@@ -1,6 +1,8 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def check_if_array_contains_item(array, item):
+        return item in array
