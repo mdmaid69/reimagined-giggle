@@ -1,6 +1,7 @@
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import sys
+print(sys.version)
