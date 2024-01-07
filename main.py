@@ -1,5 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+print("Hello, world!")
+import array
+def get_array_as_set(array):
+        return set(array)
