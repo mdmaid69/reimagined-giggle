@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_acceleration(speed, time):
+        return speed / time
