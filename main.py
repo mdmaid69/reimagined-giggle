@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
