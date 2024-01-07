@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
