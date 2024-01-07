@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import platform
-def get_os_info():
-        return platform.uname()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
