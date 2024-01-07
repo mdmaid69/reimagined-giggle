@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
