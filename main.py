@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def convert_to_binary(n):
+        return bin(n)
