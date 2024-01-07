@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
