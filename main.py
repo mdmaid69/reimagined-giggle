@@ -1,8 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import platform
+def get_python_version():
+        return platform.python_version()
