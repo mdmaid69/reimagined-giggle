@@ -1,5 +1,4 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def greet(name):
+        print(f"Hello, {name}!")
