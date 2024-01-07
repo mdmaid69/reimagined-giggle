@@ -1,6 +1,7 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
