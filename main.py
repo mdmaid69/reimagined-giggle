@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
