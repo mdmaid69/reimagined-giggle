@@ -1,5 +1,6 @@
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
