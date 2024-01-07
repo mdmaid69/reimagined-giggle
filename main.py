@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import collections
+def create_counter():
+        return collections.Counter()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
