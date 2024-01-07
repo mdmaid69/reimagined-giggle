@@ -1,6 +1,10 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
