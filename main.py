@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import collections
-def create_queue():
-        return collections.deque()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
