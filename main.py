@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def count_characters(sentence):
-        return len(sentence)
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
