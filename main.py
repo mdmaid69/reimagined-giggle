@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
