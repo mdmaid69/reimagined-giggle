@@ -1,5 +1,4 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_speed(distance, time):
+        return distance / time
+def sort_numbers(numbers):
+        return sorted(numbers)
