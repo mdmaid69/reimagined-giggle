@@ -1,8 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
