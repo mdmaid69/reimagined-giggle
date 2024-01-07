@@ -1,7 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
