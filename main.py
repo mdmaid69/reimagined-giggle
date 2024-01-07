@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
