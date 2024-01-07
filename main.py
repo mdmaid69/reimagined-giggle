@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def is_palindrome(s):
+        return s == s[::-1]
+  def reverse_list(lst):
+        return lst[::-1]
