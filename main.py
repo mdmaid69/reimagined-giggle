@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import os
+def remove_directory(path):
+        os.rmdir(path)
