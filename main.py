@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import random
-print(random.randint(0, 100))
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
