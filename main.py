@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
