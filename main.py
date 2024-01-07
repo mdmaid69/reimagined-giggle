@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import sys
-def print_python_version():
-        return sys.version
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
