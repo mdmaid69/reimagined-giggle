@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_str(array):
+        return str(array)
