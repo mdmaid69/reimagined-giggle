@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def convert_to_hex(n):
+        return hex(n)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
