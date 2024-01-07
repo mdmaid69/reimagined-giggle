@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
