@@ -1,5 +1,5 @@
-import time
-print(time.time())
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
