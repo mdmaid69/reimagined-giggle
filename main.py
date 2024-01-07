@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
