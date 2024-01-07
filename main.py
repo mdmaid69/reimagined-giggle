@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
