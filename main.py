@@ -1,6 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import json
+print(json.dumps({"name": "John", "age": 30}))
