@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import collections
+def create_user_list():
+        return collections.UserList()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
