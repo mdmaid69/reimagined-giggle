@@ -1,7 +1,8 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
