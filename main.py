@@ -1,11 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
