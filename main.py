@@ -1,6 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
