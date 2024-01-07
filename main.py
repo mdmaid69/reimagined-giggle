@@ -1,8 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
