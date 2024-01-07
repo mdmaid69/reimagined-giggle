@@ -1,8 +1,6 @@
-def find_min(lst):
-        return min(lst)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
