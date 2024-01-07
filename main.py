@@ -1,8 +1,5 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def convert_to_binary(n):
+        return bin(n)
