@@ -1,8 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
