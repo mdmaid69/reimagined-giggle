@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
