@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import collections
+def create_user_string():
+        return collections.UserString()
