@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
