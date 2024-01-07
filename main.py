@@ -1,5 +1,5 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
