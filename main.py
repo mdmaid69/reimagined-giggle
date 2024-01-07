@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_array_as_bytes(array):
+        return bytes(array)
