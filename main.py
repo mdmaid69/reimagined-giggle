@@ -1,6 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
