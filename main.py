@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
