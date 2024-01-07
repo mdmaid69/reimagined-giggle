@@ -1,6 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
