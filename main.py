@@ -1,12 +1,7 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
