@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
