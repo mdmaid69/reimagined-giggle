@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import random
-print(random.randint(0, 100))
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
