@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import getpass
+def get_username():
+        return getpass.getuser()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
