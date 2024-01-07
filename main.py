@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import random
-print(random.randint(0, 100))
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def get_array_as_float(array):
+        return float(array[0])
