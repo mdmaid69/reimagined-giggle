@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import getpass
-def get_username():
-        return getpass.getuser()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
