@@ -1,5 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  def add_numbers(x, y):
-        return x + y
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
