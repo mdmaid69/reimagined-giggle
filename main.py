@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  def cube_number(x):
-        return x**3
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
