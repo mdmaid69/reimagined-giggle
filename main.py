@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_power(work, time):
+        return work / time
+import os
+def get_current_working_directory():
+        return os.getcwd()
