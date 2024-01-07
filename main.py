@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import os
-print(os.getcwd())
+def list_files_in_directory(path):
+        return os.listdir(path)
