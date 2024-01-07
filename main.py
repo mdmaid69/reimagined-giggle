@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
