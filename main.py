@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
