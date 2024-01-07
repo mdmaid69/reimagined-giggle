@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+x = 10
+y = 20
+print("Sum:", x + y)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
