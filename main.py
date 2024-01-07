@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def find_max(lst):
+        return max(lst)
