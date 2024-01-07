@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import collections
+def create_user_list():
+        return collections.UserList()
+def find_min(lst):
+        return min(lst)
