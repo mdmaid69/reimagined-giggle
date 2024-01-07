@@ -1,6 +1,4 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import datetime
+print(datetime.datetime.now())
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
