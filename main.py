@@ -1,6 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
