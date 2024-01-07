@@ -1,7 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
