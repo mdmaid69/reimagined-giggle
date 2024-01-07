@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import numpy as np
+print(np.array([1, 2, 3]))
+  import sys
+  def get_python_version():
+        return sys.version
