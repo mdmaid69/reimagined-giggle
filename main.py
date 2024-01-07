@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
 import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+print(random.randint(0, 100))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
