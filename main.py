@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def reverse_array(array):
+        array.reverse()
+def reverse_list(lst):
+        return lst[::-1]
