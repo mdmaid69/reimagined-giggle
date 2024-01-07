@@ -1,5 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
