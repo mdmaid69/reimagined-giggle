@@ -1,7 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
