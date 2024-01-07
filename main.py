@@ -1,6 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
