@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_float(array):
+        return float(array[0])
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
