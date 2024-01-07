@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
