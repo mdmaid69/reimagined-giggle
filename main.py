@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
