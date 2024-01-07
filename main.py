@@ -1,5 +1,7 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
