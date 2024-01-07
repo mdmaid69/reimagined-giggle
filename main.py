@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
