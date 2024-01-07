@@ -1,5 +1,6 @@
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import array
-def clear_array(array):
-        array *= 0
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def get_string_from_array(array):
+        return array.tobytes()
