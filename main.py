@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_error_function(x):
+        return math.erf(x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
