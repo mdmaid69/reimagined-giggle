@@ -1,7 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
