@@ -1,8 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
