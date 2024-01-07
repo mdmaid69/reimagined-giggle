@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
