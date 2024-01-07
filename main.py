@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def greet(name):
+        print(f"Hello, {name}!")
