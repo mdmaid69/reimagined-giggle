@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
