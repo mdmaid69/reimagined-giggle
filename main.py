@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import datetime
+def get_current_date():
+        return datetime.date.today()
