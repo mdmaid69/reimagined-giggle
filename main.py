@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def count_elements(lst):
-        return len(lst)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
