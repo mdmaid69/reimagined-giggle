@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+def find_union(list1, list2):
+        return set(list1) | set(list2)
