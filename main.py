@@ -1,5 +1,4 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  def is_even(n):
+        return n % 2 == 0
