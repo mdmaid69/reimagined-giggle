@@ -1,6 +1,8 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
