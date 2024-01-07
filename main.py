@@ -1,6 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
