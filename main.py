@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import collections
+def create_user_list():
+        return collections.UserList()
