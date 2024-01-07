@@ -1,6 +1,7 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
