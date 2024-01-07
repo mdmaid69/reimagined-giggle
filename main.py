@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
