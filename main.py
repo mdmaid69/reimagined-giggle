@@ -1,5 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_tangent(x):
+        return math.tan(x)
