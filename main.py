@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
