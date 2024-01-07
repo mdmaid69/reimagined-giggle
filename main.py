@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
