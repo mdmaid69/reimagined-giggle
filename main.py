@@ -1,6 +1,8 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
