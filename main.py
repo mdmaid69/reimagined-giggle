@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
