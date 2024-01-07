@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  def sort_list(lst):
+        return sorted(lst)
