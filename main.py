@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def reverse_list(lst):
-        return lst[::-1]
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
