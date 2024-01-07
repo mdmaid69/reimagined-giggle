@@ -1,5 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def sort_numbers(numbers):
+        return sorted(numbers)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
