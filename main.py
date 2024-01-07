@@ -1,4 +1,8 @@
-print([x**2 for x in range(10)])
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
