@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
