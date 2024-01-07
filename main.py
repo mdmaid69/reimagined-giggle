@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
   import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
