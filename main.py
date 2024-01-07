@@ -1,5 +1,8 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import numpy as np
-print(np.array([1, 2, 3]))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
