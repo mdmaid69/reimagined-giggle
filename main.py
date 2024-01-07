@@ -1,8 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
