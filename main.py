@@ -1,5 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def calculate_density(mass, volume):
-        return mass / volume
+import collections
+def create_queue():
+        return collections.deque()
+x = 10
+y = 20
+print("Sum:", x + y)
