@@ -1,5 +1,6 @@
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
