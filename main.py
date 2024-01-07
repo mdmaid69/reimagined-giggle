@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
