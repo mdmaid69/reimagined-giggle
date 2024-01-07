@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
