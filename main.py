@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def find_min(lst):
-        return min(lst)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
