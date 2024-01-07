@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
