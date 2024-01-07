@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
