@@ -1,5 +1,8 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
