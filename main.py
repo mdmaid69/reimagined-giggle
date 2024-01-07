@@ -1,8 +1,8 @@
 import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
