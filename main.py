@@ -1,5 +1,4 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Words:", len(text.split()))
+name = "Python"
+print("Hello,", name)
