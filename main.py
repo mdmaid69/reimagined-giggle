@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
