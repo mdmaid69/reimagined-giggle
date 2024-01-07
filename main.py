@@ -1,7 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def convert_to_binary(n):
+        return bin(n)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
