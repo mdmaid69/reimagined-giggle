@@ -1,10 +1,5 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-import collections
-def create_user_string():
-        return collections.UserString()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
