@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import sys
-  def get_python_version():
-        return sys.version
+def subtract_numbers(x, y):
+        return x - y
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
