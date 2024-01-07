@@ -1,6 +1,5 @@
+  def subtract_numbers(x, y):
+        return x - y
 import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def get_string_from_array(array):
+        return array.tobytes()
