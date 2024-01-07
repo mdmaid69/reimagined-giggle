@@ -1,4 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def is_odd(n):
-        return n % 2 != 0
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_array_as_set(array):
+        return set(array)
