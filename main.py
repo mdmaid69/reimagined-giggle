@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  def convert_to_hex(n):
+        return hex(n)
