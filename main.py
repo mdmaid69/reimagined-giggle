@@ -1,5 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-name = "Python"
-print("Hello,", name)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
