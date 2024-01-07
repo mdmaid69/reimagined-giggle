@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import os
+print(os.getcwd())
+import sys
+def print_python_version():
+        print(sys.version)
