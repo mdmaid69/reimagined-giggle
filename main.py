@@ -1,5 +1,8 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-x = 10
-y = 20
-print("Sum:", x + y)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
