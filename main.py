@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  import sys
+  def get_python_version():
+        return sys.version
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
