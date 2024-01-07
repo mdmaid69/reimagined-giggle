@@ -1,5 +1,6 @@
+import platform
+def get_os_info():
+        return platform.uname()
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def reverse_string(s):
-        return s[::-1]
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
