@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
