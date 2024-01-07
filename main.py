@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
