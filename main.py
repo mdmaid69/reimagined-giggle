@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
