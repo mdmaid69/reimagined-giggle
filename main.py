@@ -1,6 +1,4 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
