@@ -1,5 +1,5 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def find_max(lst):
+        return max(lst)
