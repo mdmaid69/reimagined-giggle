@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
