@@ -1,5 +1,6 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def get_array_index(array, item):
+        return array.index(item)
