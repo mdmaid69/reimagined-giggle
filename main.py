@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  def is_odd(n):
-        return n % 2 != 0
+import collections
+def create_stack():
+        return collections.deque()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
