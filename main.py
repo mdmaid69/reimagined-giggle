@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  def is_odd(n):
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def is_odd(n):
         return n % 2 != 0
