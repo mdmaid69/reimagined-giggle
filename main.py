@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
