@@ -1,5 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_speed(distance, time):
+        return distance / time
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
