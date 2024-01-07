@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
