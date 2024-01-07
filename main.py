@@ -1,5 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
