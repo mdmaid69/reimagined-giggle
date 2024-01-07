@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
