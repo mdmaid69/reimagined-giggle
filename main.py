@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def reverse_list(lst):
+        return lst[::-1]
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
