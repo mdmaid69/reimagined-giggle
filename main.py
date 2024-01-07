@@ -1,4 +1,6 @@
-print("Hello, world!")
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
