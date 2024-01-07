@@ -1,5 +1,5 @@
 import sys
-print(sys.version)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def print_python_version():
+        return sys.version
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
