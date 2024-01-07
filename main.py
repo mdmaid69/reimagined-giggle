@@ -1,6 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def reverse_array(array):
-        array.reverse()
+def is_odd(n):
+        return n % 2 != 0
+def is_odd(n):
+        return n % 2 != 0
