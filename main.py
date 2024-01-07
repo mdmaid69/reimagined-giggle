@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def reverse_list(lst):
+        return lst[::-1]
