@@ -1,9 +1,4 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def calculate_area_circle(r):
+        return 3.14 * r**2
