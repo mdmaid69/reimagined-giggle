@@ -1,5 +1,8 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import collections
-def create_priority_queue():
-        return collections.deque()
+import sys
+def exit_program():
+        sys.exit()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
