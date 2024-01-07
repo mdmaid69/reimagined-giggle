@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
