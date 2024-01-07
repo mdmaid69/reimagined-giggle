@@ -1,7 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import time
+def get_time_since_epoch():
+        return time.time()
