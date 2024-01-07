@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
