@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
