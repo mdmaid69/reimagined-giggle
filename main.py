@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
