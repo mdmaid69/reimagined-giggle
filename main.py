@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
