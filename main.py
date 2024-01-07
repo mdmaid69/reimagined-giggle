@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
