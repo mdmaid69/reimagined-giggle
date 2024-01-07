@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
