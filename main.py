@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_tangent(x):
+        return math.tan(x)
