@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
