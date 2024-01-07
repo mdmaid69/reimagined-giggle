@@ -1,8 +1,5 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+def calculate_sine(x):
+        return math.sin(x)
+import random
+print(random.randint(0, 100))
