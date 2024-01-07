@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import sys
+print(sys.version)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
