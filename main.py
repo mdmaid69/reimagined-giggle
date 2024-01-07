@@ -1,6 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  def square_number(x):
-        return x**2
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
