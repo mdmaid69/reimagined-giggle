@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import getpass
+def get_username():
+        return getpass.getuser()
