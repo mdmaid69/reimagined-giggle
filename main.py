@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
