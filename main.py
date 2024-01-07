@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
