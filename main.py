@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
