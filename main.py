@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
