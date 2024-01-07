@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def reverse_string(s):
+        return s[::-1]
