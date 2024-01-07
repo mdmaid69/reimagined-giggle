@@ -1,5 +1,9 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-for i in range(5):
-        print(i)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import array
+def get_array_as_set(array):
+        return set(array)
