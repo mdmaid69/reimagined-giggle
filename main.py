@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
