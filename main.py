@@ -1,5 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import sys
+def exit_program():
+        sys.exit()
