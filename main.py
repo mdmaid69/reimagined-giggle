@@ -1,5 +1,8 @@
-import random
-print(random.randint(0, 100))
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
