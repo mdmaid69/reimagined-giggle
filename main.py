@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import collections
-def create_stack():
-        return collections.deque()
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_acceleration(speed, time):
+        return speed / time
