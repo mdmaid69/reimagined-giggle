@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
