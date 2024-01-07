@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import array
+def get_array_length(array):
+        return len(array)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
