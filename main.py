@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
