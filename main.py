@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
