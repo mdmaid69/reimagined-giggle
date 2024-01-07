@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
+def find_unique_words(sentence):
+        return set(sentence.split())
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
