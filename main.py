@@ -1,4 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-print([x**2 for x in range(10)])
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
