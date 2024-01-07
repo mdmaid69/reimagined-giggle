@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
