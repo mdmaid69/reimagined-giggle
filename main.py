@@ -1,6 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
