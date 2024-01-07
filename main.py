@@ -1,5 +1,4 @@
-def sort_list(lst):
-        return sorted(lst)
-import collections
-def create_counter():
-        return collections.Counter()
+def find_max(lst):
+        return max(lst)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
