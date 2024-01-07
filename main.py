@@ -1,5 +1,6 @@
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
 import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def find_max(numbers):
-        return max(numbers)
+def generate_random_choice(choices):
+        return random.choice(choices)
