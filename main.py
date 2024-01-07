@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
