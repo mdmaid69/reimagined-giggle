@@ -1,5 +1,5 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-text = "Hello, world!"
-print("Characters:", len(text))
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import random
+print(random.randint(0, 100))
