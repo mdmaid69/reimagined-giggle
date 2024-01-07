@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import sys
+def print_python_version():
+        return sys.version
