@@ -1,5 +1,8 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
