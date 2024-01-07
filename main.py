@@ -1,5 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
