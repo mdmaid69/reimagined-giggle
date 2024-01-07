@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def convert_to_octal(n):
-        return oct(n)
+import time
+print(time.time())
+import datetime
+def get_current_date():
+        return datetime.date.today()
