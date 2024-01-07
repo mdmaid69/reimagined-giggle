@@ -1,8 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def is_odd(n):
+        return n % 2 != 0
