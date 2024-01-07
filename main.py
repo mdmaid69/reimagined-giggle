@@ -1,5 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
