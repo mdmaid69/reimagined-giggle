@@ -1,7 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import collections
+def create_user_list():
+        return collections.UserList()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
