@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import sys
-print(sys.version)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
