@@ -1,6 +1,6 @@
 import time
 def get_current_time():
-        return time.time()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+        return time.ctime()
+import array
+def append_to_array(array, item):
+        array.append(item)
