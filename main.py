@@ -1,6 +1,5 @@
 import array
-def get_array_length(array):
-        return len(array)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def set_array_item(array, i, item):
+        array[i] = item
+  def is_odd(n):
+        return n % 2 != 0
