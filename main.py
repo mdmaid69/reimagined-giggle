@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
