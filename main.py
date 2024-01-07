@@ -1,7 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def find_min(numbers):
+        return min(numbers)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
