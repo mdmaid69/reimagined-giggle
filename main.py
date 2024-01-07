@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  def cube_number(x):
-        return x**3
+def count_characters(sentence):
+        return len(sentence)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
