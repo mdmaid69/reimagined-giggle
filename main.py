@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
