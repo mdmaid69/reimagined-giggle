@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+from collections import Counter
+print(Counter("hello world"))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
