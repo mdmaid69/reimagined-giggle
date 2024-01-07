@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
