@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
