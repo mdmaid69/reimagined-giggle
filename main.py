@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
