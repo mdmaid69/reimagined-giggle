@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def get_array_itemsize(array):
+        return array.itemsize
