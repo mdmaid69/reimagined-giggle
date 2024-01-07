@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
