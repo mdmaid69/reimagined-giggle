@@ -1,6 +1,11 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_density(mass, volume):
+        return mass / volume
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
