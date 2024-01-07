@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import collections
+def create_stack():
+        return collections.deque()
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_length(array):
+        return len(array)
