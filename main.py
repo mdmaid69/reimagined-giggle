@@ -1,6 +1,9 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
