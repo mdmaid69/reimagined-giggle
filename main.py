@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_acceleration(speed, time):
+        return speed / time
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
