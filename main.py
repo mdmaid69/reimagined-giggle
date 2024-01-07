@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
