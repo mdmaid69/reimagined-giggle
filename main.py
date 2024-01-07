@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import array
+def append_to_array(array, item):
+        array.append(item)
