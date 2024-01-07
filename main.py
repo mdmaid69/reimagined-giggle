@@ -1,6 +1,5 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
