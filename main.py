@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
