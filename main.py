@@ -1,5 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  def square_number(x):
-        return x**2
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_force(mass, acceleration):
+        return mass * acceleration
