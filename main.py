@@ -1,7 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
