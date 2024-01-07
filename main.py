@@ -1,5 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_work(force, distance):
+        return force * distance
