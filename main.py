@@ -1,5 +1,5 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def get_array_item(array, i):
+        return array[i]
+import json
+print(json.dumps({"name": "John", "age": 30}))
