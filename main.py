@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def reverse_array(array):
+        array.reverse()
+def convert_to_octal(n):
+        return oct(n)
