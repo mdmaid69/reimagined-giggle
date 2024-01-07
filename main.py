@@ -1,4 +1,5 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-for i in range(10): print(i)
+  def split_path(path):
+        return os.path.split(path)
+def is_palindrome(s):
+        return s == s[::-1]
