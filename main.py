@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
