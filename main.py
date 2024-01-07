@@ -1,5 +1,3 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def find_min(lst):
-        return min(lst)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+for i in range(10): print(i)
