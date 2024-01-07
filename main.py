@@ -1,5 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
