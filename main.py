@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
