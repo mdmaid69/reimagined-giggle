@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def is_odd(n):
+        return n % 2 != 0
