@@ -1,6 +1,7 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def get_array_itemsize(array):
+        return array.itemsize
+i = 0
+while i < 5:
+        print(i)
+        i += 1
