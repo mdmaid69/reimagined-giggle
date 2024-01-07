@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def add_numbers(x, y):
+        return x + y
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
