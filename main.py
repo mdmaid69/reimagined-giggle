@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
+  import sys
+  def get_python_version():
+        return sys.version
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
