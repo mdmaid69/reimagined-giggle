@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import os
-print(os.getcwd())
+def calculate_pressure(force, area):
+        return force / area
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
