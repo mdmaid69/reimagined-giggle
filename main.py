@@ -1,5 +1,6 @@
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
