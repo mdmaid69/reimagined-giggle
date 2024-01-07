@@ -1,6 +1,5 @@
+def divide_numbers(x, y):
+        return x / y
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-x = 10
-y = 20
-print("Sum:", x + y)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
