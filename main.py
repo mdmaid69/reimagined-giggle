@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+text = "Hello, world!"
+print("Words:", len(text.split()))
