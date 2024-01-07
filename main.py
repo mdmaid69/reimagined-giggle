@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def multiply_numbers(x, y):
+        return x * y
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
