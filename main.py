@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
