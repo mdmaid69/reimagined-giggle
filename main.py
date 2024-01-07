@@ -1,5 +1,7 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def cube_number(x):
+        return x**3
