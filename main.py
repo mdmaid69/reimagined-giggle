@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+def calculate_density(mass, volume):
+        return mass / volume
