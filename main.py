@@ -1,5 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
