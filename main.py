@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
