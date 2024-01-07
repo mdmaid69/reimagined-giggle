@@ -1,5 +1,8 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
