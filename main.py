@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def reverse_string(s):
-        return s[::-1]
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
