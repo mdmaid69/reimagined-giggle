@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
