@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def divide_numbers(x, y):
+        return x / y
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
