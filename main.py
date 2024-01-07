@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
