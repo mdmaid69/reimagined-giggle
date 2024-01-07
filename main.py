@@ -1,6 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
