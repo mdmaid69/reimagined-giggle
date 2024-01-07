@@ -1,4 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  def is_even(n):
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def is_even(n):
         return n % 2 == 0
