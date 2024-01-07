@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
