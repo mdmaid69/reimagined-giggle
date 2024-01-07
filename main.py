@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
