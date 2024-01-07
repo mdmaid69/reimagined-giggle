@@ -1,5 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def find_max(numbers):
+        return max(numbers)
