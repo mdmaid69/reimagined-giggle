@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def reverse_string(s):
+        return s[::-1]
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_cosine(x):
+        return math.cos(x)
