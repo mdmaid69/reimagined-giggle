@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def find_min(lst):
-        return min(lst)
+  def cube_number(x):
+        return x**3
+import collections
+def create_priority_queue():
+        return collections.deque()
