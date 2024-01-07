@@ -1,6 +1,6 @@
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def convert_array_to_bytes(array):
+        return array.tobytes()
