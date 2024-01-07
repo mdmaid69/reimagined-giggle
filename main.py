@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
