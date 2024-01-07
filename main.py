@@ -1,8 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
