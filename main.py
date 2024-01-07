@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  def reverse_list(lst):
+        return lst[::-1]
