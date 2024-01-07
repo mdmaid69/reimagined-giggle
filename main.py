@@ -1,5 +1,5 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  def subtract_numbers(x, y):
-        return x - y
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import random
+print(random.randint(0, 100))
