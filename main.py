@@ -1,6 +1,9 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
