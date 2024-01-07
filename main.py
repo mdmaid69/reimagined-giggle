@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
