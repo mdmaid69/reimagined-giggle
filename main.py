@@ -1,6 +1,5 @@
+def greet(name):
+        print(f"Hello, {name}!")
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
