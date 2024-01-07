@@ -1,7 +1,6 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def clear_array(array):
+        array *= 0
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
