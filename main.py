@@ -1,5 +1,5 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  def convert_to_binary(n):
-        return bin(n)
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
