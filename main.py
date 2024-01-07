@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+name = "Python"
+print("Hello,", name)
