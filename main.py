@@ -1,6 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
