@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_pressure(force, area):
+        return force / area
+  import sys
+  def get_python_version():
+        return sys.version
