@@ -1,6 +1,8 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
