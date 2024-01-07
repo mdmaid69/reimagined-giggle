@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
+text = "Hello, world!"
+print("Reversed:", text[::-1])
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
