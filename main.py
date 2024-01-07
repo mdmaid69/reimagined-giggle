@@ -1,9 +1,6 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
