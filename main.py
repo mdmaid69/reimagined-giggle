@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import sys
+  def get_python_version():
+        return sys.version
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
