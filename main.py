@@ -1,6 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def cube_number(x):
+        return x**3
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
