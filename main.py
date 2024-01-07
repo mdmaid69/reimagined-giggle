@@ -1,7 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import time
+def get_time_since_epoch():
+        return time.time()
