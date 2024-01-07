@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
