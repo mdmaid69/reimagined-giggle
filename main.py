@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def calculate_speed(distance, time):
+        return distance / time
