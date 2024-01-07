@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
