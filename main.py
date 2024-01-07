@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
 import collections
-def create_counter():
-        return collections.Counter()
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
