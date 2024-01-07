@@ -1,4 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  def subtract_numbers(x, y):
-        return x - y
+def count_elements(lst):
+        return len(lst)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
