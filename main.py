@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
