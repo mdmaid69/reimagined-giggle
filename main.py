@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
