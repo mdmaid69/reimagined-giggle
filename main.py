@@ -1,5 +1,5 @@
-print([x**2 for x in range(10)])
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
