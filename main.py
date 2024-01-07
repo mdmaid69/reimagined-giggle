@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
