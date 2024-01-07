@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def remove_duplicates(lst):
+        return list(set(lst))
