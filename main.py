@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
