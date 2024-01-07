@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_base_name(path):
+        return os.path.basename(path)
+import random
+print(random.randint(0, 100))
