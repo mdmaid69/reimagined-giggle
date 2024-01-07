@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_as_list(array):
+        return list(array)
