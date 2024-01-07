@@ -1,6 +1,4 @@
-  def cube_number(x):
-        return x**3
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import tensorflow as tf
+print(tf.__version__)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
