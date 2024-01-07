@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
