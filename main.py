@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_density(mass, volume):
+        return mass / volume
