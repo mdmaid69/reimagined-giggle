@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def count_elements(lst):
-        return len(lst)
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
