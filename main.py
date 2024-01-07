@@ -1,5 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  def is_even(n):
-        return n % 2 == 0
+  def delete_file(file_name):
+        os.remove(file_name)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
