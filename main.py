@@ -1,8 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
