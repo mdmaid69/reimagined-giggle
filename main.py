@@ -1,6 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import getpass
+def get_username():
+        return getpass.getuser()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
