@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
