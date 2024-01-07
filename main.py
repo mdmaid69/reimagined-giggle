@@ -1,8 +1,7 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
