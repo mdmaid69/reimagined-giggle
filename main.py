@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def convert_to_octal(n):
+        return oct(n)
