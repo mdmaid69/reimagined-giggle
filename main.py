@@ -1,5 +1,7 @@
+i = 0
+while i < 5:
+        print(i)
+        i += 1
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def reverse_string(s):
-        return s[::-1]
+  def get_current_directory():
+        return os.getcwd()
