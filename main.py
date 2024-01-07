@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
