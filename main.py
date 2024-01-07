@@ -1,5 +1,8 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def find_min(lst):
-        return min(lst)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
