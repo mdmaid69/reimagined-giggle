@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
