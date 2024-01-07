@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import datetime
+print(datetime.datetime.now())
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
