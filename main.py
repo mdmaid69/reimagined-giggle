@@ -1,6 +1,6 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
 import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def clear_array(array):
-        array *= 0
+def set_array_item(array, i, item):
+        array[i] = item
