@@ -1,8 +1,6 @@
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
