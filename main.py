@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
