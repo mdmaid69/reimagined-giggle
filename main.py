@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
