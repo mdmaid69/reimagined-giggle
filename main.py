@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
