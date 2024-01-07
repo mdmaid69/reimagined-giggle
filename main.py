@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import time
+def get_time_since_epoch():
+        return time.time()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
