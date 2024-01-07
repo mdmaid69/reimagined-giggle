@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
