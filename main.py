@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def is_even(n):
+        return n % 2 == 0
