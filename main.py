@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def create_stack():
+        return collections.deque()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
