@@ -1,5 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
