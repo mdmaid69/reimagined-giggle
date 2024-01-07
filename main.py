@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
