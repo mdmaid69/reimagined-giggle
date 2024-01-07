@@ -1,5 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+print([x**2 for x in range(10)])
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
