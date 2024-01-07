@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
