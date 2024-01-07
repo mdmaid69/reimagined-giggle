@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
 import collections
-def create_user_string():
-        return collections.UserString()
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
