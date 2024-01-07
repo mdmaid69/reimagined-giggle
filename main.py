@@ -1,5 +1,7 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
