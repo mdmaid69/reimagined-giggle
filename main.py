@@ -1,5 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import time
+def get_current_time():
+        return time.ctime()
+  def reverse_list(lst):
+        return lst[::-1]
