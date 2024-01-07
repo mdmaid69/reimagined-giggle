@@ -1,6 +1,8 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import time
+def get_current_time():
+        return time.time()
