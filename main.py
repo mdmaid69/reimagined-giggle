@@ -1,6 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
