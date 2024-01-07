@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
