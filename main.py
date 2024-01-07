@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import datetime
+def get_today_date():
+        return datetime.date.today()
