@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
