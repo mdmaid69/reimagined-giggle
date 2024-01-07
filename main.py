@@ -1,6 +1,3 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def subtract_numbers(x, y):
+        return x - y
+print("Hello, world!")
