@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def delete_file(file_name):
+        os.remove(file_name)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
