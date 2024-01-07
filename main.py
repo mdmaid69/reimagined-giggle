@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import sys
+def print_python_version():
+        return sys.version
