@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def is_odd(n):
+        return n % 2 != 0
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
