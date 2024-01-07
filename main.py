@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
