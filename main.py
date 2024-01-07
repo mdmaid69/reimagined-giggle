@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
