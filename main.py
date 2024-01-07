@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_pressure(force, area):
+        return force / area
