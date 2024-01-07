@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
