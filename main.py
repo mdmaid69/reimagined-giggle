@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_bool(array):
+        return bool(array)
