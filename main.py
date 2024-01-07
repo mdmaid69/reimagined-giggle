@@ -1,6 +1,5 @@
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_current_working_directory():
+        return os.getcwd()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
