@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def reverse_list(lst):
-        return lst[::-1]
+def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_length(array):
+        return len(array)
