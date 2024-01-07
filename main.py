@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import array
+def set_array_item(array, i, item):
+        array[i] = item
