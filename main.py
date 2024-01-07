@@ -1,11 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
