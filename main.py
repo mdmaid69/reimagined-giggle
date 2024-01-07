@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def remove_duplicates(lst):
-        return list(set(lst))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
