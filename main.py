@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
