@@ -1,5 +1,5 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+for i in range(5):
+        print(i)
