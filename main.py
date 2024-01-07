@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_pressure(force, area):
-        return force / area
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
