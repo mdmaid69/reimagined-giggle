@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
