@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_array_index(array, item):
+        return array.index(item)
