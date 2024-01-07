@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def reverse_list(lst):
-        return lst[::-1]
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
