@@ -1,5 +1,7 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def is_palindrome(s):
+        return s == s[::-1]
