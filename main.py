@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
