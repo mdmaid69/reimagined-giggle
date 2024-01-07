@@ -1,5 +1,7 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
