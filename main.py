@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import numpy as np
-print(np.array([1, 2, 3]))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
