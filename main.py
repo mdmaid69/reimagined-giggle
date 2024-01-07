@@ -1,5 +1,7 @@
-  def reverse_list(lst):
-        return lst[::-1]
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
