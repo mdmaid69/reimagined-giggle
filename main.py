@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
