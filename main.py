@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
