@@ -1,6 +1,8 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
