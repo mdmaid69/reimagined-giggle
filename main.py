@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
