@@ -1,6 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import array
-def clear_array(array):
-        array *= 0
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
