@@ -1,6 +1,5 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
