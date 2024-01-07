@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
