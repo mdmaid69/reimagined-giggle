@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
