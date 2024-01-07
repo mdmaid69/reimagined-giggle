@@ -1,6 +1,11 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
