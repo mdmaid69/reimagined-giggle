@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import collections
+def create_counter():
+        return collections.Counter()
+  def count_elements(lst):
+        return len(lst)
