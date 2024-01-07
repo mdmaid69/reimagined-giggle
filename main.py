@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
