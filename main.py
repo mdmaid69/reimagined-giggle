@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
