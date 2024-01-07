@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
