@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def convert_to_octal(n):
-        return oct(n)
+import sys
+print(sys.version)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
