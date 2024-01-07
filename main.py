@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
