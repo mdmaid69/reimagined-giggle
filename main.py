@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
