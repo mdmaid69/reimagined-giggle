@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
