@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
