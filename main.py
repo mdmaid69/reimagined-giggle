@@ -1,6 +1,6 @@
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
