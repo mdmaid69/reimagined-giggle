@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
