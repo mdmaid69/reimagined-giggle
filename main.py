@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def cube_number(x):
+        return x**3
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
