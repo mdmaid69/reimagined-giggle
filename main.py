@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-  def convert_to_octal(n):
-        return oct(n)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
