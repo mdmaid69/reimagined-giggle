@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
