@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
