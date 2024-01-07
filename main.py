@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
