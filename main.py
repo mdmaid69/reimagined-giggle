@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import os
-print(os.getcwd())
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
