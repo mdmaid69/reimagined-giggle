@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import os
+print(os.getcwd())
