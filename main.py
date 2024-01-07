@@ -1,6 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
