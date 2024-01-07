@@ -1,5 +1,8 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import platform
+def get_python_version():
+        return platform.python_version()
