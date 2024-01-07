@@ -1,6 +1,5 @@
+def convert_to_octal(n):
+        return oct(n)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
