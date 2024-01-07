@@ -1,5 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def subtract_numbers(x, y):
-        return x - y
+def convert_to_hex(n):
+        return hex(n)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
