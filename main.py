@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def clear_array(array):
+        array *= 0
+  def convert_to_binary(n):
+        return bin(n)
