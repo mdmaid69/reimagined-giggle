@@ -1,6 +1,6 @@
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def remove_from_array(array, item):
+        array.remove(item)
