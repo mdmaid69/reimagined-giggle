@@ -1,5 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
