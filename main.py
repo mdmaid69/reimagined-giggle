@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
