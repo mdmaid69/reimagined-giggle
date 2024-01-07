@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def get_list_from_array(array):
+        return array.tolist()
