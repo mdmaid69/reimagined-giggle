@@ -1,5 +1,8 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
