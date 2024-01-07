@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+from collections import Counter
+print(Counter("hello world"))
