@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
