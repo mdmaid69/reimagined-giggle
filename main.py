@@ -1,6 +1,7 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
