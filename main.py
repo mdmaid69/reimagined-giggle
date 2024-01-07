@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
