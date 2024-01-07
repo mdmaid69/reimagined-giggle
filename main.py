@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import datetime
+print(datetime.datetime.now())
