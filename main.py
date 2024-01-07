@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
