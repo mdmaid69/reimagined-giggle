@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def count_elements(lst):
-        return len(lst)
+  def cube_number(x):
+        return x**3
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
