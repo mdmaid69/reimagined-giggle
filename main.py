@@ -1,5 +1,6 @@
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
   import os
-  def split_path(path):
-        return os.path.split(path)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
