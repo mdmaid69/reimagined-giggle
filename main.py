@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
