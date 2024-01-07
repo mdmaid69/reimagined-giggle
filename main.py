@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import sys
+def print_python_version():
+        return sys.version
