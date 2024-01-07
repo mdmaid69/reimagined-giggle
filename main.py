@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def find_max(lst):
+        return max(lst)
