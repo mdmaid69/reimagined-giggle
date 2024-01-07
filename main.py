@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def get_array_as_list(array):
-        return list(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def find_max(numbers):
+        return max(numbers)
