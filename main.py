@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  def subtract_numbers(x, y):
+        return x - y
