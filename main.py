@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def reverse_string(s):
+        return s[::-1]
