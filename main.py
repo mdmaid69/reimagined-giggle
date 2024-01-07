@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-def reverse_list(lst):
-        return lst[::-1]
+import tensorflow as tf
+print(tf.__version__)
+import collections
+def create_user_list():
+        return collections.UserList()
