@@ -1,6 +1,5 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+from collections import Counter
+print(Counter("hello world"))
