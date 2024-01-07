@@ -1,6 +1,5 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import getpass
-def get_username():
-        return getpass.getuser()
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
