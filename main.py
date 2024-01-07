@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
