@@ -1,5 +1,6 @@
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-for i in range(5):
-        print(i)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
