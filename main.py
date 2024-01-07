@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
