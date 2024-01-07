@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
