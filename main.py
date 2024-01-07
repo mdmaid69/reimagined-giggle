@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def remove_duplicates(lst):
+        return list(set(lst))
