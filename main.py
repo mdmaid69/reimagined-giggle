@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
