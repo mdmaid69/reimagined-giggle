@@ -1,7 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
