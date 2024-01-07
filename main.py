@@ -1,6 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
