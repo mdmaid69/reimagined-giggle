@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def append_to_array(array, item):
+        array.append(item)
