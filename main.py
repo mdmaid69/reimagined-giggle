@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
