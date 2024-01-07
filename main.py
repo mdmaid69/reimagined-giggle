@@ -1,6 +1,7 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import array
-def get_array_item(array, i):
-        return array[i]
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
