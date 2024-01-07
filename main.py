@@ -1,5 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def cube_number(x):
+        return x**3
+import json
+print(json.dumps({"name": "John", "age": 30}))
