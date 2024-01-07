@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import tensorflow as tf
-print(tf.__version__)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
