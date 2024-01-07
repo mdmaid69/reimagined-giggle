@@ -1,6 +1,5 @@
-print([x**2 for x in range(10)])
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
