@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import os
+def remove_directory(path):
+        os.rmdir(path)
