@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
