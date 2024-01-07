@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+from collections import Counter
+print(Counter("hello world"))
