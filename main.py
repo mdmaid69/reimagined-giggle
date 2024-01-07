@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
