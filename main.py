@@ -1,4 +1,5 @@
-print(sum(range(10)))
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import sys
+print(sys.version)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
