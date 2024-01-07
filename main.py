@@ -1,6 +1,5 @@
 import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+print(datetime.datetime.now())
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
