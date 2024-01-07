@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
