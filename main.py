@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
