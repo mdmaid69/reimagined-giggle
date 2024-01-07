@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def find_union(list1, list2):
+        return set(list1) | set(list2)
