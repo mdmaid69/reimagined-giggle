@@ -1,5 +1,8 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-from collections import Counter
-print(Counter("hello world"))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
