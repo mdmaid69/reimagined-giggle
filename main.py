@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
