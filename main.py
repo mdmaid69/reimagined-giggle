@@ -1,5 +1,11 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
