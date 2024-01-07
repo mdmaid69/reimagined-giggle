@@ -1,5 +1,7 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
