@@ -1,4 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-print(sum(range(10)))
+  def count_elements(lst):
+        return len(lst)
+import array
+def get_array_as_float(array):
+        return float(array[0])
