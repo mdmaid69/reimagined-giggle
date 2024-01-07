@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
