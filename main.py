@@ -1,6 +1,9 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
 import array
-def get_array_typecode(array):
-        return array.typecode
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
