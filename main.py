@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import logging
-def log_message(message):
-        logging.info(message)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def find_min(numbers):
+        return min(numbers)
