@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import os
-print(os.getcwd())
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+from collections import Counter
+print(Counter("hello world"))
