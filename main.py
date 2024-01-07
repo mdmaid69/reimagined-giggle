@@ -1,4 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
