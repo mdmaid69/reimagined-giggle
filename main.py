@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
