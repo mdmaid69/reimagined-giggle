@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import sys
+print(sys.version)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
