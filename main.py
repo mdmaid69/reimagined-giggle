@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
