@@ -1,7 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
