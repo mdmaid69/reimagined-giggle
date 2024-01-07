@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
