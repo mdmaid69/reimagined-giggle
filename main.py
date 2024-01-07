@@ -1,5 +1,7 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_density(mass, volume):
+        return mass / volume
