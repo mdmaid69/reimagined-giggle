@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
