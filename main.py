@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import os
+def remove_directory(path):
+        os.rmdir(path)
