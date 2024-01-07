@@ -1,5 +1,6 @@
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
