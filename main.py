@@ -1,5 +1,8 @@
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
