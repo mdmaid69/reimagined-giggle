@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  def reverse_list(lst):
+        return lst[::-1]
