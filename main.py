@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def divide_numbers(x, y):
+        return x / y
+  def is_even(n):
+        return n % 2 == 0
