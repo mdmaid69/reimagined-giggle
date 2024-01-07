@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def find_min(numbers):
-        return min(numbers)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import logging
+def log_message(message):
+        logging.info(message)
