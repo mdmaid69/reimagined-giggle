@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
