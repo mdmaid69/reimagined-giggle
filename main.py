@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
