@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
