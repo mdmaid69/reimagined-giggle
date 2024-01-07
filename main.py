@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
