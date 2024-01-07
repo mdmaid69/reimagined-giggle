@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
