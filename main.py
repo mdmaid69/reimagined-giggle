@@ -1,6 +1,6 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
