@@ -1,9 +1,5 @@
+  def sort_list(lst):
+        return sorted(lst)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def calculate_circle_area(radius):
+        return math.pi * radius**2
