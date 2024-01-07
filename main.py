@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import json
+print(json.dumps({"name": "John", "age": 30}))
