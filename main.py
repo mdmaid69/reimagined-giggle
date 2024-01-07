@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
