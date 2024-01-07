@@ -1,5 +1,8 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
