@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
