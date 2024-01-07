@@ -1,5 +1,6 @@
+import time
+def get_current_time():
+        return time.ctime()
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def convert_to_octal(n):
-        return oct(n)
+  def split_path(path):
+        return os.path.split(path)
