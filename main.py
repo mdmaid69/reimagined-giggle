@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import sys
-def print_python_version():
-        return sys.version
+def calculate_pressure(force, area):
+        return force / area
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
