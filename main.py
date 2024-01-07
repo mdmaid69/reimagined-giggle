@@ -1,4 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
