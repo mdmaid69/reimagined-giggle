@@ -1,7 +1,8 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
