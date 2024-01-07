@@ -1,10 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import math
+def calculate_floor(x):
+        return math.floor(x)
