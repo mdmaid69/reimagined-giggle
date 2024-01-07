@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
