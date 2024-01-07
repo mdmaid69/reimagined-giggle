@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
