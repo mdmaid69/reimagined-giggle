@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
+  import re
+  def find_all_occurrences(pattern, string):
         return re.findall(pattern, string)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
