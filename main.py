@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def subtract_numbers(x, y):
-        return x - y
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
