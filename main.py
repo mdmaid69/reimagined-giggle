@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
