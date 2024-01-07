@@ -1,5 +1,8 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import time
-print(time.time())
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
