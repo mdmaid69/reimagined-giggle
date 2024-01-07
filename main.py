@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
