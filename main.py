@@ -1,5 +1,7 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
