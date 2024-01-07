@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
