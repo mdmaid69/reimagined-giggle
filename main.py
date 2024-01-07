@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_speed(distance, time):
+        return distance / time
