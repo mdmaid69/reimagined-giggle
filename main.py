@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+text = "Hello, world!"
+print("Words:", len(text.split()))
