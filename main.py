@@ -1,5 +1,8 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
