@@ -1,6 +1,8 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
