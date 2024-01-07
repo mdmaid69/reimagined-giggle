@@ -1,5 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-for i in range(5):
-        print(i)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
