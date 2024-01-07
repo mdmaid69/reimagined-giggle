@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def convert_to_hex(n):
+        return hex(n)
