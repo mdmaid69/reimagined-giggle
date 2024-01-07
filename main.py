@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import logging
+def log_message(message):
+        logging.info(message)
