@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def cube_number(x):
+        return x**3
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
