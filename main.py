@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def get_base_name(path):
+        return os.path.basename(path)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
