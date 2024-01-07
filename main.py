@@ -1,6 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def reverse_list(lst):
+        return lst[::-1]
