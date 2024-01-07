@@ -1,7 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
