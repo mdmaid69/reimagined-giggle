@@ -1,6 +1,5 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
