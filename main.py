@@ -1,5 +1,5 @@
-import time
-print(time.time())
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
