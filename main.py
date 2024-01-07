@@ -1,5 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
