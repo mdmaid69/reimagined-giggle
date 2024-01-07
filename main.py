@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
