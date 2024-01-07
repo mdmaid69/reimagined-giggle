@@ -1,6 +1,9 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
