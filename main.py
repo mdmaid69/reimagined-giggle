@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  def multiply_numbers(x, y):
+        return x * y
