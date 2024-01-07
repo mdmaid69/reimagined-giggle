@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
