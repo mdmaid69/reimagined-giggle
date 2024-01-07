@@ -1,6 +1,5 @@
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
