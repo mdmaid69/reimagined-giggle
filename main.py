@@ -1,6 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def clear_array(array):
+        array *= 0
