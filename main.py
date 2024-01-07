@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  def convert_to_octal(n):
-        return oct(n)
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
