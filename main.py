@@ -1,5 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
