@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import platform
-def get_os_info():
-        return platform.uname()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
