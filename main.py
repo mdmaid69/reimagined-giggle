@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def convert_to_hex(n):
+        return hex(n)
