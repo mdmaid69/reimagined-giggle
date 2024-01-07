@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import time
+def get_time_since_epoch():
+        return time.time()
