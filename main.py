@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+x = 10
+y = 20
+print("Sum:", x + y)
