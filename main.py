@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-from collections import Counter
-print(Counter("hello world"))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
