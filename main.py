@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import re
-print(re.match("h.*o", "hello world"))
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_pressure(force, area):
+        return force / area
