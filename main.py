@@ -1,6 +1,7 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def find_union(list1, list2):
+        return set(list1) | set(list2)
