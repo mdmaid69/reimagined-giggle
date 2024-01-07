@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
