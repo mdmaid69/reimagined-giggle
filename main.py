@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
