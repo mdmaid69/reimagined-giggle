@@ -1,6 +1,8 @@
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def check_if_array_contains_item(array, item):
+        return item in array
