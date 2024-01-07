@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  def multiply_numbers(x, y):
+        return x * y
