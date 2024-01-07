@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
