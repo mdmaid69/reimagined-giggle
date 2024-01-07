@@ -1,8 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
