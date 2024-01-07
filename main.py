@@ -1,4 +1,6 @@
-print("Hello, world!")
-import array
-def get_array_length(array):
-        return len(array)
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_floor(x):
+        return math.floor(x)
