@@ -1,5 +1,8 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
