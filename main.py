@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
