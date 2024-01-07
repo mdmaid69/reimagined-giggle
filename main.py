@@ -1,4 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-import tensorflow as tf
-print(tf.__version__)
+  def remove_duplicates(lst):
+        return list(set(lst))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
