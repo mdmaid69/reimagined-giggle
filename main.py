@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
