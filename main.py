@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
