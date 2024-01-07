@@ -1,6 +1,6 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
