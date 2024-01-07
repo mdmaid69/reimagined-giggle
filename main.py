@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import json
+def convert_to_json(data):
+        return json.dumps(data)
