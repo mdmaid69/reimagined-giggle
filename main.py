@@ -1,7 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def convert_to_octal(n):
+        return oct(n)
+def calculate_density(mass, volume):
+        return mass / volume
