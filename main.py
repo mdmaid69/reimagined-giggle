@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_item(array, i):
+        return array[i]
