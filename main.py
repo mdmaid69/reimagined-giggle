@@ -1,6 +1,7 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  def reverse_list(lst):
+        return lst[::-1]
