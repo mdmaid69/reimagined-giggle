@@ -1,6 +1,7 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
