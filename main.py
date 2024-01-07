@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
