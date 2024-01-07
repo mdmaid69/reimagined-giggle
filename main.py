@@ -1,8 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def convert_to_hex(n):
+        return hex(n)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
