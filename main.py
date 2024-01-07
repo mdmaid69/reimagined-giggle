@@ -1,5 +1,9 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
