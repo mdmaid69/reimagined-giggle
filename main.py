@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def find_min(lst):
+        return min(lst)
