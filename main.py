@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def convert_to_binary(n):
+        return bin(n)
