@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
