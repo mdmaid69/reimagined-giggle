@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
