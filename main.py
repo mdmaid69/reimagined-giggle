@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
 sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
