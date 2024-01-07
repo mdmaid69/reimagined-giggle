@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
