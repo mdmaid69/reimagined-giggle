@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
