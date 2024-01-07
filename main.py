@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
