@@ -1,5 +1,8 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import sys
+def exit_program():
+        sys.exit()
