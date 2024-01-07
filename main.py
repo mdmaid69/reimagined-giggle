@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  def sort_list(lst):
+        return sorted(lst)
