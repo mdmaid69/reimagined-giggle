@@ -1,6 +1,9 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
