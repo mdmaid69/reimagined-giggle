@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
