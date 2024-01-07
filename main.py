@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+from collections import Counter
+print(Counter("hello world"))
+import platform
+def get_os_info():
+        return platform.uname()
