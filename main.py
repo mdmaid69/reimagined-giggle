@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def count_words(sentence):
+        return len(sentence.split())
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
