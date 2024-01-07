@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def convert_to_hex(n):
+        return hex(n)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
