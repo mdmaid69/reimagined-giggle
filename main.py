@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import platform
-def get_os_info():
-        return platform.uname()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def remove_duplicates(lst):
+        return list(set(lst))
