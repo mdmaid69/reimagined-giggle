@@ -1,8 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
