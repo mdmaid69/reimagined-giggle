@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def square_number(x):
+        return x**2
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
