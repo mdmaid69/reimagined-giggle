@@ -1,6 +1,6 @@
-for i in range(10): print(i)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
