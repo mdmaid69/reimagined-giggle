@@ -1,5 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def is_even(n):
+        return n % 2 == 0
+text = "Hello, world!"
+print("Characters:", len(text))
