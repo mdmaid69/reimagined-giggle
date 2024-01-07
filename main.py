@@ -1,6 +1,4 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_perpetuity(payment, rate):
+        return payment / rate
