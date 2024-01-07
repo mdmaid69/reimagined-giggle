@@ -1,4 +1,4 @@
 def calculate_current_ratio(current_assets, current_liabilities):
         return current_assets / current_liabilities
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def convert_to_hex(n):
+        return hex(n)
