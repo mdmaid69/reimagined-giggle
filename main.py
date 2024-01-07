@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
