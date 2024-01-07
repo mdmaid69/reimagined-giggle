@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def cube_number(x):
+        return x**3
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
