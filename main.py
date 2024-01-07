@@ -1,6 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+print([x**2 for x in range(10)])
