@@ -1,6 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def square_number(x):
+        return x**2
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
