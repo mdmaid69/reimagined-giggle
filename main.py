@@ -1,5 +1,5 @@
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
