@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
