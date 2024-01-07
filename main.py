@@ -1,8 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
