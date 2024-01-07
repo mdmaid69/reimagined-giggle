@@ -1,4 +1,12 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
