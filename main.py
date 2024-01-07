@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import collections
+def create_counter():
+        return collections.Counter()
