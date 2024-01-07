@@ -1,5 +1,7 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
