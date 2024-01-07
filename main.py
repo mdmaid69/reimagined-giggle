@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def square_number(x):
-        return x**2
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_speed(distance, time):
+        return distance / time
