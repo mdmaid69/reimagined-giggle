@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
