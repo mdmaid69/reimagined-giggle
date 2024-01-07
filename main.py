@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
