@@ -1,7 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import datetime
-print(datetime.datetime.now())
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
