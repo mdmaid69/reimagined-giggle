@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
