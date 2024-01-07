@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+text = "Hello, world!"
+print("Characters:", len(text))
