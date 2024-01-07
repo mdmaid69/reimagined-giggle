@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
