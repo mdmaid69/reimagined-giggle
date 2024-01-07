@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
