@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
