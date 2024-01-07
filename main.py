@@ -1,8 +1,5 @@
+def is_even(n):
+        return n % 2 == 0
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
