@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def is_odd(n):
-        return n % 2 != 0
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import datetime
+def get_today_date():
+        return datetime.date.today()
