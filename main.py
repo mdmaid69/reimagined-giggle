@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
