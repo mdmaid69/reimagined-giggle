@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
