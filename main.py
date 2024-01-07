@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def count_elements(lst):
+        return len(lst)
