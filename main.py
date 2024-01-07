@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def find_min(lst):
-        return min(lst)
+def count_words(sentence):
+        return len(sentence.split())
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
