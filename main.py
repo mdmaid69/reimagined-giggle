@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+for i in range(5):
+        print(i)
