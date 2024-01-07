@@ -1,5 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-name = "Python"
-print("Hello,", name)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
