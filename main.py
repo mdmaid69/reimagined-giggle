@@ -1,5 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
