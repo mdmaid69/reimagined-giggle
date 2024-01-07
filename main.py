@@ -1,5 +1,9 @@
-import collections
-def create_queue():
-        return collections.deque()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
