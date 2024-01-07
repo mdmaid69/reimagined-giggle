@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
