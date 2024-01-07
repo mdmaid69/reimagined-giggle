@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import datetime
+print(datetime.datetime.now())
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
