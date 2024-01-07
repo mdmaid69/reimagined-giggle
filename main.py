@@ -1,6 +1,13 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import random
-def roll_die():
-        return random.randint(1, 6)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
