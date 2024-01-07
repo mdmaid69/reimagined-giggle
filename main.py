@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
