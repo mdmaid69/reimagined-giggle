@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
