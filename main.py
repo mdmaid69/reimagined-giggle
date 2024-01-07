@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def reverse_array(array):
+        array.reverse()
