@@ -1,5 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def multiply_numbers(x, y):
+        return x * y
+def divide_numbers(x, y):
+        return x / y
