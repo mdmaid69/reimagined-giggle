@@ -1,5 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def count_words(sentence):
-        return len(sentence.split())
+print([x**2 for x in range(10)])
+  import os
+  def get_current_directory():
+        return os.getcwd()
