@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
