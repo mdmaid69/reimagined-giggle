@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def count_characters(sentence):
+        return len(sentence)
