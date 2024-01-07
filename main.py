@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import platform
+def get_python_version():
+        return platform.python_version()
+def find_min(numbers):
+        return min(numbers)
