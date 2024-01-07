@@ -1,5 +1,8 @@
-import array
-def get_array_length(array):
-        return len(array)
-from collections import Counter
-print(Counter("hello world"))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
