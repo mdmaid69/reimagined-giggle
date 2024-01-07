@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import platform
+def get_python_version():
+        return platform.python_version()
+import collections
+def create_user_list():
+        return collections.UserList()
