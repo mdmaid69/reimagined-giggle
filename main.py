@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_work(force, distance):
+        return force * distance
