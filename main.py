@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def count_characters(sentence):
+        return len(sentence)
