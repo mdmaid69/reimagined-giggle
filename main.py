@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_speed(distance, time):
+        return distance / time
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
