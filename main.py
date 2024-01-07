@@ -1,8 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import os
+print(os.getcwd())
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
