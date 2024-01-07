@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  def calculate_area_rectangle(l, w):
+        return l * w
