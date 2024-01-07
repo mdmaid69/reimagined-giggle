@@ -1,6 +1,7 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
