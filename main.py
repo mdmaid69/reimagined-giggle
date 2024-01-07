@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import time
+print(time.time())
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
