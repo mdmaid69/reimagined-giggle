@@ -1,5 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import sys
+def print_python_version():
+        print(sys.version)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
