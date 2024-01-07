@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_index(array, item):
+        return array.index(item)
+  def multiply_numbers(x, y):
+        return x * y
