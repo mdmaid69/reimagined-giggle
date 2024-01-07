@@ -1,8 +1,11 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import unittest
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import threading
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
