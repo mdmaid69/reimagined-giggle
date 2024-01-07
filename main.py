@@ -1,6 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_power(work, time):
+        return work / time
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
