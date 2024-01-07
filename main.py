@@ -1,5 +1,5 @@
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-def greet(name):
-        print(f"Hello, {name}!")
+def get_array_item_count(array, item):
+        return array.count(item)
