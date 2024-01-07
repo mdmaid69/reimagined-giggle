@@ -1,4 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
