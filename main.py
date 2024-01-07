@@ -1,6 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+name = "Python"
+print("Hello,", name)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
