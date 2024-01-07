@@ -1,4 +1,7 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-print([x**2 for x in range(10)])
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import collections
+def create_user_string():
+        return collections.UserString()
