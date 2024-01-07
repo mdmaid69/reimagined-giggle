@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def convert_to_binary(n):
+        return bin(n)
