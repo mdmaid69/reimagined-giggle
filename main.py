@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
