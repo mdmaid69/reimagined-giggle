@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def subtract_numbers(x, y):
+        return x - y
