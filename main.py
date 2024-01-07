@@ -1,4 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_area(radius):
-        return 3.14 * radius * radius
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
