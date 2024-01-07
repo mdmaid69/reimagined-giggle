@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import datetime
+def get_current_date():
+        return datetime.date.today()
