@@ -1,4 +1,5 @@
-def square_number(x):
-        return x**2
 import re
-print(re.match("h.*o", "hello world"))
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def find_max(lst):
+        return max(lst)
