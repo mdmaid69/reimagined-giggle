@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
