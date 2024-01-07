@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
