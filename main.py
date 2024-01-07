@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_itemsize(array):
+        return array.itemsize
