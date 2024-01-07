@@ -1,5 +1,5 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_density(mass, volume):
-        return mass / volume
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
