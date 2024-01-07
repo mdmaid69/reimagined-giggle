@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
