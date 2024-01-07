@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def count_characters(sentence):
+        return len(sentence)
