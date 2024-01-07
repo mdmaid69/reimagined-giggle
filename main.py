@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
