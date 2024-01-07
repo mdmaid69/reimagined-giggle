@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def find_min(lst):
+        return min(lst)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
