@@ -1,5 +1,6 @@
+import os
+def get_current_working_directory():
+        return os.getcwd()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
