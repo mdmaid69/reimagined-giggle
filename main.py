@@ -1,5 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+x = 10
+y = 20
+print("Sum:", x + y)
