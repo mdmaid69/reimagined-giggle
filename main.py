@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import os
+def get_current_working_directory():
+        return os.getcwd()
