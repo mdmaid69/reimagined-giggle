@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
 import json
-def convert_to_json(data):
-        return json.dumps(data)
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
