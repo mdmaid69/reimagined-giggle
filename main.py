@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  def cube_number(x):
-        return x**3
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
