@@ -1,4 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def find_max(numbers):
-        return max(numbers)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def add_numbers(a, b):
+        return a + b
