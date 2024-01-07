@@ -1,6 +1,8 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
