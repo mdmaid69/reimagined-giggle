@@ -1,5 +1,4 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import sys
-def print_python_version():
-        return sys.version
+print([x**2 for x in range(10)])
+import os
+def change_working_directory(path):
+        os.chdir(path)
