@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_acceleration(speed, time):
+        return speed / time
