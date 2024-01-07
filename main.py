@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def append_to_array(array, item):
+        array.append(item)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
