@@ -1,5 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
