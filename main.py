@@ -1,6 +1,6 @@
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
