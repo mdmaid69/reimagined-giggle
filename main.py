@@ -1,6 +1,6 @@
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
