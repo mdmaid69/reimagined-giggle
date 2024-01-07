@@ -1,5 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import datetime
-print(datetime.datetime.now())
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
