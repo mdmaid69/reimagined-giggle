@@ -1,4 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import re
-print(re.match("h.*o", "hello world"))
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
