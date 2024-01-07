@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
