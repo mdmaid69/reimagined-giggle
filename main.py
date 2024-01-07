@@ -1,5 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
