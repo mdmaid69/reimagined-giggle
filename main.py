@@ -1,4 +1,8 @@
-import tensorflow as tf
-print(tf.__version__)
-def divide_numbers(x, y):
-        return x / y
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def reverse_array(array):
+        array.reverse()
