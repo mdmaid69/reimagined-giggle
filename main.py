@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
