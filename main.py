@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import sys
+def print_python_version():
+        print(sys.version)
