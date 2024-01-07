@@ -1,4 +1,8 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
