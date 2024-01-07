@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def reverse_string(s):
+        return s[::-1]
