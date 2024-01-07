@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
