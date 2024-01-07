@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
