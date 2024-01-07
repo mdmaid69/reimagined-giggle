@@ -1,6 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
