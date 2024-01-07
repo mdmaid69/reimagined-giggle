@@ -1,6 +1,8 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
