@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
