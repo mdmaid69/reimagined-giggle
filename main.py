@@ -1,5 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-  def square_number(x):
-        return x**2
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
