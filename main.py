@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
