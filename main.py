@@ -1,8 +1,3 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def convert_to_binary(n):
+        return bin(n)
+print([x**2 for x in range(10)])
