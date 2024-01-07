@@ -1,5 +1,9 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def cube_number(x):
-        return x**3
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
