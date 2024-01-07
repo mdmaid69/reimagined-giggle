@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
