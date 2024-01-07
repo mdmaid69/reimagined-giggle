@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import collections
+def create_queue():
+        return collections.deque()
+import time
+print(time.time())
