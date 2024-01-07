@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import array
+def get_array_as_bool(array):
+        return bool(array)
