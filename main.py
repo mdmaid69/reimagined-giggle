@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
