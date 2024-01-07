@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def find_min(numbers):
+        return min(numbers)
