@@ -1,5 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
