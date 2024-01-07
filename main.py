@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def calculate_pressure(force, area):
+        return force / area
