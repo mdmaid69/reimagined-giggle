@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-from collections import Counter
-print(Counter("hello world"))
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
