@@ -1,7 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import sys
+def print_python_version():
+        print(sys.version)
