@@ -1,4 +1,5 @@
+  def convert_to_octal(n):
+        return oct(n)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-print("Hello, world!")
+def get_array_as_bytes(array):
+        return bytes(array)
