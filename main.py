@@ -1,6 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def is_odd(n):
+        return n % 2 != 0
