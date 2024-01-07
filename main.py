@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
