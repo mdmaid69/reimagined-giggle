@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def find_min(lst):
+        return min(lst)
