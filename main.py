@@ -1,6 +1,5 @@
+def convert_to_octal(n):
+        return oct(n)
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
