@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import sys
-def exit_program():
-        sys.exit()
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+print(math.pi)
