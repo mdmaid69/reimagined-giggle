@@ -1,5 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
