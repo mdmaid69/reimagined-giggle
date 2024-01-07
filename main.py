@@ -1,8 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
