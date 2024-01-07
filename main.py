@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
