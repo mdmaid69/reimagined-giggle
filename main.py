@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
