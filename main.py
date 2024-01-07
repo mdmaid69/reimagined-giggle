@@ -1,6 +1,5 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_density(mass, volume):
+        return mass / volume
