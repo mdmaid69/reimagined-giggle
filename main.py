@@ -1,5 +1,5 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import tensorflow as tf
+print(tf.__version__)
