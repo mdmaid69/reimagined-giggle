@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
