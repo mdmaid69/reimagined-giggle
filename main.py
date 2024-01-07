@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import collections
+def create_queue():
+        return collections.deque()
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
