@@ -1,6 +1,8 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
