@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  def is_even(n):
+        return n % 2 == 0
