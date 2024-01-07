@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
