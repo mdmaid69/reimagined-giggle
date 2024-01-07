@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
