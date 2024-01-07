@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import collections
-def create_user_string():
-        return collections.UserString()
+import os
+print(os.getcwd())
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
