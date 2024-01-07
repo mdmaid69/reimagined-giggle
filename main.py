@@ -1,3 +1,4 @@
-print([x**2 for x in range(10)])
-import random
-print(random.randint(0, 100))
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import tensorflow as tf
+print(tf.__version__)
