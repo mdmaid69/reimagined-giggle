@@ -1,5 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
