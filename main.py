@@ -1,6 +1,12 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import sys
+def exit_program():
+        sys.exit()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
