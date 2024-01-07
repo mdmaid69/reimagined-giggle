@@ -1,5 +1,8 @@
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_power(work, time):
-        return work / time
+def list_files_in_directory(path):
+        return os.listdir(path)
