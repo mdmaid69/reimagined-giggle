@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def clear_array(array):
+        array *= 0
