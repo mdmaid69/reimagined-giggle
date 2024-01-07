@@ -1,6 +1,7 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
