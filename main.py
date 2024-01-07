@@ -1,6 +1,9 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
