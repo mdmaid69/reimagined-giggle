@@ -1,4 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-for i in range(10): print(i)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
