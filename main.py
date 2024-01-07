@@ -1,6 +1,11 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
