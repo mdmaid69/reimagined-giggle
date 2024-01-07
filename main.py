@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
