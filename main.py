@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import time
+def get_current_time():
+        return time.ctime()
