@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
