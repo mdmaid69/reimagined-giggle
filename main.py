@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_work(force, distance):
+        return force * distance
+def find_min(lst):
+        return min(lst)
