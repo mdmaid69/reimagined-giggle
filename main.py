@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
