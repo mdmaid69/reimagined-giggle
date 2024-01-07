@@ -1,6 +1,6 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import sys
-def print_python_version():
-        print(sys.version)
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def split_path(path):
+        return os.path.split(path)
