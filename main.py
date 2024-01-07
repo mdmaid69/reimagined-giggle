@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
