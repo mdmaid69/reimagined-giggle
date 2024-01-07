@@ -1,5 +1,8 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-for i in range(5):
-        print(i)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
