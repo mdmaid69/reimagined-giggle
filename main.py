@@ -1,4 +1,4 @@
-def sort_list(lst):
-        return sorted(lst)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_power(work, time):
+        return work / time
