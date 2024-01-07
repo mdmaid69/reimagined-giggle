@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_sine(x):
+        return math.sin(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
