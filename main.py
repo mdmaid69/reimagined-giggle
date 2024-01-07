@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def divide_numbers(x, y):
+        return x / y
