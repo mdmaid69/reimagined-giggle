@@ -1,6 +1,8 @@
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
