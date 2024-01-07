@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import collections
-def create_user_string():
-        return collections.UserString()
+def sort_list(lst):
+        return sorted(lst)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
