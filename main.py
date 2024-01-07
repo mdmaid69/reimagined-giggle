@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import sys
+def print_python_version():
+        print(sys.version)
 import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def log_message(message):
+        logging.info(message)
