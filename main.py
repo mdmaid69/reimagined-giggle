@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
