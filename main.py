@@ -1,5 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+text = "Hello, world!"
+print("Uppercase:", text.upper())
