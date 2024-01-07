@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def cube_number(x):
+        return x**3
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
