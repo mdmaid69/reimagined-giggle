@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_as_int(array):
+        return int(array[0])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
