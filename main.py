@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
