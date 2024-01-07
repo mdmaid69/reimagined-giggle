@@ -1,4 +1,4 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def is_even(n):
-        return n % 2 == 0
+def square_number(x):
+        return x**2
+import numpy as np
+print(np.array([1, 2, 3]))
