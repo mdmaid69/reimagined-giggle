@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def is_odd(n):
+        return n % 2 != 0
