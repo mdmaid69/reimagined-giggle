@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import platform
+def get_python_version():
+        return platform.python_version()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
