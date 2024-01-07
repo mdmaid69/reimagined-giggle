@@ -1,7 +1,4 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+print("Hello, world!")
+import time
+def get_time_since_epoch():
+        return time.time()
