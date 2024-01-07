@@ -1,7 +1,7 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_length(array):
+        return len(array)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
