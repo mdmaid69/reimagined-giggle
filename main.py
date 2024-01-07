@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
