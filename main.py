@@ -1,5 +1,8 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
