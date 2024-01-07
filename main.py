@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
