@@ -1,6 +1,7 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import collections
-def create_user_string():
-        return collections.UserString()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
