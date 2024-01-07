@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
