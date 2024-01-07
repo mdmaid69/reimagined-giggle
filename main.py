@@ -1,5 +1,11 @@
-def calculate_work(force, distance):
-        return force * distance
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
