@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
