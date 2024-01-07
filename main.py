@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_queue():
+        return collections.deque()
