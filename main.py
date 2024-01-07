@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def get_array_typecode(array):
+        return array.typecode
