@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import sys
+  def get_python_version():
+        return sys.version
