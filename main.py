@@ -1,8 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def is_odd(n):
+        return n % 2 != 0
