@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def find_min(lst):
+        return min(lst)
