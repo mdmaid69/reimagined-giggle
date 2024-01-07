@@ -1,4 +1,5 @@
-import sys
-print(sys.version)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
