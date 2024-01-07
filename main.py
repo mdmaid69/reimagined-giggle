@@ -1,6 +1,6 @@
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
