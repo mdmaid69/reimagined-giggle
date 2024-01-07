@@ -1,6 +1,8 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
