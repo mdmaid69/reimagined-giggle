@@ -1,5 +1,7 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def sort_list(lst):
+        return sorted(lst)
