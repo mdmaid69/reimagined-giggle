@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
