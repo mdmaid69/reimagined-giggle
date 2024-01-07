@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_pressure(force, area):
-        return force / area
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import tensorflow as tf
+print(tf.__version__)
