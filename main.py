@@ -1,5 +1,6 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
