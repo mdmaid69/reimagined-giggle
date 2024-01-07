@@ -1,6 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def convert_to_octal(n):
+        return oct(n)
+def remove_duplicates(lst):
+        return list(set(lst))
