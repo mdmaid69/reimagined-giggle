@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_pressure(force, area):
-        return force / area
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_error_function(x):
+        return math.erf(x)
