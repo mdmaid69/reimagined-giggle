@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
 import array
-def reverse_array(array):
-        array.reverse()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
