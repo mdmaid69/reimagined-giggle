@@ -1,5 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
