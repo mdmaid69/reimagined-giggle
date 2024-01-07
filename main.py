@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
