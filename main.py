@@ -1,5 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_work(force, distance):
-        return force * distance
+  def multiply_numbers(x, y):
+        return x * y
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
