@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
