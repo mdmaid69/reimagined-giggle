@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
