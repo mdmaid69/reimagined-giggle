@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def convert_to_binary(n):
-        return bin(n)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
