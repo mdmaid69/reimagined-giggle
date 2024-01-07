@@ -1,5 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+print([x**2 for x in range(10)])
