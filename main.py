@@ -1,5 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
