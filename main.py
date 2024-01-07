@@ -1,5 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_power(work, time):
+        return work / time
