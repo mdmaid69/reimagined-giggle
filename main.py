@@ -1,5 +1,6 @@
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_power(work, time):
-        return work / time
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
