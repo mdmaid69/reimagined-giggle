@@ -1,3 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-print([x**2 for x in range(10)])
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
