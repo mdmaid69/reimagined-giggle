@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_as_set(array):
+        return set(array)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
