@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
