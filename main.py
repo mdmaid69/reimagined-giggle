@@ -1,6 +1,6 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def get_array_as_complex(array):
+        return complex(array[0])
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
