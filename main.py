@@ -1,5 +1,7 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  def is_odd(n):
-        return n % 2 != 0
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
