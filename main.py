@@ -1,6 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
