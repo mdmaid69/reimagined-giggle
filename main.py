@@ -1,6 +1,11 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def reverse_array(array):
+        array.reverse()
