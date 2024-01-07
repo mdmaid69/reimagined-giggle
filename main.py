@@ -1,5 +1,8 @@
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
 import random
-print(random.randint(0, 100))
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
