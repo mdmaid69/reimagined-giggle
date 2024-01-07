@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def count_characters(sentence):
-        return len(sentence)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
