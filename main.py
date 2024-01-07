@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_list_from_array(array):
+        return array.tolist()
+def is_even(n):
+        return n % 2 == 0
