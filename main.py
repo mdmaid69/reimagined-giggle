@@ -1,5 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def subtract_numbers(x, y):
+        return x - y
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
