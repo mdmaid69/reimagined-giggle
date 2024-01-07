@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def add_numbers(x, y):
+        return x + y
+import logging
+def log_message(message):
+        logging.info(message)
