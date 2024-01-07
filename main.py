@@ -1,11 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
