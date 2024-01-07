@@ -1,9 +1,6 @@
-import xml.etree.ElementTree as ET
-root = ET.Element("root")
-doc = ET.SubElement(root, "doc")
-ET.SubElement(doc, "field1", name="blah").text = "some value1"
-ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
-tree = ET.ElementTree(root)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
