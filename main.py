@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_density(mass, volume):
+        return mass / volume
