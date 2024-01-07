@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
