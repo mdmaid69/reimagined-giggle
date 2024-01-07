@@ -1,6 +1,7 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_work(force, distance):
+        return force * distance
