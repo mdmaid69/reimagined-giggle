@@ -1,5 +1,6 @@
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  def multiply_numbers(x, y):
-        return x * y
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
