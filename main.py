@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
