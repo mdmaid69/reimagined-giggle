@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import collections
+def create_user_string():
+        return collections.UserString()
