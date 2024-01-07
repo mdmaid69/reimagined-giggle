@@ -1,6 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import sys
-def print_python_version():
-        print(sys.version)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  def add_numbers(x, y):
+        return x + y
