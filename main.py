@@ -1,7 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import os
+print(os.getcwd())
