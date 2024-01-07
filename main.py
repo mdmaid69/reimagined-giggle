@@ -1,5 +1,8 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
