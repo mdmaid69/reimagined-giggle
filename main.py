@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
