@@ -1,5 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
