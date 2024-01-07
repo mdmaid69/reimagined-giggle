@@ -1,5 +1,9 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import json
+def convert_to_json(data):
+        return json.dumps(data)
