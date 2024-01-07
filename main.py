@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import time
-def get_time_since_epoch():
-        return time.time()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
