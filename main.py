@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def count_elements(lst):
+        return len(lst)
