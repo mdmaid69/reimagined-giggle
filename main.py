@@ -1,6 +1,3 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+for i in range(10): print(i)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
