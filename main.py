@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import platform
+def get_python_version():
+        return platform.python_version()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
