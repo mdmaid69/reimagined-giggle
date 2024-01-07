@@ -1,7 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
