@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
