@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import time
-print(time.time())
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  def add_numbers(x, y):
+        return x + y
