@@ -1,6 +1,5 @@
+def find_min(lst):
+        return min(lst)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
