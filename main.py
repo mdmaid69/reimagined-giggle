@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
