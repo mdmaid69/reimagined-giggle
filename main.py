@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def find_unique_words(sentence):
+        return set(sentence.split())
