@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
