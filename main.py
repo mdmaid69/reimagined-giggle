@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
