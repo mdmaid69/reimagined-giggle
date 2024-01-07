@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-name = "Python"
-print("Hello,", name)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
