@@ -1,7 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def sort_list(lst):
+        return sorted(lst)
+import os
+print(os.getcwd())
