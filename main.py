@@ -1,4 +1,7 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
