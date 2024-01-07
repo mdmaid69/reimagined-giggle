@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
