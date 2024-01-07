@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def find_max(numbers):
+        return max(numbers)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
