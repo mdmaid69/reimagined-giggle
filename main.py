@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def split_path(path):
+        return os.path.split(path)
