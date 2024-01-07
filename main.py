@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def delete_file(file_name):
+        os.remove(file_name)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
