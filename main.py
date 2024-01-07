@@ -1,5 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def calculate_speed(distance, time):
-        return distance / time
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
