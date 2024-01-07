@@ -1,8 +1,5 @@
+def divide_numbers(x, y):
+        return x / y
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
