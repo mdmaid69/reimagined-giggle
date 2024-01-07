@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_array_length(array):
+        return len(array)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
