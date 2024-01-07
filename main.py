@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def reverse_list(lst):
+        return lst[::-1]
