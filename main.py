@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def reverse_array(array):
+        array.reverse()
