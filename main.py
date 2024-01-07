@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
