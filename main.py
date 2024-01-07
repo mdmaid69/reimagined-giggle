@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
