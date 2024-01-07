@@ -1,5 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
