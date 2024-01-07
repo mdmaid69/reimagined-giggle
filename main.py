@@ -1,4 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-for i in range(10): print(i)
+import array
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
