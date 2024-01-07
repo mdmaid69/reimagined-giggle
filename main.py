@@ -1,6 +1,3 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+print([x**2 for x in range(10)])
+def calculate_perpetuity(payment, rate):
+        return payment / rate
