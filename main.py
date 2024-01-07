@@ -1,6 +1,8 @@
-import sys
-def exit_program():
-        sys.exit()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
