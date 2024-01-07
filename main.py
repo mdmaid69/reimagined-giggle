@@ -1,5 +1,5 @@
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
 n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+print("Powers of 2:", [2**x for x in range(n)])
