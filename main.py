@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def find_max(numbers):
+        return max(numbers)
