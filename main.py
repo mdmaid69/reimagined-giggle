@@ -1,5 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-def cube_number(x):
-        return x**3
+def calculate_power(work, time):
+        return work / time
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
