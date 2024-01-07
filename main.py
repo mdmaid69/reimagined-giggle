@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import platform
+def get_os_info():
+        return platform.uname()
