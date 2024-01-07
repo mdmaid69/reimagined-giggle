@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import sys
+  def get_python_version():
+        return sys.version
