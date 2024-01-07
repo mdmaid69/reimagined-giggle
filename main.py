@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
