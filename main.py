@@ -1,5 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
