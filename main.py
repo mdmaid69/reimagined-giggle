@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
