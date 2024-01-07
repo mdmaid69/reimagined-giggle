@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
