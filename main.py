@@ -1,11 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import datetime
+print(datetime.datetime.now())
