@@ -1,9 +1,5 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+def reverse_list(lst):
+        return lst[::-1]
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
