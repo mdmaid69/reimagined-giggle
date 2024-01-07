@@ -1,5 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-import collections
-def create_user_string():
-        return collections.UserString()
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
