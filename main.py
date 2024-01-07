@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  def multiply_numbers(x, y):
+        return x * y
