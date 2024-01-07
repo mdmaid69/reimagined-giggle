@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def get_array_as_str(array):
-        return str(array)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
