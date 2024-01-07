@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
