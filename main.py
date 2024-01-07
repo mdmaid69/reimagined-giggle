@@ -1,7 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def count_characters(sentence):
+        return len(sentence)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
