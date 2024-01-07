@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
