@@ -1,6 +1,5 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
