@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
