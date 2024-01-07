@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
