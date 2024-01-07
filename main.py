@@ -1,4 +1,7 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
