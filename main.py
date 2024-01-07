@@ -1,7 +1,8 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def divide_numbers(x, y):
-        return x / y
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
