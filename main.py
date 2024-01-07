@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
