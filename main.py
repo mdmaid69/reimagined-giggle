@@ -1,8 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
