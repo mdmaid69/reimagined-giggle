@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def clear_array(array):
+        array *= 0
