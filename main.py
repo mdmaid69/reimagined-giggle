@@ -1,3 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-print(sum(range(10)))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
