@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def find_unique_words(sentence):
+        return set(sentence.split())
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
