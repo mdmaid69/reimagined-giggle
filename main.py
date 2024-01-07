@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
