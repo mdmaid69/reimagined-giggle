@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def add_numbers(x, y):
+        return x + y
