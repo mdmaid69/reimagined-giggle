@@ -1,6 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-text = "Hello, world!"
-print("Characters:", len(text))
+def get_array_buffer_info(array):
+        return array.buffer_info()
