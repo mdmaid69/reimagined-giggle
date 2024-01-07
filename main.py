@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
