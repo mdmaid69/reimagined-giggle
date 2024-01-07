@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
