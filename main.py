@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def count_characters(sentence):
+        return len(sentence)
