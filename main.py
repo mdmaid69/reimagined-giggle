@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
