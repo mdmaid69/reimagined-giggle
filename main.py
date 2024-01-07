@@ -1,7 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import array
+def get_array_as_set(array):
+        return set(array)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
