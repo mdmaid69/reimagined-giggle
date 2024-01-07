@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
