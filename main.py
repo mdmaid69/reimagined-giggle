@@ -1,5 +1,5 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def append_to_array(array, item):
+        array.append(item)
+for i in range(5):
+        print(i)
