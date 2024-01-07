@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def count_characters(sentence):
+        return len(sentence)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
