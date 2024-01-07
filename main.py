@@ -1,5 +1,8 @@
-def count_words(sentence):
-        return len(sentence.split())
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
