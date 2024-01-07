@@ -1,6 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
