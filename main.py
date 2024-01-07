@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import sys
-def print_python_version():
-        return sys.version
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
