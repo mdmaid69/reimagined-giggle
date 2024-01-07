@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def find_min(lst):
-        return min(lst)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import os
+def remove_directory(path):
+        os.rmdir(path)
