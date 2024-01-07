@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
