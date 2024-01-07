@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
