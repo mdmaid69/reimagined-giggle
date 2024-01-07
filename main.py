@@ -1,5 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
