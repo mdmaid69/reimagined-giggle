@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
