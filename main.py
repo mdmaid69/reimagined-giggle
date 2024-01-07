@@ -1,8 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
