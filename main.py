@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def find_max(numbers):
+        return max(numbers)
