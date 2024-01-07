@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
