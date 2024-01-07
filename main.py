@@ -1,8 +1,9 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
