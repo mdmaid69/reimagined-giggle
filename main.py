@@ -1,6 +1,8 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
