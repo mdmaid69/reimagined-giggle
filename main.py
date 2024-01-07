@@ -1,8 +1,6 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
