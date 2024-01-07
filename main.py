@@ -1,6 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
