@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
