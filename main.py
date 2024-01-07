@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
