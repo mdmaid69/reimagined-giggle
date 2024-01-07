@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import collections
+def create_user_list():
+        return collections.UserList()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
