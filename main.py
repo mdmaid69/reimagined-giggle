@@ -1,4 +1,4 @@
-for i in range(5):
-        print(i)
-  def add_numbers(x, y):
-        return x + y
+import array
+def get_array_as_list(array):
+        return list(array)
+print("Hello, world!")
