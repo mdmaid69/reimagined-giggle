@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
