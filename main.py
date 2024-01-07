@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import time
+def get_current_time():
+        return time.time()
