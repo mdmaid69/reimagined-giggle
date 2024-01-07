@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
