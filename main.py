@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-x = 10
-y = 20
-print("Sum:", x + y)
+for i in range(5):
+        print(i)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
