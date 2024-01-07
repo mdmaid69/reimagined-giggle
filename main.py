@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def multiply_numbers(x, y):
+        return x * y
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
