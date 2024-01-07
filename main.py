@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
