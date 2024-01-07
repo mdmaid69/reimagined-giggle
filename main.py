@@ -1,5 +1,5 @@
+def reverse_list(lst):
+        return lst[::-1]
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
