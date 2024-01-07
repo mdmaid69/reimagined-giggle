@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
