@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def multiply_numbers(x, y):
+        return x * y
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
