@@ -1,4 +1,7 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import datetime
+print(datetime.datetime.now())
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
