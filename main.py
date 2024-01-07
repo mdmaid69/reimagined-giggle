@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
