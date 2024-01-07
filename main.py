@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
