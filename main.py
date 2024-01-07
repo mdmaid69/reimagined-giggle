@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
