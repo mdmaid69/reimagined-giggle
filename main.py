@@ -1,5 +1,8 @@
-import os
-print(os.getcwd())
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
