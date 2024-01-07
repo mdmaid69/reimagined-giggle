@@ -1,5 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def reverse_list(lst):
-        return lst[::-1]
+text = "Hello, world!"
+print("Words:", len(text.split()))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
