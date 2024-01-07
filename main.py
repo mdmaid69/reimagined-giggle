@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import collections
+def create_counter():
+        return collections.Counter()
+  def subtract_numbers(x, y):
+        return x - y
