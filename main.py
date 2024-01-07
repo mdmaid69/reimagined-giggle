@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
