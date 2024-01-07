@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import sys
-def exit_program():
-        sys.exit()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
