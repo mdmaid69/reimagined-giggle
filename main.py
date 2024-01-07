@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_power(work, time):
-        return work / time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
