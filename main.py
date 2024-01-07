@@ -1,5 +1,7 @@
-import re
-print(re.match("h.*o", "hello world"))
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def add_numbers(x, y):
+        return x + y
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
