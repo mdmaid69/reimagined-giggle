@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
