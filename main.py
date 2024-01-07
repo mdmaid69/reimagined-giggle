@@ -1,6 +1,5 @@
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
