@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
