@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def check_if_array_contains_item(array, item):
+        return item in array
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
