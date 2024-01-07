@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  def add_numbers(x, y):
+        return x + y
