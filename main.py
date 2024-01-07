@@ -1,6 +1,6 @@
 import collections
-def create_user_list():
-        return collections.UserList()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def create_stack():
+        return collections.deque()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
