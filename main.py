@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-name = "Python"
-print("Hello,", name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
