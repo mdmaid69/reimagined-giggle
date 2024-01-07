@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import collections
+def create_user_list():
+        return collections.UserList()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
