@@ -1,5 +1,12 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
