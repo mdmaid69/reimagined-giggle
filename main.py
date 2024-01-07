@@ -1,5 +1,9 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def get_array_as_str(array):
-        return str(array)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import os
+def change_working_directory(path):
+        os.chdir(path)
