@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
