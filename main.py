@@ -1,6 +1,8 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
