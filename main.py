@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def find_unique_words(sentence):
+        return set(sentence.split())
