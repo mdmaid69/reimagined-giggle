@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
