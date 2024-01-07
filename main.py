@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def reverse_array(array):
+        array.reverse()
