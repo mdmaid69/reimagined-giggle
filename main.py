@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
