@@ -1,6 +1,4 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def is_odd(n):
+        return n % 2 != 0
