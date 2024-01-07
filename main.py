@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def convert_to_octal(n):
+        return oct(n)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
