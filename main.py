@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  def cube_number(x):
-        return x**3
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def get_list_from_array(array):
+        return array.tolist()
