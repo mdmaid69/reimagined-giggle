@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
