@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def find_min(numbers):
-        return min(numbers)
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
