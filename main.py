@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-name = "Python"
-print("Hello,", name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
