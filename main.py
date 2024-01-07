@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
