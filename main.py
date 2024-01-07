@@ -1,4 +1,6 @@
-import time
-print(time.time())
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
