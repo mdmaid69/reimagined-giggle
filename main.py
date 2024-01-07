@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
