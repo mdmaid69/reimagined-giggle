@@ -1,8 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
