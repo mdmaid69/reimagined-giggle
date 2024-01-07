@@ -1,5 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def subtract_numbers(x, y):
+        return x - y
+def calculate_average(lst):
+        return sum(lst) / len(lst)
