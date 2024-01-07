@@ -1,6 +1,7 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+for i in range(5):
+        print(i)
