@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
