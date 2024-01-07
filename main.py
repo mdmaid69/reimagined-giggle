@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
