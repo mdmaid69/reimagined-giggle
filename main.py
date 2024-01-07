@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
