@@ -1,5 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  def convert_to_binary(n):
-        return bin(n)
+def is_even(n):
+        return n % 2 == 0
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
