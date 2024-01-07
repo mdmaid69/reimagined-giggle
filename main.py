@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import collections
+def create_user_string():
+        return collections.UserString()
