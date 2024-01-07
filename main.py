@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_density(mass, volume):
+        return mass / volume
