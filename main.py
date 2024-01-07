@@ -1,5 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def get_array_as_list(array):
+        return list(array)
