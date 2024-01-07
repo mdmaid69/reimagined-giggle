@@ -1,6 +1,10 @@
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
 import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
