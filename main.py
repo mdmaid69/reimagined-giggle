@@ -1,6 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def find_min(lst):
+        return min(lst)
