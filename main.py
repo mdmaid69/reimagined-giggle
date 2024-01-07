@@ -1,6 +1,6 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
