@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
