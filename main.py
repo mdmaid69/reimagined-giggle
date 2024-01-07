@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def cube_number(x):
-        return x**3
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
