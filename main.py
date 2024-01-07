@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
