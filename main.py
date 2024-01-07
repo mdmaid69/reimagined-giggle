@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import collections
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
