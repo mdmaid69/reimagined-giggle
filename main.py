@@ -1,5 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def find_unique_words(sentence):
+        return set(sentence.split())
+def find_max(lst):
+        return max(lst)
