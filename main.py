@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import tensorflow as tf
-print(tf.__version__)
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
