@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_pressure(force, area):
+        return force / area
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_complex(array):
+        return complex(array[0])
