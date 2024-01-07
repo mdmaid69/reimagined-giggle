@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
