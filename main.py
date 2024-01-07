@@ -1,6 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def get_array_length(array):
+        return len(array)
+import collections
+def create_queue():
+        return collections.deque()
