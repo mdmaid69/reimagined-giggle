@@ -1,5 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_work(force, distance):
-        return force * distance
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
