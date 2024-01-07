@@ -1,8 +1,6 @@
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
   import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
         plt.show()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
