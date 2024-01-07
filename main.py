@@ -1,5 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+def get_array_typecode(array):
+        return array.typecode
+x = 10
+y = 20
+print("Sum:", x + y)
