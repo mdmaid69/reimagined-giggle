@@ -1,5 +1,8 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def reverse_list(lst):
-        return lst[::-1]
+import sys
+def print_python_version():
+        print(sys.version)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
