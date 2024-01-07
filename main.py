@@ -1,5 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
