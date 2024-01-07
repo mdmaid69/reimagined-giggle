@@ -1,5 +1,6 @@
 import math
-def calculate_pythagorean_theorem(a, b):
+def calculate_hypotenuse(a, b):
         return math.sqrt(a**2 + b**2)
-text = "Hello, world!"
-print("Characters:", len(text))
+import getpass
+def get_username():
+        return getpass.getuser()
