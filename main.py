@@ -1,6 +1,6 @@
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def remove_from_array(array, item):
+        array.remove(item)
