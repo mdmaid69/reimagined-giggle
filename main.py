@@ -1,4 +1,12 @@
-def count_characters(sentence):
-        return len(sentence)
-def reverse_list(lst):
-        return lst[::-1]
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
