@@ -1,7 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
