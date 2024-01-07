@@ -1,5 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def is_odd(n):
-        return n % 2 != 0
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
