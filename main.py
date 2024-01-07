@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
