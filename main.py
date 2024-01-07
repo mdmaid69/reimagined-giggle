@@ -1,4 +1,7 @@
-print([x**2 for x in range(10)])
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
