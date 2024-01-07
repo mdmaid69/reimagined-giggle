@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import collections
+def create_user_string():
+        return collections.UserString()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
