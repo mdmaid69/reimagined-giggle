@@ -1,4 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def cube_number(x):
+        return x**3
