@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
