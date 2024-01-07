@@ -1,5 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
