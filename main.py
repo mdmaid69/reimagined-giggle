@@ -1,5 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
