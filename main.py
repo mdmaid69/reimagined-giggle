@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import tensorflow as tf
+print(tf.__version__)
+import sys
+def print_python_version():
+        return sys.version
