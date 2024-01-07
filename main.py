@@ -1,6 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
