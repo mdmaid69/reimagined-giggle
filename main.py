@@ -1,6 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
