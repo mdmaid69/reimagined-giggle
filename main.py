@@ -1,6 +1,6 @@
+import array
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def get_current_working_directory():
+        return os.getcwd()
