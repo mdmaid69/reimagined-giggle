@@ -1,5 +1,9 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  def cube_number(x):
-        return x**3
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
