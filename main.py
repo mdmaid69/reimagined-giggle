@@ -1,5 +1,7 @@
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
