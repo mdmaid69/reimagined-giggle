@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def multiply_numbers(x, y):
+        return x * y
+import json
+print(json.dumps({"name": "John", "age": 30}))
