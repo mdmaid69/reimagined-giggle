@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def cube_number(x):
+        return x**3
+import array
+def remove_from_array(array, item):
+        array.remove(item)
