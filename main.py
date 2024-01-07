@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
