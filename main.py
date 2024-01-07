@@ -1,7 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def divide_numbers(x, y):
+        return x / y
