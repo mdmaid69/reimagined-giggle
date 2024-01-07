@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_arc_tangent(x):
+        return math.atan(x)
