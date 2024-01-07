@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import array
+def convert_array_to_list(array):
+        return array.tolist()
