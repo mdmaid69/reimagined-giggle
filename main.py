@@ -1,7 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  def square_number(x):
-        return x**2
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
