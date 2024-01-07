@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
