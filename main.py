@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
