@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def get_array_as_set(array):
+        return set(array)
