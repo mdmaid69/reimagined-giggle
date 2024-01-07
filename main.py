@@ -1,12 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
