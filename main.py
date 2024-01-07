@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import collections
-def create_queue():
-        return collections.deque()
+import logging
+def log_message(message):
+        logging.info(message)
+def convert_to_binary(n):
+        return bin(n)
