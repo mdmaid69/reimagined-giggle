@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def subtract_numbers(x, y):
+        return x - y
