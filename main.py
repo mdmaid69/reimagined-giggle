@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
