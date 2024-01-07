@@ -1,6 +1,5 @@
+def count_words(sentence):
+        return len(sentence.split())
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_absolute_value(x):
+        return math.fabs(x)
