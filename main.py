@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
