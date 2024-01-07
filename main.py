@@ -1,5 +1,8 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
