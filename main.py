@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def reverse_list(lst):
+        return lst[::-1]
