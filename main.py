@@ -1,5 +1,7 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def remove_duplicates(lst):
-        return list(set(lst))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
