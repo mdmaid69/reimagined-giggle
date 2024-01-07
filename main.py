@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
