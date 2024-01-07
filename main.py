@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import collections
-def create_counter():
-        return collections.Counter()
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
