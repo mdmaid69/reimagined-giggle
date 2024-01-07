@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def get_array_as_set(array):
+        return set(array)
+import collections
+def create_user_dict():
+        return collections.UserDict()
