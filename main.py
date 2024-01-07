@@ -1,6 +1,4 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_pressure(force, area):
+        return force / area
