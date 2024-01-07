@@ -1,5 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  def convert_to_hex(n):
-        return hex(n)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
