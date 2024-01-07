@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
