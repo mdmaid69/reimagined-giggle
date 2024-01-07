@@ -1,5 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import sys
+def exit_program():
+        sys.exit()
