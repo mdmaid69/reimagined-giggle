@@ -1,8 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
