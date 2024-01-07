@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import time
+def get_current_time():
+        return time.time()
