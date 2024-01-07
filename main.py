@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def set_array_item(array, i, item):
+        array[i] = item
