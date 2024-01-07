@@ -1,5 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
