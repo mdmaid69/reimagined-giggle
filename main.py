@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
