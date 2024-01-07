@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
