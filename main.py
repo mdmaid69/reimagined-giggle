@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_sine(x):
+        return math.sin(x)
