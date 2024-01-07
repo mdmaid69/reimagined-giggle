@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def get_array_typecode(array):
+        return array.typecode
