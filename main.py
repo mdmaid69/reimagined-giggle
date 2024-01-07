@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
