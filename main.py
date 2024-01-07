@@ -1,8 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
