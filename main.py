@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
