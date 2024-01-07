@@ -1,6 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_work(force, distance):
+        return force * distance
