@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
   import os
-  def get_file_blksize(file_name):
+  def get_file_block_size(file_name):
         return os.stat(file_name).st_blksize
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
