@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
