@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
