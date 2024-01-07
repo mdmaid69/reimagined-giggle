@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import re
+print(re.match("h.*o", "hello world"))
+x = 10
+y = 20
+print("Sum:", x + y)
