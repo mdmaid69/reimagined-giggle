@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+text = "Hello, world!"
+print("Words:", len(text.split()))
