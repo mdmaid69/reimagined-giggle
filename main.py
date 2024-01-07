@@ -1,6 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
