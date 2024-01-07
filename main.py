@@ -1,5 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
