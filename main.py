@@ -1,8 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def calculate_volume(length, width, height):
+        return length * width * height
