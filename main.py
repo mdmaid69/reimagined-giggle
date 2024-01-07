@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
