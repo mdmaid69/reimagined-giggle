@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
