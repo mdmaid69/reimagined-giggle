@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def divide_numbers(x, y):
-        return x / y
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
