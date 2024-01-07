@@ -1,5 +1,7 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
