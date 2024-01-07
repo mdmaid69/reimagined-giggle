@@ -1,4 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
