@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
