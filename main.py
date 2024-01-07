@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_speed(distance, time):
-        return distance / time
+text = "Hello, world!"
+print("Characters:", len(text))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
