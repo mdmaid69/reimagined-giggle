@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
