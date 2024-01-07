@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
