@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
