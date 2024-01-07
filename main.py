@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def divide_numbers(x, y):
+        return x / y
+import random
+def roll_die():
+        return random.randint(1, 6)
