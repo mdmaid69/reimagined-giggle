@@ -1,6 +1,7 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
