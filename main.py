@@ -1,5 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
