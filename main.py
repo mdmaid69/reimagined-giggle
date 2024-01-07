@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def count_words(sentence):
-        return len(sentence.split())
+def find_min(numbers):
+        return min(numbers)
+import array
+def append_to_array(array, item):
+        array.append(item)
