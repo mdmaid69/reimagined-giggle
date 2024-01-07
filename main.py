@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
