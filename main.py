@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
