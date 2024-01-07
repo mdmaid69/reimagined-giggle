@@ -1,5 +1,8 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
