@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
