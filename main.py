@@ -1,5 +1,8 @@
-import re
-print(re.match("h.*o", "hello world"))
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
