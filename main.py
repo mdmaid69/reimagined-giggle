@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
