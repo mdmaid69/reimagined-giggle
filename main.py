@@ -1,4 +1,7 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-for i in range(10): print(i)
+import array
+def get_array_item(array, i):
+        return array[i]
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
