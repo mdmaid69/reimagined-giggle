@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def get_array_as_set(array):
+        return set(array)
