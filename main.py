@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def is_palindrome(s):
-        return s == s[::-1]
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
