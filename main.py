@@ -1,5 +1,6 @@
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def delete_file(file_name):
+        os.remove(file_name)
