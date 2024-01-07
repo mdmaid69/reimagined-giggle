@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import sys
-def exit_program():
-        sys.exit()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
