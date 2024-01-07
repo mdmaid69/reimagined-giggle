@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
