@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_area(radius):
+        return 3.14 * radius * radius
