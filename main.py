@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
