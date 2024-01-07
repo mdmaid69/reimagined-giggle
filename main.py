@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def cube_number(x):
-        return x**3
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
