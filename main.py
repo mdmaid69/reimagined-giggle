@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
