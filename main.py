@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
