@@ -1,5 +1,4 @@
-def cube_number(x):
-        return x**3
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def count_characters(sentence):
+        return len(sentence)
