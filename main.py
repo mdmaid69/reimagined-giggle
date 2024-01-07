@@ -1,5 +1,4 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import re
+print(re.match("h.*o", "hello world"))
