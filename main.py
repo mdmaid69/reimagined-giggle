@@ -1,7 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import sys
+def print_python_version():
+        print(sys.version)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
