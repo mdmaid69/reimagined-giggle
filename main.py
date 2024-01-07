@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
