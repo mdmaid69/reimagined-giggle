@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def is_palindrome(s):
+        return s == s[::-1]
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
