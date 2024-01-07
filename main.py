@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  def add_numbers(x, y):
-        return x + y
+import platform
+def get_python_version():
+        return platform.python_version()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
