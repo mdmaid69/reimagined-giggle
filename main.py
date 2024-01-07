@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  def remove_duplicates(lst):
-        return list(set(lst))
+def cube_number(x):
+        return x**3
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
