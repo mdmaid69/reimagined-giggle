@@ -1,5 +1,5 @@
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
 import array
-def reverse_array(array):
-        array.reverse()
-def add_numbers(a, b):
-        return a + b
+def get_array_length(array):
+        return len(array)
