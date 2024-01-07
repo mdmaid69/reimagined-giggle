@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
