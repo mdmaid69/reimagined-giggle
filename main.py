@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
