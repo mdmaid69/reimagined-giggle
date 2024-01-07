@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
