@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
