@@ -1,4 +1,8 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_volume(length, width, height):
-        return length * width * height
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
