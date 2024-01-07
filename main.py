@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
