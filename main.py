@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Characters:", len(text))
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-x = 10
-y = 20
-print("Sum:", x + y)
+  def get_base_name(path):
+        return os.path.basename(path)
