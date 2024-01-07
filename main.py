@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
