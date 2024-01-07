@@ -1,6 +1,5 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
