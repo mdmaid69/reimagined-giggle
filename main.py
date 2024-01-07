@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
