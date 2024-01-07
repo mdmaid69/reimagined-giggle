@@ -1,4 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
