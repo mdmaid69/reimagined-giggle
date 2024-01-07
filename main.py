@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def calculate_pressure(force, area):
-        return force / area
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_acceleration(speed, time):
+        return speed / time
