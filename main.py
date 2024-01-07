@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import collections
+def create_user_string():
+        return collections.UserString()
