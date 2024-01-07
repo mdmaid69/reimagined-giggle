@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_work(force, distance):
+        return force * distance
