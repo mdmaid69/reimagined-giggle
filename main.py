@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def find_max(numbers):
+        return max(numbers)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
