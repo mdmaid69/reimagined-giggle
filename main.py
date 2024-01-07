@@ -1,5 +1,9 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
