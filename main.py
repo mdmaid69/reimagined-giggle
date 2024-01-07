@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_pressure(force, area):
+        return force / area
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
