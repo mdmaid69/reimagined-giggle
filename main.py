@@ -1,5 +1,8 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import getpass
+def get_username():
+        return getpass.getuser()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
