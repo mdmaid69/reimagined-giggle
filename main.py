@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
