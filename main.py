@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
