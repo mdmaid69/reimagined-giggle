@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
