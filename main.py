@@ -1,5 +1,4 @@
-import random
-print(random.randint(0, 100))
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
