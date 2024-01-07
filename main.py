@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
