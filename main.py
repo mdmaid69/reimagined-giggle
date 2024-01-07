@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
