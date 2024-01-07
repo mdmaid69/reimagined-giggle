@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_error_function(x):
+        return math.erf(x)
