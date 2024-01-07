@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
