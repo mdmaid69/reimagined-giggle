@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
