@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def find_min(numbers):
+        return min(numbers)
