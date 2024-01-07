@@ -1,7 +1,7 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
