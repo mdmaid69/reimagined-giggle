@@ -1,3 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-for i in range(10): print(i)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
