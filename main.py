@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def find_max(numbers):
+        return max(numbers)
+  def reverse_list(lst):
+        return lst[::-1]
