@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-from collections import Counter
-print(Counter("hello world"))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
