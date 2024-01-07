@@ -1,5 +1,6 @@
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def is_odd(n):
-        return n % 2 != 0
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
