@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def is_even(n):
+        return n % 2 == 0
+  def calculate_area_circle(r):
+        return 3.14 * r**2
