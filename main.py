@@ -1,8 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
