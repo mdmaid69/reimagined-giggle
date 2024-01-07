@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def find_min(lst):
-        return min(lst)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
