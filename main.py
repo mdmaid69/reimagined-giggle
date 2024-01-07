@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import sys
+def exit_program():
+        sys.exit()
