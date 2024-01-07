@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
