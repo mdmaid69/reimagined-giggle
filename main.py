@@ -1,8 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  def is_odd(n):
+        return n % 2 != 0
