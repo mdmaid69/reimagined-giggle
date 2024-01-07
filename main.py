@@ -1,7 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
