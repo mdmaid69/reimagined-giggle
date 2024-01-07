@@ -1,5 +1,6 @@
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
