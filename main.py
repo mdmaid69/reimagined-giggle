@@ -1,8 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import platform
+def get_os_info():
+        return platform.uname()
