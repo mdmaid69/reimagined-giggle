@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def count_elements(lst):
+        return len(lst)
 import collections
-def create_user_string():
-        return collections.UserString()
+def count_elements(iterable):
+        return collections.Counter(iterable)
