@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
