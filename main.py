@@ -1,6 +1,6 @@
+import array
+def get_list_from_array(array):
+        return array.tolist()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
