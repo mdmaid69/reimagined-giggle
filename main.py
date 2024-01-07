@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
