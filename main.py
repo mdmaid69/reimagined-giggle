@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import time
-def get_current_time():
-        return time.time()
+import platform
+def get_python_version():
+        return platform.python_version()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
