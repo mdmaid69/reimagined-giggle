@@ -1,5 +1,6 @@
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def sort_list(lst):
-        return sorted(lst)
+def calculate_arc_tangent(x):
+        return math.atan(x)
