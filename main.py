@@ -1,4 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def greet(name):
+        print(f"Hello, {name}!")
