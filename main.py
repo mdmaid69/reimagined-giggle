@@ -1,6 +1,8 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
