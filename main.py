@@ -1,8 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
