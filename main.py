@@ -1,10 +1,7 @@
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
 n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
