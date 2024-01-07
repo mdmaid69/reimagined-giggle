@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
