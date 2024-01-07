@@ -1,5 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-text = "Hello, world!"
-print("Characters:", len(text))
+import re
+print(re.match("h.*o", "hello world"))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
