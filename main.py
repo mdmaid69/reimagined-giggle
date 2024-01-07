@@ -1,6 +1,8 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import array
+def append_to_array(array, item):
+        array.append(item)
