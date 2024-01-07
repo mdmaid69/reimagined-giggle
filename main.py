@@ -1,5 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_speed(distance, time):
+        return distance / time
+  def calculate_area_rectangle(l, w):
+        return l * w
