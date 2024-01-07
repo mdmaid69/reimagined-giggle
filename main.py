@@ -1,4 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-print("Hello, world!")
+def is_palindrome(s):
+        return s == s[::-1]
+import logging
+def log_message(message):
+        logging.info(message)
