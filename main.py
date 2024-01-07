@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
