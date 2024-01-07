@@ -1,6 +1,6 @@
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
