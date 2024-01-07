@@ -1,6 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+for i in range(5):
+        print(i)
