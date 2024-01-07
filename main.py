@@ -1,8 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_index(array, item):
+        return array.index(item)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
