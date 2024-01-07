@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def get_array_as_set(array):
-        return set(array)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
