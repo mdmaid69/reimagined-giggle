@@ -1,5 +1,6 @@
+import math
+def calculate_error_function(x):
+        return math.erf(x)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  def count_elements(lst):
-        return len(lst)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
