@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import datetime
+def get_current_date():
+        return datetime.date.today()
