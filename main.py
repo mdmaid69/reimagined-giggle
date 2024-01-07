@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
