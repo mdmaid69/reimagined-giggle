@@ -1,6 +1,7 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import array
-def get_array_length(array):
-        return len(array)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
