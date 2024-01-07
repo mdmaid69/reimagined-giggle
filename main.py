@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def get_string_from_array(array):
+        return array.tobytes()
+def greet(name):
+        print(f"Hello, {name}!")
