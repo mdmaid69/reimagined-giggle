@@ -1,6 +1,4 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-x = 10
-y = 20
-print("Sum:", x + y)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+print([x**2 for x in range(10)])
