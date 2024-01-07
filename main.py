@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
