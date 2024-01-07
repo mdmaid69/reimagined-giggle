@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import sys
+def print_python_version():
+        print(sys.version)
