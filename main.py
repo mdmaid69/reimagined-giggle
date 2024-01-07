@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import tensorflow as tf
+print(tf.__version__)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
