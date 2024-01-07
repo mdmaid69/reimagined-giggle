@@ -1,6 +1,8 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
