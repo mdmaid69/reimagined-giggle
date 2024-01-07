@@ -1,6 +1,8 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
