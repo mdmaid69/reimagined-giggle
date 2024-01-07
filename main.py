@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
