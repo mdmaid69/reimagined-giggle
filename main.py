@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
