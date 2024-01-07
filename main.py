@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def get_array_length(array):
+        return len(array)
+  def is_even(n):
+        return n % 2 == 0
