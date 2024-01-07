@@ -1,7 +1,6 @@
+x = 10
+y = 20
+print("Sum:", x + y)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def get_string_from_array(array):
+        return array.tobytes()
