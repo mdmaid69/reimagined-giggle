@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def append_to_array(array, item):
+        array.append(item)
