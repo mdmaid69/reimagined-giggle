@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import platform
+def get_os_info():
+        return platform.uname()
