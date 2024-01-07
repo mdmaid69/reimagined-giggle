@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  def cube_number(x):
-        return x**3
+x = 10
+y = 20
+print("Sum:", x + y)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
