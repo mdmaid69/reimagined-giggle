@@ -1,4 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-  def convert_to_octal(n):
-        return oct(n)
+import platform
+def get_python_version():
+        return platform.python_version()
+print([x**2 for x in range(10)])
