@@ -1,6 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
