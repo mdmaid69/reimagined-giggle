@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+print(math.pi)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
