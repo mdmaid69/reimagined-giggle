@@ -1,6 +1,5 @@
+def convert_to_octal(n):
+        return oct(n)
 import array
-def clear_array(array):
-        array *= 0
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def get_array_as_tuple(array):
+        return tuple(array)
