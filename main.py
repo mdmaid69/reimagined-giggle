@@ -1,7 +1,7 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_work(force, distance):
+        return force * distance
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
