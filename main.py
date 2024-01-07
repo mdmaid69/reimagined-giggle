@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+def convert_to_hex(n):
+        return hex(n)
