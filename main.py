@@ -1,7 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import math
+def calculate_floor(x):
+        return math.floor(x)
