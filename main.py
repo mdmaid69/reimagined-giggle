@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
