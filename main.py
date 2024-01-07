@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
