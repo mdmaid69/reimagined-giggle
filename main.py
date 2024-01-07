@@ -1,6 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
