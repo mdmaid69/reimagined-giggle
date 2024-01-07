@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_work(force, distance):
-        return force * distance
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  def is_odd(n):
+        return n % 2 != 0
