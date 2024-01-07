@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def subtract_numbers(x, y):
+        return x - y
