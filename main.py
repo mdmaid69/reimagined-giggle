@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import numpy as np
+print(np.array([1, 2, 3]))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
