@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import array
-def reverse_array(array):
-        array.reverse()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  def is_even(n):
+        return n % 2 == 0
