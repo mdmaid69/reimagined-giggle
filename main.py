@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
