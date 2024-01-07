@@ -1,3 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-print("Hello, world!")
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
