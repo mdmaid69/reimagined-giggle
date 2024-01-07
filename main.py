@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_pressure(force, area):
+        return force / area
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
