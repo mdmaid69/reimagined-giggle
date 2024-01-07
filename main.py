@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
