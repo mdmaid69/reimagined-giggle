@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
