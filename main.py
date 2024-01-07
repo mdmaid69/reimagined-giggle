@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  def remove_duplicates(lst):
+        return list(set(lst))
