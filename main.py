@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
