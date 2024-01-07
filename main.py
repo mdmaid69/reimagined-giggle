@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def find_unique_words(sentence):
+        return set(sentence.split())
