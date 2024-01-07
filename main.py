@@ -1,3 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-print([x**2 for x in range(10)])
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_volume(length, width, height):
+        return length * width * height
