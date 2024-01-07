@@ -1,5 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
