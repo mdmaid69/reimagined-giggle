@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+name = "Python"
+print("Hello,", name)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def delete_file(file_name):
+        os.remove(file_name)
