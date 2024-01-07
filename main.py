@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
