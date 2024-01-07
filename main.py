@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+i = 0
+while i < 5:
+        print(i)
+        i += 1
