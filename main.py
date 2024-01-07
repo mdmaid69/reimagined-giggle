@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def count_elements(lst):
+        return len(lst)
