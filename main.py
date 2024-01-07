@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
