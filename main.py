@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
