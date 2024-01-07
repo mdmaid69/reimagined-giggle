@@ -1,6 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_pressure(force, area):
+        return force / area
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
