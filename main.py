@@ -1,8 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
