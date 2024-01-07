@@ -1,8 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
