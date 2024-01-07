@@ -1,6 +1,8 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
