@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
