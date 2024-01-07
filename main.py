@@ -1,5 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  def convert_to_binary(n):
-        return bin(n)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
