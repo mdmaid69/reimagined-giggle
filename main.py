@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  def add_numbers(x, y):
-        return x + y
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
