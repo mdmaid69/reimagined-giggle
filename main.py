@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
