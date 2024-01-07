@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
