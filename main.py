@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
