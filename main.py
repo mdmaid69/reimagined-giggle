@@ -1,5 +1,8 @@
-  def convert_to_binary(n):
-        return bin(n)
-import time
-def get_time_since_epoch():
-        return time.time()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
