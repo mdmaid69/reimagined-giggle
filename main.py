@@ -1,5 +1,7 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def divide_numbers(x, y):
+        return x / y
