@@ -1,6 +1,8 @@
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
