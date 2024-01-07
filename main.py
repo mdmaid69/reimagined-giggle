@@ -1,4 +1,6 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-print(sum(range(10)))
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
