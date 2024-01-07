@@ -1,6 +1,6 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import platform
-def get_os_info():
-        return platform.uname()
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
