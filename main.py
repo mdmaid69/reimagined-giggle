@@ -1,5 +1,6 @@
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def get_array_as_tuple(array):
+        return tuple(array)
