@@ -1,5 +1,11 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+def is_palindrome(s):
+        return s == s[::-1]
