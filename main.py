@@ -1,4 +1,11 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-text = "Hello, world!"
-print("Characters:", len(text))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import collections
+def create_user_dict():
+        return collections.UserDict()
