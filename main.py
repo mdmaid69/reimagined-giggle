@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
