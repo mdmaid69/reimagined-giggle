@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_area(radius):
+        return 3.14 * radius * radius
