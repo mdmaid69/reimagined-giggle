@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
