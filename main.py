@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
