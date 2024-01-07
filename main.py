@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import datetime
+def get_current_date():
+        return datetime.date.today()
