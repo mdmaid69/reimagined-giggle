@@ -1,4 +1,5 @@
-print(sum(range(10)))
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
