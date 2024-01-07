@@ -1,7 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_as_complex(array):
+        return complex(array[0])
+import sys
+def exit_program():
+        sys.exit()
