@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import platform
+def get_os_info():
+        return platform.uname()
