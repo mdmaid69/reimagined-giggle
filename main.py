@@ -1,5 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import json
+print(json.dumps({"name": "John", "age": 30}))
