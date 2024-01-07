@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-  def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
