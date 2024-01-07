@@ -1,6 +1,6 @@
+import os
+def get_current_working_directory():
+        return os.getcwd()
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import platform
-def get_python_version():
-        return platform.python_version()
+def get_array_as_list(array):
+        return list(array)
