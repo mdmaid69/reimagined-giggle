@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
