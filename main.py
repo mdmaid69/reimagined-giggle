@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def is_odd(n):
+        return n % 2 != 0
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
