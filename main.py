@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import collections
+def create_queue():
+        return collections.deque()
