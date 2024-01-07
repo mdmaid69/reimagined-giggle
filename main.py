@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import random
-def roll_die():
-        return random.randint(1, 6)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
