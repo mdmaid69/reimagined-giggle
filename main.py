@@ -1,6 +1,8 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
