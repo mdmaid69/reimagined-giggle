@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def get_array_typecode(array):
+        return array.typecode
+def count_words(sentence):
+        return len(sentence.split())
