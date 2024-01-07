@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import array
+def get_list_from_array(array):
+        return array.tolist()
