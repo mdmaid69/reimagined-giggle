@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
