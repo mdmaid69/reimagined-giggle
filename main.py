@@ -1,5 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
