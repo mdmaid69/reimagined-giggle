@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_cosine(x):
+        return math.cos(x)
