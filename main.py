@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
