@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def reverse_list(lst):
-        return lst[::-1]
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
