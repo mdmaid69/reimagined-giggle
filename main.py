@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import sys
+def exit_program():
+        sys.exit()
