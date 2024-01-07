@@ -1,6 +1,8 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
