@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
