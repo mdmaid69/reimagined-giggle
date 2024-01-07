@@ -1,6 +1,5 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_factorial(n):
+        return math.factorial(n)
+import re
+print(re.match("h.*o", "hello world"))
