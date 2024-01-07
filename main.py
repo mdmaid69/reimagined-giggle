@@ -1,6 +1,5 @@
+  def calculate_area_rectangle(l, w):
+        return l * w
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
