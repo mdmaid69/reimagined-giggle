@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_speed(distance, time):
+        return distance / time
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
