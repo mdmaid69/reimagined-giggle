@@ -1,4 +1,5 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-def multiply_numbers(x, y):
-        return x * y
+  def cube_number(x):
+        return x**3
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
