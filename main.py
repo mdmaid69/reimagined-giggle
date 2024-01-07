@@ -1,5 +1,7 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
