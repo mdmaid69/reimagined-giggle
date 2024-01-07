@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_acceleration(speed, time):
+        return speed / time
