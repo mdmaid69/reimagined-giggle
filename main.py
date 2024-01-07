@@ -1,7 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def divide_numbers(x, y):
-        return x / y
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def reverse_list(lst):
+        return lst[::-1]
