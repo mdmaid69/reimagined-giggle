@@ -1,5 +1,5 @@
+def find_union(list1, list2):
+        return set(list1) | set(list2)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def add_numbers(x, y):
-        return x + y
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
