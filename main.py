@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import array
-def get_array_as_set(array):
-        return set(array)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_acceleration(speed, time):
+        return speed / time
