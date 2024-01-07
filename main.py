@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import numpy as np
+print(np.array([1, 2, 3]))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
