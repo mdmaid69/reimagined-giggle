@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import platform
+def get_python_version():
+        return platform.python_version()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
