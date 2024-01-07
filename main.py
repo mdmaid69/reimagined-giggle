@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import sys
+def exit_program():
+        sys.exit()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
