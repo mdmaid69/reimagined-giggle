@@ -1,5 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-  def is_even(n):
-        return n % 2 == 0
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import time
+print(time.time())
