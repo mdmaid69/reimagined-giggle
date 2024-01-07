@@ -1,4 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
