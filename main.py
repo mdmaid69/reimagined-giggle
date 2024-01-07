@@ -1,6 +1,8 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
