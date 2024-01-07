@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import sys
+def exit_program():
+        sys.exit()
