@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
