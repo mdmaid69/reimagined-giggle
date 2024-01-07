@@ -1,5 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def cube_number(x):
+        return x**3
+def find_min(lst):
+        return min(lst)
