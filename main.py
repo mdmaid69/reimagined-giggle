@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
