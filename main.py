@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def count_characters(sentence):
+        return len(sentence)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
