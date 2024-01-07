@@ -1,5 +1,4 @@
-def cube_number(x):
-        return x**3
-import array
-def append_to_array(array, item):
-        array.append(item)
+from collections import Counter
+print(Counter("hello world"))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
