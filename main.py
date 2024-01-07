@@ -1,7 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  def add_numbers(x, y):
+        return x + y
+import random
+def roll_die():
+        return random.randint(1, 6)
