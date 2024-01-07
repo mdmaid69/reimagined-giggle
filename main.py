@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
