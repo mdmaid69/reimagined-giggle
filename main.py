@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
