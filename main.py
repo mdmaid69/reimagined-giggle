@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  def reverse_list(lst):
+        return lst[::-1]
