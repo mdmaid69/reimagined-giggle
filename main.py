@@ -1,5 +1,12 @@
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
