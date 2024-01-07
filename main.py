@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def add_numbers(x, y):
+        return x + y
