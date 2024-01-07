@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def reverse_string(s):
+        return s[::-1]
+import collections
+def create_user_dict():
+        return collections.UserDict()
