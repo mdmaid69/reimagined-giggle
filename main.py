@@ -1,8 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def is_palindrome(s):
+        return s == s[::-1]
+def multiply_numbers(x, y):
+        return x * y
