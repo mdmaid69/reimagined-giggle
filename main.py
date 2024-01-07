@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_sine(x):
+        return math.sin(x)
