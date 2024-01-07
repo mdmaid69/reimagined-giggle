@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def add_numbers(a, b):
+        return a + b
