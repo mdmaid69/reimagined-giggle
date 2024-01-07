@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
