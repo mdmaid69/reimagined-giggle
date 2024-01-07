@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
