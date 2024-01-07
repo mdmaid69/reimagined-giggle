@@ -1,5 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
