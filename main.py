@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
