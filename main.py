@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
