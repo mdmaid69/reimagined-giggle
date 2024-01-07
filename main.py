@@ -1,4 +1,7 @@
-def calculate_power(work, time):
-        return work / time
-def find_unique_words(sentence):
-        return set(sentence.split())
+import platform
+def get_python_version():
+        return platform.python_version()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
