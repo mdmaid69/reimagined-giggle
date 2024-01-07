@@ -1,4 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_work(force, distance):
-        return force * distance
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def add_numbers(x, y):
+        return x + y
