@@ -1,5 +1,6 @@
+import math
+def calculate_floor(x):
+        return math.floor(x)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def count_elements(lst):
-        return len(lst)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
