@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import collections
+def create_user_string():
+        return collections.UserString()
