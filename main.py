@@ -1,8 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
