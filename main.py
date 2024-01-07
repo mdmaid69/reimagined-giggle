@@ -1,4 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-print("Hello, world!")
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
