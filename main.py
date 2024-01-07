@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
