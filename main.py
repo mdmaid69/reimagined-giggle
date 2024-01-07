@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import time
-def get_current_time():
-        return time.time()
+import collections
+def create_stack():
+        return collections.deque()
+def multiply_numbers(x, y):
+        return x * y
