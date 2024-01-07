@@ -1,6 +1,6 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
