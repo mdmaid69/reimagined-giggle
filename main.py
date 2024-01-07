@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
