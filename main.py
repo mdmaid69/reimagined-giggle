@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  def is_even(n):
-        return n % 2 == 0
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
