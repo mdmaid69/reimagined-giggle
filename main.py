@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def count_words(sentence):
+        return len(sentence.split())
