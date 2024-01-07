@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_base_name(path):
+        return os.path.basename(path)
+  def convert_to_hex(n):
+        return hex(n)
