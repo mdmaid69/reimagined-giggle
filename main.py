@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
