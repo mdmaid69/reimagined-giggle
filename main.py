@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-def count_elements(lst):
-        return len(lst)
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
