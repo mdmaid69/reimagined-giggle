@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
