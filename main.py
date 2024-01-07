@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
