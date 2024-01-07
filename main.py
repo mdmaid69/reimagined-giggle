@@ -1,4 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
