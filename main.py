@@ -1,6 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def add_numbers(x, y):
+        return x + y
+def multiply_numbers(x, y):
+        return x * y
