@@ -1,5 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_pressure(force, area):
-        return force / area
+def subtract_numbers(x, y):
+        return x - y
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
