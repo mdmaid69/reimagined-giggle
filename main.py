@@ -1,5 +1,7 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def count_words(sentence):
-        return len(sentence.split())
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
