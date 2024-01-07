@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_area_rectangle(l, w):
+        return l * w
