@@ -1,6 +1,7 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import collections
+def create_counter():
+        return collections.Counter()
