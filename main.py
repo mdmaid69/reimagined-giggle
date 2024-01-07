@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
