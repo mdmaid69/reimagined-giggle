@@ -1,4 +1,7 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def convert_to_octal(n):
+        return oct(n)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
