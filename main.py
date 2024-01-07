@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
