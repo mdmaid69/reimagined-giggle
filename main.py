@@ -1,6 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+print([x**2 for x in range(10)])
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
