@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
