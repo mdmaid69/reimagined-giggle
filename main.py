@@ -1,9 +1,7 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
