@@ -1,4 +1,5 @@
-for i in range(10): print(i)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
