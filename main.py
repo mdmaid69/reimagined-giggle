@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def divide_numbers(x, y):
-        return x / y
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
