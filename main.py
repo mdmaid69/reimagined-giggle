@@ -1,6 +1,6 @@
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import collections
-def create_user_string():
-        return collections.UserString()
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
