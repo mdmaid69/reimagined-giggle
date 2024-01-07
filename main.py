@@ -1,6 +1,9 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
