@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import collections
+def create_stack():
+        return collections.deque()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
