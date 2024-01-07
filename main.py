@@ -1,6 +1,7 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def append_to_array(array, item):
-        array.append(item)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
