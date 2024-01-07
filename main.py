@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def reverse_string(s):
-        return s[::-1]
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_item(array, i):
+        return array[i]
