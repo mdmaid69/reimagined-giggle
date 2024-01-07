@@ -1,4 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-print(sum(range(10)))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
