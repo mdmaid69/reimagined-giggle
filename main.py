@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import numpy as np
-print(np.array([1, 2, 3]))
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
