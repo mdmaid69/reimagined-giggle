@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_power(work, time):
+        return work / time
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
