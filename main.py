@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
