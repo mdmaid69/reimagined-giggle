@@ -1,9 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def multiply_numbers(x, y):
+        return x * y
