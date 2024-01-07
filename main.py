@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_speed(distance, time):
+        return distance / time
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
