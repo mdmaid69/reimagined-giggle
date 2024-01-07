@@ -1,8 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_pressure(force, area):
+        return force / area
