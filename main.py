@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
