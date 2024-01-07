@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_density(mass, volume):
+        return mass / volume
