@@ -1,7 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_as_set(array):
+        return set(array)
