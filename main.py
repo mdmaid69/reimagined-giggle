@@ -1,5 +1,8 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
