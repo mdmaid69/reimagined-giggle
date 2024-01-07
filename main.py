@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-def divide_numbers(x, y):
-        return x / y
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
