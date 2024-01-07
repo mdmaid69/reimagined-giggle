@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_area(radius):
+        return 3.14 * radius * radius
