@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import time
-def get_current_time():
-        return time.ctime()
+for i in range(10): print(i)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
