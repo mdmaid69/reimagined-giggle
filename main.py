@@ -1,5 +1,8 @@
-def find_max(lst):
-        return max(lst)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
