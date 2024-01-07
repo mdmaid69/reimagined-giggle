@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import collections
+def create_counter():
+        return collections.Counter()
