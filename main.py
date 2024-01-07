@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-for i in range(5):
-        print(i)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
