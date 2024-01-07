@@ -1,5 +1,4 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def count_words(sentence):
+        return len(sentence.split())
+def square_number(x):
+        return x**2
