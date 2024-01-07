@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
