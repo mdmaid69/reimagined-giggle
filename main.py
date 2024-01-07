@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_list_from_array(array):
+        return array.tolist()
