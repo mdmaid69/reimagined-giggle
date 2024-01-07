@@ -1,7 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
