@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
