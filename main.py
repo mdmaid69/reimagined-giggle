@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
