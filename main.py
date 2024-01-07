@@ -1,6 +1,7 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_error_function(x):
+        return math.erf(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
