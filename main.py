@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
