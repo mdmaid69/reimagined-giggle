@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import time
-def get_current_time():
-        return time.ctime()
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
