@@ -1,6 +1,6 @@
+import json
+def convert_to_json(data):
+        return json.dumps(data)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
