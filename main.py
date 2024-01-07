@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_power(work, time):
+        return work / time
