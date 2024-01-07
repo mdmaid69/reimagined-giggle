@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import collections
+def create_priority_queue():
+        return collections.deque()
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
