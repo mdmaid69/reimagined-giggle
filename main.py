@@ -1,5 +1,12 @@
-def is_odd(n):
-        return n % 2 != 0
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
