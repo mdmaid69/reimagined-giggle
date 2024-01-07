@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
