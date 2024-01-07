@@ -1,6 +1,8 @@
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
