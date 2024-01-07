@@ -1,6 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
