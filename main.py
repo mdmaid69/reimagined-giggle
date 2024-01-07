@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_current_directory():
+        return os.getcwd()
