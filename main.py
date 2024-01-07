@@ -1,5 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-import sys
-def print_python_version():
-        print(sys.version)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def divide_numbers(x, y):
+        return x / y
