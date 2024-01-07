@@ -1,5 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  def convert_to_binary(n):
+        return bin(n)
