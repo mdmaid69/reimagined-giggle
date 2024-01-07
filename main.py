@@ -1,5 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def reverse_list(lst):
-        return lst[::-1]
+def find_min(lst):
+        return min(lst)
+def convert_to_binary(n):
+        return bin(n)
