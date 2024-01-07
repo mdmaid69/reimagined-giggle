@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+print([x**2 for x in range(10)])
