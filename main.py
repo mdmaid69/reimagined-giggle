@@ -1,8 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_speed(distance, time):
+        return distance / time
