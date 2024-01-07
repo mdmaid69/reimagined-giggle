@@ -1,5 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_area_rectangle(l, w):
-        return l * w
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_speed(distance, time):
+        return distance / time
