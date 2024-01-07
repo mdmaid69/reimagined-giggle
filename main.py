@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import os
+print(os.getcwd())
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
