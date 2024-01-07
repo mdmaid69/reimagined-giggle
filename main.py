@@ -1,6 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
