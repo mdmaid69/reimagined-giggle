@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def append_to_array(array, item):
-        array.append(item)
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_speed(distance, time):
+        return distance / time
