@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_area_rectangle(l, w):
+        return l * w
