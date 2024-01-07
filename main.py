@@ -1,6 +1,6 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
