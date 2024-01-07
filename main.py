@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
