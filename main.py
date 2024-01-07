@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
