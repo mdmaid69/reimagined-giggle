@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
