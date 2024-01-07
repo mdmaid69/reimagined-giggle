@@ -1,5 +1,5 @@
-for i in range(10): print(i)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
