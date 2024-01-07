@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
