@@ -1,7 +1,4 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
