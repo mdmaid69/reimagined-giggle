@@ -1,6 +1,8 @@
-def convert_to_octal(n):
-        return oct(n)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
