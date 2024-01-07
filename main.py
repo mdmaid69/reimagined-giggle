@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+text = "Hello, world!"
+print("Characters:", len(text))
