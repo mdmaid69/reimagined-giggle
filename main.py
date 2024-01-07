@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
