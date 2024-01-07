@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
