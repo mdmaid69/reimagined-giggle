@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
