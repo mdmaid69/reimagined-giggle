@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
