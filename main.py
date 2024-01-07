@@ -1,5 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def multiply_numbers(x, y):
-        return x * y
+import collections
+def create_stack():
+        return collections.deque()
+import collections
+def create_user_string():
+        return collections.UserString()
