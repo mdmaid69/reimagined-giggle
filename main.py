@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import os
+def remove_directory(path):
+        os.rmdir(path)
