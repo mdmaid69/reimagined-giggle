@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import collections
+def create_user_dict():
+        return collections.UserDict()
