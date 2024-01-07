@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
