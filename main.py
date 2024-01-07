@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_work(force, distance):
-        return force * distance
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def convert_to_octal(n):
+        return oct(n)
