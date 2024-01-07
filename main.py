@@ -1,6 +1,6 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
