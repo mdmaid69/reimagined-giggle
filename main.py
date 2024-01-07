@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
