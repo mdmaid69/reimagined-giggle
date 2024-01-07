@@ -1,6 +1,5 @@
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
