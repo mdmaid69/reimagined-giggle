@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
