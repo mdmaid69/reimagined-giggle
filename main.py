@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def find_min(lst):
+        return min(lst)
