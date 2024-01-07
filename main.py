@@ -1,5 +1,8 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
