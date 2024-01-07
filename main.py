@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
