@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
