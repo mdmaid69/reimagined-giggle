@@ -1,5 +1,7 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
