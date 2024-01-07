@@ -1,6 +1,7 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
