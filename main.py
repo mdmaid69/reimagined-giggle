@@ -1,5 +1,8 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
