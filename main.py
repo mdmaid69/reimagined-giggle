@@ -1,5 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
