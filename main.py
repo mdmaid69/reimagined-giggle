@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
