@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
