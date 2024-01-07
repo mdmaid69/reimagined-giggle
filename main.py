@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
