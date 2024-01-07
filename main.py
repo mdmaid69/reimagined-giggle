@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
