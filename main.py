@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import random
-def roll_die():
-        return random.randint(1, 6)
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
