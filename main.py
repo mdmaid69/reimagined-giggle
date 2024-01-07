@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import tensorflow as tf
+print(tf.__version__)
