@@ -1,8 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
