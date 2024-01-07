@@ -1,5 +1,10 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
