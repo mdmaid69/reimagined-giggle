@@ -1,5 +1,7 @@
-def calculate_power(work, time):
-        return work / time
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
