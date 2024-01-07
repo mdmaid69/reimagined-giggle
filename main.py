@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import os
+def change_working_directory(path):
+        os.chdir(path)
