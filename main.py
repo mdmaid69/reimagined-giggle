@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def check_if_array_contains_item(array, item):
+        return item in array
