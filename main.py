@@ -1,5 +1,7 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def multiply_numbers(x, y):
-        return x * y
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
