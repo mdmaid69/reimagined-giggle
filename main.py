@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
