@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
