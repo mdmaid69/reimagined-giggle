@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
