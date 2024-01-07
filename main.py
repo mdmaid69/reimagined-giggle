@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
