@@ -1,6 +1,6 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
