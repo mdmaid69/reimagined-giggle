@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
