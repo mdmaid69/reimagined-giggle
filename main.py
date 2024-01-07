@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+from collections import Counter
+print(Counter("hello world"))
