@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
