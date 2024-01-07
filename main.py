@@ -1,4 +1,8 @@
-def calculate_power(work, time):
-        return work / time
-  def calculate_area_rectangle(l, w):
-        return l * w
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
