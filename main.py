@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
