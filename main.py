@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
