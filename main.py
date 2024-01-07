@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import array
+def reverse_array(array):
+        array.reverse()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
