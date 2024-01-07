@@ -1,6 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
