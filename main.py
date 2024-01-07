@@ -1,7 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
