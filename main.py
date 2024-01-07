@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  def is_odd(n):
-        return n % 2 != 0
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
