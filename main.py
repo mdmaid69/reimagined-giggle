@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
