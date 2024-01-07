@@ -1,4 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-  def count_elements(lst):
-        return len(lst)
+  def calculate_area_rectangle(l, w):
+        return l * w
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
