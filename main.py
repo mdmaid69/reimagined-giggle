@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_area_circle(r):
+        return 3.14 * r**2
