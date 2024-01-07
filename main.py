@@ -1,5 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import datetime
+def get_current_date():
+        return datetime.date.today()
