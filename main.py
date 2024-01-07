@@ -1,6 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
