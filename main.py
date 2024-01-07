@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+text = "Hello, world!"
+print("Characters:", len(text))
+def remove_duplicates(lst):
+        return list(set(lst))
