@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
