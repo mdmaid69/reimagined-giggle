@@ -1,5 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def count_characters(sentence):
-        return len(sentence)
+  def count_elements(lst):
+        return len(lst)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
