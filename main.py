@@ -1,8 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def is_palindrome(s):
+        return s == s[::-1]
+import array
+def get_array_itemsize(array):
+        return array.itemsize
