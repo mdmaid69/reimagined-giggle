@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def add_numbers(x, y):
+        return x + y
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
