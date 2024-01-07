@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_tangent(x):
+        return math.tan(x)
