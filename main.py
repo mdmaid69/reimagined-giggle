@@ -1,5 +1,6 @@
+import collections
+def create_user_dict():
+        return collections.UserDict()
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
