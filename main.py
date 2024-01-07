@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
