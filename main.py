@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
