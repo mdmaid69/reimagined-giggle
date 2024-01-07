@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_density(mass, volume):
-        return mass / volume
+x = 10
+y = 20
+print("Sum:", x + y)
+  def reverse_list(lst):
+        return lst[::-1]
