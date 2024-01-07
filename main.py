@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def count_elements(lst):
-        return len(lst)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
