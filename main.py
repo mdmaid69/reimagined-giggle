@@ -1,6 +1,6 @@
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
