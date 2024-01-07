@@ -1,8 +1,8 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
