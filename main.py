@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_work(force, distance):
-        return force * distance
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
