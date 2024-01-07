@@ -1,5 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import random
-print(random.randint(0, 100))
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
