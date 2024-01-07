@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_array_as_int(array):
+        return int(array[0])
