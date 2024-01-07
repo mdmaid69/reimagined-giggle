@@ -1,5 +1,4 @@
-  def cube_number(x):
-        return x**3
-import array
-def get_array_as_list(array):
-        return list(array)
+def find_max(numbers):
+        return max(numbers)
+def add_numbers(x, y):
+        return x + y
