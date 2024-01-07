@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import time
+def get_time_since_epoch():
+        return time.time()
