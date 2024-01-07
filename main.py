@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def subtract_numbers(x, y):
+        return x - y
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
