@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
