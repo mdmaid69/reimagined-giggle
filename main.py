@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
