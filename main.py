@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_work(force, distance):
+        return force * distance
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
