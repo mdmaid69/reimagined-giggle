@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def append_to_array(array, item):
-        array.append(item)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import os
+def get_current_working_directory():
+        return os.getcwd()
