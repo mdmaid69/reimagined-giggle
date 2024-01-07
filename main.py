@@ -1,5 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
