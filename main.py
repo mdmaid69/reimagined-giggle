@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-def square_number(x):
-        return x**2
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
