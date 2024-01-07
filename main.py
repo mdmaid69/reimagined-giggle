@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def multiply_numbers(x, y):
+        return x * y
