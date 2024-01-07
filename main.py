@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
