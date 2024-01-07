@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import numpy as np
+print(np.array([1, 2, 3]))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
