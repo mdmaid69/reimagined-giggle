@@ -1,5 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def convert_to_octal(n):
+        return oct(n)
+def calculate_volume(length, width, height):
+        return length * width * height
