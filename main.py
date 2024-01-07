@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
