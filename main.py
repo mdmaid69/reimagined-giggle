@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  def is_even(n):
+        return n % 2 == 0
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
