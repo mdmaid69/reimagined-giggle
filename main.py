@@ -1,5 +1,5 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_work(force, distance):
-        return force * distance
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def cube_number(x):
+        return x**3
