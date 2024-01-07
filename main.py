@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def convert_to_octal(n):
+        return oct(n)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
