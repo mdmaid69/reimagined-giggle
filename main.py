@@ -1,6 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
