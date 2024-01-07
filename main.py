@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
