@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def add_numbers(x, y):
-        return x + y
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_pressure(force, area):
+        return force / area
