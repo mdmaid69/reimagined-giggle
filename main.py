@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+print(math.pi)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
