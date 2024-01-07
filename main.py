@@ -1,5 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import math
-print(math.pi)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
