@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import random
+def roll_die():
+        return random.randint(1, 6)
