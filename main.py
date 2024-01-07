@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
