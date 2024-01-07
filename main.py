@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def get_string_from_array(array):
+        return array.tobytes()
