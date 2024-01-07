@@ -1,6 +1,6 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def get_list_from_array(array):
+        return array.tolist()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
