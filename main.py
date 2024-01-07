@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def get_array_as_str(array):
+        return str(array)
