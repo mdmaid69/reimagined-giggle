@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def find_max(numbers):
+        return max(numbers)
