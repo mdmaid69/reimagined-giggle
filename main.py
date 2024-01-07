@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-name = "Python"
-print("Hello,", name)
+import collections
+def create_user_list():
+        return collections.UserList()
+def is_palindrome(s):
+        return s == s[::-1]
