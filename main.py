@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import collections
-def create_stack():
-        return collections.deque()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
