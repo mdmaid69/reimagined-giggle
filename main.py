@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import collections
+def create_user_list():
+        return collections.UserList()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
