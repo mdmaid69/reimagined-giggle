@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def find_min(numbers):
+        return min(numbers)
