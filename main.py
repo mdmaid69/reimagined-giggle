@@ -1,6 +1,8 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
