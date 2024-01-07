@@ -1,7 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def convert_to_hex(n):
+        return hex(n)
