@@ -1,5 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def calculate_pressure(force, area):
-        return force / area
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import collections
+def create_user_string():
+        return collections.UserString()
