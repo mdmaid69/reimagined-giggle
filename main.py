@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def sort_list(lst):
-        return sorted(lst)
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
