@@ -1,6 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
