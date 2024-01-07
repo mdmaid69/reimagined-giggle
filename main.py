@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
