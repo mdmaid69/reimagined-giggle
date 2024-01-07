@@ -1,8 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
