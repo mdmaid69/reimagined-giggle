@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
