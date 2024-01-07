@@ -1,5 +1,5 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-  def subtract_numbers(x, y):
-        return x - y
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
