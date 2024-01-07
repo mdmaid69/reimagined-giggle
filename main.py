@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  def convert_to_binary(n):
-        return bin(n)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
