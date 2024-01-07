@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_density(mass, volume):
-        return mass / volume
+def divide_numbers(x, y):
+        return x / y
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
