@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+print(math.pi)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
