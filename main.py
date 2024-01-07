@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def count_characters(sentence):
+        return len(sentence)
