@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
