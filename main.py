@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
