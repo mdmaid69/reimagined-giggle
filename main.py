@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
