@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
