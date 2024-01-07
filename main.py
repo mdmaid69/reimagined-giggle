@@ -1,11 +1,6 @@
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def get_array_as_memoryview(array):
+        return memoryview(array)
