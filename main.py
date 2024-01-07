@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import os
-def remove_directory(path):
-        os.rmdir(path)
+def get_current_working_directory():
+        return os.getcwd()
