@@ -1,6 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
