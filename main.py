@@ -1,6 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
