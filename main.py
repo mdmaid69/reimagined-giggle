@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
