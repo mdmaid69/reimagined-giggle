@@ -1,6 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+from collections import Counter
+print(Counter("hello world"))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
