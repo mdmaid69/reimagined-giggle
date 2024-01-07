@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
