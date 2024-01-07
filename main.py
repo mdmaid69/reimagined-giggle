@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
 import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
