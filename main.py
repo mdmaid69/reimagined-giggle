@@ -1,6 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import sys
+print(sys.version)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
