@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_error_function(x):
+        return math.erf(x)
