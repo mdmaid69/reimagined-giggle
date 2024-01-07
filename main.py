@@ -1,6 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def clear_array(array):
-        array *= 0
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
