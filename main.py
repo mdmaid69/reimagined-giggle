@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import collections
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
