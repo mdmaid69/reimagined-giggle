@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+for i in range(5):
+        print(i)
+def calculate_area_circle(r):
+        return 3.14 * r**2
