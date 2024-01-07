@@ -1,6 +1,8 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
