@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def get_array_typecode(array):
+        return array.typecode
