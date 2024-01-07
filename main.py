@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def find_min(lst):
+        return min(lst)
