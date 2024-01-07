@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def calculate_volume(length, width, height):
+        return length * width * height
