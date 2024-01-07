@@ -1,4 +1,8 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
