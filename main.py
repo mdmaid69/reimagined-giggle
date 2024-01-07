@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import datetime
+print(datetime.datetime.now())
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
