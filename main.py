@@ -1,3 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-print(sum(range(10)))
+def find_min(numbers):
+        return min(numbers)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
