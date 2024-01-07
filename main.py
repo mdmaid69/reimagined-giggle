@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
