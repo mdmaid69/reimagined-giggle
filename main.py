@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
