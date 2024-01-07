@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
