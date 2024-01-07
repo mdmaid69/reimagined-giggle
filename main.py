@@ -1,8 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import array
+def convert_array_to_string(array):
+        return array.tostring()
