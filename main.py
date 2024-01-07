@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
