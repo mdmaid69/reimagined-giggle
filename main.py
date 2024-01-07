@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
