@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def find_max(numbers):
+        return max(numbers)
