@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
