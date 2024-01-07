@@ -1,6 +1,7 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+name = "Python"
+print("Hello,", name)
