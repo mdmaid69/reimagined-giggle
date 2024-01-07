@@ -1,8 +1,8 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import xml.etree.ElementTree as ET
-root = ET.Element("root")
-doc = ET.SubElement(root, "doc")
-ET.SubElement(doc, "field1", name="blah").text = "some value1"
-ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
-tree = ET.ElementTree(root)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
