@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_work(force, distance):
+        return force * distance
