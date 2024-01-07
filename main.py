@@ -1,5 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+print("Hello, world!")
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
