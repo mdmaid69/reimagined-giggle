@@ -1,5 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
 import os
-print(os.getcwd())
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
