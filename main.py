@@ -1,6 +1,7 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import datetime
+def get_current_date():
+        return datetime.date.today()
