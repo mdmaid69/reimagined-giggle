@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import collections
+def create_queue():
+        return collections.deque()
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
