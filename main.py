@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
