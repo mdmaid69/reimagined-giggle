@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
