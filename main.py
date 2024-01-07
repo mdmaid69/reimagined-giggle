@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def get_array_item(array, i):
-        return array[i]
+import collections
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
