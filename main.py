@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import sys
+def exit_program():
+        sys.exit()
+def reverse_string(s):
+        return s[::-1]
