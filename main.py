@@ -1,5 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
