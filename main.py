@@ -1,5 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+for i in range(10): print(i)
