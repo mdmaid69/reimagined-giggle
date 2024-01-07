@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  def reverse_list(lst):
+        return lst[::-1]
