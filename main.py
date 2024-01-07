@@ -1,12 +1,9 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
