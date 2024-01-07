@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import time
+def get_current_time():
+        return time.ctime()
