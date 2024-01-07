@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
