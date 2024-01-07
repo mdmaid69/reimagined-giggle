@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def subtract_numbers(x, y):
-        return x - y
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
