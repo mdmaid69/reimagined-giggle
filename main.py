@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_as_str(array):
+        return str(array)
