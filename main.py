@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
