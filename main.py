@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
