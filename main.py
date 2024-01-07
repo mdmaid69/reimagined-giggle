@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import collections
+def create_stack():
+        return collections.deque()
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
