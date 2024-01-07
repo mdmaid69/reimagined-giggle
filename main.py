@@ -1,5 +1,4 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def find_max(numbers):
-        return max(numbers)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
