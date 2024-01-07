@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+print([x**2 for x in range(10)])
