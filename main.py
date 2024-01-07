@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
