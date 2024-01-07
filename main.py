@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
