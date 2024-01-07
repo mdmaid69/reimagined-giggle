@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import platform
+def get_python_version():
+        return platform.python_version()
+import time
+def get_current_time():
+        return time.time()
