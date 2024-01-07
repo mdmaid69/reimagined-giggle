@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
