@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
