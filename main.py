@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_power(work, time):
-        return work / time
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
