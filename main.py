@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
