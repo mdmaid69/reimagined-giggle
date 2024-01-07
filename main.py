@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
