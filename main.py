@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
   import os
   def get_file_mtime(file_name):
         return os.stat(file_name).st_mtime
