@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
