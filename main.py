@@ -1,7 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
