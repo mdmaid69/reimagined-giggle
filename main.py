@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def convert_to_hex(n):
-        return hex(n)
+import numpy as np
+print(np.array([1, 2, 3]))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
