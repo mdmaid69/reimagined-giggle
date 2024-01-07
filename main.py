@@ -1,6 +1,5 @@
+def sort_numbers(numbers):
+        return sorted(numbers)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import collections
-def create_user_string():
-        return collections.UserString()
+def get_array_as_complex(array):
+        return complex(array[0])
