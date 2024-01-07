@@ -1,6 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
