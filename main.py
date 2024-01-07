@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import array
+def append_to_array(array, item):
+        array.append(item)
