@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_array_item(array, i):
+        return array[i]
