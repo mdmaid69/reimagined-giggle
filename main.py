@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
