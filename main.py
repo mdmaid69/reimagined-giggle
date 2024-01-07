@@ -1,6 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def get_list_from_array(array):
+        return array.tolist()
