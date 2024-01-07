@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
