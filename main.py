@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
