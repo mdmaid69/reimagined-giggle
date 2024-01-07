@@ -1,5 +1,6 @@
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_directory_name(path):
+        return os.path.dirname(path)
