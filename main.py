@@ -1,4 +1,7 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-from collections import Counter
-print(Counter("hello world"))
+def find_max(numbers):
+        return max(numbers)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
