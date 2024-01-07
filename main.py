@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
