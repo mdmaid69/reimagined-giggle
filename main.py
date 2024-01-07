@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def is_palindrome(s):
+        return s == s[::-1]
