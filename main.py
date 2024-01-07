@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  def cube_number(x):
-        return x**3
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
