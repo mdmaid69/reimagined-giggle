@@ -1,6 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import re
-print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
