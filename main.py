@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_area_rectangle(l, w):
-        return l * w
+def convert_to_hex(n):
+        return hex(n)
+import collections
+def create_counter():
+        return collections.Counter()
