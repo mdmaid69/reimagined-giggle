@@ -1,4 +1,8 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def add_numbers(x, y):
-        return x + y
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
