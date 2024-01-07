@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  def add_numbers(x, y):
-        return x + y
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
