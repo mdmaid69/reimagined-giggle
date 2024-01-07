@@ -1,6 +1,7 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
