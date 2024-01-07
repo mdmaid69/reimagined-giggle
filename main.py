@@ -1,5 +1,6 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import collections
+def create_counter():
+        return collections.Counter()
