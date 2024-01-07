@@ -1,5 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
