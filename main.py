@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_density(mass, volume):
+        return mass / volume
