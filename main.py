@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def find_max(lst):
-        return max(lst)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
