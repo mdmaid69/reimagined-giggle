@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
