@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
