@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+print([x**2 for x in range(10)])
