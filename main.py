@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
