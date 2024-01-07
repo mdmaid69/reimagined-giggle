@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
