@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
