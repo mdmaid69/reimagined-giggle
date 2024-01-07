@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def get_array_index(array, item):
+        return array.index(item)
