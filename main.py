@@ -1,8 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
