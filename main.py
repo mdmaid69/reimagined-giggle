@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import collections
-def create_priority_queue():
-        return collections.deque()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
