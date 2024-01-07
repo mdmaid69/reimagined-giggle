@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
