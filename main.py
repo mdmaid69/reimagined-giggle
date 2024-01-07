@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
