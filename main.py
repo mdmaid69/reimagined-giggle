@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
