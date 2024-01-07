@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import datetime
+def get_current_date():
+        return datetime.date.today()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
