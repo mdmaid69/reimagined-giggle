@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_power(work, time):
-        return work / time
+def multiply_numbers(x, y):
+        return x * y
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
