@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
+def calculate_power(work, time):
+        return work / time
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
