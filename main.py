@@ -1,5 +1,11 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
