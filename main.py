@@ -1,6 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import sys
+def exit_program():
+        sys.exit()
