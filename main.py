@@ -1,4 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_density(mass, volume):
+        return mass / volume
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
