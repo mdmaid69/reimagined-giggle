@@ -1,7 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
