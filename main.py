@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_density(mass, volume):
+        return mass / volume
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
