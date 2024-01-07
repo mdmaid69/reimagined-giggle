@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-  import sys
-  def get_python_version():
-        return sys.version
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
