@@ -1,4 +1,5 @@
-import sys
-print(sys.version)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
