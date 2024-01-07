@@ -1,4 +1,7 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_density(mass, volume):
-        return mass / volume
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
