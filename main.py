@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def split_path(path):
+        return os.path.split(path)
+import collections
+def create_counter():
+        return collections.Counter()
