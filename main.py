@@ -1,5 +1,5 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def find_max(numbers):
+        return max(numbers)
