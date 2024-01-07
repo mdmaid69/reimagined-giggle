@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_as_bytes(array):
+        return bytes(array)
