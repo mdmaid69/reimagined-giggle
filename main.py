@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
 import array
-def get_array_as_str(array):
-        return str(array)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
