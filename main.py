@@ -1,5 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
