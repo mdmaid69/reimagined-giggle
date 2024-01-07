@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import time
+def get_current_time():
+        return time.time()
+  def sort_list(lst):
+        return sorted(lst)
