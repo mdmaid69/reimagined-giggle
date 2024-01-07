@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
