@@ -1,6 +1,6 @@
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def delete_file(file_name):
+        os.remove(file_name)
