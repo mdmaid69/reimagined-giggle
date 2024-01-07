@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import sys
+def exit_program():
+        sys.exit()
