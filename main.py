@@ -1,6 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
