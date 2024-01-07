@@ -1,5 +1,8 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
