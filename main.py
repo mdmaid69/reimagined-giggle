@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
