@@ -1,9 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
