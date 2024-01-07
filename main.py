@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
