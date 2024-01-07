@@ -1,8 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
