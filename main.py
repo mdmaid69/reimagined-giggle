@@ -1,5 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def find_unique_words(sentence):
+        return set(sentence.split())
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
