@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_pressure(force, area):
+        return force / area
