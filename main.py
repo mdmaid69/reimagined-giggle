@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def cube_number(x):
+        return x**3
