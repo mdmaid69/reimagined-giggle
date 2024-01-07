@@ -1,4 +1,4 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def convert_to_hex(n):
-        return hex(n)
+for i in range(10): print(i)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
