@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import sys
+def print_python_version():
+        print(sys.version)
