@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def get_array_as_int(array):
+        return int(array[0])
