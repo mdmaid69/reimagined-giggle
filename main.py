@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def subtract_numbers(x, y):
+        return x - y
+import sys
+def print_python_version():
+        print(sys.version)
