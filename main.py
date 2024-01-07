@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def find_max(numbers):
-        return max(numbers)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
