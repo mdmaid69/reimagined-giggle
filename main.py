@@ -1,4 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+print([x**2 for x in range(10)])
