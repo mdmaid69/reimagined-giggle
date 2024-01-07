@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-text = "Hello, world!"
-print("Characters:", len(text))
+def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
