@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
