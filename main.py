@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
