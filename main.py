@@ -1,7 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
