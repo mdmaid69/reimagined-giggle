@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def find_max(numbers):
+        return max(numbers)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
