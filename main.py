@@ -1,4 +1,4 @@
-def square_number(x):
-        return x**2
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+print(math.pi)
