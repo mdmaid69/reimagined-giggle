@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_density(mass, volume):
+        return mass / volume
