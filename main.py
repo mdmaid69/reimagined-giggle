@@ -1,6 +1,4 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_average(lst):
+        return sum(lst) / len(lst)
