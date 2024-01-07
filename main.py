@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+from collections import Counter
+print(Counter("hello world"))
