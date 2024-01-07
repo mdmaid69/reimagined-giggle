@@ -1,7 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
