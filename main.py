@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
