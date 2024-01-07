@@ -1,7 +1,8 @@
-def multiply_numbers(x, y):
-        return x * y
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
