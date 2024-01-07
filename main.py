@@ -1,7 +1,4 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
