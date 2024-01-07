@@ -1,10 +1,9 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
