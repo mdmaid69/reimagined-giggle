@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
