@@ -1,6 +1,8 @@
-import collections
-def create_user_string():
-        return collections.UserString()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
