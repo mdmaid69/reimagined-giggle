@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
