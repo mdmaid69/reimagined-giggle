@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def is_odd(n):
-        return n % 2 != 0
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
