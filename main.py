@@ -1,10 +1,7 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
+def factorial(n):
+        if n == 0:
+        return 1
         else:
-        return -1
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+        return n * factorial(n-1)
+def add_numbers(a, b):
+        return a + b
