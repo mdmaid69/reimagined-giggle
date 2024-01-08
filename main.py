@@ -1,6 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
