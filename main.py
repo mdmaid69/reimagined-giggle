@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_area_rectangle(l, w):
+        return l * w
+def remove_duplicates(lst):
+        return list(set(lst))
