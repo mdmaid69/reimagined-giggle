@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import tensorflow as tf
+print(tf.__version__)
+import array
+def get_array_as_float(array):
+        return float(array[0])
