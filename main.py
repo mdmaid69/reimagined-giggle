@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_area_rectangle(l, w):
+        return l * w
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
