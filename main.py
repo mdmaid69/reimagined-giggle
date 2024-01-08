@@ -1,6 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import collections
+def create_user_string():
+        return collections.UserString()
