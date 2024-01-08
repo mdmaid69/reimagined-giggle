@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
