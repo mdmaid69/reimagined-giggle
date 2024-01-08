@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def reverse_array(array):
+        array.reverse()
