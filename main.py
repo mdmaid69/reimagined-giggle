@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def convert_to_hex(n):
+        return hex(n)
