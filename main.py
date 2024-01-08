@@ -1,5 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import time
+print(time.time())
