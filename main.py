@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import collections
+def create_priority_queue():
+        return collections.deque()
