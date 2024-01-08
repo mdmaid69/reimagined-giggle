@@ -1,8 +1,9 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
