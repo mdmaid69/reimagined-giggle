@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
