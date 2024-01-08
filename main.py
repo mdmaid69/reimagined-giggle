@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  def subtract_numbers(x, y):
-        return x - y
+  def reverse_list(lst):
+        return lst[::-1]
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
