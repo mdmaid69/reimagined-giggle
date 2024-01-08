@@ -1,6 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
