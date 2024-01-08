@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  def square_number(x):
-        return x**2
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_work(force, distance):
+        return force * distance
