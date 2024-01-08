@@ -1,7 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
