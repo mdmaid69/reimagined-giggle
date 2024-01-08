@@ -1,7 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  def is_even(n):
+        return n % 2 == 0
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
