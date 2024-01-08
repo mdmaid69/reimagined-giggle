@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import platform
+def get_python_version():
+        return platform.python_version()
