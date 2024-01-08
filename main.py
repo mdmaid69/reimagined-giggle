@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
