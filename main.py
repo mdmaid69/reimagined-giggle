@@ -1,6 +1,6 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
