@@ -1,5 +1,8 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
