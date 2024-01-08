@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
