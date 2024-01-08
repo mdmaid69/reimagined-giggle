@@ -1,4 +1,3 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+for i in range(10): print(i)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
