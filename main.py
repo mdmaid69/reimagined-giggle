@@ -1,5 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-for i in range(5):
-        print(i)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import collections
+def create_user_dict():
+        return collections.UserDict()
