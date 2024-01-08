@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
