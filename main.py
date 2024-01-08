@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def reverse_array(array):
+        array.reverse()
