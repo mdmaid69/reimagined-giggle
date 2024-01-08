@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_acceleration(speed, time):
+        return speed / time
+import time
+def get_current_time():
+        return time.time()
