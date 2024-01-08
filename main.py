@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
