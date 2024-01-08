@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  def remove_duplicates(lst):
+        return list(set(lst))
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def convert_array_to_list(array):
+        return array.tolist()
