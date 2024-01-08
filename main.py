@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def find_min(lst):
+        return min(lst)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
