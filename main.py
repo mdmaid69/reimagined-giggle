@@ -1,5 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+for i in range(5):
+        print(i)
