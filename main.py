@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
