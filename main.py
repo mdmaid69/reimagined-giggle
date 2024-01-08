@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
