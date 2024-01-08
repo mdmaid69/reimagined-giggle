@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
