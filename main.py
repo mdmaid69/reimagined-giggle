@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+from collections import Counter
+print(Counter("hello world"))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
