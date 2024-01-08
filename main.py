@@ -1,5 +1,6 @@
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
 import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
