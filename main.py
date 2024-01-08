@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
