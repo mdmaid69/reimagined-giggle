@@ -1,5 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
