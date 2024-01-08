@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_power(work, time):
+        return work / time
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
