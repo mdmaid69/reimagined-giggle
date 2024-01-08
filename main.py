@@ -1,5 +1,6 @@
+import collections
+def create_stack():
+        return collections.deque()
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_square_root(x):
+        return math.sqrt(x)
