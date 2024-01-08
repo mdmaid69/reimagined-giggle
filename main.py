@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
