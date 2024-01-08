@@ -1,6 +1,5 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_density(mass, volume):
+        return mass / volume
