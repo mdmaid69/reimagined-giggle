@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import collections
-def create_queue():
-        return collections.deque()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def reverse_list(lst):
+        return lst[::-1]
