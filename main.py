@@ -1,4 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-  def convert_to_binary(n):
-        return bin(n)
+import datetime
+print(datetime.datetime.now())
+name = "Python"
+print("Hello,", name)
