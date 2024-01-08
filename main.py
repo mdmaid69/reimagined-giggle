@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
