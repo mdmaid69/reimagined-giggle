@@ -1,7 +1,8 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def get_array_length(array):
+        return len(array)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
