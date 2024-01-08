@@ -1,3 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-for i in range(10): print(i)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
