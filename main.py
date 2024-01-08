@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
