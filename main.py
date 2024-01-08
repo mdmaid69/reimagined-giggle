@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
