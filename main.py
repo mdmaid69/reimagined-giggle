@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def reverse_list(lst):
+        return lst[::-1]
+import sys
+def exit_program():
+        sys.exit()
