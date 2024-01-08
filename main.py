@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
