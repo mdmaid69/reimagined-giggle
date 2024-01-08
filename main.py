@@ -1,6 +1,8 @@
-import time
-def get_current_time():
-        return time.time()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
