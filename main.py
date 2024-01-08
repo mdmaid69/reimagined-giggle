@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
