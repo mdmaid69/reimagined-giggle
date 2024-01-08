@@ -1,5 +1,8 @@
-def calculate_work(force, distance):
-        return force * distance
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
