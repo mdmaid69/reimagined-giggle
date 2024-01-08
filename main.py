@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
