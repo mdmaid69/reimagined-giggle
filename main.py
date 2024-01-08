@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def find_max(lst):
-        return max(lst)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
