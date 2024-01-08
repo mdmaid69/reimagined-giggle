@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def get_list_from_array(array):
+        return array.tolist()
