@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def get_array_item(array, i):
+        return array[i]
