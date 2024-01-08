@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
