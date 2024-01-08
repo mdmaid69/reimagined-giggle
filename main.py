@@ -1,5 +1,7 @@
-def is_even(n):
-        return n % 2 == 0
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
