@@ -1,8 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
