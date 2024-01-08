@@ -1,4 +1,5 @@
-import os
-print(os.getcwd())
-def multiply_numbers(x, y):
-        return x * y
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
