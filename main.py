@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
