@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
