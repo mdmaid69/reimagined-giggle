@@ -1,6 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import sys
+def exit_program():
+        sys.exit()
