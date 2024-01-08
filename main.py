@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
