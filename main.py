@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
