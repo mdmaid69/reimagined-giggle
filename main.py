@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
