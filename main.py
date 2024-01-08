@@ -1,5 +1,7 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
