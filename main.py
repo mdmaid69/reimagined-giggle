@@ -1,5 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
