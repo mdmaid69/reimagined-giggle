@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_as_str(array):
+        return str(array)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
