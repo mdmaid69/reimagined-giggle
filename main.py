@@ -1,5 +1,8 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def is_even(n):
-        return n % 2 == 0
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
