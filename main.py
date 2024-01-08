@@ -1,6 +1,8 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
