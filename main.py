@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
