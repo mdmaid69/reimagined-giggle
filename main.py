@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
