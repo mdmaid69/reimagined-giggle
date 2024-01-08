@@ -1,5 +1,5 @@
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
