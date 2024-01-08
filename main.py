@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import collections
+def create_user_list():
+        return collections.UserList()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
