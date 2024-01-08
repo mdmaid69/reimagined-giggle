@@ -1,6 +1,8 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
