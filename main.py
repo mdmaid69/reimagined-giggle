@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def convert_to_binary(n):
-        return bin(n)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
