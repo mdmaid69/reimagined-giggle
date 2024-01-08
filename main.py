@@ -1,6 +1,5 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def subtract_numbers(x, y):
+        return x - y
