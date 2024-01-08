@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
