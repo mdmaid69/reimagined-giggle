@@ -1,8 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_length(array):
+        return len(array)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
