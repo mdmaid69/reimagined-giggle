@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
