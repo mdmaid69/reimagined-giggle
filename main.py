@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
