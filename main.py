@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
