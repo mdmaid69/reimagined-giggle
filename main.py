@@ -1,6 +1,7 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_as_tuple(array):
+        return tuple(array)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
