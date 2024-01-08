@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
