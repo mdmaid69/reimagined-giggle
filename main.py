@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def cube_number(x):
+        return x**3
+  def subtract_numbers(x, y):
+        return x - y
