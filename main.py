@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
