@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
