@@ -1,5 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
