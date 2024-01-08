@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import array
+def get_array_as_float(array):
+        return float(array[0])
