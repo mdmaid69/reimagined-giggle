@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  def convert_to_octal(n):
+        return oct(n)
