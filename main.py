@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def find_min(lst):
-        return min(lst)
+from collections import Counter
+print(Counter("hello world"))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
