@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
