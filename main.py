@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import time
-def get_current_time():
-        return time.ctime()
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
