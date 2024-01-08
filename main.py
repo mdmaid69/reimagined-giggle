@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+def count_elements(lst):
+        return len(lst)
