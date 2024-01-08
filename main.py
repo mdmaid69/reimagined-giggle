@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
