@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_area_circle(r):
+        return 3.14 * r**2
