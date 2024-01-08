@@ -1,6 +1,6 @@
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
