@@ -1,5 +1,4 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
