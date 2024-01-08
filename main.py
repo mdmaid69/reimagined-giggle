@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
