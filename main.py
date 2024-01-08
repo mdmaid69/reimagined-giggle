@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def reverse_list(lst):
+        return lst[::-1]
