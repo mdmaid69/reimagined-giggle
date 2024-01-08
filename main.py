@@ -1,6 +1,7 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import time
-def get_time_since_epoch():
-        return time.time()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
