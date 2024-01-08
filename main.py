@@ -1,4 +1,4 @@
-import random
-print(random.randint(0, 100))
-def greet(name):
-        print(f"Hello, {name}!")
+def convert_to_hex(n):
+        return hex(n)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
