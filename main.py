@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def find_min(lst):
+        return min(lst)
