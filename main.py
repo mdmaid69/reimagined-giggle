@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
