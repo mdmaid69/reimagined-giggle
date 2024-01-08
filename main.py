@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_density(mass, volume):
+        return mass / volume
