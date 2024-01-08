@@ -1,5 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
