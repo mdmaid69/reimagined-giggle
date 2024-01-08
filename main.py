@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
