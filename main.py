@@ -1,5 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+print([x**2 for x in range(10)])
+import array
+def clear_array(array):
+        array *= 0
