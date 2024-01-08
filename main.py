@@ -1,6 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
