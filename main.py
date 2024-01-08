@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
