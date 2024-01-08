@@ -1,6 +1,5 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import logging
-def log_message(message):
-        logging.info(message)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
