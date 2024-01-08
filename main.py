@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import sys
+def exit_program():
+        sys.exit()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
