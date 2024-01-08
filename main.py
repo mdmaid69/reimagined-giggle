@@ -1,8 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def reverse_list(lst):
+        return lst[::-1]
