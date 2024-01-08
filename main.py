@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
