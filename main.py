@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def multiply_numbers(x, y):
+        return x * y
