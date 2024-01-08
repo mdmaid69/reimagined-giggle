@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_speed(distance, time):
-        return distance / time
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def get_array_as_repr(array):
+        return repr(array)
