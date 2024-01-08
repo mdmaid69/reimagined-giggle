@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
