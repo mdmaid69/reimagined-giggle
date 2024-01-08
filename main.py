@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
