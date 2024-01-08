@@ -1,4 +1,8 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-print([x**2 for x in range(10)])
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
