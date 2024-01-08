@@ -1,6 +1,8 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
