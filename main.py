@@ -1,6 +1,5 @@
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import time
-def get_current_time():
-        return time.time()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
