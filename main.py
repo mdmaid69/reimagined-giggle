@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
