@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  def cube_number(x):
+        return x**3
