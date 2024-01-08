@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
