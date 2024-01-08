@@ -1,5 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_pressure(force, area):
+        return force / area
