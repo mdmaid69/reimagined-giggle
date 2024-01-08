@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
