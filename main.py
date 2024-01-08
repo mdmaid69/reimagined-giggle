@@ -1,5 +1,6 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def get_array_as_set(array):
+        return set(array)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
