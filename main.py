@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_bytes_from_array(array):
+        return array.tobytes()
