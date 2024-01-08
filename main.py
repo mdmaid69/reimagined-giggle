@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_volume(length, width, height):
-        return length * width * height
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
