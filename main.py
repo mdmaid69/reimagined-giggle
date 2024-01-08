@@ -1,4 +1,8 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import sys
-print(sys.version)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
