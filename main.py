@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
