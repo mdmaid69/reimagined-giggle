@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
