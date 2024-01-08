@@ -1,8 +1,9 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
