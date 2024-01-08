@@ -1,5 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_power(work, time):
+        return work / time
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
