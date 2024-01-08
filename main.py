@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_absolute_value(x):
+        return math.fabs(x)
