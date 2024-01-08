@@ -1,7 +1,4 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def sort_list(lst):
-        return sorted(lst)
+name = "Python"
+print("Hello,", name)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
