@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_work(force, distance):
-        return force * distance
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  def convert_to_hex(n):
+        return hex(n)
