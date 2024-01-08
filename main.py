@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
