@@ -1,5 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def greet(name):
-        print(f"Hello, {name}!")
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
