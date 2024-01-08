@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
