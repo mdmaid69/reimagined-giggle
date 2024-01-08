@@ -1,5 +1,6 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def get_array_as_set(array):
+        return set(array)
+import getpass
+def get_username():
+        return getpass.getuser()
