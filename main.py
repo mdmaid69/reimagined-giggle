@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
