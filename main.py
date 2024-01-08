@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
