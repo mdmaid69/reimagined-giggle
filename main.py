@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
