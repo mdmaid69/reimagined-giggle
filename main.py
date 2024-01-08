@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import platform
+def get_os_info():
+        return platform.uname()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
