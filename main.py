@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def reverse_string(s):
-        return s[::-1]
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_density(mass, volume):
+        return mass / volume
