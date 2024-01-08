@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
