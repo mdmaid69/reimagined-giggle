@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
