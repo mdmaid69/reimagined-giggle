@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
