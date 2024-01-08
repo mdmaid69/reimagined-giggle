@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
