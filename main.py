@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def is_even(n):
-        return n % 2 == 0
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
