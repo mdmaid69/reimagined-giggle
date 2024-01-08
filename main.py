@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
