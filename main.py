@@ -1,6 +1,10 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
