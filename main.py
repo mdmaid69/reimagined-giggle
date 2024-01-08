@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
