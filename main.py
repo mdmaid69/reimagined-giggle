@@ -1,5 +1,5 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
