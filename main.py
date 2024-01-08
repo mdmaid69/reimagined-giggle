@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
