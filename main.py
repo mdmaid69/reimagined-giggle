@@ -1,6 +1,6 @@
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
