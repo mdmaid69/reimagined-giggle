@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def get_array_item(array, i):
-        return array[i]
+import collections
+def create_stack():
+        return collections.deque()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
