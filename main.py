@@ -1,6 +1,6 @@
 import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import array
+def get_array_as_set(array):
+        return set(array)
