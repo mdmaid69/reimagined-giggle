@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
