@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import math
-print(math.pi)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
