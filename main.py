@@ -1,6 +1,5 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
