@@ -1,6 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_work(force, distance):
+        return force * distance
+def convert_to_binary(n):
+        return bin(n)
