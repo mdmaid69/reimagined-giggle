@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def divide_numbers(x, y):
-        return x / y
+import array
+def reverse_array(array):
+        array.reverse()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
