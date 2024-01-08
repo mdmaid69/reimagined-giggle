@@ -1,6 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def find_max(lst):
-        return max(lst)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
