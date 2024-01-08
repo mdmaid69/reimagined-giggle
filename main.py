@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def count_words(sentence):
+        return len(sentence.split())
