@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
