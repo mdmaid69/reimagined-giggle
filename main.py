@@ -1,6 +1,6 @@
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
