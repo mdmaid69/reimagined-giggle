@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
