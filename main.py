@@ -1,4 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-for i in range(10): print(i)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import os
+def change_working_directory(path):
+        os.chdir(path)
