@@ -1,5 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+def calculate_acceleration(speed, time):
+        return speed / time
