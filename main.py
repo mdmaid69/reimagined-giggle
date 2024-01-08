@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
