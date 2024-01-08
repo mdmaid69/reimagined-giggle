@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
