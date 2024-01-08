@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
