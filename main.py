@@ -1,5 +1,6 @@
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
