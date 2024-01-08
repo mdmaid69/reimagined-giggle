@@ -1,6 +1,8 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
