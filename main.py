@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import re
+print(re.match("h.*o", "hello world"))
