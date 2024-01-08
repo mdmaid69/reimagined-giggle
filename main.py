@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
