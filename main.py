@@ -1,7 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
