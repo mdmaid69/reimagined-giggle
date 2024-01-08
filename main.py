@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import time
+def get_current_time():
+        return time.time()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
