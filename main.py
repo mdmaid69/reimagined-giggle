@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
