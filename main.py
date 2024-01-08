@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def square_number(x):
+        return x**2
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
