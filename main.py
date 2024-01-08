@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
