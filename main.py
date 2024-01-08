@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def reverse_list(lst):
+        return lst[::-1]
+import sys
+print(sys.version)
