@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
