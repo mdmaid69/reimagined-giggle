@@ -1,6 +1,7 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
