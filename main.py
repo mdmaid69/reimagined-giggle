@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def multiply_numbers(x, y):
-        return x * y
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
