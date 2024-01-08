@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+x = 10
+y = 20
+print("Sum:", x + y)
