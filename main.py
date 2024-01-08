@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def append_to_array(array, item):
+        array.append(item)
+import numpy as np
+print(np.array([1, 2, 3]))
