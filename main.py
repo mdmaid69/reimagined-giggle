@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import random
+print(random.randint(0, 100))
+import numpy as np
+print(np.array([1, 2, 3]))
