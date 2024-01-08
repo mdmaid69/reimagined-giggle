@@ -1,5 +1,6 @@
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  def square_number(x):
-        return x**2
+def calculate_circle_area(radius):
+        return math.pi * radius**2
