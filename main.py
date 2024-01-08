@@ -1,6 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def multiply_numbers(x, y):
+        return x * y
