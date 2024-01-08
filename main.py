@@ -1,5 +1,11 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def convert_to_binary(n):
+        return bin(n)
