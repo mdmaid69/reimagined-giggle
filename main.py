@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import collections
+def create_user_list():
+        return collections.UserList()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
