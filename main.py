@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
