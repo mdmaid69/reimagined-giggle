@@ -1,6 +1,7 @@
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
