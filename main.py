@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import os
+def remove_directory(path):
+        os.rmdir(path)
