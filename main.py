@@ -1,5 +1,8 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  def convert_to_octal(n):
-        return oct(n)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
