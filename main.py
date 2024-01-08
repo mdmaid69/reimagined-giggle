@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import tensorflow as tf
+print(tf.__version__)
