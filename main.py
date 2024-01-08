@@ -1,5 +1,6 @@
 import collections
-def create_user_list():
-        return collections.UserList()
-from collections import Counter
-print(Counter("hello world"))
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
