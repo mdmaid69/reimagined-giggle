@@ -1,7 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
