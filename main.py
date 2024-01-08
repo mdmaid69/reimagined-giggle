@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-def convert_to_hex(n):
-        return hex(n)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import json
+print(json.dumps({"name": "John", "age": 30}))
