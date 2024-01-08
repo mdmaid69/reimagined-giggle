@@ -1,6 +1,7 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
