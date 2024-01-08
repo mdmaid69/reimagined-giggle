@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def remove_duplicates(lst):
+        return list(set(lst))
