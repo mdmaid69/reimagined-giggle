@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def count_elements(lst):
+        return len(lst)
