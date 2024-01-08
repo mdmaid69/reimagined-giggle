@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
