@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def reverse_list(lst):
+        return lst[::-1]
+import sys
+def print_python_version():
+        return sys.version
