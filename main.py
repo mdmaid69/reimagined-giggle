@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
