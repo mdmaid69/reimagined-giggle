@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
