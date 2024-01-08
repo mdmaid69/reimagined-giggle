@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
