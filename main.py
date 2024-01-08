@@ -1,5 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_pressure(force, area):
-        return force / area
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
