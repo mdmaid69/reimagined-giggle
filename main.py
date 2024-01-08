@@ -1,7 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
