@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
