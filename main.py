@@ -1,5 +1,8 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
