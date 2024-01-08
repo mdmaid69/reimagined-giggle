@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
