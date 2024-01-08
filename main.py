@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def square_number(x):
-        return x**2
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
