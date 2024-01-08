@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
