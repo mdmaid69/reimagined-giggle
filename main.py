@@ -1,8 +1,5 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+def calculate_volume(length, width, height):
+        return length * width * height
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
