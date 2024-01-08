@@ -1,5 +1,6 @@
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_combinations(n, k):
+        return math.comb(n, k)
