@@ -1,7 +1,7 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_index(array, item):
+        return array.index(item)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
