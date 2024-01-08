@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def subtract_numbers(x, y):
+        return x - y
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
