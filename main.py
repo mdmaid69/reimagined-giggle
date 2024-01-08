@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import random
+print(random.randint(0, 100))
