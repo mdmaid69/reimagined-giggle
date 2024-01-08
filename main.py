@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
