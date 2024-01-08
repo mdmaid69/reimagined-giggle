@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def find_max(numbers):
-        return max(numbers)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
