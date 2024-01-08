@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def count_words(sentence):
+        return len(sentence.split())
