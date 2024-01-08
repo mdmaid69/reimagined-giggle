@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
