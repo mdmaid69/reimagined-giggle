@@ -1,5 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
 import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def generate_random_sample(population, k):
+        return random.sample(population, k)
