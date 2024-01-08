@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def find_max(numbers):
+        return max(numbers)
