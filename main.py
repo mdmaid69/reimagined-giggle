@@ -1,10 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import collections
+def create_queue():
+        return collections.deque()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
