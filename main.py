@@ -1,6 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
