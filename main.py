@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import time
-def get_current_time():
-        return time.time()
+text = "Hello, world!"
+print("Characters:", len(text))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
