@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_sine(x):
+        return math.sin(x)
