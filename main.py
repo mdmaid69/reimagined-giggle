@@ -1,6 +1,9 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
