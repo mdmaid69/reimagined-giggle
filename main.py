@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import collections
-def create_user_string():
-        return collections.UserString()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
