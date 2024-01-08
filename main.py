@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def square_number(x):
+        return x**2
+def add_numbers(x, y):
+        return x + y
