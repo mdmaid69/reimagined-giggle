@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
