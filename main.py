@@ -1,8 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  def calculate_area_rectangle(l, w):
+        return l * w
