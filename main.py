@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def reverse_array(array):
+        array.reverse()
