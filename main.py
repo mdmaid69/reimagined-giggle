@@ -1,5 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def count_elements(lst):
-        return len(lst)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
