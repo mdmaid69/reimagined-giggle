@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
