@@ -1,4 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+x = 10
+y = 20
+print("Sum:", x + y)
