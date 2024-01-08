@@ -1,5 +1,3 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+for i in range(10): print(i)
