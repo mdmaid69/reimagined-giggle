@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def multiply_numbers(x, y):
+        return x * y
