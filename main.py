@@ -1,5 +1,5 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def convert_to_hex(n):
+        return hex(n)
