@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import random
-print(random.randint(0, 100))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
