@@ -1,5 +1,4 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import numpy as np
+print(np.array([1, 2, 3]))
