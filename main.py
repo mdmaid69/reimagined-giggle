@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
