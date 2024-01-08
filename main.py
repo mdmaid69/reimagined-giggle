@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
