@@ -1,7 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
