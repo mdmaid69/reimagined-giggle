@@ -1,5 +1,5 @@
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
