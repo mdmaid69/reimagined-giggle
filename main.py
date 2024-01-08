@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_area(radius):
+        return 3.14 * radius * radius
