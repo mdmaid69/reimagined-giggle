@@ -1,4 +1,5 @@
-print(sum(range(10)))
+def reverse_string(s):
+        return s[::-1]
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
