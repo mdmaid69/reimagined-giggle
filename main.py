@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_work(force, distance):
+        return force * distance
+text = "Hello, world!"
+print("Uppercase:", text.upper())
