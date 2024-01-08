@@ -1,5 +1,4 @@
 text = "Hello, world!"
-print("Characters:", len(text))
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+print("Is palindrome:", text == text[::-1])
+def find_max(lst):
+        return max(lst)
