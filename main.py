@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
