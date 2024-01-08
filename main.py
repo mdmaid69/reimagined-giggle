@@ -1,7 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-from collections import Counter
-print(Counter("hello world"))
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
