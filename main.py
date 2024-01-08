@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import time
+print(time.time())
+def calculate_pressure(force, area):
+        return force / area
