@@ -1,6 +1,7 @@
+i = 0
+while i < 5:
+        print(i)
+        i += 1
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
