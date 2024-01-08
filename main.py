@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
