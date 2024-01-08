@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
