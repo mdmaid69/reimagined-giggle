@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import numpy as np
+print(np.array([1, 2, 3]))
