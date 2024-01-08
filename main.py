@@ -1,4 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import tensorflow as tf
+print(tf.__version__)
+def cube_number(x):
+        return x**3
