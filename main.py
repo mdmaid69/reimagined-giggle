@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
