@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import getpass
+def get_username():
+        return getpass.getuser()
