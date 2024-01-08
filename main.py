@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
