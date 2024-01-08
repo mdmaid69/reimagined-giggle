@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
