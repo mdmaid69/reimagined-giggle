@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
