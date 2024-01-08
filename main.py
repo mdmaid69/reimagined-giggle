@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def find_max(numbers):
-        return max(numbers)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
