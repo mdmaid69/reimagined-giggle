@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
