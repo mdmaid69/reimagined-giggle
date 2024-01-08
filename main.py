@@ -1,6 +1,3 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+print([x**2 for x in range(10)])
