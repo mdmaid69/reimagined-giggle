@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import array
+def get_array_as_float(array):
+        return float(array[0])
