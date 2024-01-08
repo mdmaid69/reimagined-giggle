@@ -1,5 +1,4 @@
-def find_max(lst):
-        return max(lst)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
