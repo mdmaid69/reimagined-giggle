@@ -1,6 +1,6 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_list_from_array(array):
+        return array.tolist()
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
