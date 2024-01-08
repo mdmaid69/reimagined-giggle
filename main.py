@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import array
-def get_array_length(array):
-        return len(array)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
