@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
