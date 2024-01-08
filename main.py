@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  def convert_to_hex(n):
+        return hex(n)
+def multiply_numbers(x, y):
+        return x * y
