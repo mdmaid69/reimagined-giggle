@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  def convert_to_binary(n):
+        return bin(n)
