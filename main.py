@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
