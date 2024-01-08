@@ -1,5 +1,5 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
