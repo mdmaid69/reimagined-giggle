@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
