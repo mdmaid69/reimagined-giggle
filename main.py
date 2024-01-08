@@ -1,5 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def sort_numbers(numbers):
-        return sorted(numbers)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
