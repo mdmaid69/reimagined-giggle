@@ -1,5 +1,12 @@
-def is_odd(n):
-        return n % 2 != 0
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
