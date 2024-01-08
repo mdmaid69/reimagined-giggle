@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
