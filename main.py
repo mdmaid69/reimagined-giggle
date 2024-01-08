@@ -1,6 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
