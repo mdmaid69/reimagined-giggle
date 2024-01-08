@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import numpy as np
+print(np.array([1, 2, 3]))
