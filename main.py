@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def subtract_numbers(x, y):
+        return x - y
+import json
+def convert_to_json(data):
+        return json.dumps(data)
