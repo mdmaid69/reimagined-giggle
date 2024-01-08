@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
