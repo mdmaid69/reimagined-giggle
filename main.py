@@ -1,4 +1,4 @@
-def reverse_list(lst):
-        return lst[::-1]
-def convert_to_binary(n):
-        return bin(n)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_volume(length, width, height):
+        return length * width * height
