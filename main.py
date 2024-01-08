@@ -1,5 +1,5 @@
 import math
 def calculate_gamma_function(x):
         return math.gamma(x)
-def is_palindrome(s):
-        return s == s[::-1]
+import sys
+print(sys.version)
