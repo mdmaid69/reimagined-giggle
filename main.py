@@ -1,4 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
