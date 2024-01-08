@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_average(lst):
+        return sum(lst) / len(lst)
