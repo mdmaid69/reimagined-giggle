@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
