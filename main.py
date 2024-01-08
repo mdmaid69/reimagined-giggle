@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
