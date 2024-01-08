@@ -1,5 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
