@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
