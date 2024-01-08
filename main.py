@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import sys
-  def get_python_version():
-        return sys.version
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def greet(name):
+        print(f"Hello, {name}!")
