@@ -1,5 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
