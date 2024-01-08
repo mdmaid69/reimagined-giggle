@@ -1,7 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
