@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
