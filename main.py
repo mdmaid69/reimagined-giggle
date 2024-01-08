@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
