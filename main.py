@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def reverse_list(lst):
+  def reverse_list(lst):
         return lst[::-1]
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
