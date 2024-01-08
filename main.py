@@ -1,4 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-for i in range(10): print(i)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
