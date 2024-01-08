@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
