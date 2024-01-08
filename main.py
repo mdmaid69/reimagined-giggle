@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import sys
-def print_python_version():
-        print(sys.version)
+def greet(name):
+        print(f"Hello, {name}!")
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
