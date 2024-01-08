@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def convert_to_octal(n):
-        return oct(n)
+  def count_elements(lst):
+        return len(lst)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
