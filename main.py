@@ -1,4 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-print([x**2 for x in range(10)])
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
