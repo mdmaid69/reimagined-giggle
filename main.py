@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_work(force, distance):
+        return force * distance
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
