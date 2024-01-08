@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def convert_to_octal(n):
+        return oct(n)
