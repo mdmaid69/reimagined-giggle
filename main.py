@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def find_union(list1, list2):
+        return set(list1) | set(list2)
