@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
