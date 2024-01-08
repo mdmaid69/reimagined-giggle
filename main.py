@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
