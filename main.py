@@ -1,3 +1,11 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-print([x**2 for x in range(10)])
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
