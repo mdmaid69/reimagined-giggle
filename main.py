@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import array
+def convert_array_to_list(array):
+        return array.tolist()
