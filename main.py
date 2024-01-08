@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
