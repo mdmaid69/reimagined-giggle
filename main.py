@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-text = "Hello, world!"
-print("Characters:", len(text))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
