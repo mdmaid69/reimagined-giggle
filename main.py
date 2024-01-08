@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def find_min(numbers):
-        return min(numbers)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
