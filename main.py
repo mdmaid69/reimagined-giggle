@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
