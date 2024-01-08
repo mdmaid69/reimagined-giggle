@@ -1,5 +1,7 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
