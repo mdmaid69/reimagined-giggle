@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import sys
+def exit_program():
+        sys.exit()
+  def convert_to_binary(n):
+        return bin(n)
