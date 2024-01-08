@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
