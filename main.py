@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def multiply_numbers(x, y):
+        return x * y
+import re
+print(re.match("h.*o", "hello world"))
