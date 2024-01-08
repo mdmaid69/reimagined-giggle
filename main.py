@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
