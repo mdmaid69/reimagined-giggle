@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
