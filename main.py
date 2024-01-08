@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def append_to_array(array, item):
+        array.append(item)
+import tensorflow as tf
+print(tf.__version__)
