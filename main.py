@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
