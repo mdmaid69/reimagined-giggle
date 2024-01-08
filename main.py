@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def get_array_as_int(array):
+        return int(array[0])
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
