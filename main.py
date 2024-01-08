@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
