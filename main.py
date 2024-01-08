@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
