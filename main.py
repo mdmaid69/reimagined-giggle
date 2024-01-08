@@ -1,5 +1,5 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
