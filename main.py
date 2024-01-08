@@ -1,5 +1,7 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
