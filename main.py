@@ -1,5 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_power(work, time):
-        return work / time
+def is_palindrome(s):
+        return s == s[::-1]
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
