@@ -1,5 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def convert_to_octal(n):
+        return oct(n)
+def calculate_speed(distance, time):
+        return distance / time
