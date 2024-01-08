@@ -1,7 +1,8 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
