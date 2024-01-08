@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
