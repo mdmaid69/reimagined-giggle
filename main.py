@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
