@@ -1,4 +1,7 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
