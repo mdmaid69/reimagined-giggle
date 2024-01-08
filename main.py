@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
