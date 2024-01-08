@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
