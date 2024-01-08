@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
