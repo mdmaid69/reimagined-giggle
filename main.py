@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import logging
+def log_message(message):
+        logging.info(message)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
