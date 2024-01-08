@@ -1,5 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import array
+def get_array_as_set(array):
+        return set(array)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
