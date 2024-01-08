@@ -1,7 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import json
+def convert_to_json(data):
+        return json.dumps(data)
