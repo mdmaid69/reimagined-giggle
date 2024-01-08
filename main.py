@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import collections
+def create_user_string():
+        return collections.UserString()
+import logging
+def log_message(message):
+        logging.info(message)
