@@ -1,7 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  def cube_number(x):
+        return x**3
