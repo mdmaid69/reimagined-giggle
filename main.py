@@ -1,8 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
