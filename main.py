@@ -1,8 +1,6 @@
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
