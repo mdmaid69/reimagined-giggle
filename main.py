@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import array
+def append_to_array(array, item):
+        array.append(item)
