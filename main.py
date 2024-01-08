@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
