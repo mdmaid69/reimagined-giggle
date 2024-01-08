@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def calculate_density(mass, volume):
-        return mass / volume
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def get_array_as_bool(array):
+        return bool(array)
