@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
