@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
