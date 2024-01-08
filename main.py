@@ -1,8 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import datetime
+print(datetime.datetime.now())
