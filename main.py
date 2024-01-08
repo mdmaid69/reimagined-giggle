@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
