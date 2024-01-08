@@ -1,10 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
