@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import numpy as np
+print(np.array([1, 2, 3]))
