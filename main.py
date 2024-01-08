@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
