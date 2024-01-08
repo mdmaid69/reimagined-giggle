@@ -1,5 +1,8 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  def cube_number(x):
-        return x**3
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
