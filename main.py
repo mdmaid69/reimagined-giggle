@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def find_max(numbers):
+        return max(numbers)
