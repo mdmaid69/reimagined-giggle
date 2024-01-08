@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
