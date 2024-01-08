@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import tensorflow as tf
+print(tf.__version__)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
