@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_length(array):
+        return len(array)
