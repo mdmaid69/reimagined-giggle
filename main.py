@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import collections
+def create_user_string():
+        return collections.UserString()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
