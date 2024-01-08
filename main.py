@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+text = "Hello, world!"
+print("Words:", len(text.split()))
