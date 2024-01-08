@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import random
+print(random.randint(0, 100))
