@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
