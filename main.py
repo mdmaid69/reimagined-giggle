@@ -1,6 +1,7 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
