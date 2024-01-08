@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def sort_list(lst):
-        return sorted(lst)
+from collections import Counter
+print(Counter("hello world"))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
