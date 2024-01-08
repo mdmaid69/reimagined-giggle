@@ -1,6 +1,7 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
