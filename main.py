@@ -1,4 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-from collections import Counter
-print(Counter("hello world"))
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
