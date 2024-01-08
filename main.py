@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def get_array_as_str(array):
+        return str(array)
