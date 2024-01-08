@@ -1,5 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
