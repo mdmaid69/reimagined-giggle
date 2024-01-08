@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  def is_odd(n):
+        return n % 2 != 0
