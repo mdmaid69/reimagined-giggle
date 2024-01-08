@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
