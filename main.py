@@ -1,6 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_base_name(path):
+        return os.path.basename(path)
