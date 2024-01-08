@@ -1,5 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
