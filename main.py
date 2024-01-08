@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
