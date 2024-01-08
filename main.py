@@ -1,5 +1,10 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_work(force, distance):
-        return force * distance
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
