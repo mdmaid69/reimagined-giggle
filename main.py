@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
