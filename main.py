@@ -1,6 +1,9 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
