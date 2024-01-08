@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  def convert_to_octal(n):
+        return oct(n)
