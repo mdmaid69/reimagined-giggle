@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
