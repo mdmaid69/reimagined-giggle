@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
