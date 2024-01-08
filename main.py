@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
