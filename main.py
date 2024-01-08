@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def convert_to_octal(n):
+        return oct(n)
