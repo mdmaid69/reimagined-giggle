@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
