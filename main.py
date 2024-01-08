@@ -1,4 +1,4 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-for i in range(10): print(i)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
