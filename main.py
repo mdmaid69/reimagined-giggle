@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def convert_to_octal(n):
-        return oct(n)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
