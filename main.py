@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def find_unique_words(sentence):
+        return set(sentence.split())
+import platform
+def get_os_info():
+        return platform.uname()
