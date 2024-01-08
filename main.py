@@ -1,5 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import logging
-def log_message(message):
-        logging.info(message)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def convert_to_hex(n):
+        return hex(n)
