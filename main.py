@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def sort_numbers(numbers):
+        return sorted(numbers)
