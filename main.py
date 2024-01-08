@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
