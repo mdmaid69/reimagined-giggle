@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
