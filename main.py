@@ -1,5 +1,7 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
