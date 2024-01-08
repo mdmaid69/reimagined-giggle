@@ -1,8 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def calculate_power(work, time):
+        return work / time
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
