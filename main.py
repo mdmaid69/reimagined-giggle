@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
