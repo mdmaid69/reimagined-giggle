@@ -1,6 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
