@@ -1,6 +1,7 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
