@@ -1,7 +1,7 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
