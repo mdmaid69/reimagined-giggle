@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
 import math
-print(math.pi)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_work(force, distance):
+        return force * distance
