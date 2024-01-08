@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
