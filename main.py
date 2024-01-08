@@ -1,6 +1,8 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
