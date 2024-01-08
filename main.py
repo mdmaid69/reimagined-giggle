@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def cube_number(x):
+        return x**3
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
