@@ -1,6 +1,6 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def delete_file(file_name):
+        os.remove(file_name)
