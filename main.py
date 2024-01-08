@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
