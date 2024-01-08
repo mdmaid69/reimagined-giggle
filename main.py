@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import time
-def get_current_time():
-        return time.ctime()
+def sort_numbers(numbers):
+        return sorted(numbers)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
