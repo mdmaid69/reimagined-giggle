@@ -1,7 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import sys
+def exit_program():
+        sys.exit()
