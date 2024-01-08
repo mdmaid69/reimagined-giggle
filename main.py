@@ -1,6 +1,7 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
