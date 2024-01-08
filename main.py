@@ -1,8 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+text = "Hello, world!"
+print("Words:", len(text.split()))
