@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
