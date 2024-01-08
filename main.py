@@ -1,5 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def count_words(sentence):
-        return len(sentence.split())
+def find_min(numbers):
+        return min(numbers)
+  def is_even(n):
+        return n % 2 == 0
