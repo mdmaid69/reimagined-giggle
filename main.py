@@ -1,5 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def subtract_numbers(x, y):
+        return x - y
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
