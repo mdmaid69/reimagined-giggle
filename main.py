@@ -1,6 +1,6 @@
+import collections
+def create_queue():
+        return collections.deque()
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
