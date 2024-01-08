@@ -1,5 +1,4 @@
 numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+print("Average:", sum(numbers) / len(numbers))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
