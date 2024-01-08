@@ -1,6 +1,6 @@
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
 import collections
-def create_priority_queue():
-        return collections.deque()
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def create_user_list():
+        return collections.UserList()
