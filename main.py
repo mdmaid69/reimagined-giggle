@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  def cube_number(x):
+        return x**3
