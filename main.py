@@ -1,7 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
