@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import sys
+print(sys.version)
+def calculate_area_rectangle(l, w):
+        return l * w
