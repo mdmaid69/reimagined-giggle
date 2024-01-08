@@ -1,6 +1,7 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
