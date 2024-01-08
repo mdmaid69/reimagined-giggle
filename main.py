@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
