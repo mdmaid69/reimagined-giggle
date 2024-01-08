@@ -1,6 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def clear_array(array):
-        array *= 0
+  def cube_number(x):
+        return x**3
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
