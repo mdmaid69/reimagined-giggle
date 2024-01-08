@@ -1,5 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def clear_array(array):
+        array *= 0
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
