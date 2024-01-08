@@ -1,5 +1,4 @@
-  def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
