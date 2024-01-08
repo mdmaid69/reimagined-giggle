@@ -1,6 +1,6 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
