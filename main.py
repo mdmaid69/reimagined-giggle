@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def append_to_array(array, item):
+        array.append(item)
