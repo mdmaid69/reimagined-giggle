@@ -1,6 +1,7 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
 import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def delete_directory(path):
+        shutil.rmtree(path)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
