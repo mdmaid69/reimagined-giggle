@@ -1,6 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def is_even(n):
+        return n % 2 == 0
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
