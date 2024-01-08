@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
