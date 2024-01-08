@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+x = 10
+y = 20
+print("Sum:", x + y)
