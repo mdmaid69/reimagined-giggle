@@ -1,8 +1,8 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
