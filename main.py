@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def set_array_item(array, i, item):
+        array[i] = item
