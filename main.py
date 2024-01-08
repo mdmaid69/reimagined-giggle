@@ -1,6 +1,5 @@
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
