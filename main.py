@@ -1,5 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def get_array_as_complex(array):
+        return complex(array[0])
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
