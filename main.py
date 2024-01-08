@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
