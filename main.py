@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
