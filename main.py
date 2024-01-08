@@ -1,6 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
