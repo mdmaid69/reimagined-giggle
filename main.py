@@ -1,4 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def count_characters(sentence):
-        return len(sentence)
+import re
+print(re.match("h.*o", "hello world"))
+def greet(name):
+        print(f"Hello, {name}!")
