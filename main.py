@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import random
+print(random.randint(0, 100))
+import os
+def get_current_working_directory():
+        return os.getcwd()
