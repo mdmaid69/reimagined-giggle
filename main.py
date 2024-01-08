@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
