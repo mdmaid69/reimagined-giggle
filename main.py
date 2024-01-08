@@ -1,6 +1,8 @@
-import sys
-def exit_program():
-        sys.exit()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_complex(array):
+        return complex(array[0])
