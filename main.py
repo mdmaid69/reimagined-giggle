@@ -1,5 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def calculate_speed(distance, time):
-        return distance / time
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
