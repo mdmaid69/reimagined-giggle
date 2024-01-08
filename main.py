@@ -1,5 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+from collections import Counter
+print(Counter("hello world"))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
