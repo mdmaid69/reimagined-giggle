@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import datetime
+def get_today_date():
+        return datetime.date.today()
+text = "Hello, world!"
+print("Words:", len(text.split()))
