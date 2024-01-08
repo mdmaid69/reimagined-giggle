@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
