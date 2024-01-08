@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import time
-def get_current_time():
-        return time.ctime()
+def convert_to_octal(n):
+        return oct(n)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
