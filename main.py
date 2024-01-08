@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import collections
+def create_user_list():
+        return collections.UserList()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
