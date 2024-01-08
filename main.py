@@ -1,6 +1,8 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
