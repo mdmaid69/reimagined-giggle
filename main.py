@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
