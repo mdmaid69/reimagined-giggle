@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
