@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
