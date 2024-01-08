@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-from collections import Counter
-print(Counter("hello world"))
+import logging
+def log_message(message):
+        logging.info(message)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
