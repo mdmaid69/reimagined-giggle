@@ -1,4 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
 n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
