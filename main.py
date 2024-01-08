@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
