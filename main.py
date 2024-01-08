@@ -1,7 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
