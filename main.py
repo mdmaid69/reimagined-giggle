@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_sine(x):
+        return math.sin(x)
