@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
