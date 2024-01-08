@@ -1,5 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
