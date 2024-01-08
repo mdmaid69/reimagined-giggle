@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
