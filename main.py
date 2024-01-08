@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
