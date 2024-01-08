@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
