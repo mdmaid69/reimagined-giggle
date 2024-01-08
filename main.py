@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
