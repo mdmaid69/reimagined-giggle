@@ -1,5 +1,7 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
