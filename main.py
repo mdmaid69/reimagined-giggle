@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_item_count(array, item):
+        return array.count(item)
