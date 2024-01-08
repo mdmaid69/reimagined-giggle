@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import array
+def reverse_array(array):
+        array.reverse()
+import platform
+def get_os_info():
+        return platform.uname()
