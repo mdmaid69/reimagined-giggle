@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import sys
+def print_python_version():
+        print(sys.version)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
