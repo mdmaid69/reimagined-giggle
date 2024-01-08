@@ -1,7 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
