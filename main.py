@@ -1,5 +1,4 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def find_min(lst):
-        return min(lst)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def sort_list(lst):
+        return sorted(lst)
