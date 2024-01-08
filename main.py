@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import random
+print(random.randint(0, 100))
