@@ -1,7 +1,8 @@
-def add_numbers(a, b):
-        return a + b
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
