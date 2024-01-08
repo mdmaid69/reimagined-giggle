@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
