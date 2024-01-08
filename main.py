@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def remove_duplicates(lst):
+        return list(set(lst))
+def reverse_string(s):
+        return s[::-1]
