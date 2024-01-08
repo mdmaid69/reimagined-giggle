@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
+def is_palindrome(s):
+        return s == s[::-1]
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_factorial(n):
+        return math.factorial(n)
