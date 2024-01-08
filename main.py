@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  def is_even(n):
-        return n % 2 == 0
+import array
+def append_to_array(array, item):
+        array.append(item)
+from collections import Counter
+print(Counter("hello world"))
