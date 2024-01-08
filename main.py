@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def count_elements(lst):
+        return len(lst)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
