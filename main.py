@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_density(mass, volume):
+        return mass / volume
