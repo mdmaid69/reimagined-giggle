@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
