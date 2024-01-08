@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import getpass
+def get_username():
+        return getpass.getuser()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
