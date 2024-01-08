@@ -1,8 +1,8 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
