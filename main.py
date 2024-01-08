@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
