@@ -1,7 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
