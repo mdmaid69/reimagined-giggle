@@ -1,4 +1,5 @@
-print(sum(range(10)))
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  def count_elements(lst):
+        return len(lst)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
