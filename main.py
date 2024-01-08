@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def get_array_as_bool(array):
+        return bool(array)
