@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
