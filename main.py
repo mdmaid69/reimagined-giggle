@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  def calculate_area_rectangle(l, w):
+        return l * w
