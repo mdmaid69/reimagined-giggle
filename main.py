@@ -1,8 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import collections
+def create_user_list():
+        return collections.UserList()
