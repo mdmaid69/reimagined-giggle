@@ -1,5 +1,6 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import sys
+def print_python_version():
+        return sys.version
