@@ -1,6 +1,7 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
