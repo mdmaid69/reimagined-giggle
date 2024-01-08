@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_factorial(n):
+        return math.factorial(n)
