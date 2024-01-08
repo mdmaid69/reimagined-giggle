@@ -1,8 +1,6 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def set_array_item(array, i, item):
+        array[i] = item
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
