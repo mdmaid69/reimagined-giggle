@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+x = 10
+y = 20
+print("Sum:", x + y)
