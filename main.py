@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_density(mass, volume):
+        return mass / volume
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
