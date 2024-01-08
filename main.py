@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
