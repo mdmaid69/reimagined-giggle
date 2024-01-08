@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_work(force, distance):
+        return force * distance
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
