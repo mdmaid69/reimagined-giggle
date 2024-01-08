@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def subtract_numbers(x, y):
+        return x - y
+def count_words(sentence):
+        return len(sentence.split())
