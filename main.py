@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
