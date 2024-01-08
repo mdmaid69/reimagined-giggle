@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
