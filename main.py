@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import datetime
+def get_current_date():
+        return datetime.date.today()
