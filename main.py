@@ -1,5 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def get_array_as_str(array):
+        return str(array)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
