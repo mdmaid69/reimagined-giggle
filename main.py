@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
