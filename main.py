@@ -1,7 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
