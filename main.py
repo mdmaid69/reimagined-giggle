@@ -1,5 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
