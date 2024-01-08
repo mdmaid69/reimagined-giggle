@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_acceleration(speed, time):
-        return speed / time
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def add_numbers(a, b):
+        return a + b
