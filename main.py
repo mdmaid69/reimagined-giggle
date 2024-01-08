@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
