@@ -1,6 +1,6 @@
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
