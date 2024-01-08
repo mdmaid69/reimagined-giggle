@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
