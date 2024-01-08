@@ -1,5 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
