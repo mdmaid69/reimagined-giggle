@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
