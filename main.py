@@ -1,6 +1,8 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
