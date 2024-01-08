@@ -1,6 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def convert_to_hex(n):
+        return hex(n)
