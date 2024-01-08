@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
