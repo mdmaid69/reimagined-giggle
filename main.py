@@ -1,7 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import array
+def get_array_as_list(array):
+        return list(array)
