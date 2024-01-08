@@ -1,5 +1,9 @@
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
