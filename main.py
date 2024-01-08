@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def add_numbers(a, b):
-        return a + b
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
