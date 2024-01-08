@@ -1,5 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
