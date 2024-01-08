@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
