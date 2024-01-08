@@ -1,6 +1,10 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
