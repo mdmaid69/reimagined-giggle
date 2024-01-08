@@ -1,6 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  def calculate_area_circle(r):
+        return 3.14 * r**2
