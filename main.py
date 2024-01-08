@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def remove_duplicates(lst):
+        return list(set(lst))
