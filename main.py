@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def get_array_as_set(array):
+        return set(array)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
