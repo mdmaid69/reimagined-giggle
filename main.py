@@ -1,7 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import array
+def get_list_from_array(array):
+        return array.tolist()
