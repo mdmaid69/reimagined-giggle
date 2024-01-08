@@ -1,5 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
