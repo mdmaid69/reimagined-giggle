@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import array
+def get_array_length(array):
+        return len(array)
