@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import collections
+def create_stack():
+        return collections.deque()
