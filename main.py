@@ -1,6 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
