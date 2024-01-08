@@ -1,6 +1,6 @@
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
