@@ -1,6 +1,7 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
