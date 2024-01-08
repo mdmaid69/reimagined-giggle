@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+def calculate_speed(distance, time):
+        return distance / time
