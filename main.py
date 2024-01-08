@@ -1,5 +1,6 @@
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
