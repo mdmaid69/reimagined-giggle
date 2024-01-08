@@ -1,12 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+x = 10
+y = 20
+print("Sum:", x + y)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
