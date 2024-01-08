@@ -1,5 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import datetime
+def get_today_date():
+        return datetime.date.today()
