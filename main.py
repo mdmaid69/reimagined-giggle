@@ -1,7 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
