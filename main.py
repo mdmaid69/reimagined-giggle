@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def get_string_from_array(array):
+        return array.tobytes()
