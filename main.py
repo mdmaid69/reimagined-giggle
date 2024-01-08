@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
