@@ -1,4 +1,9 @@
-def add_numbers(a, b):
-        return a + b
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
