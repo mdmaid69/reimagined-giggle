@@ -1,7 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import json
+print(json.dumps({"name": "John", "age": 30}))
