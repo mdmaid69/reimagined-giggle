@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
