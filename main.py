@@ -1,5 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_power(work, time):
+        return work / time
