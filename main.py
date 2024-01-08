@@ -1,5 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def is_palindrome(s):
-        return s == s[::-1]
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
