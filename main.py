@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-def calculate_volume(length, width, height):
-        return length * width * height
+def is_palindrome(s):
+        return s == s[::-1]
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
