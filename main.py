@@ -1,5 +1,5 @@
+def is_palindrome(s):
+        return s == s[::-1]
 import math
-print(math.pi)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
