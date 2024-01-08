@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
