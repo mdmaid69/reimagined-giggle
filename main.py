@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
