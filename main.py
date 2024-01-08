@@ -1,5 +1,4 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  def is_odd(n):
-        return n % 2 != 0
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
