@@ -1,5 +1,11 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
