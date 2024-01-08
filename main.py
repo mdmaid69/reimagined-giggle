@@ -1,7 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def sort_numbers(numbers):
+        return sorted(numbers)
