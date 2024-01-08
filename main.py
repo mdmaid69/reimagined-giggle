@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
