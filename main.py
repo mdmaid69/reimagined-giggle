@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+def remove_duplicates(lst):
+        return list(set(lst))
