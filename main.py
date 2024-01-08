@@ -1,7 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+text = "Hello, world!"
+print("Characters:", len(text))
