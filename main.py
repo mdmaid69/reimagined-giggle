@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def find_max(numbers):
-        return max(numbers)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
