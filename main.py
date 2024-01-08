@@ -1,5 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def remove_duplicates(lst):
+        return list(set(lst))
