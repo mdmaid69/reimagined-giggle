@@ -1,4 +1,9 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
