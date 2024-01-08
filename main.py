@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
