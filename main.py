@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import sys
+def exit_program():
+        sys.exit()
