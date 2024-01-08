@@ -1,6 +1,6 @@
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
