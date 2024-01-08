@@ -1,5 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
