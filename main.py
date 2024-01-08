@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
