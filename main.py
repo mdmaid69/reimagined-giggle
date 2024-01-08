@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import sys
+print(sys.version)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
