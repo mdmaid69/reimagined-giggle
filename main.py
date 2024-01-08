@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  def cube_number(x):
-        return x**3
+def calculate_pressure(force, area):
+        return force / area
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
