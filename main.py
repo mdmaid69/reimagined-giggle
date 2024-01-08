@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import time
+print(time.time())
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
