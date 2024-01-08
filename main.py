@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
