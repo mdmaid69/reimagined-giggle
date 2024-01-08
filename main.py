@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import json
+def convert_to_json(data):
+        return json.dumps(data)
