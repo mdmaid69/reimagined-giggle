@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  def convert_to_hex(n):
+        return hex(n)
