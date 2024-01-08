@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
