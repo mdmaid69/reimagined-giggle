@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def find_max(lst):
-        return max(lst)
+def square_number(x):
+        return x**2
+import sys
+def print_python_version():
+        print(sys.version)
