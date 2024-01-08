@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
