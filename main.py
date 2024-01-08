@@ -1,5 +1,8 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
