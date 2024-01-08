@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
