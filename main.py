@@ -1,6 +1,6 @@
+import sys
+def print_python_version():
+        return sys.version
 import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def get_array_length(array):
+        return len(array)
