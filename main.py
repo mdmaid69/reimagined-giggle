@@ -1,6 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import time
-def get_time_since_epoch():
-        return time.time()
+def get_array_slice(array, i, j):
+        return array[i:j]
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
