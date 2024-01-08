@@ -1,5 +1,8 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import sys
+def print_python_version():
+        return sys.version
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
