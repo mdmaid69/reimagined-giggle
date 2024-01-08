@@ -1,6 +1,9 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
+  import os
+  def split_path(path):
+        return os.path.split(path)
