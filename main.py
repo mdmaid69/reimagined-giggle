@@ -1,8 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import sys
+def exit_program():
+        sys.exit()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
