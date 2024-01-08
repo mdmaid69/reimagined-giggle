@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import platform
+def get_python_version():
+        return platform.python_version()
