@@ -1,6 +1,6 @@
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
