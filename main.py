@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
