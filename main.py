@@ -1,5 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_power(work, time):
-        return work / time
+  def subtract_numbers(x, y):
+        return x - y
+def add_numbers(x, y):
+        return x + y
