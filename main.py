@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
