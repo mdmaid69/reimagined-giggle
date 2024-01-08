@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_acceleration(speed, time):
+        return speed / time
+  def convert_to_hex(n):
+        return hex(n)
