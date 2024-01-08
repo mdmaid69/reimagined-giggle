@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  def is_odd(n):
-        return n % 2 != 0
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import collections
+def create_counter():
+        return collections.Counter()
