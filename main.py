@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
