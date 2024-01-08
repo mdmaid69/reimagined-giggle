@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
