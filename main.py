@@ -1,5 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
