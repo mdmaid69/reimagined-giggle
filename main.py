@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
