@@ -1,5 +1,8 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-name = "Python"
-print("Hello,", name)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
