@@ -1,3 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-print([x**2 for x in range(10)])
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
