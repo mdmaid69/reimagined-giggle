@@ -1,6 +1,4 @@
+print([x**2 for x in range(10)])
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
