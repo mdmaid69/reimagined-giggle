@@ -1,6 +1,8 @@
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
 n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
