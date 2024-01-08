@@ -1,4 +1,7 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def count_words(sentence):
-        return len(sentence.split())
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
