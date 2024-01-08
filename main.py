@@ -1,5 +1,7 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
