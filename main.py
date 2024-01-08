@@ -1,6 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+for i in range(10): print(i)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
