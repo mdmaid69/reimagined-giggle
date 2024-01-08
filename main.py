@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
