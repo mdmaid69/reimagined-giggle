@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def cube_number(x):
+        return x**3
+import math
+def calculate_error_function(x):
+        return math.erf(x)
