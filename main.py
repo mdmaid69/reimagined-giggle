@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import collections
-def create_queue():
-        return collections.deque()
+import sys
+def print_python_version():
+        print(sys.version)
+  def subtract_numbers(x, y):
+        return x - y
