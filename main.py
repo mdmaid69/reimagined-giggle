@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
