@@ -1,8 +1,5 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
