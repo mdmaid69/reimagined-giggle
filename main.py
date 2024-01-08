@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_volume(length, width, height):
-        return length * width * height
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
