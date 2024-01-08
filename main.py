@@ -1,5 +1,4 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  def reverse_list(lst):
-        return lst[::-1]
+def find_min(lst):
+        return min(lst)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
