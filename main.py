@@ -1,5 +1,5 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_power(work, time):
-        return work / time
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
