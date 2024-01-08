@@ -1,6 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+from collections import Counter
+print(Counter("hello world"))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
