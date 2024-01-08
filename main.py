@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def remove_duplicates(lst):
+        return list(set(lst))
