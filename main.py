@@ -1,5 +1,5 @@
+def is_even(n):
+        return n % 2 == 0
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
