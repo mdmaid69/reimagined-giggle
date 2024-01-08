@@ -1,6 +1,4 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import logging
+def log_message(message):
+        logging.info(message)
+print([x**2 for x in range(10)])
