@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-print(math.pi)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
