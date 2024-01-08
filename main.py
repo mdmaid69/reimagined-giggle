@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import sys
+  def get_python_version():
+        return sys.version
