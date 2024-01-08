@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
