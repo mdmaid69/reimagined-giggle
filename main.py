@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def get_array_item_count(array, item):
+        return array.count(item)
