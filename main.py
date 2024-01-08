@@ -1,6 +1,7 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
