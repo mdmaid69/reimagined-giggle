@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
