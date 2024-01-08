@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
