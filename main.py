@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+print(math.pi)
