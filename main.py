@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def is_odd(n):
-        return n % 2 != 0
+def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_as_int(array):
+        return int(array[0])
