@@ -1,5 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
