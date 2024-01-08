@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+for i in range(5):
+        print(i)
