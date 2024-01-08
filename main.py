@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def append_to_array(array, item):
+        array.append(item)
