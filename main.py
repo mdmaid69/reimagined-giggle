@@ -1,4 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-  def count_elements(lst):
-        return len(lst)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
