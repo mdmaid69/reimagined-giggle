@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
