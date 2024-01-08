@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
