@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
