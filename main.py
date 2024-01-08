@@ -1,6 +1,4 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import datetime
+print(datetime.datetime.now())
