@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
