@@ -1,5 +1,4 @@
 n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
