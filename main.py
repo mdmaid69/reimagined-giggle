@@ -1,7 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
