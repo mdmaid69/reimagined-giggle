@@ -1,4 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
