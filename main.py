@@ -1,5 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
