@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  def add_numbers(x, y):
+        return x + y
