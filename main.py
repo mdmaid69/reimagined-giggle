@@ -1,5 +1,8 @@
-import sys
-print(sys.version)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
