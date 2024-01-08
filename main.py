@@ -1,3 +1,5 @@
-print(sum(range(10)))
-def convert_to_hex(n):
-        return hex(n)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
