@@ -1,5 +1,8 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
