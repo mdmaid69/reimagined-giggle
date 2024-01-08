@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def count_words(sentence):
+        return len(sentence.split())
