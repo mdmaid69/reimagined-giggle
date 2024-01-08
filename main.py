@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
