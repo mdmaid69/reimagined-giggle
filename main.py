@@ -1,5 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import collections
+def create_counter():
+        return collections.Counter()
+import sys
+def exit_program():
+        sys.exit()
