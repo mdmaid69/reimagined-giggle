@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+name = "Python"
+print("Hello,", name)
