@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
