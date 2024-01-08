@@ -1,5 +1,6 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
