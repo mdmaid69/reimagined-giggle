@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
