@@ -1,5 +1,3 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import tensorflow as tf
-print(tf.__version__)
+print("Hello, world!")
+def calculate_acceleration(speed, time):
+        return speed / time
