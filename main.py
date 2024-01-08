@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
