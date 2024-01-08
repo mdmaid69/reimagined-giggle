@@ -1,10 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
