@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
