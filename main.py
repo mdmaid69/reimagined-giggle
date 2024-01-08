@@ -1,5 +1,6 @@
   import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+  def create_numpy_array(lst):
+        return np.array(lst)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
