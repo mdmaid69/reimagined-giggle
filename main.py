@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_as_set(array):
+        return set(array)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
