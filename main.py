@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def add_numbers(x, y):
+        return x + y
