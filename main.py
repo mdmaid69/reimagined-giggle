@@ -1,5 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def find_min(lst):
+        return min(lst)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
