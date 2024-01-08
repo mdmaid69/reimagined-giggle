@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def set_array_item(array, i, item):
+        array[i] = item
