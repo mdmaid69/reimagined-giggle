@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def calculate_area(radius):
+        return 3.14 * radius * radius
