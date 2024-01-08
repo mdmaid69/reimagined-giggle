@@ -1,6 +1,4 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def square_number(x):
+        return x**2
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
