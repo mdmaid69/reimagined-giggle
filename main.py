@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def add_numbers(x, y):
+        return x + y
