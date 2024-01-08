@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def convert_to_hex(n):
+        return hex(n)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
