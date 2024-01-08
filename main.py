@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def reverse_list(lst):
+        return lst[::-1]
