@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_work(force, distance):
+        return force * distance
