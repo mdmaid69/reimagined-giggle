@@ -1,5 +1,8 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
