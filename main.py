@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
