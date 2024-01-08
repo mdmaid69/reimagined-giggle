@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
