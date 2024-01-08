@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import time
+def get_current_time():
+        return time.ctime()
+import random
+def roll_die():
+        return random.randint(1, 6)
