@@ -1,8 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
