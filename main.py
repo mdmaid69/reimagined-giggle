@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def remove_duplicates(lst):
+        return list(set(lst))
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
