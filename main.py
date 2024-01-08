@@ -1,7 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def is_even(n):
+        return n % 2 == 0
