@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import platform
-def get_os_info():
-        return platform.uname()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
