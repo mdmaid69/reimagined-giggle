@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-def count_characters(sentence):
-        return len(sentence)
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
