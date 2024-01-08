@@ -1,5 +1,5 @@
 numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+print("Average:", sum(numbers) / len(numbers))
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
