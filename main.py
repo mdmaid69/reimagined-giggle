@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import collections
+def create_queue():
+        return collections.deque()
+import re
+print(re.match("h.*o", "hello world"))
