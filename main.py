@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
