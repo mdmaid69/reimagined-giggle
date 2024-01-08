@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
