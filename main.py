@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import random
+print(random.randint(0, 100))
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
