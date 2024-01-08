@@ -1,5 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import numpy as np
-print(np.array([1, 2, 3]))
+from collections import Counter
+print(Counter("hello world"))
+import collections
+def create_stack():
+        return collections.deque()
