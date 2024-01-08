@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_area_circle(r):
+        return 3.14 * r**2
