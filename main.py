@@ -1,6 +1,6 @@
+import array
+def append_to_array(array, item):
+        array.append(item)
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import sys
-def print_python_version():
-        print(sys.version)
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
