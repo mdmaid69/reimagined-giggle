@@ -1,5 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def clear_array(array):
+        array *= 0
