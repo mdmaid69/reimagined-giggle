@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
