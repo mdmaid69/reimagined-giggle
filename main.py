@@ -1,7 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
