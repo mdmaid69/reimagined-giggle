@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
