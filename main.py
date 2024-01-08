@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
