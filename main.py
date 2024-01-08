@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
