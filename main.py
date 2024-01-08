@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
