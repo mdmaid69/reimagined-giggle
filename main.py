@@ -1,4 +1,8 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import time
-print(time.time())
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
