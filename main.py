@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import collections
+def create_stack():
+        return collections.deque()
