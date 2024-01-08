@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import collections
-def create_priority_queue():
-        return collections.deque()
+def add_numbers(a, b):
+        return a + b
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
