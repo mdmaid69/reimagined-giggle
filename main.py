@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_speed(distance, time):
+        return distance / time
+import time
+def get_current_time():
+        return time.ctime()
