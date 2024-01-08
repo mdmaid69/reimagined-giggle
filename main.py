@@ -1,7 +1,5 @@
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_gamma_function(x):
+        return math.gamma(x)
