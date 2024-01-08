@@ -1,5 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def subtract_numbers(x, y):
+        return x - y
