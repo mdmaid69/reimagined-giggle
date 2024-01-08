@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def convert_to_binary(n):
-        return bin(n)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
