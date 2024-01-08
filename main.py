@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
