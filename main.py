@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def remove_duplicates(lst):
-        return list(set(lst))
+from collections import Counter
+print(Counter("hello world"))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
