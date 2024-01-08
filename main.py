@@ -1,4 +1,4 @@
-import random
-print(random.randint(0, 100))
-def convert_to_octal(n):
-        return oct(n)
+def is_palindrome(s):
+        return s == s[::-1]
+def count_words(sentence):
+        return len(sentence.split())
