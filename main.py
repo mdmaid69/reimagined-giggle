@@ -1,5 +1,7 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
