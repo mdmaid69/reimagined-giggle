@@ -1,6 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import datetime
+def get_today_date():
+        return datetime.date.today()
