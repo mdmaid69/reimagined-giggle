@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
