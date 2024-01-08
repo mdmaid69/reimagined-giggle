@@ -1,4 +1,6 @@
-name = "Python"
-print("Hello,", name)
-def calculate_volume(length, width, height):
-        return length * width * height
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
