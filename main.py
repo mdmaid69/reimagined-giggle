@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def is_palindrome(s):
-        return s == s[::-1]
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def convert_to_binary(n):
+        return bin(n)
