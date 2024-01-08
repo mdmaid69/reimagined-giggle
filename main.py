@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
