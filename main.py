@@ -1,6 +1,11 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
