@@ -1,5 +1,4 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
