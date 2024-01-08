@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_item_count(array, item):
+        return array.count(item)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
