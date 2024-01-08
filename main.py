@@ -1,6 +1,8 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
