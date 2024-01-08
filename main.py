@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
