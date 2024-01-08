@@ -1,6 +1,8 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import sys
+def print_python_version():
+        print(sys.version)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
