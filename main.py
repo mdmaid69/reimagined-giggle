@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
