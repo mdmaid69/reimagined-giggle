@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import sys
+def print_python_version():
+        print(sys.version)
