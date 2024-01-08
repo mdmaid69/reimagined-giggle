@@ -1,5 +1,5 @@
+def convert_to_binary(n):
+        return bin(n)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import random
-print(random.randint(0, 100))
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
