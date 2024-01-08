@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
