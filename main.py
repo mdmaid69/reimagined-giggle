@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def count_characters(sentence):
+        return len(sentence)
