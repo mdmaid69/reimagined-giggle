@@ -1,7 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def convert_array_to_string(array):
+        return array.tostring()
