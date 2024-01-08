@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
