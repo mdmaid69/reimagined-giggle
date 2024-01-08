@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
