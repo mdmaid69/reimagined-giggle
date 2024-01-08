@@ -1,5 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
