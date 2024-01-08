@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
