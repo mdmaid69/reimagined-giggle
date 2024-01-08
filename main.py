@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import random
+print(random.randint(0, 100))
