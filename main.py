@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-def count_elements(lst):
-        return len(lst)
+def subtract_numbers(x, y):
+        return x - y
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
