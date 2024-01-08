@@ -1,5 +1,8 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
