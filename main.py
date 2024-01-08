@@ -1,5 +1,6 @@
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def append_to_array(array, item):
+        array.append(item)
