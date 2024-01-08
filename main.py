@@ -1,6 +1,5 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
