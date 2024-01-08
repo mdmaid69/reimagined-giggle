@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_acceleration(speed, time):
+        return speed / time
