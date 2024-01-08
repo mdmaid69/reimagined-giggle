@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import re
+print(re.match("h.*o", "hello world"))
