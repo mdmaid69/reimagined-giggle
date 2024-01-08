@@ -1,6 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_as_str(array):
+        return str(array)
