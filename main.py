@@ -1,8 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def count_characters(sentence):
+        return len(sentence)
+import getpass
+def get_username():
+        return getpass.getuser()
