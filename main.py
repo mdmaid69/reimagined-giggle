@@ -1,4 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def convert_to_hex(n):
-        return hex(n)
+  def reverse_list(lst):
+        return lst[::-1]
+  def calculate_area_circle(r):
+        return 3.14 * r**2
