@@ -1,5 +1,6 @@
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def divide_numbers(x, y):
-        return x / y
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
