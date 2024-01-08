@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
