@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import time
+print(time.time())
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
