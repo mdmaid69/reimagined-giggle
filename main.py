@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
