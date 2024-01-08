@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
