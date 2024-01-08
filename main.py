@@ -1,6 +1,8 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
