@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
