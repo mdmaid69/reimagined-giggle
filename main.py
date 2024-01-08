@@ -1,5 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
