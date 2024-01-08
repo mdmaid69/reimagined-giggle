@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_work(force, distance):
-        return force * distance
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
