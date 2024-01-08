@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def find_max(numbers):
-        return max(numbers)
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
