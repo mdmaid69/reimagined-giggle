@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def clear_array(array):
+        array *= 0
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
