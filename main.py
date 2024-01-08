@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_as_list(array):
+        return list(array)
