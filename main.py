@@ -1,5 +1,10 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
