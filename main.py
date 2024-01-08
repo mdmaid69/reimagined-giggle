@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  def calculate_area_rectangle(l, w):
-        return l * w
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
