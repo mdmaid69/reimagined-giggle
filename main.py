@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
