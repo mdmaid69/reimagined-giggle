@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
