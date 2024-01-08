@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def count_elements(lst):
+        return len(lst)
