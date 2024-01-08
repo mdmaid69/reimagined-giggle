@@ -1,4 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
