@@ -1,6 +1,7 @@
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def clear_array(array):
-        array *= 0
+  def get_current_directory():
+        return os.getcwd()
