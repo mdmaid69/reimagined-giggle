@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import collections
+def create_user_list():
+        return collections.UserList()
