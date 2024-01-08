@@ -1,5 +1,6 @@
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
 import array
-def append_to_array(array, item):
-        array.append(item)
-  def is_even(n):
-        return n % 2 == 0
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
