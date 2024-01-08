@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
