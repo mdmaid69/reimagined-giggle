@@ -1,8 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
