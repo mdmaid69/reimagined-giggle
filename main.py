@@ -1,3 +1,5 @@
-print("Hello, world!")
-def convert_to_binary(n):
-        return bin(n)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
