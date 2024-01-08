@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
