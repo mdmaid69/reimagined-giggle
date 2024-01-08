@@ -1,6 +1,5 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  def add_numbers(x, y):
+        return x + y
