@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
