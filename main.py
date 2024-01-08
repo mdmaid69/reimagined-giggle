@@ -1,5 +1,4 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import os
+print(os.getcwd())
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
