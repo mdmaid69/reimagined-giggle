@@ -1,6 +1,5 @@
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
