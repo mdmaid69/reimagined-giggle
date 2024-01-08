@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def reverse_array(array):
+        array.reverse()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
