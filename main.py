@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
