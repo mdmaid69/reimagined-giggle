@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import os
+def change_working_directory(path):
+        os.chdir(path)
