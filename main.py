@@ -1,7 +1,5 @@
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
