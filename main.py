@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import collections
-def create_priority_queue():
-        return collections.deque()
+import random
+print(random.randint(0, 100))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
