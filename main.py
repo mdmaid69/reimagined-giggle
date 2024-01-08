@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
