@@ -1,6 +1,7 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
