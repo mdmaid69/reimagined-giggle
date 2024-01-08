@@ -1,7 +1,8 @@
-def reverse_string(s):
-        return s[::-1]
 import array
-def get_array_from_string(string, typecode):
+def convert_string_to_array(string, typecode):
         a = array.array(typecode)
         a.fromstring(string)
         return a
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
