@@ -1,6 +1,8 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import array
+def get_array_as_list(array):
+        return list(array)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
