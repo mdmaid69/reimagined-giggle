@@ -1,5 +1,9 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-print([x**2 for x in range(10)])
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
