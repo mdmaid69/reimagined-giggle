@@ -1,5 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_density(mass, volume):
+        return mass / volume
+def find_min(numbers):
+        return min(numbers)
