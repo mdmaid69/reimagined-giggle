@@ -1,6 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
