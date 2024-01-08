@@ -1,5 +1,5 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_work(force, distance):
-        return force * distance
+def get_array_index(array, item):
+        return array.index(item)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
