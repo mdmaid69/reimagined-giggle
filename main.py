@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
