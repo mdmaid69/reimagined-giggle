@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def reverse_array(array):
+        array.reverse()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
