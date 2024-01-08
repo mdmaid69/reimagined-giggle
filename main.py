@@ -1,5 +1,7 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import getpass
-def get_username():
-        return getpass.getuser()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
