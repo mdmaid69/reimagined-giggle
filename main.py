@@ -1,7 +1,6 @@
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_logarithm(base, x):
+        return math.log(x, base)
