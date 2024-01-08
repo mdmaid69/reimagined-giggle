@@ -1,5 +1,6 @@
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_current_working_directory():
+        return os.getcwd()
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
