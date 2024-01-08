@@ -1,5 +1,11 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_acceleration(speed, time):
+        return speed / time
