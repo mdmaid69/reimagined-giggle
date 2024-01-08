@@ -1,6 +1,5 @@
+import random
+print(random.randint(0, 100))
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
