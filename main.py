@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import sys
-def print_python_version():
-        print(sys.version)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
