@@ -1,5 +1,5 @@
+from collections import Counter
+print(Counter("hello world"))
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
