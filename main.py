@@ -1,6 +1,7 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def clear_array(array):
+        array *= 0
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
