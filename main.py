@@ -1,6 +1,8 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import array
-def get_array_typecode(array):
-        return array.typecode
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
