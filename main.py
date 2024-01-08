@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_speed(distance, time):
+        return distance / time
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
