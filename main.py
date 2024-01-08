@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def get_array_as_set(array):
-        return set(array)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
