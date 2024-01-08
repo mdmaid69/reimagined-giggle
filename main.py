@@ -1,5 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  def reverse_list(lst):
-        return lst[::-1]
+  def is_odd(n):
+        return n % 2 != 0
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
