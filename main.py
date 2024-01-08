@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
