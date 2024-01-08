@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
