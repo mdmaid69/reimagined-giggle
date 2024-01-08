@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import sys
-print(sys.version)
+def count_characters(sentence):
+        return len(sentence)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
