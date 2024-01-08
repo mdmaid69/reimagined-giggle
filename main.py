@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
