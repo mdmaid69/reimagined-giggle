@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_speed(distance, time):
-        return distance / time
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
