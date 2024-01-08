@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import re
+print(re.match("h.*o", "hello world"))
