@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_exponential(x):
+        return math.exp(x)
+def multiply_numbers(x, y):
+        return x * y
