@@ -1,6 +1,7 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
