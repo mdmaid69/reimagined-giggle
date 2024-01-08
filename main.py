@@ -1,9 +1,7 @@
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
