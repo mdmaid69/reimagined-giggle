@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
