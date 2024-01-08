@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def convert_array_to_string(array):
+        return array.tostring()
+import random
+print(random.randint(0, 100))
