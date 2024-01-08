@@ -1,5 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def convert_to_binary(n):
+        return bin(n)
