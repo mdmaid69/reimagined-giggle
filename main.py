@@ -1,5 +1,8 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
