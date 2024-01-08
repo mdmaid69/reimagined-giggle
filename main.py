@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
