@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import math
+print(math.pi)
+x = 10
+y = 20
+print("Sum:", x + y)
