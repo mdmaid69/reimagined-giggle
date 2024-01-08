@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
