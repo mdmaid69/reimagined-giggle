@@ -1,6 +1,8 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import time
+def get_current_time():
+        return time.time()
