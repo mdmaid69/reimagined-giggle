@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def reverse_list(lst):
+        return lst[::-1]
