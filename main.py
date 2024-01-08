@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import os
-print(os.getcwd())
+import time
+def get_time_since_epoch():
+        return time.time()
+  def square_number(x):
+        return x**2
