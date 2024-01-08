@@ -1,7 +1,8 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
