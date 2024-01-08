@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import random
-def roll_die():
-        return random.randint(1, 6)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
