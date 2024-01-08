@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
