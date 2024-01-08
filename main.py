@@ -1,6 +1,7 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
