@@ -1,5 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import sys
-print(sys.version)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_work(force, distance):
+        return force * distance
