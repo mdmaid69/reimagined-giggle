@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def convert_to_hex(n):
+        return hex(n)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
