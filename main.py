@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import array
-def get_array_length(array):
-        return len(array)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
