@@ -1,6 +1,5 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def add_numbers(a, b):
+        return a + b
