@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
