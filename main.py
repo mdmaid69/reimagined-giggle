@@ -1,5 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+for i in range(5):
+        print(i)
+def cube_number(x):
+        return x**3
