@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
