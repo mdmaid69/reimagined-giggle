@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
