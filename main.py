@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
+def find_max(numbers):
+        return max(numbers)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
