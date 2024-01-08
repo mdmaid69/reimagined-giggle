@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
