@@ -1,5 +1,11 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
