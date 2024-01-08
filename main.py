@@ -1,6 +1,4 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def reverse_list(lst):
+        return lst[::-1]
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
