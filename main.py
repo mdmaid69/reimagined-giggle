@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
