@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
