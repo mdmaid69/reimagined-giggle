@@ -1,6 +1,4 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
