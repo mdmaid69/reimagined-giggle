@@ -1,5 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_volume(length, width, height):
-        return length * width * height
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
