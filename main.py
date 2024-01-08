@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
