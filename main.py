@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import random
-def roll_die():
-        return random.randint(1, 6)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import collections
+def create_user_dict():
+        return collections.UserDict()
