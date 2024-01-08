@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
