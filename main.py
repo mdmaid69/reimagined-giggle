@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def convert_to_binary(n):
-        return bin(n)
+def is_palindrome(s):
+        return s == s[::-1]
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
