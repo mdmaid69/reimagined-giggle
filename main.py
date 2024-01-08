@@ -1,6 +1,5 @@
+def greet(name):
+        print(f"Hello, {name}!")
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
