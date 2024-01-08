@@ -1,5 +1,5 @@
-import math
-print(math.pi)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def find_min(numbers):
+        return min(numbers)
