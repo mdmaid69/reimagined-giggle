@@ -1,6 +1,6 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_cosine(x):
+        return math.cos(x)
