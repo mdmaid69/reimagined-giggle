@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+for i in range(10): print(i)
