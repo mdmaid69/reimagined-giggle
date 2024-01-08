@@ -1,6 +1,11 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
