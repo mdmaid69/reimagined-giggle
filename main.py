@@ -1,4 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def find_min(numbers):
-        return min(numbers)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
