@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
