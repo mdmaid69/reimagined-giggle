@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_list_from_array(array):
+        return array.tolist()
