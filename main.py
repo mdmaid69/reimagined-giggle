@@ -1,4 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_speed(distance, time):
+        return distance / time
