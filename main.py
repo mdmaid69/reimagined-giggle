@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
