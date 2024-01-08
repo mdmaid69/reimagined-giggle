@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
