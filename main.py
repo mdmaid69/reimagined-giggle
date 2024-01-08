@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
