@@ -1,6 +1,8 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+x = 10
+y = 20
+print("Sum:", x + y)
