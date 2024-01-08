@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
