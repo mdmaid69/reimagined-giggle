@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  def count_elements(lst):
+        return len(lst)
