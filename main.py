@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
