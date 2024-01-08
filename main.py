@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
