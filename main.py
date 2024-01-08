@@ -1,8 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
