@@ -1,6 +1,6 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def get_array_typecode(array):
+        return array.typecode
+import array
+def get_array_length(array):
+        return len(array)
