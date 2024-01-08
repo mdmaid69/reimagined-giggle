@@ -1,8 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
