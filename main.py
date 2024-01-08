@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
