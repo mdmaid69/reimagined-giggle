@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def add_numbers(x, y):
+        return x + y
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
