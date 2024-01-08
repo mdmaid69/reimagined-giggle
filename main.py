@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def convert_to_octal(n):
+        return oct(n)
+import collections
+def create_counter():
+        return collections.Counter()
