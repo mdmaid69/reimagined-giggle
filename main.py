@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
