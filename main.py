@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def add_numbers(a, b):
+        return a + b
+def find_max(numbers):
+        return max(numbers)
