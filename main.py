@@ -1,4 +1,8 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
