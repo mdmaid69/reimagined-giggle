@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
