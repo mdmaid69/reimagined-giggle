@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def is_even(n):
+        return n % 2 == 0
+def multiply_numbers(x, y):
+        return x * y
