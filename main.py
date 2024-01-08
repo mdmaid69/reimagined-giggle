@@ -1,6 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
