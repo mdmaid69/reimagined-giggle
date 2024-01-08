@@ -1,5 +1,7 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import collections
+def create_user_string():
+        return collections.UserString()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
