@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import sys
+def exit_program():
+        sys.exit()
