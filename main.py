@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def find_min(numbers):
-        return min(numbers)
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def get_array_as_str(array):
+        return str(array)
