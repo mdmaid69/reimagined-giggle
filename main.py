@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
