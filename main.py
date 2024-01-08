@@ -1,6 +1,5 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
