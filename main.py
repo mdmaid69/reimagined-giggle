@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
