@@ -1,3 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-print([x**2 for x in range(10)])
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
