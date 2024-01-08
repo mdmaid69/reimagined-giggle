@@ -1,5 +1,7 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
