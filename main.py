@@ -1,6 +1,7 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
