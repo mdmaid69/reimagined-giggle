@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
