@@ -1,8 +1,4 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
