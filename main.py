@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def create_user_dict():
+        return collections.UserDict()
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
