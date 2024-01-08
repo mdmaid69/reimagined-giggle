@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import time
+def get_current_time():
+        return time.ctime()
+  def square_number(x):
+        return x**2
