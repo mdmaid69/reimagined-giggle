@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_acceleration(speed, time):
+        return speed / time
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_bytes_from_array(array):
+        return array.tobytes()
