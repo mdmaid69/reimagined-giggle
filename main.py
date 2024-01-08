@@ -1,6 +1,6 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
