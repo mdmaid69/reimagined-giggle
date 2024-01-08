@@ -1,5 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
