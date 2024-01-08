@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def get_array_as_str(array):
+        return str(array)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
