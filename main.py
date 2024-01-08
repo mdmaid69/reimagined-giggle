@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
