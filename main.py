@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
