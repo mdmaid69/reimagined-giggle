@@ -1,6 +1,5 @@
+  def convert_to_binary(n):
+        return bin(n)
 import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
