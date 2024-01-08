@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def reverse_list(lst):
+        return lst[::-1]
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
