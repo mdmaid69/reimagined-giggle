@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_speed(distance, time):
+        return distance / time
