@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import time
+def get_current_time():
+        return time.time()
