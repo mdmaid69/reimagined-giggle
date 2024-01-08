@@ -1,6 +1,7 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
