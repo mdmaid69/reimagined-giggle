@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import collections
-def create_priority_queue():
-        return collections.deque()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
