@@ -1,6 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
