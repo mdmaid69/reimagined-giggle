@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
