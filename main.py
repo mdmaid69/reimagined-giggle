@@ -1,5 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def multiply_numbers(x, y):
-        return x * y
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
