@@ -1,5 +1,7 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_volume(length, width, height):
+        return length * width * height
