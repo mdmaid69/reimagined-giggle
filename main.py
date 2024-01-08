@@ -1,6 +1,9 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def get_array_as_str(array):
+        return str(array)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
