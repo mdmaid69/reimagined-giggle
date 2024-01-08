@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_typecode(array):
+        return array.typecode
