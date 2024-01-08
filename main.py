@@ -1,3 +1,4 @@
-print([x**2 for x in range(10)])
-def calculate_density(mass, volume):
-        return mass / volume
+  def add_numbers(x, y):
+        return x + y
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
