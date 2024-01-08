@@ -1,5 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-def divide_numbers(x, y):
-        return x / y
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def convert_to_hex(n):
+        return hex(n)
