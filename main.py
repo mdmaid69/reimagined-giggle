@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import collections
-def create_user_list():
-        return collections.UserList()
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
