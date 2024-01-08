@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_current_directory():
-        return os.getcwd()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
