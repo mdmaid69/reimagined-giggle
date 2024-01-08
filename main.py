@@ -1,8 +1,5 @@
+def find_max(lst):
+        return max(lst)
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
