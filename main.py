@@ -1,4 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-print([x**2 for x in range(10)])
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
