@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
