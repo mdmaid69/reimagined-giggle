@@ -1,6 +1,7 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
