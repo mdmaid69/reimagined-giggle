@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
