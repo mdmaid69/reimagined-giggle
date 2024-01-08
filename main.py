@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def convert_to_octal(n):
+        return oct(n)
