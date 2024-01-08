@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
