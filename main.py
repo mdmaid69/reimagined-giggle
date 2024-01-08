@@ -1,6 +1,6 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
