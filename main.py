@@ -1,6 +1,7 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
