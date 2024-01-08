@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_acceleration(speed, time):
-        return speed / time
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
