@@ -1,5 +1,6 @@
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_absolute_value(x):
+        return math.fabs(x)
