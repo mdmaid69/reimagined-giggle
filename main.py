@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
