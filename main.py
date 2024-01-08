@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_as_int(array):
+        return int(array[0])
