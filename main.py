@@ -1,5 +1,8 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def get_array_as_float(array):
+        return float(array[0])
