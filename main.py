@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import collections
-def create_counter():
-        return collections.Counter()
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
