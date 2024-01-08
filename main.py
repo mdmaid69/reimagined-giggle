@@ -1,5 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
