@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def append_to_array(array, item):
+        array.append(item)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
