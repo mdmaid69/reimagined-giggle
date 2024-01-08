@@ -1,4 +1,7 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
