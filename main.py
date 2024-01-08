@@ -1,5 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
