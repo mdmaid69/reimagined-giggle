@@ -1,7 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
