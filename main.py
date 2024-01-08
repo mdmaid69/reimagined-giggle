@@ -1,7 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def find_min(lst):
+        return min(lst)
