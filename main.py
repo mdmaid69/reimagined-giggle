@@ -1,5 +1,7 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
