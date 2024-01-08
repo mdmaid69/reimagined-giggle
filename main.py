@@ -1,6 +1,8 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
