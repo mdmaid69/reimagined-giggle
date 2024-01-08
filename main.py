@@ -1,6 +1,7 @@
-import collections
-def create_user_string():
-        return collections.UserString()
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
