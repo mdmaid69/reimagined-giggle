@@ -1,5 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
