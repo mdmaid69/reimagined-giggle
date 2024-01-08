@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
