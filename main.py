@@ -1,8 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
