@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
