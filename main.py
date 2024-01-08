@@ -1,8 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
