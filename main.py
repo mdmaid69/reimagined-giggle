@@ -1,5 +1,3 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_acceleration(speed, time):
-        return speed / time
+for i in range(10): print(i)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
