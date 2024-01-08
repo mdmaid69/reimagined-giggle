@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
