@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import sys
+def print_python_version():
+        return sys.version
