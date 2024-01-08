@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
