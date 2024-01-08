@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_density(mass, volume):
-        return mass / volume
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
