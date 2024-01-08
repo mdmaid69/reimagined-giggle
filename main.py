@@ -1,5 +1,5 @@
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def get_array_itemsize(array):
+        return array.itemsize
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
