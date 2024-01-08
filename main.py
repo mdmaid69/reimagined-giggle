@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
