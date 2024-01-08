@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_area(radius):
+        return 3.14 * radius * radius
