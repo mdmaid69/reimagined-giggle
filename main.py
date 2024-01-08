@@ -1,4 +1,5 @@
-print(sum(range(10)))
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_list_from_array(array):
+        return array.tolist()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
