@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
