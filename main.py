@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
