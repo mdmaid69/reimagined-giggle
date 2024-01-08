@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def convert_to_octal(n):
+        return oct(n)
