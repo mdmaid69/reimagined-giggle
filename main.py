@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
