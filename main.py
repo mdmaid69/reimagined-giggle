@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
