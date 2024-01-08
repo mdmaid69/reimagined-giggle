@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
