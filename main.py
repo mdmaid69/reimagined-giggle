@@ -1,4 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
