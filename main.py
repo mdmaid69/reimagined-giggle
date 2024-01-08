@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def is_palindrome(s):
+        return s == s[::-1]
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
