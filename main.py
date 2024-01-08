@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
