@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import sys
+def exit_program():
+        sys.exit()
