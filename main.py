@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
