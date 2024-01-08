@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import random
+print(random.randint(0, 100))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
