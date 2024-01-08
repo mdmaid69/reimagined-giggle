@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  def convert_to_octal(n):
-        return oct(n)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
