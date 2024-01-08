@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  def add_numbers(x, y):
+        return x + y
