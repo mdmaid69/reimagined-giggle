@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
