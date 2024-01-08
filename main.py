@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
