@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
