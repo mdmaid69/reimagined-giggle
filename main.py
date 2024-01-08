@@ -1,8 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  def count_elements(lst):
+        return len(lst)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
