@@ -1,5 +1,6 @@
+import getpass
+def get_username():
+        return getpass.getuser()
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def get_file_size(filename):
+        return os.path.getsize(filename)
