@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import collections
+def create_counter():
+        return collections.Counter()
