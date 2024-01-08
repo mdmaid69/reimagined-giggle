@@ -1,5 +1,8 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
