@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import time
-def get_current_time():
-        return time.time()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import datetime
+def get_current_date():
+        return datetime.date.today()
