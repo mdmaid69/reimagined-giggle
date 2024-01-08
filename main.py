@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  def is_even(n):
+        return n % 2 == 0
