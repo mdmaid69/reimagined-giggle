@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
