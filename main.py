@@ -1,7 +1,10 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
