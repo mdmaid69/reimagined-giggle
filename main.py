@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
