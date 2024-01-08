@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
