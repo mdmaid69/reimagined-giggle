@@ -1,5 +1,8 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
