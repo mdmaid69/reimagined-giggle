@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
