@@ -1,6 +1,5 @@
-print([x**2 for x in range(10)])
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import random
+print(random.randint(0, 100))
