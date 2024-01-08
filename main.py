@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
