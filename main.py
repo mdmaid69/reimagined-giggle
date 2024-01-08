@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import getpass
+def get_username():
+        return getpass.getuser()
