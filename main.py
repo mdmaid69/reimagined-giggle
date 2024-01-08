@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
