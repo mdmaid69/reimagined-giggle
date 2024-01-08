@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def find_min(numbers):
+        return min(numbers)
