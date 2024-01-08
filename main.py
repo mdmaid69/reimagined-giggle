@@ -1,6 +1,12 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
