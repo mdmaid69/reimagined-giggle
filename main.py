@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
