@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
