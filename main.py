@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import sys
+def print_python_version():
+        return sys.version
+def calculate_area(radius):
+        return 3.14 * radius * radius
