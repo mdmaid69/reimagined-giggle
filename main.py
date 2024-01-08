@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
