@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
