@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
