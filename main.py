@@ -1,7 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
