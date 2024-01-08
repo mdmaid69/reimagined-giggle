@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
