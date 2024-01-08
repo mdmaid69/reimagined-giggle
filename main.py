@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def cube_number(x):
+        return x**3
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
