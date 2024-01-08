@@ -1,5 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import collections
+def create_user_list():
+        return collections.UserList()
