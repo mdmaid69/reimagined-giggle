@@ -1,6 +1,5 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def reverse_list(lst):
+        return lst[::-1]
