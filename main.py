@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
