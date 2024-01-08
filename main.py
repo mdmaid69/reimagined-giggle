@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def convert_to_binary(n):
+        return bin(n)
