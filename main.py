@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import array
+def get_array_as_str(array):
+        return str(array)
