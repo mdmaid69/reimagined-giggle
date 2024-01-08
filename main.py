@@ -1,5 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def find_unique_words(sentence):
+        return set(sentence.split())
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
