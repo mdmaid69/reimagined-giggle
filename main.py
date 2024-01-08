@@ -1,6 +1,8 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
