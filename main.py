@@ -1,5 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import getpass
-def get_username():
-        return getpass.getuser()
+def find_max(lst):
+        return max(lst)
+def subtract_numbers(x, y):
+        return x - y
