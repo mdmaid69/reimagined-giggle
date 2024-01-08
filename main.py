@@ -1,6 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
