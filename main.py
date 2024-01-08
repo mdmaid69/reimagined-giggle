@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
