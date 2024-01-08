@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
