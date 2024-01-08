@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
