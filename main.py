@@ -1,5 +1,4 @@
 import collections
 def create_queue():
         return collections.deque()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+print(sum(range(10)))
