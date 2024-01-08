@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
