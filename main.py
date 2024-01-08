@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
