@@ -1,6 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+for i in range(5):
+        print(i)
