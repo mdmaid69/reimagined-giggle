@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_pressure(force, area):
+        return force / area
+def add_numbers(a, b):
+        return a + b
