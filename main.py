@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
