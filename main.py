@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import collections
+def create_user_list():
+        return collections.UserList()
+import time
+def get_current_time():
+        return time.time()
