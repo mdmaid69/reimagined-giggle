@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
