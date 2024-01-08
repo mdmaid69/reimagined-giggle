@@ -1,6 +1,6 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def get_array_as_int(array):
+        return int(array[0])
