@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
