@@ -1,8 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
