@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def clear_array(array):
-        array *= 0
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
