@@ -1,5 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
