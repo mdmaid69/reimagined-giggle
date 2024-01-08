@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
