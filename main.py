@@ -1,6 +1,7 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
