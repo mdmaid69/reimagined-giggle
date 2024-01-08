@@ -1,6 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import platform
-def get_python_version():
-        return platform.python_version()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_speed(distance, time):
+        return distance / time
