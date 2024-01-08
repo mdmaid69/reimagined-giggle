@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_work(force, distance):
+        return force * distance
+import array
+def remove_from_array(array, item):
+        array.remove(item)
