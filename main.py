@@ -1,5 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def get_array_as_str(array):
+        return str(array)
