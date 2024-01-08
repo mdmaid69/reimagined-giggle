@@ -1,5 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
