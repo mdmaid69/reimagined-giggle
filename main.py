@@ -1,3 +1,6 @@
-print("Hello, world!")
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
