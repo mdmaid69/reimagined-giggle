@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
