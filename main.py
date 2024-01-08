@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def count_characters(sentence):
-        return len(sentence)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
