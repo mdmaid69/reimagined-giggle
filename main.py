@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def subtract_numbers(x, y):
+        return x - y
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
