@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
