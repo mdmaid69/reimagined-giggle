@@ -1,7 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
