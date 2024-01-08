@@ -1,4 +1,7 @@
-def is_palindrome(s):
-        return s == s[::-1]
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
