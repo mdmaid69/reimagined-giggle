@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
