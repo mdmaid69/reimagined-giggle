@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
