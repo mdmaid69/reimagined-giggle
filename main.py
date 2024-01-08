@@ -1,7 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
