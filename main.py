@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
