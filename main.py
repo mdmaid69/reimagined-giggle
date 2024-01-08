@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import numpy as np
+print(np.array([1, 2, 3]))
