@@ -1,6 +1,8 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
