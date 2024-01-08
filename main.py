@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
