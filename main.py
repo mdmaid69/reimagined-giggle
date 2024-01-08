@@ -1,6 +1,6 @@
+import array
+def reverse_array(array):
+        array.reverse()
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
