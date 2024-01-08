@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
