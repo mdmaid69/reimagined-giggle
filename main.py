@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import array
-def get_array_length(array):
-        return len(array)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
