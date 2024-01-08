@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+from collections import Counter
+print(Counter("hello world"))
