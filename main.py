@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
