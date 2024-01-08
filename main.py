@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
