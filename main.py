@@ -1,4 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
