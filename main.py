@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
