@@ -1,9 +1,7 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
