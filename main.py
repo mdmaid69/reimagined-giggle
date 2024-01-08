@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
