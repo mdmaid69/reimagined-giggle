@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def multiply_numbers(x, y):
+        return x * y
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
