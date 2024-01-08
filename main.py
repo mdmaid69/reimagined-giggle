@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
