@@ -1,3 +1,5 @@
-print("Hello, world!")
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
