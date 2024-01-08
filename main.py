@@ -1,4 +1,8 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
