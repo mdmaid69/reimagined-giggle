@@ -1,10 +1,10 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def factorial(n):
-        if n == 0:
-        return 1
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
         else:
-        return n * factorial(n-1)
+        return -1
