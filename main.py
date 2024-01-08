@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def get_array_item(array, i):
+        return array[i]
