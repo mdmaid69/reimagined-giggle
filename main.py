@@ -1,6 +1,7 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
