@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
