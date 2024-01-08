@@ -1,4 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-  def is_odd(n):
-        return n % 2 != 0
+def convert_to_hex(n):
+        return hex(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
