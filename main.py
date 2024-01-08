@@ -1,6 +1,5 @@
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
