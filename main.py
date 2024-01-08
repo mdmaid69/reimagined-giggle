@@ -1,4 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
