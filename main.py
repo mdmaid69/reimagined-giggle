@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
