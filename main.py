@@ -1,5 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import datetime
-print(datetime.datetime.now())
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
