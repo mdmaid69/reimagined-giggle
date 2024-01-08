@@ -1,5 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
