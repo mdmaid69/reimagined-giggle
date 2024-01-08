@@ -1,4 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_pressure(force, area):
-        return force / area
+def convert_to_hex(n):
+        return hex(n)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
