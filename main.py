@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import array
+def get_array_itemsize(array):
+        return array.itemsize
