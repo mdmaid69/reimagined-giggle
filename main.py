@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
