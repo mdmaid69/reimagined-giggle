@@ -1,4 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_speed(distance, time):
-        return distance / time
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
