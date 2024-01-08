@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
