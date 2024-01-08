@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
