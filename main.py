@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def multiply_numbers(x, y):
-        return x * y
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def convert_to_octal(n):
+        return oct(n)
