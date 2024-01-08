@@ -1,5 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def calculate_power(work, time):
+        return work / time
