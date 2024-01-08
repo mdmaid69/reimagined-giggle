@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
