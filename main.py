@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
