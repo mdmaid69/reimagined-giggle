@@ -1,5 +1,4 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+print([x**2 for x in range(10)])
