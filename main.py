@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import logging
+def log_message(message):
+        logging.info(message)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def convert_array_to_bytes(array):
+        return array.tobytes()
