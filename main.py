@@ -1,6 +1,6 @@
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def create_user_string():
+        return collections.UserString()
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
