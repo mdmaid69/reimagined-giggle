@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
