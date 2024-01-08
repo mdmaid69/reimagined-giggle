@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
