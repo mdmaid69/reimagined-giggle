@@ -1,5 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  def add_numbers(x, y):
-        return x + y
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
