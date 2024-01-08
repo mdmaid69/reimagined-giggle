@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import logging
+def log_message(message):
+        logging.info(message)
