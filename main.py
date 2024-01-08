@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import sys
+  def get_python_version():
+        return sys.version
