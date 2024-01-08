@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def cube_number(x):
+        return x**3
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
