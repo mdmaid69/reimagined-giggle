@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import collections
+def create_priority_queue():
+        return collections.deque()
