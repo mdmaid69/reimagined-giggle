@@ -1,5 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_pressure(force, area):
+        return force / area
+def greet(name):
+        print(f"Hello, {name}!")
