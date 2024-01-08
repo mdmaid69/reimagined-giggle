@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def find_max(numbers):
+        return max(numbers)
