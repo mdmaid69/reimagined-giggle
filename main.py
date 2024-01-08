@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
