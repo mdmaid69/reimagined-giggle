@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def clear_array(array):
+        array *= 0
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
