@@ -1,4 +1,5 @@
-name = "Python"
-print("Hello,", name)
-def find_min(numbers):
-        return min(numbers)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
