@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def set_array_item(array, i, item):
+        array[i] = item
