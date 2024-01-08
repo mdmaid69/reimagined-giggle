@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
