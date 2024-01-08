@@ -1,6 +1,11 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
