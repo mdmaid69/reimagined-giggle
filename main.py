@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
+import time
+def get_time_since_epoch():
+        return time.time()
 import array
-def append_to_array(array, item):
-        array.append(item)
+def remove_from_array(array, item):
+        array.remove(item)
