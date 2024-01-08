@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import time
+def get_current_time():
+        return time.ctime()
