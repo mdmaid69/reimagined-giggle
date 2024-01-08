@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
 import array
-def get_array_length(array):
-        return len(array)
+def get_array_as_repr(array):
+        return repr(array)
+import random
+def roll_die():
+        return random.randint(1, 6)
