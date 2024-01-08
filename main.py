@@ -1,9 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
