@@ -1,9 +1,7 @@
-from flask import Flask
-app = Flask(__name__)
+import socket
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
