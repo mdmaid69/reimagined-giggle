@@ -1,6 +1,8 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
