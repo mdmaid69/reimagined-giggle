@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
