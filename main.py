@@ -1,5 +1,5 @@
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
