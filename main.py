@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import time
+def get_current_time():
+        return time.time()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
