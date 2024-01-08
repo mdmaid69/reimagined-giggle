@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
