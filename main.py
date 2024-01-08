@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
