@@ -1,6 +1,6 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import random
+def roll_die():
+        return random.randint(1, 6)
