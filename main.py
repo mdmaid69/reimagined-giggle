@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
