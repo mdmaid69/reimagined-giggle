@@ -1,6 +1,6 @@
   import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
   def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+        return os.stat(file_name).st_size
