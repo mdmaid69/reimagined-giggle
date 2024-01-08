@@ -1,6 +1,6 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
