@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
