@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def split_path(path):
+        return os.path.split(path)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
