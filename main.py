@@ -1,5 +1,7 @@
-  def multiply_numbers(x, y):
-        return x * y
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+i = 0
+while i < 5:
+        print(i)
+        i += 1
