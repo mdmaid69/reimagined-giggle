@@ -1,10 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
