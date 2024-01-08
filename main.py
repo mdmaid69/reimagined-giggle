@@ -1,7 +1,9 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import array
+def convert_array_to_string(array):
+        return array.tostring()
