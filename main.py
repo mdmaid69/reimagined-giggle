@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def multiply_numbers(x, y):
+        return x * y
+  def convert_to_binary(n):
+        return bin(n)
