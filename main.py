@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def get_array_item(array, i):
+        return array[i]
