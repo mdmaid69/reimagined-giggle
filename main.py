@@ -1,6 +1,7 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
