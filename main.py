@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
