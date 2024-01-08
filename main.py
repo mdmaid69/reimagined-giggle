@@ -1,6 +1,7 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
