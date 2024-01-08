@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_density(mass, volume):
+        return mass / volume
