@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def is_odd(n):
+        return n % 2 != 0
