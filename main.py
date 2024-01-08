@@ -1,6 +1,7 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
