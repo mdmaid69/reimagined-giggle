@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_work(force, distance):
-        return force * distance
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
