@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_item(array, i):
+        return array[i]
+def find_max(numbers):
+        return max(numbers)
