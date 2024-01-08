@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+print([x**2 for x in range(10)])
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
