@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_acceleration(speed, time):
+        return speed / time
