@@ -1,5 +1,5 @@
+for i in range(5):
+        print(i)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
