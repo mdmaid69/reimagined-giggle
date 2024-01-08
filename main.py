@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import collections
+def create_stack():
+        return collections.deque()
