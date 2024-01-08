@@ -1,5 +1,6 @@
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def cube_number(x):
-        return x**3
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
