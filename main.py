@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def get_array_length(array):
+        return len(array)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
