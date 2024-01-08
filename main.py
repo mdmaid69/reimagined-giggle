@@ -1,8 +1,6 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
