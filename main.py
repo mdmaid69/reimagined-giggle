@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  def square_number(x):
-        return x**2
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
