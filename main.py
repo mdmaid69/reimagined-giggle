@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
