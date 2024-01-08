@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_array_item(array, i):
+        return array[i]
