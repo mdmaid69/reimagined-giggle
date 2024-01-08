@@ -1,6 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
