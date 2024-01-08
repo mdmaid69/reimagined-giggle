@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
