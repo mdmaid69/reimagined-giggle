@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_power(work, time):
-        return work / time
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
