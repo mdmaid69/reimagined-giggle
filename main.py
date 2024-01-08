@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
