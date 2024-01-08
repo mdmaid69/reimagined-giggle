@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
