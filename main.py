@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def subtract_numbers(x, y):
+        return x - y
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
