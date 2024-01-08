@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import time
-def get_current_time():
-        return time.ctime()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
