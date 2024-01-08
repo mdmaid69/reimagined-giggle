@@ -1,5 +1,6 @@
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
