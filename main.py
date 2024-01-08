@@ -1,6 +1,4 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def reverse_string(s):
+        return s[::-1]
