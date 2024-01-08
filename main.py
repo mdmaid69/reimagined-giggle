@@ -1,4 +1,7 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  def is_even(n):
-        return n % 2 == 0
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
