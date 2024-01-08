@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
