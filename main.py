@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
