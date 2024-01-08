@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import sys
+  def get_python_version():
+        return sys.version
