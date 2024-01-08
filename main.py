@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import collections
+def create_queue():
+        return collections.deque()
+x = 10
+y = 20
+print("Sum:", x + y)
