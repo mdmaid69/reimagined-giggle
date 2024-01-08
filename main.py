@@ -1,5 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def convert_to_octal(n):
+        return oct(n)
+import re
+print(re.match("h.*o", "hello world"))
