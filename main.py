@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def greet(name):
-        print(f"Hello, {name}!")
+import sys
+print(sys.version)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
