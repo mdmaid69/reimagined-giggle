@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
