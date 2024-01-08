@@ -1,4 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-for i in range(10): print(i)
+import platform
+def get_python_version():
+        return platform.python_version()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
