@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
