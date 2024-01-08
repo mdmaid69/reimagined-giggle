@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
