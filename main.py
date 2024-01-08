@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def multiply_numbers(x, y):
+        return x * y
