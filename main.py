@@ -1,4 +1,10 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def cube_number(x):
+        return x**3
