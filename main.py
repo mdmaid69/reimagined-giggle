@@ -1,4 +1,5 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-def convert_to_hex(n):
-        return hex(n)
+import os
+print(os.getcwd())
+import json
+def convert_to_json(data):
+        return json.dumps(data)
