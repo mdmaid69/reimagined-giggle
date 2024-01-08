@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import logging
+def log_message(message):
+        logging.info(message)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
