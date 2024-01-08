@@ -1,5 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def find_max(numbers):
+        return max(numbers)
