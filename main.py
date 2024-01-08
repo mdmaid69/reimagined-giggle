@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import collections
+def create_user_string():
+        return collections.UserString()
