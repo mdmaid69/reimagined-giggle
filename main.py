@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_array_itemsize(array):
+        return array.itemsize
