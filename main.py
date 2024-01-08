@@ -1,4 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
