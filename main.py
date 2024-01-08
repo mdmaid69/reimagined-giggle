@@ -1,5 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
