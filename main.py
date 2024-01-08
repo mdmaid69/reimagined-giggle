@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import time
+def get_time_since_epoch():
+        return time.time()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
