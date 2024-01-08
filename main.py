@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+x = 10
+y = 20
+print("Sum:", x + y)
