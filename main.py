@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_index(array, item):
+        return array.index(item)
