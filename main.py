@@ -1,7 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
