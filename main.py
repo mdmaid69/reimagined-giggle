@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
