@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_array_as_list(array):
-        return list(array)
+import tensorflow as tf
+print(tf.__version__)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
