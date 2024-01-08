@@ -1,8 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_density(mass, volume):
+        return mass / volume
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
