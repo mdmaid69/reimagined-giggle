@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  def square_number(x):
-        return x**2
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
