@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
