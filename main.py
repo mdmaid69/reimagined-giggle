@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
