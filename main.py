@@ -1,5 +1,7 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_acceleration(speed, time):
-        return speed / time
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
