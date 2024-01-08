@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
