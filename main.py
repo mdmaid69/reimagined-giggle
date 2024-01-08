@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
