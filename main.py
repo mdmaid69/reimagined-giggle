@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
