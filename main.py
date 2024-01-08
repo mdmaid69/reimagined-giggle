@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
