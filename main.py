@@ -1,8 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
