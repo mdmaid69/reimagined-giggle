@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
