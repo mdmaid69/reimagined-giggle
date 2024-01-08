@@ -1,8 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
