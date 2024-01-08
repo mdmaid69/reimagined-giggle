@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+for i in range(5):
+        print(i)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
