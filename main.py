@@ -1,10 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
