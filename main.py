@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
