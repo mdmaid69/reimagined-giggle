@@ -1,6 +1,9 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
