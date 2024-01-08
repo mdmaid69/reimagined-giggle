@@ -1,6 +1,5 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
