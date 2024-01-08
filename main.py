@@ -1,7 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import sys
+def print_python_version():
+        print(sys.version)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
