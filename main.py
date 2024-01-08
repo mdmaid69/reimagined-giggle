@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
