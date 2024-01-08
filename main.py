@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
