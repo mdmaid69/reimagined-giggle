@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
