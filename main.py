@@ -1,5 +1,5 @@
+import collections
+def create_counter():
+        return collections.Counter()
   def fibonacci(n):
         return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
