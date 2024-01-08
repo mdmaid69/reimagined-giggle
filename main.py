@@ -1,6 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import sys
-def exit_program():
-        sys.exit()
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
