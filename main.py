@@ -1,5 +1,8 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
