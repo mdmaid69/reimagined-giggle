@@ -1,6 +1,6 @@
+import array
+def get_array_as_str(array):
+        return str(array)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
