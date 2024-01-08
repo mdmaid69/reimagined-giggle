@@ -1,6 +1,5 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_exponential(x):
+        return math.exp(x)
+def convert_to_binary(n):
+        return bin(n)
