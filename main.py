@@ -1,5 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import time
-print(time.time())
+def calculate_power(work, time):
+        return work / time
+def reverse_string(s):
+        return s[::-1]
