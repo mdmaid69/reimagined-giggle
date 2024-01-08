@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
