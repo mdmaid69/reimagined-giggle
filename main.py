@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
