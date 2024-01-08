@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def square_number(x):
+        return x**2
