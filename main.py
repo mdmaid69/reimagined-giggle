@@ -1,6 +1,5 @@
-for i in range(5):
-        print(i)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def is_palindrome(s):
+        return s == s[::-1]
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
