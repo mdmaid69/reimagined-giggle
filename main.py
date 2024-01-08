@@ -1,5 +1,9 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def add_numbers(x, y):
+        return x + y
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
