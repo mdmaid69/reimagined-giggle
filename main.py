@@ -1,7 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
