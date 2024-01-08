@@ -1,5 +1,12 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
