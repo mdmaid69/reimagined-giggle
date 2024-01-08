@@ -1,5 +1,4 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_volume(length, width, height):
+        return length * width * height
+def convert_to_hex(n):
+        return hex(n)
