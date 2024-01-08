@@ -1,6 +1,7 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
