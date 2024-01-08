@@ -1,5 +1,7 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
