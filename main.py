@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
