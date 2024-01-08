@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def count_elements(lst):
+        return len(lst)
