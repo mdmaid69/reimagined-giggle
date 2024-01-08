@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  def remove_duplicates(lst):
+        return list(set(lst))
