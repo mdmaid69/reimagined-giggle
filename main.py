@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def convert_to_octal(n):
+        return oct(n)
