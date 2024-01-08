@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
