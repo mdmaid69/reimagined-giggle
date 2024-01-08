@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import datetime
+def get_today_date():
+        return datetime.date.today()
