@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_item(array, i):
-        return array[i]
+def find_max(lst):
+        return max(lst)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
