@@ -1,6 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import random
+print(random.randint(0, 100))
