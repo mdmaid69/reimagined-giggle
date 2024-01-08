@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def cube_number(x):
+        return x**3
+import math
+def calculate_error_function(x):
+        return math.erf(x)
