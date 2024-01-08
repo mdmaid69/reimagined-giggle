@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-text = "Hello, world!"
-print("Characters:", len(text))
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
