@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_speed(distance, time):
+        return distance / time
