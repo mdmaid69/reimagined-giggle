@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+x = 10
+y = 20
+print("Sum:", x + y)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
