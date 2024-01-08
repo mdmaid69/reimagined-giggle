@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
