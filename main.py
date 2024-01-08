@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
