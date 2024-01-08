@@ -1,6 +1,6 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def get_array_as_bool(array):
+        return bool(array)
