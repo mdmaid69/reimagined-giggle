@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
