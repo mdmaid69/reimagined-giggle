@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def convert_to_binary(n):
-        return bin(n)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def count_characters(sentence):
+        return len(sentence)
