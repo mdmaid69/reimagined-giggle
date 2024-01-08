@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def square_number(x):
+        return x**2
+import math
+def calculate_error_function(x):
+        return math.erf(x)
