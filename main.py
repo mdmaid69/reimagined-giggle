@@ -1,6 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def is_even(n):
+        return n % 2 == 0
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
