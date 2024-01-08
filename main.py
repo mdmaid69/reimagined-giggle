@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
