@@ -1,5 +1,6 @@
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def convert_to_octal(n):
-        return oct(n)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
