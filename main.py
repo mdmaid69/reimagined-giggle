@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
