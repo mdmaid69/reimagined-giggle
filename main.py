@@ -1,7 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-def square_number(x):
-        return x**2
+  def cube_number(x):
+        return x**3
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
