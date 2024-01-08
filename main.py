@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
