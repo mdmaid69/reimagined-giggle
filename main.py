@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
