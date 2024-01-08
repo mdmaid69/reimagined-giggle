@@ -1,5 +1,8 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  def subtract_numbers(x, y):
-        return x - y
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
