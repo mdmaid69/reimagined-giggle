@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
