@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import collections
+def create_stack():
+        return collections.deque()
