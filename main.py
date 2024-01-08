@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_pressure(force, area):
+        return force / area
 import collections
-def create_counter():
-        return collections.Counter()
+def create_user_dict():
+        return collections.UserDict()
