@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import collections
-def create_stack():
-        return collections.deque()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
