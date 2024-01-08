@@ -1,5 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
