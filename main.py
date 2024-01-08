@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def cube_number(x):
+        return x**3
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
