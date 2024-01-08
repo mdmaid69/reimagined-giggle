@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
