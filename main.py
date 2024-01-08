@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import collections
+def create_stack():
+        return collections.deque()
