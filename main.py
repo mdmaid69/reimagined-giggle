@@ -1,5 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_power(work, time):
-        return work / time
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
