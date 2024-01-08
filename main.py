@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def get_array_index(array, item):
+        return array.index(item)
