@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+for i in range(5):
+        print(i)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
