@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
