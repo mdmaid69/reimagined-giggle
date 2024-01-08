@@ -1,6 +1,5 @@
+  def is_even(n):
+        return n % 2 == 0
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import getpass
-def get_username():
-        return getpass.getuser()
+def create_user_string():
+        return collections.UserString()
