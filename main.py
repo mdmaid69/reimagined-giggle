@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import random
-print(random.randint(0, 100))
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
