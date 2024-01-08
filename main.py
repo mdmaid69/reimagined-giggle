@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
