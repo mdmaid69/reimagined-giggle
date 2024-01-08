@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
