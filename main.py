@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def set_array_item(array, i, item):
+        array[i] = item
