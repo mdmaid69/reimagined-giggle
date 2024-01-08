@@ -1,6 +1,4 @@
 import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+print(json.dumps({"name": "John", "age": 30}))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
