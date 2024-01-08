@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
