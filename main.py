@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
