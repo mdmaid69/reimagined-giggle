@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
