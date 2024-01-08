@@ -1,8 +1,4 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def find_max(numbers):
+        return max(numbers)
