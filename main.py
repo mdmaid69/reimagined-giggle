@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def is_palindrome(s):
+        return s == s[::-1]
