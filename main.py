@@ -1,6 +1,6 @@
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
