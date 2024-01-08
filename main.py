@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_average(lst):
+        return sum(lst) / len(lst)
