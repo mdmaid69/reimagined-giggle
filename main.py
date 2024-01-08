@@ -1,7 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
