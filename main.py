@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
