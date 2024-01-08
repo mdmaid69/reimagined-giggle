@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import sys
-def exit_program():
-        sys.exit()
+def calculate_power(work, time):
+        return work / time
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
