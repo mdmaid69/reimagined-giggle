@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
