@@ -1,6 +1,6 @@
 import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import sys
-  def get_python_version():
-        return sys.version
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
