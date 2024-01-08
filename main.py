@@ -1,8 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def find_min(lst):
+        return min(lst)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
