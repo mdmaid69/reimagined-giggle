@@ -1,5 +1,7 @@
-  def subtract_numbers(x, y):
-        return x - y
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_sine(x):
+        return math.sin(x)
