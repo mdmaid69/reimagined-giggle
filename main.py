@@ -1,5 +1,6 @@
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
