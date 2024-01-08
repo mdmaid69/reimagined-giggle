@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
