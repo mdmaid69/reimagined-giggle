@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_work(force, distance):
+        return force * distance
