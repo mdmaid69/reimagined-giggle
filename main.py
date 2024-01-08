@@ -1,7 +1,6 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def greet(name):
-        print(f"Hello, {name}!")
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
