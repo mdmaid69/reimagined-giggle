@@ -1,5 +1,7 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_work(force, distance):
+        return force * distance
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
