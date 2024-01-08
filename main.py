@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  def cube_number(x):
+        return x**3
