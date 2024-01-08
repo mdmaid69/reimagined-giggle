@@ -1,6 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
