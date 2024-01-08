@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def is_even(n):
+        return n % 2 == 0
