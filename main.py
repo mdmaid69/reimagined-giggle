@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
