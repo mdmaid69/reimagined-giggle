@@ -1,6 +1,8 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def get_array_as_list(array):
-        return list(array)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
