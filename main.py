@@ -1,4 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def square_number(x):
+        return x**2
+def calculate_acceleration(speed, time):
+        return speed / time
