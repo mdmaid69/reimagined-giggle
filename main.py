@@ -1,6 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  def add_numbers(x, y):
-        return x + y
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
