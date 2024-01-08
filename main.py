@@ -1,6 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import time
-def get_time_since_epoch():
-        return time.time()
+def find_max(lst):
+        return max(lst)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
