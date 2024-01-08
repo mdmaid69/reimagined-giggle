@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_current_working_directory():
+        return os.getcwd()
