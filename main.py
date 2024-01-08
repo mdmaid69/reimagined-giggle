@@ -1,5 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def convert_to_octal(n):
-        return oct(n)
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_work(force, distance):
+        return force * distance
