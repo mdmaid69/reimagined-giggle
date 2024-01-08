@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
