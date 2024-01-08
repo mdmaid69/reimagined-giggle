@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
