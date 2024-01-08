@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  def add_numbers(x, y):
+        return x + y
