@@ -1,6 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import random
+print(random.randint(0, 100))
