@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
