@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
