@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def calculate_pressure(force, area):
-        return force / area
+print([x**2 for x in range(10)])
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
