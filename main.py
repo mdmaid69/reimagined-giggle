@@ -1,5 +1,8 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
