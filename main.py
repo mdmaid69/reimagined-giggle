@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_force(mass, acceleration):
+        return mass * acceleration
