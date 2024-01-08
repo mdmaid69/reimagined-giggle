@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
