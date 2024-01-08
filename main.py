@@ -1,5 +1,5 @@
+def cube_number(x):
+        return x**3
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_factorial(n):
+        return math.factorial(n)
