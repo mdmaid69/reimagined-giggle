@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def clear_array(array):
+        array *= 0
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
