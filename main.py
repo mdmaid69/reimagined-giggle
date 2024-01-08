@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  def cube_number(x):
+        return x**3
+import math
+def calculate_cosine(x):
+        return math.cos(x)
