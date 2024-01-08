@@ -1,11 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  def is_even(n):
+        return n % 2 == 0
