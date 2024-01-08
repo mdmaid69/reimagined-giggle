@@ -1,6 +1,5 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def multiply_numbers(x, y):
+        return x * y
