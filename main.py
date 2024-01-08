@@ -1,7 +1,8 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
