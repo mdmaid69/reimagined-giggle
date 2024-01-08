@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
