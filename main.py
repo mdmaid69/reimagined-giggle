@@ -1,4 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def convert_to_octal(n):
+        return oct(n)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
