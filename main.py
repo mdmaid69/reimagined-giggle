@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def cube_number(x):
-        return x**3
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
