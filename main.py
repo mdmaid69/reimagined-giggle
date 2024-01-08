@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
