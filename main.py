@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import re
+print(re.match("h.*o", "hello world"))
