@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+x = 10
+y = 20
+print("Sum:", x + y)
