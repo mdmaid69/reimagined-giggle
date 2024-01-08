@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
