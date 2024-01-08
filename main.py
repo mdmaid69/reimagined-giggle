@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_density(mass, volume):
-        return mass / volume
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
