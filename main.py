@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import time
+def get_time_since_epoch():
+        return time.time()
