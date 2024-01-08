@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_slice(array, i, j):
+        return array[i:j]
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
