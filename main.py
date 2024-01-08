@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def is_palindrome(s):
+        return s == s[::-1]
