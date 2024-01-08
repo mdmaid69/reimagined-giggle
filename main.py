@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
