@@ -1,4 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  def square_number(x):
-        return x**2
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
