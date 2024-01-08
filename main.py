@@ -1,7 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
