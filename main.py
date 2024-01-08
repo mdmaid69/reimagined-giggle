@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def sort_list(lst):
+        return sorted(lst)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
