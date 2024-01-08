@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
