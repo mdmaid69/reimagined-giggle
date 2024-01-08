@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_speed(distance, time):
+        return distance / time
