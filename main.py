@@ -1,5 +1,7 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
