@@ -1,4 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def cube_number(x):
+        return x**3
+import tensorflow as tf
+print(tf.__version__)
