@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
