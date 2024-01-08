@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_typecode(array):
+        return array.typecode
