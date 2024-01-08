@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
