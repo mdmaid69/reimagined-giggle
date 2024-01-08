@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_density(mass, volume):
-        return mass / volume
+  def square_number(x):
+        return x**2
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
