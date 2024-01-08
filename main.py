@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def subtract_numbers(x, y):
+        return x - y
