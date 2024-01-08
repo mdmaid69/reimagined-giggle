@@ -1,5 +1,6 @@
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
 import re
-def split_by_pattern(pattern, string):
+def split_string(pattern, string):
         return re.split(pattern, string)
-def multiply_numbers(x, y):
-        return x * y
