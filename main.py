@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
