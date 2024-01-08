@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
