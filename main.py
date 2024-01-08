@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
