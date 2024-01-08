@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
