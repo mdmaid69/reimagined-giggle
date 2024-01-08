@@ -1,4 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
