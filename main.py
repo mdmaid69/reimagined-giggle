@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
