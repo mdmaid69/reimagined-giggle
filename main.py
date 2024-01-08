@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
