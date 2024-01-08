@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
