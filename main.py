@@ -1,5 +1,8 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
