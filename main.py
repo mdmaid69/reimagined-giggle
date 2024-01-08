@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
