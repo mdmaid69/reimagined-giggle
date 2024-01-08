@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+text = "Hello, world!"
+print("Reversed:", text[::-1])
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
