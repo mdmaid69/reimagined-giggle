@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def convert_to_hex(n):
+        return hex(n)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
