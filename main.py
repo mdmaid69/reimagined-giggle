@@ -1,6 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
