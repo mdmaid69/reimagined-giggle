@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
