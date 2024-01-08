@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def is_even(n):
-        return n % 2 == 0
+def convert_to_hex(n):
+        return hex(n)
+import collections
+def create_stack():
+        return collections.deque()
