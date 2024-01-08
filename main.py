@@ -1,4 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-import time
-print(time.time())
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+print(sum(range(10)))
