@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
