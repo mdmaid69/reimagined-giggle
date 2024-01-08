@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
