@@ -1,4 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
