@@ -1,6 +1,5 @@
+def find_min(numbers):
+        return min(numbers)
 import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def convert_array_to_list(array):
+        return array.tolist()
