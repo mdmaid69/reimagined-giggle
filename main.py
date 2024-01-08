@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
