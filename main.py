@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import time
+def get_current_time():
+        return time.time()
+def cube_number(x):
+        return x**3
