@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
