@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+for i in range(5):
+        print(i)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
