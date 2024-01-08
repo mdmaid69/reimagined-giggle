@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_base_name(path):
+        return os.path.basename(path)
