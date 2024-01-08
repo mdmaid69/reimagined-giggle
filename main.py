@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
