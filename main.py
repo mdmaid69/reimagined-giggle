@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import logging
-def log_message(message):
-        logging.info(message)
+import collections
+def create_stack():
+        return collections.deque()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
