@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def sort_numbers(numbers):
-        return sorted(numbers)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
