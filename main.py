@@ -1,6 +1,5 @@
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
