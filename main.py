@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
