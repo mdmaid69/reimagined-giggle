@@ -1,4 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-print(sum(range(10)))
+import platform
+def get_python_version():
+        return platform.python_version()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
