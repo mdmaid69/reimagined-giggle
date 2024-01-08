@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
