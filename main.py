@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
