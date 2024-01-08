@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def convert_to_hex(n):
-        return hex(n)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
