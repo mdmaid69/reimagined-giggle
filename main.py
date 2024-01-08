@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
