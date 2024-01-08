@@ -1,6 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
