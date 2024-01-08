@@ -1,6 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_acceleration(speed, time):
+        return speed / time
