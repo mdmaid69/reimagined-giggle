@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def convert_to_octal(n):
+        return oct(n)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
