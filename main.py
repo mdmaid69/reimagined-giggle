@@ -1,5 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
