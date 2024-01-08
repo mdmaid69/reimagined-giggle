@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
