@@ -1,6 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  def is_odd(n):
+        return n % 2 != 0
