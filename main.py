@@ -1,6 +1,6 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
