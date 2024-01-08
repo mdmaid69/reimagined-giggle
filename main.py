@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_as_repr(array):
+        return repr(array)
