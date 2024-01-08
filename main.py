@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def get_array_as_str(array):
+        return str(array)
