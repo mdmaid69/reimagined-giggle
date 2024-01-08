@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_power(work, time):
-        return work / time
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
