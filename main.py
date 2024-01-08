@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
