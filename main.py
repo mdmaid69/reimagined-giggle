@@ -1,5 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_work(force, distance):
+        return force * distance
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
