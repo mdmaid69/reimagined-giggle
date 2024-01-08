@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
