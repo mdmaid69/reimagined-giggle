@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+from collections import Counter
+print(Counter("hello world"))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
