@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
