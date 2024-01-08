@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
