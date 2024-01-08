@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
