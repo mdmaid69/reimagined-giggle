@@ -1,5 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
