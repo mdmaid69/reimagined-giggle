@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+name = "Python"
+print("Hello,", name)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
