@@ -1,8 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+print("Hello, world!")
