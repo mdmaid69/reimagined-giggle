@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import sys
+def print_python_version():
+        return sys.version
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
