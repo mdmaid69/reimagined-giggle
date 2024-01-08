@@ -1,7 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
