@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import json
+print(json.dumps({"name": "John", "age": 30}))
