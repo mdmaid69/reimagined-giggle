@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  def sort_list(lst):
+        return sorted(lst)
