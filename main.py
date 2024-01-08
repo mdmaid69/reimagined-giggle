@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  def sort_list(lst):
+        return sorted(lst)
