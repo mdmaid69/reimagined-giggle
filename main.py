@@ -1,7 +1,7 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
