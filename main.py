@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def square_number(x):
-        return x**2
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
