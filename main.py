@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def append_to_array(array, item):
+        array.append(item)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
