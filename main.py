@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
