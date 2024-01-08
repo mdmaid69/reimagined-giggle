@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def clear_array(array):
+        array *= 0
