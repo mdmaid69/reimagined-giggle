@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def multiply_numbers(x, y):
+        return x * y
