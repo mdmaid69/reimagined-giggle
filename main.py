@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
