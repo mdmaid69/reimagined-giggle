@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_pressure(force, area):
-        return force / area
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
