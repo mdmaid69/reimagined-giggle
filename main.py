@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
