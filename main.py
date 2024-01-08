@@ -1,6 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
