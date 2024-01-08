@@ -1,6 +1,5 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_work(force, distance):
+        return force * distance
