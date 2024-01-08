@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
