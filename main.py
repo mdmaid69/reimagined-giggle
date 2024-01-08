@@ -1,5 +1,8 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
