@@ -1,8 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
