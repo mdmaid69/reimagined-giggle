@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import sys
+  def get_python_version():
+        return sys.version
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
