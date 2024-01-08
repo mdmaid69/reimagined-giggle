@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def split_path(path):
+        return os.path.split(path)
