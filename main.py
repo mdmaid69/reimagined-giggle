@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
