@@ -1,6 +1,6 @@
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def get_current_working_directory():
+        return os.getcwd()
