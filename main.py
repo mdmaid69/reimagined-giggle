@@ -1,8 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
