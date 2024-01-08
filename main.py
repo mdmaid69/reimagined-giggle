@@ -1,6 +1,8 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
