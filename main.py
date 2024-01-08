@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+x = 10
+y = 20
+print("Sum:", x + y)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
