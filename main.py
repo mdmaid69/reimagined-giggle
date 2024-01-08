@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_string_from_array(array):
+        return array.tobytes()
