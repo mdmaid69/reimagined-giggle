@@ -1,5 +1,5 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def get_array_as_complex(array):
+        return complex(array[0])
+for i in range(5):
+        print(i)
