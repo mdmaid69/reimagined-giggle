@@ -1,7 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
