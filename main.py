@@ -1,5 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import random
-print(random.randint(0, 100))
+def is_odd(n):
+        return n % 2 != 0
+  def sort_list(lst):
+        return sorted(lst)
