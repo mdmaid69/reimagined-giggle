@@ -1,4 +1,9 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+print([x**2 for x in range(10)])
