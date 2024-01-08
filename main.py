@@ -1,9 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def get_array_as_repr(array):
+        return repr(array)
