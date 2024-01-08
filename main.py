@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
