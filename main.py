@@ -1,8 +1,7 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
