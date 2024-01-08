@@ -1,8 +1,5 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+from collections import Counter
+print(Counter("hello world"))
