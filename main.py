@@ -1,4 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
