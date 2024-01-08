@@ -1,6 +1,6 @@
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def set_array_item(array, i, item):
+        array[i] = item
