@@ -1,6 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def remove_from_array(array, item):
+        array.remove(item)
