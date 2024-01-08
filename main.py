@@ -1,6 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
