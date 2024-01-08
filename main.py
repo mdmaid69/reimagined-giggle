@@ -1,6 +1,6 @@
+import array
+def get_array_length(array):
+        return len(array)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import sys
-def print_python_version():
-        return sys.version
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
