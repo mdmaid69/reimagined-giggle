@@ -1,6 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def cube_number(x):
+        return x**3
+def reverse_list(lst):
+        return lst[::-1]
