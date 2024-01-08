@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+text = "Hello, world!"
+print("Characters:", len(text))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
