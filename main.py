@@ -1,6 +1,6 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
