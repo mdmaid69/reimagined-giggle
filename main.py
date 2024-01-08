@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  def count_elements(lst):
+        return len(lst)
