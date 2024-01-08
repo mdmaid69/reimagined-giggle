@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
