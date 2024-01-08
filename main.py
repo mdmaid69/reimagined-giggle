@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
