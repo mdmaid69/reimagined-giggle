@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+print([x**2 for x in range(10)])
