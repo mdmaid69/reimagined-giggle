@@ -1,6 +1,7 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import platform
-def get_python_version():
-        return platform.python_version()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
