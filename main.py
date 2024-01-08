@@ -1,5 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+for i in range(10): print(i)
