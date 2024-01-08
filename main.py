@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def add_numbers(x, y):
+        return x + y
