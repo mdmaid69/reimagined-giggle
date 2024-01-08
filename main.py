@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
