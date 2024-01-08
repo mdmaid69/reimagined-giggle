@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
