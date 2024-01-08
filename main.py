@@ -1,6 +1,7 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
