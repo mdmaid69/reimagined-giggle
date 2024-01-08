@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
