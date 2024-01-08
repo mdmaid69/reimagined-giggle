@@ -1,5 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def multiply_numbers(x, y):
+        return x * y
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
