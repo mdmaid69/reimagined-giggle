@@ -1,5 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
