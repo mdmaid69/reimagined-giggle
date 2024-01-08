@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import numpy as np
+print(np.array([1, 2, 3]))
