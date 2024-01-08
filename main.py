@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def is_even(n):
+        return n % 2 == 0
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
