@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_as_complex(array):
+        return complex(array[0])
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
