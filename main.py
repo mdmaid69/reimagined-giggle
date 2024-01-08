@@ -1,5 +1,7 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import math
-print(math.pi)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
