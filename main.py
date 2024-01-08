@@ -1,6 +1,8 @@
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
