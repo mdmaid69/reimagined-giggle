@@ -1,6 +1,7 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
