@@ -1,5 +1,6 @@
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import array
-def get_array_length(array):
-        return len(array)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
