@@ -1,6 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def reverse_list(lst):
+        return lst[::-1]
