@@ -1,5 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  def reverse_list(lst):
+        return lst[::-1]
