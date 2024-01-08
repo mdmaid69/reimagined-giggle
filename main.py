@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
