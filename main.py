@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
