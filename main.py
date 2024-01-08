@@ -1,6 +1,6 @@
+import sys
+def print_python_version():
+        print(sys.version)
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_arc_sine(x):
+        return math.asin(x)
