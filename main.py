@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
