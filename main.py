@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import logging
+def log_message(message):
+        logging.info(message)
