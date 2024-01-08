@@ -1,5 +1,7 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
