@@ -1,5 +1,6 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
