@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
