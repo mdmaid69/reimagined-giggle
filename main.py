@@ -1,5 +1,6 @@
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
