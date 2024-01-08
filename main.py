@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
