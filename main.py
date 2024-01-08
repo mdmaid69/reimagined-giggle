@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def count_characters(sentence):
+        return len(sentence)
