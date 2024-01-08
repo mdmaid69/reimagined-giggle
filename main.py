@@ -1,6 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
