@@ -1,5 +1,7 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
