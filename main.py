@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def reverse_list(lst):
-        return lst[::-1]
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
