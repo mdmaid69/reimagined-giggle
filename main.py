@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def add_numbers(x, y):
+        return x + y
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
