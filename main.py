@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import logging
+def log_message(message):
+        logging.info(message)
+def calculate_work(force, distance):
+        return force * distance
