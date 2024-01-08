@@ -1,6 +1,6 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import collections
-def create_stack():
-        return collections.deque()
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
