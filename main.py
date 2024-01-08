@@ -1,6 +1,5 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
