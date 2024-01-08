@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
