@@ -1,6 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def convert_to_binary(n):
+        return bin(n)
