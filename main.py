@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def reverse_list(lst):
-        return lst[::-1]
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
