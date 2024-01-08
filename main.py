@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
