@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_slice(array, i, j):
+        return array[i:j]
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
