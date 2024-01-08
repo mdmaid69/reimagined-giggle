@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
