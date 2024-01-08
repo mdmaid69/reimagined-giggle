@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
