@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import platform
+def get_python_version():
+        return platform.python_version()
