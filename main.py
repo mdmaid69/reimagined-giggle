@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+name = "Python"
+print("Hello,", name)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
