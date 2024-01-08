@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
