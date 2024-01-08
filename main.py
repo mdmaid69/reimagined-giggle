@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
