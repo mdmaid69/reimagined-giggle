@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-x = 10
-y = 20
-print("Sum:", x + y)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
