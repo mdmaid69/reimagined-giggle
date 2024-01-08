@@ -1,5 +1,7 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
