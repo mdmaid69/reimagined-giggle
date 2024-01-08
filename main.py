@@ -1,5 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  def convert_to_octal(n):
+        return oct(n)
+def sort_numbers(numbers):
+        return sorted(numbers)
