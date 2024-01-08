@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
