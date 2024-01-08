@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_perpetuity(payment, rate):
+        return payment / rate
