@@ -1,6 +1,7 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import logging
-def log_message(message):
-        logging.info(message)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+i = 0
+while i < 5:
+        print(i)
+        i += 1
