@@ -1,5 +1,8 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
