@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
