@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
