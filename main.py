@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
