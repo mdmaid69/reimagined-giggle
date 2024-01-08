@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def square_number(x):
+        return x**2
+import array
+def set_array_item(array, i, item):
+        array[i] = item
