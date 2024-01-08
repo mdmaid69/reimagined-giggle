@@ -1,4 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
