@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_typecode(array):
+        return array.typecode
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
