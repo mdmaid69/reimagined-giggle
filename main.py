@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import random
+print(random.randint(0, 100))
