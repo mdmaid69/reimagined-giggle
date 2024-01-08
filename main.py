@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
