@@ -1,7 +1,6 @@
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import array
-def get_array_as_list(array):
-        return list(array)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def get_array_as_repr(array):
+        return repr(array)
