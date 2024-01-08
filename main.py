@@ -1,6 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
