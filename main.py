@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
