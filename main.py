@@ -1,8 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import getpass
+def get_username():
+        return getpass.getuser()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
