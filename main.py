@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
