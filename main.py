@@ -1,5 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
