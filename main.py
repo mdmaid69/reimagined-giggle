@@ -1,8 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
