@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
