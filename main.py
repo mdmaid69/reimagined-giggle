@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_power(work, time):
-        return work / time
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import collections
+def create_counter():
+        return collections.Counter()
