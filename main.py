@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import datetime
-print(datetime.datetime.now())
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import collections
+def create_user_string():
+        return collections.UserString()
