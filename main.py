@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
