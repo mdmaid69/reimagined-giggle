@@ -1,6 +1,6 @@
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
