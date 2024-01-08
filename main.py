@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
