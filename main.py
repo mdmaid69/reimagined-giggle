@@ -1,7 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
