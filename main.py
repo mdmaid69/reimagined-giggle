@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import os
+print(os.getcwd())
