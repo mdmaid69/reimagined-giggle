@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import collections
+def create_counter():
+        return collections.Counter()
