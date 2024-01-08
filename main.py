@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
