@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import sys
+def print_python_version():
+        print(sys.version)
+import sys
+def exit_program():
+        sys.exit()
