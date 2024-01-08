@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_volume(length, width, height):
+        return length * width * height
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
