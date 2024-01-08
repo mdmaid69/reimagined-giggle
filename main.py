@@ -1,4 +1,7 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-for i in range(10): print(i)
+def divide_numbers(x, y):
+        return x / y
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
