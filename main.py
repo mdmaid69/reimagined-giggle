@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_density(mass, volume):
-        return mass / volume
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
