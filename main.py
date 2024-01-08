@@ -1,5 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_area_rectangle(l, w):
-        return l * w
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
