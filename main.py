@@ -1,6 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def convert_to_hex(n):
+        return hex(n)
+  def is_odd(n):
+        return n % 2 != 0
