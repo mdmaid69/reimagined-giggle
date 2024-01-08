@@ -1,5 +1,7 @@
-  def cube_number(x):
-        return x**3
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_pressure(force, area):
+        return force / area
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
