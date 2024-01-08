@@ -1,6 +1,12 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
