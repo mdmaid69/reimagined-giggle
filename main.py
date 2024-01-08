@@ -1,5 +1,5 @@
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
