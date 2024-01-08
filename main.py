@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_area_rectangle(l, w):
+        return l * w
