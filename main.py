@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
