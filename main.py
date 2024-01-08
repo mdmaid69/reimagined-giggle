@@ -1,6 +1,8 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import collections
+def create_user_string():
+        return collections.UserString()
