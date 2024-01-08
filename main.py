@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
