@@ -1,5 +1,5 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
