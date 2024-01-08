@@ -1,6 +1,7 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_pressure(force, area):
+        return force / area
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
