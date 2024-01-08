@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import getpass
-def get_username():
-        return getpass.getuser()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
