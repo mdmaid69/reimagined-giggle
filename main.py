@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
