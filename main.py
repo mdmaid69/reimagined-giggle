@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_list_from_array(array):
+        return array.tolist()
