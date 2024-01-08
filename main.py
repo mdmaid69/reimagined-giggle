@@ -1,5 +1,4 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
