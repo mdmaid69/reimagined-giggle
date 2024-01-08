@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
