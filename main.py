@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
+for i in range(5):
         print(i)
-        i += 1
-import random
-def roll_die():
-        return random.randint(1, 6)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
