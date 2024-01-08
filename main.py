@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def greet(name):
+        print(f"Hello, {name}!")
+import time
+def get_current_time():
+        return time.time()
