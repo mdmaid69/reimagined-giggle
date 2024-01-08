@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def find_max(lst):
+        return max(lst)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
