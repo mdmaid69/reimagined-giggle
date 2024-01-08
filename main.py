@@ -1,4 +1,4 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  def add_numbers(x, y):
-        return x + y
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
