@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
