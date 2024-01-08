@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_speed(distance, time):
+        return distance / time
+def convert_to_binary(n):
+        return bin(n)
