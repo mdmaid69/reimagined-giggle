@@ -1,8 +1,8 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def get_array_length(array):
-        return len(array)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
