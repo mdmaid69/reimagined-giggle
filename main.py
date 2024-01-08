@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
