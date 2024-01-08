@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
