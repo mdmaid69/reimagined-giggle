@@ -1,7 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
