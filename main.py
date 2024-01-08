@@ -1,5 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def square_number(x):
-        return x**2
+import time
+def get_time_since_epoch():
+        return time.time()
+print([x**2 for x in range(10)])
