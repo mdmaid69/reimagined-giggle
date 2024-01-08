@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def get_array_as_str(array):
+        return str(array)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
