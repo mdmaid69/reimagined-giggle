@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
