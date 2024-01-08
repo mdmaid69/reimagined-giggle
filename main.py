@@ -1,10 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  def sort_list(lst):
+        return sorted(lst)
