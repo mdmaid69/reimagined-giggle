@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import array
+def append_to_array(array, item):
+        array.append(item)
+import os
+def change_working_directory(path):
+        os.chdir(path)
