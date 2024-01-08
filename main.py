@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def convert_to_hex(n):
+        return hex(n)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
