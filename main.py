@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def convert_to_hex(n):
-        return hex(n)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
