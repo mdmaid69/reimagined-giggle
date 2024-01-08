@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
