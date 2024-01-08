@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
