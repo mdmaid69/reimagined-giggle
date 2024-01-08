@@ -1,5 +1,8 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import time
+def get_time_since_epoch():
+        return time.time()
