@@ -1,7 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
