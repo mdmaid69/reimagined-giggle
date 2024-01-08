@@ -1,5 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
