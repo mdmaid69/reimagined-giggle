@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_volume(length, width, height):
+        return length * width * height
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
