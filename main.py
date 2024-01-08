@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
