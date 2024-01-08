@@ -1,6 +1,8 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
