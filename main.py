@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
