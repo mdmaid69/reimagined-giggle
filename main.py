@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def split_path(path):
+        return os.path.split(path)
+  def calculate_area_rectangle(l, w):
+        return l * w
