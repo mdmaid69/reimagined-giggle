@@ -1,6 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
