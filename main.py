@@ -1,5 +1,8 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
