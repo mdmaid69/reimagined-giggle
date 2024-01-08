@@ -1,6 +1,5 @@
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
