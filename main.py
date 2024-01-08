@@ -1,4 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
