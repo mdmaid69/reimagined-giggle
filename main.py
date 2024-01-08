@@ -1,5 +1,7 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
