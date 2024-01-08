@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def count_characters(sentence):
+        return len(sentence)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
