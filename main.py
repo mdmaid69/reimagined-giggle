@@ -1,4 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  def multiply_numbers(x, y):
-        return x * y
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
