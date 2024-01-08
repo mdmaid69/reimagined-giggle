@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import random
+def roll_die():
+        return random.randint(1, 6)
