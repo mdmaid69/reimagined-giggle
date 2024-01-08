@@ -1,6 +1,5 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  def is_odd(n):
+        return n % 2 != 0
