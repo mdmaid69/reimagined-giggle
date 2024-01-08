@@ -1,6 +1,6 @@
+import logging
+def log_message(message):
+        logging.info(message)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
