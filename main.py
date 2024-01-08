@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
