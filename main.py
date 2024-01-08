@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
