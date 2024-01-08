@@ -1,4 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def add_numbers(x, y):
-        return x + y
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
