@@ -1,4 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import datetime
-print(datetime.datetime.now())
+def calculate_power(work, time):
+        return work / time
+def calculate_area_rectangle(l, w):
+        return l * w
