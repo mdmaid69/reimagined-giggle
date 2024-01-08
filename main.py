@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-  def calculate_area_rectangle(l, w):
-        return l * w
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
