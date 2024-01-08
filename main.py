@@ -1,5 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def cube_number(x):
-        return x**3
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
