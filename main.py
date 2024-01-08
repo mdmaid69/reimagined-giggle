@@ -1,5 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_density(mass, volume):
+        return mass / volume
+import time
+def get_time_since_epoch():
+        return time.time()
