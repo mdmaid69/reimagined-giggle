@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
