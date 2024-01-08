@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_speed(distance, time):
+        return distance / time
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
