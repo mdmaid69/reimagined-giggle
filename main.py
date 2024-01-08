@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_acceleration(speed, time):
+        return speed / time
