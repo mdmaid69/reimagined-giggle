@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import collections
-def create_stack():
-        return collections.deque()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_density(mass, volume):
+        return mass / volume
