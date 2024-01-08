@@ -1,6 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
