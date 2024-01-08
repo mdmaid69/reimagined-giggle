@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def get_array_as_str(array):
-        return str(array)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
