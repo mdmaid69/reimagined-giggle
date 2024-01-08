@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
