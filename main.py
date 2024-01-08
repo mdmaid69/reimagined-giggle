@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_acceleration(speed, time):
+        return speed / time
