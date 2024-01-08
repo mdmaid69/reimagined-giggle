@@ -1,6 +1,7 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
