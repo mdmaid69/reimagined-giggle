@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
