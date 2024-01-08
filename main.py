@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def cube_number(x):
+        return x**3
