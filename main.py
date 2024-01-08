@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
