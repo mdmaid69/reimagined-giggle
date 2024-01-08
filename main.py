@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
