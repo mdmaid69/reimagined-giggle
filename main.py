@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def get_array_as_list(array):
+        return list(array)
+def is_odd(n):
+        return n % 2 != 0
