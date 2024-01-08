@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
