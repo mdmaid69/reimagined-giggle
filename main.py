@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import sys
+def print_python_version():
+        print(sys.version)
