@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
