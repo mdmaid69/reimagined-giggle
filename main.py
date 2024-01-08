@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def clear_array(array):
+        array *= 0
