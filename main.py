@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
