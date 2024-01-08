@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
