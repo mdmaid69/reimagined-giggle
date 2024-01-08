@@ -1,5 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
