@@ -1,6 +1,5 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
