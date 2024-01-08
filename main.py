@@ -1,8 +1,8 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
