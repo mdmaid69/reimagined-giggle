@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
