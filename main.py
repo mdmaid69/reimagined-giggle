@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def calculate_pressure(force, area):
+        return force / area
+i = 0
+while i < 5:
+        print(i)
+        i += 1
