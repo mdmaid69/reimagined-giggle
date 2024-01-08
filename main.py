@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import sys
-print(sys.version)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import random
+print(random.randint(0, 100))
