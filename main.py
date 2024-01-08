@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
