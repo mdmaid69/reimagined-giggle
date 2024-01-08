@@ -1,4 +1,9 @@
-import random
-print(random.randint(0, 100))
-import numpy as np
-print(np.array([1, 2, 3]))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
