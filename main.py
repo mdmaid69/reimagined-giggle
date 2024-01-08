@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+for i in range(5):
+        print(i)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
