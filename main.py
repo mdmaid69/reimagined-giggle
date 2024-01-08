@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
