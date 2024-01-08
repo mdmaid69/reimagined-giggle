@@ -1,5 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def calculate_area_rectangle(l, w):
+        return l * w
