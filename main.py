@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_as_set(array):
+        return set(array)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
