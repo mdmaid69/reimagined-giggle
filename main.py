@@ -1,6 +1,9 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
