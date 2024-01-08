@@ -1,6 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import collections
+def create_user_string():
+        return collections.UserString()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
