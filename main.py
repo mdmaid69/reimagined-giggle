@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import time
-def get_current_time():
-        return time.ctime()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
