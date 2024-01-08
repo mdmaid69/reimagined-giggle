@@ -1,5 +1,6 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
