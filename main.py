@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
