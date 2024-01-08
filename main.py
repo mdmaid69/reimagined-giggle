@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
