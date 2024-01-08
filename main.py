@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
