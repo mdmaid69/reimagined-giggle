@@ -1,5 +1,7 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def count_elements(lst):
-        return len(lst)
+def calculate_power(work, time):
+        return work / time
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
