@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
