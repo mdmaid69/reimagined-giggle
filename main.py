@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
