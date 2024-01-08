@@ -1,5 +1,4 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def cube_number(x):
-        return x**3
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
