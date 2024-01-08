@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
