@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
