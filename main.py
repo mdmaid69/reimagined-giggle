@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
