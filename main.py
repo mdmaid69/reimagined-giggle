@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
