@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
