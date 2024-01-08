@@ -1,6 +1,7 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import time
+print(time.time())
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
