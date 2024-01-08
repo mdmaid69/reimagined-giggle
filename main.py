@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
