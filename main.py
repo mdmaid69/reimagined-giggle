@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def convert_to_binary(n):
+        return bin(n)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
