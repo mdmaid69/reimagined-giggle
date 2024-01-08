@@ -1,6 +1,10 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import sys
-  def get_python_version():
-        return sys.version
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
