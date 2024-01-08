@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
