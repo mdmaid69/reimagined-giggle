@@ -1,5 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
