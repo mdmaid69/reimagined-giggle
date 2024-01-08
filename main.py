@@ -1,6 +1,6 @@
+import time
+def get_time_since_epoch():
+        return time.time()
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def get_array_as_complex(array):
+        return complex(array[0])
