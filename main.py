@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
