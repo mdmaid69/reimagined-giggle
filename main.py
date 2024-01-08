@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import json
+print(json.dumps({"name": "John", "age": 30}))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
