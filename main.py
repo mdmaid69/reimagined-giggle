@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
