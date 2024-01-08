@@ -1,8 +1,4 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import json
+print(json.dumps({"name": "John", "age": 30}))
