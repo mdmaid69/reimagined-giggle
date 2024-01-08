@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import time
-print(time.time())
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def count_characters(sentence):
+        return len(sentence)
