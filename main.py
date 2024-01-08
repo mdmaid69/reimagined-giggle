@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import platform
+def get_os_info():
+        return platform.uname()
