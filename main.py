@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
