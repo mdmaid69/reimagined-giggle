@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
