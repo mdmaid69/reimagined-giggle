@@ -1,10 +1,8 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_list_from_array(array):
+        return array.tolist()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
