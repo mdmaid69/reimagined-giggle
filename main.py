@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def cube_number(x):
+        return x**3
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
