@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
