@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+for i in range(5):
+        print(i)
