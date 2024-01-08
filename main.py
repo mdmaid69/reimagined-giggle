@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def get_array_length(array):
-        return len(array)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
