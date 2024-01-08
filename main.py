@@ -1,5 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import sys
-print(sys.version)
+import time
+print(time.time())
+import time
+def get_current_time():
+        return time.ctime()
