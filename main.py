@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
