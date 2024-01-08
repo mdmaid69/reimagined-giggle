@@ -1,4 +1,6 @@
+for i in range(5):
+        print(i)
 import json
-print(json.dumps({"name": "John", "age": 30}))
-import tensorflow as tf
-print(tf.__version__)
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
