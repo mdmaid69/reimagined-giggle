@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
