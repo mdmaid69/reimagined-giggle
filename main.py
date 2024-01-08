@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import array
+def get_array_item(array, i):
+        return array[i]
