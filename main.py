@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_density(mass, volume):
-        return mass / volume
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
