@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
