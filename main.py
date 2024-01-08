@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-def sort_list(lst):
-        return sorted(lst)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
