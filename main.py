@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
