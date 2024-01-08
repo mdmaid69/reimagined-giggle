@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def split_path(path):
-        return os.path.split(path)
+for i in range(5):
+        print(i)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
