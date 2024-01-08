@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def split_path(path):
+        return os.path.split(path)
