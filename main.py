@@ -1,5 +1,6 @@
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def convert_to_binary(n):
-        return bin(n)
+def calculate_arc_tangent(x):
+        return math.atan(x)
