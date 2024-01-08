@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_base_name(path):
+        return os.path.basename(path)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
