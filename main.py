@@ -1,5 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def add_numbers(x, y):
+        return x + y
+import os
+print(os.getcwd())
