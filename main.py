@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
