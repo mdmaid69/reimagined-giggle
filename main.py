@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
