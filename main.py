@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
