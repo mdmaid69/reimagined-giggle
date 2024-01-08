@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
