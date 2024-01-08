@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
