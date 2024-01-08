@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_area_circle(r):
+        return 3.14 * r**2
