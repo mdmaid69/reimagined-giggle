@@ -1,7 +1,5 @@
+def cube_number(x):
+        return x**3
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
