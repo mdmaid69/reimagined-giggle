@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
