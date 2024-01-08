@@ -1,8 +1,7 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def get_array_as_complex(array):
+        return complex(array[0])
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
