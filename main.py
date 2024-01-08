@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def reverse_string(s):
+        return s[::-1]
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
