@@ -1,6 +1,6 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
