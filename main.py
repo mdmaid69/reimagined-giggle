@@ -1,7 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
