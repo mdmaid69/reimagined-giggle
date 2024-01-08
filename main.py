@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import time
+def get_time_since_epoch():
+        return time.time()
