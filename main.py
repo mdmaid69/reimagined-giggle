@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import array
+def get_array_as_bool(array):
+        return bool(array)
