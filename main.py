@@ -1,4 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_power(work, time):
-        return work / time
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import datetime
+print(datetime.datetime.now())
