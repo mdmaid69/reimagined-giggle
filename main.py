@@ -1,5 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def find_min(lst):
-        return min(lst)
+import tensorflow as tf
+print(tf.__version__)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
