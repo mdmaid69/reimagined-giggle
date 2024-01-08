@@ -1,6 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
