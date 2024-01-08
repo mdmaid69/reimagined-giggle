@@ -1,6 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
