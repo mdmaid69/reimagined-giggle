@@ -1,6 +1,5 @@
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def get_array_length(array):
+        return len(array)
