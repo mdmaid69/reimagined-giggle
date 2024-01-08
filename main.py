@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def cube_number(x):
+        return x**3
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
