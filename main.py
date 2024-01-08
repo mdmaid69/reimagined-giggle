@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
