@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
