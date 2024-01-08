@@ -1,6 +1,5 @@
+def calculate_power(work, time):
+        return work / time
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
