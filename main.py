@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import datetime
+def get_current_date():
+        return datetime.date.today()
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
