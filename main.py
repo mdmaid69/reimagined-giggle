@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
