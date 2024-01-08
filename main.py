@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-  def sort_list(lst):
-        return sorted(lst)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
