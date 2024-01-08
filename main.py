@@ -1,4 +1,4 @@
-print(sum(range(10)))
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import random
+print(random.randint(0, 100))
+  def multiply_numbers(x, y):
+        return x * y
