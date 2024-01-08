@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
