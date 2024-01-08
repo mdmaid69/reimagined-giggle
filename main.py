@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
