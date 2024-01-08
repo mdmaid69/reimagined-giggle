@@ -1,5 +1,13 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
