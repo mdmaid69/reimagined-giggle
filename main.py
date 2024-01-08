@@ -1,5 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
