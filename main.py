@@ -1,6 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_power(work, time):
+        return work / time
