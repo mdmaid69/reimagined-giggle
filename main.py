@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import os
-print(os.getcwd())
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def count_words(sentence):
+        return len(sentence.split())
