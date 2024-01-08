@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import platform
-def get_python_version():
-        return platform.python_version()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
