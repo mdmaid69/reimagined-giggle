@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
