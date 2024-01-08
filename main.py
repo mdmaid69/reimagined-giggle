@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  def is_odd(n):
+        return n % 2 != 0
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
