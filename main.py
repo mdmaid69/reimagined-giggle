@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
