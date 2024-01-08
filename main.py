@@ -1,6 +1,5 @@
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
