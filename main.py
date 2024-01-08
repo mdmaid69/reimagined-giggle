@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
