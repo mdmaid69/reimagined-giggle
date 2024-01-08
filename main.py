@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
