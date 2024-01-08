@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
