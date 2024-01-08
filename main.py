@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
