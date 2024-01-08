@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def add_numbers(x, y):
+import collections
+def create_stack():
+        return collections.deque()
+  def add_numbers(x, y):
         return x + y
