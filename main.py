@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
