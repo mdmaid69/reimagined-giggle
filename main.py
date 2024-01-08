@@ -1,6 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def is_palindrome(s):
+        return s == s[::-1]
+text = "Hello, world!"
+print("Characters:", len(text))
