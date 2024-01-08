@@ -1,8 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def divide_numbers(x, y):
+        return x / y
