@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
