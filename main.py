@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
