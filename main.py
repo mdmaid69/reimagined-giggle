@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
