@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-def is_odd(n):
-        return n % 2 != 0
+import sys
+def exit_program():
+        sys.exit()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
