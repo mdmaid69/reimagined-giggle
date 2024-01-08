@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def find_max(numbers):
-        return max(numbers)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
