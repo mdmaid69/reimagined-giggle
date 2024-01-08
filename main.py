@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import array
+def clear_array(array):
+        array *= 0
