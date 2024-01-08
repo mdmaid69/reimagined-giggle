@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-from collections import Counter
-print(Counter("hello world"))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
