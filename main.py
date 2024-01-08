@@ -1,5 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import datetime
-print(datetime.datetime.now())
+def sort_list(lst):
+        return sorted(lst)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
