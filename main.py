@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
