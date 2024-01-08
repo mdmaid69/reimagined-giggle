@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
