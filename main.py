@@ -1,6 +1,6 @@
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def get_array_as_memoryview(array):
+        return memoryview(array)
