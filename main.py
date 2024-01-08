@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import random
+def roll_die():
+        return random.randint(1, 6)
