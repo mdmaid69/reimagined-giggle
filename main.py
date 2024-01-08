@@ -1,5 +1,5 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-from collections import Counter
-print(Counter("hello world"))
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
