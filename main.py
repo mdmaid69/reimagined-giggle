@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def is_palindrome(s):
+        return s == s[::-1]
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
