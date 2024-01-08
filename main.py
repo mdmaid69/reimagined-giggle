@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-text = "Hello, world!"
-print("Characters:", len(text))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
