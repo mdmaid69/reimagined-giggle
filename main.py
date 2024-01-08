@@ -1,6 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
