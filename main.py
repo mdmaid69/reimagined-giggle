@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
