@@ -1,4 +1,4 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_pressure(force, area):
-        return force / area
+import time
+print(time.time())
+  def calculate_area_rectangle(l, w):
+        return l * w
