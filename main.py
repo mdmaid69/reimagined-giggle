@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def clear_array(array):
+        array *= 0
+import random
+def roll_die():
+        return random.randint(1, 6)
