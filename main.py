@@ -1,5 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def find_union(list1, list2):
+        return set(list1) | set(list2)
