@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
