@@ -1,6 +1,8 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
