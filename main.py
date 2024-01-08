@@ -1,5 +1,6 @@
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_ceiling(x):
+        return math.ceil(x)
