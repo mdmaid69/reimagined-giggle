@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
