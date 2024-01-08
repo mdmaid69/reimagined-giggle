@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import os
+def change_working_directory(path):
+        os.chdir(path)
