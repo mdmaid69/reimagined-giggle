@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
