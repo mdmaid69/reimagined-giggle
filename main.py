@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def divide_numbers(x, y):
+        return x / y
