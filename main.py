@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_area_rectangle(l, w):
-        return l * w
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
