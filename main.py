@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
