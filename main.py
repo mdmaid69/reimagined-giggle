@@ -1,6 +1,5 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
