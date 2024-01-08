@@ -1,6 +1,4 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+print([x**2 for x in range(10)])
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
