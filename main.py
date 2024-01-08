@@ -1,10 +1,7 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import array
+def clear_array(array):
+        array *= 0
