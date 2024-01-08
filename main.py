@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def multiply_numbers(x, y):
+        return x * y
