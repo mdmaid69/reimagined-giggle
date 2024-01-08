@@ -1,5 +1,4 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def reverse_string(s):
-        return s[::-1]
+from collections import Counter
+print(Counter("hello world"))
+def add_numbers(a, b):
+        return a + b
