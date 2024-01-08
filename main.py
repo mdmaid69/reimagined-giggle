@@ -1,6 +1,5 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  def sort_list(lst):
+        return sorted(lst)
