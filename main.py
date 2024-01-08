@@ -1,4 +1,4 @@
-def cube_number(x):
-        return x**3
-def count_characters(sentence):
-        return len(sentence)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import random
+print(random.randint(0, 100))
