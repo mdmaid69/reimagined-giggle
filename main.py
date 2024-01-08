@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
