@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
+def is_palindrome(s):
+        return s == s[::-1]
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
