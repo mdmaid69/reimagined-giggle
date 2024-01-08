@@ -1,13 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import array
+def get_array_as_list(array):
+        return list(array)
