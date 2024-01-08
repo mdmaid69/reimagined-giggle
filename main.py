@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def clear_array(array):
-        array *= 0
+import os
+print(os.getcwd())
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
