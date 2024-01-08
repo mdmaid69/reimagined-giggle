@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def greet(name):
+        print(f"Hello, {name}!")
