@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
