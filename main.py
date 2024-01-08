@@ -1,6 +1,8 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
