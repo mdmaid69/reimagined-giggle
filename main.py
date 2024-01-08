@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
