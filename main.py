@@ -1,6 +1,7 @@
-import getpass
-def get_username():
-        return getpass.getuser()
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
