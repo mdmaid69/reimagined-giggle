@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
