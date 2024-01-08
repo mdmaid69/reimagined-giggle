@@ -1,5 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-for i in range(5):
-        print(i)
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
