@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def square_number(x):
+        return x**2
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
