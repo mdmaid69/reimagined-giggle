@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
