@@ -1,6 +1,6 @@
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
