@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
