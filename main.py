@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
