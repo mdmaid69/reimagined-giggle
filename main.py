@@ -1,4 +1,6 @@
-import os
-print(os.getcwd())
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
