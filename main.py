@@ -1,5 +1,7 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
