@@ -1,4 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_volume(length, width, height):
+        return length * width * height
