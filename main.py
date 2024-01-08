@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def get_list_from_array(array):
+        return array.tolist()
