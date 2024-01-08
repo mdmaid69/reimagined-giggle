@@ -1,5 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def find_min(lst):
+        return min(lst)
