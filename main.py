@@ -1,7 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
