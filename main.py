@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
