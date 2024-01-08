@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def add_numbers(x, y):
+        return x + y
