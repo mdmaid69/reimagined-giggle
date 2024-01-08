@@ -1,7 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
