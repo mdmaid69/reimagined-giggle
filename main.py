@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
