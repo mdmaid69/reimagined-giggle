@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import os
+def remove_directory(path):
+        os.rmdir(path)
