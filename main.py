@@ -1,9 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
