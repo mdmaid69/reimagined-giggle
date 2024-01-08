@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+text = "Hello, world!"
+print("Uppercase:", text.upper())
