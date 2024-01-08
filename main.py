@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_density(mass, volume):
+        return mass / volume
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
