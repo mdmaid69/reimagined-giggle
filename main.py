@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
