@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
