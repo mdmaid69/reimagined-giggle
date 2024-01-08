@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-for i in range(5):
-        print(i)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def is_odd(n):
+        return n % 2 != 0
