@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
