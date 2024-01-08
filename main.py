@@ -1,4 +1,7 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  def convert_to_octal(n):
-        return oct(n)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
