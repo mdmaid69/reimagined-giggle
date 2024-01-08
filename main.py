@@ -1,6 +1,8 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  def remove_duplicates(lst):
-        return list(set(lst))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
