@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
