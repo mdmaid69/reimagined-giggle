@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import collections
+def create_user_string():
+        return collections.UserString()
+def square_number(x):
+        return x**2
