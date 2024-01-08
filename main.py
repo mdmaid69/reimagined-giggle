@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-  def is_odd(n):
-        return n % 2 != 0
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_tangent(x):
+        return math.tan(x)
