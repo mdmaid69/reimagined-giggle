@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
