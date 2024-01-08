@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
