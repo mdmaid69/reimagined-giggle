@@ -1,5 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import sys
+def exit_program():
+        sys.exit()
