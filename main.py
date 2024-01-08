@@ -1,5 +1,10 @@
 n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
