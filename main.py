@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def greet(name):
+        print(f"Hello, {name}!")
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
