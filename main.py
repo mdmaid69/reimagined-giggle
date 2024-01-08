@@ -1,5 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
