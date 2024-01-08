@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import collections
+def create_user_dict():
+        return collections.UserDict()
