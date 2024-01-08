@@ -1,5 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import os
-print(os.getcwd())
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
