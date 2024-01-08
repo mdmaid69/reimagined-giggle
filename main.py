@@ -1,5 +1,12 @@
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
