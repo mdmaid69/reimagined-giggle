@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
