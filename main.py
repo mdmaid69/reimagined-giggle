@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def cube_number(x):
-        return x**3
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  def multiply_numbers(x, y):
+        return x * y
