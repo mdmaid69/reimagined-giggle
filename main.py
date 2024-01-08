@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
