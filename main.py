@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
 import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+print(list(itertools.permutations([1, 2, 3])))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
