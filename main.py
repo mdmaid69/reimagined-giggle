@@ -1,11 +1,8 @@
-import queue
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import unittest
 
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
