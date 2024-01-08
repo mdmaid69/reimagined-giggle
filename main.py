@@ -1,11 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def square_number(x):
+        return x**2
