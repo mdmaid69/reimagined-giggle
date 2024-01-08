@@ -1,6 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
