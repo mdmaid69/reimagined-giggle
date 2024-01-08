@@ -1,4 +1,8 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+  def reverse_list(lst):
+        return lst[::-1]
