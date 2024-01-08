@@ -1,7 +1,6 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
