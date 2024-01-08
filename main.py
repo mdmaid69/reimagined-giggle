@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_work(force, distance):
+        return force * distance
