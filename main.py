@@ -1,5 +1,6 @@
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  def add_numbers(x, y):
-        return x + y
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
