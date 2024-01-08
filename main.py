@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
