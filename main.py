@@ -1,6 +1,5 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
