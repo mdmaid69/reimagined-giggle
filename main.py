@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import platform
+def get_os_info():
+        return platform.uname()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
