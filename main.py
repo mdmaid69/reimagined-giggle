@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
