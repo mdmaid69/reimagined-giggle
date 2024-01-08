@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def add_numbers(a, b):
-        return a + b
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
