@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
