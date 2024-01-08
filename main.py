@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
