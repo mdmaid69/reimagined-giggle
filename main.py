@@ -1,5 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_power(work, time):
-        return work / time
+name = "Python"
+print("Hello,", name)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
