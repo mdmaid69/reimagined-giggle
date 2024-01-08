@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import getpass
-def get_username():
-        return getpass.getuser()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
