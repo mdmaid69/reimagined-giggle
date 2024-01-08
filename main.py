@@ -1,6 +1,6 @@
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
   import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
