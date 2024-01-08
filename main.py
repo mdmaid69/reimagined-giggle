@@ -1,7 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
