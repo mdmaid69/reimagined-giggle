@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def add_numbers(a, b):
+        return a + b
