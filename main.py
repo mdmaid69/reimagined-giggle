@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def cube_number(x):
-        return x**3
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_work(force, distance):
+        return force * distance
