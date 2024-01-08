@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def is_even(n):
-        return n % 2 == 0
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
