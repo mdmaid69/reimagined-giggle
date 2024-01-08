@@ -1,6 +1,12 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import math
+def calculate_exponential(x):
+        return math.exp(x)
