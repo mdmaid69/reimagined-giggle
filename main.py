@@ -1,6 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import sys
-def exit_program():
-        sys.exit()
+def pop_from_array(array, i=-1):
+        return array.pop(i)
