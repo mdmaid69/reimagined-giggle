@@ -1,6 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-print([x**2 for x in range(10)])
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
