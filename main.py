@@ -1,6 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
