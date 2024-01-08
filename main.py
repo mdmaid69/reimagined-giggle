@@ -1,5 +1,7 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
