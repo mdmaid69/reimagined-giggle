@@ -1,6 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
