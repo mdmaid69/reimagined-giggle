@@ -1,6 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
