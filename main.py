@@ -1,8 +1,10 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
