@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_speed(distance, time):
+        return distance / time
+x = 10
+y = 20
+print("Sum:", x + y)
