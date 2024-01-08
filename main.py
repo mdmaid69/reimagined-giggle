@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
