@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  def add_numbers(x, y):
+        return x + y
