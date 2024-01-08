@@ -1,6 +1,8 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
