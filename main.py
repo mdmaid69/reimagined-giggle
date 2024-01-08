@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
