@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_volume(length, width, height):
+        return length * width * height
