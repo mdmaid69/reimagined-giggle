@@ -1,5 +1,7 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
