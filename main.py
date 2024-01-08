@@ -1,5 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
