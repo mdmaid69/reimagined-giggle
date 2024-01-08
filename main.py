@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def check_if_array_contains_item(array, item):
+        return item in array
