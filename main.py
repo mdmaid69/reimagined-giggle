@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
