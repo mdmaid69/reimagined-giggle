@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
