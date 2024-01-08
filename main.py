@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import logging
-def log_message(message):
-        logging.info(message)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import sys
+print(sys.version)
