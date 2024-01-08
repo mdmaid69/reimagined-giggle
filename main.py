@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_work(force, distance):
+        return force * distance
