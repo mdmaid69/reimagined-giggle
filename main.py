@@ -1,6 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
