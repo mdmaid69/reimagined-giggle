@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
