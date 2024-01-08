@@ -1,4 +1,3 @@
-print([x**2 for x in range(10)])
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def square_number(x):
+        return x**2
+for i in range(10): print(i)
