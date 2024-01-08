@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
