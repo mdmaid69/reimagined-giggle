@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import sys
-def exit_program():
-        sys.exit()
+import time
+print(time.time())
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
