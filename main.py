@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
