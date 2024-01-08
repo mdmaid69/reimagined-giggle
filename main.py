@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_power(work, time):
-        return work / time
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
