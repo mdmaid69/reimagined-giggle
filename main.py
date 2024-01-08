@@ -1,3 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-print([x**2 for x in range(10)])
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
