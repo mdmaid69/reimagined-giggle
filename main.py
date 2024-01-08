@@ -1,4 +1,10 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
