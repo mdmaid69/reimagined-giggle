@@ -1,6 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_gamma_function(x):
+        return math.gamma(x)
