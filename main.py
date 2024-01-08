@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
