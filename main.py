@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
