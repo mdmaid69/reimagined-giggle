@@ -1,5 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def square_number(x):
+        return x**2
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
