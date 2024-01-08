@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_error_function(x):
+        return math.erf(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
