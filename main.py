@@ -1,6 +1,5 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def clear_array(array):
+        array *= 0
+  def remove_duplicates(lst):
+        return list(set(lst))
