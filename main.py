@@ -1,8 +1,4 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
