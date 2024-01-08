@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  def convert_to_hex(n):
-        return hex(n)
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
