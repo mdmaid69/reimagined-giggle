@@ -1,8 +1,5 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_length(array):
+        return len(array)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
