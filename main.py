@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def find_min(lst):
-        return min(lst)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
