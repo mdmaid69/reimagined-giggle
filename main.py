@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import collections
+def create_user_list():
+        return collections.UserList()
