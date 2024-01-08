@@ -1,5 +1,7 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
