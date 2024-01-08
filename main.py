@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
