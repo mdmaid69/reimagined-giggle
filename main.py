@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
