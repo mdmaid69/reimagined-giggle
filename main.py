@@ -1,5 +1,5 @@
-def cube_number(x):
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def cube_number(x):
         return x**3
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
