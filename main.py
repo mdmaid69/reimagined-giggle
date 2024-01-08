@@ -1,6 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
