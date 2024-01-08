@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+print("Hello, world!")
