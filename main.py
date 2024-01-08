@@ -1,5 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def calculate_volume(length, width, height):
+        return length * width * height
+from collections import Counter
+print(Counter("hello world"))
