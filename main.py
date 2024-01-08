@@ -1,7 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_item(array, i):
+        return array[i]
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
