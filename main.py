@@ -1,6 +1,6 @@
 import array
-def get_array_item(array, i):
-        return array[i]
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def get_current_working_directory():
+        return os.getcwd()
