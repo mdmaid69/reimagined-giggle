@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import time
-def get_current_time():
-        return time.time()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
