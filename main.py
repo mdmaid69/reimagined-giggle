@@ -1,5 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+for i in range(10): print(i)
