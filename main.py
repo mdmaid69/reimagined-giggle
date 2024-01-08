@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
