@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def reverse_array(array):
+        array.reverse()
