@@ -1,6 +1,3 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_density(mass, volume):
+        return mass / volume
+print(sum(range(10)))
