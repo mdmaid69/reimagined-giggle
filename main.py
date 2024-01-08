@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import numpy as np
+print(np.array([1, 2, 3]))
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
