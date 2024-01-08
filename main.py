@@ -1,4 +1,4 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-def calculate_acceleration(speed, time):
-        return speed / time
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def is_even(n):
+        return n % 2 == 0
