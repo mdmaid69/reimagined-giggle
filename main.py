@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+name = "Python"
+print("Hello,", name)
