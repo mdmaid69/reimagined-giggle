@@ -1,5 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import random
-print(random.randint(0, 100))
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_pressure(force, area):
+        return force / area
