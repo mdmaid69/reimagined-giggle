@@ -1,5 +1,8 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
