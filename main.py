@@ -1,5 +1,8 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
