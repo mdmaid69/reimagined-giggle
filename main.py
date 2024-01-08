@@ -1,6 +1,5 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
