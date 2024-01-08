@@ -1,5 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import tensorflow as tf
+print(tf.__version__)
