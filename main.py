@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
