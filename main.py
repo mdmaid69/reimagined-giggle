@@ -1,5 +1,6 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import array
-def get_array_as_int(array):
-        return int(array[0])
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def get_array_item_count(array, item):
+        return array.count(item)
