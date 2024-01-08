@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_speed(distance, time):
+        return distance / time
+def convert_to_hex(n):
+        return hex(n)
