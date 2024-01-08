@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def append_to_array(array, item):
+        array.append(item)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
