@@ -1,5 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
