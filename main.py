@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
 import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
