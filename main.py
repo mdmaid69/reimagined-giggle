@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import numpy as np
+print(np.array([1, 2, 3]))
