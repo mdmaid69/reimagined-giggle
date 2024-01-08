@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import collections
-def create_stack():
-        return collections.deque()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
