@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import re
-print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import datetime
+print(datetime.datetime.now())
