@@ -1,5 +1,6 @@
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-  def cube_number(x):
-        return x**3
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
