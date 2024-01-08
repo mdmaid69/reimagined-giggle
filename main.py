@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
