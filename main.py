@@ -1,6 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
