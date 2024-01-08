@@ -1,5 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
