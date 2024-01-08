@@ -1,5 +1,6 @@
-import time
-print(time.time())
+import array
+def get_array_as_list(array):
+        return list(array)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
