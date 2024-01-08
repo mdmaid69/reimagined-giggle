@@ -1,5 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def calculate_area_rectangle(l, w):
-        return l * w
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+text = "Hello, world!"
+print("Uppercase:", text.upper())
