@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
