@@ -1,5 +1,8 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
