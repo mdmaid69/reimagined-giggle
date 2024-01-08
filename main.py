@@ -1,6 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import sys
-  def get_python_version():
-        return sys.version
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
