@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
