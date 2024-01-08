@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
