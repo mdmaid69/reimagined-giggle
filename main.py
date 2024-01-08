@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def reverse_string(s):
-        return s[::-1]
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
