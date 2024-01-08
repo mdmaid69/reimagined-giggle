@@ -1,8 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
