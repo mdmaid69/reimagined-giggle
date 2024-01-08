@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
