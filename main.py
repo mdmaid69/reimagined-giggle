@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_array_as_set(array):
+        return set(array)
