@@ -1,6 +1,8 @@
-import array
-def get_array_item(array, i):
-        return array[i]
 import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
