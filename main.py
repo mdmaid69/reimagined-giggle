@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
