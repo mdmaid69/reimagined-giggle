@@ -1,7 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import platform
+def get_python_version():
+        return platform.python_version()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
