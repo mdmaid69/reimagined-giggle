@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def clear_array(array):
+        array *= 0
