@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
