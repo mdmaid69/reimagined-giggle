@@ -1,5 +1,7 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
