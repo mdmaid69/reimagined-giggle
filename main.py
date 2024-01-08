@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def get_array_itemsize(array):
+        return array.itemsize
