@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  def cube_number(x):
+        return x**3
