@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def get_array_as_float(array):
+        return float(array[0])
