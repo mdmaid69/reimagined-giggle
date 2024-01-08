@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
