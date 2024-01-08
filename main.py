@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import os
+print(os.getcwd())
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
