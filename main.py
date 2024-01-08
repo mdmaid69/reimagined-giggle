@@ -1,5 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import random
-print(random.randint(0, 100))
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import time
+def get_time_since_epoch():
+        return time.time()
