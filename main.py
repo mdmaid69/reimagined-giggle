@@ -1,5 +1,7 @@
-  def count_elements(lst):
-        return len(lst)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
