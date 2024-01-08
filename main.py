@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import array
+def get_array_as_list(array):
+        return list(array)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
