@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
