@@ -1,5 +1,9 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
