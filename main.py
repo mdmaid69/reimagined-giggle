@@ -1,10 +1,8 @@
-  def convert_to_octal(n):
-        return oct(n)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
