@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  def subtract_numbers(x, y):
-        return x - y
+def add_numbers(x, y):
+        return x + y
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
