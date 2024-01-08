@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
