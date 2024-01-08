@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def find_max(numbers):
+        return max(numbers)
