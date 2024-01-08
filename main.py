@@ -1,6 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def convert_to_octal(n):
+        return oct(n)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
