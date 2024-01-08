@@ -1,6 +1,7 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
