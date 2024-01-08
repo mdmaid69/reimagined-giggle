@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
