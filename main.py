@@ -1,4 +1,6 @@
-print(sum(range(10)))
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
