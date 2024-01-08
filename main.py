@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def find_min(numbers):
+        return min(numbers)
