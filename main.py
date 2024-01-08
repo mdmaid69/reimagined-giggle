@@ -1,8 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
