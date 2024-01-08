@@ -1,8 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
