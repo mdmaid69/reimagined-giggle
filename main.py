@@ -1,6 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
