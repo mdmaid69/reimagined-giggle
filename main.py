@@ -1,5 +1,5 @@
 n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+print("Powers of 2:", [2**x for x in range(n)])
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
