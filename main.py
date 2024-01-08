@@ -1,5 +1,7 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
