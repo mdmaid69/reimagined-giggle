@@ -1,7 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_as_str(array):
+        return str(array)
