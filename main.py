@@ -1,6 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
