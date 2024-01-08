@@ -1,7 +1,5 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
