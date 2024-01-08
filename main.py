@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def get_array_as_list(array):
+        return list(array)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
