@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
