@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_work(force, distance):
-        return force * distance
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
