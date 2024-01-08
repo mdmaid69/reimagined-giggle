@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def calculate_speed(distance, time):
+        return distance / time
