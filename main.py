@@ -1,6 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_area_circle(r):
+        return 3.14 * r**2
