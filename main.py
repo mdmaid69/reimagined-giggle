@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
