@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
