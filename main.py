@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_error_function(x):
+        return math.erf(x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
