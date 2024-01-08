@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def count_words(sentence):
+        return len(sentence.split())
+import collections
+def create_priority_queue():
+        return collections.deque()
