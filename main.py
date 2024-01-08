@@ -1,5 +1,9 @@
-def is_palindrome(s):
-        return s == s[::-1]
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
