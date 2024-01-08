@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
   import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
