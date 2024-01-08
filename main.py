@@ -1,6 +1,6 @@
+import os
+def get_current_working_directory():
+        return os.getcwd()
 import array
-def append_to_array(array, item):
-        array.append(item)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def get_bytes_from_array(array):
+        return array.tobytes()
