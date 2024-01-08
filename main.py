@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
