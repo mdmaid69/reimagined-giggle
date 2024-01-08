@@ -1,5 +1,7 @@
-def subtract_numbers(x, y):
-        return x - y
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
