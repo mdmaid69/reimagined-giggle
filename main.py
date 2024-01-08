@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_sine(x):
+        return math.sin(x)
