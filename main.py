@@ -1,5 +1,10 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import getpass
-def get_username():
-        return getpass.getuser()
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
