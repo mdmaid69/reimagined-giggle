@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
