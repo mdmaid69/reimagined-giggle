@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
