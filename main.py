@@ -1,5 +1,5 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-def is_even(n):
-        return n % 2 == 0
+def append_to_array(array, item):
+        array.append(item)
+  def convert_to_octal(n):
+        return oct(n)
