@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def convert_to_hex(n):
+        return hex(n)
