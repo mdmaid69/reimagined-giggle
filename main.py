@@ -1,6 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
