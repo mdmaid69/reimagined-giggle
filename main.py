@@ -1,6 +1,5 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
