@@ -1,6 +1,9 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
