@@ -1,6 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def get_current_working_directory():
+        return os.getcwd()
+def convert_to_octal(n):
+        return oct(n)
