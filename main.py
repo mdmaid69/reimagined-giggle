@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
