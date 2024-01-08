@@ -1,6 +1,5 @@
-for i in range(10): print(i)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
