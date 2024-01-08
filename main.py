@@ -1,4 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-print("Hello, world!")
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
