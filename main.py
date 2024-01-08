@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
