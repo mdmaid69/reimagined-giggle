@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
