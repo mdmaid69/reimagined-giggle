@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
