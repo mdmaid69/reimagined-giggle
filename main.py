@@ -1,5 +1,10 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+print([x**2 for x in range(10)])
