@@ -1,3 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-print([x**2 for x in range(10)])
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
