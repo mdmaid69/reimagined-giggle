@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import platform
-def get_os_info():
-        return platform.uname()
+  def is_odd(n):
+        return n % 2 != 0
+import time
+def get_current_time():
+        return time.time()
