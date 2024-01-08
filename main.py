@@ -1,4 +1,8 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
