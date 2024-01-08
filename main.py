@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def find_min(lst):
-        return min(lst)
+  def is_odd(n):
+        return n % 2 != 0
+i = 0
+while i < 5:
+        print(i)
+        i += 1
