@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
