@@ -1,7 +1,6 @@
-def square_number(x):
-        return x**2
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import time
+def get_current_time():
+        return time.time()
