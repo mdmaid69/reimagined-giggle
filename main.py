@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  def multiply_numbers(x, y):
+        return x * y
