@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
