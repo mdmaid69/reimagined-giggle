@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
