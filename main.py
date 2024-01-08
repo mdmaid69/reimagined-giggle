@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
