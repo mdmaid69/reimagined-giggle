@@ -1,5 +1,7 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
