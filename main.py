@@ -1,5 +1,8 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
