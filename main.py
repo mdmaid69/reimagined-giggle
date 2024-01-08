@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import sys
+def print_python_version():
+        print(sys.version)
