@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
