@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
