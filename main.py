@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
