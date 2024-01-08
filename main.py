@@ -1,5 +1,8 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
