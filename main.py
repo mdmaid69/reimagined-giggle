@@ -1,4 +1,5 @@
-name = "Python"
-print("Hello,", name)
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_power(work, time):
+        return work / time
