@@ -1,4 +1,7 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def find_max(numbers):
-        return max(numbers)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
