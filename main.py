@@ -1,4 +1,4 @@
-for i in range(10): print(i)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
