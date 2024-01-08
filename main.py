@@ -1,6 +1,9 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_current_directory():
+        return os.getcwd()
