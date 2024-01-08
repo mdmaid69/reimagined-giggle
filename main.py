@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
