@@ -1,5 +1,8 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
