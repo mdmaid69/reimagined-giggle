@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def cube_number(x):
+        return x**3
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
