@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+for i in range(5):
+        print(i)
