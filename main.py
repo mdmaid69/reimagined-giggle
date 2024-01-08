@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import sys
-  def get_python_version():
-        return sys.version
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import os
+def get_current_working_directory():
+        return os.getcwd()
