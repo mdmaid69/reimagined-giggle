@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
