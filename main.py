@@ -1,5 +1,6 @@
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def get_directory_name(path):
+        return os.path.dirname(path)
