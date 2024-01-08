@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def multiply_numbers(x, y):
-        return x * y
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
