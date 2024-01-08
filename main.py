@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import sys
+def exit_program():
+        sys.exit()
