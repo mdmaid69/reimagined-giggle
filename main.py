@@ -1,6 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
