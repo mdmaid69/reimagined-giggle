@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import sys
-def print_python_version():
-        print(sys.version)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
