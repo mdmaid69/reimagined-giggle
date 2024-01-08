@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_work(force, distance):
+        return force * distance
