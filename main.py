@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
