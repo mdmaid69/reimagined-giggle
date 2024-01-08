@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
