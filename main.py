@@ -1,4 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-for i in range(10): print(i)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import json
+print(json.dumps({"name": "John", "age": 30}))
