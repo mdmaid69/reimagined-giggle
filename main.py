@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
