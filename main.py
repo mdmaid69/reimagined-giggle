@@ -1,11 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
