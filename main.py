@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
