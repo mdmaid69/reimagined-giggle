@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def cube_number(x):
+        return x**3
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
