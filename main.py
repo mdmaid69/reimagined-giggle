@@ -1,4 +1,8 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def find_min(lst):
-        return min(lst)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
