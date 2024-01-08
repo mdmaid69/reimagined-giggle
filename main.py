@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
