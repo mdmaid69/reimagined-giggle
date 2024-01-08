@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import re
-print(re.match("h.*o", "hello world"))
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def calculate_pressure(force, area):
+        return force / area
