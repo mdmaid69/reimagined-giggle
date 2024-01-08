@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import re
-print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
