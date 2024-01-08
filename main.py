@@ -1,6 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
