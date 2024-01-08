@@ -1,4 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def is_odd(n):
+        return n % 2 != 0
+def find_max(numbers):
+        return max(numbers)
