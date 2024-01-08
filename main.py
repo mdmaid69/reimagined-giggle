@@ -1,6 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
