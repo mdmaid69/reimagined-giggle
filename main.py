@@ -1,6 +1,7 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
