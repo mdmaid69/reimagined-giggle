@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
