@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import platform
+def get_os_info():
+        return platform.uname()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
