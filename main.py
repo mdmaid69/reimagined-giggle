@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
