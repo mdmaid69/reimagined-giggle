@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import sys
+def print_python_version():
+        print(sys.version)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
