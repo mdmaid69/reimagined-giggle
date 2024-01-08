@@ -1,5 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
