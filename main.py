@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
