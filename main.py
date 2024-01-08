@@ -1,6 +1,12 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
