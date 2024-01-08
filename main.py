@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import random
-print(random.randint(0, 100))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
