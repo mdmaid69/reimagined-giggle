@@ -1,6 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def add_numbers(x, y):
+        return x + y
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
