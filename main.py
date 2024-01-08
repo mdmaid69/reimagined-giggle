@@ -1,5 +1,6 @@
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_arc_sine(x):
+        return math.asin(x)
