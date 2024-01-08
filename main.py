@@ -1,7 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import sys
+def exit_program():
+        sys.exit()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
