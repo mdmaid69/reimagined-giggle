@@ -1,6 +1,3 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+print("Hello, world!")
+  def convert_to_octal(n):
+        return oct(n)
