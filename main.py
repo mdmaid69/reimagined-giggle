@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  def is_even(n):
+        return n % 2 == 0
