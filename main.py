@@ -1,6 +1,5 @@
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
