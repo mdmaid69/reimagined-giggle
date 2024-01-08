@@ -1,5 +1,4 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def find_min(lst):
+        return min(lst)
