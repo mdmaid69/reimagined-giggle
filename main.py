@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
