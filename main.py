@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
