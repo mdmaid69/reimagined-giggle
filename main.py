@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_area_circle(r):
+        return 3.14 * r**2
