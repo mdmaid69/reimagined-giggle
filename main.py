@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_work(force, distance):
-        return force * distance
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
