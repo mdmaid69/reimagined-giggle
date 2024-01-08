@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
