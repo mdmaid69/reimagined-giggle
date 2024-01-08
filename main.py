@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
