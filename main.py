@@ -1,6 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def count_characters(sentence):
+        return len(sentence)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
