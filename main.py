@@ -1,8 +1,4 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import random
+print(random.randint(0, 100))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
