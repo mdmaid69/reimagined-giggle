@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
