@@ -1,5 +1,6 @@
 import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
