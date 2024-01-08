@@ -1,5 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def find_min(numbers):
+        return min(numbers)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
