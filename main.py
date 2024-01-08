@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
