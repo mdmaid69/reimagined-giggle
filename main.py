@@ -1,6 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
