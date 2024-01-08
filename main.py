@@ -1,6 +1,8 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
