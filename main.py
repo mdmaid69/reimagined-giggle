@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
