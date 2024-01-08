@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
