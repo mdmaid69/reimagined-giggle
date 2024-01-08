@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
