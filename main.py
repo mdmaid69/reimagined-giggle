@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_density(mass, volume):
-        return mass / volume
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
