@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
