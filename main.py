@@ -1,6 +1,7 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import platform
-def get_os_info():
-        return platform.uname()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
