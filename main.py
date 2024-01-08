@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def is_odd(n):
-        return n % 2 != 0
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
