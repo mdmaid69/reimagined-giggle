@@ -1,6 +1,8 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
