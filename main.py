@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
