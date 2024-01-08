@@ -1,5 +1,5 @@
 import collections
-def create_user_string():
-        return collections.UserString()
-import os
-print(os.getcwd())
+def create_user_dict():
+        return collections.UserDict()
+  def is_even(n):
+        return n % 2 == 0
