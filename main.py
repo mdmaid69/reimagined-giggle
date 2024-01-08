@@ -1,7 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import collections
+def create_user_dict():
+        return collections.UserDict()
