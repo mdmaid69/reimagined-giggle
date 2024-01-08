@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
