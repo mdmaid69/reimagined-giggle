@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
