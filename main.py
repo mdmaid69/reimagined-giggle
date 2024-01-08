@@ -1,5 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def multiply_numbers(x, y):
+        return x * y
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
