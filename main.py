@@ -1,8 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
