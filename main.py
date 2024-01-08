@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
