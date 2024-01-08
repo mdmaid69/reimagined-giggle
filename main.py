@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
