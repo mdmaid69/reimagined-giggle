@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_speed(distance, time):
-        return distance / time
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_cosine(x):
+        return math.cos(x)
