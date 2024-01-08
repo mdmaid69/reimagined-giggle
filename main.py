@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
