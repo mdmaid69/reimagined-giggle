@@ -1,5 +1,7 @@
-  def convert_to_binary(n):
-        return bin(n)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
