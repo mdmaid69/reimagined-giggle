@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
