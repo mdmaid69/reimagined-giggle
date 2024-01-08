@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def reverse_list(lst):
+        return lst[::-1]
