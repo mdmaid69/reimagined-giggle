@@ -1,7 +1,8 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
