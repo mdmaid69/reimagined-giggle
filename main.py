@@ -1,5 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def count_elements(lst):
-        return len(lst)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import sys
+def print_python_version():
+        return sys.version
