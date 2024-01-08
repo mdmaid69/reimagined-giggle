@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
