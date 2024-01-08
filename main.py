@@ -1,6 +1,7 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
