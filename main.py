@@ -1,5 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  def sort_list(lst):
-        return sorted(lst)
+def is_palindrome(s):
+        return s == s[::-1]
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
