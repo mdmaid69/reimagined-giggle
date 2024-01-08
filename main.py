@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def add_numbers(x, y):
+        return x + y
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
