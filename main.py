@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import re
-print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
