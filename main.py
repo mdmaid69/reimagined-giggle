@@ -1,6 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import collections
-def create_user_list():
-        return collections.UserList()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
