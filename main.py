@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_as_float(array):
+        return float(array[0])
