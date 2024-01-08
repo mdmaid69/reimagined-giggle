@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
