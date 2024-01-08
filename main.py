@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
