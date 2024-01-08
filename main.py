@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
