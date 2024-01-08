@@ -1,6 +1,7 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
