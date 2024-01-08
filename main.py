@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def find_min(lst):
-        return min(lst)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import time
+def get_current_time():
+        return time.ctime()
