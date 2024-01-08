@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import platform
+def get_os_info():
+        return platform.uname()
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
