@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def split_path(path):
+        return os.path.split(path)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
