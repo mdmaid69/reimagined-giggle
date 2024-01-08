@@ -1,5 +1,6 @@
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
