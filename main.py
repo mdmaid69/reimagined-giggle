@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-def cube_number(x):
-        return x**3
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
