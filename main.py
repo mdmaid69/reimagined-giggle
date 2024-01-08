@@ -1,6 +1,7 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
