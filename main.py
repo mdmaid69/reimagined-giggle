@@ -1,8 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
