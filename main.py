@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
