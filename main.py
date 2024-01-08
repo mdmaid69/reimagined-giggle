@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
