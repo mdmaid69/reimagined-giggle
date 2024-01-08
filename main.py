@@ -1,4 +1,7 @@
-def count_elements(lst):
-        return len(lst)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def reverse_array(array):
+        array.reverse()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
