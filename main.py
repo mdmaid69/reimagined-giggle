@@ -1,7 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def is_odd(n):
+        return n % 2 != 0
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
