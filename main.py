@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-  import sys
-  def get_python_version():
-        return sys.version
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def reverse_string(s):
+        return s[::-1]
