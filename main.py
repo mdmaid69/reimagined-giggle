@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def clear_array(array):
+        array *= 0
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
