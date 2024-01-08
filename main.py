@@ -1,6 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  def cube_number(x):
+        return x**3
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
