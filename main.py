@@ -1,4 +1,6 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-print([x**2 for x in range(10)])
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
