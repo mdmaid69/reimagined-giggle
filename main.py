@@ -1,6 +1,6 @@
+import array
+def reverse_array(array):
+        array.reverse()
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
