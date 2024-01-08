@@ -1,5 +1,6 @@
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def convert_to_binary(n):
-        return bin(n)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
