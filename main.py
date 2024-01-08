@@ -1,5 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import tensorflow as tf
-print(tf.__version__)
+def convert_to_binary(n):
+        return bin(n)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
