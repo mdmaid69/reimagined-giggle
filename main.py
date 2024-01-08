@@ -1,5 +1,10 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
