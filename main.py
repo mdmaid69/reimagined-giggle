@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
