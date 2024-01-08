@@ -1,5 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def add_numbers(x, y):
-        return x + y
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import time
+print(time.time())
