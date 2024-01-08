@@ -1,7 +1,7 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def get_array_as_set(array):
+        return set(array)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
