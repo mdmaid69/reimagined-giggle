@@ -1,6 +1,6 @@
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
