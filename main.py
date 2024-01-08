@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-text = "Hello, world!"
-print("Characters:", len(text))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
