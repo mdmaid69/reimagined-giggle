@@ -1,5 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
