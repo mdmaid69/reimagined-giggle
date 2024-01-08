@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
