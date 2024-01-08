@@ -1,4 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import sys
-print(sys.version)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
