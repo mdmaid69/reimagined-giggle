@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
