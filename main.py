@@ -1,7 +1,5 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
