@@ -1,5 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
