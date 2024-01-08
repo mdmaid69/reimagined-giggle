@@ -1,6 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+print([x**2 for x in range(10)])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
