@@ -1,7 +1,3 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+for i in range(10): print(i)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
