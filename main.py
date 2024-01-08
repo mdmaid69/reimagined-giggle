@@ -1,6 +1,7 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
