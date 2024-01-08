@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import sys
-def print_python_version():
-        print(sys.version)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
