@@ -1,6 +1,6 @@
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
