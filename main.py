@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
