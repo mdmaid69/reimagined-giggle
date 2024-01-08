@@ -1,4 +1,4 @@
-import re
-print(re.match("h.*o", "hello world"))
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def square_number(x):
+        return x**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
