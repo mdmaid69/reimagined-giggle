@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
