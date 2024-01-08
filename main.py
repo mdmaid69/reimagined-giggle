@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def is_even(n):
+        return n % 2 == 0
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
