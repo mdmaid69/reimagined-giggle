@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
