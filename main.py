@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def reverse_list(lst):
+        return lst[::-1]
+def convert_to_binary(n):
+        return bin(n)
