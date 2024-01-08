@@ -1,5 +1,4 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_work(force, distance):
+        return force * distance
+def count_words(sentence):
+        return len(sentence.split())
