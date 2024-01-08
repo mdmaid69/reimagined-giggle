@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import random
+print(random.randint(0, 100))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
