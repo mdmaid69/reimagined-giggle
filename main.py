@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
