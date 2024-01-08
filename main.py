@@ -1,7 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
