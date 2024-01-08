@@ -1,5 +1,4 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-def convert_to_hex(n):
-        return hex(n)
+def convert_to_octal(n):
+        return oct(n)
+def calculate_speed(distance, time):
+        return distance / time
