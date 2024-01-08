@@ -1,4 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
