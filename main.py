@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
