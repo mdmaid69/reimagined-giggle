@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
