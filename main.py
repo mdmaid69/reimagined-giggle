@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-x = 10
-y = 20
-print("Sum:", x + y)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_area_rectangle(l, w):
+        return l * w
