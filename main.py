@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
