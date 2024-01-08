@@ -1,5 +1,7 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
