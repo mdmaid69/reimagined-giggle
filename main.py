@@ -1,4 +1,6 @@
-name = "Python"
-print("Hello,", name)
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
