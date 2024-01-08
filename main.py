@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_power(work, time):
+        return work / time
