@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
