@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
