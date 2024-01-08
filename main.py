@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
