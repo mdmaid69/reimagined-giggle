@@ -1,7 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_density(mass, volume):
+        return mass / volume
