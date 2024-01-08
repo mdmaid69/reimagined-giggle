@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import collections
-def create_user_dict():
-        return collections.UserDict()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
