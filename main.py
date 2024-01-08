@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def extend_array(array, iterable):
+        array.extend(iterable)
