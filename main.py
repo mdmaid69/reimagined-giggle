@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
