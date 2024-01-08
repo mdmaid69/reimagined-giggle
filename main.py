@@ -1,5 +1,7 @@
-  def convert_to_hex(n):
-        return hex(n)
-import time
-def get_current_time():
-        return time.time()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
