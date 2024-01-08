@@ -1,5 +1,5 @@
 import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  def convert_to_hex(n):
-        return hex(n)
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
