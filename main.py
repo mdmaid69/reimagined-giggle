@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def is_even(n):
+        return n % 2 == 0
