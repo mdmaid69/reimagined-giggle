@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  def cube_number(x):
+        return x**3
