@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_density(mass, volume):
+        return mass / volume
