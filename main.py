@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def greet(name):
-        print(f"Hello, {name}!")
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
