@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import sys
+def exit_program():
+        sys.exit()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
