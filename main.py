@@ -1,4 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-for i in range(10): print(i)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def reverse_array(array):
+        array.reverse()
