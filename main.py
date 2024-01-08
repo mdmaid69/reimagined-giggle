@@ -1,7 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
