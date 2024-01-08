@@ -1,8 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
