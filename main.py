@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import time
+def get_time_since_epoch():
+        return time.time()
