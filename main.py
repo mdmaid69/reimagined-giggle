@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def remove_duplicates(lst):
+        return list(set(lst))
