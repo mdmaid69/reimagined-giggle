@@ -1,5 +1,3 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+print([x**2 for x in range(10)])
