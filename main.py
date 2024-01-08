@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import time
+def get_current_time():
+        return time.time()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
