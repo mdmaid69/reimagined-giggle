@@ -1,5 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
