@@ -1,6 +1,7 @@
-import math
-print(math.pi)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
