@@ -1,9 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
