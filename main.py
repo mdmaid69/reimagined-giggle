@@ -1,4 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
