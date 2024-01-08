@@ -1,6 +1,5 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
