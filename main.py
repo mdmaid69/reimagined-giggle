@@ -1,7 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import numpy as np
+print(np.array([1, 2, 3]))
