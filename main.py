@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import collections
-def create_counter():
-        return collections.Counter()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
