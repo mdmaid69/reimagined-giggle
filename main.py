@@ -1,5 +1,6 @@
+import math
+def calculate_exponential(x):
+        return math.exp(x)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
