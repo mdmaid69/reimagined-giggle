@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
