@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  def calculate_area_rectangle(l, w):
-        return l * w
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
