@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_as_int(array):
+        return int(array[0])
