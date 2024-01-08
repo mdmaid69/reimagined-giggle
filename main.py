@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
