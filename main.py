@@ -1,5 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import array
+def remove_from_array(array, item):
+        array.remove(item)
