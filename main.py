@@ -1,4 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_pressure(force, area):
-        return force / area
+def sort_list(lst):
+        return sorted(lst)
+  def add_numbers(x, y):
+        return x + y
