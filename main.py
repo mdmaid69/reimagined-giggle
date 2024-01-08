@@ -1,6 +1,4 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
