@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def square_number(x):
+        return x**2
+import os
+def change_working_directory(path):
+        os.chdir(path)
