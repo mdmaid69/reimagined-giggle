@@ -1,4 +1,7 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_pressure(force, area):
-        return force / area
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
