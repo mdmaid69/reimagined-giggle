@@ -1,6 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_perpetuity(payment, rate):
+        return payment / rate
