@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def sort_list(lst):
+        return sorted(lst)
