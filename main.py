@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
