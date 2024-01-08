@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import collections
+def create_user_string():
+        return collections.UserString()
+def is_even(n):
+        return n % 2 == 0
