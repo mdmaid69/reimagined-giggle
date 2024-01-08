@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-from collections import Counter
-print(Counter("hello world"))
+def sort_list(lst):
+        return sorted(lst)
+import logging
+def log_message(message):
+        logging.info(message)
