@@ -1,6 +1,4 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
