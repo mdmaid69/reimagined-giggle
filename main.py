@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_string_from_array(array):
+        return array.tobytes()
