@@ -1,5 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
