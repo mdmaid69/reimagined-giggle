@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
