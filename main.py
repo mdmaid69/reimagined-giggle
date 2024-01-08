@@ -1,6 +1,7 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
