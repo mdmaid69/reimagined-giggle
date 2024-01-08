@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-def convert_to_hex(n):
-        return hex(n)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
