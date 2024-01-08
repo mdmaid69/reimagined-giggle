@@ -1,5 +1,8 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
