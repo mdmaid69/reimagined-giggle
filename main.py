@@ -1,5 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def reverse_string(s):
-        return s[::-1]
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import getpass
+def get_username():
+        return getpass.getuser()
