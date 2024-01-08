@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
