@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def sort_list(lst):
+        return sorted(lst)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
