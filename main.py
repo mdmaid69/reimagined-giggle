@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
