@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import datetime
-print(datetime.datetime.now())
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
