@@ -1,5 +1,8 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def count_elements(lst):
-        return len(lst)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
