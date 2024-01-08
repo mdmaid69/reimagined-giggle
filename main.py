@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
