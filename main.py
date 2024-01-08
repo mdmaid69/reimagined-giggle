@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
