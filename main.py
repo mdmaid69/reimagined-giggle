@@ -1,5 +1,9 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import os
-print(os.getcwd())
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
