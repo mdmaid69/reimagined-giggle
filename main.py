@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
