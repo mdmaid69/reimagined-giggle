@@ -1,8 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import time
+def get_current_time():
+        return time.time()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
