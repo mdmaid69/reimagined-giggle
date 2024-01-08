@@ -1,6 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
