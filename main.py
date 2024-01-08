@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
