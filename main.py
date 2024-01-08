@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def remove_duplicates(lst):
+        return list(set(lst))
