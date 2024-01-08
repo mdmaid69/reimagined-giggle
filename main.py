@@ -1,8 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
