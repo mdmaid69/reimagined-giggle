@@ -1,6 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
