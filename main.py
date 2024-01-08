@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
