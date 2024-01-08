@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+from collections import Counter
+print(Counter("hello world"))
+import sys
+def exit_program():
+        sys.exit()
