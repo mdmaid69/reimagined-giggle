@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def reverse_array(array):
+        array.reverse()
