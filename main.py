@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def calculate_area_rectangle(l, w):
+        return l * w
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
