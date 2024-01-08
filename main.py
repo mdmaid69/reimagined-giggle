@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-def calculate_pressure(force, area):
-        return force / area
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
