@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import time
+def get_time_since_epoch():
+        return time.time()
+  def multiply_numbers(x, y):
+        return x * y
