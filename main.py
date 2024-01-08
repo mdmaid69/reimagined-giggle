@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  import sys
-  def get_python_version():
-        return sys.version
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def reverse_array(array):
+        array.reverse()
