@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
