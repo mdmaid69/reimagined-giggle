@@ -1,6 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
