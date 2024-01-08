@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
