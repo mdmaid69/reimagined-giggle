@@ -1,5 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_power(work, time):
+        return work / time
