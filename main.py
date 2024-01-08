@@ -1,7 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
