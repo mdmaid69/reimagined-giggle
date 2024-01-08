@@ -1,5 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_speed(distance, time):
-        return distance / time
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
