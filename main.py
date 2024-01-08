@@ -1,8 +1,5 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_area_rectangle(l, w):
+        return l * w
