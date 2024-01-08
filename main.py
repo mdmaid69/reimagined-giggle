@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
