@@ -1,5 +1,8 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
