@@ -1,4 +1,7 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
