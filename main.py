@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
