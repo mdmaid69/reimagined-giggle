@@ -1,5 +1,10 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
