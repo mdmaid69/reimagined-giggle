@@ -1,5 +1,6 @@
+import collections
+def create_queue():
+        return collections.deque()
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
