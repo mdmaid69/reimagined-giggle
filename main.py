@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
