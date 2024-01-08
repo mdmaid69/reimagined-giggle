@@ -1,6 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def convert_array_to_bytes(array):
+        return array.tobytes()
