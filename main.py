@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import collections
+def create_user_string():
+        return collections.UserString()
+def find_min(lst):
+        return min(lst)
