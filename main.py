@@ -1,5 +1,7 @@
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def iterate_over_array(array):
+        for item in array:
+        print(item)
