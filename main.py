@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
