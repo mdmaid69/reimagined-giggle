@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def split_path(path):
+        return os.path.split(path)
