@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
