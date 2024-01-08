@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def reverse_string(s):
+        return s[::-1]
