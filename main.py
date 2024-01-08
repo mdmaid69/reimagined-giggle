@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-name = "Python"
-print("Hello,", name)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def reverse_list(lst):
+        return lst[::-1]
