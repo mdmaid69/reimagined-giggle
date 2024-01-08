@@ -1,8 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
