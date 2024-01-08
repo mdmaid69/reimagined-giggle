@@ -1,6 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def greet(name):
+        print(f"Hello, {name}!")
+  def remove_duplicates(lst):
+        return list(set(lst))
