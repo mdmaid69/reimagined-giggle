@@ -1,6 +1,6 @@
+x = 10
+y = 20
+print("Sum:", x + y)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import time
-def get_current_time():
-        return time.time()
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
