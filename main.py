@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def greet(name):
-        print(f"Hello, {name}!")
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
