@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def sort_list(lst):
+        return sorted(lst)
