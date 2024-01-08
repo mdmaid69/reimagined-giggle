@@ -1,8 +1,8 @@
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import array
-def clear_array(array):
-        array *= 0
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
