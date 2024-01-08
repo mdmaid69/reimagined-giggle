@@ -1,5 +1,5 @@
+from collections import Counter
+print(Counter("hello world"))
   import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def get_base_name(path):
+        return os.path.basename(path)
