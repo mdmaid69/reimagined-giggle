@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
