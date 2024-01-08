@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def convert_to_octal(n):
+        return oct(n)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
