@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
