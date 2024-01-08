@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import os
+def get_current_working_directory():
+        return os.getcwd()
