@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import random
-print(random.randint(0, 100))
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
