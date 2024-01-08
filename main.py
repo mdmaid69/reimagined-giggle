@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
