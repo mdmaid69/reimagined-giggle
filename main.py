@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
