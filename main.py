@@ -1,7 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
