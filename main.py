@@ -1,6 +1,8 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
