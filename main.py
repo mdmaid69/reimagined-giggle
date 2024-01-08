@@ -1,5 +1,6 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def find_min(numbers):
-        return min(numbers)
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
