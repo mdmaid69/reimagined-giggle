@@ -1,5 +1,6 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
