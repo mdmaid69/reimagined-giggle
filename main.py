@@ -1,6 +1,4 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+print([x**2 for x in range(10)])
