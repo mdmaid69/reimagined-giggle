@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_exponential(x):
+        return math.exp(x)
