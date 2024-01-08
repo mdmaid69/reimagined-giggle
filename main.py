@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
