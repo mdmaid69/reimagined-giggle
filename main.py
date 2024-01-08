@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  def sort_list(lst):
+        return sorted(lst)
