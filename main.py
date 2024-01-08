@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def convert_to_binary(n):
+        return bin(n)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
