@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
