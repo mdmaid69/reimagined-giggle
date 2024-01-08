@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_work(force, distance):
-        return force * distance
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
