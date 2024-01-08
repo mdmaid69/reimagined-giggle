@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def reverse_array(array):
+        array.reverse()
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
