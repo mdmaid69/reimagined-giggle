@@ -1,7 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
