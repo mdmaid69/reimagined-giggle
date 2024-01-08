@@ -1,9 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
