@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
