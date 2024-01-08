@@ -1,5 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def find_min(lst):
-        return min(lst)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+def calculate_area(radius):
+        return 3.14 * radius * radius
