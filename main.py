@@ -1,4 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import random
+print(random.randint(0, 100))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
