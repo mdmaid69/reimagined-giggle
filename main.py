@@ -1,6 +1,7 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
