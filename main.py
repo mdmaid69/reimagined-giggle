@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import os
+def remove_directory(path):
+        os.rmdir(path)
