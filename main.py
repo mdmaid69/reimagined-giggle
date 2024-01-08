@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def reverse_list(lst):
-        return lst[::-1]
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
