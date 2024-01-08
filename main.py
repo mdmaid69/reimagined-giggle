@@ -1,7 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_speed(distance, time):
+        return distance / time
+text = "Hello, world!"
+print("Uppercase:", text.upper())
