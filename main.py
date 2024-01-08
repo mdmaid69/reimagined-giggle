@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
