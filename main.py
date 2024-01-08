@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import platform
-def get_python_version():
-        return platform.python_version()
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def get_array_length(array):
+        return len(array)
