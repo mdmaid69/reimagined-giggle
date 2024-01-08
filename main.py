@@ -1,7 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
