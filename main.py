@@ -1,7 +1,6 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def calculate_density(mass, volume):
-        return mass / volume
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
