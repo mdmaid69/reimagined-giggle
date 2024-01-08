@@ -1,5 +1,4 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import collections
-def create_stack():
-        return collections.deque()
+  def subtract_numbers(x, y):
+        return x - y
+def is_odd(n):
+        return n % 2 != 0
