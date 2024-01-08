@@ -1,5 +1,6 @@
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
 import array
-def append_to_array(array, item):
-        array.append(item)
-import tensorflow as tf
-print(tf.__version__)
+def get_array_as_bytearray(array):
+        return bytearray(array)
