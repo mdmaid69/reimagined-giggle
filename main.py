@@ -1,4 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-  def sort_list(lst):
-        return sorted(lst)
+  def convert_to_binary(n):
+        return bin(n)
+def subtract_numbers(x, y):
+        return x - y
