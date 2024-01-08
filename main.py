@@ -1,6 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
