@@ -1,5 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def find_union(list1, list2):
+        return set(list1) | set(list2)
