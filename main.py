@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
