@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import collections
+def create_user_string():
+        return collections.UserString()
