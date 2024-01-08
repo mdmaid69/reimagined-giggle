@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import collections
-def create_counter():
-        return collections.Counter()
+import logging
+def log_message(message):
+        logging.info(message)
+print(sum(range(10)))
