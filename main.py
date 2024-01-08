@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def square_number(x):
+        return x**2
