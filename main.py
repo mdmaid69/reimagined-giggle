@@ -1,4 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-print([x**2 for x in range(10)])
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
