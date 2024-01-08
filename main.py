@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
