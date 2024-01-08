@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def square_number(x):
+        return x**2
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
