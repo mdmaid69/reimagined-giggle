@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  def count_elements(lst):
+        return len(lst)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_exponential(x):
+        return math.exp(x)
