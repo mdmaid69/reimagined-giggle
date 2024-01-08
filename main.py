@@ -1,11 +1,8 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import collections
+def create_queue():
+        return collections.deque()
