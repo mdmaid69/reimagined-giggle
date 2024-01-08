@@ -1,6 +1,4 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import collections
-def create_counter():
-        return collections.Counter()
+  def count_elements(lst):
+        return len(lst)
+def reverse_list(lst):
+        return lst[::-1]
