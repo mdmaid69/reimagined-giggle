@@ -1,5 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+x = 10
+y = 20
+print("Sum:", x + y)
