@@ -1,5 +1,7 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_as_str(array):
-        return str(array)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
