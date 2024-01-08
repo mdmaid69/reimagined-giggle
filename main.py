@@ -1,6 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_area_circle(r):
+        return 3.14 * r**2
