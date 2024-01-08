@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def find_max(lst):
+        return max(lst)
+def add_numbers(a, b):
+        return a + b
