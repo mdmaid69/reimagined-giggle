@@ -1,6 +1,8 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
