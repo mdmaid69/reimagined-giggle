@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
