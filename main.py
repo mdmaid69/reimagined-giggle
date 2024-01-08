@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def reverse_array(array):
-        array.reverse()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+name = "Python"
+print("Hello,", name)
