@@ -1,6 +1,7 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
