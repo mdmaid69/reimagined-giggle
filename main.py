@@ -1,7 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  def square_number(x):
+        return x**2
