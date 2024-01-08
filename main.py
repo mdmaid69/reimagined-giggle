@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
