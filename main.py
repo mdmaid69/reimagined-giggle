@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
