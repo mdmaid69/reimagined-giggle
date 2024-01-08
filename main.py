@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def square_number(x):
+        return x**2
+x = 10
+y = 20
+print("Sum:", x + y)
