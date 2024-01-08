@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
