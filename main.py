@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def append_to_array(array, item):
+        array.append(item)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_error_function(x):
+        return math.erf(x)
