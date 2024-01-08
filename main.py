@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
