@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
