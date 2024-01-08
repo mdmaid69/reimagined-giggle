@@ -1,5 +1,7 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import re
-print(re.match("h.*o", "hello world"))
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
