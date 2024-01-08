@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def get_array_length(array):
+        return len(array)
