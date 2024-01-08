@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
