@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
