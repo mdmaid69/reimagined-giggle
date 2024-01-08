@@ -1,4 +1,8 @@
-def count_elements(lst):
-        return len(lst)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
