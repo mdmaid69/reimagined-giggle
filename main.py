@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+for i in range(5):
+        print(i)
