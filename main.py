@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import math
-print(math.pi)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+def calculate_speed(distance, time):
+        return distance / time
