@@ -1,5 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_speed(distance, time):
+        return distance / time
