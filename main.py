@@ -1,5 +1,7 @@
-def square_number(x):
-        return x**2
-import sys
-def print_python_version():
-        return sys.version
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_pressure(force, area):
+        return force / area
