@@ -1,4 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import datetime
-print(datetime.datetime.now())
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
