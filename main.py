@@ -1,4 +1,4 @@
-for i in range(10): print(i)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def multiply_numbers(x, y):
+        return x * y
+def sort_numbers(numbers):
+        return sorted(numbers)
