@@ -1,5 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def greet(name):
+        print(f"Hello, {name}!")
