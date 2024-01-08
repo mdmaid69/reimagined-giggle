@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
