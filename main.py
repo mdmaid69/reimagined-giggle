@@ -1,7 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_area_circle(r):
+        return 3.14 * r**2
