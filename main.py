@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
