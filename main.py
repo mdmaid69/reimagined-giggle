@@ -1,6 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
