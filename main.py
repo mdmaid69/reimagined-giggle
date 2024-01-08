@@ -1,4 +1,5 @@
-print(sum(range(10)))
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
