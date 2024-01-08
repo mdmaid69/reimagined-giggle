@@ -1,6 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def is_odd(n):
+        return n % 2 != 0
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
