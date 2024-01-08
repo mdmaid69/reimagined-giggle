@@ -1,5 +1,6 @@
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
