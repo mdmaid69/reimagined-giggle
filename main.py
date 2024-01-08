@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_slice(array, i, j):
+        return array[i:j]
