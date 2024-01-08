@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
