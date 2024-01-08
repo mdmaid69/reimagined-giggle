@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
