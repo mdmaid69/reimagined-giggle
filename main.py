@@ -1,6 +1,7 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def find_union(list1, list2):
+        return set(list1) | set(list2)
