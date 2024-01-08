@@ -1,9 +1,3 @@
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
-import time
-print(time.time())
+print([x**2 for x in range(10)])
+  def subtract_numbers(x, y):
+        return x - y
