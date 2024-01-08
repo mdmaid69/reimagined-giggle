@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
