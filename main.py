@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+text = "Hello, world!"
+print("Uppercase:", text.upper())
