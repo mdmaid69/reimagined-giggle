@@ -1,6 +1,5 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def remove_from_array(array, item):
+        array.remove(item)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
