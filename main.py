@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import collections
-def create_user_string():
-        return collections.UserString()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
