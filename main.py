@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_area_rectangle(l, w):
+        return l * w
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
