@@ -1,10 +1,4 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def reverse_string(s):
+        return s[::-1]
+def calculate_acceleration(speed, time):
+        return speed / time
