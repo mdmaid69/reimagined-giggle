@@ -1,6 +1,10 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
