@@ -1,4 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_work(force, distance):
+        return force * distance
+import json
+print(json.dumps({"name": "John", "age": 30}))
