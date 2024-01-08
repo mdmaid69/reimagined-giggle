@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import platform
-def get_python_version():
-        return platform.python_version()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import os
+print(os.getcwd())
