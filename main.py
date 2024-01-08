@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
