@@ -1,4 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
