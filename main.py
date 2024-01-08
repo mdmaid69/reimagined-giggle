@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import sys
+def print_python_version():
+        return sys.version
