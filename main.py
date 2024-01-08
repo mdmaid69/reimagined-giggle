@@ -1,3 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-for i in range(10): print(i)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
