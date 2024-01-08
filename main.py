@@ -1,5 +1,7 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
