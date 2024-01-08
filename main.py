@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
