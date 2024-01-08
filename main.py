@@ -1,4 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-print([x**2 for x in range(10)])
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
