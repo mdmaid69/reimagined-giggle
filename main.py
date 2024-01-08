@@ -1,4 +1,7 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
