@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
+def divide_numbers(x, y):
+        return x / y
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
