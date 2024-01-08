@@ -1,6 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  def subtract_numbers(x, y):
+        return x - y
