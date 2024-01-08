@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import json
+def convert_to_json(data):
+        return json.dumps(data)
