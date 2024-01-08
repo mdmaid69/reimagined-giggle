@@ -1,5 +1,5 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
