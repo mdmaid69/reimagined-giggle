@@ -1,5 +1,4 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def convert_to_binary(n):
-        return bin(n)
+def calculate_power(work, time):
+        return work / time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
