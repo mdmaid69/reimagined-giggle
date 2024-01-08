@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
