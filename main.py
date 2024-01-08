@@ -1,6 +1,4 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
