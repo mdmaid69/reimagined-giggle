@@ -1,5 +1,7 @@
-import numpy as np
-print(np.array([1, 2, 3]))
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
