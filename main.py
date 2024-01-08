@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def count_words(sentence):
+        return len(sentence.split())
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
