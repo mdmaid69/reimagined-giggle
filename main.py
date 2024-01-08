@@ -1,6 +1,5 @@
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-print(sum(range(10)))
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def reverse_array(array):
+        array.reverse()
