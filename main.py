@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def convert_to_binary(n):
+        return bin(n)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
