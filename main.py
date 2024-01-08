@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
