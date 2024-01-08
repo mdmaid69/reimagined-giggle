@@ -1,8 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
