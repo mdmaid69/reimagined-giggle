@@ -1,6 +1,7 @@
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def get_base_name(path):
+        return os.path.basename(path)
