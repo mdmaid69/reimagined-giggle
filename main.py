@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
