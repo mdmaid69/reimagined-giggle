@@ -1,13 +1,9 @@
-import queue
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+from flask import Flask
+app = Flask(__name__)
 
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+@app.route("/")
+def hello():
+        return "Hello, World!"
