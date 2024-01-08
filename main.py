@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import sys
-def exit_program():
-        sys.exit()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
