@@ -1,5 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def convert_to_binary(n):
-        return bin(n)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
