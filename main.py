@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import collections
+def create_user_list():
+        return collections.UserList()
