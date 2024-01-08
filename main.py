@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
