@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
