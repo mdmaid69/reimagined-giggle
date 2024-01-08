@@ -1,7 +1,7 @@
-def add_numbers(x, y):
-        return x + y
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
