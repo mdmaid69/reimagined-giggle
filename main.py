@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  def convert_to_hex(n):
+        return hex(n)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
