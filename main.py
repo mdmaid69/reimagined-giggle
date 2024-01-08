@@ -1,6 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
