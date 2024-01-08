@@ -1,5 +1,8 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def convert_to_octal(n):
-        return oct(n)
+def convert_array_to_list(array):
+        return array.tolist()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
