@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def square_number(x):
+        return x**2
