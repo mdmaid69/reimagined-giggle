@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  def multiply_numbers(x, y):
-        return x * y
+  def count_elements(lst):
+        return len(lst)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
