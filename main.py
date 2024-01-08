@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
