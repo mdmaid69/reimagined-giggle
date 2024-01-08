@@ -1,11 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
