@@ -1,4 +1,7 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+name = "Python"
+print("Hello,", name)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
