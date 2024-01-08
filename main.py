@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
