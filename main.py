@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def find_max(numbers):
-        return max(numbers)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
