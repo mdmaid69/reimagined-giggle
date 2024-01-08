@@ -1,6 +1,6 @@
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
 import array
-def reverse_array(array):
-        array.reverse()
-import platform
-def get_os_info():
-        return platform.uname()
+def get_array_slice(array, i, j):
+        return array[i:j]
