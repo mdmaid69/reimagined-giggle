@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def append_to_array(array, item):
+        array.append(item)
