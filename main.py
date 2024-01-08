@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
