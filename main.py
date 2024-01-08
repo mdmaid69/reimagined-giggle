@@ -1,8 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
