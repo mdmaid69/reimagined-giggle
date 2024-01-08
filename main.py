@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-for i in range(5):
-        print(i)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import random
+def roll_die():
+        return random.randint(1, 6)
