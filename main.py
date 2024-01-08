@@ -1,7 +1,7 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
