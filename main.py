@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
