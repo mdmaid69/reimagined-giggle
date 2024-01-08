@@ -1,5 +1,4 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
