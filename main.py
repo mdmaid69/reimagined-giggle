@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
+import sys
+print(sys.version)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
