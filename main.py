@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
