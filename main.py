@@ -1,5 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
