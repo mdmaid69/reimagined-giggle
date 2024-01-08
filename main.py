@@ -1,5 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import time
-def get_current_time():
-        return time.ctime()
+for i in range(10): print(i)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
