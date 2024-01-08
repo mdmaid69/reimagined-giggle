@@ -1,6 +1,6 @@
+import array
+def get_array_as_list(array):
+        return list(array)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_ceiling(x):
+        return math.ceil(x)
