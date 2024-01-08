@@ -1,6 +1,6 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
