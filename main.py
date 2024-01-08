@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import json
-print(json.dumps({"name": "John", "age": 30}))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import sys
+  def get_python_version():
+        return sys.version
