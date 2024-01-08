@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_area_circle(r):
-        return 3.14 * r**2
+print(sum(range(10)))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
