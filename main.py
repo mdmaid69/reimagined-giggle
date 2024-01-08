@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+from collections import Counter
+print(Counter("hello world"))
+def calculate_acceleration(speed, time):
+        return speed / time
