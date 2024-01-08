@@ -1,5 +1,6 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  def convert_to_hex(n):
-        return hex(n)
+def get_string_from_array(array):
+        return array.tobytes()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
