@@ -1,6 +1,5 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
