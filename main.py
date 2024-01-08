@@ -1,7 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
