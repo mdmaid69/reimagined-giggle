@@ -1,8 +1,6 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
