@@ -1,3 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-print([x**2 for x in range(10)])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import sys
+def exit_program():
+        sys.exit()
