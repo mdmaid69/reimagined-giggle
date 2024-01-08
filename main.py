@@ -1,6 +1,8 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
