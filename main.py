@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
