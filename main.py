@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_work(force, distance):
+        return force * distance
