@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def set_array_item(array, i, item):
+        array[i] = item
