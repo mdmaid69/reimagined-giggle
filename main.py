@@ -1,6 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def get_array_typecode(array):
+        return array.typecode
