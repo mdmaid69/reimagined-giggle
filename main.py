@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def get_array_as_repr(array):
+        return repr(array)
