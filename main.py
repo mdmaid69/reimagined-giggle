@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
