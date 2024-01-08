@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
