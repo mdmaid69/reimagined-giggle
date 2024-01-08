@@ -1,6 +1,6 @@
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def get_current_working_directory():
+        return os.getcwd()
