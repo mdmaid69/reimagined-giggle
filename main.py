@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
