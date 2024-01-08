@@ -1,13 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
