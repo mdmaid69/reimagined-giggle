@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-def sort_numbers(numbers):
-        return sorted(numbers)
+def cube_number(x):
+        return x**3
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
