@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_as_str(array):
+        return str(array)
+import sys
+def print_python_version():
+        return sys.version
