@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+from collections import Counter
+print(Counter("hello world"))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
