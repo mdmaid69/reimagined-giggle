@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import collections
-def create_counter():
-        return collections.Counter()
+  def subtract_numbers(x, y):
+        return x - y
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
