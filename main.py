@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import collections
+def create_user_dict():
+        return collections.UserDict()
