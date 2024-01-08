@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
