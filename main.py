@@ -1,6 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
