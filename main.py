@@ -1,5 +1,5 @@
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-for i in range(5):
-        print(i)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
