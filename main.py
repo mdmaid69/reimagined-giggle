@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import random
-print(random.randint(0, 100))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
