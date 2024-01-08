@@ -1,6 +1,9 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import collections
+def create_queue():
+        return collections.deque()
