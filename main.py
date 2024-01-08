@@ -1,10 +1,6 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
