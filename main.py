@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
