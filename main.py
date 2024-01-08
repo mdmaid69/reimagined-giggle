@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
