@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
