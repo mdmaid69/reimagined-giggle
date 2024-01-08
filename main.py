@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_item(array, i):
+        return array[i]
+  def sort_list(lst):
+        return sorted(lst)
