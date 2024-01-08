@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
