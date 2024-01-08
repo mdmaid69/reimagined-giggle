@@ -1,12 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
