@@ -1,5 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def count_characters(sentence):
+        return len(sentence)
+import tensorflow as tf
+print(tf.__version__)
