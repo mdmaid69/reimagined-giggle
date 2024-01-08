@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
