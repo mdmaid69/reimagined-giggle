@@ -1,5 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  def reverse_list(lst):
-        return lst[::-1]
+  def is_even(n):
+        return n % 2 == 0
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
