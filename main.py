@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_pressure(force, area):
-        return force / area
+import sys
+def print_python_version():
+        print(sys.version)
+def multiply_numbers(x, y):
+        return x * y
