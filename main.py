@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  def count_elements(lst):
+        return len(lst)
