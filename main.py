@@ -1,5 +1,5 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def greet(name):
+        print(f"Hello, {name}!")
