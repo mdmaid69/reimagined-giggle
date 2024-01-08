@@ -1,8 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
