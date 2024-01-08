@@ -1,4 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-print(sum(range(10)))
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
