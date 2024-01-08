@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
