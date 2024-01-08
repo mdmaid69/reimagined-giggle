@@ -1,6 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_pressure(force, area):
+        return force / area
+  def sort_list(lst):
+        return sorted(lst)
