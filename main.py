@@ -1,5 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def find_max(numbers):
-        return max(numbers)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
