@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_acceleration(speed, time):
+        return speed / time
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
