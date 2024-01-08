@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
