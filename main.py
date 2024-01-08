@@ -1,7 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
