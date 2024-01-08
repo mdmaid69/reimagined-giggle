@@ -1,6 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+for i in range(5):
+        print(i)
