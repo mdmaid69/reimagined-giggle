@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def add_numbers(a, b):
+        return a + b
