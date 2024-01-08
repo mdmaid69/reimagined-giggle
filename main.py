@@ -1,5 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
