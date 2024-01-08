@@ -1,7 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
