@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
