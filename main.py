@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def reverse_list(lst):
+        return lst[::-1]
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
