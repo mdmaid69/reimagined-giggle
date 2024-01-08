@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
