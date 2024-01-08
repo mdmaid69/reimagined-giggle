@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_length(array):
-        return len(array)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
