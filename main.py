@@ -1,4 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-name = "Python"
-print("Hello,", name)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
