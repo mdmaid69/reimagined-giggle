@@ -1,7 +1,3 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+for i in range(10): print(i)
