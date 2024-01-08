@@ -1,4 +1,5 @@
-import sys
-print(sys.version)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def divide_numbers(x, y):
+        return x / y
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
