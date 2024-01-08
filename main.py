@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def multiply_numbers(x, y):
+        return x * y
+import time
+def get_current_time():
+        return time.time()
