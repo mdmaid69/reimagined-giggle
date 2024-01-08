@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
