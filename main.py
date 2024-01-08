@@ -1,4 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
