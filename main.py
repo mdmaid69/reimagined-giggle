@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import tensorflow as tf
+print(tf.__version__)
