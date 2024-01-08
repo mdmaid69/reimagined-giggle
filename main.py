@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
