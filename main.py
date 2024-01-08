@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
