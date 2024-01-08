@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
