@@ -1,4 +1,6 @@
-import time
-print(time.time())
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
