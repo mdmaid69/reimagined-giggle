@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
