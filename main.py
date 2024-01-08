@@ -1,7 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+from collections import Counter
+print(Counter("hello world"))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
