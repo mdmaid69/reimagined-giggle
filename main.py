@@ -1,8 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
