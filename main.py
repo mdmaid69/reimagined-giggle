@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_acceleration(speed, time):
+        return speed / time
