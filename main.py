@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
