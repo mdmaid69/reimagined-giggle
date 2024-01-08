@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def reverse_string(s):
-        return s[::-1]
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def square_number(x):
+        return x**2
