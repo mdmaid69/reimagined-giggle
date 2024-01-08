@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def get_array_typecode(array):
+        return array.typecode
