@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
