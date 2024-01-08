@@ -1,5 +1,4 @@
-import random
-print(random.randint(0, 100))
-import collections
-def create_user_string():
-        return collections.UserString()
+  def is_even(n):
+        return n % 2 == 0
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
