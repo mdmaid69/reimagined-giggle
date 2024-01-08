@@ -1,7 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
