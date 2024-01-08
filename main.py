@@ -1,6 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def multiply_numbers(x, y):
+        return x * y
