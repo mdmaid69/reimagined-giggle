@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def reverse_array(array):
+        array.reverse()
+import collections
+def create_user_string():
+        return collections.UserString()
