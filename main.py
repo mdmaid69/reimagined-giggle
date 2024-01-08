@@ -1,8 +1,5 @@
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def get_array_as_frozenset(array):
+        return frozenset(array)
