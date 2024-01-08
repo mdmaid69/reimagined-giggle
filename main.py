@@ -1,5 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
