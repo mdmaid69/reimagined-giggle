@@ -1,6 +1,8 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
