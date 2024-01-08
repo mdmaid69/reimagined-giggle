@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import sys
-def print_python_version():
-        print(sys.version)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_pressure(force, area):
+        return force / area
