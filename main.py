@@ -1,6 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
