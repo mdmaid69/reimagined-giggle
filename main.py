@@ -1,5 +1,5 @@
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
