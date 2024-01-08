@@ -1,8 +1,5 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_str(array):
+        return str(array)
