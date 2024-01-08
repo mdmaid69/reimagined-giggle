@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import sys
+def exit_program():
+        sys.exit()
