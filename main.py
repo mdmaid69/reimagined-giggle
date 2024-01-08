@@ -1,7 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_speed(distance, time):
+        return distance / time
+import numpy as np
+print(np.array([1, 2, 3]))
