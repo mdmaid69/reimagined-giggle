@@ -1,6 +1,8 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def get_array_typecode(array):
+        return array.typecode
