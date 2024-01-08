@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-import collections
-def create_queue():
-        return collections.deque()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
