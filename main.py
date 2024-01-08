@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def get_string_from_array(array):
+        return array.tobytes()
