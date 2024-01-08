@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
