@@ -1,5 +1,5 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  def is_odd(n):
-        return n % 2 != 0
+  def split_path(path):
+        return os.path.split(path)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
