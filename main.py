@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
 import array
-def get_array_length(array):
-        return len(array)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
