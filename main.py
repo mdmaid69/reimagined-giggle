@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
