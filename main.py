@@ -1,6 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import sys
-  def get_python_version():
-        return sys.version
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
