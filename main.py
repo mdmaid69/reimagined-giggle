@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import getpass
-def get_username():
-        return getpass.getuser()
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
