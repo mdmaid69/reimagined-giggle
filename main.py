@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+for i in range(10): print(i)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
