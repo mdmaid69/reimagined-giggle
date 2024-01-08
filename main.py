@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
