@@ -1,6 +1,8 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import sys
+  def get_python_version():
+        return sys.version
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
