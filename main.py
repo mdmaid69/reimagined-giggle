@@ -1,4 +1,4 @@
-def cube_number(x):
-        return x**3
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+print("Hello, world!")
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
