@@ -1,5 +1,6 @@
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
