@@ -1,5 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
