@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def square_number(x):
+        return x**2
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
