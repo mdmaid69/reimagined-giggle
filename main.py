@@ -1,8 +1,6 @@
+import math
+def calculate_sine(x):
+        return math.sin(x)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
