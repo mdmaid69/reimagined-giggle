@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
