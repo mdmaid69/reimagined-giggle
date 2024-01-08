@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
