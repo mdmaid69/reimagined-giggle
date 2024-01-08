@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_floor(x):
+        return math.floor(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
