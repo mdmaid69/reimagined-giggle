@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import platform
+def get_python_version():
+        return platform.python_version()
