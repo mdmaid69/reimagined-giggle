@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def convert_to_octal(n):
+        return oct(n)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
