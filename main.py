@@ -1,5 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import sys
-print(sys.version)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import collections
+def create_user_list():
+        return collections.UserList()
