@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
