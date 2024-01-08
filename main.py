@@ -1,6 +1,11 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
