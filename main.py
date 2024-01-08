@@ -1,7 +1,6 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import collections
+def create_priority_queue():
+        return collections.deque()
