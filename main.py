@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
