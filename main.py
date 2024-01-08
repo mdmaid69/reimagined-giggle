@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
