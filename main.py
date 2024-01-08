@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
