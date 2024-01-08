@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def cube_number(x):
+        return x**3
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
