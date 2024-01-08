@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_area_rectangle(l, w):
+        return l * w
