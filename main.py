@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
