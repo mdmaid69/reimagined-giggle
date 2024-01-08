@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def reverse_list(lst):
+        return lst[::-1]
