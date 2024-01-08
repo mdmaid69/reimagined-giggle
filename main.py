@@ -1,8 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
