@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
