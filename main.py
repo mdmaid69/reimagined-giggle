@@ -1,6 +1,5 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def remove_duplicates(lst):
+        return list(set(lst))
