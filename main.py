@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
