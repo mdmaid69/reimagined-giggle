@@ -1,6 +1,5 @@
+def add_numbers(a, b):
+        return a + b
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
