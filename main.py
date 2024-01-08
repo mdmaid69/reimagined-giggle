@@ -1,5 +1,6 @@
+import array
+def get_array_itemsize(array):
+        return array.itemsize
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def find_max(numbers):
-        return max(numbers)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
