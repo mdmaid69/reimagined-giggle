@@ -1,8 +1,6 @@
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
