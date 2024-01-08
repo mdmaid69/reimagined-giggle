@@ -1,4 +1,6 @@
-print("Hello, world!")
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_typecode(array):
+        return array.typecode
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
