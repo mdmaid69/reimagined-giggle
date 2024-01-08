@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import platform
+def get_os_info():
+        return platform.uname()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
