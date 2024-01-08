@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
