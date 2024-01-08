@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
