@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
