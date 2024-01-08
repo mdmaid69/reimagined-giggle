@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
