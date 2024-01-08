@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+for i in range(5):
+        print(i)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
