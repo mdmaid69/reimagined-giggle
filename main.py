@@ -1,6 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
