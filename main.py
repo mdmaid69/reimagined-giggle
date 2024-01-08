@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
