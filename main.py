@@ -1,6 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def find_unique_words(sentence):
+        return set(sentence.split())
+  def count_elements(lst):
+        return len(lst)
