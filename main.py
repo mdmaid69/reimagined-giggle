@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
