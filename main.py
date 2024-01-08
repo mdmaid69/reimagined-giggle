@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
