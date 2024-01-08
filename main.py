@@ -1,7 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def count_words(sentence):
+        return len(sentence.split())
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
