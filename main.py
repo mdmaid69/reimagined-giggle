@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  def is_even(n):
-        return n % 2 == 0
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
