@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import os
+def get_current_working_directory():
+        return os.getcwd()
