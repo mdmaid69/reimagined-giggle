@@ -1,7 +1,5 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
