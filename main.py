@@ -1,6 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def divide_numbers(x, y):
+        return x / y
