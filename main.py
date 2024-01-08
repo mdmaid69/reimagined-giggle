@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
