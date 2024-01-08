@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+print(math.pi)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
