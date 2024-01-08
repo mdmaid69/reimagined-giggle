@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
