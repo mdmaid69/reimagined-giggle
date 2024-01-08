@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
