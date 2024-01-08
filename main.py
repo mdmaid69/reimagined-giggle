@@ -1,7 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
