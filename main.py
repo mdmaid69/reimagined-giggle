@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def is_palindrome(s):
+        return s == s[::-1]
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
