@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
