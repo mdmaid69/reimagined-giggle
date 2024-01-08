@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
