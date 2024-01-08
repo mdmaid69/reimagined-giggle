@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_work(force, distance):
+        return force * distance
