@@ -1,4 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def multiply_numbers(x, y):
+        return x * y
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
