@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
