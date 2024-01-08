@@ -1,5 +1,8 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
