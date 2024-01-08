@@ -1,6 +1,6 @@
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
 import array
-def reverse_array(array):
-        array.reverse()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
