@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_index(array, item):
+        return array.index(item)
