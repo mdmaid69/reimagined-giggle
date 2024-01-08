@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  def reverse_list(lst):
+        return lst[::-1]
