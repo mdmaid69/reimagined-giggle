@@ -1,5 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def find_min(numbers):
-        return min(numbers)
+def is_palindrome(s):
+        return s == s[::-1]
+import random
+print(random.randint(0, 100))
