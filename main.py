@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
