@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
