@@ -1,5 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
