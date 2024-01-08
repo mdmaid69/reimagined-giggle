@@ -1,5 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
