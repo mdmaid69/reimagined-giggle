@@ -1,7 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
