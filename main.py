@@ -1,6 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def is_palindrome(s):
+        return s == s[::-1]
+def cube_number(x):
+        return x**3
