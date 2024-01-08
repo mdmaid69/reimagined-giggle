@@ -1,5 +1,8 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
