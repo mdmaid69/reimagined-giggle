@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
