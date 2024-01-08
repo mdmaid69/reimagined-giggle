@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
