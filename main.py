@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
