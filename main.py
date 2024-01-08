@@ -1,7 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
