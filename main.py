@@ -1,7 +1,7 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def cube_number(x):
-        return x**3
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+i = 0
+while i < 5:
+        print(i)
+        i += 1
