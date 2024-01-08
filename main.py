@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
