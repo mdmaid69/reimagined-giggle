@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def clear_array(array):
+        array *= 0
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
