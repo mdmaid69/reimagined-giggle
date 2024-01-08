@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import sys
+def exit_program():
+        sys.exit()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
