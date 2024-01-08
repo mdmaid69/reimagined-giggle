@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def get_array_as_float(array):
+        return float(array[0])
