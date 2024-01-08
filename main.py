@@ -1,4 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
