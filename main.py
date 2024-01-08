@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def get_current_directory():
+        return os.getcwd()
