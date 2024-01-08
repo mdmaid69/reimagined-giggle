@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-x = 10
-y = 20
-print("Sum:", x + y)
+import sys
+def print_python_version():
+        return sys.version
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
