@@ -1,6 +1,6 @@
-def cube_number(x):
-        return x**3
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
