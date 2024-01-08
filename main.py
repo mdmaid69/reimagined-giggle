@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
