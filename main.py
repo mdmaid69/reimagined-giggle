@@ -1,11 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
