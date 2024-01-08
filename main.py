@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
