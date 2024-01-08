@@ -1,6 +1,6 @@
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
