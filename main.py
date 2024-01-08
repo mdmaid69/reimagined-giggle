@@ -1,7 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
