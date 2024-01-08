@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import sys
-def print_python_version():
-        return sys.version
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
