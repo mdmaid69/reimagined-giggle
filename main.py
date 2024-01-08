@@ -1,6 +1,8 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_floor(x):
+        return math.floor(x)
