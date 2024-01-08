@@ -1,6 +1,6 @@
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
