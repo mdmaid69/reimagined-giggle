@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
