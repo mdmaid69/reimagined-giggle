@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
