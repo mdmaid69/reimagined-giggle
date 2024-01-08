@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
