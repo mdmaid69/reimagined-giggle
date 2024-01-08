@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import collections
+def create_priority_queue():
+        return collections.deque()
