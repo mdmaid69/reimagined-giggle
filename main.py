@@ -1,5 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
