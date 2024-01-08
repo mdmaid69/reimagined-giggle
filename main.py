@@ -1,5 +1,5 @@
+import tensorflow as tf
+print(tf.__version__)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  def convert_to_hex(n):
-        return hex(n)
+def get_array_as_list(array):
+        return list(array)
