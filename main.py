@@ -1,6 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+print(sum(range(10)))
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
