@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
