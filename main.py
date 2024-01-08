@@ -1,8 +1,5 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
