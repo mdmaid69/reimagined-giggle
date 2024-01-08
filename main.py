@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import getpass
-def get_username():
-        return getpass.getuser()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
