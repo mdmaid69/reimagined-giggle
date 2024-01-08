@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import logging
-def log_message(message):
-        logging.info(message)
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_sine(x):
+        return math.sin(x)
