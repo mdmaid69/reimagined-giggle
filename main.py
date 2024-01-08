@@ -1,5 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import array
+def get_array_as_set(array):
+        return set(array)
