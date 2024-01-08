@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import collections
+def create_user_dict():
+        return collections.UserDict()
