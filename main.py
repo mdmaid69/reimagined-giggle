@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def divide_numbers(x, y):
+        return x / y
