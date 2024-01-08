@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_as_tuple(array):
+        return tuple(array)
