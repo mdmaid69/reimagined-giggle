@@ -1,6 +1,7 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
