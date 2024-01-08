@@ -1,8 +1,6 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
