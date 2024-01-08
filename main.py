@@ -1,7 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
