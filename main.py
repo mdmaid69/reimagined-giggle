@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def convert_to_octal(n):
+        return oct(n)
