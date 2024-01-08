@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
