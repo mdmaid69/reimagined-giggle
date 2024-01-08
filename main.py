@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def find_min(numbers):
+        return min(numbers)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
