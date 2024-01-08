@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import random
+print(random.randint(0, 100))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
