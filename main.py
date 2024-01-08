@@ -1,6 +1,7 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import random
+def roll_die():
+        return random.randint(1, 6)
