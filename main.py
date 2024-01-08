@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
