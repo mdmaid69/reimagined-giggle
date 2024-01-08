@@ -1,5 +1,6 @@
+import json
+def convert_to_json(data):
+        return json.dumps(data)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_error_function(x):
+        return math.erf(x)
