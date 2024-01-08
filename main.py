@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import time
-def get_current_time():
-        return time.time()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
