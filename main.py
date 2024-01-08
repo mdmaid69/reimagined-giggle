@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
