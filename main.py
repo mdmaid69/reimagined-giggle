@@ -1,3 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-print([x**2 for x in range(10)])
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def get_array_as_set(array):
+        return set(array)
