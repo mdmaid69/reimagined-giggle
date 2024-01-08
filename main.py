@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def find_min(numbers):
+        return min(numbers)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
