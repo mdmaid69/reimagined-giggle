@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
