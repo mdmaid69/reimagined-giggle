@@ -1,5 +1,7 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
