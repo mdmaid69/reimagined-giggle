@@ -1,6 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import datetime
+def get_current_date():
+        return datetime.date.today()
