@@ -1,3 +1,6 @@
-def cube_number(x):
-        return x**3
-print(sum(range(10)))
+def count_characters(sentence):
+        return len(sentence)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
