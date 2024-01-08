@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_density(mass, volume):
-        return mass / volume
+  def add_numbers(x, y):
+        return x + y
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
