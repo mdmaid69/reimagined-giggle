@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
