@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def find_min(numbers):
+        return min(numbers)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
