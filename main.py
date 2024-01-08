@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
