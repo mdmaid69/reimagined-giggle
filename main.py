@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
