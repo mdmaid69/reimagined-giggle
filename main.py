@@ -1,5 +1,6 @@
+import collections
+def create_user_list():
+        return collections.UserList()
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  def count_elements(lst):
-        return len(lst)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
