@@ -1,5 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
