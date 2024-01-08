@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import os
-print(os.getcwd())
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def find_max(numbers):
+        return max(numbers)
