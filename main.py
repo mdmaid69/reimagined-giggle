@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import platform
+def get_os_info():
+        return platform.uname()
