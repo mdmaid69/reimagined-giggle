@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  def square_number(x):
+        return x**2
