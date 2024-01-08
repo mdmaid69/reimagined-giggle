@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+print(math.pi)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
