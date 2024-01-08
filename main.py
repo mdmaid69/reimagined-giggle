@@ -1,6 +1,6 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def remove_from_array(array, item):
+        array.remove(item)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
