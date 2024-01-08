@@ -1,6 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def clear_array(array):
+        array *= 0
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
