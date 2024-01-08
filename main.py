@@ -1,6 +1,7 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
