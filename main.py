@@ -1,6 +1,6 @@
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def check_if_array_contains_item(array, item):
+        return item in array
