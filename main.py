@@ -1,7 +1,7 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
