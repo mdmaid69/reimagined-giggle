@@ -1,4 +1,5 @@
 import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def convert_to_binary(n):
-        return bin(n)
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_density(mass, volume):
+        return mass / volume
