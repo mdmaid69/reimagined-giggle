@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
