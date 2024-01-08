@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
