@@ -1,4 +1,8 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import re
-print(re.match("h.*o", "hello world"))
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
