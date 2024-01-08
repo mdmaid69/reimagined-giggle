@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def convert_to_binary(n):
+        return bin(n)
