@@ -1,7 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
