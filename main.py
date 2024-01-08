@@ -1,5 +1,8 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
