@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def cube_number(x):
+        return x**3
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
