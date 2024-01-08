@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_speed(distance, time):
-        return distance / time
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  def subtract_numbers(x, y):
+        return x - y
