@@ -1,5 +1,8 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
