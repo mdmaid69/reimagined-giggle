@@ -1,6 +1,8 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
