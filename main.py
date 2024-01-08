@@ -1,5 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def subtract_numbers(x, y):
+        return x - y
