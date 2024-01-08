@@ -1,5 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def find_min(lst):
-        return min(lst)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
