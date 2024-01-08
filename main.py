@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import array
+def get_array_as_set(array):
+        return set(array)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
