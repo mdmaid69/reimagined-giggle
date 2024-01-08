@@ -1,9 +1,4 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
