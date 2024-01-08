@@ -1,5 +1,6 @@
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def count_characters(sentence):
-        return len(sentence)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
