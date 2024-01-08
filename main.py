@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
