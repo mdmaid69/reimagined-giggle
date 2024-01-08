@@ -1,6 +1,6 @@
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
