@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def convert_to_binary(n):
+        return bin(n)
+import time
+def get_current_time():
+        return time.ctime()
