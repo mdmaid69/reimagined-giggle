@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+x = 10
+y = 20
+print("Sum:", x + y)
