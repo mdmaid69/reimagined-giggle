@@ -1,7 +1,9 @@
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_circle_area(radius):
+        return math.pi * radius**2
