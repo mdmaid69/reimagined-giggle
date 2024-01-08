@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
