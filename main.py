@@ -1,7 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
