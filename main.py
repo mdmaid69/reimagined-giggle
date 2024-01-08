@@ -1,4 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
