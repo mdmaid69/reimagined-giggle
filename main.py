@@ -1,7 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-  def convert_to_hex(n):
-        return hex(n)
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
