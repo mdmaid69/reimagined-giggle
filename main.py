@@ -1,8 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
