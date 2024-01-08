@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
