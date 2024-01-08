@@ -1,7 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
