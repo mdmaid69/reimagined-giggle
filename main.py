@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_acceleration(speed, time):
+        return speed / time
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
