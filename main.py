@@ -1,12 +1,6 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import collections
+def create_user_dict():
+        return collections.UserDict()
