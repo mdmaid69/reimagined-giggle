@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def is_even(n):
-        return n % 2 == 0
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
