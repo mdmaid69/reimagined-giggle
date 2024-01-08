@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import re
-print(re.match("h.*o", "hello world"))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
