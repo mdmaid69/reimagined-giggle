@@ -1,5 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import sys
-def print_python_version():
-        return sys.version
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  def is_even(n):
+        return n % 2 == 0
