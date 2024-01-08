@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
