@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
