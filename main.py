@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-def is_palindrome(s):
-        return s == s[::-1]
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
