@@ -1,5 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import sys
-print(sys.version)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
