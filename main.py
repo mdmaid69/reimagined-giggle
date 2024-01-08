@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_pressure(force, area):
-        return force / area
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import sys
+def print_python_version():
+        return sys.version
