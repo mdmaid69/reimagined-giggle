@@ -1,6 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def calculate_arc_sine(x):
+        return math.asin(x)
+import time
+def get_current_time():
+        return time.time()
