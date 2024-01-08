@@ -1,4 +1,9 @@
-  def square_number(x):
-        return x**2
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
