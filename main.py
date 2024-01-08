@@ -1,5 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
