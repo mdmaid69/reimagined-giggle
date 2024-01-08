@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
