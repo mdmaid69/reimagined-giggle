@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def sort_list(lst):
+        return sorted(lst)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
