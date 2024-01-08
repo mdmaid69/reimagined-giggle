@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
