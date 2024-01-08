@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def find_min(numbers):
-        return min(numbers)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
