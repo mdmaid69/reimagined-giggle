@@ -1,6 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def add_numbers(x, y):
+        return x + y
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
