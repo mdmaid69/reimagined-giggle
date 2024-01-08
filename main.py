@@ -1,6 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
