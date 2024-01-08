@@ -1,5 +1,3 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def is_even(n):
-        return n % 2 == 0
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+for i in range(10): print(i)
