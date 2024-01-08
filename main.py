@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def cube_number(x):
+        return x**3
