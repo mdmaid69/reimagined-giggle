@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def convert_to_binary(n):
+        return bin(n)
