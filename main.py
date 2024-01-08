@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import logging
+def log_message(message):
+        logging.info(message)
