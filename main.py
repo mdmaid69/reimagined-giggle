@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import time
-def get_time_since_epoch():
-        return time.time()
+import sys
+def print_python_version():
+        return sys.version
+def find_max(lst):
+        return max(lst)
