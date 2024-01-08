@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import json
+def convert_to_json(data):
+        return json.dumps(data)
