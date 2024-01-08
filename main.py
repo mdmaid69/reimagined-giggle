@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def convert_to_binary(n):
+        return bin(n)
