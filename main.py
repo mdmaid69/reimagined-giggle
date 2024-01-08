@@ -1,8 +1,4 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
