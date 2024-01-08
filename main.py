@@ -1,7 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_volume(length, width, height):
+        return length * width * height
