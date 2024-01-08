@@ -1,5 +1,7 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
