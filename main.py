@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import sys
+def print_python_version():
+        print(sys.version)
+x = 10
+y = 20
+print("Sum:", x + y)
