@@ -1,6 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def find_max(lst):
+        return max(lst)
