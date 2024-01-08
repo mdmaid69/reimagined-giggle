@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def find_max(numbers):
+        return max(numbers)
