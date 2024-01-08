@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_power(work, time):
-        return work / time
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def find_max(lst):
+        return max(lst)
