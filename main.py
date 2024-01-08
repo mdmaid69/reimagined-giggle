@@ -1,5 +1,4 @@
-for i in range(5):
-        print(i)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  def sort_list(lst):
+        return sorted(lst)
