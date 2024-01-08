@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_work(force, distance):
+        return force * distance
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
