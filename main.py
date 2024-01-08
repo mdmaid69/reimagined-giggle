@@ -1,6 +1,5 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
