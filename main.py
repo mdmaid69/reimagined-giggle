@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
