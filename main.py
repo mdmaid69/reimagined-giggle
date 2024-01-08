@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  def is_odd(n):
-        return n % 2 != 0
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
