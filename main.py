@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-name = "Python"
-print("Hello,", name)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
