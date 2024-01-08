@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import sys
+def print_python_version():
+        return sys.version
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
