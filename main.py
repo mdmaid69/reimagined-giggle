@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def find_unique_words(sentence):
-        return set(sentence.split())
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
