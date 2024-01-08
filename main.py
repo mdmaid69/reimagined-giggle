@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
