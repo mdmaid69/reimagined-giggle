@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
