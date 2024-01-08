@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_index(array, item):
+        return array.index(item)
