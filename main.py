@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def greet(name):
+        print(f"Hello, {name}!")
+import os
+print(os.getcwd())
