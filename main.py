@@ -1,5 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
