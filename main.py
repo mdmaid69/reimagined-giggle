@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_speed(distance, time):
+        return distance / time
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
