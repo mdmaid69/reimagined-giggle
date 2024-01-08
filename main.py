@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
