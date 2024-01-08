@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import numpy as np
-print(np.array([1, 2, 3]))
+def divide_numbers(x, y):
+        return x / y
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
