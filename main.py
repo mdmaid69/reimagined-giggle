@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
