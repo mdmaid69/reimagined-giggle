@@ -1,5 +1,7 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  def multiply_numbers(x, y):
-        return x * y
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
