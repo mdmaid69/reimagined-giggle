@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
