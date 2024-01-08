@@ -1,5 +1,7 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
