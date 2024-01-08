@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
