@@ -1,8 +1,8 @@
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import array
-def get_array_from_string(string, typecode):
+def get_array_from_file(filename, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
         return a
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
