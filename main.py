@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import os
-print(os.getcwd())
+def change_working_directory(path):
+        os.chdir(path)
