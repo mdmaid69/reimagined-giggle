@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
