@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_as_repr(array):
+        return repr(array)
