@@ -1,6 +1,5 @@
+  def convert_to_binary(n):
+        return bin(n)
 import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
