@@ -1,7 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import platform
-def get_python_version():
-        return platform.python_version()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def find_max(lst):
+        return max(lst)
