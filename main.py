@@ -1,4 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
