@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
