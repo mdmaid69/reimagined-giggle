@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
