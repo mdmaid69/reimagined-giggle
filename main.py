@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
