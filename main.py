@@ -1,5 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
