@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
+def count_characters(sentence):
+        return len(sentence)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
