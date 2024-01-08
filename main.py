@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def remove_duplicates(lst):
+        return list(set(lst))
