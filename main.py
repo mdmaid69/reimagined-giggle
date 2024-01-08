@@ -1,6 +1,4 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+for i in range(10): print(i)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_list_from_array(array):
+        return array.tolist()
