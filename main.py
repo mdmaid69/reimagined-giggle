@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import time
+def get_current_time():
+        return time.time()
+import collections
+def create_user_list():
+        return collections.UserList()
