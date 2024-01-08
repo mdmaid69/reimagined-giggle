@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
