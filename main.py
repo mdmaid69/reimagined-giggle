@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
