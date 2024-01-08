@@ -1,6 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
