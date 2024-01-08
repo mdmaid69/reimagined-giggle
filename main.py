@@ -1,6 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_speed(distance, time):
+        return distance / time
