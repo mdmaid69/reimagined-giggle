@@ -1,6 +1,6 @@
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
