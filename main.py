@@ -1,10 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def convert_to_binary(n):
+        return bin(n)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
