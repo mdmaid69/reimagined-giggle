@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
