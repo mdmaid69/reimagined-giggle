@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  def multiply_numbers(x, y):
-        return x * y
+def subtract_numbers(x, y):
+        return x - y
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
