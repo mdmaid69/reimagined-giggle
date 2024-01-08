@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
