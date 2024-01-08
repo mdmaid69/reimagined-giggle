@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def count_elements(lst):
+        return len(lst)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
