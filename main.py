@@ -1,6 +1,6 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def remove_from_array(array, item):
+        array.remove(item)
