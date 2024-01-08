@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
