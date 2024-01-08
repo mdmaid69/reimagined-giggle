@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
+text = "Hello, world!"
+print("Characters:", len(text))
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
