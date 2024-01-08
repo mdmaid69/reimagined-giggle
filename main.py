@@ -1,6 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_volume(length, width, height):
+        return length * width * height
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
