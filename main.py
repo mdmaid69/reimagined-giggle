@@ -1,6 +1,5 @@
+from collections import Counter
+print(Counter("hello world"))
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
