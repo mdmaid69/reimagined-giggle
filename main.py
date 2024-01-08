@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import random
-print(random.randint(0, 100))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+text = "Hello, world!"
+print("Characters:", len(text))
