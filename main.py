@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def add_numbers(a, b):
+        return a + b
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
