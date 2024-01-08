@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import collections
+def create_queue():
+        return collections.deque()
+  def is_odd(n):
+        return n % 2 != 0
