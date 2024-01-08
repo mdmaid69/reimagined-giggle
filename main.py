@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
