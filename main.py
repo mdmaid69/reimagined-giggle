@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
