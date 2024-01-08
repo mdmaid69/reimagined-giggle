@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
