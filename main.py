@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_density(mass, volume):
-        return mass / volume
+import sys
+print(sys.version)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
