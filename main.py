@@ -1,5 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def reverse_string(s):
-        return s[::-1]
+import numpy as np
+print(np.array([1, 2, 3]))
+def reverse_list(lst):
+        return lst[::-1]
