@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def is_palindrome(s):
+        return s == s[::-1]
