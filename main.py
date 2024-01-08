@@ -1,6 +1,7 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
