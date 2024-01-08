@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def convert_to_octal(n):
+        return oct(n)
+import datetime
+def get_current_date():
+        return datetime.date.today()
