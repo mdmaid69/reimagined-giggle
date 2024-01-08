@@ -1,8 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
