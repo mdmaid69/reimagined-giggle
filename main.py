@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
