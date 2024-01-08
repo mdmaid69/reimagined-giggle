@@ -1,5 +1,7 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
