@@ -1,6 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import sys
-def exit_program():
-        sys.exit()
+def calculate_work(force, distance):
+        return force * distance
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
