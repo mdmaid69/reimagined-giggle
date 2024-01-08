@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def extend_array(array, iterable):
+        array.extend(iterable)
