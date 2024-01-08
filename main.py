@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
