@@ -1,6 +1,7 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
