@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
