@@ -1,5 +1,6 @@
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-for i in range(5):
-        print(i)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
