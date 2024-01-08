@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
