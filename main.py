@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import collections
-def create_user_string():
-        return collections.UserString()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
