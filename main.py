@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
