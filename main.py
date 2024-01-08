@@ -1,6 +1,7 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
