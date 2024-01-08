@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+from collections import Counter
+print(Counter("hello world"))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
