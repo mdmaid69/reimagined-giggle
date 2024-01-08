@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
