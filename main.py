@@ -1,8 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
