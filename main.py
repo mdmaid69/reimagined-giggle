@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
