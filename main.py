@@ -1,5 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_as_list(array):
-        return list(array)
+  def subtract_numbers(x, y):
+        return x - y
+  def cube_number(x):
+        return x**3
