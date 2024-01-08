@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
