@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
