@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
