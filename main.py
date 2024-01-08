@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def find_max(lst):
-        return max(lst)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  def convert_to_binary(n):
+        return bin(n)
