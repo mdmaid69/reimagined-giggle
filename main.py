@@ -1,6 +1,4 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
