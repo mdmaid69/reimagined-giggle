@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
