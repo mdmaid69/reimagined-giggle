@@ -1,9 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
