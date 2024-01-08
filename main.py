@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def find_max(numbers):
+        return max(numbers)
