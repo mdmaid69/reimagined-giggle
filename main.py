@@ -1,6 +1,6 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
