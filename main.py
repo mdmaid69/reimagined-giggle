@@ -1,5 +1,6 @@
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def find_max(lst):
-        return max(lst)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
