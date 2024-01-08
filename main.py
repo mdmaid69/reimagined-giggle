@@ -1,5 +1,7 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
