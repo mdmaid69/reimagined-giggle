@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_area_rectangle(l, w):
+        return l * w
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
