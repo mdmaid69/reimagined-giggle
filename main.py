@@ -1,5 +1,6 @@
   import os
-  def get_file_size_in_bytes(file_name):
+  def get_file_size(file_name):
         return os.stat(file_name).st_size
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
