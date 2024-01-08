@@ -1,5 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-  def convert_to_binary(n):
-        return bin(n)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
