@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def find_max(numbers):
+        return max(numbers)
