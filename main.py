@@ -1,4 +1,12 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def convert_to_octal(n):
-        return oct(n)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
