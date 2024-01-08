@@ -1,5 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_pressure(force, area):
-        return force / area
+name = "Python"
+print("Hello,", name)
+def calculate_volume(length, width, height):
+        return length * width * height
