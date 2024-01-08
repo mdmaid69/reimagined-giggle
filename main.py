@@ -1,5 +1,7 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import os
+def change_working_directory(path):
+        os.chdir(path)
