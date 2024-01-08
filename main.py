@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+for i in range(10): print(i)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
