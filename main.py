@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
