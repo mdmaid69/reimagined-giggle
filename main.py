@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
