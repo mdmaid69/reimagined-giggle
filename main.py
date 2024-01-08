@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
