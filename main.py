@@ -1,12 +1,4 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
