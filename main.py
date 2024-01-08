@@ -1,7 +1,3 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+print(sum(range(10)))
+def convert_to_hex(n):
+        return hex(n)
