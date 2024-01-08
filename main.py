@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
