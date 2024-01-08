@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
