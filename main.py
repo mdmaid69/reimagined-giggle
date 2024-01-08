@@ -1,5 +1,6 @@
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def get_array_item_count(array, item):
+        return array.count(item)
