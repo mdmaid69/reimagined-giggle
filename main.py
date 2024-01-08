@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
