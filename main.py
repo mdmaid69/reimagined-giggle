@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
