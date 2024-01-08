@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
