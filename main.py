@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+text = "Hello, world!"
+print("Characters:", len(text))
