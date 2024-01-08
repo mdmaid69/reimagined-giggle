@@ -1,5 +1,8 @@
-  def subtract_numbers(x, y):
-        return x - y
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
