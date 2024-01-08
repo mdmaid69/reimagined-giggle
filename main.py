@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def is_odd(n):
-        return n % 2 != 0
+import sys
+print(sys.version)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
