@@ -1,7 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def get_array_as_set(array):
+        return set(array)
