@@ -1,6 +1,6 @@
+import math
+def calculate_error_function(x):
+        return math.erf(x)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def get_array_as_bytes(array):
+        return bytes(array)
