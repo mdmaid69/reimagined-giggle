@@ -1,6 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
