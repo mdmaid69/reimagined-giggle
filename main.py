@@ -1,5 +1,6 @@
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_acceleration(speed, time):
-        return speed / time
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
