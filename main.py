@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
