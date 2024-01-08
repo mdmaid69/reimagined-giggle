@@ -1,5 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import time
-print(time.time())
+x = 10
+y = 20
+print("Sum:", x + y)
+for i in range(5):
+        print(i)
