@@ -1,4 +1,7 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-for i in range(5):
-        print(i)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
