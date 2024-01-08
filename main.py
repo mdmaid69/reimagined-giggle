@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+i = 0
+while i < 5:
+        print(i)
+        i += 1
