@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import platform
-def get_os_info():
-        return platform.uname()
+def is_even(n):
+        return n % 2 == 0
+import time
+def get_current_time():
+        return time.ctime()
