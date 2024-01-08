@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import re
+print(re.match("h.*o", "hello world"))
+  def convert_to_binary(n):
+        return bin(n)
