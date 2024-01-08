@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
