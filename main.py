@@ -1,7 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+x = 10
+y = 20
+print("Sum:", x + y)
+  def multiply_numbers(x, y):
+        return x * y
