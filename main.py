@@ -1,6 +1,6 @@
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def create_counter():
+        return collections.Counter()
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
