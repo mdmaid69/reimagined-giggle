@@ -1,5 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
