@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-from collections import Counter
-print(Counter("hello world"))
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
