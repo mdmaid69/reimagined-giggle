@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_work(force, distance):
+        return force * distance
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
