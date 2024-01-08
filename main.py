@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
