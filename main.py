@@ -1,5 +1,8 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
