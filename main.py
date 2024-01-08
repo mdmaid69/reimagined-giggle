@@ -1,6 +1,5 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def get_array_as_float(array):
+        return float(array[0])
