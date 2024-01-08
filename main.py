@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def convert_to_hex(n):
+        return hex(n)
