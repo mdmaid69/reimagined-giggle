@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
 import collections
-def create_user_dict():
-        return collections.UserDict()
+def create_stack():
+        return collections.deque()
