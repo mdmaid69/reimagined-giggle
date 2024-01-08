@@ -1,6 +1,6 @@
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
