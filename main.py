@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def get_array_as_float(array):
+        return float(array[0])
