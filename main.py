@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
