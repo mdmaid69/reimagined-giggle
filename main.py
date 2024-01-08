@@ -1,6 +1,7 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
