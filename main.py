@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
