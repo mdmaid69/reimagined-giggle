@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def clear_array(array):
-        array *= 0
+import sys
+def print_python_version():
+        return sys.version
+def divide_numbers(x, y):
+        return x / y
