@@ -1,6 +1,9 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
