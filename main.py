@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
