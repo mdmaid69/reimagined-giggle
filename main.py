@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
