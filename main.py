@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
