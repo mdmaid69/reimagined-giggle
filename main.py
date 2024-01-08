@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def convert_to_octal(n):
-        return oct(n)
+def square_number(x):
+        return x**2
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
