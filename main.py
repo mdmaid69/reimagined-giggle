@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import sys
-def exit_program():
-        sys.exit()
+text = "Hello, world!"
+print("Characters:", len(text))
+import collections
+def create_priority_queue():
+        return collections.deque()
