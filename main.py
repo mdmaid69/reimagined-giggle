@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def reverse_array(array):
+        array.reverse()
