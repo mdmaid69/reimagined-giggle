@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import sys
-print(sys.version)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
