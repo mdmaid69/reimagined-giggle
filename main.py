@@ -1,6 +1,4 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-x = 10
-y = 20
-print("Sum:", x + y)
+def greet(name):
+        print(f"Hello, {name}!")
+def convert_to_octal(n):
+        return oct(n)
