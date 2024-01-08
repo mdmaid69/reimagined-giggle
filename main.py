@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
