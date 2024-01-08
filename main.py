@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def greet(name):
+        print(f"Hello, {name}!")
