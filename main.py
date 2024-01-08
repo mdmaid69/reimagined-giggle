@@ -1,5 +1,6 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_cosine(x):
+        return math.cos(x)
