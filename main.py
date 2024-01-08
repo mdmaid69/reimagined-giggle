@@ -1,6 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def remove_duplicates(lst):
+        return list(set(lst))
