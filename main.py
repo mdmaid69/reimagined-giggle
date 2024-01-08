@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
