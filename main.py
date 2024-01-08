@@ -1,6 +1,7 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def subtract_numbers(x, y):
+        return x - y
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
