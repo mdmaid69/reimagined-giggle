@@ -2,5 +2,5 @@
   def get_file_blksize(file_name):
         return os.stat(file_name).st_blksize
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
