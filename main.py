@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
