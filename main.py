@@ -1,6 +1,5 @@
+def find_max(lst):
+        return max(lst)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
