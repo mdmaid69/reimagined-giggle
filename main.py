@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_work(force, distance):
-        return force * distance
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
