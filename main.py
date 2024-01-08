@@ -1,5 +1,6 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_density(mass, volume):
-        return mass / volume
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
