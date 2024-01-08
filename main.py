@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import os
+print(os.getcwd())
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
