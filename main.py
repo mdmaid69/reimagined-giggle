@@ -1,6 +1,8 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
