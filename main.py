@@ -1,7 +1,7 @@
-def convert_to_hex(n):
-        return hex(n)
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
