@@ -1,6 +1,7 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import time
+def get_time_since_epoch():
+        return time.time()
