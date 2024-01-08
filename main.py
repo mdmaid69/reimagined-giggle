@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
