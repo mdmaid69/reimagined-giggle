@@ -1,6 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  def count_elements(lst):
-        return len(lst)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def reverse_list(lst):
+        return lst[::-1]
