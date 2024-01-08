@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
