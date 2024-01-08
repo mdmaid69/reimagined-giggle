@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def count_elements(lst):
-        return len(lst)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
