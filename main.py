@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  def sort_list(lst):
-        return sorted(lst)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import tensorflow as tf
+print(tf.__version__)
