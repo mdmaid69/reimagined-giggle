@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
