@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
