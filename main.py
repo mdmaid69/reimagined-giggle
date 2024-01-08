@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
