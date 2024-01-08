@@ -1,6 +1,6 @@
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def get_array_index(array, item):
+        return array.index(item)
