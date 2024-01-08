@@ -1,6 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
