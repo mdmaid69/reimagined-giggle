@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
