@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
