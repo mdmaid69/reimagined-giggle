@@ -1,8 +1,4 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_area(radius):
+        return 3.14 * radius * radius
