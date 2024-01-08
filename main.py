@@ -1,5 +1,5 @@
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  def subtract_numbers(x, y):
-        return x - y
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
