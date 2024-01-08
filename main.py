@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
