@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
