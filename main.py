@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_error_function(x):
+        return math.erf(x)
