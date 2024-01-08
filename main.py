@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
