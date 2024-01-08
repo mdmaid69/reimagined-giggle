@@ -1,6 +1,5 @@
+def calculate_power(work, time):
+        return work / time
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
