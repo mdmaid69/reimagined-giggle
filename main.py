@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def multiply_numbers(x, y):
+        return x * y
