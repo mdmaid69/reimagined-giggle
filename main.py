@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
