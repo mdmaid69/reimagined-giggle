@@ -1,7 +1,5 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
