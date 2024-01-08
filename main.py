@@ -1,6 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
