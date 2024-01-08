@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-def count_characters(sentence):
-        return len(sentence)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
