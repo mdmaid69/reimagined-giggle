@@ -1,6 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
