@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_power(work, time):
-        return work / time
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
