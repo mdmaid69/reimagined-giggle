@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
