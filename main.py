@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import time
+def get_time_since_epoch():
+        return time.time()
