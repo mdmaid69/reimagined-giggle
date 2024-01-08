@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def add_numbers(x, y):
+        return x + y
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
