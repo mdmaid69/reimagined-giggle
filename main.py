@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
