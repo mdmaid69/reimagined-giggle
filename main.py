@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
