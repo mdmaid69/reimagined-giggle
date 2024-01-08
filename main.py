@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
