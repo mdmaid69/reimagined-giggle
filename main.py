@@ -1,5 +1,7 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import time
-print(time.time())
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
