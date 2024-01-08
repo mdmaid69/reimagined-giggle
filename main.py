@@ -1,8 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
