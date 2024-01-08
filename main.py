@@ -1,8 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
