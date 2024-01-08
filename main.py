@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
