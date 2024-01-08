@@ -1,7 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def sort_numbers(numbers):
-        return sorted(numbers)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
