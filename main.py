@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
