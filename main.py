@@ -1,5 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
