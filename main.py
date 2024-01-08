@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def get_array_typecode(array):
-        return array.typecode
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
