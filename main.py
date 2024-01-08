@@ -1,6 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def multiply_numbers(x, y):
+        return x * y
+import time
+def get_current_time():
+        return time.ctime()
