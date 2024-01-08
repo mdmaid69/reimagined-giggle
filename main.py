@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
