@@ -1,5 +1,6 @@
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def square_number(x):
-        return x**2
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
