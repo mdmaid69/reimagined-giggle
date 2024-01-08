@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def convert_to_octal(n):
-        return oct(n)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
