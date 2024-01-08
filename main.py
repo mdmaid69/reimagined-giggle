@@ -1,5 +1,8 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  def sort_list(lst):
-        return sorted(lst)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
