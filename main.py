@@ -1,4 +1,7 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
