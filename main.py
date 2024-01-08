@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def get_array_as_set(array):
+        return set(array)
