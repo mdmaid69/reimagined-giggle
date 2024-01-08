@@ -1,7 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import time
+print(time.time())
+def calculate_power(work, time):
+        return work / time
