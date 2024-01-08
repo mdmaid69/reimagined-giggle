@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
