@@ -1,6 +1,9 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
