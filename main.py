@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
