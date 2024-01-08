@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
