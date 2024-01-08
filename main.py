@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def sort_list(lst):
-        return sorted(lst)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+for i in range(5):
+        print(i)
