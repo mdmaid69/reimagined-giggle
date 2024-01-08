@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import platform
+def get_os_info():
+        return platform.uname()
