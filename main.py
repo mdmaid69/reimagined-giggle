@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def add_numbers(a, b):
-        return a + b
+  def cube_number(x):
+        return x**3
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
