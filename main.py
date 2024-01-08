@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
