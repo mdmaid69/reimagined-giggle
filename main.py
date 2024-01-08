@@ -1,5 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def count_words(sentence):
+        return len(sentence.split())
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
