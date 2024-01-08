@@ -1,8 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def is_even(n):
+        return n % 2 == 0
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
