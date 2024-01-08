@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
