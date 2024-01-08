@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+i = 0
+while i < 5:
+        print(i)
+        i += 1
