@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
