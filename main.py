@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
