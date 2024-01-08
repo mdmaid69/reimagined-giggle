@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
