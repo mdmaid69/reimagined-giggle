@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def convert_to_binary(n):
-        return bin(n)
+import logging
+def log_message(message):
+        logging.info(message)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
