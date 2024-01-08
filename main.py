@@ -1,5 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def convert_to_binary(n):
-        return bin(n)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+for i in range(5):
+        print(i)
