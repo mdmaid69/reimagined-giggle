@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import sys
+def exit_program():
+        sys.exit()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
