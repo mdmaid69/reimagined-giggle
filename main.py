@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
