@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import collections
+def create_user_dict():
+        return collections.UserDict()
