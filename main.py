@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
