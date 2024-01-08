@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
