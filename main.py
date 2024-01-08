@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
