@@ -1,6 +1,5 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def is_odd(n):
+        return n % 2 != 0
