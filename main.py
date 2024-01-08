@@ -1,9 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def add_numbers(x, y):
+        return x + y
