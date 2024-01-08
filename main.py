@@ -1,5 +1,12 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_density(mass, volume):
-        return mass / volume
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
