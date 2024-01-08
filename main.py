@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import time
-def get_current_time():
-        return time.time()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import random
+def roll_die():
+        return random.randint(1, 6)
