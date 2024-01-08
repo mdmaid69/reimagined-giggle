@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
