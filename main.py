@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
