@@ -1,6 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
