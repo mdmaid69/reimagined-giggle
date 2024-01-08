@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_speed(distance, time):
+        return distance / time
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
