@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
