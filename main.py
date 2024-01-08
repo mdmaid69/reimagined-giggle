@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-text = "Hello, world!"
-print("Characters:", len(text))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_acceleration(speed, time):
+        return speed / time
