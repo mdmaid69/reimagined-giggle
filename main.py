@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
