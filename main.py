@@ -1,8 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import array
+def get_array_as_list(array):
+        return list(array)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
