@@ -1,5 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
