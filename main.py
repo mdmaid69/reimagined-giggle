@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
