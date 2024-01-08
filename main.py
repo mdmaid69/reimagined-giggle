@@ -1,6 +1,5 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def convert_to_hex(n):
+        return hex(n)
