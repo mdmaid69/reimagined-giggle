@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
