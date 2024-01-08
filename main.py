@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import sys
+def exit_program():
+        sys.exit()
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
