@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def is_odd(n):
+        return n % 2 != 0
+def subtract_numbers(x, y):
+        return x - y
