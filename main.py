@@ -1,5 +1,5 @@
+  def square_number(x):
+        return x**2
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_ceiling(x):
+        return math.ceil(x)
