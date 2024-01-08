@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_array_as_set(array):
-        return set(array)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+for i in range(10): print(i)
