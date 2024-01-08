@@ -1,6 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
