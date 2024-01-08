@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import array
+def get_array_length(array):
+        return len(array)
