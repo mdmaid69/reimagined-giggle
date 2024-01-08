@@ -1,6 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def convert_to_octal(n):
+        return oct(n)
+import json
+print(json.dumps({"name": "John", "age": 30}))
