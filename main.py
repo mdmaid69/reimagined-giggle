@@ -1,4 +1,3 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-print([x**2 for x in range(10)])
+print("Hello, world!")
+  def count_elements(lst):
+        return len(lst)
