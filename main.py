@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
