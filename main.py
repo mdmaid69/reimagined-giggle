@@ -1,6 +1,6 @@
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_error_function(x):
+        return math.erf(x)
