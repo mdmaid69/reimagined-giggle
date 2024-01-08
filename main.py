@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import array
+def reverse_array(array):
+        array.reverse()
