@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
