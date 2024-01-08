@@ -1,5 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_work(force, distance):
-        return force * distance
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+print([x**2 for x in range(10)])
