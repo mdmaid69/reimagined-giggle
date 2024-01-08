@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
