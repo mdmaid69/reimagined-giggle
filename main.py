@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def square_number(x):
-        return x**2
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
