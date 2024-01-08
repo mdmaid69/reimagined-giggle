@@ -1,6 +1,5 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
