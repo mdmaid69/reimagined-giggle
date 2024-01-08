@@ -1,5 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
