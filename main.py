@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import collections
+def create_user_dict():
+        return collections.UserDict()
