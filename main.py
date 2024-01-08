@@ -1,7 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
