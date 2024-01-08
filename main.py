@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
