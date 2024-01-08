@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
