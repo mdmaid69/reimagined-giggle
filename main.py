@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
