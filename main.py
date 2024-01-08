@@ -1,6 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
