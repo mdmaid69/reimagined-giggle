@@ -1,10 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import array
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
