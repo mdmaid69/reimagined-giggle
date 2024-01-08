@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def count_elements(lst):
-        return len(lst)
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
