@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
