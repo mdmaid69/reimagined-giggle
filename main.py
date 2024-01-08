@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
