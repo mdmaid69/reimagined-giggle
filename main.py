@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
