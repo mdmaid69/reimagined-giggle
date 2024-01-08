@@ -1,5 +1,10 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def cube_number(x):
-        return x**3
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
