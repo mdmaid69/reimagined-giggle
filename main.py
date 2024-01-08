@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import collections
-def create_counter():
-        return collections.Counter()
+import os
+print(os.getcwd())
+import sys
+print(sys.version)
