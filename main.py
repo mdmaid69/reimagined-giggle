@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+from collections import Counter
+print(Counter("hello world"))
