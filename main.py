@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
