@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
