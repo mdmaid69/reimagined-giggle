@@ -1,4 +1,7 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def convert_to_hex(n):
-        return hex(n)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
