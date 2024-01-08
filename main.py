@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
