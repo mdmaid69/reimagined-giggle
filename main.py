@@ -1,6 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
