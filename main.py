@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+for i in range(5):
+        print(i)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
