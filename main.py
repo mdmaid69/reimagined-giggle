@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
