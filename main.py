@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
