@@ -1,6 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+for i in range(10): print(i)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
