@@ -1,5 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def is_odd(n):
-        return n % 2 != 0
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
