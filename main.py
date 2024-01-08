@@ -1,8 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def remove_duplicates(lst):
+        return list(set(lst))
