@@ -1,9 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def remove_from_array(array, item):
+        array.remove(item)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
