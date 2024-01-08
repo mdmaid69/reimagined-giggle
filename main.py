@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def reverse_string(s):
+        return s[::-1]
+import array
+def get_array_itemsize(array):
+        return array.itemsize
