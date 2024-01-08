@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
