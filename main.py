@@ -1,4 +1,8 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-for i in range(5):
-        print(i)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
