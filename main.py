@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import time
-def get_time_since_epoch():
-        return time.time()
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
