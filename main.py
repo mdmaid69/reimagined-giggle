@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
