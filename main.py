@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
