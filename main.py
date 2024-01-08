@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def is_even(n):
+        return n % 2 == 0
