@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-def calculate_acceleration(speed, time):
-        return speed / time
+def add_numbers(x, y):
+        return x + y
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
