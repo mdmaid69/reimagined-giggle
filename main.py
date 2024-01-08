@@ -1,6 +1,7 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
