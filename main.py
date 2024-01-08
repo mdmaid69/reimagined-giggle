@@ -1,6 +1,6 @@
+import array
+def convert_array_to_list(array):
+        return array.tolist()
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
