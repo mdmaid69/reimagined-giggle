@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def cube_number(x):
+        return x**3
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
