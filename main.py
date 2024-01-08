@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
