@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def reverse_array(array):
+        array.reverse()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
