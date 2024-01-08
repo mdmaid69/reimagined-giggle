@@ -1,5 +1,10 @@
 import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def create_user_string():
+        return collections.UserString()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
