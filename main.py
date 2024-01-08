@@ -1,6 +1,8 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
