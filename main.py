@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
