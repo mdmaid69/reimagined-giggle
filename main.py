@@ -1,7 +1,7 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
