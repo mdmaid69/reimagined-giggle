@@ -1,4 +1,7 @@
-def is_even(n):
-        return n % 2 == 0
-for i in range(5):
-        print(i)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
