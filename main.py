@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def is_even(n):
+        return n % 2 == 0
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
