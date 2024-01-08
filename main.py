@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def reverse_list(lst):
+        return lst[::-1]
+  def subtract_numbers(x, y):
+        return x - y
