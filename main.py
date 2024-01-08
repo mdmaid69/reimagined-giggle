@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_exponential(x):
+        return math.exp(x)
