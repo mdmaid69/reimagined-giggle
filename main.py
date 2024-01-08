@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
