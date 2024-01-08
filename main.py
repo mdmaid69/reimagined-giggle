@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
