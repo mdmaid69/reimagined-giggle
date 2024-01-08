@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
