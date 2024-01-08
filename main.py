@@ -1,5 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
