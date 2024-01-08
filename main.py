@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import platform
+def get_python_version():
+        return platform.python_version()
