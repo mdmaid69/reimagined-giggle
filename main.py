@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import datetime
+print(datetime.datetime.now())
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
