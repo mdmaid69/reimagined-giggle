@@ -1,5 +1,8 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
