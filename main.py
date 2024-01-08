@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
