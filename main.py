@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def convert_to_octal(n):
+        return oct(n)
