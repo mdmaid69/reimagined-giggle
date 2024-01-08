@@ -1,6 +1,4 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
