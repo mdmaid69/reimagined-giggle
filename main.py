@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def get_array_item(array, i):
+        return array[i]
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
