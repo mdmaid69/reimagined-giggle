@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
