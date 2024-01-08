@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
