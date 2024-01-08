@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def cube_number(x):
-        return x**3
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
