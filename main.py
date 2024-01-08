@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
