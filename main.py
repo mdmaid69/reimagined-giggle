@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def count_elements(lst):
+        return len(lst)
