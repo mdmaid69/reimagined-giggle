@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
