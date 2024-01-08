@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
