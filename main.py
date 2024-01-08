@@ -1,8 +1,6 @@
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_exponential(x):
+        return math.exp(x)
