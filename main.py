@@ -1,6 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
