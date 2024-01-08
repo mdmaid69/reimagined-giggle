@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
