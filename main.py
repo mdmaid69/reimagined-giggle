@@ -1,5 +1,10 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
