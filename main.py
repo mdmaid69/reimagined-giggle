@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
