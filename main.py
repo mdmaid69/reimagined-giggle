@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+name = "Python"
+print("Hello,", name)
