@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+x = 10
+y = 20
+print("Sum:", x + y)
