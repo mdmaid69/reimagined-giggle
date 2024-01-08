@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+i = 0
+while i < 5:
+        print(i)
+        i += 1
