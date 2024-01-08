@@ -1,6 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
