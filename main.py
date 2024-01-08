@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
