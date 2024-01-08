@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
