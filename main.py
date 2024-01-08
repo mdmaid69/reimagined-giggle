@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import logging
+def log_message(message):
+        logging.info(message)
