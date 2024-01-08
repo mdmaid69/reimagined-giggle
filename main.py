@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
