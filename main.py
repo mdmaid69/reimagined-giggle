@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
