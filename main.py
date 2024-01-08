@@ -1,5 +1,5 @@
+  def sort_list(lst):
+        return sorted(lst)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
