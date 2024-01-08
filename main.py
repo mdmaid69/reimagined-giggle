@@ -1,5 +1,8 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def find_min(lst):
-        return min(lst)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
