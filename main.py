@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
