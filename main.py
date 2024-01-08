@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import array
-def reverse_array(array):
-        array.reverse()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import numpy as np
+print(np.array([1, 2, 3]))
