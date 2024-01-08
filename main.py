@@ -1,7 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def count_words(sentence):
+        return len(sentence.split())
