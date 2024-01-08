@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
