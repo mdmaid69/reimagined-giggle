@@ -1,5 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import tensorflow as tf
-print(tf.__version__)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
