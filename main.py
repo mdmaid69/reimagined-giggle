@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
