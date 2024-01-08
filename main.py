@@ -1,5 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import logging
+def log_message(message):
+        logging.info(message)
