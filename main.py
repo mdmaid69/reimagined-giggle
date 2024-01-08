@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_pressure(force, area):
+        return force / area
+import collections
+def create_priority_queue():
+        return collections.deque()
