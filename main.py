@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import collections
-def create_stack():
-        return collections.deque()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
