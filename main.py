@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
