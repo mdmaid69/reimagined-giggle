@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
