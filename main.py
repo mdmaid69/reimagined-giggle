@@ -1,6 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
