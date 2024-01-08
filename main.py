@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
