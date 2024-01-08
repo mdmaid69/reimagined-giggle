@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def count_characters(sentence):
-        return len(sentence)
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
