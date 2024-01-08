@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
