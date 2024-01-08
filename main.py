@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
