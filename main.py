@@ -1,9 +1,7 @@
-def convert_to_octal(n):
-        return oct(n)
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
