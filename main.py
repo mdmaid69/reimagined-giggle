@@ -1,7 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
