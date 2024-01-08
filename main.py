@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_density(mass, volume):
+        return mass / volume
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
