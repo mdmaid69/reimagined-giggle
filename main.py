@@ -1,5 +1,10 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
