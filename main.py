@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
