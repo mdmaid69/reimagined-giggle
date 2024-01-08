@@ -1,5 +1,8 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def count_words(sentence):
-        return len(sentence.split())
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
