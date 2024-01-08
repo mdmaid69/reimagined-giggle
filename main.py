@@ -1,4 +1,8 @@
-def find_max(lst):
-        return max(lst)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
