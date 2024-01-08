@@ -1,5 +1,7 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
