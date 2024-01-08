@@ -1,10 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
