@@ -1,6 +1,7 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_as_int(array):
+        return int(array[0])
