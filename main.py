@@ -1,5 +1,6 @@
+import collections
+def create_stack():
+        return collections.deque()
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
