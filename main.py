@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
