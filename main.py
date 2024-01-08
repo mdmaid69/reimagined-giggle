@@ -1,5 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def count_words(sentence):
+        return len(sentence.split())
