@@ -1,8 +1,8 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
