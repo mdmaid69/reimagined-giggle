@@ -1,4 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
