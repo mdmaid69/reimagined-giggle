@@ -1,6 +1,6 @@
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
