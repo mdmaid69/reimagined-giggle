@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import time
-def get_current_time():
-        return time.ctime()
+def square_number(x):
+        return x**2
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
