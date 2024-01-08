@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
