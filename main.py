@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import getpass
-def get_username():
-        return getpass.getuser()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def find_min(lst):
+        return min(lst)
