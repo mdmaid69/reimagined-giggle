@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
