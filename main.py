@@ -1,5 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def count_characters(sentence):
+        return len(sentence)
