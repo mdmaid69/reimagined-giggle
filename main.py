@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import time
-def get_current_time():
-        return time.ctime()
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
