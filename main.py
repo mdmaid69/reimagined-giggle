@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
