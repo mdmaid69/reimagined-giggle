@@ -1,7 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
