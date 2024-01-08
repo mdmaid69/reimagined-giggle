@@ -1,6 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+  def count_elements(lst):
+        return len(lst)
