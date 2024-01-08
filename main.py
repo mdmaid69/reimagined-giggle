@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
