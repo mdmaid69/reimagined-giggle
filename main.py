@@ -1,7 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def is_odd(n):
-        return n % 2 != 0
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
