@@ -1,5 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
