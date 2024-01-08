@@ -1,4 +1,5 @@
-for i in range(10): print(i)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
