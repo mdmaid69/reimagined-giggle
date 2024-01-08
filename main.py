@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
