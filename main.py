@@ -1,6 +1,4 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
