@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
