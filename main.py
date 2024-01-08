@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def clear_array(array):
+        array *= 0
