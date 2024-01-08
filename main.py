@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
