@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
