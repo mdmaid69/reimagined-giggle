@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  def multiply_numbers(x, y):
+        return x * y
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
