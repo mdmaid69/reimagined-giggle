@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_error_function(x):
+        return math.erf(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
