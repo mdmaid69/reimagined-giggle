@@ -1,6 +1,7 @@
-  import os
-  def get_current_directory():
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import os
+def get_current_working_directory():
         return os.getcwd()
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
