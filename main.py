@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
