@@ -1,9 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
