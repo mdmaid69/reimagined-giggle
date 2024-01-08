@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
