@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import platform
-def get_python_version():
-        return platform.python_version()
+def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
