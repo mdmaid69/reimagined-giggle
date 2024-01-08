@@ -1,5 +1,8 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
