@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
