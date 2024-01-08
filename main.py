@@ -1,6 +1,11 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import tensorflow as tf
+print(tf.__version__)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
