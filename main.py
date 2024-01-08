@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
