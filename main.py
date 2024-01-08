@@ -1,6 +1,5 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
