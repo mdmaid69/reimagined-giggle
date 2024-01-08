@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
