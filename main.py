@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
