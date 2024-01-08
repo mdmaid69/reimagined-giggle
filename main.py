@@ -1,7 +1,7 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import collections
+def create_priority_queue():
+        return collections.deque()
