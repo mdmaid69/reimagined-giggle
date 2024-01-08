@@ -1,6 +1,6 @@
+x = 10
+y = 20
+print("Sum:", x + y)
 import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def extend_array(array, iterable):
+        array.extend(iterable)
