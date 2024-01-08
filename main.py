@@ -1,6 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
