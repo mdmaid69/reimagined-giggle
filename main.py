@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  def convert_to_hex(n):
-        return hex(n)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
