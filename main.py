@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  def square_number(x):
+        return x**2
