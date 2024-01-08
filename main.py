@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
