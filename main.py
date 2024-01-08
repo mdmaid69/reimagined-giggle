@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def divide_numbers(x, y):
-        return x / y
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
