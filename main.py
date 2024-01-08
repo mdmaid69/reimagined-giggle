@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
