@@ -1,6 +1,5 @@
+def calculate_density(mass, volume):
+        return mass / volume
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
