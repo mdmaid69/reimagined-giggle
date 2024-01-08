@@ -1,5 +1,5 @@
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def cube_number(x):
+        return x**3
