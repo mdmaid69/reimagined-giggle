@@ -1,6 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  def calculate_area_rectangle(l, w):
+        return l * w
