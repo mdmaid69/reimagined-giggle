@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
