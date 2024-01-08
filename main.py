@@ -1,6 +1,7 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
