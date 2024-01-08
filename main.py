@@ -1,5 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  def is_even(n):
-        return n % 2 == 0
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import random
+def roll_die():
+        return random.randint(1, 6)
