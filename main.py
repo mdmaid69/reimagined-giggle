@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
