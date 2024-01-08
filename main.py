@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
