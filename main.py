@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_length(array):
+        return len(array)
+import sys
+def exit_program():
+        sys.exit()
