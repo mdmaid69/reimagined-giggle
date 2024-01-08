@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
