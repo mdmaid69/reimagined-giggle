@@ -1,5 +1,9 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import os
+print(os.getcwd())
