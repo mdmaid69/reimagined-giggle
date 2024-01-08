@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_work(force, distance):
+        return force * distance
