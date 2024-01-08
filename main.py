@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
