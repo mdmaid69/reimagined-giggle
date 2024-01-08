@@ -1,8 +1,4 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def remove_duplicates(lst):
+        return list(set(lst))
