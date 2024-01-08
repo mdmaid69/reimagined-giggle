@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_volume(length, width, height):
+        return length * width * height
+import random
+def roll_die():
+        return random.randint(1, 6)
