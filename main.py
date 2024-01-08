@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
