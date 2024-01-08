@@ -1,8 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
