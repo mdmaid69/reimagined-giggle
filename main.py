@@ -1,8 +1,7 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
