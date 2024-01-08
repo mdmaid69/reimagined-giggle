@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
