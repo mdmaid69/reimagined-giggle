@@ -1,6 +1,4 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def convert_to_hex(n):
+        return hex(n)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
