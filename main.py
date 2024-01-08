@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
