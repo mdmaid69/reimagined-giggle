@@ -1,5 +1,8 @@
-  def cube_number(x):
-        return x**3
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
