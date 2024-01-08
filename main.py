@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def get_array_length(array):
+        return len(array)
