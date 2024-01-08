@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
