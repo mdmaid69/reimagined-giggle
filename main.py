@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  def convert_to_octal(n):
-        return oct(n)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import logging
+def log_message(message):
+        logging.info(message)
