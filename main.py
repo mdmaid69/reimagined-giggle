@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
