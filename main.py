@@ -1,7 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  def convert_to_binary(n):
+        return bin(n)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
