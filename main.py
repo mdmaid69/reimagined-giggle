@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
