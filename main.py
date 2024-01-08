@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
