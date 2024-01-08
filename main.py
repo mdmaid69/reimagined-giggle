@@ -1,9 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import sys
+def print_python_version():
+        return sys.version
