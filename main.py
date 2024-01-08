@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
