@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
