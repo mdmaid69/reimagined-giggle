@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_power(work, time):
+        return work / time
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
