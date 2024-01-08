@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
