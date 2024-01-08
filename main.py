@@ -1,5 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  def convert_to_hex(n):
+        return hex(n)
+  def remove_duplicates(lst):
+        return list(set(lst))
