@@ -1,4 +1,4 @@
-print([x**2 for x in range(10)])
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import sys
+print(sys.version)
