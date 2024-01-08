@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
