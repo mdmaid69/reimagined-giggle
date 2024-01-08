@@ -1,6 +1,6 @@
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_floor(x):
+        return math.floor(x)
