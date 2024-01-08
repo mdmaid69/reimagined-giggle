@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_speed(distance, time):
+        return distance / time
