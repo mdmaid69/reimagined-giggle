@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
