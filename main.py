@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_as_str(array):
+        return str(array)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
