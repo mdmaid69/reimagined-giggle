@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def sort_list(lst):
+        return sorted(lst)
