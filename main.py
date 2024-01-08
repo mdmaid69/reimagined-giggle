@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
