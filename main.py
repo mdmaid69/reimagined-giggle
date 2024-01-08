@@ -1,5 +1,5 @@
 def calculate_acceleration(speed, time):
         return speed / time
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
