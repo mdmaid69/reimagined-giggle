@@ -1,6 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  def convert_to_hex(n):
-        return hex(n)
+  def is_even(n):
+        return n % 2 == 0
+def subtract_numbers(x, y):
+        return x - y
