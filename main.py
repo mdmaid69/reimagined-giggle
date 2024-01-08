@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
