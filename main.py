@@ -1,6 +1,6 @@
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
