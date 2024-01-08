@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  def remove_duplicates(lst):
+        return list(set(lst))
