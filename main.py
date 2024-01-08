@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
