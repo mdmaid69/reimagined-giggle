@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_density(mass, volume):
+        return mass / volume
