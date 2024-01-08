@@ -1,7 +1,7 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
   import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
         plt.show()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
