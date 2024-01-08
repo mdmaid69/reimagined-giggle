@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
