@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  def square_number(x):
-        return x**2
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
