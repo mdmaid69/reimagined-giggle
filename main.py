@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
