@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
