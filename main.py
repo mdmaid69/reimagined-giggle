@@ -1,5 +1,10 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
