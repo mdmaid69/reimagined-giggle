@@ -1,6 +1,8 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
