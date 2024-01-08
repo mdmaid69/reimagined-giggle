@@ -1,10 +1,6 @@
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def convert_array_to_list(array):
+        return array.tolist()
