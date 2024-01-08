@@ -1,6 +1,7 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import sys
+def print_python_version():
+        print(sys.version)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
