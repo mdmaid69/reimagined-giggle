@@ -1,5 +1,8 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
