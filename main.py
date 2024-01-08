@@ -1,5 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-name = "Python"
-print("Hello,", name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
