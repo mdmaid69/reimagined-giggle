@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def find_max(lst):
+        return max(lst)
+def sort_numbers(numbers):
+        return sorted(numbers)
