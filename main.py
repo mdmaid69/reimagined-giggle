@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-  def subtract_numbers(x, y):
-        return x - y
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
