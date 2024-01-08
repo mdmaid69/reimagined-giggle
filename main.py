@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
+import array
+def get_array_item(array, i):
+        return array[i]
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
