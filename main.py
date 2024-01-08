@@ -1,6 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import time
-def get_current_time():
-        return time.time()
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
