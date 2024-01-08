@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
