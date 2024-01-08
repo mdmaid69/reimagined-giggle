@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
