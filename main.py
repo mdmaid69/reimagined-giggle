@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+for i in range(10): print(i)
+import getpass
+def get_username():
+        return getpass.getuser()
