@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
