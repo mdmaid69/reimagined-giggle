@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
