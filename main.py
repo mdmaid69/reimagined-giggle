@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
