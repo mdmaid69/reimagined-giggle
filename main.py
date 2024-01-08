@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
