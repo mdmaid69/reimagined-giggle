@@ -1,5 +1,8 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def add_numbers(x, y):
-        return x + y
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
