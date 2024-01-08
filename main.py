@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def is_even(n):
+        return n % 2 == 0
+def convert_to_binary(n):
+        return bin(n)
