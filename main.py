@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import platform
-def get_python_version():
-        return platform.python_version()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
