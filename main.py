@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def is_odd(n):
+        return n % 2 != 0
