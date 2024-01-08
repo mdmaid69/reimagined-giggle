@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def convert_to_octal(n):
+        return oct(n)
