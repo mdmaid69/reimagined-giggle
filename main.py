@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
