@@ -1,5 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def convert_to_hex(n):
+        return hex(n)
