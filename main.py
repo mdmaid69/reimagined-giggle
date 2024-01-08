@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def reverse_list(lst):
+        return lst[::-1]
