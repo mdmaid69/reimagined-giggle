@@ -1,6 +1,5 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
