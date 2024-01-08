@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  def reverse_list(lst):
-        return lst[::-1]
+import sys
+print(sys.version)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
