@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
