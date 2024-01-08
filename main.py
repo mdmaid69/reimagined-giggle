@@ -1,6 +1,5 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  def delete_file(file_name):
+        os.remove(file_name)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
