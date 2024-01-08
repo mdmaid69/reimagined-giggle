@@ -1,5 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def is_palindrome(s):
+        return s == s[::-1]
