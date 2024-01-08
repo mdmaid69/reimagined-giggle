@@ -1,6 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
