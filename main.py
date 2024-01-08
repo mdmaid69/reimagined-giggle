@@ -1,6 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def convert_to_hex(n):
+        return hex(n)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
