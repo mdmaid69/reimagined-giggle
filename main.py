@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def convert_to_binary(n):
+        return bin(n)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
