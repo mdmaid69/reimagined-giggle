@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_force(mass, acceleration):
+        return mass * acceleration
