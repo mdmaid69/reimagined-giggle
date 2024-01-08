@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
