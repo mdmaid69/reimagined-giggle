@@ -1,7 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import sys
+def print_python_version():
+        print(sys.version)
