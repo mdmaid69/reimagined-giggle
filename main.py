@@ -1,8 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def get_array_buffer_info(array):
+        return array.buffer_info()
