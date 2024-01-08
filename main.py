@@ -1,5 +1,12 @@
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def iterate_over_array(array):
+        for item in array:
+        print(item)
