@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_floor(x):
+        return math.floor(x)
