@@ -1,6 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
