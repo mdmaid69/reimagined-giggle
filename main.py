@@ -1,5 +1,8 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  def convert_to_octal(n):
-        return oct(n)
+import collections
+def create_user_list():
+        return collections.UserList()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
