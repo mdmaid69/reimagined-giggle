@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
