@@ -1,5 +1,7 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def remove_duplicates(lst):
-        return list(set(lst))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def calculate_density(mass, volume):
+        return mass / volume
