@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
