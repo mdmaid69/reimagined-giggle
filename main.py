@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import sys
+def print_python_version():
+        return sys.version
+import time
+def get_current_time():
+        return time.ctime()
