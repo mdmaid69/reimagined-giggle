@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
