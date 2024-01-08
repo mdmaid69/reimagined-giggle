@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
