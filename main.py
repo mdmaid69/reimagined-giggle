@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
