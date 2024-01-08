@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
