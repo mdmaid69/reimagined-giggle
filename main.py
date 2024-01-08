@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import array
+def append_to_array(array, item):
+        array.append(item)
