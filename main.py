@@ -1,6 +1,9 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
