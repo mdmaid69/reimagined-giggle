@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
