@@ -1,6 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
