@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def count_characters(sentence):
+        return len(sentence)
