@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def find_max(numbers):
+        return max(numbers)
