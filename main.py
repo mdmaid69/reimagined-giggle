@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
