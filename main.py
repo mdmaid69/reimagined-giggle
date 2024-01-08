@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+x = 10
+y = 20
+print("Sum:", x + y)
