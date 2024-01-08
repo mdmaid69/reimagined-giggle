@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import array
+def append_to_array(array, item):
+        array.append(item)
