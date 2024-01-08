@@ -1,6 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+text = "Hello, world!"
+print("Words:", len(text.split()))
