@@ -1,6 +1,6 @@
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import sys
-  def get_python_version():
-        return sys.version
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
