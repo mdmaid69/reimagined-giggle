@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
