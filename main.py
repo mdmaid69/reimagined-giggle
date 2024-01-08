@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_pressure(force, area):
+        return force / area
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
