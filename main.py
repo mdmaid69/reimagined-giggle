@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def get_list_from_array(array):
+        return array.tolist()
