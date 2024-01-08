@@ -1,7 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-def find_max(lst):
-        return max(lst)
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
