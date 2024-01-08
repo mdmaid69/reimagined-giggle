@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
