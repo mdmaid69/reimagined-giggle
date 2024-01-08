@@ -1,5 +1,8 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import tensorflow as tf
-print(tf.__version__)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
