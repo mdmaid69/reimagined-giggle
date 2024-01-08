@@ -1,6 +1,7 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def add_numbers(a, b):
+        return a + b
