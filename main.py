@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def divide_numbers(x, y):
+        return x / y
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
