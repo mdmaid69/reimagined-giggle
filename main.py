@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
 import time
-def get_current_time():
-        return time.time()
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
