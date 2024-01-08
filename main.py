@@ -1,8 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
