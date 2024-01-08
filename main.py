@@ -1,7 +1,4 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-import array
-def get_array_as_set(array):
-        return set(array)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
