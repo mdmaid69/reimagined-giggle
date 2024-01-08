@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  def multiply_numbers(x, y):
-        return x * y
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
