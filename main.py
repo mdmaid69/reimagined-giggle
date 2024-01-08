@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_as_set(array):
+        return set(array)
