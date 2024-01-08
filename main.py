@@ -1,5 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
