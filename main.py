@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
