@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
