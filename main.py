@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
