@@ -1,5 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
