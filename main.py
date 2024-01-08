@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_speed(distance, time):
+        return distance / time
