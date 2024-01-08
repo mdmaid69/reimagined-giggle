@@ -1,5 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def cube_number(x):
+        return x**3
