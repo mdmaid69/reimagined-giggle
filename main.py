@@ -1,6 +1,5 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_ceiling(x):
+        return math.ceil(x)
+  def subtract_numbers(x, y):
+        return x - y
