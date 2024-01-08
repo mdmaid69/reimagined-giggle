@@ -1,6 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
