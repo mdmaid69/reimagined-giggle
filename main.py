@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
