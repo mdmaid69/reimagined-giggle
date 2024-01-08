@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_floor(x):
+        return math.floor(x)
