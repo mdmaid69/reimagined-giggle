@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
