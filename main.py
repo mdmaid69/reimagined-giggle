@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
