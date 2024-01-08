@@ -1,5 +1,5 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
