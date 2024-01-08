@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_sine(x):
+        return math.sin(x)
