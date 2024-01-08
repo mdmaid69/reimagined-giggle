@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
