@@ -1,6 +1,7 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
