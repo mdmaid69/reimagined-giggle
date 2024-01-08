@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
