@@ -1,7 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
