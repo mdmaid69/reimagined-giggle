@@ -1,6 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import collections
-def create_user_string():
-        return collections.UserString()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
