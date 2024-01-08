@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_pressure(force, area):
+        return force / area
