@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
