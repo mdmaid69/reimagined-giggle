@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  def cube_number(x):
+        return x**3
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
