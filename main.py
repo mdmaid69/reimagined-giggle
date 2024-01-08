@@ -1,7 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
