@@ -1,3 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-print([x**2 for x in range(10)])
+def count_elements(lst):
+        return len(lst)
+  import sys
+  def get_python_version():
+        return sys.version
