@@ -1,6 +1,11 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
