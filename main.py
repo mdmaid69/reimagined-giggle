@@ -1,8 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def find_unique_words(sentence):
+        return set(sentence.split())
