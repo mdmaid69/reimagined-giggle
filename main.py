@@ -1,5 +1,4 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def convert_to_octal(n):
+        return oct(n)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
